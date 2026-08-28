@@ -1,0 +1,21 @@
+# This repository is a safe catalog, not a raw mirror of E:\aimodel.
+# Ignore every top-level item unless it is explicitly allow-listed below.
+/*
+
+!/.gitignore
+!/README.md
+!/CHANGELOG.md
+!/GITHUB_REPOS.md
+!/GITHUB_STAR_LIST.md
+!/SKILLS_INDEX.md
+!/SKILLS_INSTALLED.md
+!/SKILLS_UNIFIED.md
+!/LIVE_STREAMING.md
+!/LIVE_PLAN_v1.md
+!/REPOSITORIES.md
+
+!/multi-search-engine/
+!/multi-search-engine/**
+
+!/zhihu-cli-skill/
+!/zhihu-cli-skill/**
