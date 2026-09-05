@@ -1,7 +1,7 @@
 # AI Skills 仓库索引
 
 **@author liuhao**
-**更新时间**: 2026-08-28
+**更新时间**: 2026-09-05
 
 ---
 
@@ -12,6 +12,39 @@
 - `open-design`、`pi`、`vue-tui` 等工具仓库只存放，不纳入正式 skill 主统计；本轮同步状态单独记录。
 - 这目录只做存放和索引，不在这里装依赖，也不写 C 盘全局配置。
 - `reverse-skill` 当前保留本地修改，已跳过更新。
+
+## 2026-09-05 知识检索、IaC 与中国专利补充
+
+| 仓库 | 来源 | HEAD | `SKILL.md` 数 | 状态与定位 |
+|------|------|------|----------------|------|
+| graphify | https://github.com/Graphify-Labs/graphify.git | `937e59a` | 1（上游文件名为小写 `graphify/skill.md`） | 已从浅克隆补齐完整历史并快进；关系图、调用路径、社区与架构分析，适合与全文/语义检索互补 |
+| zvec-grep | https://github.com/zvec-ai/zvec-grep.git | `5265395` | 0 | 已完整克隆；本地优先的 ripgrep、BM25 与向量混合检索 CLI/MCP，支持 Codex，但未安装或配置 |
+| terraform | https://github.com/hashicorp/terraform.git | `7b8c301` | 0 | 已完整克隆；Terraform Core 源码参考，不是 Agent Skill，不含 providers；BSL 1.1 |
+| patent-disclosure-skill | https://github.com/handsomestWei/patent-disclosure-skill.git | `a015690` | 7（1 个路由入口 + 6 个内部子技能） | 已完整克隆；中国专利交底、申请文件、检索、解读、OA 与政策简报，适合整仓按需安装，法律产出须人工复核 |
+
+本轮新增三个一级仓库，并将既有 `graphify` 补成完整历史后，`E:\aimodel` 当前共有 93 个带 `.git` 的一级目录。四个仓库均未安装依赖、模型、MCP、Terraform CLI 或全局 Codex skills。
+
+同日随后对 92 个可见一级仓库执行安全同步：43 个实际快进、47 个原本最新；`codetracer` 保留旧 `main` 后转到上游新默认 `stable`，`reverse-skill` 因本地修改跳过。完整版本号和例外状态见 [REPOSITORIES.md](REPOSITORIES.md)，维护方法见 [REPOSITORY_MANAGEMENT.md](REPOSITORY_MANAGEMENT.md)。
+
+## 2026-09-03 PDF 与 HTML artifact 补充
+
+| 仓库 | 来源 | HEAD | `SKILL.md` 数 | 状态与定位 |
+|------|------|------|----------------|------|
+| pdf-inspector | https://github.com/firecrawl/pdf-inspector.git | `65b7fa1` | 0 | 已浅克隆；Rust PDF 类型识别、原生文本转 Markdown 与逐页 OCR 路由工具，不作为 Skill 安装 |
+| effective-html | https://github.com/plannotator/effective-html.git | `d95debb` | 6 | 已浅克隆；自包含 HTML 报告、设计方向、线框、交互原型、计划和关系图 Skills，含 Codex 插件结构但未安装 |
+| andrej-karpathy-skills | https://github.com/multica-ai/andrej-karpathy-skills.git | `2c60614` | 1 | 既有克隆；与当前 Codex 行为规范高度重合，只保留参考 |
+| mattpocock-skills | https://github.com/mattpocock/skills.git | `6654f6b` | 37 | 既有干净克隆；工程/生产力工作流适合按单项选用，不全量安装 |
+
+本轮新增两个一级仓库后，`E:\aimodel` 当前共有 90 个带 `.git` 的一级目录。新增仓库只保存源码，没有安装依赖、OCR 运行时、全局 Skills 或 Codex 插件。
+
+## 2026-08-29 LoopX 与 ego-lite 补充
+
+| 仓库 | 来源 | HEAD | `SKILL.md` 数 | 状态与定位 |
+|------|------|------|----------------|------|
+| loopx | https://github.com/huangruiteng/loopx.git | `e227551` | 9（8 个正式 workflow skills + 1 个 demo worker skill） | 已浅克隆；长周期 Agent goal/todo/gate/evidence/quota 控制平面，不是浏览器或截图解析工具 |
+| ego-lite | https://github.com/citrolabs/ego-lite.git | `5ca3c36` | 1 | 已浅克隆；`ego-browser` 语义 Snapshot、浏览器操作与截图捕获 Skill；当前浏览器应用仅 macOS，本机 Windows 未安装 |
+
+两仓库均只保存源码和资料，没有安装依赖、全局 skills 或浏览器应用。浏览器控制、DOM/a11y Snapshot 与像素截图理解的能力边界见 [BROWSER_AUTOMATION_COMPARISON.md](BROWSER_AUTOMATION_COMPARISON.md)。一级第三方 Git 仓库当前为 84 个；下面的 2026-08-28 同步统计仍保留当日 82 个仓库的完整批次口径。
 
 ## 2026-08-28 一级仓库同步状态
 
@@ -69,7 +102,7 @@
 
 ## 一级目录台账
 
-### 已更新的 Git skill 仓库（33）
+### 已更新的 Git skill 仓库（35）
 
 | 仓库 | 来源 | HEAD | SKILL.md 数 | 状态 |
 |------|------|------|------------|------|
@@ -85,6 +118,7 @@
 | claude-scholar | https://github.com/Galaxy-Dawn/claude-scholar.git | `6ed46da` | 45 | 已浅克隆，工作树干净 |
 | claude-skill-refactoring-ui | https://github.com/opkod-france/claude-skill-refactoring-ui.git | `80994d9` | 1 | 已更新 |
 | claude-video | https://github.com/bradautomates/claude-video.git | `83da59f` | 1 | 已更新 |
+| ego-lite | https://github.com/citrolabs/ego-lite.git | `5ca3c36` | 1 | 已浅克隆；浏览器应用当前仅 macOS，本机未安装 |
 | hallmark | https://github.com/Nutlope/hallmark.git | `13ac0ec` | 1 | 已更新 |
 | Humanizer-zh | https://github.com/op7418/Humanizer-zh.git | `91f3d39` | 1 | 已更新 |
 | human-writing | https://github.com/KKKKhazix/human-writing.git | `4fda173` | 1 | 已更新 |
@@ -92,6 +126,7 @@
 | khazix-skills | https://github.com/KKKKhazix/khazix-skills.git | `7a5c493` | 6 | 已更新 |
 | knowledge-work-plugins | https://github.com/anthropics/knowledge-work-plugins.git | `6d223a7` | 212 | 已更新 |
 | last30days-skill | https://github.com/mvanhorn/last30days-skill.git | `a218eda` | 1 | 已更新 |
+| loopx | https://github.com/huangruiteng/loopx.git | `e227551` | 9（8 正式 + 1 demo） | 已浅克隆；长周期 Agent 控制平面 |
 | markdown-viewer-skills | https://github.com/markdown-viewer/skills.git | `a3afd45` | 15 | 已更新 |
 | mattpocock-skills | https://github.com/mattpocock/skills.git | `6654f6b` | 37 | 已更新 |
 | minimax-skills | https://github.com/MiniMax-AI/skills.git | `60aaae5` | 23 | 已更新 |
@@ -295,6 +330,8 @@ git clone --depth 1 <url> E:\aimodel\<repo>
 | Multi-style Image | 多风格图像生成 | multi-style-image-generator | 已克隆 NEW |
 | Web Reach CLI | 多平台网页读取搜索 | Agent-Reach | 已克隆 NEW |
 | Anti-AI-slop Design | 反 AI 味 UI 设计/审计/重设计 | hallmark | 已克隆并安装 NEW |
+| PDF OCR Router | PDF 类型识别、Markdown 抽取与逐页 OCR 路由 | pdf-inspector | 已浅克隆 NEW |
+| Effective HTML | 单文件 HTML 报告、线框、原型、计划与关系图 | effective-html | 已浅克隆，未全局安装 NEW |
 
 ---
 

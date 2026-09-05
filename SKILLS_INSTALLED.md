@@ -1,8 +1,19 @@
 # Skills 安装记录
 
-**最后整理**: 2026-08-17
+**最后整理**: 2026-08-29
 **目录**: E:\aimodel
 **性质**: 历史安装/配置记录；本目录维护不自动安装依赖或写入 C 盘
+
+---
+
+## 2026-08-29 新增仓库（仅克隆，未安装）
+
+| 仓库 | 来源 | 本地目录 | 状态 |
+|------|------|----------|------|
+| loopx | https://github.com/huangruiteng/loopx | `E:\aimodel\loopx\` | 已浅克隆；未安装 PyPI 包、workflow skills 或创建运行状态 |
+| ego-lite | https://github.com/citrolabs/ego-lite | `E:\aimodel\ego-lite\` | 已浅克隆；浏览器应用当前仅 macOS，本机 Windows 未安装 |
+
+两者的定位和浏览器能力对比见 [BROWSER_AUTOMATION_COMPARISON.md](BROWSER_AUTOMATION_COMPARISON.md)。
 
 ---
 

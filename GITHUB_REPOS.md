@@ -1,10 +1,158 @@
 # GitHub 仓库下载与配置台账
 
-**最后整理**: 2026-08-28
+**最后整理**: 2026-09-05
 **目录**: E:\aimodel
 **定位**: GitHub 下载与配置历史台账；当前 skill 更新状态以 [SKILLS_INDEX.md](SKILLS_INDEX.md) 为准
 **状态**: 只记录克隆和配置，不自动安装依赖、不写入全局 Codex skills
 **Star 手动清单**: [GITHUB_STAR_LIST.md](GITHUB_STAR_LIST.md)
+
+---
+
+## 2026-09-05 全目录同步与多仓库维护工具
+
+| 检查项 | 结果 |
+|------|------|
+| 可见一级 Git 仓库 | 92 |
+| 实际 fast-forward | 43 |
+| 原本已是最新 | 47 |
+| 默认分支迁移 | 1（`codetracer`: `main` → `stable`） |
+| 本地修改跳过 | 1（`reverse-skill`） |
+
+### 处理说明
+
+- 新增 [`scripts/Sync-RepositoryCatalog.ps1`](scripts/Sync-RepositoryCatalog.ps1)：默认只读检查；显式 `-Pull` 时只运行 `git pull --ff-only --prune`，自动跳过 dirty/no-upstream 仓库，使用命令级 `safe.directory` 而不污染全局 Git 配置，并可输出已脱敏的 JSON 结果。
+- 新增 [`REPOSITORY_MANAGEMENT.md`](REPOSITORY_MANAGEMENT.md)，记录本目录的拉取、整理和查看组合：`rg` 做精确搜索，zvec-grep 做语义/BM25/向量检索，Graphify 做关系与调用路径图谱；mani 和 ghorg 仅列为特定场景候选，暂不重复克隆。
+- 首轮发生 3 次 GitHub TLS `unexpected EOF`，改用 HTTP/1.1 重试后 `mergration`、`scientific-agent-skills`、`taste-skill` 全部成功；这三项没有遗留失败。
+- `Awesome-Agent-Skills-for-Empirical-Research` 快进后，将 `skills/69-Paper-WorkFlow` 子模块更新到父仓库锁定的 `ca36e316`，最终工作树干净。
+- `codetracer` 上游已删除 `main` 并将默认分支改为 `stable`。本地旧 `main` 相对共同祖先保有 3 个独有提交；本轮保留该分支，新建并切换到跟踪 `origin/stable` 的本地 `stable`（`0478cb4f`），同时刷新 origin HEAD 和全分支 fetch refspec。
+- `reverse-skill` 的上游 `main` 发生强制更新；本地当前有 3 个修改文件，且为 ahead 1 / behind 142。为避免覆盖用户内容，本轮只 fetch 远程引用，没有 pull、stash、reset、merge 或 rebase。
+- 其余仓库保持原克隆形态；76 个浅克隆没有被批量扩成完整历史。除父仓库明确锁定的 Paper-WorkFlow 外，不递归更新嵌套仓库或子模块。
+
+---
+
+## 2026-09-05 Graphify、zvec-grep、Terraform 与中国专利 Skill
+
+| 仓库 | 类型 | 本地目录 | Skill / 使用结论 | 状态 |
+|------|------|----------|------------------|------|
+| [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | 代码、文档和媒体知识图谱工具 / Agent Skill | `E:\aimodel\graphify\` | 1 个小写 `graphify/skill.md`；擅长关系、调用路径、社区和跨文件架构理解，与语义检索互补 | 既有浅克隆已补成完整历史并快进；未安装 Python 包或 Agent 集成 |
+| [zvec-ai/zvec-grep](https://github.com/zvec-ai/zvec-grep) | 本地优先的 ripgrep + BM25 + 向量混合检索 CLI / MCP | `E:\aimodel\zvec-grep\` | 0 个 `SKILL.md`；可通过 `zg install --target codex` 配置 Codex MCP，适合大型代码与资料库的语义发现 | 已完整克隆；未安装 npm 包、模型、服务或 MCP |
+| [hashicorp/terraform](https://github.com/hashicorp/terraform) | 基础设施即代码 CLI 核心源码 | `E:\aimodel\terraform\` | 0 个 `SKILL.md`；适合作为 Terraform Core 实现、状态/计划/资源图与插件协议参考，不含 providers | 已完整克隆；未构建、未安装 Go 或 Terraform CLI |
+| [handsomestWei/patent-disclosure-skill](https://github.com/handsomestWei/patent-disclosure-skill) | 中国专利全流程 Agent Skill | `E:\aimodel\patent-disclosure-skill\` | 1 个可调用路由 Skill + 6 个内部子技能；覆盖交底、申请文件、著录检索、解读、审查答复和政策简报 | 已完整克隆；未装 Python/Playwright/CAD/OA 依赖，未写入全局 Codex skills |
+
+### 克隆记录
+
+| 仓库 | Origin | HEAD | 分支 / 完整历史 |
+|------|--------|------|-----------------|
+| graphify | https://github.com/Graphify-Labs/graphify.git | `937e59a5` | `v8`；非浅克隆，1862 个提交、13 个远程引用、202 个 tags |
+| zvec-grep | https://github.com/zvec-ai/zvec-grep.git | `52653951` | `main`；非浅克隆，271 个提交、5 个远程引用、5 个 tags |
+| terraform | https://github.com/hashicorp/terraform.git | `7b8c301b` | `main`；非浅克隆，44947 个提交、883 个远程引用、471 个 tags |
+| patent-disclosure-skill | https://github.com/handsomestWei/patent-disclosure-skill.git | `a0156905` | `main`；非浅克隆，40 个提交、7 个远程引用、0 个 tags |
+
+### 静态核查结论
+
+- 四个仓库均为完整、非 partial/非 shallow clone，工作树干净并与各自 upstream 为 0/0；均无 Git submodule 和 Git LFS 跟踪项，并通过 `git fsck --full --no-reflogs`。本地总占用约为 Graphify 31 MiB、zvec-grep 58 MiB、Terraform 388 MiB、专利 Skill 18 MiB。
+- Graphify 已从旧的单分支浅克隆补齐完整对象、所有远程分支和 tags，fetch refspec 也改为持续跟踪全部远程分支。当前版本 `0.9.54`，要求 Python `>=3.10`；本机 Python 3.10/3.12 满足要求，但未安装 `uv` 或 `graphifyy`。
+- zvec-grep 当前版本 `0.2.1`，要求 Node.js `>=22`；本机 Node.js `25.2.1` 满足要求。它默认可本地保存文件、索引和模型，远程 embedding 需另行授权；安装器会写 Codex 配置和 `AGENTS.md`，因此本轮只保留源码。
+- Terraform 的完整 Git pack 约 359 MiB，是本批最大仓库；保留完整历史适合源码考古和版本差异分析，但日常只使用 CLI 时下载官方发行版更省空间。源码要求 Go `1.26.4`，本机未安装 Go；Terraform 1.6+ 源码采用 Business Source License 1.1，使用和再分发需按其条款核对。
+- 专利 Skill 的根 `SKILL.md` 是唯一 `user-invocable: true` 的路由入口，6 个子技能均为内部路由。仓库要求 Python 3.9+，主路径还涉及 Playwright、系统 Chrome/Edge、Word/PPT 解析和可选 CAD/Obsidian/OA 向量库；适合按整仓安装，不能只拷一个子目录。它可辅助专利文稿和检索，但不替代专利代理师或法律审查。
+- Graphify 与 zvec-grep 都值得保留：前者把显式关系和调用链做成持久图谱，后者偏语义发现、BM25 与精确检索路由；Terraform 只在需要 IaC 源码研究时体现完整历史价值；专利 Skill 领域明确、价值高，但建议在真实任务出现后再按整仓安装和补依赖。
+
+---
+
+## 2026-09-03 PDF Inspector、Effective HTML 与既有 Skills 复核
+
+| 仓库 | 类型 | 本地目录 | Skill / 使用结论 | 状态 |
+|------|------|----------|------------------|------|
+| [firecrawl/pdf-inspector](https://github.com/firecrawl/pdf-inspector) | Rust PDF 分类、文本抽取与 OCR 路由工具 | `E:\aimodel\pdf-inspector\` | 0 个 `SKILL.md`；可将 PDF 分类为 `TextBased`、`Scanned`、`ImageBased`、`Mixed`，返回置信度及逐页 OCR 路由，并可直接抽取结构化 Markdown | 已浅克隆；未编译、未安装 Python/Node/Rust 包或 OCR 运行时 |
+| [plannotator/effective-html](https://github.com/plannotator/effective-html) | 自包含 HTML artifact Skills / Codex 插件 | `E:\aimodel\effective-html\` | 6 个 Skill：`html`、`design-artifact`、`html-wireframe`、`html-prototype`、`html-plan`、`html-diagram`；适合结构化报告、线框、原型、计划和关系图 | 已浅克隆；未安装为全局 Skill 或 Codex 插件 |
+| [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) | 精简 Agent 编码行为准则 | `E:\aimodel\andrej-karpathy-skills\` | 1 个 Skill；内容与当前 Codex 的最小改动、显式假设和验证闭环规则高度重合 | 已有克隆，不重复下载；保留作参考，不追加全局安装 |
+| [mattpocock/skills](https://github.com/mattpocock/skills) | 工程与生产力 Skill 集合 | `E:\aimodel\mattpocock-skills\` | 当前本地 37 个 `SKILL.md`；覆盖需求澄清、TDD、诊断、架构、评审、研究与交接，适合按单项选用 | 已有干净克隆，不重复下载或全量安装；旧的 `backend-skills\mattpocock-skills\` 副本未改动 |
+
+### 克隆记录
+
+| 仓库 | Origin | HEAD | 最新提交 |
+|------|--------|------|----------|
+| pdf-inspector | https://github.com/firecrawl/pdf-inspector.git | `65b7fa1` | 2026-09-01 `fix(loader): bound object-stream decompression at load (lopdf 0.44) (#478)` |
+| effective-html | https://github.com/plannotator/effective-html.git | `d95debb` | 2026-08-03 `docs: sync design artifact guide (#23)` |
+
+### 静态核查结论
+
+- 两个新增仓库均为 MIT 许可、浅克隆、干净工作树，没有 Git submodule，并通过 `git fsck --no-reflogs`。`pdf-inspector` 约 25 MB，`effective-html` 约 43 MB。
+- `pdf-inspector` 当前包版本为 `1.17.0`，Rust crate 要求 Rust `1.88`，Python 包要求 Python `>=3.8`。默认 Rust 构建不启用 OCR；完整本地 OCR 是可选 feature，另需 PDFium、ONNX Runtime 和模型文件，因此本轮只保存源码。
+- `pdf-inspector` 与既有 `liteparse` 都能把原生文本 PDF 转为 Markdown，但前者更适合作为轻量的“先分类、再按页送 OCR”路由层；上游性能与质量数字是项目方基准，本轮没有在 Windows 上复跑。
+- `Effective HTML` 的 `html` 是可自动路由的广义入口，其余专门 Skill 多为显式调用。它与 `taste-skill`、`hallmark`、`emilkowalski-skills/prototype`、`archify` 有部分视觉或原型重叠，但独特价值是把报告、计划、线框、原型和关系图统一为可访问、响应式、单文件 HTML artifact。
+- 两个新仓库由提升权限的克隆进程创建，Windows Git 会报告所有权保护。核查时仅使用命令级 `safe.directory` 例外，没有写入全局 Git 配置；后续常规 Git 操作可能仍需相同的单次例外或先修正目录所有权。
+
+---
+
+## 2026-09-02 Pisper 下载与既有项目复核
+
+| 仓库 | 类型 | 本地目录 | Skill / 使用结论 | 状态 |
+|------|------|----------|------------------|------|
+| [ling-kong-ran/pisper](https://github.com/ling-kong-ran/pisper) | 多 Agent 本地工作台（Desktop / TUI / Mobile） | `E:\aimodel\pisper\` | 0 个标准 `SKILL.md`；基于 Pi Coding Agent 管理并行会话、Turn 上下文分支、工作目录、权限、工作流、记忆和 MCP/插件 | 已完整克隆；未安装 Node.js 依赖、桌面应用或 Provider 凭据 |
+| [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) | 精简的 Agent 编码行为准则 | `E:\aimodel\andrej-karpathy-skills\` | 已有 1 个 Skill；原则与当前 Codex 工作规范高度重合，保留作参考，不追加全局安装 | 已有浅克隆；本轮未更新 |
+| [StarTrail-org/LEANN](https://github.com/StarTrail-org/LEANN) | 本地私有 RAG / 语义检索套件 | `E:\aimodel\LEANN\` | 无标准 `SKILL.md`，含 OpenClaw `leann-memory` 适配；适合大规模本地知识库，不是轻量向量库替代品 | 已有克隆；因 Windows Git 所有权保护未改动或更新 |
+
+### 克隆记录
+
+| 仓库 | Origin | HEAD | 最新提交 |
+|------|--------|------|----------|
+| pisper | https://github.com/ling-kong-ran/pisper.git | `a0e2af6c` | 2026-09-02 `test: track visual providers in the visual connections section` |
+
+### 静态核查结论
+
+- `pisper` 为完整、非浅克隆，不含 Git submodule，已通过 `git fsck --no-reflogs`；工作树约 85 MB。它不含通用 Agent Skills 标准的 `SKILL.md`，因此不写入 `SKILLS_INDEX.md`。
+- Pisper 的“分支”是从已完成 Turn 派生且继承上下文的 Agent 会话分支，每个会话可独立模型、上下文、工作目录和权限。它适合可视化管理并行 Agent 工作，但不应被当作 Git worktree 创建、冲突消解和代码合并队列工具；底层运行时为 Pi Coding Agent，非 Codex 原生运行时。
+- `andrej-karpathy-skills` 与 `LEANN` 均已在旧台账中登记，故未重复克隆。LEANN 的当前 Windows 所有权与运行用户不一致；为避免修改全局 Git `safe.directory` 配置，本轮没有拉取或检查其工作树。
+
+---
+
+## 2026-09-02 Sepia、Archify 下载与候选项目评估
+
+| 仓库 | 类型 | 本地目录 | Skill / 使用结论 | 状态 |
+|------|------|----------|------------------|------|
+| [Nanako0129/sepia](https://github.com/Nanako0129/sepia) | 去 AI 腔写作 Skill | `E:\aimodel\sepia\` | 1 个可移植 `SKILL.md`，含 Codex 原生插件结构；适合小说叙事修订及发布说明、PR 回复、复盘等专业文稿 | 已完整克隆；未安装依赖、未写入全局 Codex skills |
+| [tt-a1i/archify](https://github.com/tt-a1i/archify) | 架构与流程图 Agent Skill / Node.js 渲染器 | `E:\aimodel\archify\` | 1 个 `archify` Skill；可生成架构、工作流、时序、数据流和生命周期图，导出自包含 HTML/SVG/PNG/WebM | 已完整克隆；未安装依赖、未写入全局 Codex skills |
+| [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | 大型角色提示词与流程库 | — | 上游仍在维护且支持 Codex；适合按需借鉴专业角色的检查清单，不建议全量安装以避免规则重叠和上下文噪声 | 仅核查，未克隆 |
+| [alibaba/zvec](https://github.com/alibaba/zvec) | 嵌入式向量数据库 | — | 适合本地 RAG、Agent 记忆、私有知识库和代码/文档语义搜索；不适合分布式多节点或高并发多写入 | 仅核查，未克隆 |
+
+### 克隆记录
+
+| 仓库 | Origin | HEAD | 最新提交 |
+|------|--------|------|----------|
+| sepia | https://github.com/Nanako0129/sepia.git | `ac2f06e8` | 2026-09-02 `docs(zh-CN): add Simplified Chinese README (#33)` |
+| archify | https://github.com/tt-a1i/archify.git | `06dd0526` | 2026-09-02 `fix: ship third-party mark notices (#267)` |
+
+### 静态核查结论
+
+- 两个已下载仓库均为完整克隆（非 shallow clone），且不含 Git submodule；已通过 `git fsck --no-reflogs` 核验。`archify` 工作树约 152 MB，包含文档、示例、实验和生成产物，完整保留以便离线研究或二次开发。
+- `archify` 同时拥有项目展示/文档站点，但其主体是开源仓库和可通过 Skills CLI 安装的 Skill；对日常画图不需要读取整个本地仓库。
+- `zvec` 提供进程内、无服务端的向量检索，并支持稠密/稀疏向量、全文、结构化过滤和混合检索；要使用它仍需由应用或模型侧产生嵌入向量。
+
+---
+
+## 2026-08-29 LoopX 与 ego-lite 下载及浏览器能力复核
+
+| 仓库 | 类型 | Stars（核查时） | 本地目录 | Skill | 状态 |
+|------|------|----------------|----------|-------|------|
+| [huangruiteng/loopx](https://github.com/huangruiteng/loopx) | 长周期 Agent 控制平面 | 5.3k | `E:\aimodel\loopx\` | 9 份物理 `SKILL.md`（8 正式 + 1 demo） | 已浅克隆，仅保存源码 |
+| [citrolabs/ego-lite](https://github.com/citrolabs/ego-lite) | Agent 友好浏览器与 CDP harness | 14.2k | `E:\aimodel\ego-lite\` | 1 个 `ego-browser` Skill | 已浅克隆；Windows 上不可安装当前 macOS 应用 |
+
+### 克隆记录
+
+| 仓库 | Origin | HEAD | 最新提交 |
+|------|--------|------|----------|
+| loopx | https://github.com/huangruiteng/loopx.git | `e2275510` | 2026-08-29 `perf(cli): lazily load common command owners (#3717)` |
+| ego-lite | https://github.com/citrolabs/ego-lite.git | `5ca3c36c` | 2026-08-24 `Merge pull request #317 from citrolabs/docs/star-history-branch` |
+
+### 静态核查结论
+
+- `LoopX` 负责 goal、todo、gate、evidence、quota、handoff、恢复和跨运行时持续执行，不负责浏览器控制或截图解析。它适合作为浏览器工具之上的长任务控制层。
+- `LoopX` 本地项目版本为 `0.5.3`，要求 Python `>=3.11`，核心包声明无第三方运行时依赖；当前版本使用 Apache-2.0，旧版本 MIT 文本仍保留。
+- `ego-lite` 仓库开源的是 MIT 许可的 `ego-browser` TypeScript/CDP harness 和 Skill，不包含提供 `globalThis.ego` bindings 的浏览器应用源码。
+- `ego-browser` 以语义 Snapshot + 元素引用驱动网页，也能捕获截图；它没有内置 OCR 或多模态视觉模型，不能把“保存截图”等同于“理解截图像素”。
+- 上游当前明确只提供 macOS 浏览器应用，Windows/Linux 在 roadmap；所以本轮没有安装应用、扩展、依赖或全局 Skill，也没有复现项目方的性能/成功率基准。
+- 与根目录 `browser-use`、`chrome-devtools-mcp`、`OpenCLI`、`web-access`、`nanobrowser`、Playwright `webapp-testing`、`crawl4ai` 和 MiniMax `vision-analysis` 的详细区别见 [BROWSER_AUTOMATION_COMPARISON.md](BROWSER_AUTOMATION_COMPARISON.md)。
 
 ---
 

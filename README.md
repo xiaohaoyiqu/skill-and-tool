@@ -9,7 +9,9 @@
 | 文件 | 内容 |
 |------|------|
 | [REPOSITORIES.md](REPOSITORIES.md) | 一级 Git 仓库的来源、分支、提交和同步状态 |
+| [REPOSITORY_MANAGEMENT.md](REPOSITORY_MANAGEMENT.md) | 批量拉取、目录整理、检索与知识图谱工具说明 |
 | [SKILLS_INDEX.md](SKILLS_INDEX.md) | Skill 数量、分类和用途索引 |
+| [BROWSER_AUTOMATION_COMPARISON.md](BROWSER_AUTOMATION_COMPARISON.md) | 浏览器控制、网页快照与像素截图理解工具对比 |
 | [GITHUB_REPOS.md](GITHUB_REPOS.md) | 各批次下载、更新和检查记录 |
 | [GITHUB_STAR_LIST.md](GITHUB_STAR_LIST.md) | GitHub 项目链接清单 |
 | [CHANGELOG.md](CHANGELOG.md) | 这个存放库的变更记录 |

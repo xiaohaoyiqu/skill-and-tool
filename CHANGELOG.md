@@ -7,6 +7,46 @@
 
 ---
 
+## 2026-09-05 Graphify、zvec-grep、Terraform 与中国专利 Skill
+
+- 新增 `scripts/Sync-RepositoryCatalog.ps1` 安全同步脚本和 `REPOSITORY_MANAGEMENT.md` 使用说明；脚本默认只检查，`-Pull` 时仅 fast-forward，跳过本地修改/无 upstream 仓库，不修改全局 Git 配置，并对 JSON 中的 HTTP 凭据脱敏。
+- 使用脚本扫描并更新 92 个可见一级仓库：43 个实际快进、47 个原本最新；三次 GitHub TLS 中断经 HTTP/1.1 重试全部恢复。
+- `codetracer` 上游删除旧 `main` 并改用 `stable`；本轮保留含 3 个独有提交的本地 `main`，新建并切换到 `stable`（`0478cb4f`），刷新 origin HEAD 和全分支 fetch refspec。
+- `reverse-skill` 有 3 个本地修改且远端发生强制更新，当前 ahead 1 / behind 142；仅 fetch 远程引用，未 pull 或改写用户内容。
+- `Awesome-Agent-Skills-for-Empirical-Research` 的 `Paper-WorkFlow` 子模块已按父仓库锁定值更新到 `ca36e316`，最终工作树干净。
+- 将既有 `Graphify-Labs/graphify` 从单分支浅克隆补齐为完整历史，快进到 `937e59a5`，补齐全部远程分支和 202 个 tags，并将 fetch refspec 改为持续跟踪所有远程分支。
+- 完整克隆 `zvec-ai/zvec-grep`、`hashicorp/terraform`、`handsomestWei/patent-disclosure-skill` 到 `E:\aimodel\`；HEAD 分别为 `52653951`、`7b8c301b`、`a0156905`。
+- 四个仓库均为非浅、非 partial clone，工作树干净且与 upstream 为 0/0；无 Git submodule/LFS 跟踪项，并通过 `git fsck --full --no-reflogs`。
+- 本地核实 Graphify `0.9.54` 为关系/调用链知识图谱工具；zvec-grep `0.2.1` 为支持 Codex 的本地混合检索 CLI/MCP；Terraform 是 BSL 1.1 的 IaC 核心源码而非 Skill；专利仓库含 1 个可调用路由 Skill 和 6 个内部子技能。
+- 评估结论：Graphify 与 zvec-grep 能互补保留；Terraform 完整历史适合源码考古但约占 388 MiB；专利 Skill 适合整仓按需安装，真实法律文稿必须人工复核。
+- 更新 `REPOSITORIES.md`、`SKILLS_INDEX.md`、`GITHUB_REPOS.md`、`GITHUB_STAR_LIST.md` 和本变更记录；一级带 `.git` 的目录数由 90 增至 93。
+- 本轮未安装依赖、模型、浏览器运行时、MCP、Terraform CLI 或全局 Codex skills，也未执行仓库代码。
+
+---
+
+## 2026-09-03 PDF Inspector、Effective HTML 与既有 Skills 复核
+
+- 将 `firecrawl/pdf-inspector` 和 `plannotator/effective-html` 以 `--depth 1` 克隆到 `E:\aimodel\pdf-inspector\`、`E:\aimodel\effective-html\`；HEAD 分别为 `65b7fa15`、`d95debba`，工作树干净并通过 `git fsck --no-reflogs`。
+- 本地核实 `pdf-inspector` 版本 `1.17.0`、Rust `1.88`、Python `>=3.8`。它不是 Skill，而是 PDF 类型识别、原生文本转结构化 Markdown 和逐页 OCR 路由工具；默认构建不带 OCR，完整 OCR 另需 PDFium、ONNX Runtime 和模型。
+- 本地核实 `effective-html` 含 6 个 `SKILL.md` 和版本 `0.4.0` 的 Codex 插件清单，覆盖通用 HTML artifact、设计方向、线框、交互原型、计划和关系图；本轮只保存仓库，没有安装到全局 Skills 或 Codex 插件。
+- 复核既有 `andrej-karpathy-skills` 和 `mattpocock-skills`，两者均已有干净的顶层克隆，故未重复下载或全量安装；前者与当前 Codex 行为规范高度重合，后者当前本地共有 37 个 `SKILL.md`，适合按单项选用。
+- 更新 `REPOSITORIES.md`、`SKILLS_INDEX.md`、`GITHUB_REPOS.md`、`GITHUB_STAR_LIST.md` 和本变更记录；当前一级带 `.git` 的目录数为 90。
+- 两个新增目录触发 Windows Git 所有权保护；核查仅使用命令级 `safe.directory` 例外，没有修改全局 Git 配置。项目方性能基准没有在本机复跑。
+
+---
+
+## 2026-08-29 LoopX、ego-lite 下载与浏览器/截图能力复核
+
+- 将 `huangruiteng/loopx` 和 `citrolabs/ego-lite` 以 `--depth 1` 克隆到 `E:\aimodel\loopx\`、`E:\aimodel\ego-lite\`；HEAD 分别为 `e2275510`、`5ca3c36c`，工作树均干净并与 `origin/main` 一致。
+- 本地核实 `loopx` 版本 `0.5.3`、Python `>=3.11`、9 份物理 `SKILL.md`（8 正式 + 1 demo）；它是长周期 Agent 控制平面，不是浏览器或截图解析器。
+- 本地核实 `ego-lite` 含 1 个 `ego-browser` Skill 和开源 TypeScript/CDP harness；浏览器应用本身不在仓库源码内，当前仅 macOS 可用，本机 Windows 未安装或运行。
+- 新建 `BROWSER_AUTOMATION_COMPARISON.md`，把浏览器控制、DOM/a11y 语义 Snapshot、截图捕获和像素视觉理解拆开，对比 `ego-lite`、`browser-use`、`chrome-devtools-mcp`、`OpenCLI`、`web-access`、`nanobrowser`、Playwright `webapp-testing`、`crawl4ai`、MiniMax `vision-analysis`，并说明 LoopX 只适合作为其上层控制面。
+- 明确“能保存截图”不等于“能理解截图”：ego/OpenCLI/DevTools 等默认主要依赖结构化网页快照，canvas、图表、图片文字和视觉布局仍需宿主多模态能力或视觉 Skill。
+- 更新 `README.md`、`REPOSITORIES.md`、`SKILLS_INDEX.md`、`GITHUB_REPOS.md`、`GITHUB_STAR_LIST.md` 和 `.gitignore`；一级第三方 Git 仓库台账由 82 增至 84。
+- 本轮未安装依赖、浏览器扩展、MCP、PyPI/npm 包或全局 Skill，未接管用户浏览器、迁移登录态或执行外部网站写操作；项目方性能基准仅记录为上游陈述，没有当作本机验证结论。
+
+---
+
 ## 2026-08-28 一级 Git 仓库全目录同步与失败复核
 
 - 扫描 `E:\aimodel` 下 82 个一级有效 Git 仓库，仅对工作树干净、分支已配置上游的仓库使用 `git pull --ff-only`。

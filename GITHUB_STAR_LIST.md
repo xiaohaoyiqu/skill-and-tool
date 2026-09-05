@@ -126,3 +126,33 @@
 | WUBING2023/PaperSpine | https://github.com/WUBING2023/PaperSpine |
 | brycewang-stanford/Auto-Empirical-Research-Skills | https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills |
 | aAAaqwq/AGI-Super-Team（Multi Search Engine 来源） | https://github.com/aAAaqwq/AGI-Super-Team/tree/main/skills/multi-search-engine |
+
+---
+
+## 2026-08-29 新增手动收藏链接
+
+| 仓库 | 链接 |
+|------|------|
+| huangruiteng/loopx | https://github.com/huangruiteng/loopx |
+| citrolabs/ego-lite | https://github.com/citrolabs/ego-lite |
+
+---
+
+## 2026-09-03 新增手动收藏链接
+
+| 仓库 | 链接 |
+|------|------|
+| firecrawl/pdf-inspector | https://github.com/firecrawl/pdf-inspector |
+| plannotator/effective-html | https://github.com/plannotator/effective-html |
+
+---
+
+## 2026-09-05 新增手动收藏链接
+
+`Graphify-Labs/graphify` 已在主清单中，本批不重复列出。
+
+| 仓库 | 链接 |
+|------|------|
+| zvec-ai/zvec-grep | https://github.com/zvec-ai/zvec-grep |
+| hashicorp/terraform | https://github.com/hashicorp/terraform |
+| handsomestWei/patent-disclosure-skill | https://github.com/handsomestWei/patent-disclosure-skill |

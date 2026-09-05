@@ -6,6 +6,7 @@
 !/README.md
 !/README_ARCHIVE.md
 !/CHANGELOG.md
+!/BROWSER_AUTOMATION_COMPARISON.md
 !/GITHUB_REPOS.md
 !/GITHUB_STAR_LIST.md
 !/SKILLS_INDEX.md
@@ -14,6 +15,10 @@
 !/LIVE_STREAMING.md
 !/LIVE_PLAN_v1.md
 !/REPOSITORIES.md
+!/REPOSITORY_MANAGEMENT.md
+
+!/scripts/
+!/scripts/**
 
 !/multi-search-engine/
 !/multi-search-engine/**
