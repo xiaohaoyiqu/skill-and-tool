@@ -35,3 +35,7 @@
 - 第三方内容沿用各自的许可证和使用条件。
 
 统计数字对应各次扫描结果。上游项目继续变化时，以来源仓库为准。
+
+## 运行时升级与可观测性资料
+
+本仓库当前没有安装 OpenTelemetry、HBase、ClickHouse 或 Java Agent 运行时。涉及 Java 运行时升级、服务可观测性或新增存储时，先用 `mattpocock-skills` 的架构审查、`agent-skills` 的性能与安全指导、`superpowers-repo` 的验证流程完成设计和回归；`chrome-devtools-mcp` 只用于浏览器与网络侧证据，`gortex` 与 Graphify 仅在明确批准建立索引或守护进程后使用。工具源码存在不代表已获部署授权。

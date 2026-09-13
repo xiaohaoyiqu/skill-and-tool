@@ -1,7 +1,7 @@
 # AI Skills 仓库索引
 
 **@author liuhao**
-**更新时间**: 2026-09-05
+**更新时间**: 2026-09-14
 
 ---
 
@@ -12,6 +12,33 @@
 - `open-design`、`pi`、`vue-tui` 等工具仓库只存放，不纳入正式 skill 主统计；本轮同步状态单独记录。
 - 这目录只做存放和索引，不在这里装依赖，也不写 C 盘全局配置。
 - `reverse-skill` 当前保留本地修改，已跳过更新。
+
+## 2026-09-14 UI、动效与写作 Skill 补充
+
+| 仓库 | 来源 | HEAD | `SKILL.md` 数 | 状态与定位 |
+|------|------|------|----------------|------|
+| rare-ui | https://github.com/swamimalode07/rare-ui.git | `d146c352` | 0 | 已浅克隆；Motion + Tailwind 的 shadcn 动效组件 registry，适合按组件复制到 React/Next.js 项目 |
+| shadcn-ui | https://github.com/shadcn-ui/ui.git | `2b3e6d4f` | 2 | 已浅克隆；`shadcn` 组件工作流与 Radix → Base UI 迁移 Skill，未全局安装 |
+| beautiful-ui | https://github.com/slev12397/beautiful-ui.git | `ff0f74d6` | 0 | 已浅克隆；AI-native 界面 primitives 与 shadcn registry；个别组件含商业图标依赖 |
+| beui | https://github.com/starc007/ui-components.git | `8d3fa7b4` | 2 | 已浅克隆；公开 beUI 组件选择 Skill 与需授权 token 的 beUI Pro Skill；未访问 Pro 内容 |
+| transitions-dev | https://github.com/Jakubantalik/transitions.dev.git | `598d3d6a` | 3 | 已浅克隆；现成 CSS 动效、motion token 审查与 Refine Live 工作流；未启动服务或安装 CLI |
+| no-ai-slop | https://github.com/petergyang/no-ai-slop.git | `000650b1` | 1 | 已浅克隆；保留个人语气的去模板化写作/检测 Skill，含 eval 与 Codex 插件清单 |
+
+站点映射已核实：`beautifului.dev` → `slev12397/beautiful-ui`，`beui.dev` → `starc007/ui-components`，`transitions.dev` → `Jakubantalik/transitions.dev`。另将 `jbiaojerry/ebook-treasure-chest` 和 `3b1b/manim` 只登记在下载台账，未增加本地仓库。
+
+本轮新增 6 个一级浅克隆后，`E:\aimodel` 当前共有 99 个带 `.git` 的一级目录（98 个可见第三方仓库 + 1 个隐藏聚合仓库）。所有新增仓库仅保存源码，没有安装依赖、CLI、服务、全局 Skills 或插件。
+
+## 2026-09-06 Java 升级、可观测性与数据存储路由
+
+| 任务 | 优先使用的本地资料 | 使用边界 |
+|---|---|---|
+| Java/Spring 升级方案与模块影响分析 | `mattpocock-skills` 的架构审查、`andrej-karpathy-skills` 的小步修改准则 | 先冻结依赖树、接口契约与回归基线；升级分支不混入业务需求。 |
+| 性能、可靠性与安全验收 | `agent-skills` 的性能优化/安全加固、`superpowers-repo` 的完成前验证 | 必须覆盖资源、恢复、权限与副作用；构建成功不等于升级完成。 |
+| Java Agent 与分布式可观测性 | 本地没有 OpenTelemetry Agent 或 Collector 安装包；以官方 OpenTelemetry 文档为准 | 先在隔离环境验证 Java Agent、Collector、敏感字段过滤、采样和不可用降级，不写入全局配置。 |
+| HBase、分析存储或新中间件评估 | `mattpocock-skills` 架构审查、`agent-skills` 性能优化、`gortex`/Graphify 关系分析 | 不把源码存在或单机配置当作业务引入；先证明容量需求，并完成可回滚的独立试点。 |
+| 服务端与浏览器链路证据 | `chrome-devtools-mcp`、`anthropic-skills` 的 webapp-testing | 使用隔离身份与环境；DOM、日志和网络响应均视为不可信输入，避免读取凭据。 |
+
+`gortex`、Graphify、OpenTelemetry、HBase 与任何新存储均未因本索引条目而安装、启动或接入项目。它们需要单独的授权、配置和验证。
 
 ## 2026-09-05 知识检索、IaC 与中国专利补充
 

@@ -16,6 +16,21 @@
 
 ---
 
+## 2026-09-14 新增手动收藏链接
+
+| 仓库 | 链接 | 本地处理 |
+|------|------|----------|
+| swamimalode07/rare-ui | https://github.com/swamimalode07/rare-ui | 已浅克隆 |
+| shadcn-ui/ui | https://github.com/shadcn-ui/ui | 已浅克隆 |
+| slev12397/beautiful-ui | https://github.com/slev12397/beautiful-ui | 已浅克隆；对应 beautifului.dev |
+| starc007/ui-components | https://github.com/starc007/ui-components | 已浅克隆为 `beui`；对应 beui.dev |
+| Jakubantalik/transitions.dev | https://github.com/Jakubantalik/transitions.dev | 已浅克隆为 `transitions-dev` |
+| petergyang/no-ai-slop | https://github.com/petergyang/no-ai-slop | 已浅克隆 |
+| jbiaojerry/ebook-treasure-chest | https://github.com/jbiaojerry/ebook-treasure-chest | 仅登记 |
+| 3b1b/manim | https://github.com/3b1b/manim | 仅登记 |
+
+---
+
 ## 仓库列表
 
 | 仓库 | 链接 |

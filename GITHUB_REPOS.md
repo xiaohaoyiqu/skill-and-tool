@@ -1,10 +1,37 @@
 # GitHub 仓库下载与配置台账
 
-**最后整理**: 2026-09-05
+**最后整理**: 2026-09-14
 **目录**: E:\aimodel
 **定位**: GitHub 下载与配置历史台账；当前 skill 更新状态以 [SKILLS_INDEX.md](SKILLS_INDEX.md) 为准
 **状态**: 只记录克隆和配置，不自动安装依赖、不写入全局 Codex skills
 **Star 手动清单**: [GITHUB_STAR_LIST.md](GITHUB_STAR_LIST.md)
+
+---
+
+## 2026-09-14 UI 组件库、动效 Skill 与写作 Skill
+
+| 仓库 | 类型与用途 | 本地处理 | 边界 |
+|------|------------|----------|------|
+| [swamimalode07/rare-ui](https://github.com/swamimalode07/rare-ui) | React / Next.js / Tailwind / Motion 的 shadcn 动效组件 registry | 浅克隆到 `E:\aimodel\rare-ui\`，HEAD `d146c352` | MIT；0 个 `SKILL.md`，通过 shadcn CLI 按组件引入 |
+| [shadcn-ui/ui](https://github.com/shadcn-ui/ui) | 可组合、可访问、源码可定制的 UI 组件与 registry 工具链 | 浅克隆到 `E:\aimodel\shadcn-ui\`，HEAD `2b3e6d4f` | MIT；含 `shadcn` 与 `migrate-radix-to-base` 两个 Skill，未全局安装 |
+| [slev12397/beautiful-ui](https://github.com/slev12397/beautiful-ui) | `beautifului.dev` 的 AI-native React 界面 primitives 与 shadcn registry | 浅克隆到 `E:\aimodel\beautiful-ui\`，HEAD `ff0f74d6` | MIT；`SidebarNav` 使用安装时校验许可证的商业图标包，使用前应替换图标或配置合法授权 |
+| [starc007/ui-components](https://github.com/starc007/ui-components) | `beui.dev` 的 React 19 / Tailwind 4 / Motion 组件库 | 浅克隆到 `E:\aimodel\beui\`，HEAD `8d3fa7b4` | 公开部分 MIT；含 `beui` 与 `beui-pro` Skill，Pro 需要客户 token，未访问付费 registry |
+| [Jakubantalik/transitions.dev](https://github.com/Jakubantalik/transitions.dev) | CSS UI 动效、动效 token、Agent Skill 与 Refine 工具 | 浅克隆到 `E:\aimodel\transitions-dev\`，HEAD `598d3d6a` | 含 `transitions-dev`、`transitions-polish`、`refine-live` 3 个 Skill；公开工具代码为 MIT，下载的 Pro 配方另受站点条款约束 |
+| [petergyang/no-ai-slop](https://github.com/petergyang/no-ai-slop) | 检测并编辑 20+ 类模板化 AI 写作模式 | 浅克隆到 `E:\aimodel\no-ai-slop\`，HEAD `000650b1` | MIT；含 1 个正式 Skill、eval 和 Codex 插件清单，未全局安装 |
+
+### 仅登记、未克隆
+
+| 仓库 | 判断 |
+|------|------|
+| [jbiaojerry/ebook-treasure-chest](https://github.com/jbiaojerry/ebook-treasure-chest) | 主要聚合第三方电子书下载链接，GitHub 页面未显示明确许可证；本目录只保存来源链接，不镜像内容，也不对链接内容的版权或可用性背书。 |
+| [3b1b/manim](https://github.com/3b1b/manim) | 3Blue1Brown 的 ManimGL 数学讲解动画引擎，MIT；按要求只登记。它与更偏稳定、测试和社区支持的 Manim Community 版是不同项目，安装说明不能混用。 |
+
+### 静态核验
+
+- 6 个新增仓库均为 `main` 分支、`--depth 1` 浅克隆、干净工作树，无 `.gitmodules` 和 Git LFS 规则，并通过 `git fsck --no-reflogs`。
+- 本地占用约为：Rare UI 24.8 MiB、shadcn/ui 62.6 MiB、Beautiful UI 1.3 MiB、beUI 10.5 MiB、Transitions.dev 44.6 MiB、No AI Slop 0.5 MiB，合计约 144.3 MiB。
+- 本轮只保存源码和索引，没有执行仓库代码、安装 npm/bun/Python 依赖、启动 Refine 服务、访问 Pro registry，或写入全局 Codex skills。
+- 搜索中另发现 `Kainiko943/beautiful-ui`，但 `beautifului.dev` 官网对应的是 `slev12397/beautiful-ui`，因此未克隆前者。
 
 ---
 

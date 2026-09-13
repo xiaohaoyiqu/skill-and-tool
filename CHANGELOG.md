@@ -7,6 +7,26 @@
 
 ---
 
+## 2026-09-14 UI 组件库、动效 Skill 与写作 Skill
+
+- 浅克隆 `rare-ui`、`shadcn-ui`、`beautiful-ui`、`beui`、`transitions-dev` 和 `no-ai-slop` 到 `E:\aimodel\`；6 个仓库均为干净工作树并通过 `git fsck --no-reflogs`。
+- 核实站点与源码映射：Beautiful UI 对应 `slev12397/beautiful-ui`，beUI 对应 `starc007/ui-components`，Transitions.dev 对应 `Jakubantalik/transitions.dev`。
+- `shadcn-ui` 含 2 个 Agent Skill，`beui` 含公开与 Pro 两个 Skill，`transitions-dev` 含 3 个 Skill，`no-ai-slop` 含 1 个 Skill 和 Codex 插件清单；本轮均未安装到全局 Skills，也未安装 npm/bun 依赖。
+- 仅登记 `jbiaojerry/ebook-treasure-chest`：其内容主要是第三方电子书下载链接，页面未显示明确许可证，未在本地镜像。
+- 按要求仅登记 `3b1b/manim`；它是 ManimGL 源码，官方提醒不要与 Manim Community 版安装说明混用。
+- 更新 `REPOSITORIES.md`、`SKILLS_INDEX.md`、`GITHUB_REPOS.md`、`GITHUB_STAR_LIST.md` 和本变更记录；一级带 `.git` 的目录数由 93 增至 99。
+- 确认聚合仓库远端为 `https://github.com/xiaohaoyiqu/skill-and-tool.git`，实际 Git 元数据位于 `.skill-and-tool-upload/.git`，工作树指向 `E:\aimodel`。
+
+---
+
+## 2026-09-06 Java 升级、可观测性与数据存储索引
+
+- 在 `README.md`、`SKILLS_INDEX.md` 与 `REPOSITORY_MANAGEMENT.md` 补充 Java/Spring 升级、Java Agent、HBase 和新增分析存储的资料路由与安全边界。
+- 明确 OpenTelemetry、HBase、ClickHouse、gortex 守护进程和 Graphify 索引均未因索引更新而安装、启动或接入任何项目。
+- 索引仅指向现有本地技能和工具；实际技术选型应以目标项目的兼容、性能、敏感数据、恢复和回滚验证为准。
+
+---
+
 ## 2026-09-05 Graphify、zvec-grep、Terraform 与中国专利 Skill
 
 - 新增 `scripts/Sync-RepositoryCatalog.ps1` 安全同步脚本和 `REPOSITORY_MANAGEMENT.md` 使用说明；脚本默认只检查，`-Pull` 时仅 fast-forward，跳过本地修改/无 upstream 仓库，不修改全局 Git 配置，并对 JSON 中的 HTTP 凭据脱敏。

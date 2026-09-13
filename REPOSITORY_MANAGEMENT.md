@@ -13,6 +13,12 @@
 | 统一执行多仓库自定义命令 | [alajmo/mani](https://github.com/alajmo/mani) | Go 编写的多仓库 CLI，适合已有项目清单和重复命令；当前自定义脚本已覆盖安全同步，因此暂不重复克隆 |
 | 批量克隆组织或用户的仓库 | [gabrie30/ghorg](https://github.com/gabrie30/ghorg) | 适合 GitHub/GitLab/Bitbucket 组织级镜像或备份；本目录来源分散，日常更新并不需要它 |
 
+## 运行时升级与可观测性
+
+本目录没有安装 OpenTelemetry Java Agent、OpenTelemetry Collector、HBase 或 ClickHouse。需要评估 Java/Spring 升级、Java Agent 或新数据存储时，先阅读 `SKILLS_INDEX.md` 的“Java 升级、可观测性与数据存储路由”，再在目标项目的隔离环境完成兼容、性能、敏感数据、恢复和回滚验证。
+
+`gortex` 和 Graphify 能辅助定位跨模块影响，但建立索引或启动守护进程会写入本机状态，必须另行批准。浏览器工具只提供运行证据，不读取已有浏览器会话，也不能证明服务端授权或数据一致性。
+
 ## 使用同步脚本
 
 只检查，不访问远程：

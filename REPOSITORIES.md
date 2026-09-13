@@ -2,15 +2,15 @@
 
 **扫描目录**: `E:\aimodel`
 
-**扫描时间**: 2026-09-05
+**扫描时间**: 2026-09-14
 
-**一级仓库目录数（2026-09-05）**: 93（92 个可见第三方仓库 + 1 个隐藏聚合仓库）
+**一级仓库目录数（2026-09-14）**: 99（98 个可见第三方仓库 + 1 个隐藏聚合仓库）
 
 本表记录一级 Git 仓库的上游地址、当前分支、提交和同步状态。第三方仓库实体不重复上传到本聚合仓库；需要内容时应从对应上游克隆并遵守其许可证。Skill 数量与能力评估见 [SKILLS_INDEX.md](SKILLS_INDEX.md)，批次说明见 [GITHUB_REPOS.md](GITHUB_REPOS.md)。
 
 状态含义：`已同步` 表示扫描时本地 HEAD 与已配置上游一致；`本地修改` 表示为保护工作区而跳过更新；`分叉 +A/-B` 表示本地相对上游领先 A 个、落后 B 个提交，没有自动改写历史。
 
-2026-08-29 只新增并核验 `loopx`、`ego-lite`。2026-09-02 新增 `archify`、`sepia` 的完整克隆记录。2026-09-03 新增 `pdf-inspector`、`effective-html` 的浅克隆记录，并复核既有 `andrej-karpathy-skills`、`mattpocock-skills`。2026-09-05 新增 `zvec-grep`、`terraform`、`patent-disclosure-skill` 的完整克隆，将既有 `graphify` 补齐为完整历史；随后扫描并更新全部 92 个可见一级仓库：43 个实际快进、47 个原本最新，`codetracer` 因上游删除 `main` 而安全切换到 `stable`（旧 `main` 及 3 个独有提交仍保留），`reverse-skill` 因 3 个本地修改跳过。
+2026-08-29 只新增并核验 `loopx`、`ego-lite`。2026-09-02 新增 `archify`、`sepia` 的完整克隆记录。2026-09-03 新增 `pdf-inspector`、`effective-html` 的浅克隆记录，并复核既有 `andrej-karpathy-skills`、`mattpocock-skills`。2026-09-05 新增 `zvec-grep`、`terraform`、`patent-disclosure-skill` 的完整克隆，将既有 `graphify` 补齐为完整历史；随后扫描并更新全部 92 个可见一级仓库：43 个实际快进、47 个原本最新，`codetracer` 因上游删除 `main` 而安全切换到 `stable`（旧 `main` 及 3 个独有提交仍保留），`reverse-skill` 因 3 个本地修改跳过。2026-09-14 新增 `rare-ui`、`shadcn-ui`、`beautiful-ui`、`beui`、`transitions-dev`、`no-ai-slop` 6 个浅克隆；`ebook-treasure-chest` 与 `3b1b/manim` 仅登记、不计入本表。
 
 | 本地目录 | 上游 | 分支 | HEAD | 状态 |
 |------|------|------|------|------|
@@ -28,6 +28,8 @@
 | awesome-claude-skills | https://github.com/travisvn/awesome-claude-skills.git | main | `1da55aa8` | 已同步 |
 | awesome-design-md | https://github.com/VoltAgent/awesome-design-md.git | main | `8147538b` | 已同步 |
 | awesome-llm-apps | https://github.com/Shubhamsaboo/awesome-llm-apps.git | main | `24c85b09` | 已同步（2026-09-05） |
+| beautiful-ui | https://github.com/slev12397/beautiful-ui.git | main | `ff0f74d6` | 已浅克隆（2026-09-14） |
+| beui | https://github.com/starc007/ui-components.git | main | `8d3fa7b4` | 已浅克隆（2026-09-14） |
 | browser-use | https://github.com/browser-use/browser-use.git | main | `d5453ae8` | 已同步（2026-09-05） |
 | build-your-own-x | https://github.com/codecrafters-io/build-your-own-x.git | master | `aa17439b` | 已同步 |
 | caveman-full | https://github.com/JuliusBrussee/caveman.git | main | `5184b3d1` | 已同步（2026-09-05） |
@@ -70,6 +72,7 @@
 | nanobrowser | https://github.com/nanobrowser/nanobrowser.git | master | `24a14b76` | 已同步 |
 | nature-skills | https://github.com/Yuan1z0825/nature-skills.git | main | `b1a37a2b` | 已同步（2026-09-05） |
 | nginx-http-flv-module | https://github.com/winshining/nginx-http-flv-module.git | master | `2ad3dabe` | 已同步 |
+| no-ai-slop | https://github.com/petergyang/no-ai-slop.git | main | `000650b1` | 已浅克隆（2026-09-14） |
 | obsidian-skills | https://github.com/kepano/obsidian-skills.git | main | `a1dc48e6` | 已同步 |
 | OpenCLI | https://github.com/jackwener/OpenCLI.git | main | `8271afc6` | 已同步（2026-09-05） |
 | open-design | https://github.com/nexu-io/open-design.git | main | `50e305df` | 已同步（2026-09-05） |
@@ -85,12 +88,14 @@
 | playcaptcha | https://github.com/mortspace/playcaptcha.git | main | `e9e0e0f0` | 已同步 |
 | public-apis | https://github.com/public-apis/public-apis.git | master | `9d042687` | 已同步（2026-09-05） |
 | python-refactoring-skills | https://github.com/l-mb/python-refactoring-skills.git | main | `b0835710` | 已同步 |
+| rare-ui | https://github.com/swamimalode07/rare-ui.git | main | `d146c352` | 已浅克隆（2026-09-14） |
 | reverse-skill | https://github.com/zhaoxuya520/reverse-skill.git | main | `a5171e03` | 本地修改 3；ahead 1 / behind 142，未拉取 |
 | SafeGuard-Code-Profiler | https://github.com/hamed-kuheil/SafeGuard-Code-Profiler.git | main | `6d759c29` | 已同步 |
 | scientific-agent-skills | https://github.com/K-Dense-AI/scientific-agent-skills.git | main | `1e5eeffb` | 已同步（2026-09-05） |
 | scramble | https://github.com/dedoc/scramble.git | main | `7cf945d1` | 已同步（2026-09-05） |
 | sepia | https://github.com/Nanako0129/sepia.git | main | `401c89e4` | 已同步（2026-09-05） |
 | SESA-Self-Evolving-Search-Agents | https://github.com/Zenghuang-Fu/SESA-Self-Evolving-Search-Agents.git | master | `74de5d77` | 已同步 |
+| shadcn-ui | https://github.com/shadcn-ui/ui.git | main | `2b3e6d4f` | 已浅克隆（2026-09-14） |
 | skills-compat-manager | https://github.com/hnaymyh123-henry/skills-compat-manager.git | master | `8be1357e` | 已同步 |
 | skillspector | https://github.com/NVIDIA/skillspector.git | main | `7805bb94` | 已同步（2026-09-05） |
 | skillsProject-AI-Log-Analyzer | https://github.com/sahanaydn/skillsProject-AI-Log-Analyzer.git | main | `3682eae2` | 已同步 |
@@ -99,6 +104,7 @@
 | SupplyChainScanner | https://github.com/benjiamin911/SupplyChainScanner.git | main | `6e4dcc10` | 已同步 |
 | taste-skill | https://github.com/Leonxlnx/taste-skill.git | main | `ccbc1563` | 已同步 |
 | terraform | https://github.com/hashicorp/terraform.git | main | `7b8c301b` | 已完整克隆（2026-09-05） |
+| transitions-dev | https://github.com/Jakubantalik/transitions.dev.git | main | `598d3d6a` | 已浅克隆（2026-09-14） |
 | ui-ux-pro-max-skill | https://github.com/nextlevelbuilder/ui-ux-pro-max-skill.git | main | `f3ac1952` | 已同步（2026-09-05） |
 | vue-skills-full | https://github.com/vuejs-ai/skills.git | main | `c9d355ff` | 已同步 |
 | vue-tui | https://github.com/Simon-He95/vue-tui.git | main | `07ef737a` | 已同步（2026-09-05） |
