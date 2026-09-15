@@ -7,6 +7,17 @@
 
 ---
 
+## 2026-09-15 代码审查、下载工具与手绘风格候选
+
+- 浅克隆 `alibaba/open-code-review` 到 `E:\aimodel\open-code-review\`，HEAD `55899906`；确认 Apache-2.0、4 个物理 `SKILL.md`（2 个逻辑 Skill 在源码与插件目录中各保留一份），本轮未安装 `ocr` 或配置模型。
+- 浅克隆 `XiaoYouChR/Ghost-Downloader-3` 到 `E:\aimodel\Ghost-Downloader-3\`，HEAD `601e2068`；补齐父仓库锁定的 `xifangczy/cat-catch@b34a7677` 子模块。项目为 GPL-3.0 的 Python/PySide6 多协议下载器，本轮未安装依赖、浏览器扩展或桌面程序。
+- 仅登记 `yang0/handraw-style`：审查时 HEAD `70bf51d6`，含 1 个提示词 Skill；仓库未提供许可证文件，且 340 个跟踪文件的浅克隆约 195.1 MiB，因此移除临时审查副本，不在本目录长期镜像。
+- 扫描发现此前只登记的 `3b1b/manim` 已在根目录存在 `master@fafa083a` 浅克隆；保留现状并补入一级仓库台账，没有改动其工作树。
+- 两个新增父仓库工作树干净并通过 `git fsck --no-reflogs`；更新 `REPOSITORIES.md`、`SKILLS_INDEX.md`、`GITHUB_REPOS.md`、`GITHUB_STAR_LIST.md` 和本变更记录。一级目录现为 101 个可见第三方仓库加 1 个隐藏聚合仓库。
+- 本轮未执行第三方代码、安装依赖或全局 Skill，也未向第三方仓库推送。
+
+---
+
 ## 2026-09-14 UI 组件库、动效 Skill 与写作 Skill
 
 - 浅克隆 `rare-ui`、`shadcn-ui`、`beautiful-ui`、`beui`、`transitions-dev` 和 `no-ai-slop` 到 `E:\aimodel\`；6 个仓库均为干净工作树并通过 `git fsck --no-reflogs`。

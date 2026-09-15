@@ -1,7 +1,7 @@
 # AI Skills 仓库索引
 
 **@author liuhao**
-**更新时间**: 2026-09-14
+**更新时间**: 2026-09-15
 
 ---
 
@@ -12,6 +12,16 @@
 - `open-design`、`pi`、`vue-tui` 等工具仓库只存放，不纳入正式 skill 主统计；本轮同步状态单独记录。
 - 这目录只做存放和索引，不在这里装依赖，也不写 C 盘全局配置。
 - `reverse-skill` 当前保留本地修改，已跳过更新。
+
+## 2026-09-15 代码审查、下载工具与手绘风格候选
+
+| 仓库 | 来源 | HEAD | `SKILL.md` 数 | 状态与定位 |
+|------|------|------|----------------|------------|
+| open-code-review | https://github.com/alibaba/open-code-review.git | `55899906` | 4 个物理文件 / 2 个逻辑 Skill | 已浅克隆；提供精确文件选择、规则匹配、行级评论与 Codex 委托模式；Apache-2.0，未安装 CLI 或全局 Skill |
+| Ghost-Downloader-3 | https://github.com/XiaoYouChR/Ghost-Downloader-3.git | `601e2068` | 0 | 已浅克隆并检出锁定的 `cat-catch@b34a7677` 子模块；多协议桌面下载工具源码，GPL-3.0，不作为 Skill 安装 |
+| handraw-style | https://github.com/yang0/handraw-style.git | `70bf51d6`（审查时） | 1 | 仅登记；提示词与参考图结合紧密，但无明确许可证且浅克隆约 195.1 MiB，未长期落盘或安装 |
+
+本轮新增 2 个一级浅克隆，并补登记根目录中已经存在的 `manim` 浅克隆。`E:\aimodel` 当前共有 102 个带 `.git` 的一级目录（101 个可见第三方仓库 + 1 个隐藏聚合仓库）；新增源码均未安装或执行。
 
 ## 2026-09-14 UI、动效与写作 Skill 补充
 
@@ -224,6 +234,7 @@ git clone --depth 1 <url> E:\aimodel\<repo>
 
 | 仓库 | 来源 | 说明 |
 |------|------|------|
+| open-code-review | https://github.com/alibaba/open-code-review | 带确定性文件选择、规则匹配和行级定位的 AI 代码审查 CLI，并提供 Codex 委托 Skill |
 | code-review-plugin | https://github.com/anthropics/claude-plugins-official | 代码审查插件 |
 | python-refactoring-skills | https://github.com/l-mb/python-refactoring-skills | Python重构技能 |
 | SmeLLM | https://github.com/refactoring-assistant/SmeLLM | 代码坏味道检测+自动重构 |
@@ -239,6 +250,7 @@ git clone --depth 1 <url> E:\aimodel\<repo>
 
 | 仓库 | 来源 | 说明 |
 |------|------|------|
+| Ghost-Downloader-3 | https://github.com/XiaoYouChR/Ghost-Downloader-3 | Python/PySide6 多协议桌面下载器源码，含锁定的浏览器扩展子模块 |
 | skills-compat-manager | https://github.com/hnaymyh123-henry/skills-compat-manager | 跨平台技能兼容层 |
 | skillsProject-AI-Log-Analyzer | https://github.com/sahanaydn/skillsProject-AI-Log-Analyzer | 日志分析技能 |
 | SafeGuard-Code-Profiler | https://github.com/hamed-kuheil/SafeGuard-Code-Profiler | 性能瓶颈分析器 |

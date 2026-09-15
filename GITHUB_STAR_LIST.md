@@ -16,6 +16,17 @@
 
 ---
 
+## 2026-09-15 新增手动收藏链接
+
+| 仓库 | 链接 | 本地处理 |
+|------|------|----------|
+| alibaba/open-code-review | https://github.com/alibaba/open-code-review | 已浅克隆 |
+| XiaoYouChR/Ghost-Downloader-3 | https://github.com/XiaoYouChR/Ghost-Downloader-3 | 已浅克隆并检出锁定子模块 |
+| yang0/handraw-style | https://github.com/yang0/handraw-style | 仅登记；无明确许可证且图片体量较大 |
+| 3b1b/manim | https://github.com/3b1b/manim | 扫描发现已有浅克隆；补正此前“仅登记”状态 |
+
+---
+
 ## 2026-09-14 新增手动收藏链接
 
 | 仓库 | 链接 | 本地处理 |

@@ -1,10 +1,27 @@
 # GitHub 仓库下载与配置台账
 
-**最后整理**: 2026-09-14
+**最后整理**: 2026-09-15
 **目录**: E:\aimodel
 **定位**: GitHub 下载与配置历史台账；当前 skill 更新状态以 [SKILLS_INDEX.md](SKILLS_INDEX.md) 为准
 **状态**: 只记录克隆和配置，不自动安装依赖、不写入全局 Codex skills
 **Star 手动清单**: [GITHUB_STAR_LIST.md](GITHUB_STAR_LIST.md)
+
+---
+
+## 2026-09-15 代码审查、下载工具与手绘风格候选
+
+| 仓库 | 类型与用途 | 本地处理 | 判断与边界 |
+|------|------------|----------|------------|
+| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | AI 代码审查 CLI、Codex/Claude/Cursor Skill 与 CI 集成 | 浅克隆到 `E:\aimodel\open-code-review\`，HEAD `55899906` | Apache-2.0；2 个逻辑 Skill（源码与插件目录各保留一份），适合本目录长期保存；未安装 `ocr`、未配置模型或执行审查 |
+| [XiaoYouChR/Ghost-Downloader-3](https://github.com/XiaoYouChR/Ghost-Downloader-3) | Python/PySide6 多协议下载器，支持 HTTP、BT、FTP、流媒体、GitHub 与 Hugging Face | 浅克隆到 `E:\aimodel\Ghost-Downloader-3\`，HEAD `601e2068`；浏览器扩展子模块固定为 `b34a7677` | GPL-3.0；属于工具源码而非 Skill，适合作为下载器实现参考；未安装 Python 依赖、浏览器扩展或桌面程序 |
+| [yang0/handraw-style](https://github.com/yang0/handraw-style) | 001–261 手绘风格图集与双语提示词 Skill | 仅登记；审查用临时浅克隆已移除 | 仓库未提供许可证文件，且仅 340 个跟踪文件的浅克隆已约 195.1 MiB，主要体量来自参考图片；不在本地长期镜像，使用前应先取得清晰授权 |
+
+### 静态核验
+
+- `open-code-review` 与 `Ghost-Downloader-3` 均为 `--depth 1` 浅克隆、工作树干净，并通过 `git fsck --no-reflogs`；本地占用分别约 18.4 MiB 和 29.5 MiB。
+- `Ghost-Downloader-3` 的 `browser_extension/upstream` 已检出父仓库锁定的 `xifangczy/cat-catch@b34a7677`，没有擅自跟随子模块最新 `master`。
+- 扫描同时发现此前仅登记的 `3b1b/manim` 已在根目录形成 `master@fafa083a` 浅克隆；本轮只补正台账，不改动该工作树。
+- 本轮没有执行候选仓库代码、安装依赖、写入全局 Codex Skills、启动服务或向第三方仓库推送。
 
 ---
 

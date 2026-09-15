@@ -2,15 +2,15 @@
 
 **扫描目录**: `E:\aimodel`
 
-**扫描时间**: 2026-09-14
+**扫描时间**: 2026-09-15
 
-**一级仓库目录数（2026-09-14）**: 99（98 个可见第三方仓库 + 1 个隐藏聚合仓库）
+**一级仓库目录数（2026-09-15）**: 102（101 个可见第三方仓库 + 1 个隐藏聚合仓库）
 
 本表记录一级 Git 仓库的上游地址、当前分支、提交和同步状态。第三方仓库实体不重复上传到本聚合仓库；需要内容时应从对应上游克隆并遵守其许可证。Skill 数量与能力评估见 [SKILLS_INDEX.md](SKILLS_INDEX.md)，批次说明见 [GITHUB_REPOS.md](GITHUB_REPOS.md)。
 
 状态含义：`已同步` 表示扫描时本地 HEAD 与已配置上游一致；`本地修改` 表示为保护工作区而跳过更新；`分叉 +A/-B` 表示本地相对上游领先 A 个、落后 B 个提交，没有自动改写历史。
 
-2026-08-29 只新增并核验 `loopx`、`ego-lite`。2026-09-02 新增 `archify`、`sepia` 的完整克隆记录。2026-09-03 新增 `pdf-inspector`、`effective-html` 的浅克隆记录，并复核既有 `andrej-karpathy-skills`、`mattpocock-skills`。2026-09-05 新增 `zvec-grep`、`terraform`、`patent-disclosure-skill` 的完整克隆，将既有 `graphify` 补齐为完整历史；随后扫描并更新全部 92 个可见一级仓库：43 个实际快进、47 个原本最新，`codetracer` 因上游删除 `main` 而安全切换到 `stable`（旧 `main` 及 3 个独有提交仍保留），`reverse-skill` 因 3 个本地修改跳过。2026-09-14 新增 `rare-ui`、`shadcn-ui`、`beautiful-ui`、`beui`、`transitions-dev`、`no-ai-slop` 6 个浅克隆；`ebook-treasure-chest` 与 `3b1b/manim` 仅登记、不计入本表。
+2026-08-29 只新增并核验 `loopx`、`ego-lite`。2026-09-02 新增 `archify`、`sepia` 的完整克隆记录。2026-09-03 新增 `pdf-inspector`、`effective-html` 的浅克隆记录，并复核既有 `andrej-karpathy-skills`、`mattpocock-skills`。2026-09-05 新增 `zvec-grep`、`terraform`、`patent-disclosure-skill` 的完整克隆，将既有 `graphify` 补齐为完整历史；随后扫描并更新全部 92 个可见一级仓库：43 个实际快进、47 个原本最新，`codetracer` 因上游删除 `main` 而安全切换到 `stable`（旧 `main` 及 3 个独有提交仍保留），`reverse-skill` 因 3 个本地修改跳过。2026-09-14 新增 `rare-ui`、`shadcn-ui`、`beautiful-ui`、`beui`、`transitions-dev`、`no-ai-slop` 6 个浅克隆；`ebook-treasure-chest` 与 `3b1b/manim` 当时仅登记。2026-09-15 新增 `open-code-review`、`Ghost-Downloader-3` 两个浅克隆，`handraw-style` 因无明确许可证且图片体量较大而只登记；同时补记根目录中现已存在的 `manim` 浅克隆。
 
 | 本地目录 | 上游 | 分支 | HEAD | 状态 |
 |------|------|------|------|------|
@@ -49,6 +49,7 @@
 | emilkowalski-skills | https://github.com/emilkowalski/skills.git | main | `d23d7f88` | 已同步 |
 | goose | https://github.com/aaif-goose/goose.git | main | `5e909259` | 已同步（2026-09-05） |
 | gortex | https://github.com/zzet/gortex.git | main | `134f4f20` | 已同步（2026-09-05） |
+| Ghost-Downloader-3 | https://github.com/XiaoYouChR/Ghost-Downloader-3.git | main | `601e2068` | 已浅克隆；含锁定子模块 `cat-catch@b34a7677`（2026-09-15） |
 | graphify | https://github.com/Graphify-Labs/graphify.git | v8 | `937e59a5` | 已补全历史并同步（2026-09-05） |
 | hallmark | https://github.com/Nutlope/hallmark.git | main | `13ac0ec7` | 已同步 |
 | headroom | https://github.com/headroomlabs-ai/headroom.git | main | `e59cf101` | 已同步（2026-09-05） |
@@ -64,6 +65,7 @@
 | liteparse | https://github.com/run-llama/liteparse.git | main | `cc38a9cc` | 已同步（2026-09-05） |
 | loopx | https://github.com/huangruiteng/loopx.git | main | `e3f9b536` | 已同步（浅克隆，2026-09-05） |
 | markdown-viewer-skills | https://github.com/markdown-viewer/skills.git | main | `a3afd455` | 已同步 |
+| manim | https://github.com/3b1b/manim.git | master | `fafa083a` | 已有浅克隆；2026-09-15 补登记 |
 | mattpocock-skills | https://github.com/mattpocock/skills.git | main | `3cca18b3` | 已同步（2026-09-05） |
 | mergration | https://github.com/38tter/mergration.git | main | `0595ea02` | 已同步 |
 | mermaid-erd-generator | https://github.com/nharsch/mermaid-erd-generator.git | main | `cbecf0ba` | 已同步 |
@@ -75,6 +77,7 @@
 | no-ai-slop | https://github.com/petergyang/no-ai-slop.git | main | `000650b1` | 已浅克隆（2026-09-14） |
 | obsidian-skills | https://github.com/kepano/obsidian-skills.git | main | `a1dc48e6` | 已同步 |
 | OpenCLI | https://github.com/jackwener/OpenCLI.git | main | `8271afc6` | 已同步（2026-09-05） |
+| open-code-review | https://github.com/alibaba/open-code-review.git | main | `55899906` | 已浅克隆（2026-09-15） |
 | open-design | https://github.com/nexu-io/open-design.git | main | `50e305df` | 已同步（2026-09-05） |
 | open-source-games | https://github.com/bobeff/open-source-games.git | main | `3a9ab8fc` | 已同步 |
 | openwork | https://github.com/different-ai/openwork.git | dev | `89558a98` | 已同步（2026-09-05） |
