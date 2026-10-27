@@ -16,6 +16,35 @@
 
 ---
 
+## 2026-10-27 模型记录补充
+
+| 项目 | 官方来源 | 本地处理 |
+|------|----------|----------|
+| Magenta RealTime 2 | https://github.com/magenta/magenta-realtime | 澄清前已形成源码浅克隆；记录实时与离线路径的硬件差异 |
+| Pocket TTS | https://github.com/kyutai-labs/pocket-tts | 澄清前已形成源码浅克隆；补充 CPU TTS 与语言评价 |
+| Supertonic | https://github.com/supertone-oss-archive/supertonic | 澄清前已形成源码浅克隆；标记已归档、代码与模型分别许可 |
+| TimesFM | https://github.com/google-research/timesfm | 交叉引用已有预测 Skill；补充独立源码与版本许可差异 |
+| VibeVoice | https://github.com/microsoft/VibeVoice | 澄清前已形成源码浅克隆；区分历史 TTS、实时 TTS 与 ASR |
+
+按用户最新要求，后续仅维护记录和评价，不继续下载。没有执行 GitHub Star 操作。
+
+---
+
+## 2026-10-27 新增与复核链接
+
+| 仓库 | 链接 | 本地处理 |
+|------|------|----------|
+| alibaba/skill-up | https://github.com/alibaba/skill-up | 新增浅克隆；Skill 评测与演进工具 |
+| morluto/rea | https://github.com/morluto/rea | 新增浅克隆；逆向 CLI / MCP，第三方子模块未初始化 |
+| NationalSecurityAgency/ghidra | https://github.com/NationalSecurityAgency/ghidra | 新增浅克隆；源码，非预构建发行包 |
+| affaan-m/ECC | https://github.com/affaan-m/ECC | 新增浅克隆；主 skills/ 下 311 个入口 |
+| alibaba/open-code-review | https://github.com/alibaba/open-code-review | 既有 main 已快进到 375f64cd |
+| XiaoYouChR/Ghost-Downloader-3 | https://github.com/XiaoYouChR/Ghost-Downloader-3 | 保留旧 main；新跟踪分支更新到 ee0cb1aa |
+
+本轮仅维护本地源码与链接清单，未自动操作 GitHub Star。
+
+---
+
 ## 2026-09-15 新增手动收藏链接
 
 | 仓库 | 链接 | 本地处理 |

@@ -1,7 +1,7 @@
 # AI Skills 仓库索引
 
 **@author liuhao**
-**更新时间**: 2026-09-15
+**更新时间**: 2026-10-27
 
 ---
 
@@ -12,6 +12,41 @@
 - `open-design`、`pi`、`vue-tui` 等工具仓库只存放，不纳入正式 skill 主统计；本轮同步状态单独记录。
 - 这目录只做存放和索引，不在这里装依赖，也不写 C 盘全局配置。
 - `reverse-skill` 当前保留本地修改，已跳过更新。
+
+## 2026-10-27 音乐、语音与时间序列模型记录
+
+按用户最新要求，后续只更新记录，不继续下载。5 个源码仓库在澄清到达前已形成；未另行安装或下载完整模型检查点。详见 [模型本地适配评价](GITHUB_REPOS.md#2026-10-27-模型记录与本地适配评价) 和 [核验 JSON](scripts/repository-model-review-20261027.json)。
+
+| 项目 | 来源 / HEAD | SKILL.md 数 | 用途与评价 |
+|------|-------------|--------------|------------|
+| Magenta RealTime 2 | magenta/magenta-realtime / `694a545e` | 0 | 音乐生成源码；实时路径侧重 Apple Silicon，当前 Windows / 4 GB 显存机器先作研究记录；SequenceLayers 子模块未初始化 |
+| Pocket TTS | kyutai-labs/pocket-tts / `77c3d76b` | 0 | CPU 流式 TTS 优先候选；官方支持列表没有中文，未在本机实测 |
+| Supertonic | supertone-oss-archive/supertonic / `1e9799e9` | 0 | 轻量 ONNX TTS 参考；已归档停止支持，v3 的 31 语种列表没有中文 |
+| TimesFM | google-research/timesfm / `e51928e2` | 1 | 时间序列预测；已有 scientific-agent-skills 中的 timesfm-forecasting 记录，上游也有该 Skill；交叉引用，区分 2.5 / 3.0 API 与权重许可 |
+| VibeVoice | microsoft/VibeVoice / `16fb2cb1` | 0 | 分别记录旧多说话人 TTS、Realtime-0.5B 与 ASR；历史宣传、实验语言和当前可运行能力分开评价 |
+
+本机已核实 i7-12650H（10 核 / 16 线程）、RTX 3050 Laptop 4 GB 显存与默认 Python 3.10.0。没有运行模型或测量音质、延迟、显存峰值；选型评价不代表运行验收。模型源码不直接计入正式 Skill 能力总数，TimesFM 的相近来源也不重复累计。
+
+## 2026-10-27 Skill 评测、逆向分析与 ECC
+
+| 仓库 | 来源 | HEAD | Skill 统计口径 | 状态与定位 |
+|------|------|------|----------------|------------|
+| skill-up | https://github.com/alibaba/skill-up.git | `6fec8e9f` | 1 个正式 skill-upper；全仓 23 个物理 SKILL.md 含示例与夹具 | 新增浅克隆；评测 Agent Skill、Agent 和 Workspace，并根据证据演进 Skill；Apache-2.0 |
+| rea | https://github.com/morluto/rea.git | `570abe95` | 1 个 reverse-engineer-anything 用户入口 + 4 个仓库维护 Skill | 新增浅克隆；逆向 CLI / MCP，可接 Ghidra 等引擎；MIT 自有代码，5 个第三方子模块未初始化 |
+| ghidra | https://github.com/NationalSecurityAgency/ghidra.git | `1b9e58a9` | 0 | 新增 master 浅克隆；反汇编、反编译与程序分析工具源码，主许可证 Apache-2.0；未保存可运行发行包 |
+| ECC | https://github.com/affaan-m/ECC.git | `25278e7d` | 主 skills/ 下 311 个入口；全仓 1062 个物理 SKILL.md 含翻译和平台变体 | 新增浅克隆；Agent Skills、规则、hooks、记忆和工作流集合；MIT，按需选用 |
+| open-code-review | https://github.com/alibaba/open-code-review.git | `375f64cd` | 4 个物理文件 / 2 个逻辑 Skill | 既有 main 已快进；代码审查 CLI 与委托审查 Skill，Apache-2.0 |
+| Ghost-Downloader-3 | https://github.com/XiaoYouChR/Ghost-Downloader-3.git | `ee0cb1aa` | 0 | 既有下载工具已在新跟踪分支更新；保留旧 main，GPL-3.0，不纳入正式 Skill 统计 |
+
+### 按任务选择
+
+- 编写、评测和改进 Skill：查看 `skill-up/skills/skill-upper/SKILL.md`；测试示例和 E2E 夹具不计作新增可安装能力。
+- 分析已发布应用、二进制或运行行为：查看 `rea/.agents/skills/reverse-engineer-anything/SKILL.md`。源码架构问题仍使用普通代码检索；REA 的另外 4 个 Skill 用于其自身维护。
+- 使用反汇编 / 反编译引擎：Ghidra 是独立工具；当前只有源码，按该版本 README 准备 JDK 与官方发行包后才能运行，REA 也需要指向实际安装。
+- 查找工程工作流、Agent 规则或 hooks：以 `ECC/skills/` 的 311 个入口为主；`.agents/`、`.cursor/`、`.kiro/`、`pi/` 和翻译目录不直接累加为独立能力。
+- 代码审查：继续查看 `open-code-review/skills/` 中两个逻辑 Skill。下载器源码保留在 `Ghost-Downloader-3/`，与代码审查用途分开记录。
+
+本轮新增 4 个一级仓库，并更新 2 个已有仓库。该批完成时共 105 个可见第三方 Git 仓库和 1 个隐藏聚合仓库；其他项目仍沿用各自历史扫描日期。6 个选定仓库均通过 Git 对象校验、当前工作树干净，未安装依赖、全局 Skills 或 MCP。分支处理、子模块锁定提交与机器记录见 [下载台账](GITHUB_REPOS.md) 和 [批次 JSON](scripts/repository-batch-20261027.json)。
 
 ## 2026-09-15 代码审查、下载工具与手绘风格候选
 

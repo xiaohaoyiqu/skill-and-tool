@@ -1,0 +1,315 @@
+{
+  "date": "2026-10-27",
+  "scope": "Review of five model projects. Source clones finished before the user clarified record-only scope; no further source, weights, dependencies or services were downloaded after clarification.",
+  "visible_repository_count": 110,
+  "hidden_repository_directories": [
+    ".skill-and-tool-upload"
+  ],
+  "repositories": [
+    {
+      "repository": "magenta-realtime",
+      "origin": {
+        "exit_code": 0,
+        "output": "https://github.com/magenta/magenta-realtime.git",
+        "error": ""
+      },
+      "branch": {
+        "exit_code": 0,
+        "output": "main",
+        "error": ""
+      },
+      "head": {
+        "exit_code": 0,
+        "output": "694a545e4ba0b88bf1150137b129582166d3e07f",
+        "error": ""
+      },
+      "upstream": {
+        "exit_code": 0,
+        "output": "origin/main",
+        "error": ""
+      },
+      "ahead_behind": {
+        "exit_code": 0,
+        "output": "0\t0",
+        "error": ""
+      },
+      "shallow": {
+        "exit_code": 0,
+        "output": "true",
+        "error": ""
+      },
+      "status": {
+        "exit_code": 0,
+        "output": "",
+        "error": ""
+      },
+      "fsck": {
+        "exit_code": 0,
+        "output": "",
+        "error": ""
+      },
+      "tracked_files": 243,
+      "skill_files": [],
+      "skill_groups": {},
+      "submodules": [
+        {
+          "path": "magenta_rt/_vendor/sequence-layers",
+          "locked_commit": "c85a637a1afae8f4f2d4edb458f2111b5f44ae52",
+          "initialized": false,
+          "head": ""
+        }
+      ],
+      "lfs_attributes": [],
+      "size_bytes": 4752016,
+      "license_files": [
+        "LICENSE",
+        "LICENSE_HEADER.txt",
+        "LICENSE_HEADER_SH.txt"
+      ],
+      "physical_skill_file_count": 0,
+      "source_acquisition": "shallow-cloned-before-record-only-clarification"
+    },
+    {
+      "repository": "pocket-tts",
+      "origin": {
+        "exit_code": 0,
+        "output": "https://github.com/kyutai-labs/pocket-tts.git",
+        "error": ""
+      },
+      "branch": {
+        "exit_code": 0,
+        "output": "main",
+        "error": ""
+      },
+      "head": {
+        "exit_code": 0,
+        "output": "77c3d76b63d6cfe08c674b4f728db6774cf01df6",
+        "error": ""
+      },
+      "upstream": {
+        "exit_code": 0,
+        "output": "origin/main",
+        "error": ""
+      },
+      "ahead_behind": {
+        "exit_code": 0,
+        "output": "0\t0",
+        "error": ""
+      },
+      "shallow": {
+        "exit_code": 0,
+        "output": "true",
+        "error": ""
+      },
+      "status": {
+        "exit_code": 0,
+        "output": "",
+        "error": ""
+      },
+      "fsck": {
+        "exit_code": 0,
+        "output": "",
+        "error": ""
+      },
+      "tracked_files": 174,
+      "skill_files": [],
+      "skill_groups": {},
+      "submodules": [],
+      "lfs_attributes": [],
+      "size_bytes": 3102886,
+      "license_files": [
+        "LICENSE"
+      ],
+      "physical_skill_file_count": 0,
+      "source_acquisition": "shallow-cloned-before-record-only-clarification"
+    },
+    {
+      "repository": "supertonic",
+      "origin": {
+        "exit_code": 0,
+        "output": "https://github.com/supertone-oss-archive/supertonic.git",
+        "error": ""
+      },
+      "branch": {
+        "exit_code": 0,
+        "output": "main",
+        "error": ""
+      },
+      "head": {
+        "exit_code": 0,
+        "output": "1e9799e964ea4c0dad7cde993b65c3c813a7b373",
+        "error": ""
+      },
+      "upstream": {
+        "exit_code": 0,
+        "output": "origin/main",
+        "error": ""
+      },
+      "ahead_behind": {
+        "exit_code": 0,
+        "output": "0\t0",
+        "error": ""
+      },
+      "shallow": {
+        "exit_code": 0,
+        "output": "true",
+        "error": ""
+      },
+      "status": {
+        "exit_code": 0,
+        "output": "",
+        "error": ""
+      },
+      "fsck": {
+        "exit_code": 0,
+        "output": "",
+        "error": ""
+      },
+      "tracked_files": 115,
+      "skill_files": [],
+      "skill_groups": {},
+      "submodules": [],
+      "lfs_attributes": [
+        ".gitattributes"
+      ],
+      "size_bytes": 7837997,
+      "license_files": [
+        "LICENSE"
+      ],
+      "physical_skill_file_count": 0,
+      "source_acquisition": "shallow-cloned-before-record-only-clarification"
+    },
+    {
+      "repository": "timesfm",
+      "origin": {
+        "exit_code": 0,
+        "output": "https://github.com/google-research/timesfm.git",
+        "error": ""
+      },
+      "branch": {
+        "exit_code": 0,
+        "output": "master",
+        "error": ""
+      },
+      "head": {
+        "exit_code": 0,
+        "output": "e51928e27119cb17bebc005be2696b75e0a9e688",
+        "error": ""
+      },
+      "upstream": {
+        "exit_code": 0,
+        "output": "origin/master",
+        "error": ""
+      },
+      "ahead_behind": {
+        "exit_code": 0,
+        "output": "0\t0",
+        "error": ""
+      },
+      "shallow": {
+        "exit_code": 0,
+        "output": "true",
+        "error": ""
+      },
+      "status": {
+        "exit_code": 0,
+        "output": "",
+        "error": ""
+      },
+      "fsck": {
+        "exit_code": 0,
+        "output": "",
+        "error": ""
+      },
+      "tracked_files": 156,
+      "skill_files": [
+        "timesfm-forecasting/SKILL.md"
+      ],
+      "skill_groups": {
+        "timesfm-forecasting": 1
+      },
+      "submodules": [],
+      "lfs_attributes": [
+        ".gitattributes"
+      ],
+      "size_bytes": 7436264,
+      "license_files": [
+        "LICENSE"
+      ],
+      "physical_skill_file_count": 1,
+      "source_acquisition": "shallow-cloned-before-record-only-clarification"
+    },
+    {
+      "repository": "VibeVoice",
+      "origin": {
+        "exit_code": 0,
+        "output": "https://github.com/microsoft/VibeVoice.git",
+        "error": ""
+      },
+      "branch": {
+        "exit_code": 0,
+        "output": "main",
+        "error": ""
+      },
+      "head": {
+        "exit_code": 0,
+        "output": "16fb2cb1217c9934a886e1948ffb06120caa2df5",
+        "error": ""
+      },
+      "upstream": {
+        "exit_code": 0,
+        "output": "origin/main",
+        "error": ""
+      },
+      "ahead_behind": {
+        "exit_code": 0,
+        "output": "0\t0",
+        "error": ""
+      },
+      "shallow": {
+        "exit_code": 0,
+        "output": "true",
+        "error": ""
+      },
+      "status": {
+        "exit_code": 0,
+        "output": "",
+        "error": ""
+      },
+      "fsck": {
+        "exit_code": 0,
+        "output": "",
+        "error": ""
+      },
+      "tracked_files": 111,
+      "skill_files": [],
+      "skill_groups": {},
+      "submodules": [],
+      "lfs_attributes": [],
+      "size_bytes": 276189038,
+      "license_files": [
+        "LICENSE"
+      ],
+      "physical_skill_file_count": 0,
+      "source_acquisition": "shallow-cloned-before-record-only-clarification"
+    }
+  ],
+  "user_scope_clarification": "No further downloads; update existing records and evaluations only.",
+  "source_clones_finished_before_clarification": true,
+  "downloads_after_clarification": [],
+  "separate_model_checkpoint_downloads": [],
+  "dependency_installations": [],
+  "model_inference_or_benchmarks_run": false,
+  "hardware_observed": {
+    "os_family": "Windows",
+    "cpu": "Intel Core i7-12650H",
+    "physical_cores": 10,
+    "logical_processors": 16,
+    "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+    "gpu_total_memory_mib": 4096,
+    "default_python_version": "3.10.0",
+    "system_ram_bytes": null,
+    "note": "Hardware was read only; no model runtime validation was performed."
+  },
+  "existing_related_skill": "scientific-agent-skills/skills/timesfm-forecasting/SKILL.md"
+}

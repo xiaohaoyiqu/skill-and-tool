@@ -1,10 +1,69 @@
 # GitHub 仓库下载与配置台账
 
-**最后整理**: 2026-09-15
+**最后整理**: 2026-10-27
 **目录**: E:\aimodel
 **定位**: GitHub 下载与配置历史台账；当前 skill 更新状态以 [SKILLS_INDEX.md](SKILLS_INDEX.md) 为准
 **状态**: 只记录克隆和配置，不自动安装依赖、不写入全局 Codex skills
 **Star 手动清单**: [GITHUB_STAR_LIST.md](GITHUB_STAR_LIST.md)
+
+---
+
+## 2026-10-27 模型记录与本地适配评价
+
+用户随后明确“**不需要下载，有记录就更新**”，因此后续只维护台账和评价。澄清到达前，下列 5 个源码浅克隆已完成；如实记录现状，没有继续下载源码、模型权重、依赖或子模块，没有安装或运行模型。
+
+本地已有 `scientific-agent-skills/skills/timesfm-forecasting/SKILL.md`，主要面向 TimesFM 2.5。本轮补充独立上游与版本差异，不改写第三方 Skill。评价依据为官方 README / 模型卡及只读硬件检查，**不是本机音质、延迟或预测基准测试**。
+
+本机已核实：Windows、i7-12650H（10 核 / 16 线程）、RTX 3050 Laptop（4096 MiB 显存）、默认 Python 3.10.0。未核实系统内存、可用显存或依赖状态；下列判断是选型参考，不是运行验收。
+
+| 项目 / 源码版本 | 用途、版本与许可 | 本地使用评价 |
+|-----------------|------------------|--------------|
+| [Magenta RealTime 2](https://github.com/magenta/magenta-realtime)，`main@694a545e` | 文本、音频、MIDI 控制的音乐生成；small 230M / base 2.4B；代码 Apache-2.0，权重 CC-BY-4.0，另见 MODEL.md 条款 | **研究保留，暂不列为本机实时音乐首选。** 官方实时应用和 MLX 路径面向 Apple Silicon；NVIDIA Python 离线路径不代表 Windows + 4 GB 显存实时保证。源码要求 Python >=3.11，当前默认版本不满足 |
+| [Pocket TTS](https://github.com/kyutai-labs/pocket-tts)，`main@77c3d76b`，包版本 4.0.1 | CPU 流式 TTS、音色克隆；常规模型约 100M，另有 1.9M–18.2M 小型英语模型；代码 MIT，官方模型卡 CC-BY-4.0，预置音色另核许可 | **CPU 非中文 TTS 优先候选。** 不依赖 CUDA；当前支持英、法、德、葡、意、西、荷语，不含中文。要求 Python 3.10–3.14、PyTorch >=2.5，尚未在本机安装或实测 |
+| [Supertonic](https://github.com/supertone-oss-archive/supertonic)，`main@1e9799e9` | ONNX 本地 TTS；归档 v3 约 99M、31 语种；示例代码 MIT、模型 OpenRAIL-M | **轻量 ONNX 参考，维护优先级下调。** 已停止开发和支持；31 语种不含中文，lang=na 不等于新增中文能力。Voice Builder / 在线演示不是归档可用能力；仅记录固定归档权重与预置音色路径 |
+| [TimesFM](https://github.com/google-research/timesfm)，`master@e51928e2`，包版本 3.0.2 | 时间序列预测，非语音或音乐；3.0 增加原生多变量和协变量支持；代码及 <=2.5 权重 Apache-2.0，**3.0 自托管权重仅限非商业、非生产用途** | **有预测任务时优先复核已有 2.5 Skill。** 200M 的 2.5 更适合先做 CPU / 小批量验证；旧 Skill 资源估计不能外推为 3.0 保证。应做滚动回测，与季节性朴素基线比较，检查缺失值和数据泄漏 |
+| [Microsoft VibeVoice](https://github.com/microsoft/VibeVoice)，`main@16fb2cb1` | TTS / ASR 模型家族；代码 MIT，各权重核对具体模型卡 | **分版本选用。** 旧多说话人 TTS 代码已从官方仓库移除；当前 Realtime-0.5B 是英语为主的单说话人流式 TTS，多语言仍属实验，4 GB 显存表现待实测。7B ASR 不列为本机默认方案；官方另有 [VibeASR.cpp](https://github.com/microsoft/VibeASR.cpp) CPU 路径，仅补充链接 |
+
+### 评价依据与后续选用
+
+- 音乐以 [当前硬件说明](https://github.com/magenta/magenta-realtime#hardware-requirements)、[模型卡](https://github.com/magenta/magenta-realtime/blob/main/MODEL.md) 和 [官方应用页](https://magenta.withgoogle.com/mrt2) 为准。官方页面对 base 支持机型的列举存在差异，故不把单一 Mac 最低型号或 Windows 实时速度写成确认结论。
+- 非中文轻量 TTS 先看 [Pocket TTS 当前说明](https://github.com/kyutai-labs/pocket-tts#main-takeaways)；ONNX 集成参考见 [Supertonic 归档说明](https://github.com/supertone-oss-archive/supertonic#quick-start) 与 [v3 模型卡](https://huggingface.co/supertone-oss-archive/supertonic-3)。官方其他硬件上的速度倍数没有当作本机成绩。
+- TimesFM 的本地既有 Skill 与独立上游 `timesfm/timesfm-forecasting/SKILL.md` 交叉引用，不重复累计为两项能力。[3.0 权重许可说明](https://github.com/google-research/timesfm#license-notice-for-pretrained-weights) 与 2.5 不同，3.0 API 也不能直接照搬 2.5 示例。
+- VibeVoice 对照 [当前官方仓库](https://github.com/microsoft/VibeVoice) 与 [Realtime-0.5B 文档](https://github.com/microsoft/VibeVoice/blob/main/docs/vibevoice-realtime-0.5b.md)。不能用 ASR 识别语言范围推断 TTS 合成能力；本批轻量 TTS 与英语 Realtime 版本均不直接列为已验证中文配音方案。
+
+### 静态记录
+
+- 5 个父仓库当前工作树干净，与已抓取 upstream 为 0/0，均通过 `git fsck --no-reflogs`；Magenta 的 SequenceLayers 子模块未初始化，仅记录锁定提交。
+- Supertonic、TimesFM 有 LFS 属性规则，不代表已下载模型权重。未运行 hf download、模型初始化或包安装；VibeVoice 源码自带预置音色文件与完整模型检查点分开记录。
+- 当前为 110 个可见一级第三方 Git 仓库加 1 个隐藏聚合仓库。5 个源码目录形成于只更新记录的澄清之前，其余仓库未继续批量更新。
+- 证据见 [模型批次 JSON](scripts/repository-model-review-20261027.json)。远端聚合仓库只提交索引、评价和核验记录，第三方源码工作树及模型权重继续排除。
+
+---
+
+## 2026-10-27 Skill 评测、逆向工具与既有项目更新
+
+按“已有就更新，未有就下载并记录”处理本批指定项目。搜索确认“阿里开源 skill-up”为 `alibaba/skill-up`；`open-code-review` 是代码审查工具，下载器对应本地已有的 `Ghost-Downloader-3`。上游链接均去除 `utm_source` 参数。
+
+| 仓库 | 类型与用途 | 本地处理 / HEAD | 许可证与收录结论 |
+|------|------------|-----------------|------------------|
+| [alibaba/skill-up](https://github.com/alibaba/skill-up) | Agent Skill、Agent 与 Workspace 的评测 CLI；通过 skill-upper 诊断失败、演进用例并回归 | 新增浅克隆 `E:\aimodel\skill-up\`；`main@6fec8e9f` | Apache-2.0；1 个正式 skill-upper，另有示例和测试夹具；适合作为 Skill 质量评测工具保存 |
+| [morluto/rea](https://github.com/morluto/rea) | REA 逆向分析 CLI / MCP，连接 Ghidra、Hopper、IDA 等分析引擎 | 新增浅克隆 `E:\aimodel\rea\`；`main@570abe95` | REA 自有代码 MIT，第三方组件各守其许可；含 1 个用户工作流 Skill 和 4 个仓库维护 Skill；5 个第三方子模块仅记录锁定提交、未初始化 |
+| [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra) | 反汇编、反编译、程序图与脚本化逆向分析框架 | 新增浅克隆 `E:\aimodel\ghidra\`；`master@1b9e58a9` | 主许可证 Apache-2.0，第三方部分另见 NOTICE / 各组件许可；0 个 SKILL.md；保存的是源码，未下载预构建发行包 |
+| [affaan-m/ECC](https://github.com/affaan-m/ECC) | 多 Agent 平台的 Skills、规则、hooks、记忆与开发工作流集合 | 新增浅克隆 `E:\aimodel\ECC\`；`main@25278e7d` | MIT；主 `skills/` 有 311 个 Skill 入口；全仓 1062 个物理 SKILL.md 含平台变体与翻译，不按 1062 个独立能力计数 |
+| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | AI 代码审查 CLI、Agent Skill 与 CI 集成 | 既有仓库快进 `55899906` → `375f64cd`；保持 `main` | Apache-2.0；仍为 2 个逻辑 Skill、4 个物理文件 |
+| [XiaoYouChR/Ghost-Downloader-3](https://github.com/XiaoYouChR/Ghost-Downloader-3) | 多协议桌面下载器 | 保留旧 `main@601e2068`；新建并切换 `catalog/upstream-20261027@ee0cb1aa` 跟踪 `origin/main` | GPL-3.0；上游强制更新导致无法快进，保留旧分支后检出当前源码；cat-catch 仍固定 `b34a7677` |
+
+### 静态核验与复核记录
+
+- 6 个仓库的当前工作树均干净，当前分支与已抓取 upstream 的 ahead/behind 均为 0/0，均通过 `git fsck --no-reflogs`；没有匹配 `filter=lfs` 的属性文件。保留原有浅克隆形态，4 个新增仓库使用 `--depth 1 --single-branch`。
+- 本地占用约为：skill-up 11.5 MiB、REA 103.2 MiB、Ghidra 396.6 MiB、ECC 92.5 MiB、open-code-review 23.8 MiB、Ghost Downloader 103.9 MiB。数值含 `.git`，REA 不含未初始化的第三方子模块。
+- skill-up 全仓 23 个物理 SKILL.md：正式入口 1 个、该入口内测试夹具 2 个、示例 3 个、E2E 夹具 17 个。REA 的正式入口为 `.agents/skills/reverse-engineer-anything/SKILL.md`。
+- REA 的 5 个 gitlink（binwalk、ghidra-nativeaot、jadx-headless-mcp、unblob、wakaru）及锁定提交保存在 JSON 中；没有递归下载或执行。上游 CONTRIBUTING 已注明 Windows 下 Unblob 子模块检出需要额外处理。
+- Ghidra 源码 README 当前要求 JDK 25、Gradle 9.1.0+ 等构建工具。需要运行时应按官方 Releases 的 `ghidra_<version>_<release>_<date>.zip` 说明下载；源码克隆本身不构成可运行安装。REA 使用现有 Ghidra 安装，不能直接把本批源码目录当作分析引擎。
+- 下载器上游从旧引用 `601e2068` 强制更新到 `ee0cb1aa`。未 reset、rebase 或覆盖旧分支；新分支与 `origin/main` 一致，已核实初始化的 cat-catch HEAD 等于父仓库锁定提交。
+- 首次新增仓库下载遇到 TLS EOF，沙箱外重试后 4 项全部成功。Git 所有权检查使用命令级 `safe.directory`，未写全局 Git 配置。
+- 批次机器记录：[scripts/repository-batch-20261027.json](scripts/repository-batch-20261027.json)。该批完成时可见一级 Git 仓库为 105 个，另有隐藏聚合仓库 1 个；该批仅更新上述 6 项，其余仓库保留历史同步日期。
+- 本轮保存源码与记录，没有安装依赖、全局 Skill、MCP、桌面程序或 Ghidra 运行时，没有执行评测、代码审查或逆向分析，也没有提交或推送。
 
 ---
 

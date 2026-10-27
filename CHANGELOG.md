@@ -7,6 +7,30 @@
 
 ---
 
+## 2026-10-27 模型记录、本地评价与聚合仓库提交
+
+- 核实 Magenta RealTime 2 的官方来源为 magenta/magenta-realtime，微软 VibeVoice 为 microsoft/VibeVoice；复核 Pocket TTS、Supertonic 与 TimesFM 链接。
+- 用户澄清“不需要下载，有记录就更新”前，5 个源码浅克隆已完成：magenta-realtime@694a545e、pocket-tts@77c3d76b、supertonic@1e9799e9、timesfm@e51928e2、VibeVoice@16fb2cb1。之后仅维护记录，没有继续下载源码、完整模型权重、子模块或依赖。
+- 交叉引用本地既有 scientific-agent-skills/skills/timesfm-forecasting/ 记录；补充 2.5 / 3.0 API 与权重许可差异，没有改写第三方 Skill 或重复累计能力。
+- 本地评价依据为官方说明和只读硬件检查：i7-12650H、10 核 / 16 线程、RTX 3050 Laptop 4 GB 显存、默认 Python 3.10.0。未运行模型或做音质、延迟、显存和预测基准测试。
+- 补正选型判断：Supertonic 已归档、语言列表不含中文；Pocket TTS 为 CPU 非中文语音优先候选；Magenta 实时应用侧重 Apple Silicon；TimesFM 3.0 自托管权重仅限非商业、非生产用途；VibeVoice 的旧 TTS、Realtime 与 ASR 分开评价。
+- 5 个父仓库均通过 Git 对象校验，当前工作树干净且与已抓取上游一致；Magenta 的 SequenceLayers 子模块未初始化。新增 scripts/repository-model-review-20261027.json 并刷新台账；现有 110 个可见一级 Git 仓库加 1 个隐藏聚合仓库。
+- 按用户要求提交及推送本次与上一批的台账和核验记录。第三方源码继续排除，既有无关的 scripts/build_labguard_business_plan.js 不纳入本批提交。
+
+---
+
+## 2026-10-27 Skill 评测、逆向分析与 ECC 收录
+
+- 搜索核实 `alibaba/skill-up`；将用户提供的 REA、Ghidra 和 ECC 链接去除跟踪参数，4 个仓库均新增浅克隆：`skill-up@6fec8e9f`、`rea@570abe95`、`ghidra@1b9e58a9`、`ECC@25278e7d`。
+- 既有 `open-code-review` 从 `55899906` 快进到 `375f64cd`，仍保存 2 个逻辑 Skill / 4 个物理文件。
+- 既有 `Ghost-Downloader-3` 的 origin/main 被强制更新，常规快进中止；保留旧 `main@601e2068`，新建并切换 `catalog/upstream-20261027@ee0cb1aa` 跟踪当前上游。cat-catch 子模块仍与父仓库锁定的 `b34a7677` 一致。
+- 统计正式入口与复制件：skill-up 1 个正式 Skill（全仓 23 个物理文件含示例和夹具）；REA 1 个用户 Skill + 4 个维护 Skill；ECC 主 skills/ 下 311 个入口（全仓 1062 个物理文件含翻译和平台变体）；Ghidra / 下载器均为 0。
+- REA 5 个第三方子模块仅记录锁定提交、未初始化；Ghidra 保存源码，未下载运行发行包。6 个父仓库当前工作树干净、与各自已抓取 upstream 为 0/0，并通过 `git fsck --no-reflogs`。
+- 新增 `scripts/repository-batch-20261027.json`；刷新版本清单、下载台账、Skill 索引和手动收藏链接。当前为 105 个可见一级第三方 Git 仓库加 1 个隐藏聚合仓库；本次未批量同步其他项目。
+- 首次下载的 TLS EOF 已通过重试解决；核验使用命令级 safe.directory，未改全局配置。本轮未安装或执行第三方程序、依赖、全局 Skills、MCP、评测或分析流程，未提交或推送。
+
+---
+
 ## 2026-09-15 代码审查、下载工具与手绘风格候选
 
 - 浅克隆 `alibaba/open-code-review` 到 `E:\aimodel\open-code-review\`，HEAD `55899906`；确认 Apache-2.0、4 个物理 `SKILL.md`（2 个逻辑 Skill 在源码与插件目录中各保留一份），本轮未安装 `ocr` 或配置模型。
