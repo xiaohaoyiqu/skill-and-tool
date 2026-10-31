@@ -1,7 +1,7 @@
 # AI Skills 仓库索引
 
 **@author liuhao**
-**更新时间**: 2026-10-27
+**更新时间**: 2026-11-01
 
 ---
 
@@ -12,6 +12,22 @@
 - `open-design`、`pi`、`vue-tui` 等工具仓库只存放，不纳入正式 skill 主统计；本轮同步状态单独记录。
 - 这目录只做存放和索引，不在这里装依赖，也不写 C 盘全局配置。
 - `reverse-skill` 当前保留本地修改，已跳过更新。
+
+## 2026-11-01 STT 音视频转文字工具
+
+| 工具 | 来源 / 本地版本 | SKILL.md 数 | 定位 |
+|------|-----------------|-------------|------|
+| STT | [jianchang512/stt](https://github.com/jianchang512/stt)，`E:\aimodel\stt`，`main@0df3151d`，v0.0.94 | 0 | faster-whisper 本地音视频识别、text / JSON / SRT 输出及 API；GPL-3.0；源码浅克隆含 Git 约 1.98 MiB |
+
+仅保存源码，未下载模型、FFmpeg 或依赖，未启动服务。默认使用 CPU；运行条件与大小核验见 [下载台账](GITHUB_REPOS.md#2026-11-01-stt-本地音视频转文字工具)。作为工具索引收录，不增加正式 Skill 统计。
+
+## 2026-10-30 音乐搜索来源与客户端参考
+
+| 项目 | 来源/本地版本 | Skill数 | 定位 |
+|---|---|---|---|
+| KA Music | [umr-xiaomai/kgka_Music_hl](https://github.com/umr-xiaomai/kgka_Music_hl)，`E:\aimodel\kgka_Music_hl`，master@166e84bd | 0 | 新增浅克隆，Flutter/Dart客户端；候选酷狗/网易云搜索提供方、公共歌单导入与歌词匹配参考。仅静态查看，未安装、运行或验证在线API |
+
+酷狗候选基址`https://music.api.hoilai.cn`，网易云候选基址`https://wyy.music.api.hoilai.cn`；参数与使用边界见[GITHUB_REPOS.md](GITHUB_REPOS.md#2026-10-30-ka-music-音乐搜索与歌单参考)。README限学习交流/不商用，未发现独立标准许可证；不按宽松开源包直接复制。工具源码不计入正式Skill能力数量。
 
 ## 2026-10-27 音乐、语音与时间序列模型记录
 

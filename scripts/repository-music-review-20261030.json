@@ -1,0 +1,46 @@
+{
+  "recorded_date": "2026-10-30",
+  "repository": "https://github.com/umr-xiaomai/kgka_Music_hl.git",
+  "local_path": "E:\\aimodel\\kgka_Music_hl",
+  "branch": "master",
+  "head": "166e84bd668151c9da657df811272b4006da7dbe",
+  "shallow": true,
+  "worktree_clean": true,
+  "app_version": "3.3.0-beta",
+  "bytes_including_git": 15148781,
+  "skill_files": 0,
+  "source_candidates": [
+    {
+      "platform": "kugou",
+      "base_url": "https://music.api.hoilai.cn",
+      "path": "/search",
+      "params": [
+        "keywords",
+        "page",
+        "pagesize",
+        "type=song"
+      ]
+    },
+    {
+      "platform": "netease",
+      "base_url": "https://wyy.music.api.hoilai.cn",
+      "path": "/search",
+      "params": [
+        "keywords",
+        "limit",
+        "offset",
+        "type=1"
+      ],
+      "detail_path": "/song/detail",
+      "detail_param": "ids"
+    }
+  ],
+  "license": {
+    "separate_license_found": false,
+    "readme_statement": "仅供学习交流使用，请勿用于商业用途"
+  },
+  "dependencies_installed": false,
+  "tests_executed": false,
+  "online_api_verified": false,
+  "qqbot_integrated": false
+}

@@ -19,7 +19,6 @@
 | [REPOSITORIES.md](REPOSITORIES.md) | 82 个一级 Git 仓库的上游、分支、HEAD 与同步状态快照 |
 | [SKILLS_UNIFIED.md](SKILLS_UNIFIED.md) | 旧版分类汇总，保留参考，不单独作为更新依据 |
 | [LIVE_STREAMING.md](LIVE_STREAMING.md) | 旧版重复资源总览，不作为当前统计依据 |
-| [LIVE_PLAN_v1.md](LIVE_PLAN_v1.md) | 浩然音乐项目架构文档，与 skill/tool 台账无关 |
 
 工具仓库只存放、不在本轮 skill 更新范围内；嵌套目录中的 skill/tool 也不作为一级仓库单独更新。
 
@@ -302,18 +301,7 @@ python install.py
 
 ```bash
 # 仅安装 Claude 指南
-cp E:/aimodel/claude-guides-full/CLAUDE.zh.md D:/ideaproject/HaoRanMusic/CLAUDE.md
-```
-
-### 方案三：毕业设计专用
-
-```bash
-# 1. 复制 Claude 指南到项目
-cp E:/aimodel/claude-guides-full/CLAUDE.zh.md D:/ideaproject/HaoRanMusic/CLAUDE.md
-
-# 2. 安装 Vue 技能（前端开发）
-# Claude Code 中执行:
-/plugin marketplace add vuejs-ai/skills
+cp E:/aimodel/claude-guides-full/CLAUDE.zh.md <项目路径>/CLAUDE.md
 ```
 
 ---
@@ -378,12 +366,6 @@ r
 ---
 
 ## 💡 使用建议
-
-### 对于 HaoRanMusic 毕业设计项目
-
-1. ✅ **立即应用**: 添加 `CLAUDE.zh.md` 到项目
-2. ✅ **前端开发**: 使用 vue-skills
-3. ✅ **节省成本**: 使用 caveman
 
 ### 对于日常开发
 

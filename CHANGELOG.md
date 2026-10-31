@@ -7,6 +7,16 @@
 
 ---
 
+## 2026-11-01 STT 收录与聚合仓库差异检查
+
+- 根目录文档和本地目录均未发现已有 `jianchang512/stt` 记录，补充来源、用途、GPL-3.0 许可和版本信息。
+- GitHub 仓库统计约 143.59 MiB，但当前提交文件仅约 1.31 MiB；按本轮 100 MB 条件，只浅克隆当前 main 到 `E:\aimodel\stt`，HEAD `0df3151d`、v0.0.94，含 Git 文件总长度约 1.98 MiB。
+- 工作树干净，与 origin/main 一致，通过 `git fsck --no-reflogs`；0 个 SKILL.md。未下载模型、FFmpeg 或依赖，也未运行第三方代码。
+- 更新版本清单、工具索引、下载台账及手动链接，新增 `scripts/repository-stt-review-20261101.json`。历史目录计数保持原核验日期。
+- 抓取聚合仓库 origin 后确认本地 main 与 origin/main 都为 `e63f3cf`，ahead/behind 为 0/0；已有未提交文档修改、删除和未跟踪文件保持原状。本轮仅记录和对比，未提交或推送。
+
+---
+
 ## 2026-10-27 模型记录、本地评价与聚合仓库提交
 
 - 核实 Magenta RealTime 2 的官方来源为 magenta/magenta-realtime，微软 VibeVoice 为 microsoft/VibeVoice；复核 Pocket TTS、Supertonic 与 TimesFM 链接。

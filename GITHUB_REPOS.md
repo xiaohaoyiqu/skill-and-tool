@@ -1,12 +1,36 @@
 # GitHub 仓库下载与配置台账
 
-**最后整理**: 2026-10-27
+**最后整理**: 2026-11-01
 **目录**: E:\aimodel
 **定位**: GitHub 下载与配置历史台账；当前 skill 更新状态以 [SKILLS_INDEX.md](SKILLS_INDEX.md) 为准
 **状态**: 只记录克隆和配置，不自动安装依赖、不写入全局 Codex skills
 **Star 手动清单**: [GITHUB_STAR_LIST.md](GITHUB_STAR_LIST.md)
 
 ---
+
+## 2026-11-01 STT 本地音视频转文字工具
+
+检查根目录文档与本地目录后，确认此前未记录或克隆 [jianchang512/stt](https://github.com/jianchang512/stt)。现以 `--depth 1 --single-branch --no-tags --no-recurse-submodules` 保存到 `E:\aimodel\stt`，分支 `main`，HEAD `0df3151d040c8c8becf4ed07b0f1c373163663ae`，源码版本 `v0.0.94`，许可证 GPL-3.0。
+
+- 用途：基于 faster-whisper 的本地音视频识别工具，提供 Flask 网页界面，输出 text / JSON / SRT；有 `/api` 和 `/v1/audio/transcriptions` 接口，默认地址 `127.0.0.1:9977`、默认使用 CPU。
+- 100 MB 限额核验：GitHub API 的仓库统计为 147,033 KiB（约 143.59 MiB，包含历史的仓库统计，不是本次浅克隆下载量）；当前提交 26 个文件合计 1,371,797 字节（约 1.31 MiB）。据此仅浅克隆当前版本，实测含 `.git` 文件总长度 2,080,392 字节（约 1.98 MiB，非磁盘分配量），低于 100 MB。
+- `git fsck --no-reflogs` 通过，工作树干净，与已抓取的 `origin/main` ahead/behind 为 0/0；没有 `SKILL.md`，按工具源码收录，不增加正式 Skill 数量。
+- 本次只保存源码，未安装依赖或运行服务。仓库不包含识别模型权重或 FFmpeg 可执行文件；README 所述预编译包内置模型不能视为源码已含模型。运行时需另行准备模型、FFmpeg 与 Python 依赖，模型下载不计入本次约 1.98 MiB 的源码大小。
+
+核验证据见 [STT 批次 JSON](scripts/repository-stt-review-20261101.json)。其余第三方仓库沿用历史核验日期；聚合仓库仅维护台账，第三方源码目录继续被忽略。
+
+## 2026-10-30 KA Music 音乐搜索与歌单参考
+
+按用户指定保存 [umr-xiaomai/kgka_Music_hl](https://github.com/umr-xiaomai/kgka_Music_hl) 到 `E:\aimodel\kgka_Music_hl`。`master@166e84bd668151c9da657df811272b4006da7dbe`，`--depth 1 --no-recurse-submodules` 浅克隆；工作树干净，约14.45 MiB文件内容（含.git，非磁盘实际分配量）。源码配置版本3.3.0-beta；此为Flutter/Dart客户端与API定义参考，未安装Flutter、依赖或运行程序，无SKILL.md。
+
+| 参考项 | 源码确认的地址/参数 | 使用范围 |
+|---|---|---|
+| 酷狗搜索 | `https://music.api.hoilai.cn/search`；keywords、page、pagesize、type=song | 作为现有酷狗平台的候选备用提供方；响应兼容数组或songs/song/lists列表，身份保持酷狗hash |
+| 网易云搜索 | `https://wyy.music.api.hoilai.cn/search`；keywords、limit、offset、type=1；随后`/song/detail?ids=...`补详情 | 同一网易云平台的候选备用，不以同名代替同录音，不搬用客户端ne_内部标识作为外部ID |
+| 公共歌单与匹配 | `lib/services/qq_playlist_service.dart`、`playlist_import_service.dart` | 参考公开QQ链接解析、分页、未匹配报告与标题/歌手/时长校准；不导入真实账号歌单 |
+| 契约与边界 | `api.json`（OpenAPI3.1.1，151个paths）、`lib/core/api_client.dart` | JSON中的localhost服务器仅作示例，以app_config.dart实际配置为准；现有客户端会话、自动重试不直接移植到Bot |
+
+核对入口：`lib/config/app_config.dart:10`、`lib/services/music_api.dart:875/944`、`lib/models/music_models.dart`。未调用在线搜索/播放/登录/下载接口，未运行测试，也未接入QQBot生产配置；只能确认源码声明的契约，不能确认在线服务可用、免登录或播放权益。未发现独立LICENSE/COPYING文件，README声明“仅供学习交流使用，请勿用于商业用途”；保存作研究参考，代码复制/分发前另核许可。仅新增本仓库记录，不重新扫描其他仓库或改历史总数。机器记录见[scripts/repository-music-review-20261030.json](scripts/repository-music-review-20261030.json)。
 
 ## 2026-10-27 模型记录与本地适配评价
 

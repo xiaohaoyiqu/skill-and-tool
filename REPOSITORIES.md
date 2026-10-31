@@ -16,8 +16,14 @@
 
 同日补充 Magenta RealTime 2、Pocket TTS、Supertonic、TimesFM 与 VibeVoice 的本地使用评价。5 个源码浅克隆形成于用户澄清“不需要下载，有记录就更新”之前；此后仅更新记录。既有 TimesFM 预测 Skill 已交叉引用，模型未运行。证据见 [模型评价台账](GITHUB_REPOS.md#2026-10-27-模型记录与本地适配评价) 与 [模型批次 JSON](scripts/repository-model-review-20261027.json)。
 
+2026-10-30仅新增`kgka_Music_hl`浅克隆，确认master@166e84bd工作树干净；搜索/API来源及许可评价见GITHUB_REPOS.md。不重拉其他仓库，历史目录计数保持其原核验日期。
+
+2026-11-01 新增 `stt` 当前版本的浅克隆，含 Git 文件约 1.98 MiB，低于本轮 100 MB 限额；工作树干净并通过对象校验。未重新扫描其他仓库，历史总数保持原核验日期。详细大小口径和证据见 [下载台账](GITHUB_REPOS.md#2026-11-01-stt-本地音视频转文字工具)。
+
 | 本地目录 | 上游 | 分支 | HEAD | 状态 |
 |------|------|------|------|------|
+| stt | https://github.com/jianchang512/stt.git | main | `0df3151d` | 已浅克隆（2026-11-01）；v0.0.94，约 1.98 MiB，干净且与 origin/main 一致 |
+| kgka_Music_hl | https://github.com/umr-xiaomai/kgka_Music_hl.git | master | `166e84bd` | 已浅克隆（2026-10-30）；静态参考，在线API未实测 |
 | Agent-Reach | https://github.com/Panniantong/Agent-Reach.git | main | `da5044d2` | 已同步（2026-09-05） |
 | agent-rules-books | https://github.com/ciembor/agent-rules-books.git | main | `9c876361` | 已同步 |
 | archify | https://github.com/tt-a1i/archify.git | main | `d8e4daf2` | 已同步（2026-09-05） |
