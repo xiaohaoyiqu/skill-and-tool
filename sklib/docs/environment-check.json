@@ -1,0 +1,48 @@
+{
+  "ready": true,
+  "runtime": {
+    "python": "3.10.0",
+    "executable": "E:\\aimodel\\sklib\\.venv\\Scripts\\python.exe",
+    "isolated_environment": true,
+    "installed_version": "0.1.0"
+  },
+  "dependencies": [
+    {
+      "name": "PyYAML",
+      "version": "6.0.3",
+      "required": true,
+      "ok": true
+    },
+    {
+      "name": "tomli",
+      "version": "2.5.0",
+      "required": true,
+      "ok": true
+    }
+  ],
+  "sqlite": {
+    "version": "3.35.5",
+    "fts5": true,
+    "json": true
+  },
+  "home": "E:\\aimodel\\sklib\\.sklib",
+  "index": {
+    "path": "E:\\aimodel\\sklib\\.sklib\\index.sqlite3",
+    "exists": false,
+    "checked": false
+  },
+  "mcp": {
+    "transport": "stdio",
+    "command": "E:\\aimodel\\sklib\\.venv\\Scripts\\python.exe",
+    "args": [
+      "-m",
+      "sklib",
+      "--home",
+      "E:\\aimodel\\sklib\\.sklib",
+      "mcp"
+    ],
+    "installed_launch_ready": true
+  },
+  "warnings": [],
+  "recovery": null
+}

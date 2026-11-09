@@ -1,0 +1,9 @@
+{
+  "servers": {
+    "sklib": {
+      "type": "stdio",
+      "command": "E:/aimodel/sklib/.venv/Scripts/python.exe",
+      "args": ["-m", "sklib", "--home", "E:/aimodel/sklib/.sklib", "mcp"]
+    }
+  }
+}

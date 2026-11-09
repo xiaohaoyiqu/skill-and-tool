@@ -2,7 +2,7 @@
 
 这个仓库用来存放和整理 Skill、工具、研究资料及其版本记录。内容按来源保留，方便以后查找、更新和复核。
 
-仓库只保存资料。各项目的使用条件以原项目说明为准。
+第三方项目主要保存资料与来源记录，使用条件以原项目说明为准。自制的本地 Skill 和项目资料检索工具 [SKLIB](sklib/README.md) 也在本仓库中保存源码。
 
 转发给别人可以使用 [AI Skills 和工具分享清单](docs/SHARE_GUIDE.md)，按用途介绍 123 个项目并附来源链接；[HTML 分享版](docs/SHARE_GUIDE.html) 可作为单个文件发送，用浏览器打开。
 
@@ -12,6 +12,7 @@
 |------|------|
 | [REPOSITORIES.md](docs/REPOSITORIES.md) | 一级 Git 仓库的来源、分支、提交和同步状态 |
 | [REPOSITORY_MANAGEMENT.md](docs/REPOSITORY_MANAGEMENT.md) | 批量拉取、目录整理、检索与知识图谱工具说明 |
+| [SKLIB](sklib/README.md) | 自制的本地资料检索工具，提供 CLI、stdio MCP 和网页界面 |
 | [SKILLS_INDEX.md](docs/SKILLS_INDEX.md) | Skill 数量、分类和用途索引 |
 | [BROWSER_AUTOMATION_COMPARISON.md](docs/BROWSER_AUTOMATION_COMPARISON.md) | 浏览器控制、网页快照与像素截图理解工具对比 |
 | [GITHUB_REPOS.md](docs/GITHUB_REPOS.md) | 各批次下载、更新和检查记录 |
@@ -37,6 +38,7 @@
 |------|------|
 | [docs](docs/) | 当前索引、下载台账和维护说明；旧版文档集中在 `docs/archive/` |
 | [scripts](scripts/) | 仓库同步脚本、批次核验 JSON 和本地维护脚本 |
+| [sklib](sklib/) | 自制检索工具的 Python 源码、网页资源、测试与说明；不包含本机环境、资料索引或模型 |
 | [multi-search-engine](multi-search-engine/) | Multi Search Engine 的单文件 Skill 快照和来源说明 |
 | [zhihu-cli-skill](zhihu-cli-skill/) | 知乎 CLI Skill 及配套脚本和参考文档 |
 | [Agent-Reach-v1.6.1](Agent-Reach-v1.6.1/) | Agent Reach 官方 v1.6.1 源码与 Skill；旧 `Agent-Reach/` 保留，未安装运行依赖 |

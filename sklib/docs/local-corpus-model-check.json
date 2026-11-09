@@ -1,0 +1,788 @@
+{
+  "model": "embeddinggemma",
+  "endpoint": "http://127.0.0.1:11434",
+  "real_model_inference": true,
+  "source_counts": {
+    "project": 6,
+    "skill": 197
+  },
+  "source_roots": [
+    "E:\\aimodel\\anthropic-skills",
+    "E:\\aimodel\\vue-skills-full",
+    "E:\\aimodel\\Humanizer-zh",
+    "E:\\aimodel\\obsidian-skills",
+    "E:\\aimodel\\scientific-agent-skills"
+  ],
+  "embedding": {
+    "embedded": 203,
+    "model": "http://127.0.0.1:11434|embeddinggemma",
+    "pending_at_start": 203,
+    "skipped_changed": 0
+  },
+  "embedding_seconds": 32.592,
+  "dimensions": [
+    768
+  ],
+  "incremental_cache_passed": true,
+  "integration_passed": true,
+  "evaluations": {
+    "lexical": {
+      "queries": 9,
+      "positive_queries": 5,
+      "negative_queries": 4,
+      "k": 5,
+      "mode": "lexical",
+      "max_chars": 100000,
+      "hit_at_k": 1.0,
+      "mrr_at_k": 1.0,
+      "recall_at_k": 1.0,
+      "precision_at_k": 0.32,
+      "returned_precision": 0.34,
+      "false_positive_rate": 0.0,
+      "correct_empty_rate": 1.0,
+      "budget_limited_queries": 0,
+      "p95_ms": 50.15,
+      "details": [
+        {
+          "query": "PDF 表格提取",
+          "kind": "skill",
+          "required_terms": [],
+          "expected_empty": false,
+          "relevant": [
+            "pdf"
+          ],
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "recall": 1.0,
+          "precision": 0.4,
+          "returned_precision": 0.4,
+          "false_positive": null,
+          "budget_limited": false,
+          "elapsed_ms": 20.26,
+          "returned": [
+            "pdf",
+            "pdf",
+            "liteparse",
+            "markitdown",
+            "venue-templates"
+          ],
+          "returned_ids": [
+            "s_e533ee531383c23c1b997577",
+            "s_c8f6c35e81ce0c0a8c4ba062",
+            "s_b26c3276c01f0def1a2648d8",
+            "s_abafb221632f9185036d1454",
+            "s_59a7cd70be8a677a87586db6"
+          ]
+        },
+        {
+          "query": "Vue 页面性能优化",
+          "kind": "skill",
+          "required_terms": [],
+          "expected_empty": false,
+          "relevant": [
+            "vue-best-practices"
+          ],
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "recall": 1.0,
+          "precision": 0.2,
+          "returned_precision": 0.2,
+          "false_positive": null,
+          "budget_limited": false,
+          "elapsed_ms": 8.1,
+          "returned": [
+            "vue-best-practices",
+            "vue-debug-guides",
+            "vue-jsx-best-practices",
+            "vue-testing-best-practices",
+            "vue-router-best-practices"
+          ],
+          "returned_ids": [
+            "s_15addcf8b21e360cfe028cb8",
+            "s_b7047cc78f74bc1a5adffeb2",
+            "s_032e66f359c899eb82204b54",
+            "s_dae2c85fca8175231023330b",
+            "s_f0db92e26b70b07172599394"
+          ]
+        },
+        {
+          "query": "文章改写去AI腔",
+          "kind": "skill",
+          "required_terms": [],
+          "expected_empty": false,
+          "relevant": [
+            "humanizer-zh"
+          ],
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "recall": 1.0,
+          "precision": 0.2,
+          "returned_precision": 0.2,
+          "false_positive": null,
+          "budget_limited": false,
+          "elapsed_ms": 50.15,
+          "returned": [
+            "humanizer-zh",
+            "web-artifacts-builder",
+            "generate-image",
+            "claude-api",
+            "hypothesis-generation"
+          ],
+          "returned_ids": [
+            "s_6e2ac46aa11ffe68ca57249d",
+            "s_4b84f44f87452e275e77b592",
+            "s_00dbd3631db2db739e5f8efe",
+            "s_3f5df5df5ac8420f933c3974",
+            "s_4f374e56cf3f500ec3ba6e06"
+          ]
+        },
+        {
+          "query": "Obsidian 笔记",
+          "kind": "skill",
+          "required_terms": [],
+          "expected_empty": false,
+          "relevant": [
+            "obsidian-cli",
+            "obsidian-markdown"
+          ],
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "recall": 1.0,
+          "precision": 0.4,
+          "returned_precision": 0.5,
+          "false_positive": null,
+          "budget_limited": false,
+          "elapsed_ms": 7.57,
+          "returned": [
+            "obsidian-cli",
+            "obsidian-markdown",
+            "obsidian-bases",
+            "json-canvas"
+          ],
+          "returned_ids": [
+            "s_735f1d5b31f55d81998f8724",
+            "s_33b5155c548b22b74819177d",
+            "s_3a5f5436ae55e0b8e54c31e3",
+            "s_1f4ee1c6968d048d41f0fe2f"
+          ]
+        },
+        {
+          "query": "论文 文献",
+          "kind": "skill",
+          "required_terms": [],
+          "expected_empty": false,
+          "relevant": [
+            "citation-management",
+            "literature-review"
+          ],
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "recall": 1.0,
+          "precision": 0.4,
+          "returned_precision": 0.4,
+          "false_positive": null,
+          "budget_limited": false,
+          "elapsed_ms": 38.81,
+          "returned": [
+            "citation-management",
+            "literature-review",
+            "research-lookup",
+            "paper-lookup",
+            "scientific-writing"
+          ],
+          "returned_ids": [
+            "s_a788936b3ce6d423ea8d491f",
+            "s_e76fd4739030e781265f97b6",
+            "s_51fa9ad2c66442022a501b4f",
+            "s_a4cf2976d8b6ce46c26ce9a4",
+            "s_091fbaf563bdbf0d47d979a6"
+          ]
+        },
+        {
+          "query": "Flutter 移动端性能优化",
+          "kind": "skill",
+          "required_terms": [
+            "Flutter"
+          ],
+          "expected_empty": true,
+          "relevant": [],
+          "hit": false,
+          "reciprocal_rank": null,
+          "recall": null,
+          "precision": null,
+          "returned_precision": null,
+          "false_positive": false,
+          "budget_limited": false,
+          "elapsed_ms": 5.16,
+          "returned": [],
+          "returned_ids": []
+        },
+        {
+          "query": "Flutter mobile application performance optimization",
+          "kind": "skill",
+          "required_terms": [
+            "Flutter"
+          ],
+          "expected_empty": true,
+          "relevant": [],
+          "hit": false,
+          "reciprocal_rank": null,
+          "recall": null,
+          "precision": null,
+          "returned_precision": null,
+          "false_positive": false,
+          "budget_limited": false,
+          "elapsed_ms": 9.21,
+          "returned": [],
+          "returned_ids": []
+        },
+        {
+          "query": "LabVIEW 数据采集仪器界面",
+          "kind": "skill",
+          "required_terms": [
+            "LabVIEW"
+          ],
+          "expected_empty": true,
+          "relevant": [],
+          "hit": false,
+          "reciprocal_rank": null,
+          "recall": null,
+          "precision": null,
+          "returned_precision": null,
+          "false_positive": false,
+          "budget_limited": false,
+          "elapsed_ms": 4.56,
+          "returned": [],
+          "returned_ids": []
+        },
+        {
+          "query": "Elixir OTP 监督树容错",
+          "kind": "skill",
+          "required_terms": [
+            "Elixir",
+            "OTP"
+          ],
+          "expected_empty": true,
+          "relevant": [],
+          "hit": false,
+          "reciprocal_rank": null,
+          "recall": null,
+          "precision": null,
+          "returned_precision": null,
+          "false_positive": false,
+          "budget_limited": false,
+          "elapsed_ms": 5.39,
+          "returned": [],
+          "returned_ids": []
+        }
+      ]
+    },
+    "semantic": {
+      "queries": 9,
+      "positive_queries": 5,
+      "negative_queries": 4,
+      "k": 5,
+      "mode": "semantic",
+      "max_chars": 100000,
+      "hit_at_k": 1.0,
+      "mrr_at_k": 1.0,
+      "recall_at_k": 1.0,
+      "precision_at_k": 0.32,
+      "returned_precision": 0.32,
+      "false_positive_rate": 0.0,
+      "correct_empty_rate": 1.0,
+      "budget_limited_queries": 0,
+      "p95_ms": 3255.54,
+      "details": [
+        {
+          "query": "PDF 表格提取",
+          "kind": "skill",
+          "required_terms": [],
+          "expected_empty": false,
+          "relevant": [
+            "pdf"
+          ],
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "recall": 1.0,
+          "precision": 0.4,
+          "returned_precision": 0.4,
+          "false_positive": null,
+          "budget_limited": false,
+          "elapsed_ms": 78.5,
+          "returned": [
+            "pdf",
+            "pdf",
+            "liteparse",
+            "xlsx",
+            "markitdown"
+          ],
+          "returned_ids": [
+            "s_e533ee531383c23c1b997577",
+            "s_c8f6c35e81ce0c0a8c4ba062",
+            "s_b26c3276c01f0def1a2648d8",
+            "s_c2f091c211955cdb5bafd112",
+            "s_abafb221632f9185036d1454"
+          ]
+        },
+        {
+          "query": "Vue 页面性能优化",
+          "kind": "skill",
+          "required_terms": [],
+          "expected_empty": false,
+          "relevant": [
+            "vue-best-practices"
+          ],
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "recall": 1.0,
+          "precision": 0.2,
+          "returned_precision": 0.2,
+          "false_positive": null,
+          "budget_limited": false,
+          "elapsed_ms": 99.74,
+          "returned": [
+            "vue-best-practices",
+            "vue-router-best-practices",
+            "vue-testing-best-practices",
+            "vue-debug-guides",
+            "vue-options-api-best-practices"
+          ],
+          "returned_ids": [
+            "s_15addcf8b21e360cfe028cb8",
+            "s_f0db92e26b70b07172599394",
+            "s_dae2c85fca8175231023330b",
+            "s_b7047cc78f74bc1a5adffeb2",
+            "s_a7e5732491155fdad7b331f2"
+          ]
+        },
+        {
+          "query": "文章改写去AI腔",
+          "kind": "skill",
+          "required_terms": [],
+          "expected_empty": false,
+          "relevant": [
+            "humanizer-zh"
+          ],
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "recall": 1.0,
+          "precision": 0.2,
+          "returned_precision": 0.2,
+          "false_positive": null,
+          "budget_limited": false,
+          "elapsed_ms": 94.86,
+          "returned": [
+            "humanizer-zh",
+            "scientific-writing",
+            "peer-review",
+            "open-notebook",
+            "docx"
+          ],
+          "returned_ids": [
+            "s_6e2ac46aa11ffe68ca57249d",
+            "s_091fbaf563bdbf0d47d979a6",
+            "s_6f5390863d55c3e7ad7425f7",
+            "s_f01fd135cea40d57dc1b6ebf",
+            "s_4d77294b764de7cffa5ef19a"
+          ]
+        },
+        {
+          "query": "Obsidian 笔记",
+          "kind": "skill",
+          "required_terms": [],
+          "expected_empty": false,
+          "relevant": [
+            "obsidian-cli",
+            "obsidian-markdown"
+          ],
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "recall": 1.0,
+          "precision": 0.4,
+          "returned_precision": 0.4,
+          "false_positive": null,
+          "budget_limited": false,
+          "elapsed_ms": 78.04,
+          "returned": [
+            "obsidian-markdown",
+            "obsidian-cli",
+            "obsidian-bases",
+            "json-canvas",
+            "open-notebook"
+          ],
+          "returned_ids": [
+            "s_33b5155c548b22b74819177d",
+            "s_735f1d5b31f55d81998f8724",
+            "s_3a5f5436ae55e0b8e54c31e3",
+            "s_1f4ee1c6968d048d41f0fe2f",
+            "s_f01fd135cea40d57dc1b6ebf"
+          ]
+        },
+        {
+          "query": "论文 文献",
+          "kind": "skill",
+          "required_terms": [],
+          "expected_empty": false,
+          "relevant": [
+            "citation-management",
+            "literature-review"
+          ],
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "recall": 1.0,
+          "precision": 0.4,
+          "returned_precision": 0.4,
+          "false_positive": null,
+          "budget_limited": false,
+          "elapsed_ms": 70.91,
+          "returned": [
+            "citation-management",
+            "scientific-writing",
+            "literature-review",
+            "venue-templates",
+            "peer-review"
+          ],
+          "returned_ids": [
+            "s_a788936b3ce6d423ea8d491f",
+            "s_091fbaf563bdbf0d47d979a6",
+            "s_e76fd4739030e781265f97b6",
+            "s_59a7cd70be8a677a87586db6",
+            "s_6f5390863d55c3e7ad7425f7"
+          ]
+        },
+        {
+          "query": "Flutter 移动端性能优化",
+          "kind": "skill",
+          "required_terms": [
+            "Flutter"
+          ],
+          "expected_empty": true,
+          "relevant": [],
+          "hit": false,
+          "reciprocal_rank": null,
+          "recall": null,
+          "precision": null,
+          "returned_precision": null,
+          "false_positive": false,
+          "budget_limited": false,
+          "elapsed_ms": 27.78,
+          "returned": [],
+          "returned_ids": []
+        },
+        {
+          "query": "Flutter mobile application performance optimization",
+          "kind": "skill",
+          "required_terms": [
+            "Flutter"
+          ],
+          "expected_empty": true,
+          "relevant": [],
+          "hit": false,
+          "reciprocal_rank": null,
+          "recall": null,
+          "precision": null,
+          "returned_precision": null,
+          "false_positive": false,
+          "budget_limited": false,
+          "elapsed_ms": 23.96,
+          "returned": [],
+          "returned_ids": []
+        },
+        {
+          "query": "LabVIEW 数据采集仪器界面",
+          "kind": "skill",
+          "required_terms": [
+            "LabVIEW"
+          ],
+          "expected_empty": true,
+          "relevant": [],
+          "hit": false,
+          "reciprocal_rank": null,
+          "recall": null,
+          "precision": null,
+          "returned_precision": null,
+          "false_positive": false,
+          "budget_limited": false,
+          "elapsed_ms": 25.08,
+          "returned": [],
+          "returned_ids": []
+        },
+        {
+          "query": "Elixir OTP 监督树容错",
+          "kind": "skill",
+          "required_terms": [
+            "Elixir",
+            "OTP"
+          ],
+          "expected_empty": true,
+          "relevant": [],
+          "hit": false,
+          "reciprocal_rank": null,
+          "recall": null,
+          "precision": null,
+          "returned_precision": null,
+          "false_positive": false,
+          "budget_limited": false,
+          "elapsed_ms": 3255.54,
+          "returned": [],
+          "returned_ids": []
+        }
+      ]
+    },
+    "hybrid": {
+      "queries": 9,
+      "positive_queries": 5,
+      "negative_queries": 4,
+      "k": 5,
+      "mode": "hybrid",
+      "max_chars": 100000,
+      "hit_at_k": 1.0,
+      "mrr_at_k": 1.0,
+      "recall_at_k": 1.0,
+      "precision_at_k": 0.32,
+      "returned_precision": 0.32,
+      "false_positive_rate": 0.0,
+      "correct_empty_rate": 1.0,
+      "budget_limited_queries": 0,
+      "p95_ms": 123.64,
+      "details": [
+        {
+          "query": "PDF 表格提取",
+          "kind": "skill",
+          "required_terms": [],
+          "expected_empty": false,
+          "relevant": [
+            "pdf"
+          ],
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "recall": 1.0,
+          "precision": 0.4,
+          "returned_precision": 0.4,
+          "false_positive": null,
+          "budget_limited": false,
+          "elapsed_ms": 99.49,
+          "returned": [
+            "pdf",
+            "pdf",
+            "liteparse",
+            "markitdown",
+            "literature-review"
+          ],
+          "returned_ids": [
+            "s_e533ee531383c23c1b997577",
+            "s_c8f6c35e81ce0c0a8c4ba062",
+            "s_b26c3276c01f0def1a2648d8",
+            "s_abafb221632f9185036d1454",
+            "s_e76fd4739030e781265f97b6"
+          ]
+        },
+        {
+          "query": "Vue 页面性能优化",
+          "kind": "skill",
+          "required_terms": [],
+          "expected_empty": false,
+          "relevant": [
+            "vue-best-practices"
+          ],
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "recall": 1.0,
+          "precision": 0.2,
+          "returned_precision": 0.2,
+          "false_positive": null,
+          "budget_limited": false,
+          "elapsed_ms": 91.33,
+          "returned": [
+            "vue-best-practices",
+            "vue-debug-guides",
+            "vue-testing-best-practices",
+            "vue-router-best-practices",
+            "vue-jsx-best-practices"
+          ],
+          "returned_ids": [
+            "s_15addcf8b21e360cfe028cb8",
+            "s_b7047cc78f74bc1a5adffeb2",
+            "s_dae2c85fca8175231023330b",
+            "s_f0db92e26b70b07172599394",
+            "s_032e66f359c899eb82204b54"
+          ]
+        },
+        {
+          "query": "文章改写去AI腔",
+          "kind": "skill",
+          "required_terms": [],
+          "expected_empty": false,
+          "relevant": [
+            "humanizer-zh"
+          ],
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "recall": 1.0,
+          "precision": 0.2,
+          "returned_precision": 0.2,
+          "false_positive": null,
+          "budget_limited": false,
+          "elapsed_ms": 117.26,
+          "returned": [
+            "humanizer-zh",
+            "web-artifacts-builder",
+            "generate-image",
+            "claude-api",
+            "open-notebook"
+          ],
+          "returned_ids": [
+            "s_6e2ac46aa11ffe68ca57249d",
+            "s_4b84f44f87452e275e77b592",
+            "s_00dbd3631db2db739e5f8efe",
+            "s_3f5df5df5ac8420f933c3974",
+            "s_f01fd135cea40d57dc1b6ebf"
+          ]
+        },
+        {
+          "query": "Obsidian 笔记",
+          "kind": "skill",
+          "required_terms": [],
+          "expected_empty": false,
+          "relevant": [
+            "obsidian-cli",
+            "obsidian-markdown"
+          ],
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "recall": 1.0,
+          "precision": 0.4,
+          "returned_precision": 0.4,
+          "false_positive": null,
+          "budget_limited": false,
+          "elapsed_ms": 118.82,
+          "returned": [
+            "obsidian-cli",
+            "obsidian-markdown",
+            "obsidian-bases",
+            "json-canvas",
+            "open-notebook"
+          ],
+          "returned_ids": [
+            "s_735f1d5b31f55d81998f8724",
+            "s_33b5155c548b22b74819177d",
+            "s_3a5f5436ae55e0b8e54c31e3",
+            "s_1f4ee1c6968d048d41f0fe2f",
+            "s_f01fd135cea40d57dc1b6ebf"
+          ]
+        },
+        {
+          "query": "论文 文献",
+          "kind": "skill",
+          "required_terms": [],
+          "expected_empty": false,
+          "relevant": [
+            "citation-management",
+            "literature-review"
+          ],
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "recall": 1.0,
+          "precision": 0.4,
+          "returned_precision": 0.4,
+          "false_positive": null,
+          "budget_limited": false,
+          "elapsed_ms": 123.64,
+          "returned": [
+            "citation-management",
+            "literature-review",
+            "scientific-writing",
+            "research-lookup",
+            "paper-lookup"
+          ],
+          "returned_ids": [
+            "s_a788936b3ce6d423ea8d491f",
+            "s_e76fd4739030e781265f97b6",
+            "s_091fbaf563bdbf0d47d979a6",
+            "s_51fa9ad2c66442022a501b4f",
+            "s_a4cf2976d8b6ce46c26ce9a4"
+          ]
+        },
+        {
+          "query": "Flutter 移动端性能优化",
+          "kind": "skill",
+          "required_terms": [
+            "Flutter"
+          ],
+          "expected_empty": true,
+          "relevant": [],
+          "hit": false,
+          "reciprocal_rank": null,
+          "recall": null,
+          "precision": null,
+          "returned_precision": null,
+          "false_positive": false,
+          "budget_limited": false,
+          "elapsed_ms": 70.42,
+          "returned": [],
+          "returned_ids": []
+        },
+        {
+          "query": "Flutter mobile application performance optimization",
+          "kind": "skill",
+          "required_terms": [
+            "Flutter"
+          ],
+          "expected_empty": true,
+          "relevant": [],
+          "hit": false,
+          "reciprocal_rank": null,
+          "recall": null,
+          "precision": null,
+          "returned_precision": null,
+          "false_positive": false,
+          "budget_limited": false,
+          "elapsed_ms": 48.93,
+          "returned": [],
+          "returned_ids": []
+        },
+        {
+          "query": "LabVIEW 数据采集仪器界面",
+          "kind": "skill",
+          "required_terms": [
+            "LabVIEW"
+          ],
+          "expected_empty": true,
+          "relevant": [],
+          "hit": false,
+          "reciprocal_rank": null,
+          "recall": null,
+          "precision": null,
+          "returned_precision": null,
+          "false_positive": false,
+          "budget_limited": false,
+          "elapsed_ms": 45.59,
+          "returned": [],
+          "returned_ids": []
+        },
+        {
+          "query": "Elixir OTP 监督树容错",
+          "kind": "skill",
+          "required_terms": [
+            "Elixir",
+            "OTP"
+          ],
+          "expected_empty": true,
+          "relevant": [],
+          "hit": false,
+          "reciprocal_rank": null,
+          "recall": null,
+          "precision": null,
+          "returned_precision": null,
+          "false_positive": false,
+          "budget_limited": false,
+          "elapsed_ms": 48.29,
+          "returned": [],
+          "returned_ids": []
+        }
+      ]
+    }
+  },
+  "limitations": "Small labelled development dataset; labels are not exhaustive. Host LLM execution is tested separately."
+}

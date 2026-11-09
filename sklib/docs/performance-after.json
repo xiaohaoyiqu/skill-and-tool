@@ -1,0 +1,72 @@
+{
+  "environment": {
+    "python": "3.10.0",
+    "sqlite": "3.35.5",
+    "platform": "Windows",
+    "fixture_body_lines": 30,
+    "warm_cache": true
+  },
+  "entries": 5000,
+  "first_index_s": 16.248,
+  "unchanged_index_s": 5.272,
+  "operations": {
+    "exact_search": {
+      "samples": 20,
+      "median_ms": 94.33,
+      "p95_ms": 136.36,
+      "max_ms": 143.75
+    },
+    "broad_search": {
+      "samples": 20,
+      "median_ms": 86.77,
+      "p95_ms": 109.56,
+      "max_ms": 128.14
+    },
+    "chinese_search": {
+      "samples": 20,
+      "median_ms": 86.59,
+      "p95_ms": 131.62,
+      "max_ms": 134.85
+    },
+    "browse_all": {
+      "samples": 20,
+      "median_ms": 125.17,
+      "p95_ms": 142.02,
+      "max_ms": 145.45
+    },
+    "browse_duplicates": {
+      "samples": 20,
+      "median_ms": 212.65,
+      "p95_ms": 287.98,
+      "max_ms": 318.64
+    },
+    "browse_recent": {
+      "samples": 20,
+      "median_ms": 207.78,
+      "p95_ms": 277.82,
+      "max_ms": 289.79
+    },
+    "get_skill": {
+      "samples": 20,
+      "median_ms": 11.76,
+      "p95_ms": 14.14,
+      "max_ms": 17.74
+    }
+  },
+  "mixed_load": {
+    "workers": 4,
+    "operations": 100,
+    "writes": 10,
+    "errors": 0,
+    "elapsed_s": 5.929,
+    "p95_ms": 361.7
+  },
+  "integrity": {
+    "sqlite": "ok",
+    "fts": "ok",
+    "document_rows": 5000,
+    "fts_rows": 5000
+  },
+  "database_bytes": 44838912,
+  "limitations": "Synthetic short documents; warm cache; no real model, network, long-term soak or memory profile."
+}

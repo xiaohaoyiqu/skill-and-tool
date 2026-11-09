@@ -1,0 +1,7 @@
+# Example only: merge this table into the host's config.toml.
+# Replace the Python/checkout/state paths together when using a virtual environment.
+[mcp_servers.sklib]
+command = "E:/aimodel/sklib/.venv/Scripts/python.exe"
+args = ["-m", "sklib", "--home", "E:/aimodel/sklib/.sklib", "mcp"]
+startup_timeout_sec = 20
+tool_timeout_sec = 60

@@ -1,0 +1,11 @@
+[
+  {"query": "PDF 表格提取", "relevant": ["pdf"]},
+  {"query": "Vue 页面性能优化", "relevant": ["vue-best-practices"]},
+  {"query": "文章改写去AI腔", "relevant": ["humanizer-zh"]},
+  {"query": "Obsidian 笔记", "relevant": ["obsidian-cli", "obsidian-markdown"]},
+  {"query": "论文 文献", "relevant": ["literature-review", "citation-management"]},
+  {"query": "Flutter 移动端性能优化", "relevant": []},
+  {"query": "Flutter mobile application performance optimization", "relevant": []},
+  {"query": "LabVIEW 数据采集仪器界面", "relevant": []},
+  {"query": "Elixir OTP 监督树容错", "relevant": []}
+]

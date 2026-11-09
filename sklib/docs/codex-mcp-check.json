@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "host": "Codex app-server",
+  "tools": [
+    "read_skill_file",
+    "search_skills",
+    "get_skill",
+    "list_library",
+    "check_source"
+  ],
+  "tool_calls": [
+    "list_library",
+    "search_skills",
+    "get_skill",
+    "read_skill_file",
+    "check_source",
+    "get_skill",
+    "list_library"
+  ],
+  "nonce_verified": true,
+  "error_recovery": true,
+  "elapsed_seconds": 0.806,
+  "model_inference": false,
+  "user_configuration_changed": false,
+  "ephemeral_thread": true
+}

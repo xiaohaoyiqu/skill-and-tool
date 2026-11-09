@@ -1,0 +1,21 @@
+{
+  "entries": 3000,
+  "dimension": 256,
+  "samples_each": 5,
+  "baseline_ref": "730df72",
+  "warm_cache": true,
+  "ranking_equal": true,
+  "measurements": {
+    "baseline": {
+      "median_ms": 199.76,
+      "max_ms": 221.92,
+      "python_peak_bytes": 13957869
+    },
+    "optimized": {
+      "median_ms": 157.55,
+      "max_ms": 190.56,
+      "python_peak_bytes": 753674
+    }
+  },
+  "limitations": "One synthetic index; fake query embedding; no model/network/browser latency. Python allocations exclude SQLite/native/model memory. Still scans all eligible vectors."
+}

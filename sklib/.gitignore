@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.sklib/
+.venv/
+*.egg-info/
+build/
+dist/
+.coverage
+.audit-client/
+.env
+.env.*
+!.env.example

@@ -12,6 +12,9 @@
 !/scripts/
 !/scripts/**
 
+!/sklib/
+!/sklib/**
+
 !/multi-search-engine/
 !/multi-search-engine/**
 

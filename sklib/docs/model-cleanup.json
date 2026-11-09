@@ -1,0 +1,9 @@
+{
+  "removed_model": "embeddinggemma",
+  "verified_absent": true,
+  "remaining_models": [
+    "deepseek-r1:latest",
+    "deepseek-r1:8b"
+  ],
+  "temporary_indexes_removed": true
+}

@@ -1,0 +1,32 @@
+{
+  "sdk": "mcp",
+  "sdk_version": "1.30.0",
+  "protocol": "2025-11-25",
+  "tools": [
+    "search_skills",
+    "get_skill",
+    "read_skill_file",
+    "list_library",
+    "check_source"
+  ],
+  "initialize_ms": 434.0,
+  "paged_skill_pages": 2,
+  "server_launch": "installed module",
+  "checks": [
+    "initialize",
+    "tool schemas",
+    "list_library",
+    "check_source",
+    "search_skills",
+    "required terms",
+    "constraint error recovery",
+    "get_skill pagination",
+    "read_skill_file continuation",
+    "structured/text agreement",
+    "tool error",
+    "ping after error",
+    "arbitrary cwd"
+  ],
+  "passed": true,
+  "model_inference": false
+}

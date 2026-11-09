@@ -1,0 +1,16 @@
+{
+  "wheel": "sklib_local-0.1.0-py3-none-any.whl",
+  "passed": true,
+  "wheel_import_used": true,
+  "static_ui": true,
+  "batch_annotation": true,
+  "draft_asset": true,
+  "toml_project_indexed": true,
+  "required_terms": true,
+  "source_check": true,
+  "annotation_restore": true,
+  "management_asset": true,
+  "mcp_tools": 5,
+  "doctor_ready": true,
+  "global_install": false
+}

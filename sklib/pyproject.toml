@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sklib-local"
+version = "0.1.0"
+description = "Local skill and project retrieval for agents and people"
+requires-python = ">=3.10"
+dependencies = ["PyYAML>=6,<7", "tomli>=2,<3; python_version < '3.11'"]
+
+[project.scripts]
+sklib = "sklib.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["sklib*"]
+
+[tool.setuptools.package-data]
+sklib = ["static/*"]

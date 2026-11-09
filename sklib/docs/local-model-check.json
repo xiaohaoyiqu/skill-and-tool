@@ -1,0 +1,933 @@
+{
+  "model": "embeddinggemma",
+  "endpoint": "http://127.0.0.1:11434",
+  "real_model_inference": true,
+  "source_counts": {
+    "skill": 5
+  },
+  "source_roots": [
+    "synthetic bilingual fixtures"
+  ],
+  "embedding": {
+    "embedded": 5,
+    "model": "http://127.0.0.1:11434|embeddinggemma",
+    "pending_at_start": 5,
+    "skipped_changed": 0
+  },
+  "embedding_seconds": 0.297,
+  "dimensions": [
+    768
+  ],
+  "incremental_cache_passed": true,
+  "integration_passed": true,
+  "evaluations": {
+    "lexical": {
+      "queries": 10,
+      "positive_queries": 10,
+      "negative_queries": 0,
+      "k": 5,
+      "mode": "lexical",
+      "max_chars": 100000,
+      "hit_at_k": 1.0,
+      "mrr_at_k": 1.0,
+      "recall_at_k": 1.0,
+      "precision_at_k": 0.19999999999999998,
+      "returned_precision": 1.0,
+      "false_positive_rate": null,
+      "correct_empty_rate": null,
+      "budget_limited_queries": 0,
+      "p95_ms": 4.07,
+      "details": [
+        {
+          "query": "PDF 表格提取",
+          "kind": "skill",
+          "required_terms": [],
+          "expected_empty": false,
+          "relevant": [
+            "pdf-tables"
+          ],
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "recall": 1.0,
+          "precision": 0.2,
+          "returned_precision": 1.0,
+          "false_positive": null,
+          "budget_limited": false,
+          "elapsed_ms": 4.07,
+          "returned": [
+            "pdf-tables"
+          ],
+          "returned_ids": [
+            "s_6324c33eae9b2666b84ea2c4"
+          ]
+        },
+        {
+          "query": "extract PDF tables",
+          "kind": "skill",
+          "required_terms": [],
+          "expected_empty": false,
+          "relevant": [
+            "pdf-tables"
+          ],
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "recall": 1.0,
+          "precision": 0.2,
+          "returned_precision": 1.0,
+          "false_positive": null,
+          "budget_limited": false,
+          "elapsed_ms": 3.35,
+          "returned": [
+            "pdf-tables"
+          ],
+          "returned_ids": [
+            "s_6324c33eae9b2666b84ea2c4"
+          ]
+        },
+        {
+          "query": "Vue 页面性能优化",
+          "kind": "skill",
+          "required_terms": [],
+          "expected_empty": false,
+          "relevant": [
+            "vue-performance"
+          ],
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "recall": 1.0,
+          "precision": 0.2,
+          "returned_precision": 1.0,
+          "false_positive": null,
+          "budget_limited": false,
+          "elapsed_ms": 3.14,
+          "returned": [
+            "vue-performance"
+          ],
+          "returned_ids": [
+            "s_6e73bb1ca9cc4787368a2f85"
+          ]
+        },
+        {
+          "query": "profile Vue rendering",
+          "kind": "skill",
+          "required_terms": [],
+          "expected_empty": false,
+          "relevant": [
+            "vue-performance"
+          ],
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "recall": 1.0,
+          "precision": 0.2,
+          "returned_precision": 1.0,
+          "false_positive": null,
+          "budget_limited": false,
+          "elapsed_ms": 2.71,
+          "returned": [
+            "vue-performance"
+          ],
+          "returned_ids": [
+            "s_6e73bb1ca9cc4787368a2f85"
+          ]
+        },
+        {
+          "query": "文章改写去AI腔",
+          "kind": "skill",
+          "required_terms": [],
+          "expected_empty": false,
+          "relevant": [
+            "humanizer-zh"
+          ],
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "recall": 1.0,
+          "precision": 0.2,
+          "returned_precision": 1.0,
+          "false_positive": null,
+          "budget_limited": false,
+          "elapsed_ms": 3.34,
+          "returned": [
+            "humanizer-zh"
+          ],
+          "returned_ids": [
+            "s_42311ddf212ebf693ffe68b0"
+          ]
+        },
+        {
+          "query": "rewrite formulaic AI prose",
+          "kind": "skill",
+          "required_terms": [],
+          "expected_empty": false,
+          "relevant": [
+            "humanizer-zh"
+          ],
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "recall": 1.0,
+          "precision": 0.2,
+          "returned_precision": 1.0,
+          "false_positive": null,
+          "budget_limited": false,
+          "elapsed_ms": 2.87,
+          "returned": [
+            "humanizer-zh"
+          ],
+          "returned_ids": [
+            "s_42311ddf212ebf693ffe68b0"
+          ]
+        },
+        {
+          "query": "Obsidian 笔记",
+          "kind": "skill",
+          "required_terms": [],
+          "expected_empty": false,
+          "relevant": [
+            "obsidian-markdown"
+          ],
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "recall": 1.0,
+          "precision": 0.2,
+          "returned_precision": 1.0,
+          "false_positive": null,
+          "budget_limited": false,
+          "elapsed_ms": 3.39,
+          "returned": [
+            "obsidian-markdown"
+          ],
+          "returned_ids": [
+            "s_3a1d8ea052705cc104d0772e"
+          ]
+        },
+        {
+          "query": "Obsidian note backlinks",
+          "kind": "skill",
+          "required_terms": [],
+          "expected_empty": false,
+          "relevant": [
+            "obsidian-markdown"
+          ],
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "recall": 1.0,
+          "precision": 0.2,
+          "returned_precision": 1.0,
+          "false_positive": null,
+          "budget_limited": false,
+          "elapsed_ms": 2.68,
+          "returned": [
+            "obsidian-markdown"
+          ],
+          "returned_ids": [
+            "s_3a1d8ea052705cc104d0772e"
+          ]
+        },
+        {
+          "query": "论文 文献",
+          "kind": "skill",
+          "required_terms": [],
+          "expected_empty": false,
+          "relevant": [
+            "literature-review"
+          ],
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "recall": 1.0,
+          "precision": 0.2,
+          "returned_precision": 1.0,
+          "false_positive": null,
+          "budget_limited": false,
+          "elapsed_ms": 2.74,
+          "returned": [
+            "literature-review"
+          ],
+          "returned_ids": [
+            "s_c3dec25b46fc70f11416baa1"
+          ]
+        },
+        {
+          "query": "research paper literature review",
+          "kind": "skill",
+          "required_terms": [],
+          "expected_empty": false,
+          "relevant": [
+            "literature-review"
+          ],
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "recall": 1.0,
+          "precision": 0.2,
+          "returned_precision": 1.0,
+          "false_positive": null,
+          "budget_limited": false,
+          "elapsed_ms": 3.4,
+          "returned": [
+            "literature-review"
+          ],
+          "returned_ids": [
+            "s_c3dec25b46fc70f11416baa1"
+          ]
+        }
+      ]
+    },
+    "semantic": {
+      "queries": 10,
+      "positive_queries": 10,
+      "negative_queries": 0,
+      "k": 5,
+      "mode": "semantic",
+      "max_chars": 100000,
+      "hit_at_k": 1.0,
+      "mrr_at_k": 1.0,
+      "recall_at_k": 1.0,
+      "precision_at_k": 0.19999999999999998,
+      "returned_precision": 0.19999999999999998,
+      "false_positive_rate": null,
+      "correct_empty_rate": null,
+      "budget_limited_queries": 0,
+      "p95_ms": 12838.13,
+      "details": [
+        {
+          "query": "PDF 表格提取",
+          "kind": "skill",
+          "required_terms": [],
+          "expected_empty": false,
+          "relevant": [
+            "pdf-tables"
+          ],
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "recall": 1.0,
+          "precision": 0.2,
+          "returned_precision": 0.2,
+          "false_positive": null,
+          "budget_limited": false,
+          "elapsed_ms": 12838.13,
+          "returned": [
+            "pdf-tables",
+            "literature-review",
+            "vue-performance",
+            "obsidian-markdown",
+            "humanizer-zh"
+          ],
+          "returned_ids": [
+            "s_6324c33eae9b2666b84ea2c4",
+            "s_c3dec25b46fc70f11416baa1",
+            "s_6e73bb1ca9cc4787368a2f85",
+            "s_3a1d8ea052705cc104d0772e",
+            "s_42311ddf212ebf693ffe68b0"
+          ]
+        },
+        {
+          "query": "extract PDF tables",
+          "kind": "skill",
+          "required_terms": [],
+          "expected_empty": false,
+          "relevant": [
+            "pdf-tables"
+          ],
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "recall": 1.0,
+          "precision": 0.2,
+          "returned_precision": 0.2,
+          "false_positive": null,
+          "budget_limited": false,
+          "elapsed_ms": 2168.8,
+          "returned": [
+            "pdf-tables",
+            "literature-review",
+            "vue-performance",
+            "humanizer-zh",
+            "obsidian-markdown"
+          ],
+          "returned_ids": [
+            "s_6324c33eae9b2666b84ea2c4",
+            "s_c3dec25b46fc70f11416baa1",
+            "s_6e73bb1ca9cc4787368a2f85",
+            "s_42311ddf212ebf693ffe68b0",
+            "s_3a1d8ea052705cc104d0772e"
+          ]
+        },
+        {
+          "query": "Vue 页面性能优化",
+          "kind": "skill",
+          "required_terms": [],
+          "expected_empty": false,
+          "relevant": [
+            "vue-performance"
+          ],
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "recall": 1.0,
+          "precision": 0.2,
+          "returned_precision": 0.2,
+          "false_positive": null,
+          "budget_limited": false,
+          "elapsed_ms": 2385.21,
+          "returned": [
+            "vue-performance",
+            "humanizer-zh",
+            "obsidian-markdown",
+            "literature-review",
+            "pdf-tables"
+          ],
+          "returned_ids": [
+            "s_6e73bb1ca9cc4787368a2f85",
+            "s_42311ddf212ebf693ffe68b0",
+            "s_3a1d8ea052705cc104d0772e",
+            "s_c3dec25b46fc70f11416baa1",
+            "s_6324c33eae9b2666b84ea2c4"
+          ]
+        },
+        {
+          "query": "profile Vue rendering",
+          "kind": "skill",
+          "required_terms": [],
+          "expected_empty": false,
+          "relevant": [
+            "vue-performance"
+          ],
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "recall": 1.0,
+          "precision": 0.2,
+          "returned_precision": 0.2,
+          "false_positive": null,
+          "budget_limited": false,
+          "elapsed_ms": 42.04,
+          "returned": [
+            "vue-performance",
+            "obsidian-markdown",
+            "humanizer-zh",
+            "literature-review",
+            "pdf-tables"
+          ],
+          "returned_ids": [
+            "s_6e73bb1ca9cc4787368a2f85",
+            "s_3a1d8ea052705cc104d0772e",
+            "s_42311ddf212ebf693ffe68b0",
+            "s_c3dec25b46fc70f11416baa1",
+            "s_6324c33eae9b2666b84ea2c4"
+          ]
+        },
+        {
+          "query": "文章改写去AI腔",
+          "kind": "skill",
+          "required_terms": [],
+          "expected_empty": false,
+          "relevant": [
+            "humanizer-zh"
+          ],
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "recall": 1.0,
+          "precision": 0.2,
+          "returned_precision": 0.2,
+          "false_positive": null,
+          "budget_limited": false,
+          "elapsed_ms": 2365.65,
+          "returned": [
+            "humanizer-zh",
+            "obsidian-markdown",
+            "literature-review",
+            "vue-performance",
+            "pdf-tables"
+          ],
+          "returned_ids": [
+            "s_42311ddf212ebf693ffe68b0",
+            "s_3a1d8ea052705cc104d0772e",
+            "s_c3dec25b46fc70f11416baa1",
+            "s_6e73bb1ca9cc4787368a2f85",
+            "s_6324c33eae9b2666b84ea2c4"
+          ]
+        },
+        {
+          "query": "rewrite formulaic AI prose",
+          "kind": "skill",
+          "required_terms": [],
+          "expected_empty": false,
+          "relevant": [
+            "humanizer-zh"
+          ],
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "recall": 1.0,
+          "precision": 0.2,
+          "returned_precision": 0.2,
+          "false_positive": null,
+          "budget_limited": false,
+          "elapsed_ms": 40.75,
+          "returned": [
+            "humanizer-zh",
+            "literature-review",
+            "obsidian-markdown",
+            "vue-performance",
+            "pdf-tables"
+          ],
+          "returned_ids": [
+            "s_42311ddf212ebf693ffe68b0",
+            "s_c3dec25b46fc70f11416baa1",
+            "s_3a1d8ea052705cc104d0772e",
+            "s_6e73bb1ca9cc4787368a2f85",
+            "s_6324c33eae9b2666b84ea2c4"
+          ]
+        },
+        {
+          "query": "Obsidian 笔记",
+          "kind": "skill",
+          "required_terms": [],
+          "expected_empty": false,
+          "relevant": [
+            "obsidian-markdown"
+          ],
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "recall": 1.0,
+          "precision": 0.2,
+          "returned_precision": 0.2,
+          "false_positive": null,
+          "budget_limited": false,
+          "elapsed_ms": 41.44,
+          "returned": [
+            "obsidian-markdown",
+            "humanizer-zh",
+            "vue-performance",
+            "pdf-tables",
+            "literature-review"
+          ],
+          "returned_ids": [
+            "s_3a1d8ea052705cc104d0772e",
+            "s_42311ddf212ebf693ffe68b0",
+            "s_6e73bb1ca9cc4787368a2f85",
+            "s_6324c33eae9b2666b84ea2c4",
+            "s_c3dec25b46fc70f11416baa1"
+          ]
+        },
+        {
+          "query": "Obsidian note backlinks",
+          "kind": "skill",
+          "required_terms": [],
+          "expected_empty": false,
+          "relevant": [
+            "obsidian-markdown"
+          ],
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "recall": 1.0,
+          "precision": 0.2,
+          "returned_precision": 0.2,
+          "false_positive": null,
+          "budget_limited": false,
+          "elapsed_ms": 45.62,
+          "returned": [
+            "obsidian-markdown",
+            "literature-review",
+            "pdf-tables",
+            "vue-performance",
+            "humanizer-zh"
+          ],
+          "returned_ids": [
+            "s_3a1d8ea052705cc104d0772e",
+            "s_c3dec25b46fc70f11416baa1",
+            "s_6324c33eae9b2666b84ea2c4",
+            "s_6e73bb1ca9cc4787368a2f85",
+            "s_42311ddf212ebf693ffe68b0"
+          ]
+        },
+        {
+          "query": "论文 文献",
+          "kind": "skill",
+          "required_terms": [],
+          "expected_empty": false,
+          "relevant": [
+            "literature-review"
+          ],
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "recall": 1.0,
+          "precision": 0.2,
+          "returned_precision": 0.2,
+          "false_positive": null,
+          "budget_limited": false,
+          "elapsed_ms": 40.24,
+          "returned": [
+            "literature-review",
+            "vue-performance",
+            "pdf-tables",
+            "humanizer-zh",
+            "obsidian-markdown"
+          ],
+          "returned_ids": [
+            "s_c3dec25b46fc70f11416baa1",
+            "s_6e73bb1ca9cc4787368a2f85",
+            "s_6324c33eae9b2666b84ea2c4",
+            "s_42311ddf212ebf693ffe68b0",
+            "s_3a1d8ea052705cc104d0772e"
+          ]
+        },
+        {
+          "query": "research paper literature review",
+          "kind": "skill",
+          "required_terms": [],
+          "expected_empty": false,
+          "relevant": [
+            "literature-review"
+          ],
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "recall": 1.0,
+          "precision": 0.2,
+          "returned_precision": 0.2,
+          "false_positive": null,
+          "budget_limited": false,
+          "elapsed_ms": 52.51,
+          "returned": [
+            "literature-review",
+            "vue-performance",
+            "humanizer-zh",
+            "pdf-tables",
+            "obsidian-markdown"
+          ],
+          "returned_ids": [
+            "s_c3dec25b46fc70f11416baa1",
+            "s_6e73bb1ca9cc4787368a2f85",
+            "s_42311ddf212ebf693ffe68b0",
+            "s_6324c33eae9b2666b84ea2c4",
+            "s_3a1d8ea052705cc104d0772e"
+          ]
+        }
+      ]
+    },
+    "hybrid": {
+      "queries": 10,
+      "positive_queries": 10,
+      "negative_queries": 0,
+      "k": 5,
+      "mode": "hybrid",
+      "max_chars": 100000,
+      "hit_at_k": 1.0,
+      "mrr_at_k": 1.0,
+      "recall_at_k": 1.0,
+      "precision_at_k": 0.19999999999999998,
+      "returned_precision": 0.19999999999999998,
+      "false_positive_rate": null,
+      "correct_empty_rate": null,
+      "budget_limited_queries": 0,
+      "p95_ms": 52.63,
+      "details": [
+        {
+          "query": "PDF 表格提取",
+          "kind": "skill",
+          "required_terms": [],
+          "expected_empty": false,
+          "relevant": [
+            "pdf-tables"
+          ],
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "recall": 1.0,
+          "precision": 0.2,
+          "returned_precision": 0.2,
+          "false_positive": null,
+          "budget_limited": false,
+          "elapsed_ms": 52.63,
+          "returned": [
+            "pdf-tables",
+            "literature-review",
+            "vue-performance",
+            "obsidian-markdown",
+            "humanizer-zh"
+          ],
+          "returned_ids": [
+            "s_6324c33eae9b2666b84ea2c4",
+            "s_c3dec25b46fc70f11416baa1",
+            "s_6e73bb1ca9cc4787368a2f85",
+            "s_3a1d8ea052705cc104d0772e",
+            "s_42311ddf212ebf693ffe68b0"
+          ]
+        },
+        {
+          "query": "extract PDF tables",
+          "kind": "skill",
+          "required_terms": [],
+          "expected_empty": false,
+          "relevant": [
+            "pdf-tables"
+          ],
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "recall": 1.0,
+          "precision": 0.2,
+          "returned_precision": 0.2,
+          "false_positive": null,
+          "budget_limited": false,
+          "elapsed_ms": 35.69,
+          "returned": [
+            "pdf-tables",
+            "literature-review",
+            "vue-performance",
+            "humanizer-zh",
+            "obsidian-markdown"
+          ],
+          "returned_ids": [
+            "s_6324c33eae9b2666b84ea2c4",
+            "s_c3dec25b46fc70f11416baa1",
+            "s_6e73bb1ca9cc4787368a2f85",
+            "s_42311ddf212ebf693ffe68b0",
+            "s_3a1d8ea052705cc104d0772e"
+          ]
+        },
+        {
+          "query": "Vue 页面性能优化",
+          "kind": "skill",
+          "required_terms": [],
+          "expected_empty": false,
+          "relevant": [
+            "vue-performance"
+          ],
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "recall": 1.0,
+          "precision": 0.2,
+          "returned_precision": 0.2,
+          "false_positive": null,
+          "budget_limited": false,
+          "elapsed_ms": 25.62,
+          "returned": [
+            "vue-performance",
+            "humanizer-zh",
+            "obsidian-markdown",
+            "literature-review",
+            "pdf-tables"
+          ],
+          "returned_ids": [
+            "s_6e73bb1ca9cc4787368a2f85",
+            "s_42311ddf212ebf693ffe68b0",
+            "s_3a1d8ea052705cc104d0772e",
+            "s_c3dec25b46fc70f11416baa1",
+            "s_6324c33eae9b2666b84ea2c4"
+          ]
+        },
+        {
+          "query": "profile Vue rendering",
+          "kind": "skill",
+          "required_terms": [],
+          "expected_empty": false,
+          "relevant": [
+            "vue-performance"
+          ],
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "recall": 1.0,
+          "precision": 0.2,
+          "returned_precision": 0.2,
+          "false_positive": null,
+          "budget_limited": false,
+          "elapsed_ms": 25.04,
+          "returned": [
+            "vue-performance",
+            "obsidian-markdown",
+            "humanizer-zh",
+            "literature-review",
+            "pdf-tables"
+          ],
+          "returned_ids": [
+            "s_6e73bb1ca9cc4787368a2f85",
+            "s_3a1d8ea052705cc104d0772e",
+            "s_42311ddf212ebf693ffe68b0",
+            "s_c3dec25b46fc70f11416baa1",
+            "s_6324c33eae9b2666b84ea2c4"
+          ]
+        },
+        {
+          "query": "文章改写去AI腔",
+          "kind": "skill",
+          "required_terms": [],
+          "expected_empty": false,
+          "relevant": [
+            "humanizer-zh"
+          ],
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "recall": 1.0,
+          "precision": 0.2,
+          "returned_precision": 0.2,
+          "false_positive": null,
+          "budget_limited": false,
+          "elapsed_ms": 31.05,
+          "returned": [
+            "humanizer-zh",
+            "obsidian-markdown",
+            "literature-review",
+            "vue-performance",
+            "pdf-tables"
+          ],
+          "returned_ids": [
+            "s_42311ddf212ebf693ffe68b0",
+            "s_3a1d8ea052705cc104d0772e",
+            "s_c3dec25b46fc70f11416baa1",
+            "s_6e73bb1ca9cc4787368a2f85",
+            "s_6324c33eae9b2666b84ea2c4"
+          ]
+        },
+        {
+          "query": "rewrite formulaic AI prose",
+          "kind": "skill",
+          "required_terms": [],
+          "expected_empty": false,
+          "relevant": [
+            "humanizer-zh"
+          ],
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "recall": 1.0,
+          "precision": 0.2,
+          "returned_precision": 0.2,
+          "false_positive": null,
+          "budget_limited": false,
+          "elapsed_ms": 26.72,
+          "returned": [
+            "humanizer-zh",
+            "literature-review",
+            "obsidian-markdown",
+            "vue-performance",
+            "pdf-tables"
+          ],
+          "returned_ids": [
+            "s_42311ddf212ebf693ffe68b0",
+            "s_c3dec25b46fc70f11416baa1",
+            "s_3a1d8ea052705cc104d0772e",
+            "s_6e73bb1ca9cc4787368a2f85",
+            "s_6324c33eae9b2666b84ea2c4"
+          ]
+        },
+        {
+          "query": "Obsidian 笔记",
+          "kind": "skill",
+          "required_terms": [],
+          "expected_empty": false,
+          "relevant": [
+            "obsidian-markdown"
+          ],
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "recall": 1.0,
+          "precision": 0.2,
+          "returned_precision": 0.2,
+          "false_positive": null,
+          "budget_limited": false,
+          "elapsed_ms": 27.81,
+          "returned": [
+            "obsidian-markdown",
+            "humanizer-zh",
+            "vue-performance",
+            "pdf-tables",
+            "literature-review"
+          ],
+          "returned_ids": [
+            "s_3a1d8ea052705cc104d0772e",
+            "s_42311ddf212ebf693ffe68b0",
+            "s_6e73bb1ca9cc4787368a2f85",
+            "s_6324c33eae9b2666b84ea2c4",
+            "s_c3dec25b46fc70f11416baa1"
+          ]
+        },
+        {
+          "query": "Obsidian note backlinks",
+          "kind": "skill",
+          "required_terms": [],
+          "expected_empty": false,
+          "relevant": [
+            "obsidian-markdown"
+          ],
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "recall": 1.0,
+          "precision": 0.2,
+          "returned_precision": 0.2,
+          "false_positive": null,
+          "budget_limited": false,
+          "elapsed_ms": 22.45,
+          "returned": [
+            "obsidian-markdown",
+            "literature-review",
+            "pdf-tables",
+            "vue-performance",
+            "humanizer-zh"
+          ],
+          "returned_ids": [
+            "s_3a1d8ea052705cc104d0772e",
+            "s_c3dec25b46fc70f11416baa1",
+            "s_6324c33eae9b2666b84ea2c4",
+            "s_6e73bb1ca9cc4787368a2f85",
+            "s_42311ddf212ebf693ffe68b0"
+          ]
+        },
+        {
+          "query": "论文 文献",
+          "kind": "skill",
+          "required_terms": [],
+          "expected_empty": false,
+          "relevant": [
+            "literature-review"
+          ],
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "recall": 1.0,
+          "precision": 0.2,
+          "returned_precision": 0.2,
+          "false_positive": null,
+          "budget_limited": false,
+          "elapsed_ms": 23.86,
+          "returned": [
+            "literature-review",
+            "vue-performance",
+            "pdf-tables",
+            "humanizer-zh",
+            "obsidian-markdown"
+          ],
+          "returned_ids": [
+            "s_c3dec25b46fc70f11416baa1",
+            "s_6e73bb1ca9cc4787368a2f85",
+            "s_6324c33eae9b2666b84ea2c4",
+            "s_42311ddf212ebf693ffe68b0",
+            "s_3a1d8ea052705cc104d0772e"
+          ]
+        },
+        {
+          "query": "research paper literature review",
+          "kind": "skill",
+          "required_terms": [],
+          "expected_empty": false,
+          "relevant": [
+            "literature-review"
+          ],
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "recall": 1.0,
+          "precision": 0.2,
+          "returned_precision": 0.2,
+          "false_positive": null,
+          "budget_limited": false,
+          "elapsed_ms": 26.43,
+          "returned": [
+            "literature-review",
+            "vue-performance",
+            "humanizer-zh",
+            "pdf-tables",
+            "obsidian-markdown"
+          ],
+          "returned_ids": [
+            "s_c3dec25b46fc70f11416baa1",
+            "s_6e73bb1ca9cc4787368a2f85",
+            "s_42311ddf212ebf693ffe68b0",
+            "s_6324c33eae9b2666b84ea2c4",
+            "s_3a1d8ea052705cc104d0772e"
+          ]
+        }
+      ]
+    }
+  },
+  "limitations": "Small labelled development dataset; labels are not exhaustive. Host LLM execution is tested separately."
+}

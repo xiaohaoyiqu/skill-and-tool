@@ -1,0 +1,28 @@
+{
+  "checks": [
+    {
+      "host": "codex",
+      "status": "timeout",
+      "passed": false,
+      "model_inference": null,
+      "returncode": null,
+      "elapsed_seconds": 120.877,
+      "tool_calls": [],
+      "nonce_verified": false,
+      "user_configuration_changed": false,
+      "diagnostic": "Inspect host authentication, model access and connectivity; no private host output is saved."
+    },
+    {
+      "host": "claude",
+      "status": "requires_login",
+      "passed": false,
+      "model_inference": false,
+      "deferred_by_user": true
+    }
+  ],
+  "gemini_cli_installed": false,
+  "vscode_installed": true,
+  "limitations": "Only installed and authenticated hosts can pass actual LLM acceptance. No host configuration is persisted.",
+  "historical_attempt": true,
+  "superseded_by": "host-codex-check.json and codex-mcp-check.json"
+}

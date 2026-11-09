@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="sklib-token" content="__TOKEN__">
+  <title>SKLIB · 本地技能库</title><link rel="stylesheet" href="/styles.css">
+  <script src="/drafts.js" defer></script><script src="/app.js" defer></script>
+  <script src="/management.js" defer></script>
+</head>
+<body>
+  <aside class="sidebar">
+    <a class="brand" href="/" aria-label="SKLIB 首页"><span class="brand-icon">S</span> SKLIB <span class="badge">LOCAL</span></a>
+    <p class="intro">让收藏的技能，<br>在需要时被找到。</p>
+    <nav aria-label="主导航">
+      <button class="nav active" data-view="library">技能检索 <span>01</span></button>
+      <button class="nav" data-view="sources">资料来源 <span>02</span></button>
+      <button class="nav" data-view="records">记录与版本 <span>03</span></button>
+    </nav>
+    <div class="sidebar-bottom"><span class="dot"></span> 本地工作空间<p id="home-label"></p><p>Agent 与你共用一份技能库</p></div>
+  </aside>
+  <main>
+    <header><div><p class="eyebrow">YOUR LOCAL CAPABILITY LIBRARY</p><h1 id="view-title">找到下一步的做法。</h1></div><div id="summary" class="summary">正在读取技能库…</div></header>
+    <div id="notice" role="status" aria-live="polite" hidden></div>
+    <section id="view-library">
+      <form id="search-form" class="searchbox"><label class="sr-only" for="query">搜索任务或技能</label><span aria-hidden="true">⌕</span><input id="query" placeholder="描述任务，或输入技能名称…" autocomplete="off" maxlength="2048"><kbd>Ctrl K</kbd><button class="primary" type="submit">检索</button></form>
+      <div class="filters">
+        <label>分拣队列<select id="queue"><option value="all">全部条目</option><option value="unclassified">未分类</option><option value="needs_review">待复核</option><option value="warnings">有警告</option><option value="duplicates">重复技能</option></select></label>
+        <label>浏览排序<select id="catalog-sort"><option value="name">名称</option><option value="recent">最近收录 / 更新</option><option value="source">来源路径</option></select></label>
+        <label>范围<select id="kind"><option value="skill">Skills</option><option value="project">来源项目</option><option value="document">项目文档</option><option value="all">全部资料</option></select></label>
+        <label>来源<select id="root-filter"><option value="">全部来源</option></select></label>
+        <label>程序类型<select id="project-type"><option value="">全部类型</option><option value="javascript">JavaScript / TypeScript</option><option value="python">Python</option><option value="rust">Rust</option><option value="go">Go</option><option value="jvm">Java / Kotlin / JVM</option><option value="dotnet">.NET</option><option value="cpp">C / C++</option><option value="php">PHP</option><option value="dart">Dart / Flutter</option><option value="ruby">Ruby</option><option value="swift">Swift</option></select></label>
+        <label>状态<select id="state"><option value="">全部状态</option><option value="unreviewed">待了解</option><option value="to_try">待试用</option><option value="useful">常用</option><option value="not_recommended">暂不推荐</option></select></label>
+        <label>标签<input id="tag-filter" placeholder="例如：前端,性能"></label>
+        <label>必含词<input id="required-terms" maxlength="647" placeholder="例如：Vue,SSR" title="用逗号分隔，每个词都必须匹配；也可单独检索"></label>
+        <label class="check"><input id="favorite-filter" type="checkbox">仅收藏</label>
+      </div>
+      <p id="queue-summary" class="path"></p>
+      <div class="batch-toolbar panel">
+        <div class="inline"><button id="pick-page" type="button">选择本页</button><button id="clear-picks" type="button">清空选择</button><span id="pick-count">已选 0 项</span><button id="review-picks" type="button" disabled>重新读取选中记录</button><button id="drafts-toggle" type="button">草稿箱 0</button></div>
+        <details id="pick-details"><summary>核对已选位置</summary><div id="pick-list"></div></details>
+        <form id="batch-form" class="inline"><label>标签操作<select id="batch-tag-mode"><option value="add">添加标签</option><option value="remove">移除指定标签</option><option value="replace">替换全部标签</option><option value="clear">清空标签</option></select></label><label>标签<input id="batch-tags" maxlength="2400" placeholder="用逗号分隔"></label><label>状态<select id="batch-state"><option value="">不修改</option><option value="unreviewed">待了解</option><option value="to_try">待试用</option><option value="useful">常用</option><option value="not_recommended">暂不推荐</option></select></label><label>收藏<select id="batch-favorite"><option value="">不修改</option><option value="true">设为收藏</option><option value="false">取消收藏</option></select></label><button id="batch-apply" class="primary" type="submit" disabled>应用到已选条目</button></form>
+        <p class="path">可跨页选择，最多 100 项；更改搜索条件会清空选择。每项只处理所列位置，其他内容副本保持各自记录。个人笔记保留。</p>
+      </div>
+      <section id="draft-box" class="panel" aria-label="浏览器草稿箱" hidden><div class="inline"><h2>浏览器草稿箱</h2><button id="drafts-export" type="button">导出草稿</button></div><p class="path">草稿保存在当前浏览器和本机地址下，按资料库区分；点击“保存记录”才会写入资料库。不同页面的副本分别保留。</p><p id="draft-storage-warning" class="warning" hidden></p><div id="draft-list"></div></section>
+      <div class="workspace">
+        <section class="results-pane" aria-label="搜索结果"><div class="pane-heading"><h2>检索结果</h2><span id="result-meta"></span></div><div id="results"><div class="empty"><span class="empty-icon">⌕</span><h3>从一个具体任务开始</h3><p>试试“PDF 表格提取”“Vue 性能优化”<br>或搜索你记得的技能名称。</p></div></div><div class="pagination"><button id="previous" disabled>上一页</button><button id="next" disabled>下一页</button></div></section>
+        <section class="detail-pane" aria-label="技能详情"><div id="detail-empty" class="empty"><span class="empty-icon">↗</span><h3>查看依据，再决定采用</h3><p>选择结果后，在这里阅读完整技能、<br>配套文件与个人笔记。</p></div><div id="detail" hidden>
+          <div class="detail-top"><p id="detail-kind" class="eyebrow"></p><h2 id="detail-name"></h2><button id="copy-path" class="quiet">复制路径</button></div><p id="detail-path" class="path"></p><p id="stale-message" class="warning" hidden>源文件已变化，当前展示磁盘内容。请刷新来源索引以更新搜索结果。</p>
+          <p id="detail-warnings" class="warning" hidden></p>
+          <div class="tabs"><button id="tab-content" class="tab active">完整指令</button><button id="tab-files" class="tab">配套文件</button><button id="tab-notes" class="tab">个人记录</button></div>
+          <div id="content-panel"><pre id="content"></pre></div>
+          <div id="files-panel" hidden><div id="files"></div><label>文本编码<select id="resource-encoding"><option value="">沿用来源设置</option><option value="auto">UTF / BOM 自动识别</option><option value="gb18030">GB18030 / GBK 回退</option><option value="cp1252">Windows-1252 回退</option><option value="shift_jis">Shift-JIS 回退</option></select></label><p id="resource-label" class="path"></p><pre id="resource-content"></pre><button id="resource-more" hidden>继续读取</button></div>
+          <form id="notes-panel" hidden><p id="draft-status" role="status" aria-live="polite" class="path"></p><div id="note-conflict" class="warning" hidden><strong>已保存记录发生变化，请核对后继续。</strong><pre id="note-current"></pre><button id="note-rebase" type="button">保留输入，基于显示的版本继续编辑</button></div><label>标签，使用逗号分隔<input id="note-tags" maxlength="2400"></label><label>使用状态<select id="note-state"><option value="unreviewed">待了解</option><option value="to_try">待试用</option><option value="useful">常用</option><option value="not_recommended">暂不推荐</option></select></label><label class="check"><input id="note-favorite" type="checkbox">收藏这个技能</label><label>个人笔记<textarea id="note-text" rows="7" maxlength="10000" placeholder="适合什么任务？有什么使用经验？"></textarea></label><button id="note-save" class="primary" type="submit">保存记录</button></form>
+        </div></section>
+      </div>
+    </section>
+    <section id="view-sources" hidden><div class="section-heading"><h2>把资料接入技能库</h2><p>识别技能、项目清单与 README。扫描在后台排队，刷新页面后仍可查看；取消会在安全检查点停止。</p></div><form id="index-form" class="panel"><label>本地目录<input id="source-root" required placeholder="E:\aimodel"></label><label>旧文本编码<select id="source-encoding"><option value="auto">UTF / BOM 自动识别</option><option value="gb18030">GB18030 / GBK 回退</option><option value="cp1252">Windows-1252 回退</option><option value="shift_jis">Shift-JIS 回退</option></select></label><div class="inline"><label class="check"><input id="include-docs" type="checkbox">包含 MD / MDX / RST / TXT / AsciiDoc 文档</label><label class="check"><input id="verify-files" type="checkbox">完整校验文件内容</label><button class="primary" type="submit">扫描并更新索引</button></div></form><section aria-label="扫描任务"><h2>扫描任务</h2><p id="job-connection" class="warning" hidden></p><div id="index-jobs"></div></section><div class="section-heading"><h2>已登记来源</h2></div><div id="source-list"></div></section>
+    <section id="view-records" hidden><div class="section-heading"><h2>让整理过程留下版本</h2><p>将来源快照、标签、收藏与笔记保存到本地 Git 仓库。每次提交均由你发起。</p></div><div class="panel"><div class="inline"><button id="records-init">初始化记录仓库</button><button id="records-preview">生成快照并预览变化</button><button id="records-log">查看提交历史</button><button id="records-status">检查仓库状态</button></div><pre id="records-output">记录仓库准备好后，可在这里预览下一次提交。</pre><form id="commit-form" class="inline"><label class="grow">提交说明<input id="commit-message" required maxlength="1000" placeholder="例如：整理前端技能，补充性能排查笔记"></label><button id="commit-button" class="primary" type="submit" disabled>提交记录到 Git</button></form></div><div class="section-heading"><h2>最近操作</h2></div><div id="activity-list"></div></section>
+    <section id="source-monitor-tools" class="panel" hidden>
+      <h2>检测来源变化</h2><p class="path">检测可收录的技能、项目和文档文件，不改动资料。普通检测比较文件信息；完整内容校验可使用命令行。定时检测设置只在本次服务运行期间生效。</p>
+      <div class="inline"><button id="source-check" type="button">立即检测</button><label class="check"><input id="source-auto-check" type="checkbox">定时检测</label><label>间隔（秒）<input id="source-check-interval" type="number" min="30" max="86400" value="60"></label><label class="check"><input id="source-auto-refresh" type="checkbox" disabled>变化后自动刷新索引</label></div>
+      <p id="source-check-status" role="status"></p><div id="source-check-results"></div>
+    </section>
+    <section id="restore-tools" class="panel" hidden>
+      <h2>备份、恢复与路径迁移</h2><p class="path">只处理标签、笔记、状态和收藏。先扫描目标资料，再预览导入；原位置的记录会保留，未匹配条目作为待关联记录保存。</p>
+      <button id="snapshot-download" type="button">下载整理快照</button>
+      <form id="restore-form"><label>选择整理快照（JSON，最多 16 MiB）<input id="restore-file" type="file" accept=".json,application/json"></label><div id="restore-root-mappings"></div><div class="inline"><label>已有记录的默认处理<select id="restore-policy"><option value="keep">保留已有记录</option><option value="replace">使用导入记录覆盖</option></select></label><label class="check"><input id="restore-match-content" type="checkbox">允许按唯一相同内容匹配改名条目</label><button id="restore-preview" type="submit">预览快照导入</button></div></form>
+      <details><summary>将已登记来源的整理记录迁移到另一来源</summary><form id="migration-form" class="inline"><label>原来源<select id="migration-from"></select></label><label>新来源<select id="migration-to"></select></label><button id="migration-preview" type="submit">预览路径迁移</button></form></details>
+      <p id="restore-summary" role="status"></p><div id="restore-entries"></div><div class="inline"><button id="restore-more" type="button" hidden>查看更多预览</button><button id="restore-apply" class="primary" type="button" disabled>应用本次预览</button></div>
+    </section>
+    <footer>SKLIB <span>来源可追溯 · 内容按需读取 · 记录由你管理</span></footer>
+  </main>
+</body>
+</html>

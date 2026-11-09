@@ -1,0 +1,18 @@
+{
+  "entries": 50,
+  "body_chars_each": 10350,
+  "samples_each": 5,
+  "warm_cache": true,
+  "timings": {
+    "full_fts_refresh": {
+      "median_ms": 131.39,
+      "max_ms": 258.21
+    },
+    "annotation_only": {
+      "median_ms": 47.93,
+      "max_ms": 91.02
+    }
+  },
+  "fts_integrity": "ok",
+  "limitations": "Synthetic documents, alternating order, one machine; excludes browser and model latency."
+}

@@ -1,6 +1,6 @@
 # 多仓库拉取、整理与查看
 
-本目录是第三方 Skill、工具和资料仓库的本地集合；根聚合仓库只跟踪索引、说明和维护脚本，不重复上传第三方仓库工作树。
+本目录是第三方 Skill、工具和资料仓库的本地集合；根聚合仓库跟踪索引、说明、维护脚本及自制 [SKLIB](../sklib/README.md) 源码，不重复上传第三方仓库工作树。
 
 ## 推荐组合
 
@@ -8,6 +8,7 @@
 |------|------|------|
 | 批量检查和更新一级 Git 仓库 | [`scripts/Sync-RepositoryCatalog.ps1`](../scripts/Sync-RepositoryCatalog.ps1) | 为当前目录定制；默认只读检查，显式 `-Pull` 才执行 `git pull --ff-only --prune`，自动跳过本地修改和无 upstream 的仓库，不写全局 Git 配置 |
 | 精确查找文件、路径和文本 | `rg` / `rg --files` | 零索引、结果可直接定位；已知关键词时优先使用 |
+| 按任务检索本地 Skill 和项目资料 | [SKLIB](../sklib/README.md) | 自制 Python 工具；支持中英文词法检索、来源与版本、分页读取和可选本地语义检索，提供 CLI、stdio MCP 与网页界面；索引和个人整理状态单独保存在本地 |
 | 不知道原文或位置时做语义检索 | [zvec-ai/zvec-grep](https://github.com/zvec-ai/zvec-grep) | ripgrep、BM25 和向量检索统一入口，支持 Codex MCP；安装会修改 Codex 配置，本目录当前只保存源码 |
 | 理解跨文件关系、调用路径和架构 | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | 将代码、文档和媒体转换为持久知识图谱；适合关系问题，不替代精确全文搜索 |
 | 统一执行多仓库自定义命令 | [alajmo/mani](https://github.com/alajmo/mani) | Go 编写的多仓库 CLI，适合已有项目清单和重复命令；当前自定义脚本已覆盖安全同步，因此暂不重复克隆 |
