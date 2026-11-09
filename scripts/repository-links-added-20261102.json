@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-02",
+  "scope": "Four user-requested project links; documentation only",
+  "verification_method": "Read each public GitHub repository page and README through web tools",
+  "share_count_before": 116,
+  "share_count_after": 120,
+  "local_repository_count_changed": false,
+  "projects": [
+    {
+      "repository": "hoochanlon/fq-book",
+      "url": "https://github.com/hoochanlon/fq-book",
+      "page_readable": true,
+      "category": "学习资料与项目导航",
+      "purpose": "代理、隧道、VPN 等网络原理与相关工具配置文档",
+      "license_observation": "GitHub 仓库页未显示标准许可证",
+      "local_status": "link_only"
+    },
+    {
+      "repository": "akitaonrails/ai-memory",
+      "url": "https://github.com/akitaonrails/ai-memory",
+      "page_readable": true,
+      "category": "Agent 应用与任务管理",
+      "purpose": "编码 Agent 的长期项目记忆与跨工具任务交接，使用 Git 管理的 Markdown 保存知识",
+      "license_observation": "MIT",
+      "local_status": "link_only"
+    },
+    {
+      "repository": "arjun988/blender-skills",
+      "url": "https://github.com/arjun988/blender-skills",
+      "page_readable": true,
+      "category": "音频 视频与图像",
+      "purpose": "配合 Blender MCP 使用的建模、材质、动画与引擎导出 Skills",
+      "license_observation": "MIT",
+      "local_status": "link_only"
+    },
+    {
+      "repository": "ysharma3501/LuxTTS",
+      "url": "https://github.com/ysharma3501/LuxTTS",
+      "page_readable": true,
+      "category": "音频 视频与图像",
+      "purpose": "基于 ZipVoice 的文字转语音和声音克隆，README 提供 CUDA、CPU 和 MPS 示例",
+      "license_observation": "Source code Apache-2.0; model weight terms require separate review",
+      "local_status": "link_only"
+    }
+  ],
+  "notes": [
+    "No source repositories cloned, no dependencies installed, no models downloaded, and no Agent configuration modified.",
+    "The earlier 116-project audit remains a historical baseline; these four additions are recorded separately.",
+    "Performance and quality claims were not locally benchmarked."
+  ]
+}

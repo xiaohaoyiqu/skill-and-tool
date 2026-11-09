@@ -1,0 +1,436 @@
+{
+  "web_open_results": [
+    {
+      "url": "https://github.com/38tter/mergration",
+      "title": "GitHub - 38tter/mergration: Generate migration files from your mermaid ER diagrams",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/3b1b/manim",
+      "title": "GitHub - 3b1b/manim: Animation engine for explanatory math videos",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/aaif-goose/goose",
+      "title": "GitHub - aaif-goose/goose: an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/addyosmani/agent-skills",
+      "title": "GitHub - addyosmani/agent-skills: Production-grade engineering skills for AI coding agents.",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/affaan-m/ECC",
+      "title": "GitHub - affaan-m/ECC: The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/alibaba/open-code-review",
+      "title": "GitHub - alibaba/open-code-review: Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-cookbooks",
+      "title": "GitHub - anthropics/claude-cookbooks: A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "title": "GitHub - anthropics/claude-plugins-official: Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "title": "GitHub - anthropics/knowledge-work-plugins: Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/anthropics/skills",
+      "title": "GitHub - anthropics/skills: Public repository for Agent Skills",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/bobeff/open-source-games",
+      "title": "GitHub - bobeff/open-source-games: A list of open source games.",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/bradautomates/claude-video",
+      "title": "GitHub - bradautomates/claude-video: Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/browser-use/browser-use",
+      "title": "GitHub - browser-use/browser-use: Open-source Python library for AI browser agents, plus Browser Use Cloud: stealth browsers and a hosted agent API.",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills",
+      "title": "GitHub - brycewang-stanford/Auto-Empirical-Research-Skills: 🔬 A curated collection of 23,000+ agent skills for empirical research across 8 social science disciplines. | 精选 23,000+ AI Agent 技能库，覆盖8大社会科学学科的实证研究。CoPaper.AI 20分钟完成一篇可复现的规范实证论文，并支持用户上传 Skills。-- Maintained by CoPaper.AI from Stanford REAP.",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "title": "GitHub - ChromeDevTools/chrome-devtools-mcp: Chrome DevTools for coding agents",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/ciembor/agent-rules-books",
+      "title": "GitHub - ciembor/agent-rules-books: AGENTS.md rules / skills for AI coding agents: Codex, Cursor & Claude Code. Inspired by Clean Code, Refactoring, DDD, Clean Architecture and DDIA programming books.",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/citrolabs/ego-lite",
+      "title": "GitHub - citrolabs/ego-lite: The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/codecrafters-io/build-your-own-x",
+      "title": "GitHub - codecrafters-io/build-your-own-x: Master programming by recreating your favorite technologies from scratch.",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/conorbronsdon/avoid-ai-writing",
+      "title": "GitHub - conorbronsdon/avoid-ai-writing: Skill that audits and rewrites content to remove AI writing patterns. Use it with your favorite agents including Claude Code, OpenClaw, Codex, and Hermes.",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/daizhige-org/daizhigev20",
+      "title": "GitHub - daizhige-org/daizhigev20: 「殆知阁」中国古代文献原始数据（2026-10-28 更新）",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/dedoc/scramble",
+      "title": "GitHub - dedoc/scramble: Modern Laravel OpenAPI (Swagger) documentation generator. No PHPDoc annotations required.",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/different-ai/openwork",
+      "title": "GitHub - different-ai/openwork: The open-source alternative to Claude Cowork (powered by opencode)",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/earendil-works/pi",
+      "title": "GitHub - earendil-works/pi: AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/emilkowalski/skills",
+      "title": "GitHub - emilkowalski/skills: Skills for Designers and Engineers.",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/emmabostian/developer-portfolios",
+      "title": "GitHub - emmabostian/developer-portfolios: A list of developer portfolios for your inspiration",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/firecrawl/pdf-inspector",
+      "title": "GitHub - firecrawl/pdf-inspector: Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/Galaxy-Dawn/claude-scholar",
+      "title": "GitHub - Galaxy-Dawn/claude-scholar: Semi-automated research assistant for academic research and software development. Supports Claude Code, Codex CLI, Kimi Code CLI, and OpenCode across ideation, coding, experiments, writing, and publication.",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "title": "GitHub - Graphify-Labs/graphify: Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/gustavolopess/ai-unit-tests-generator",
+      "title": "GitHub - gustavolopess/ai-unit-tests-generator: A full-stack application that automatically improves TypeScript test coverage in GitHub repositories using AI.",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/handsomestWei/patent-disclosure-skill",
+      "title": "GitHub - handsomestWei/patent-disclosure-skill: 中国专利.skill：专利点挖掘与交底书（发明/实用/外观）编写，通俗解读专利，嗅探政策动向，辅助审查答复。",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/headroomlabs-ai/headroom",
+      "title": "GitHub - headroomlabs-ai/headroom: Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/heygen-com/hyperframes",
+      "title": "GitHub - heygen-com/hyperframes: Write HTML. Render video. Built for agents.",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/huangruiteng/loopx",
+      "title": "GitHub - loopx-project/loopx: Turn long-horizon goals into verifiable results. A local-first semantic control plane and research workbench for long-running agent teams, across sessions and runtimes.",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/jackwener/OpenCLI",
+      "title": "GitHub - jackwener/OpenCLI: Make Any Website into CLI & Use your logged-in browser by AI agent.",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/JackyST0/awesome-agent-skills",
+      "title": "GitHub - JackyST0/awesome-agent-skills: 🤖 精选的 AI Agent Skills 列表，适用于 Cursor、Claude Code、GitHub Copilot 等 AI 编程工具",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/jianchang512/stt",
+      "title": "GitHub - jianchang512/stt: Voice Recognition to Text Tool / 一个离线运行的本地音视频转字幕工具，输出json、srt字幕、纯文字格式",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "title": "GitHub - JuliusBrussee/caveman: 🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "title": "GitHub - K-Dense-AI/scientific-agent-skills: Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/kepano/kepano-obsidian",
+      "title": "GitHub - kepano/kepano-obsidian: My personal Obsidian vault template. A bottom-up approach to note-taking and organizing things I am interested in.",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/kepano/obsidian-skills",
+      "title": "GitHub - kepano/obsidian-skills: Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas.",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/KKKKhazix/human-writing",
+      "title": "GitHub - KKKKhazix/human-writing: 让 AI 写的中文读起来像一个具体的人在说话。通用创作与改稿 Skill，开箱即用。",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/KKKKhazix/khazix-skills",
+      "title": "GitHub - KKKKhazix/khazix-skills: 数字生命卡兹克开源的 AI Skills 合集 | Agent Skills: leader（帮你定义目标）, neat-freak 洁癖, hv-analysis, khazix-writer & more — Claude Code, Codex & 40+ agents",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/ling-kong-ran/pisper",
+      "title": "GitHub - ling-kong-ran/pisper: Multi-agent app for parallel sessions, tools, memory, workflows, desktop, terminal, and mobile.",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/magenta/magenta-realtime",
+      "title": "GitHub - magenta/magenta-realtime: Magenta RealTime 2: An Open-Weights Live Music Model",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/markdown-viewer/skills",
+      "title": "GitHub - markdown-viewer/skills: Opinionated skills for AI coding agents to create stunning diagrams and visualizations directly in Markdown. These skills extend agent capabilities across diagram generation, data visualization, and technical documentation.",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/mattpocock/skills",
+      "title": "GitHub - mattpocock/skills: Skills for Real Engineers. Straight from my .agents directory.",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/metacraft-labs/codetracer",
+      "title": "GitHub - metacraft-labs/codetracer: CodeTracer is a user-friendly time-traveling debugger designed to support a wide range of programming languages.",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/MiniMax-AI/skills",
+      "title": "GitHub - MiniMax-AI/skills",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "title": "GitHub - multica-ai/andrej-karpathy-skills: A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "title": "GitHub - mvanhorn/last30days-skill: AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/nanobrowser/nanobrowser",
+      "title": "GitHub - nanobrowser/nanobrowser: Open-source AI agent for web automation. Use your real, logged-in browser to automate daily tasks.",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/NationalSecurityAgency/ghidra",
+      "title": "GitHub - NationalSecurityAgency/ghidra: Ghidra is a software reverse engineering (SRE) framework",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/nexu-io/open-design",
+      "title": "GitHub - nexu-io/open-design: The 1st Collaborative AI Design Agent Workspace. Local-first and open source. Create motion, prototypes, websites, apps, dashboards, presentations, images, and videos with your team and AI agents. Share work, exchange feedback, and iterate together in one workspace.",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/nharsch/mermaid-erd-generator",
+      "title": "GitHub - nharsch/mermaid-erd-generator: Generate Mermaid ERD Diagrams",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/Nutlope/hallmark",
+      "title": "GitHub - Nutlope/hallmark: Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/op7418/Humanizer-zh",
+      "title": "GitHub - op7418/Humanizer-zh: Humanizer 的汉化版本，Claude Code Skills，旨在消除文本中 AI 生成的痕迹。",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/OpenDCAI/Paper2Any",
+      "title": "GitHub - OpenDCAI/Paper2Any: Turn paper/text/topic into editable research figures, technical route diagrams, and presentation slides.",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/opkod-france/claude-skill-refactoring-ui",
+      "title": "GitHub - opkod-france/claude-skill-refactoring-ui: ⚠️ ARCHIVED — This skill has been moved to https://github.com/opkod-france/opkod-claude-code-plugins",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs",
+      "title": "GitHub - Orchestra-Research/AI-Research-SKILLs: Comprehensive open-source library of AI research and engineering skills for any AI model. Package the skills and your claude code/codex/gemini agent will be an AI research agent with full horsepower. Maintained by Orchestra Research.",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "title": "GitHub - Panniantong/Agent-Reach: Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/petergyang/no-ai-slop",
+      "title": "GitHub - petergyang/no-ai-slop: Removes 20+ patterns of AI slop from any piece of writing.",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/plannotator/effective-html",
+      "title": "GitHub - plannotator/effective-html: Agent skills for useful HTML artifacts, wireframes, interactive prototypes, plans, and diagrams.",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/powerycy/multi-style-image-generator",
+      "title": "GitHub - shengjidaguai-china/multi-style-image-generator: Codex skill with game-inspired and crochet style templates, plus 2D, 360° panorama, spatial-depth, colored point-cloud, and video workflows.",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/public-apis/public-apis",
+      "title": "GitHub - public-apis/public-apis: A collective list of free APIs",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/rahulv-official/inspira-ui",
+      "title": "GitHub - rahulv-official/inspira-ui: Build beautiful website using Vue & Nuxt.",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/run-llama/liteparse",
+      "title": "GitHub - run-llama/liteparse: A fast, helpful, and open-source document parser",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/shadcn-ui/ui",
+      "title": "GitHub - shadcn-ui/ui: Composable, accessible components with thoughtful defaults. Build your own component library with code you can customize, extend, and make your own.",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/Sheraz-k/pipeforge",
+      "title": "GitHub - Sheraz-k/pipeforge: Production-ready CI/CD pipeline generator. Zero dependencies, works offline. Supports GitHub Actions, GitLab CI, CircleCI, Bitbucket, Azure Pipelines with ECS, EKS, SSH, AKS, Cloud Run deployments.",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+      "title": "GitHub - Shubhamsaboo/awesome-llm-apps: 100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/slev12397/beautiful-ui",
+      "title": "GitHub - slev12397/beautiful-ui: A repository for beautiful-ui",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/starc007/ui-components",
+      "title": "GitHub - starc007/ui-components: Motion components for React. Copy, paste, done.",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/StarTrail-org/LEANN",
+      "title": "GitHub - StarTrail-org/LEANN: [MLsys2026 Best Paper]: https://arxiv.org/abs/2506.08276. RAG on Everything with LEANN. Enjoy 97% storage savings while running a fast, accurate, and 100% private RAG application on your personal device.",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/swamimalode07/rare-ui",
+      "title": "GitHub - swamimalode07/rare-ui: A collection of rare, ready-to-use UI components and animations you can actually drop into your next project. Free and open source.",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/travisvn/awesome-claude-skills",
+      "title": "GitHub - travisvn/awesome-claude-skills: A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows — particularly Claude Code",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/tt-a1i/archify",
+      "title": "GitHub - tt-a1i/archify: Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/umr-xiaomai/kgka_Music_hl",
+      "title": "GitHub - umr-xiaomai/kgka_Music_hl: Flutter 开发的酷狗音乐客户端",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/unclecode/crawl4ai",
+      "title": "GitHub - unclecode/crawl4ai: Open-source web crawler and scraper for LLMs and AI agents: any website into clean, LLM-ready Markdown. Run it yourself, or use Crawl4AI Cloud with one key. Join our Discord https://discord.gg/VuxzM8mtf",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/VoltAgent/awesome-design-md",
+      "title": "GitHub - VoltAgent/awesome-design-md: A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matching UI.",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/vtroisWhite/andrej-karpathy-skills",
+      "title": "GitHub - vtroisWhite/andrej-karpathy-skills: 中文翻译: https://github.com/forrestchang/andrej-karpathy-skills",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/winshining/nginx-http-flv-module",
+      "title": "GitHub - winshining/nginx-http-flv-module: A media streaming server based on nginx-rtmp-module. In addtion to the features nginx-rtmp-module provides, HTTP-FLV, GOP cache, VHosts (one IP for multi domain names) and JSON style statistics are supported now.",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/WUBING2023/PaperSpine",
+      "title": "GitHub - WUBING2023/PaperSpine: PaperSpine5 — local-first, evidence-bound paper research, writing, figures, review and delivery. Download: https://wubing2023.github.io/PaperSpine/v5/",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
+      "title": "GitHub - XiaoYouChR/Ghost-Downloader-3: The only downloader you need. 下载器的集大成者。",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/Yuan1z0825/nature-skills",
+      "title": "GitHub - Yuan1z0825/nature-skills: 符合nature论文学术表达和科研绘图的Skill",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/Zenghuang-Fu/SESA-Self-Evolving-Search-Agents",
+      "title": "GitHub - Zenghuang-Fu/SESA-Self-Evolving-Search-Agents: SESA:Self-Evolving Search Agents that Pose, Solve, and Remember",
+      "method": "web_open"
+    },
+    {
+      "url": "https://github.com/zzet/gortex",
+      "title": "GitHub - zzet/gortex: High-performance code-intelligence engine for AI agents and IDE, supports 257 languages, multi repositories, based on graph, with access via CLI, MCP Server, and API. AI coding agents teammate - expose only needed information, cutting token usage up to 50x. 100% local. Discord: https://discord.gg/39MFHu3J5d",
+      "method": "web_open"
+    }
+  ],
+  "canonical_aliases": {
+    "https://github.com/huangruiteng/loopx": "https://github.com/loopx-project/loopx",
+    "https://github.com/powerycy/multi-style-image-generator": "https://github.com/shengjidaguai-china/multi-style-image-generator"
+  },
+  "archived_successor": {
+    "https://github.com/opkod-france/claude-skill-refactoring-ui": "https://github.com/opkod-france/opkod-claude-code-plugins"
+  }
+}

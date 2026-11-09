@@ -1,9 +1,46 @@
-# AI开发资源库下载完成记录
+# 变更记录
 
 **@author liuhao**
-**日期**: 2026-05-01
+**初始记录日期**: 2026-05-01
 **时间**: 14:00:00
 **类型**: 资源整理
+
+---
+
+## 2026-11-09 指定项目核验与 100 MB 限额
+
+- 更新已有 `skill-up` 至 `78148136`，新增 `OpenShell@9525bec0` 与 `context-mode@3a3ef7d5` 浅克隆，含 Git 分别约 13.00、55.65、37.44 MB；三者工作区干净并通过 Git 对象校验。
+- `huashu-art-motion@8a0d7d72` 在展开前核算源码与 Git 数据约 148.62 MB，超过本轮 100 MB 上限，跳过展开并清理临时 Git 副本，只保留链接和用途评价。
+- 补充 OpenShell 的 Windows 运行限制、context-mode 的 Elastic-2.0 许可及 Node 条件；未安装依赖、CLI、Skill、hooks/MCP 或启动服务。
+- 更新台账、版本清单、Skill 索引、来源清单、README 及两个分享版本；来源去重后由 120 项增为 123 项，不重算历史全量仓库和 Skill 统计。核验数据见 `scripts/repository-review-20261109.json`。
+- 追加复核 `arjun988/blender-skills`：11 月 2 日已有登记，当前本地无该目录，未克隆或安装，不重复计数。
+
+## 2026-11-08 Agent Reach v1.6.1 源码与使用边界
+
+- 按用户要求，从官方仓库浅克隆 `v1.6.1` 到 `E:\aimodel\Agent-Reach-v1.6.1`，保留原 `Agent-Reach/` v1.5.0，没有覆盖旧工作区。
+- 新快照提交为 `7a38047acf26a729cbb27851e3cb81639da86b29`、MIT 许可；现有 Python 可读取版本和 14 个渠道声明，不等于全部渠道已配置或联网可用。
+- 更新根 README、Skill 索引、下载台账与版本清单。未安装依赖、全局命令或 Skill，未启动 setup、复制浏览器登录或下载模型。
+- 公共资料先用现有搜索工具；Agent Reach 用于补充平台读取。其声明未包含 SauceNAO/IQDB 的多图反查接口，不将网页搜索当成以图搜图。
+- 本轮是同一项目的额外版本快照，历史仓库数量保留原扫描日期，不推算新的全量统计。
+
+## 2026-11-02 追加四个用户指定项目
+
+- 新登记 `hoochanlon/fq-book`、`akitaonrails/ai-memory`、`arjun988/blender-skills` 和 `ysharma3501/LuxTTS`，核对来源、用途及可见许可信息。
+- 原链接清单、Skill 索引、下载台账及 Markdown 和 HTML 分享版同步补充，当前分享清单由 116 项增加为 120 项；README 同步更新数量。
+- 本轮仅维护链接与说明，不克隆、安装或下载模型，保留本地仓库版本统计的原有口径。
+- 修正分享稿中两处项目显示名的问号乱码，并重新生成 HTML。
+
+---
+
+## 2026-11-02 根目录文档整理
+
+- 使用本地 human-writing 与 Humanizer-zh 写作规则整理 `docs/SHARE_GUIDE.md`，并提供独立 HTML 分享版，按用途介绍 116 个不同项目来源。
+- 对照 112 个可见一级 Git 仓库、本地 origin 与版本清单，目录和来源全部一致；补齐收藏清单漏记的 10 个项目，并在分享清单中去重历史批次的 4 个重复项目。
+- 在线复核全部原始项目页面，标明 LoopX、多风格图像 Skill 的当前地址及 Refactoring UI Skill 的归档和后续维护入口；保存本地、HTTP 和网页补查 JSON 证据。
+- 根目录保留 `README.md` 和 `CHANGELOG.md`；6 份索引、台账和维护说明移入 `docs/`。
+- 将旧版 README、安装记录、统一索引及资源与直播总览共 4 份历史文档归入 `docs/archive/`，保留原始记录与核验日期。
+- README 补齐全部文档入口，区分当前索引与历史资料，并说明目录与命令的路径基准。
+- 修正文档迁移后的相对链接，包括脚本、核验 JSON 和跨目录文档引用；同步更新根 `.gitignore` 的文档白名单。
 
 ---
 
@@ -170,7 +207,7 @@
 - 本轮只更新一级 Git skill 仓库，共 28 个；不递归更新仓库内部的 skill/tool 子目录。
 - `reverse-skill` 因 3 个本地修改文件跳过更新，用户修改保持不变。
 - `open-design`、`pi`、`vue-tui` 等工具仓库只存放，不纳入本轮 skill 更新。
-- 将 [SKILLS_INDEX.md](SKILLS_INDEX.md) 设为当前一级目录 skill 的权威索引。
+- 将 [SKILLS_INDEX.md](docs/SKILLS_INDEX.md) 设为当前一级目录 skill 的权威索引。
 - 根目录其他 Markdown 的职责已在 [README.md](README.md) 中集中说明。
 
 ---
@@ -329,9 +366,9 @@ python hackingtool.py
 
 ### 索引维护
 
-- 新增 [GITHUB_REPOS.md](GITHUB_REPOS.md) 作为 GitHub 仓库下载与配置台账。
-- 新增 [GITHUB_STAR_LIST.md](GITHUB_STAR_LIST.md) 记录当前顶层 56 个 GitHub 仓库的手动 star 链接。
-- 更新 [README.md](README.md)、[SKILLS_INDEX.md](SKILLS_INDEX.md)、[SKILLS_INSTALLED.md](SKILLS_INSTALLED.md)、[SKILLS_UNIFIED.md](SKILLS_UNIFIED.md)。
+- 新增 [GITHUB_REPOS.md](docs/GITHUB_REPOS.md) 作为 GitHub 仓库下载与配置台账。
+- 新增 [GITHUB_STAR_LIST.md](docs/GITHUB_STAR_LIST.md) 记录当前顶层 56 个 GitHub 仓库的手动 star 链接。
+- 更新 [README.md](README.md)、[SKILLS_INDEX.md](docs/SKILLS_INDEX.md)、[SKILLS_INSTALLED.md](docs/archive/SKILLS_INSTALLED.md)、[SKILLS_UNIFIED.md](docs/archive/SKILLS_UNIFIED.md)。
 
 ### 当前扫描统计
 
@@ -357,7 +394,7 @@ python hackingtool.py
 
 ### 索引维护
 
-- 更新 [GITHUB_REPOS.md](GITHUB_REPOS.md)、[GITHUB_STAR_LIST.md](GITHUB_STAR_LIST.md)、[SKILLS_INDEX.md](SKILLS_INDEX.md)、[SKILLS_INSTALLED.md](SKILLS_INSTALLED.md)、[SKILLS_UNIFIED.md](SKILLS_UNIFIED.md)、[README.md](README.md)。
+- 更新 [GITHUB_REPOS.md](docs/GITHUB_REPOS.md)、[GITHUB_STAR_LIST.md](docs/GITHUB_STAR_LIST.md)、[SKILLS_INDEX.md](docs/SKILLS_INDEX.md)、[SKILLS_INSTALLED.md](docs/archive/SKILLS_INSTALLED.md)、[SKILLS_UNIFIED.md](docs/archive/SKILLS_UNIFIED.md)、[README.md](README.md)。
 - 本批只放在 `E:\aimodel` 当前目录，未复制到全局 Codex skills 目录。
 
 ### 当前扫描统计

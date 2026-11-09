@@ -6,7 +6,7 @@
 
 | 需求 | 工具 | 结论 |
 |------|------|------|
-| 批量检查和更新一级 Git 仓库 | [`scripts/Sync-RepositoryCatalog.ps1`](scripts/Sync-RepositoryCatalog.ps1) | 为当前目录定制；默认只读检查，显式 `-Pull` 才执行 `git pull --ff-only --prune`，自动跳过本地修改和无 upstream 的仓库，不写全局 Git 配置 |
+| 批量检查和更新一级 Git 仓库 | [`scripts/Sync-RepositoryCatalog.ps1`](../scripts/Sync-RepositoryCatalog.ps1) | 为当前目录定制；默认只读检查，显式 `-Pull` 才执行 `git pull --ff-only --prune`，自动跳过本地修改和无 upstream 的仓库，不写全局 Git 配置 |
 | 精确查找文件、路径和文本 | `rg` / `rg --files` | 零索引、结果可直接定位；已知关键词时优先使用 |
 | 不知道原文或位置时做语义检索 | [zvec-ai/zvec-grep](https://github.com/zvec-ai/zvec-grep) | ripgrep、BM25 和向量检索统一入口，支持 Codex MCP；安装会修改 Codex 配置，本目录当前只保存源码 |
 | 理解跨文件关系、调用路径和架构 | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | 将代码、文档和媒体转换为持久知识图谱；适合关系问题，不替代精确全文搜索 |
@@ -20,6 +20,8 @@
 `gortex` 和 Graphify 能辅助定位跨模块影响，但建立索引或启动守护进程会写入本机状态，必须另行批准。浏览器工具只提供运行证据，不读取已有浏览器会话，也不能证明服务端授权或数据一致性。
 
 ## 使用同步脚本
+
+以下命令在存放区根目录 `E:\aimodel` 执行，脚本仍位于根目录的 `scripts/` 下。
 
 只检查，不访问远程：
 

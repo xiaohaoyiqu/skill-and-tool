@@ -1,7 +1,8 @@
 # GitHub Star 手动清单
 
 **生成时间**: 2026-07-30 11:08:51 +08:00
-**整理时间**: 2026-07-30
+**初始整理时间**: 2026-07-30
+**最近核对**: 2026-11-09
 **范围（历史快照）**: `E:\aimodel` 顶层目录中带 `.git` 且 origin 指向 GitHub 的仓库
 **数量（当时）**: 61 个
 **状态**: 自动 star 受本机 GitHub CLI/API 环境影响，本清单改为手动处理参考
@@ -9,6 +10,61 @@
 ---
 
 > 本文件只保留 GitHub 链接和历史范围，不参与当前 skill 更新判定；当前目录台账请查看 [SKILLS_INDEX.md](SKILLS_INDEX.md)。
+
+## 2026-11-09 指定项目复核与补充
+
+| 项目 | 来源 | 用途与本地处理 |
+|------|------|------|
+| skill-up | https://github.com/alibaba/skill-up | 已有来源，源码快进更新至 `78148136`；Skill 评测与演进，含 Git 约 13.00 MB |
+| huashu-art-motion | https://github.com/alchaincyf/huashu-art-motion | 新登记艺术动画 Skill；完整浅克隆展开前核算约 148.62 MB，超 100 MB 限额，未保留本地副本 |
+| OpenShell | https://github.com/NVIDIA/OpenShell | 新增浅克隆 `9525bec0`，约 55.65 MB；Agent 沙箱、访问策略与凭据管理源码参考 |
+| context-mode | https://github.com/mksglu/context-mode | 新增浅克隆 `3a3ef7d5`，约 37.44 MB；本地上下文管理，Elastic-2.0，未安装或配置 |
+
+新增三个不同来源，分享清单由 120 项增为 123 项；skill-up 不重复计数。另复核 `arjun988/blender-skills` 已于 2026-11-02 登记，当前仍未克隆或安装。详情见 [下载台账](GITHUB_REPOS.md#2026-11-09-skill-评测艺术动画与-agent-工具)。旧批次数字保留其历史口径。
+
+## 2026-11-02 用户追加的四个项目
+
+在下方 116 项对照结果的基础上，新增以下 4 个项目，当前分享清单共 120 项。均已读取 GitHub 项目页面核实用途，本轮只登记链接和介绍。
+
+| 项目 | 来源 | 用途与本地处理 |
+|------|------|------|
+| fq-book | https://github.com/hoochanlon/fq-book | 代理、隧道与 VPN 原理及配置资料；仅登记，未克隆 |
+| ai-memory | https://github.com/akitaonrails/ai-memory | 编码 Agent 的长期记忆与跨工具任务交接；仅登记，未安装 |
+| blender-skills | https://github.com/arjun988/blender-skills | 配合 Blender MCP 使用的三维制作 Skills；仅登记，未安装 |
+| LuxTTS | https://github.com/ysharma3501/LuxTTS | 基于 ZipVoice 的语音合成与声音克隆；仅登记，未下载模型 |
+
+四项均已同步到 [Markdown 分享稿](SHARE_GUIDE.md) 和 [HTML 分享版](SHARE_GUIDE.html)，详情见 [下载与配置台账](GITHUB_REPOS.md#2026-11-02-网络资料-agent-记忆-三维制作与语音合成链接)。
+
+## 2026-11-02 全量链接对照
+
+对照根目录当前可见的 112 个一级 Git 仓库、[版本清单](REPOSITORIES.md) 和本文件的所有历史批次后，112 个目录与记录的来源均一致。原链接清单去重后有 106 个项目，其中 102 个对应一级仓库，另外 4 个为嵌套项目、单文件来源或仅登记的资料；本轮补齐下面 10 项后，共覆盖 116 个不同的项目来源。
+
+适合直接转发的分类介绍见 [AI Skills 和工具分享清单](SHARE_GUIDE.md)，也可发送独立的 [HTML 分享版](SHARE_GUIDE.html)。分享清单逐项去重，下面的旧批次继续保留历史记录。
+
+| 补齐项目 | 来源 | 用途 |
+|------|------|------|
+| kgka_Music_hl | https://github.com/umr-xiaomai/kgka_Music_hl | Flutter 音乐客户端参考 |
+| archify | https://github.com/tt-a1i/archify | 可交互架构图 |
+| agent-skills | https://github.com/addyosmani/agent-skills | 软件开发工程 Skills |
+| avoid-ai-writing | https://github.com/conorbronsdon/avoid-ai-writing | 写作检查与改稿 |
+| developer-portfolios | https://github.com/emmabostian/developer-portfolios | 开发者作品集参考 |
+| human-writing | https://github.com/KKKKhazix/human-writing | 中文创作与改稿 |
+| khazix-skills | https://github.com/KKKKhazix/khazix-skills | 中文实用 Skills 集合 |
+| pisper | https://github.com/ling-kong-ran/pisper | 多 Agent 应用 |
+| reverse-skill | https://github.com/zhaoxuya520/reverse-skill | 逆向与安全研究 Skills |
+| sepia | https://github.com/Nanako0129/sepia | 按文体编辑与重写 |
+
+在线读取确认了全部 116 个原始项目页面可访问。其中 31 项由本机 HTTP HEAD 返回 200，其余 85 项在本机请求超时后通过网页读取补查。可访问只表示核对时能读取项目页面，不代表已安装或测试项目功能。
+
+需要留意的地址与状态变化：
+
+- LoopX 当前项目地址为 [loopx-project/loopx](https://github.com/loopx-project/loopx)，历史记录中的 `huangruiteng/loopx` 保留用于对应本地 origin。
+- 多风格图像 Skill 当前地址为 [shengjidaguai-china/multi-style-image-generator](https://github.com/shengjidaguai-china/multi-style-image-generator)，历史记录中的 `powerycy/multi-style-image-generator` 保留用于溯源。
+- [Refactoring UI Skill 旧仓库](https://github.com/opkod-france/claude-skill-refactoring-ui) 已归档，并指向 [OPKOD 插件仓库](https://github.com/opkod-france/opkod-claude-code-plugins)。这是后续维护入口，未另计一个收录项目。
+- `open-code-review`、`Ghost-Downloader-3`、`manim` 和实证研究 Skills 在多个历史批次各出现两次；分享清单各保留一项。
+- 补充来源为 `ByteByteGoHq/system-design-101`、`aAAaqwq/AGI-Super-Team` 内的 Multi Search Engine、`yang0/handraw-style` 和 `jbiaojerry/ebook-treasure-chest`，分别标明嵌套保存、单文件快照或仅登记。
+
+逐项对照证据见 [本地与 HTTP 检查 JSON](../scripts/repository-link-audit-20261102.json) 和 [网页补查及地址变更 JSON](../scripts/repository-link-web-review-20261102.json)。本轮只读取来源并维护文档。
 
 ## 使用方式
 

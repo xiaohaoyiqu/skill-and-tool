@@ -1,12 +1,66 @@
 # GitHub 仓库下载与配置台账
 
-**最后整理**: 2026-11-01
+**最后整理**: 2026-11-09
 **目录**: E:\aimodel
 **定位**: GitHub 下载与配置历史台账；当前 skill 更新状态以 [SKILLS_INDEX.md](SKILLS_INDEX.md) 为准
 **状态**: 只记录克隆和配置，不自动安装依赖、不写入全局 Codex skills
 **Star 手动清单**: [GITHUB_STAR_LIST.md](GITHUB_STAR_LIST.md)
 
 ---
+
+## 2026-11-09 Skill 评测、艺术动画与 Agent 工具
+
+按用户要求继续记录并评估是否拉取，单项目上限为 **100,000,000 字节（100 MB）**。沿用当前版本浅克隆的口径，计入源码和 `.git` 文件长度，不用 GitHub 含历史的 `size` 字段代替本机大小；依赖、发行包、模型和子模块均不下载。
+
+| 项目 / 来源 | 本地处理与版本 | 大小（含 Git，十进制 MB） | 用途与评价 |
+|------|------|------|------|
+| [skill-up](https://github.com/alibaba/skill-up) | 已有 `skill-up/`，从 `6fec8e9f` 快进至 `main@78148136`，不重复克隆 | 12,996,331 字节，约 13.00 MB | Apache-2.0；适合评测本目录的 Skills、比较表现和分析失败。正式入口为 `skills/skill-upper/SKILL.md`；全仓 24 个物理 SKILL.md 中其余为示例和夹具 |
+| [huashu-art-motion](https://github.com/alchaincyf/huashu-art-motion) | 仅保留来源与评价；核对 `main@8a0d7d72` 后，在展开源码前跳过，临时 Git 副本已清理 | 完整展开前核算约 **148.62 MB，超过限额** | MIT；艺术风格动画、解说片段、风格配方和场景代码适合动画制作参考，但本次不保留本地源码 |
+| [OpenShell](https://github.com/NVIDIA/OpenShell) | 新增 `OpenShell/` 浅克隆，`main@9525bec0` | 55,653,564 字节，约 55.65 MB | Apache-2.0；适合研究 Agent 沙箱、访问策略、网络及凭据管理；部署需另行准备运行环境 |
+| [context-mode](https://github.com/mksglu/context-mode) | 新增 `context-mode/` 浅克隆，`main@3a3ef7d5`，包版本 2.1.7 | 37,436,327 字节，约 37.44 MB | Elastic-2.0；通过本地执行和 SQLite FTS5 检索，减少大段工具输出进入上下文；不将上游压缩率作为本机实测 |
+
+新项目先以 `--no-checkout` 拉取浅 Git 对象，再用 `git ls-tree -rl` 的全部文件长度加已有 `.git` 长度判断能否展开。huashu-art-motion 当前文件共 76,010,073 字节，Git 数据为 72,614,498 字节，合计 148,624,571 字节，因而没有展开源码；对象包检查后已删除临时目录。该数值是展开前的合计，不是曾经完整占用 148.62 MB。OpenShell 的 GitHub 历史统计为 101,535 KiB，而本次浅克隆实际约 55.65 MB，故按实际大小收录。
+
+本机适配：skill-up 声明 Go 1.26.0，当前 PATH 未找到 Go，CLI 尚未安装。context-mode 声明 Node >=24.15.0，本机 Node v25.2.1 满足版本下限，且存在 Git Bash；未执行安装、doctor、hooks/MCP 设置或性能测试。其当前许可证为 [Elastic-2.0](https://github.com/mksglu/context-mode/blob/3a3ef7d53c9a30ef05d8f1b009afbcf8d9c6d0a2/LICENSE)，以该版本条款为准。
+
+OpenShell 当前 README 将 Windows + WSL 2 标为实验性路径；原生 Windows 的 MXC 实现在独立 `windows` 分支，官方 [Windows 指南](https://github.com/NVIDIA/OpenShell/blob/9525bec0d3ad79f540c10862e0f463edf084db4f/WINDOWS.md) 说明它仍在开发、尚非生产验证的安全边界。本轮仅保存 `main` 参考源码，没有部署沙箱。huashu-art-motion 若以后另行使用，需准备 uv、FFmpeg 与 Playwright Chromium，这些运行依赖不在本轮下载范围。
+
+保留的三个 Git 仓库均通过 `git fsck --no-reflogs`，工作树干净，HEAD 与本次已抓取 `origin/main` 一致。只新增两个本地 Git 目录；不重算历史全量仓库或 Skill 数量，不更新其他仓库状态。来源清单及两个分享版本同步补充三个不同项目来源，分享清单由 120 项变为 123 项。核验记录见 [本批 JSON](../scripts/repository-review-20261109.json)。未安装依赖、修改全局配置或启动服务。
+
+同日追加核对 [arjun988/blender-skills](https://github.com/arjun988/blender-skills)：**2026-11-02 已登记，当前仍未克隆或安装**。本机没有 `E:\aimodel\blender-skills` 目录，旧记录可见 [11 月 2 日批次 JSON](../scripts/repository-links-added-20261102.json)，台账、Skill 索引及两个分享版本已有链接，不重复增加项目数。上游当前介绍 94 项 Blender Skills，以 Blender MCP 执行为前提；此次按“有没有弄过”核查记录，不另行下载。
+
+## 2026-11-08 Agent Reach v1.6.1源码快照
+
+用户授权下载并更新根目录文档。来源为 [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach)，使用官方 tag `v1.6.1` 浅克隆，未从同名 PyPI 包安装。上游安装说明提示 PyPI 的同名 `agent-reach` 并非该官方项目，不照抄 `pip install agent-reach`。
+
+| 项目 | 本机核对 |
+|---|---|
+| 新目录 | `E:\aimodel\Agent-Reach-v1.6.1` |
+| 版本与提交 | `v1.6.1`，`7a38047acf26a729cbb27851e3cb81639da86b29`，tag 分离 HEAD，克隆后工作树干净 |
+| 旧目录 | `E:\aimodel\Agent-Reach`，v1.5.0，`da5044d26fc6adddb6554d5679c94ac22e76e428`，保留不覆盖 |
+| 许可 | MIT，以新源码中的 LICENSE 为准 |
+| Skill | `agent_reach/skill/SKILL.md`；读取后再按项目需求调用 |
+| 本机核验 | 使用现有 Python 将新源码加入本次进程的 `sys.path`，`runtime.cli.main(['version'])` 返回 1.6.1；`unified_channels()` 返回 14 个渠道的动作声明 |
+| 安装边界 | 未安装依赖、全局 CLI 或全局 Skill；未执行 setup/add/login，未导入个人浏览器状态或修改原 QQBot 配置 |
+
+渠道声明覆盖 GitHub、Twitter/X、YouTube、Reddit、Facebook、Instagram、B站、小红书、LinkedIn、Boss直聘、V2EX、雪球、小宇宙及 web，具体动作依渠道不同。版本与声明检查不证明对应后端、账号或网络已可用。新 web 后端包含直接 Exa MCP 请求与 Jina 读取路径；本次 Jina 公开页面只读探针在正常用户上下文仍 20 秒超时，不能据此宣称网页渠道可用，也不能推断平台必须登录。
+
+用途是补充公开网页/平台资料读取。声明中没有 SauceNAO/IQDB 图片上传反查接口，不可直接替代 QQBot 以图搜图适配器。公开资料先用现有工具；遇到平台拒绝、限流、验证码、未登录即停止，不切换账号或后端绕过。浏览器渠道首次访问可能自动复制已连接 Chrome 的站点登录，调用前须按项目身份隔离要求单独安排，本轮没有启动浏览器渠道。
+
+本轮保留额外版本副本，不覆盖原目录，也不重算全部一级仓库/Skill 数量。根 README 与 CHANGELOG 已同步；历史扫描和旧安装记录保留其原日期。
+
+## 2026-11-02 网络资料 Agent 记忆 三维制作与语音合成链接
+
+按用户指定新增以下 4 个来源，均为首次登记。此批仅核对 GitHub 页面、README 与可见许可信息，并维护原链接清单及两个分享版本。未克隆源码、安装依赖、修改 Agent 配置或下载模型，不增加本地一级 Git 仓库数或已安装 Skill 数量。
+
+| 项目 | 来源 | 用途 | 可见许可信息 | 本地状态 |
+|------|------|------|------|------|
+| fq-book | [hoochanlon/fq-book](https://github.com/hoochanlon/fq-book) | 《这本书能让你连接互联网》，介绍代理、隧道、VPN 等网络原理及工具配置 | GitHub 仓库页未显示标准许可证，不据此视为可任意转载 | 仅登记链接 |
+| ai-memory | [akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory) | 编码 Agent 长期记忆及跨工具任务交接，以 Git 管理的 Markdown 保存知识 | MIT | 仅登记链接 |
+| blender-skills | [arjun988/blender-skills](https://github.com/arjun988/blender-skills) | Blender 制作 Skills，涉及建模、材质、动画和导出，执行需配合 Blender MCP | MIT | 仅登记链接 |
+| LuxTTS | [ysharma3501/LuxTTS](https://github.com/ysharma3501/LuxTTS) | 基于 ZipVoice 的语音合成与声音克隆，README 提供 CUDA、CPU 和 MPS 示例 | 源码 Apache-2.0；模型权重条件需另查对应模型来源 | 仅登记链接，未下载权重 |
+
+本批不将上游宣传的速度或效果写为本地实测结论。分享清单由 116 项增加为 120 项，原有项目均保留。核对记录见 [本批 JSON](../scripts/repository-links-added-20261102.json)。
 
 ## 2026-11-01 STT 本地音视频转文字工具
 
@@ -17,7 +71,7 @@
 - `git fsck --no-reflogs` 通过，工作树干净，与已抓取的 `origin/main` ahead/behind 为 0/0；没有 `SKILL.md`，按工具源码收录，不增加正式 Skill 数量。
 - 本次只保存源码，未安装依赖或运行服务。仓库不包含识别模型权重或 FFmpeg 可执行文件；README 所述预编译包内置模型不能视为源码已含模型。运行时需另行准备模型、FFmpeg 与 Python 依赖，模型下载不计入本次约 1.98 MiB 的源码大小。
 
-核验证据见 [STT 批次 JSON](scripts/repository-stt-review-20261101.json)。其余第三方仓库沿用历史核验日期；聚合仓库仅维护台账，第三方源码目录继续被忽略。
+核验证据见 [STT 批次 JSON](../scripts/repository-stt-review-20261101.json)。其余第三方仓库沿用历史核验日期；聚合仓库仅维护台账，第三方源码目录继续被忽略。
 
 ## 2026-10-30 KA Music 音乐搜索与歌单参考
 
@@ -30,7 +84,7 @@
 | 公共歌单与匹配 | `lib/services/qq_playlist_service.dart`、`playlist_import_service.dart` | 参考公开QQ链接解析、分页、未匹配报告与标题/歌手/时长校准；不导入真实账号歌单 |
 | 契约与边界 | `api.json`（OpenAPI3.1.1，151个paths）、`lib/core/api_client.dart` | JSON中的localhost服务器仅作示例，以app_config.dart实际配置为准；现有客户端会话、自动重试不直接移植到Bot |
 
-核对入口：`lib/config/app_config.dart:10`、`lib/services/music_api.dart:875/944`、`lib/models/music_models.dart`。未调用在线搜索/播放/登录/下载接口，未运行测试，也未接入QQBot生产配置；只能确认源码声明的契约，不能确认在线服务可用、免登录或播放权益。未发现独立LICENSE/COPYING文件，README声明“仅供学习交流使用，请勿用于商业用途”；保存作研究参考，代码复制/分发前另核许可。仅新增本仓库记录，不重新扫描其他仓库或改历史总数。机器记录见[scripts/repository-music-review-20261030.json](scripts/repository-music-review-20261030.json)。
+核对入口：`lib/config/app_config.dart:10`、`lib/services/music_api.dart:875/944`、`lib/models/music_models.dart`。未调用在线搜索/播放/登录/下载接口，未运行测试，也未接入QQBot生产配置；只能确认源码声明的契约，不能确认在线服务可用、免登录或播放权益。未发现独立LICENSE/COPYING文件，README声明“仅供学习交流使用，请勿用于商业用途”；保存作研究参考，代码复制/分发前另核许可。仅新增本仓库记录，不重新扫描其他仓库或改历史总数。机器记录见[scripts/repository-music-review-20261030.json](../scripts/repository-music-review-20261030.json)。
 
 ## 2026-10-27 模型记录与本地适配评价
 
@@ -60,7 +114,7 @@
 - 5 个父仓库当前工作树干净，与已抓取 upstream 为 0/0，均通过 `git fsck --no-reflogs`；Magenta 的 SequenceLayers 子模块未初始化，仅记录锁定提交。
 - Supertonic、TimesFM 有 LFS 属性规则，不代表已下载模型权重。未运行 hf download、模型初始化或包安装；VibeVoice 源码自带预置音色文件与完整模型检查点分开记录。
 - 当前为 110 个可见一级第三方 Git 仓库加 1 个隐藏聚合仓库。5 个源码目录形成于只更新记录的澄清之前，其余仓库未继续批量更新。
-- 证据见 [模型批次 JSON](scripts/repository-model-review-20261027.json)。远端聚合仓库只提交索引、评价和核验记录，第三方源码工作树及模型权重继续排除。
+- 证据见 [模型批次 JSON](../scripts/repository-model-review-20261027.json)。远端聚合仓库只提交索引、评价和核验记录，第三方源码工作树及模型权重继续排除。
 
 ---
 
@@ -86,7 +140,7 @@
 - Ghidra 源码 README 当前要求 JDK 25、Gradle 9.1.0+ 等构建工具。需要运行时应按官方 Releases 的 `ghidra_<version>_<release>_<date>.zip` 说明下载；源码克隆本身不构成可运行安装。REA 使用现有 Ghidra 安装，不能直接把本批源码目录当作分析引擎。
 - 下载器上游从旧引用 `601e2068` 强制更新到 `ee0cb1aa`。未 reset、rebase 或覆盖旧分支；新分支与 `origin/main` 一致，已核实初始化的 cat-catch HEAD 等于父仓库锁定提交。
 - 首次新增仓库下载遇到 TLS EOF，沙箱外重试后 4 项全部成功。Git 所有权检查使用命令级 `safe.directory`，未写全局 Git 配置。
-- 批次机器记录：[scripts/repository-batch-20261027.json](scripts/repository-batch-20261027.json)。该批完成时可见一级 Git 仓库为 105 个，另有隐藏聚合仓库 1 个；该批仅更新上述 6 项，其余仓库保留历史同步日期。
+- 批次机器记录：[scripts/repository-batch-20261027.json](../scripts/repository-batch-20261027.json)。该批完成时可见一级 Git 仓库为 105 个，另有隐藏聚合仓库 1 个；该批仅更新上述 6 项，其余仓库保留历史同步日期。
 - 本轮保存源码与记录，没有安装依赖、全局 Skill、MCP、桌面程序或 Ghidra 运行时，没有执行评测、代码审查或逆向分析，也没有提交或推送。
 
 ---
@@ -147,7 +201,7 @@
 
 ### 处理说明
 
-- 新增 [`scripts/Sync-RepositoryCatalog.ps1`](scripts/Sync-RepositoryCatalog.ps1)：默认只读检查；显式 `-Pull` 时只运行 `git pull --ff-only --prune`，自动跳过 dirty/no-upstream 仓库，使用命令级 `safe.directory` 而不污染全局 Git 配置，并可输出已脱敏的 JSON 结果。
+- 新增 [`scripts/Sync-RepositoryCatalog.ps1`](../scripts/Sync-RepositoryCatalog.ps1)：默认只读检查；显式 `-Pull` 时只运行 `git pull --ff-only --prune`，自动跳过 dirty/no-upstream 仓库，使用命令级 `safe.directory` 而不污染全局 Git 配置，并可输出已脱敏的 JSON 结果。
 - 新增 [`REPOSITORY_MANAGEMENT.md`](REPOSITORY_MANAGEMENT.md)，记录本目录的拉取、整理和查看组合：`rg` 做精确搜索，zvec-grep 做语义/BM25/向量检索，Graphify 做关系与调用路径图谱；mani 和 ghorg 仅列为特定场景候选，暂不重复克隆。
 - 首轮发生 3 次 GitHub TLS `unexpected EOF`，改用 HTTP/1.1 重试后 `mergration`、`scientific-agent-skills`、`taste-skill` 全部成功；这三项没有遗留失败。
 - `Awesome-Agent-Skills-for-Empirical-Research` 快进后，将 `skills/69-Paper-WorkFlow` 子模块更新到父仓库锁定的 `ca36e316`，最终工作树干净。

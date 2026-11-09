@@ -1,0 +1,1910 @@
+{
+  "date": "2026-11-02",
+  "scope": "Local origin configuration compared with documentation; no fetch or pull",
+  "catalog_rows": [
+    {
+      "directory": "stt",
+      "url": "https://github.com/jianchang512/stt.git",
+      "canonical": "https://github.com/jianchang512/stt"
+    },
+    {
+      "directory": "kgka_Music_hl",
+      "url": "https://github.com/umr-xiaomai/kgka_Music_hl.git",
+      "canonical": "https://github.com/umr-xiaomai/kgka_music_hl"
+    },
+    {
+      "directory": "Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach.git",
+      "canonical": "https://github.com/panniantong/agent-reach"
+    },
+    {
+      "directory": "agent-rules-books",
+      "url": "https://github.com/ciembor/agent-rules-books.git",
+      "canonical": "https://github.com/ciembor/agent-rules-books"
+    },
+    {
+      "directory": "archify",
+      "url": "https://github.com/tt-a1i/archify.git",
+      "canonical": "https://github.com/tt-a1i/archify"
+    },
+    {
+      "directory": "agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills.git",
+      "canonical": "https://github.com/addyosmani/agent-skills"
+    },
+    {
+      "directory": "AI-Research-SKILLs",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs.git",
+      "canonical": "https://github.com/orchestra-research/ai-research-skills"
+    },
+    {
+      "directory": "ai-unit-tests-generator",
+      "url": "https://github.com/gustavolopess/ai-unit-tests-generator.git",
+      "canonical": "https://github.com/gustavolopess/ai-unit-tests-generator"
+    },
+    {
+      "directory": "andrej-karpathy-skills",
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills.git",
+      "canonical": "https://github.com/multica-ai/andrej-karpathy-skills"
+    },
+    {
+      "directory": "anthropic-skills",
+      "url": "https://github.com/anthropics/skills.git",
+      "canonical": "https://github.com/anthropics/skills"
+    },
+    {
+      "directory": "avoid-ai-writing",
+      "url": "https://github.com/conorbronsdon/avoid-ai-writing.git",
+      "canonical": "https://github.com/conorbronsdon/avoid-ai-writing"
+    },
+    {
+      "directory": "awesome-agent-skills",
+      "url": "https://github.com/JackyST0/awesome-agent-skills.git",
+      "canonical": "https://github.com/jackyst0/awesome-agent-skills"
+    },
+    {
+      "directory": "Awesome-Agent-Skills-for-Empirical-Research",
+      "url": "https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills.git",
+      "canonical": "https://github.com/brycewang-stanford/auto-empirical-research-skills"
+    },
+    {
+      "directory": "awesome-claude-skills",
+      "url": "https://github.com/travisvn/awesome-claude-skills.git",
+      "canonical": "https://github.com/travisvn/awesome-claude-skills"
+    },
+    {
+      "directory": "awesome-design-md",
+      "url": "https://github.com/VoltAgent/awesome-design-md.git",
+      "canonical": "https://github.com/voltagent/awesome-design-md"
+    },
+    {
+      "directory": "awesome-llm-apps",
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps.git",
+      "canonical": "https://github.com/shubhamsaboo/awesome-llm-apps"
+    },
+    {
+      "directory": "beautiful-ui",
+      "url": "https://github.com/slev12397/beautiful-ui.git",
+      "canonical": "https://github.com/slev12397/beautiful-ui"
+    },
+    {
+      "directory": "beui",
+      "url": "https://github.com/starc007/ui-components.git",
+      "canonical": "https://github.com/starc007/ui-components"
+    },
+    {
+      "directory": "browser-use",
+      "url": "https://github.com/browser-use/browser-use.git",
+      "canonical": "https://github.com/browser-use/browser-use"
+    },
+    {
+      "directory": "build-your-own-x",
+      "url": "https://github.com/codecrafters-io/build-your-own-x.git",
+      "canonical": "https://github.com/codecrafters-io/build-your-own-x"
+    },
+    {
+      "directory": "caveman-full",
+      "url": "https://github.com/JuliusBrussee/caveman.git",
+      "canonical": "https://github.com/juliusbrussee/caveman"
+    },
+    {
+      "directory": "chrome-devtools-mcp",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp.git",
+      "canonical": "https://github.com/chromedevtools/chrome-devtools-mcp"
+    },
+    {
+      "directory": "claude-cookbooks",
+      "url": "https://github.com/anthropics/claude-cookbooks.git",
+      "canonical": "https://github.com/anthropics/claude-cookbooks"
+    },
+    {
+      "directory": "claude-guides-full",
+      "url": "https://github.com/vtroisWhite/andrej-karpathy-skills.git",
+      "canonical": "https://github.com/vtroiswhite/andrej-karpathy-skills"
+    },
+    {
+      "directory": "claude-scholar",
+      "url": "https://github.com/Galaxy-Dawn/claude-scholar.git",
+      "canonical": "https://github.com/galaxy-dawn/claude-scholar"
+    },
+    {
+      "directory": "claude-skill-refactoring-ui",
+      "url": "https://github.com/opkod-france/claude-skill-refactoring-ui.git",
+      "canonical": "https://github.com/opkod-france/claude-skill-refactoring-ui"
+    },
+    {
+      "directory": "claude-video",
+      "url": "https://github.com/bradautomates/claude-video.git",
+      "canonical": "https://github.com/bradautomates/claude-video"
+    },
+    {
+      "directory": "code-review-plugin",
+      "url": "https://github.com/anthropics/claude-plugins-official.git",
+      "canonical": "https://github.com/anthropics/claude-plugins-official"
+    },
+    {
+      "directory": "codetracer",
+      "url": "https://github.com/metacraft-labs/codetracer.git",
+      "canonical": "https://github.com/metacraft-labs/codetracer"
+    },
+    {
+      "directory": "crawl4ai",
+      "url": "https://github.com/unclecode/crawl4ai.git",
+      "canonical": "https://github.com/unclecode/crawl4ai"
+    },
+    {
+      "directory": "daizhigev20",
+      "url": "https://github.com/daizhige-org/daizhigev20.git",
+      "canonical": "https://github.com/daizhige-org/daizhigev20"
+    },
+    {
+      "directory": "developer-portfolios",
+      "url": "https://github.com/emmabostian/developer-portfolios.git",
+      "canonical": "https://github.com/emmabostian/developer-portfolios"
+    },
+    {
+      "directory": "ego-lite",
+      "url": "https://github.com/citrolabs/ego-lite.git",
+      "canonical": "https://github.com/citrolabs/ego-lite"
+    },
+    {
+      "directory": "ECC",
+      "url": "https://github.com/affaan-m/ECC.git",
+      "canonical": "https://github.com/affaan-m/ecc"
+    },
+    {
+      "directory": "effective-html",
+      "url": "https://github.com/plannotator/effective-html.git",
+      "canonical": "https://github.com/plannotator/effective-html"
+    },
+    {
+      "directory": "emilkowalski-skills",
+      "url": "https://github.com/emilkowalski/skills.git",
+      "canonical": "https://github.com/emilkowalski/skills"
+    },
+    {
+      "directory": "goose",
+      "url": "https://github.com/aaif-goose/goose.git",
+      "canonical": "https://github.com/aaif-goose/goose"
+    },
+    {
+      "directory": "gortex",
+      "url": "https://github.com/zzet/gortex.git",
+      "canonical": "https://github.com/zzet/gortex"
+    },
+    {
+      "directory": "Ghost-Downloader-3",
+      "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3.git",
+      "canonical": "https://github.com/xiaoyouchr/ghost-downloader-3"
+    },
+    {
+      "directory": "ghidra",
+      "url": "https://github.com/NationalSecurityAgency/ghidra.git",
+      "canonical": "https://github.com/nationalsecurityagency/ghidra"
+    },
+    {
+      "directory": "graphify",
+      "url": "https://github.com/Graphify-Labs/graphify.git",
+      "canonical": "https://github.com/graphify-labs/graphify"
+    },
+    {
+      "directory": "hallmark",
+      "url": "https://github.com/Nutlope/hallmark.git",
+      "canonical": "https://github.com/nutlope/hallmark"
+    },
+    {
+      "directory": "headroom",
+      "url": "https://github.com/headroomlabs-ai/headroom.git",
+      "canonical": "https://github.com/headroomlabs-ai/headroom"
+    },
+    {
+      "directory": "Humanizer-zh",
+      "url": "https://github.com/op7418/Humanizer-zh.git",
+      "canonical": "https://github.com/op7418/humanizer-zh"
+    },
+    {
+      "directory": "human-writing",
+      "url": "https://github.com/KKKKhazix/human-writing.git",
+      "canonical": "https://github.com/kkkkhazix/human-writing"
+    },
+    {
+      "directory": "hyperframes",
+      "url": "https://github.com/heygen-com/hyperframes.git",
+      "canonical": "https://github.com/heygen-com/hyperframes"
+    },
+    {
+      "directory": "inspira-ui",
+      "url": "https://github.com/rahulv-official/inspira-ui.git",
+      "canonical": "https://github.com/rahulv-official/inspira-ui"
+    },
+    {
+      "directory": "kepano-obsidian",
+      "url": "https://github.com/kepano/kepano-obsidian.git",
+      "canonical": "https://github.com/kepano/kepano-obsidian"
+    },
+    {
+      "directory": "khazix-skills",
+      "url": "https://github.com/KKKKhazix/khazix-skills.git",
+      "canonical": "https://github.com/kkkkhazix/khazix-skills"
+    },
+    {
+      "directory": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins.git",
+      "canonical": "https://github.com/anthropics/knowledge-work-plugins"
+    },
+    {
+      "directory": "last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill.git",
+      "canonical": "https://github.com/mvanhorn/last30days-skill"
+    },
+    {
+      "directory": "LEANN",
+      "url": "https://github.com/StarTrail-org/LEANN.git",
+      "canonical": "https://github.com/startrail-org/leann"
+    },
+    {
+      "directory": "liteparse",
+      "url": "https://github.com/run-llama/liteparse.git",
+      "canonical": "https://github.com/run-llama/liteparse"
+    },
+    {
+      "directory": "loopx",
+      "url": "https://github.com/huangruiteng/loopx.git",
+      "canonical": "https://github.com/huangruiteng/loopx"
+    },
+    {
+      "directory": "magenta-realtime",
+      "url": "https://github.com/magenta/magenta-realtime.git",
+      "canonical": "https://github.com/magenta/magenta-realtime"
+    },
+    {
+      "directory": "markdown-viewer-skills",
+      "url": "https://github.com/markdown-viewer/skills.git",
+      "canonical": "https://github.com/markdown-viewer/skills"
+    },
+    {
+      "directory": "manim",
+      "url": "https://github.com/3b1b/manim.git",
+      "canonical": "https://github.com/3b1b/manim"
+    },
+    {
+      "directory": "mattpocock-skills",
+      "url": "https://github.com/mattpocock/skills.git",
+      "canonical": "https://github.com/mattpocock/skills"
+    },
+    {
+      "directory": "mergration",
+      "url": "https://github.com/38tter/mergration.git",
+      "canonical": "https://github.com/38tter/mergration"
+    },
+    {
+      "directory": "mermaid-erd-generator",
+      "url": "https://github.com/nharsch/mermaid-erd-generator.git",
+      "canonical": "https://github.com/nharsch/mermaid-erd-generator"
+    },
+    {
+      "directory": "minimax-skills",
+      "url": "https://github.com/MiniMax-AI/skills.git",
+      "canonical": "https://github.com/minimax-ai/skills"
+    },
+    {
+      "directory": "multi-style-image-generator",
+      "url": "https://github.com/powerycy/multi-style-image-generator.git",
+      "canonical": "https://github.com/powerycy/multi-style-image-generator"
+    },
+    {
+      "directory": "nanobrowser",
+      "url": "https://github.com/nanobrowser/nanobrowser.git",
+      "canonical": "https://github.com/nanobrowser/nanobrowser"
+    },
+    {
+      "directory": "nature-skills",
+      "url": "https://github.com/Yuan1z0825/nature-skills.git",
+      "canonical": "https://github.com/yuan1z0825/nature-skills"
+    },
+    {
+      "directory": "nginx-http-flv-module",
+      "url": "https://github.com/winshining/nginx-http-flv-module.git",
+      "canonical": "https://github.com/winshining/nginx-http-flv-module"
+    },
+    {
+      "directory": "no-ai-slop",
+      "url": "https://github.com/petergyang/no-ai-slop.git",
+      "canonical": "https://github.com/petergyang/no-ai-slop"
+    },
+    {
+      "directory": "obsidian-skills",
+      "url": "https://github.com/kepano/obsidian-skills.git",
+      "canonical": "https://github.com/kepano/obsidian-skills"
+    },
+    {
+      "directory": "OpenCLI",
+      "url": "https://github.com/jackwener/OpenCLI.git",
+      "canonical": "https://github.com/jackwener/opencli"
+    },
+    {
+      "directory": "open-code-review",
+      "url": "https://github.com/alibaba/open-code-review.git",
+      "canonical": "https://github.com/alibaba/open-code-review"
+    },
+    {
+      "directory": "open-design",
+      "url": "https://github.com/nexu-io/open-design.git",
+      "canonical": "https://github.com/nexu-io/open-design"
+    },
+    {
+      "directory": "open-source-games",
+      "url": "https://github.com/bobeff/open-source-games.git",
+      "canonical": "https://github.com/bobeff/open-source-games"
+    },
+    {
+      "directory": "openwork",
+      "url": "https://github.com/different-ai/openwork.git",
+      "canonical": "https://github.com/different-ai/openwork"
+    },
+    {
+      "directory": "Paper2Any",
+      "url": "https://github.com/OpenDCAI/Paper2Any",
+      "canonical": "https://github.com/opendcai/paper2any"
+    },
+    {
+      "directory": "PaperSpine",
+      "url": "https://github.com/WUBING2023/PaperSpine.git",
+      "canonical": "https://github.com/wubing2023/paperspine"
+    },
+    {
+      "directory": "patent-disclosure-skill",
+      "url": "https://github.com/handsomestWei/patent-disclosure-skill.git",
+      "canonical": "https://github.com/handsomestwei/patent-disclosure-skill"
+    },
+    {
+      "directory": "pdf-inspector",
+      "url": "https://github.com/firecrawl/pdf-inspector.git",
+      "canonical": "https://github.com/firecrawl/pdf-inspector"
+    },
+    {
+      "directory": "pi",
+      "url": "https://github.com/earendil-works/pi.git",
+      "canonical": "https://github.com/earendil-works/pi"
+    },
+    {
+      "directory": "pipeforge",
+      "url": "https://github.com/Sheraz-k/pipeforge.git",
+      "canonical": "https://github.com/sheraz-k/pipeforge"
+    },
+    {
+      "directory": "pisper",
+      "url": "https://github.com/ling-kong-ran/pisper.git",
+      "canonical": "https://github.com/ling-kong-ran/pisper"
+    },
+    {
+      "directory": "playcaptcha",
+      "url": "https://github.com/mortspace/playcaptcha.git",
+      "canonical": "https://github.com/mortspace/playcaptcha"
+    },
+    {
+      "directory": "pocket-tts",
+      "url": "https://github.com/kyutai-labs/pocket-tts.git",
+      "canonical": "https://github.com/kyutai-labs/pocket-tts"
+    },
+    {
+      "directory": "public-apis",
+      "url": "https://github.com/public-apis/public-apis.git",
+      "canonical": "https://github.com/public-apis/public-apis"
+    },
+    {
+      "directory": "python-refactoring-skills",
+      "url": "https://github.com/l-mb/python-refactoring-skills.git",
+      "canonical": "https://github.com/l-mb/python-refactoring-skills"
+    },
+    {
+      "directory": "rare-ui",
+      "url": "https://github.com/swamimalode07/rare-ui.git",
+      "canonical": "https://github.com/swamimalode07/rare-ui"
+    },
+    {
+      "directory": "rea",
+      "url": "https://github.com/morluto/rea.git",
+      "canonical": "https://github.com/morluto/rea"
+    },
+    {
+      "directory": "reverse-skill",
+      "url": "https://github.com/zhaoxuya520/reverse-skill.git",
+      "canonical": "https://github.com/zhaoxuya520/reverse-skill"
+    },
+    {
+      "directory": "SafeGuard-Code-Profiler",
+      "url": "https://github.com/hamed-kuheil/SafeGuard-Code-Profiler.git",
+      "canonical": "https://github.com/hamed-kuheil/safeguard-code-profiler"
+    },
+    {
+      "directory": "scientific-agent-skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills.git",
+      "canonical": "https://github.com/k-dense-ai/scientific-agent-skills"
+    },
+    {
+      "directory": "scramble",
+      "url": "https://github.com/dedoc/scramble.git",
+      "canonical": "https://github.com/dedoc/scramble"
+    },
+    {
+      "directory": "sepia",
+      "url": "https://github.com/Nanako0129/sepia.git",
+      "canonical": "https://github.com/nanako0129/sepia"
+    },
+    {
+      "directory": "SESA-Self-Evolving-Search-Agents",
+      "url": "https://github.com/Zenghuang-Fu/SESA-Self-Evolving-Search-Agents.git",
+      "canonical": "https://github.com/zenghuang-fu/sesa-self-evolving-search-agents"
+    },
+    {
+      "directory": "shadcn-ui",
+      "url": "https://github.com/shadcn-ui/ui.git",
+      "canonical": "https://github.com/shadcn-ui/ui"
+    },
+    {
+      "directory": "skill-up",
+      "url": "https://github.com/alibaba/skill-up.git",
+      "canonical": "https://github.com/alibaba/skill-up"
+    },
+    {
+      "directory": "skills-compat-manager",
+      "url": "https://github.com/hnaymyh123-henry/skills-compat-manager.git",
+      "canonical": "https://github.com/hnaymyh123-henry/skills-compat-manager"
+    },
+    {
+      "directory": "skillspector",
+      "url": "https://github.com/NVIDIA/skillspector.git",
+      "canonical": "https://github.com/nvidia/skillspector"
+    },
+    {
+      "directory": "skillsProject-AI-Log-Analyzer",
+      "url": "https://github.com/sahanaydn/skillsProject-AI-Log-Analyzer.git",
+      "canonical": "https://github.com/sahanaydn/skillsproject-ai-log-analyzer"
+    },
+    {
+      "directory": "SmeLLM",
+      "url": "https://github.com/refactoring-assistant/SmeLLM.git",
+      "canonical": "https://github.com/refactoring-assistant/smellm"
+    },
+    {
+      "directory": "superpowers-repo",
+      "url": "https://github.com/obra/superpowers.git",
+      "canonical": "https://github.com/obra/superpowers"
+    },
+    {
+      "directory": "supertonic",
+      "url": "https://github.com/supertone-oss-archive/supertonic.git",
+      "canonical": "https://github.com/supertone-oss-archive/supertonic"
+    },
+    {
+      "directory": "SupplyChainScanner",
+      "url": "https://github.com/benjiamin911/SupplyChainScanner.git",
+      "canonical": "https://github.com/benjiamin911/supplychainscanner"
+    },
+    {
+      "directory": "taste-skill",
+      "url": "https://github.com/Leonxlnx/taste-skill.git",
+      "canonical": "https://github.com/leonxlnx/taste-skill"
+    },
+    {
+      "directory": "terraform",
+      "url": "https://github.com/hashicorp/terraform.git",
+      "canonical": "https://github.com/hashicorp/terraform"
+    },
+    {
+      "directory": "timesfm",
+      "url": "https://github.com/google-research/timesfm.git",
+      "canonical": "https://github.com/google-research/timesfm"
+    },
+    {
+      "directory": "transitions-dev",
+      "url": "https://github.com/Jakubantalik/transitions.dev.git",
+      "canonical": "https://github.com/jakubantalik/transitions.dev"
+    },
+    {
+      "directory": "ui-ux-pro-max-skill",
+      "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill.git",
+      "canonical": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill"
+    },
+    {
+      "directory": "vue-skills-full",
+      "url": "https://github.com/vuejs-ai/skills.git",
+      "canonical": "https://github.com/vuejs-ai/skills"
+    },
+    {
+      "directory": "VibeVoice",
+      "url": "https://github.com/microsoft/VibeVoice.git",
+      "canonical": "https://github.com/microsoft/vibevoice"
+    },
+    {
+      "directory": "vue-tui",
+      "url": "https://github.com/Simon-He95/vue-tui.git",
+      "canonical": "https://github.com/simon-he95/vue-tui"
+    },
+    {
+      "directory": "web-access",
+      "url": "https://github.com/eze-is/web-access.git",
+      "canonical": "https://github.com/eze-is/web-access"
+    },
+    {
+      "directory": "WebSecurityScanner",
+      "url": "https://github.com/Defensive-Alliance/WebSecurityScanner.git",
+      "canonical": "https://github.com/defensive-alliance/websecurityscanner"
+    },
+    {
+      "directory": "z-skills",
+      "url": "https://github.com/tjxj/z-skills.git",
+      "canonical": "https://github.com/tjxj/z-skills"
+    },
+    {
+      "directory": "zvec-grep",
+      "url": "https://github.com/zvec-ai/zvec-grep.git",
+      "canonical": "https://github.com/zvec-ai/zvec-grep"
+    }
+  ],
+  "local_repositories": [
+    {
+      "directory": "Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach.git",
+      "canonical": "https://github.com/panniantong/agent-reach"
+    },
+    {
+      "directory": "agent-rules-books",
+      "url": "https://github.com/ciembor/agent-rules-books.git",
+      "canonical": "https://github.com/ciembor/agent-rules-books"
+    },
+    {
+      "directory": "agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills.git",
+      "canonical": "https://github.com/addyosmani/agent-skills"
+    },
+    {
+      "directory": "AI-Research-SKILLs",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs.git",
+      "canonical": "https://github.com/orchestra-research/ai-research-skills"
+    },
+    {
+      "directory": "ai-unit-tests-generator",
+      "url": "https://github.com/gustavolopess/ai-unit-tests-generator.git",
+      "canonical": "https://github.com/gustavolopess/ai-unit-tests-generator"
+    },
+    {
+      "directory": "andrej-karpathy-skills",
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills.git",
+      "canonical": "https://github.com/multica-ai/andrej-karpathy-skills"
+    },
+    {
+      "directory": "anthropic-skills",
+      "url": "https://github.com/anthropics/skills.git",
+      "canonical": "https://github.com/anthropics/skills"
+    },
+    {
+      "directory": "archify",
+      "url": "https://github.com/tt-a1i/archify.git",
+      "canonical": "https://github.com/tt-a1i/archify"
+    },
+    {
+      "directory": "avoid-ai-writing",
+      "url": "https://github.com/conorbronsdon/avoid-ai-writing.git",
+      "canonical": "https://github.com/conorbronsdon/avoid-ai-writing"
+    },
+    {
+      "directory": "awesome-agent-skills",
+      "url": "https://github.com/JackyST0/awesome-agent-skills.git",
+      "canonical": "https://github.com/jackyst0/awesome-agent-skills"
+    },
+    {
+      "directory": "Awesome-Agent-Skills-for-Empirical-Research",
+      "url": "https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills.git",
+      "canonical": "https://github.com/brycewang-stanford/auto-empirical-research-skills"
+    },
+    {
+      "directory": "awesome-claude-skills",
+      "url": "https://github.com/travisvn/awesome-claude-skills.git",
+      "canonical": "https://github.com/travisvn/awesome-claude-skills"
+    },
+    {
+      "directory": "awesome-design-md",
+      "url": "https://github.com/VoltAgent/awesome-design-md.git",
+      "canonical": "https://github.com/voltagent/awesome-design-md"
+    },
+    {
+      "directory": "awesome-llm-apps",
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps.git",
+      "canonical": "https://github.com/shubhamsaboo/awesome-llm-apps"
+    },
+    {
+      "directory": "beautiful-ui",
+      "url": "https://github.com/slev12397/beautiful-ui.git",
+      "canonical": "https://github.com/slev12397/beautiful-ui"
+    },
+    {
+      "directory": "beui",
+      "url": "https://github.com/starc007/ui-components.git",
+      "canonical": "https://github.com/starc007/ui-components"
+    },
+    {
+      "directory": "browser-use",
+      "url": "https://github.com/browser-use/browser-use.git",
+      "canonical": "https://github.com/browser-use/browser-use"
+    },
+    {
+      "directory": "build-your-own-x",
+      "url": "https://github.com/codecrafters-io/build-your-own-x.git",
+      "canonical": "https://github.com/codecrafters-io/build-your-own-x"
+    },
+    {
+      "directory": "caveman-full",
+      "url": "https://github.com/JuliusBrussee/caveman.git",
+      "canonical": "https://github.com/juliusbrussee/caveman"
+    },
+    {
+      "directory": "chrome-devtools-mcp",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp.git",
+      "canonical": "https://github.com/chromedevtools/chrome-devtools-mcp"
+    },
+    {
+      "directory": "claude-cookbooks",
+      "url": "https://github.com/anthropics/claude-cookbooks.git",
+      "canonical": "https://github.com/anthropics/claude-cookbooks"
+    },
+    {
+      "directory": "claude-guides-full",
+      "url": "https://github.com/vtroisWhite/andrej-karpathy-skills.git",
+      "canonical": "https://github.com/vtroiswhite/andrej-karpathy-skills"
+    },
+    {
+      "directory": "claude-scholar",
+      "url": "https://github.com/Galaxy-Dawn/claude-scholar.git",
+      "canonical": "https://github.com/galaxy-dawn/claude-scholar"
+    },
+    {
+      "directory": "claude-skill-refactoring-ui",
+      "url": "https://github.com/opkod-france/claude-skill-refactoring-ui.git",
+      "canonical": "https://github.com/opkod-france/claude-skill-refactoring-ui"
+    },
+    {
+      "directory": "claude-video",
+      "url": "https://github.com/bradautomates/claude-video.git",
+      "canonical": "https://github.com/bradautomates/claude-video"
+    },
+    {
+      "directory": "code-review-plugin",
+      "url": "https://github.com/anthropics/claude-plugins-official.git",
+      "canonical": "https://github.com/anthropics/claude-plugins-official"
+    },
+    {
+      "directory": "codetracer",
+      "url": "https://github.com/metacraft-labs/codetracer.git",
+      "canonical": "https://github.com/metacraft-labs/codetracer"
+    },
+    {
+      "directory": "crawl4ai",
+      "url": "https://github.com/unclecode/crawl4ai.git",
+      "canonical": "https://github.com/unclecode/crawl4ai"
+    },
+    {
+      "directory": "daizhigev20",
+      "url": "https://github.com/daizhige-org/daizhigev20.git",
+      "canonical": "https://github.com/daizhige-org/daizhigev20"
+    },
+    {
+      "directory": "developer-portfolios",
+      "url": "https://github.com/emmabostian/developer-portfolios.git",
+      "canonical": "https://github.com/emmabostian/developer-portfolios"
+    },
+    {
+      "directory": "ECC",
+      "url": "https://github.com/affaan-m/ECC.git",
+      "canonical": "https://github.com/affaan-m/ecc"
+    },
+    {
+      "directory": "effective-html",
+      "url": "https://github.com/plannotator/effective-html.git",
+      "canonical": "https://github.com/plannotator/effective-html"
+    },
+    {
+      "directory": "ego-lite",
+      "url": "https://github.com/citrolabs/ego-lite.git",
+      "canonical": "https://github.com/citrolabs/ego-lite"
+    },
+    {
+      "directory": "emilkowalski-skills",
+      "url": "https://github.com/emilkowalski/skills.git",
+      "canonical": "https://github.com/emilkowalski/skills"
+    },
+    {
+      "directory": "ghidra",
+      "url": "https://github.com/NationalSecurityAgency/ghidra.git",
+      "canonical": "https://github.com/nationalsecurityagency/ghidra"
+    },
+    {
+      "directory": "Ghost-Downloader-3",
+      "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3.git",
+      "canonical": "https://github.com/xiaoyouchr/ghost-downloader-3"
+    },
+    {
+      "directory": "goose",
+      "url": "https://github.com/aaif-goose/goose.git",
+      "canonical": "https://github.com/aaif-goose/goose"
+    },
+    {
+      "directory": "gortex",
+      "url": "https://github.com/zzet/gortex.git",
+      "canonical": "https://github.com/zzet/gortex"
+    },
+    {
+      "directory": "graphify",
+      "url": "https://github.com/Graphify-Labs/graphify.git",
+      "canonical": "https://github.com/graphify-labs/graphify"
+    },
+    {
+      "directory": "hallmark",
+      "url": "https://github.com/Nutlope/hallmark.git",
+      "canonical": "https://github.com/nutlope/hallmark"
+    },
+    {
+      "directory": "headroom",
+      "url": "https://github.com/headroomlabs-ai/headroom.git",
+      "canonical": "https://github.com/headroomlabs-ai/headroom"
+    },
+    {
+      "directory": "human-writing",
+      "url": "https://github.com/KKKKhazix/human-writing.git",
+      "canonical": "https://github.com/kkkkhazix/human-writing"
+    },
+    {
+      "directory": "Humanizer-zh",
+      "url": "https://github.com/op7418/Humanizer-zh.git",
+      "canonical": "https://github.com/op7418/humanizer-zh"
+    },
+    {
+      "directory": "hyperframes",
+      "url": "https://github.com/heygen-com/hyperframes.git",
+      "canonical": "https://github.com/heygen-com/hyperframes"
+    },
+    {
+      "directory": "inspira-ui",
+      "url": "https://github.com/rahulv-official/inspira-ui.git",
+      "canonical": "https://github.com/rahulv-official/inspira-ui"
+    },
+    {
+      "directory": "kepano-obsidian",
+      "url": "https://github.com/kepano/kepano-obsidian.git",
+      "canonical": "https://github.com/kepano/kepano-obsidian"
+    },
+    {
+      "directory": "kgka_Music_hl",
+      "url": "https://github.com/umr-xiaomai/kgka_Music_hl.git",
+      "canonical": "https://github.com/umr-xiaomai/kgka_music_hl"
+    },
+    {
+      "directory": "khazix-skills",
+      "url": "https://github.com/KKKKhazix/khazix-skills.git",
+      "canonical": "https://github.com/kkkkhazix/khazix-skills"
+    },
+    {
+      "directory": "knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins.git",
+      "canonical": "https://github.com/anthropics/knowledge-work-plugins"
+    },
+    {
+      "directory": "last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill.git",
+      "canonical": "https://github.com/mvanhorn/last30days-skill"
+    },
+    {
+      "directory": "LEANN",
+      "url": "https://github.com/StarTrail-org/LEANN.git",
+      "canonical": "https://github.com/startrail-org/leann"
+    },
+    {
+      "directory": "liteparse",
+      "url": "https://github.com/run-llama/liteparse.git",
+      "canonical": "https://github.com/run-llama/liteparse"
+    },
+    {
+      "directory": "loopx",
+      "url": "https://github.com/huangruiteng/loopx.git",
+      "canonical": "https://github.com/huangruiteng/loopx"
+    },
+    {
+      "directory": "magenta-realtime",
+      "url": "https://github.com/magenta/magenta-realtime.git",
+      "canonical": "https://github.com/magenta/magenta-realtime"
+    },
+    {
+      "directory": "manim",
+      "url": "https://github.com/3b1b/manim.git",
+      "canonical": "https://github.com/3b1b/manim"
+    },
+    {
+      "directory": "markdown-viewer-skills",
+      "url": "https://github.com/markdown-viewer/skills.git",
+      "canonical": "https://github.com/markdown-viewer/skills"
+    },
+    {
+      "directory": "mattpocock-skills",
+      "url": "https://github.com/mattpocock/skills.git",
+      "canonical": "https://github.com/mattpocock/skills"
+    },
+    {
+      "directory": "mergration",
+      "url": "https://github.com/38tter/mergration.git",
+      "canonical": "https://github.com/38tter/mergration"
+    },
+    {
+      "directory": "mermaid-erd-generator",
+      "url": "https://github.com/nharsch/mermaid-erd-generator.git",
+      "canonical": "https://github.com/nharsch/mermaid-erd-generator"
+    },
+    {
+      "directory": "minimax-skills",
+      "url": "https://github.com/MiniMax-AI/skills.git",
+      "canonical": "https://github.com/minimax-ai/skills"
+    },
+    {
+      "directory": "multi-style-image-generator",
+      "url": "https://github.com/powerycy/multi-style-image-generator.git",
+      "canonical": "https://github.com/powerycy/multi-style-image-generator"
+    },
+    {
+      "directory": "nanobrowser",
+      "url": "https://github.com/nanobrowser/nanobrowser.git",
+      "canonical": "https://github.com/nanobrowser/nanobrowser"
+    },
+    {
+      "directory": "nature-skills",
+      "url": "https://github.com/Yuan1z0825/nature-skills.git",
+      "canonical": "https://github.com/yuan1z0825/nature-skills"
+    },
+    {
+      "directory": "nginx-http-flv-module",
+      "url": "https://github.com/winshining/nginx-http-flv-module.git",
+      "canonical": "https://github.com/winshining/nginx-http-flv-module"
+    },
+    {
+      "directory": "no-ai-slop",
+      "url": "https://github.com/petergyang/no-ai-slop.git",
+      "canonical": "https://github.com/petergyang/no-ai-slop"
+    },
+    {
+      "directory": "obsidian-skills",
+      "url": "https://github.com/kepano/obsidian-skills.git",
+      "canonical": "https://github.com/kepano/obsidian-skills"
+    },
+    {
+      "directory": "open-code-review",
+      "url": "https://github.com/alibaba/open-code-review.git",
+      "canonical": "https://github.com/alibaba/open-code-review"
+    },
+    {
+      "directory": "open-design",
+      "url": "https://github.com/nexu-io/open-design.git",
+      "canonical": "https://github.com/nexu-io/open-design"
+    },
+    {
+      "directory": "open-source-games",
+      "url": "https://github.com/bobeff/open-source-games.git",
+      "canonical": "https://github.com/bobeff/open-source-games"
+    },
+    {
+      "directory": "OpenCLI",
+      "url": "https://github.com/jackwener/OpenCLI.git",
+      "canonical": "https://github.com/jackwener/opencli"
+    },
+    {
+      "directory": "openwork",
+      "url": "https://github.com/different-ai/openwork.git",
+      "canonical": "https://github.com/different-ai/openwork"
+    },
+    {
+      "directory": "Paper2Any",
+      "url": "https://github.com/OpenDCAI/Paper2Any",
+      "canonical": "https://github.com/opendcai/paper2any"
+    },
+    {
+      "directory": "PaperSpine",
+      "url": "https://github.com/WUBING2023/PaperSpine.git",
+      "canonical": "https://github.com/wubing2023/paperspine"
+    },
+    {
+      "directory": "patent-disclosure-skill",
+      "url": "https://github.com/handsomestWei/patent-disclosure-skill.git",
+      "canonical": "https://github.com/handsomestwei/patent-disclosure-skill"
+    },
+    {
+      "directory": "pdf-inspector",
+      "url": "https://github.com/firecrawl/pdf-inspector.git",
+      "canonical": "https://github.com/firecrawl/pdf-inspector"
+    },
+    {
+      "directory": "pi",
+      "url": "https://github.com/earendil-works/pi.git",
+      "canonical": "https://github.com/earendil-works/pi"
+    },
+    {
+      "directory": "pipeforge",
+      "url": "https://github.com/Sheraz-k/pipeforge.git",
+      "canonical": "https://github.com/sheraz-k/pipeforge"
+    },
+    {
+      "directory": "pisper",
+      "url": "https://github.com/ling-kong-ran/pisper.git",
+      "canonical": "https://github.com/ling-kong-ran/pisper"
+    },
+    {
+      "directory": "playcaptcha",
+      "url": "https://github.com/mortspace/playcaptcha.git",
+      "canonical": "https://github.com/mortspace/playcaptcha"
+    },
+    {
+      "directory": "pocket-tts",
+      "url": "https://github.com/kyutai-labs/pocket-tts.git",
+      "canonical": "https://github.com/kyutai-labs/pocket-tts"
+    },
+    {
+      "directory": "public-apis",
+      "url": "https://github.com/public-apis/public-apis.git",
+      "canonical": "https://github.com/public-apis/public-apis"
+    },
+    {
+      "directory": "python-refactoring-skills",
+      "url": "https://github.com/l-mb/python-refactoring-skills.git",
+      "canonical": "https://github.com/l-mb/python-refactoring-skills"
+    },
+    {
+      "directory": "rare-ui",
+      "url": "https://github.com/swamimalode07/rare-ui.git",
+      "canonical": "https://github.com/swamimalode07/rare-ui"
+    },
+    {
+      "directory": "rea",
+      "url": "https://github.com/morluto/rea.git",
+      "canonical": "https://github.com/morluto/rea"
+    },
+    {
+      "directory": "reverse-skill",
+      "url": "https://github.com/zhaoxuya520/reverse-skill.git",
+      "canonical": "https://github.com/zhaoxuya520/reverse-skill"
+    },
+    {
+      "directory": "SafeGuard-Code-Profiler",
+      "url": "https://github.com/hamed-kuheil/SafeGuard-Code-Profiler.git",
+      "canonical": "https://github.com/hamed-kuheil/safeguard-code-profiler"
+    },
+    {
+      "directory": "scientific-agent-skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills.git",
+      "canonical": "https://github.com/k-dense-ai/scientific-agent-skills"
+    },
+    {
+      "directory": "scramble",
+      "url": "https://github.com/dedoc/scramble.git",
+      "canonical": "https://github.com/dedoc/scramble"
+    },
+    {
+      "directory": "sepia",
+      "url": "https://github.com/Nanako0129/sepia.git",
+      "canonical": "https://github.com/nanako0129/sepia"
+    },
+    {
+      "directory": "SESA-Self-Evolving-Search-Agents",
+      "url": "https://github.com/Zenghuang-Fu/SESA-Self-Evolving-Search-Agents.git",
+      "canonical": "https://github.com/zenghuang-fu/sesa-self-evolving-search-agents"
+    },
+    {
+      "directory": "shadcn-ui",
+      "url": "https://github.com/shadcn-ui/ui.git",
+      "canonical": "https://github.com/shadcn-ui/ui"
+    },
+    {
+      "directory": "skill-up",
+      "url": "https://github.com/alibaba/skill-up.git",
+      "canonical": "https://github.com/alibaba/skill-up"
+    },
+    {
+      "directory": "skills-compat-manager",
+      "url": "https://github.com/hnaymyh123-henry/skills-compat-manager.git",
+      "canonical": "https://github.com/hnaymyh123-henry/skills-compat-manager"
+    },
+    {
+      "directory": "skillspector",
+      "url": "https://github.com/NVIDIA/skillspector.git",
+      "canonical": "https://github.com/nvidia/skillspector"
+    },
+    {
+      "directory": "skillsProject-AI-Log-Analyzer",
+      "url": "https://github.com/sahanaydn/skillsProject-AI-Log-Analyzer.git",
+      "canonical": "https://github.com/sahanaydn/skillsproject-ai-log-analyzer"
+    },
+    {
+      "directory": "SmeLLM",
+      "url": "https://github.com/refactoring-assistant/SmeLLM.git",
+      "canonical": "https://github.com/refactoring-assistant/smellm"
+    },
+    {
+      "directory": "stt",
+      "url": "https://github.com/jianchang512/stt.git",
+      "canonical": "https://github.com/jianchang512/stt"
+    },
+    {
+      "directory": "superpowers-repo",
+      "url": "https://github.com/obra/superpowers.git",
+      "canonical": "https://github.com/obra/superpowers"
+    },
+    {
+      "directory": "supertonic",
+      "url": "https://github.com/supertone-oss-archive/supertonic.git",
+      "canonical": "https://github.com/supertone-oss-archive/supertonic"
+    },
+    {
+      "directory": "SupplyChainScanner",
+      "url": "https://github.com/benjiamin911/SupplyChainScanner.git",
+      "canonical": "https://github.com/benjiamin911/supplychainscanner"
+    },
+    {
+      "directory": "taste-skill",
+      "url": "https://github.com/Leonxlnx/taste-skill.git",
+      "canonical": "https://github.com/leonxlnx/taste-skill"
+    },
+    {
+      "directory": "terraform",
+      "url": "https://github.com/hashicorp/terraform.git",
+      "canonical": "https://github.com/hashicorp/terraform"
+    },
+    {
+      "directory": "timesfm",
+      "url": "https://github.com/google-research/timesfm.git",
+      "canonical": "https://github.com/google-research/timesfm"
+    },
+    {
+      "directory": "transitions-dev",
+      "url": "https://github.com/Jakubantalik/transitions.dev.git",
+      "canonical": "https://github.com/jakubantalik/transitions.dev"
+    },
+    {
+      "directory": "ui-ux-pro-max-skill",
+      "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill.git",
+      "canonical": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill"
+    },
+    {
+      "directory": "VibeVoice",
+      "url": "https://github.com/microsoft/VibeVoice.git",
+      "canonical": "https://github.com/microsoft/vibevoice"
+    },
+    {
+      "directory": "vue-skills-full",
+      "url": "https://github.com/vuejs-ai/skills.git",
+      "canonical": "https://github.com/vuejs-ai/skills"
+    },
+    {
+      "directory": "vue-tui",
+      "url": "https://github.com/Simon-He95/vue-tui.git",
+      "canonical": "https://github.com/simon-he95/vue-tui"
+    },
+    {
+      "directory": "web-access",
+      "url": "https://github.com/eze-is/web-access.git",
+      "canonical": "https://github.com/eze-is/web-access"
+    },
+    {
+      "directory": "WebSecurityScanner",
+      "url": "https://github.com/Defensive-Alliance/WebSecurityScanner.git",
+      "canonical": "https://github.com/defensive-alliance/websecurityscanner"
+    },
+    {
+      "directory": "z-skills",
+      "url": "https://github.com/tjxj/z-skills.git",
+      "canonical": "https://github.com/tjxj/z-skills"
+    },
+    {
+      "directory": "zvec-grep",
+      "url": "https://github.com/zvec-ai/zvec-grep.git",
+      "canonical": "https://github.com/zvec-ai/zvec-grep"
+    }
+  ],
+  "git_metadata_unavailable": [],
+  "missing_from_catalog": [],
+  "origin_mismatches": [],
+  "catalog_directories_missing": [],
+  "missing_from_star_list": [
+    {
+      "directory": "kgka_Music_hl",
+      "url": "https://github.com/umr-xiaomai/kgka_Music_hl.git",
+      "canonical": "https://github.com/umr-xiaomai/kgka_music_hl"
+    },
+    {
+      "directory": "archify",
+      "url": "https://github.com/tt-a1i/archify.git",
+      "canonical": "https://github.com/tt-a1i/archify"
+    },
+    {
+      "directory": "agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills.git",
+      "canonical": "https://github.com/addyosmani/agent-skills"
+    },
+    {
+      "directory": "avoid-ai-writing",
+      "url": "https://github.com/conorbronsdon/avoid-ai-writing.git",
+      "canonical": "https://github.com/conorbronsdon/avoid-ai-writing"
+    },
+    {
+      "directory": "developer-portfolios",
+      "url": "https://github.com/emmabostian/developer-portfolios.git",
+      "canonical": "https://github.com/emmabostian/developer-portfolios"
+    },
+    {
+      "directory": "human-writing",
+      "url": "https://github.com/KKKKhazix/human-writing.git",
+      "canonical": "https://github.com/kkkkhazix/human-writing"
+    },
+    {
+      "directory": "khazix-skills",
+      "url": "https://github.com/KKKKhazix/khazix-skills.git",
+      "canonical": "https://github.com/kkkkhazix/khazix-skills"
+    },
+    {
+      "directory": "pisper",
+      "url": "https://github.com/ling-kong-ran/pisper.git",
+      "canonical": "https://github.com/ling-kong-ran/pisper"
+    },
+    {
+      "directory": "reverse-skill",
+      "url": "https://github.com/zhaoxuya520/reverse-skill.git",
+      "canonical": "https://github.com/zhaoxuya520/reverse-skill"
+    },
+    {
+      "directory": "sepia",
+      "url": "https://github.com/Nanako0129/sepia.git",
+      "canonical": "https://github.com/nanako0129/sepia"
+    }
+  ],
+  "star_only_projects": [
+    "https://github.com/yang0/handraw-style",
+    "https://github.com/jbiaojerry/ebook-treasure-chest",
+    "https://github.com/bytebytegohq/system-design-101",
+    "https://github.com/aaaaqwq/agi-super-team"
+  ],
+  "duplicate_star_projects": {
+    "https://github.com/alibaba/open-code-review": 2,
+    "https://github.com/xiaoyouchr/ghost-downloader-3": 2,
+    "https://github.com/3b1b/manim": 2,
+    "https://github.com/brycewang-stanford/auto-empirical-research-skills": 2
+  },
+  "original_star_unique_count": 106,
+  "online_check": {
+    "checked_at": "2026-11-02T02:27:35.920805+00:00",
+    "method": "HTTP HEAD, redirects followed; reachability only, no authentication",
+    "results": [
+      {
+        "project": "https://github.com/38tter/mergration",
+        "url": "https://github.com/38tter/mergration",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/3b1b/manim",
+        "url": "https://github.com/3b1b/manim",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/aaaaqwq/agi-super-team",
+        "url": "https://github.com/aaaaqwq/agi-super-team",
+        "status": 200,
+        "final_url": "https://github.com/aaaaqwq/agi-super-team"
+      },
+      {
+        "project": "https://github.com/aaif-goose/goose",
+        "url": "https://github.com/aaif-goose/goose",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/addyosmani/agent-skills",
+        "url": "https://github.com/addyosmani/agent-skills",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/affaan-m/ecc",
+        "url": "https://github.com/affaan-m/ECC",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/alibaba/open-code-review",
+        "url": "https://github.com/alibaba/open-code-review",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/alibaba/skill-up",
+        "url": "https://github.com/alibaba/skill-up",
+        "status": 200,
+        "final_url": "https://github.com/alibaba/skill-up"
+      },
+      {
+        "project": "https://github.com/anthropics/claude-cookbooks",
+        "url": "https://github.com/anthropics/claude-cookbooks",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/anthropics/claude-plugins-official",
+        "url": "https://github.com/anthropics/claude-plugins-official",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/anthropics/knowledge-work-plugins",
+        "url": "https://github.com/anthropics/knowledge-work-plugins",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/anthropics/skills",
+        "url": "https://github.com/anthropics/skills",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/benjiamin911/supplychainscanner",
+        "url": "https://github.com/benjiamin911/SupplyChainScanner",
+        "status": 200,
+        "final_url": "https://github.com/benjiamin911/SupplyChainScanner"
+      },
+      {
+        "project": "https://github.com/bobeff/open-source-games",
+        "url": "https://github.com/bobeff/open-source-games",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/bradautomates/claude-video",
+        "url": "https://github.com/bradautomates/claude-video",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/browser-use/browser-use",
+        "url": "https://github.com/browser-use/browser-use",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/brycewang-stanford/auto-empirical-research-skills",
+        "url": "https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/bytebytegohq/system-design-101",
+        "url": "https://github.com/bytebytegohq/system-design-101",
+        "status": 200,
+        "final_url": "https://github.com/bytebytegohq/system-design-101"
+      },
+      {
+        "project": "https://github.com/chromedevtools/chrome-devtools-mcp",
+        "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/ciembor/agent-rules-books",
+        "url": "https://github.com/ciembor/agent-rules-books",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/citrolabs/ego-lite",
+        "url": "https://github.com/citrolabs/ego-lite",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/codecrafters-io/build-your-own-x",
+        "url": "https://github.com/codecrafters-io/build-your-own-x",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/conorbronsdon/avoid-ai-writing",
+        "url": "https://github.com/conorbronsdon/avoid-ai-writing",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/daizhige-org/daizhigev20",
+        "url": "https://github.com/daizhige-org/daizhigev20",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/dedoc/scramble",
+        "url": "https://github.com/dedoc/scramble",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/defensive-alliance/websecurityscanner",
+        "url": "https://github.com/Defensive-Alliance/WebSecurityScanner",
+        "status": 200,
+        "final_url": "https://github.com/Defensive-Alliance/WebSecurityScanner"
+      },
+      {
+        "project": "https://github.com/different-ai/openwork",
+        "url": "https://github.com/different-ai/openwork",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/earendil-works/pi",
+        "url": "https://github.com/earendil-works/pi",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/emilkowalski/skills",
+        "url": "https://github.com/emilkowalski/skills",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/emmabostian/developer-portfolios",
+        "url": "https://github.com/emmabostian/developer-portfolios",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/eze-is/web-access",
+        "url": "https://github.com/eze-is/web-access",
+        "status": 200,
+        "final_url": "https://github.com/eze-is/web-access"
+      },
+      {
+        "project": "https://github.com/firecrawl/pdf-inspector",
+        "url": "https://github.com/firecrawl/pdf-inspector",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/galaxy-dawn/claude-scholar",
+        "url": "https://github.com/Galaxy-Dawn/claude-scholar",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/google-research/timesfm",
+        "url": "https://github.com/google-research/timesfm",
+        "status": 200,
+        "final_url": "https://github.com/google-research/timesfm"
+      },
+      {
+        "project": "https://github.com/graphify-labs/graphify",
+        "url": "https://github.com/Graphify-Labs/graphify",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/gustavolopess/ai-unit-tests-generator",
+        "url": "https://github.com/gustavolopess/ai-unit-tests-generator",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/hamed-kuheil/safeguard-code-profiler",
+        "url": "https://github.com/hamed-kuheil/SafeGuard-Code-Profiler",
+        "status": 200,
+        "final_url": "https://github.com/hamed-kuheil/SafeGuard-Code-Profiler"
+      },
+      {
+        "project": "https://github.com/handsomestwei/patent-disclosure-skill",
+        "url": "https://github.com/handsomestWei/patent-disclosure-skill",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/hashicorp/terraform",
+        "url": "https://github.com/hashicorp/terraform",
+        "status": 200,
+        "final_url": "https://github.com/hashicorp/terraform"
+      },
+      {
+        "project": "https://github.com/headroomlabs-ai/headroom",
+        "url": "https://github.com/headroomlabs-ai/headroom",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/heygen-com/hyperframes",
+        "url": "https://github.com/heygen-com/hyperframes",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/hnaymyh123-henry/skills-compat-manager",
+        "url": "https://github.com/hnaymyh123-henry/skills-compat-manager",
+        "status": 200,
+        "final_url": "https://github.com/hnaymyh123-henry/skills-compat-manager"
+      },
+      {
+        "project": "https://github.com/huangruiteng/loopx",
+        "url": "https://github.com/huangruiteng/loopx",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/jackwener/opencli",
+        "url": "https://github.com/jackwener/OpenCLI",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/jackyst0/awesome-agent-skills",
+        "url": "https://github.com/JackyST0/awesome-agent-skills",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/jakubantalik/transitions.dev",
+        "url": "https://github.com/Jakubantalik/transitions.dev",
+        "status": 200,
+        "final_url": "https://github.com/Jakubantalik/transitions.dev"
+      },
+      {
+        "project": "https://github.com/jbiaojerry/ebook-treasure-chest",
+        "url": "https://github.com/jbiaojerry/ebook-treasure-chest",
+        "status": 200,
+        "final_url": "https://github.com/jbiaojerry/ebook-treasure-chest"
+      },
+      {
+        "project": "https://github.com/jianchang512/stt",
+        "url": "https://github.com/jianchang512/stt",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/juliusbrussee/caveman",
+        "url": "https://github.com/JuliusBrussee/caveman",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/k-dense-ai/scientific-agent-skills",
+        "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/kepano/kepano-obsidian",
+        "url": "https://github.com/kepano/kepano-obsidian",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/kepano/obsidian-skills",
+        "url": "https://github.com/kepano/obsidian-skills",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/kkkkhazix/human-writing",
+        "url": "https://github.com/KKKKhazix/human-writing",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/kkkkhazix/khazix-skills",
+        "url": "https://github.com/KKKKhazix/khazix-skills",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/kyutai-labs/pocket-tts",
+        "url": "https://github.com/kyutai-labs/pocket-tts",
+        "status": 200,
+        "final_url": "https://github.com/kyutai-labs/pocket-tts"
+      },
+      {
+        "project": "https://github.com/l-mb/python-refactoring-skills",
+        "url": "https://github.com/l-mb/python-refactoring-skills",
+        "status": 200,
+        "final_url": "https://github.com/l-mb/python-refactoring-skills"
+      },
+      {
+        "project": "https://github.com/leonxlnx/taste-skill",
+        "url": "https://github.com/Leonxlnx/taste-skill",
+        "status": 200,
+        "final_url": "https://github.com/Leonxlnx/taste-skill"
+      },
+      {
+        "project": "https://github.com/ling-kong-ran/pisper",
+        "url": "https://github.com/ling-kong-ran/pisper",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/magenta/magenta-realtime",
+        "url": "https://github.com/magenta/magenta-realtime",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/markdown-viewer/skills",
+        "url": "https://github.com/markdown-viewer/skills",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/mattpocock/skills",
+        "url": "https://github.com/mattpocock/skills",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/metacraft-labs/codetracer",
+        "url": "https://github.com/metacraft-labs/codetracer",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/microsoft/vibevoice",
+        "url": "https://github.com/microsoft/VibeVoice",
+        "status": 200,
+        "final_url": "https://github.com/microsoft/VibeVoice"
+      },
+      {
+        "project": "https://github.com/minimax-ai/skills",
+        "url": "https://github.com/MiniMax-AI/skills",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/morluto/rea",
+        "url": "https://github.com/morluto/rea",
+        "status": 200,
+        "final_url": "https://github.com/morluto/rea"
+      },
+      {
+        "project": "https://github.com/mortspace/playcaptcha",
+        "url": "https://github.com/mortspace/playcaptcha",
+        "status": 200,
+        "final_url": "https://github.com/mortspace/playcaptcha"
+      },
+      {
+        "project": "https://github.com/multica-ai/andrej-karpathy-skills",
+        "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/mvanhorn/last30days-skill",
+        "url": "https://github.com/mvanhorn/last30days-skill",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/nanako0129/sepia",
+        "url": "https://github.com/Nanako0129/sepia",
+        "status": 200,
+        "final_url": "https://github.com/Nanako0129/sepia"
+      },
+      {
+        "project": "https://github.com/nanobrowser/nanobrowser",
+        "url": "https://github.com/nanobrowser/nanobrowser",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/nationalsecurityagency/ghidra",
+        "url": "https://github.com/NationalSecurityAgency/ghidra",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "status": 200,
+        "final_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill"
+      },
+      {
+        "project": "https://github.com/nexu-io/open-design",
+        "url": "https://github.com/nexu-io/open-design",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/nharsch/mermaid-erd-generator",
+        "url": "https://github.com/nharsch/mermaid-erd-generator",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/nutlope/hallmark",
+        "url": "https://github.com/Nutlope/hallmark",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/nvidia/skillspector",
+        "url": "https://github.com/NVIDIA/skillspector",
+        "status": 200,
+        "final_url": "https://github.com/NVIDIA/skillspector"
+      },
+      {
+        "project": "https://github.com/obra/superpowers",
+        "url": "https://github.com/obra/superpowers",
+        "status": 200,
+        "final_url": "https://github.com/obra/superpowers"
+      },
+      {
+        "project": "https://github.com/op7418/humanizer-zh",
+        "url": "https://github.com/op7418/Humanizer-zh",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/opendcai/paper2any",
+        "url": "https://github.com/OpenDCAI/Paper2Any",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/opkod-france/claude-skill-refactoring-ui",
+        "url": "https://github.com/opkod-france/claude-skill-refactoring-ui",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/orchestra-research/ai-research-skills",
+        "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/panniantong/agent-reach",
+        "url": "https://github.com/Panniantong/Agent-Reach",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/petergyang/no-ai-slop",
+        "url": "https://github.com/petergyang/no-ai-slop",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/plannotator/effective-html",
+        "url": "https://github.com/plannotator/effective-html",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/powerycy/multi-style-image-generator",
+        "url": "https://github.com/powerycy/multi-style-image-generator",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/public-apis/public-apis",
+        "url": "https://github.com/public-apis/public-apis",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/rahulv-official/inspira-ui",
+        "url": "https://github.com/rahulv-official/inspira-ui",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/refactoring-assistant/smellm",
+        "url": "https://github.com/refactoring-assistant/SmeLLM",
+        "status": 200,
+        "final_url": "https://github.com/refactoring-assistant/SmeLLM"
+      },
+      {
+        "project": "https://github.com/run-llama/liteparse",
+        "url": "https://github.com/run-llama/liteparse",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/sahanaydn/skillsproject-ai-log-analyzer",
+        "url": "https://github.com/sahanaydn/skillsProject-AI-Log-Analyzer",
+        "status": 200,
+        "final_url": "https://github.com/sahanaydn/skillsProject-AI-Log-Analyzer"
+      },
+      {
+        "project": "https://github.com/shadcn-ui/ui",
+        "url": "https://github.com/shadcn-ui/ui",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/sheraz-k/pipeforge",
+        "url": "https://github.com/Sheraz-k/pipeforge",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/shubhamsaboo/awesome-llm-apps",
+        "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/simon-he95/vue-tui",
+        "url": "https://github.com/Simon-He95/vue-tui",
+        "status": 200,
+        "final_url": "https://github.com/Simon-He95/vue-tui"
+      },
+      {
+        "project": "https://github.com/slev12397/beautiful-ui",
+        "url": "https://github.com/slev12397/beautiful-ui",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/starc007/ui-components",
+        "url": "https://github.com/starc007/ui-components",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/startrail-org/leann",
+        "url": "https://github.com/StarTrail-org/LEANN",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/supertone-oss-archive/supertonic",
+        "url": "https://github.com/supertone-oss-archive/supertonic",
+        "status": 200,
+        "final_url": "https://github.com/supertone-oss-archive/supertonic"
+      },
+      {
+        "project": "https://github.com/swamimalode07/rare-ui",
+        "url": "https://github.com/swamimalode07/rare-ui",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/tjxj/z-skills",
+        "url": "https://github.com/tjxj/z-skills",
+        "status": 200,
+        "final_url": "https://github.com/tjxj/z-skills"
+      },
+      {
+        "project": "https://github.com/travisvn/awesome-claude-skills",
+        "url": "https://github.com/travisvn/awesome-claude-skills",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/tt-a1i/archify",
+        "url": "https://github.com/tt-a1i/archify",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/umr-xiaomai/kgka_music_hl",
+        "url": "https://github.com/umr-xiaomai/kgka_Music_hl",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/unclecode/crawl4ai",
+        "url": "https://github.com/unclecode/crawl4ai",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/voltagent/awesome-design-md",
+        "url": "https://github.com/VoltAgent/awesome-design-md",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/vtroiswhite/andrej-karpathy-skills",
+        "url": "https://github.com/vtroisWhite/andrej-karpathy-skills",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/vuejs-ai/skills",
+        "url": "https://github.com/vuejs-ai/skills",
+        "status": 200,
+        "final_url": "https://github.com/vuejs-ai/skills"
+      },
+      {
+        "project": "https://github.com/winshining/nginx-http-flv-module",
+        "url": "https://github.com/winshining/nginx-http-flv-module",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/wubing2023/paperspine",
+        "url": "https://github.com/WUBING2023/PaperSpine",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/xiaoyouchr/ghost-downloader-3",
+        "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/yang0/handraw-style",
+        "url": "https://github.com/yang0/handraw-style",
+        "status": 200,
+        "final_url": "https://github.com/yang0/handraw-style"
+      },
+      {
+        "project": "https://github.com/yuan1z0825/nature-skills",
+        "url": "https://github.com/Yuan1z0825/nature-skills",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/zenghuang-fu/sesa-self-evolving-search-agents",
+        "url": "https://github.com/Zenghuang-Fu/SESA-Self-Evolving-Search-Agents",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      },
+      {
+        "project": "https://github.com/zhaoxuya520/reverse-skill",
+        "url": "https://github.com/zhaoxuya520/reverse-skill",
+        "status": 200,
+        "final_url": "https://github.com/zhaoxuya520/reverse-skill"
+      },
+      {
+        "project": "https://github.com/zvec-ai/zvec-grep",
+        "url": "https://github.com/zvec-ai/zvec-grep",
+        "status": 200,
+        "final_url": "https://github.com/zvec-ai/zvec-grep"
+      },
+      {
+        "project": "https://github.com/zzet/gortex",
+        "url": "https://github.com/zzet/gortex",
+        "status": null,
+        "error": "<urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>"
+      }
+    ]
+  },
+  "resolution": {
+    "catalog_count": 112,
+    "logical_share_project_count": 116,
+    "missing_star_entries_added": 10,
+    "remaining_local_projects_missing_from_star": [],
+    "http_200_count": 31,
+    "web_fallback_count": 85,
+    "all_original_project_pages_readable": true,
+    "web_evidence_file": "repository-link-web-review-20261102.json",
+    "local_git_configuration_changed": false
+  }
+}

@@ -10,18 +10,26 @@
 
 状态含义：`已同步` 表示扫描时本地 HEAD 与已配置上游一致；`本地修改` 表示为保护工作区而跳过更新；`分叉 +A/-B` 表示本地相对上游领先 A 个、落后 B 个提交，没有自动改写历史。
 
+2026-11-08 Agent Reach 版本补充：保留 `Agent-Reach/` v1.5.0（`da5044d26fc6adddb6554d5679c94ac22e76e428`），另存官方 `v1.6.1` 至 `Agent-Reach-v1.6.1/`（`7a38047acf26a729cbb27851e3cb81639da86b29`，tag 分离 HEAD，克隆后工作树干净）。这是同一项目的版本副本；本轮只核对该副本，不重算历史总数或更新其他仓库同步状态，未安装依赖或全局配置。见[下载台账](GITHUB_REPOS.md#2026-11-08-agent-reach-v161源码快照)。
+
+2026-11-02 链接专项核对：当前可见的 112 个一级 Git 仓库均已列入下表，目录存在且记录来源与本地 origin 一致。本轮未重新拉取或复核各仓库提交与工作区同步状态，上方历史计数及各行版本状态仍保留原核验口径。对外介绍见 [分享清单](SHARE_GUIDE.md)，旧收藏清单漏项及上游地址变化见 [链接对照](GITHUB_STAR_LIST.md#2026-11-02-全量链接对照)。
+
 2026-08-29 只新增并核验 `loopx`、`ego-lite`。2026-09-02 新增 `archify`、`sepia` 的完整克隆记录。2026-09-03 新增 `pdf-inspector`、`effective-html` 的浅克隆记录，并复核既有 `andrej-karpathy-skills`、`mattpocock-skills`。2026-09-05 新增 `zvec-grep`、`terraform`、`patent-disclosure-skill` 的完整克隆，将既有 `graphify` 补齐为完整历史；随后扫描并更新全部 92 个可见一级仓库：43 个实际快进、47 个原本最新，`codetracer` 因上游删除 `main` 而安全切换到 `stable`（旧 `main` 及 3 个独有提交仍保留），`reverse-skill` 因 3 个本地修改跳过。2026-09-14 新增 `rare-ui`、`shadcn-ui`、`beautiful-ui`、`beui`、`transitions-dev`、`no-ai-slop` 6 个浅克隆；`ebook-treasure-chest` 与 `3b1b/manim` 当时仅登记。2026-09-15 新增 `open-code-review`、`Ghost-Downloader-3` 两个浅克隆，`handraw-style` 因无明确许可证且图片体量较大而只登记；同时补记根目录中现已存在的 `manim` 浅克隆。
 
-2026-10-27 新增 `skill-up`、`rea`、`ghidra`、`ECC` 4 个浅克隆，并更新既有 `open-code-review` 和 `Ghost-Downloader-3`。下载器上游强制更新后，保留旧 `main@601e2068`，新建 `catalog/upstream-20261027` 跟踪 `origin/main`。REA 的 5 个第三方子模块仅登记锁定提交，未初始化；Ghidra 仅保存源码，未下载可运行发行包。本轮 6 个父仓库均通过 Git 对象校验、当前工作树干净且与已抓取 upstream 一致；其余仓库没有重新拉取。详细证据见 [批次 JSON](scripts/repository-batch-20261027.json)。
+2026-10-27 新增 `skill-up`、`rea`、`ghidra`、`ECC` 4 个浅克隆，并更新既有 `open-code-review` 和 `Ghost-Downloader-3`。下载器上游强制更新后，保留旧 `main@601e2068`，新建 `catalog/upstream-20261027` 跟踪 `origin/main`。REA 的 5 个第三方子模块仅登记锁定提交，未初始化；Ghidra 仅保存源码，未下载可运行发行包。本轮 6 个父仓库均通过 Git 对象校验、当前工作树干净且与已抓取 upstream 一致；其余仓库没有重新拉取。详细证据见 [批次 JSON](../scripts/repository-batch-20261027.json)。
 
-同日补充 Magenta RealTime 2、Pocket TTS、Supertonic、TimesFM 与 VibeVoice 的本地使用评价。5 个源码浅克隆形成于用户澄清“不需要下载，有记录就更新”之前；此后仅更新记录。既有 TimesFM 预测 Skill 已交叉引用，模型未运行。证据见 [模型评价台账](GITHUB_REPOS.md#2026-10-27-模型记录与本地适配评价) 与 [模型批次 JSON](scripts/repository-model-review-20261027.json)。
+同日补充 Magenta RealTime 2、Pocket TTS、Supertonic、TimesFM 与 VibeVoice 的本地使用评价。5 个源码浅克隆形成于用户澄清“不需要下载，有记录就更新”之前；此后仅更新记录。既有 TimesFM 预测 Skill 已交叉引用，模型未运行。证据见 [模型评价台账](GITHUB_REPOS.md#2026-10-27-模型记录与本地适配评价) 与 [模型批次 JSON](../scripts/repository-model-review-20261027.json)。
 
 2026-10-30仅新增`kgka_Music_hl`浅克隆，确认master@166e84bd工作树干净；搜索/API来源及许可评价见GITHUB_REPOS.md。不重拉其他仓库，历史目录计数保持其原核验日期。
 
 2026-11-01 新增 `stt` 当前版本的浅克隆，含 Git 文件约 1.98 MiB，低于本轮 100 MB 限额；工作树干净并通过对象校验。未重新扫描其他仓库，历史总数保持原核验日期。详细大小口径和证据见 [下载台账](GITHUB_REPOS.md#2026-11-01-stt-本地音视频转文字工具)。
 
+2026-11-09 仅更新已有 `skill-up`，新增 `OpenShell` 和 `context-mode` 两个浅克隆，三者均低于 100 MB，工作树干净并通过 Git 对象校验。`huashu-art-motion` 在展开前核算约 148.62 MB，超过限额，已跳过并清理临时目录，不列入下方本地仓库表。没有重扫其他仓库或改写历史总数。`blender-skills` 已于 11 月 2 日登记链接，本轮复核仍无本地目录。详见 [本批台账](GITHUB_REPOS.md#2026-11-09-skill-评测艺术动画与-agent-工具) 和 [JSON](../scripts/repository-review-20261109.json)。
+
 | 本地目录 | 上游 | 分支 | HEAD | 状态 |
 |------|------|------|------|------|
+| OpenShell | https://github.com/NVIDIA/OpenShell.git | main | `9525bec0` | 新增浅克隆（2026-11-09）；约 55.65 MB，干净且与 origin/main 一致；仅源码参考 |
+| context-mode | https://github.com/mksglu/context-mode.git | main | `3a3ef7d5` | 新增浅克隆（2026-11-09）；v2.1.7，约 37.44 MB，Elastic-2.0；未配置 hooks/MCP |
 | stt | https://github.com/jianchang512/stt.git | main | `0df3151d` | 已浅克隆（2026-11-01）；v0.0.94，约 1.98 MiB，干净且与 origin/main 一致 |
 | kgka_Music_hl | https://github.com/umr-xiaomai/kgka_Music_hl.git | master | `166e84bd` | 已浅克隆（2026-10-30）；静态参考，在线API未实测 |
 | Agent-Reach | https://github.com/Panniantong/Agent-Reach.git | main | `da5044d2` | 已同步（2026-09-05） |
@@ -114,7 +122,7 @@
 | sepia | https://github.com/Nanako0129/sepia.git | main | `401c89e4` | 已同步（2026-09-05） |
 | SESA-Self-Evolving-Search-Agents | https://github.com/Zenghuang-Fu/SESA-Self-Evolving-Search-Agents.git | master | `74de5d77` | 已同步 |
 | shadcn-ui | https://github.com/shadcn-ui/ui.git | main | `2b3e6d4f` | 已浅克隆（2026-09-14） |
-| skill-up | https://github.com/alibaba/skill-up.git | main | `6fec8e9f` | 新增浅克隆；1 个正式 skill-upper（2026-10-27） |
+| skill-up | https://github.com/alibaba/skill-up.git | main | `78148136` | 已快进更新（2026-11-09）；约 13.00 MB，1 个正式 skill-upper；干净且与 origin/main 一致 |
 | skills-compat-manager | https://github.com/hnaymyh123-henry/skills-compat-manager.git | master | `8be1357e` | 已同步 |
 | skillspector | https://github.com/NVIDIA/skillspector.git | main | `7805bb94` | 已同步（2026-09-05） |
 | skillsProject-AI-Log-Analyzer | https://github.com/sahanaydn/skillsProject-AI-Log-Analyzer.git | main | `3682eae2` | 已同步 |
@@ -137,7 +145,7 @@
 
 ## 本聚合仓库实际保存的本地内容
 
-- 根目录索引与变更台账。
+- 根目录 README 与变更记录，以及 `docs/` 下的索引、维护说明和历史台账。
 - `multi-search-engine/`：上游单文件 Skill 快照及本地审计说明。
 - `zhihu-cli-skill/`：本地维护的知乎 CLI Skill 包，不包含账号凭据。
 

@@ -11,18 +11,18 @@
 
 | 文件 | 用途 |
 |------|------|
-| [SKILLS_INDEX.md](SKILLS_INDEX.md) | 当前一级 skill 仓库索引、搜索、下载和更新命令，作为权威入口 |
-| [GITHUB_REPOS.md](GITHUB_REPOS.md) | GitHub 下载与配置台账，保留各批次记录 |
+| [SKILLS_INDEX.md](../SKILLS_INDEX.md) | 当前一级 skill 仓库索引、搜索、下载和更新命令，作为权威入口 |
+| [GITHUB_REPOS.md](../GITHUB_REPOS.md) | GitHub 下载与配置台账，保留各批次记录 |
 | [SKILLS_INSTALLED.md](SKILLS_INSTALLED.md) | 历史安装/配置记录，不代表本轮会自动安装 |
-| [GITHUB_STAR_LIST.md](GITHUB_STAR_LIST.md) | 手工 GitHub 链接清单，star 数量按历史快照参考 |
-| [CHANGELOG.md](CHANGELOG.md) | 目录整理和下载变更记录 |
-| [REPOSITORIES.md](REPOSITORIES.md) | 82 个一级 Git 仓库的上游、分支、HEAD 与同步状态快照 |
+| [GITHUB_STAR_LIST.md](../GITHUB_STAR_LIST.md) | 手工 GitHub 链接清单，star 数量按历史快照参考 |
+| [CHANGELOG.md](../../CHANGELOG.md) | 目录整理和下载变更记录 |
+| [REPOSITORIES.md](../REPOSITORIES.md) | 82 个一级 Git 仓库的上游、分支、HEAD 与同步状态快照 |
 | [SKILLS_UNIFIED.md](SKILLS_UNIFIED.md) | 旧版分类汇总，保留参考，不单独作为更新依据 |
 | [LIVE_STREAMING.md](LIVE_STREAMING.md) | 旧版重复资源总览，不作为当前统计依据 |
 
 工具仓库只存放、不在本轮 skill 更新范围内；嵌套目录中的 skill/tool 也不作为一级仓库单独更新。
 
-本 GitHub 聚合仓库采用安全白名单：实际保存根台账、`multi-search-engine` 和 `zhihu-cli-skill`；第三方仓库以 [REPOSITORIES.md](REPOSITORIES.md) 固定来源与提交，不重复转载工作树。PDF、ZIP、`.env`、缓存、依赖和构建产物默认排除。
+本 GitHub 聚合仓库采用安全白名单：实际保存根台账、`multi-search-engine` 和 `zhihu-cli-skill`；第三方仓库以 [REPOSITORIES.md](../REPOSITORIES.md) 固定来源与提交，不重复转载工作树。PDF、ZIP、`.env`、缓存、依赖和构建产物默认排除。
 
 ## 2026-08-28 一级 Git 仓库全目录同步
 
@@ -42,7 +42,7 @@
 - **当前快照**: `012bc39`（2026-08-22）。Git 树内有 20,585 个正文 Markdown 文件；在线目录当前显示 20,584 部，差异来自史藏的 1 条记录。
 - **内容**: 佛、儒、医、史、子、易、艺、诗、道、集十藏，另有现代作品，共 11 类；文本以简体中文为主，Markdown 文件头含 YAML 元数据。
 - **体积边界**: 本地轻量目录约 3.4 MB，未下载全部正文；官方说明 2026 年 7 月 GitHub Pages 正文 artifact 约 2.15 GB。
-- **详细说明**: 数量口径、分类统计、质量与许可注意事项、按需读取命令见 [GITHUB_REPOS.md](GITHUB_REPOS.md)。
+- **详细说明**: 数量口径、分类统计、质量与许可注意事项、按需读取命令见 [GITHUB_REPOS.md](../GITHUB_REPOS.md)。
 
 ## 2026-08-28 学术科研 Skill 仓库
 
@@ -56,7 +56,7 @@
 | Auto-Empirical Research Skills | `E:\aimodel\Awesome-Agent-Skills-for-Empirical-Research\` | catalog 1,096 项；含子模块后 1,162 份物理文件 | 旧目录保留，origin 已改为新地址并快进更新 |
 | Multi Search Engine | `E:\aimodel\multi-search-engine\` | 1 个上游单文件快照 | 只保存最小 Skill；实际 16 个引擎，缺 `config.json`，不视为可执行聚合器 |
 
-这些项目均只保存在当前目录，没有安装依赖或复制到全局 Codex skills。具体 HEAD、许可证、功能边界和数字口径见 [SKILLS_INDEX.md](SKILLS_INDEX.md) 与 [GITHUB_REPOS.md](GITHUB_REPOS.md)。
+这些项目均只保存在当前目录，没有安装依赖或复制到全局 Codex skills。具体 HEAD、许可证、功能边界和数字口径见 [SKILLS_INDEX.md](../SKILLS_INDEX.md) 与 [GITHUB_REPOS.md](../GITHUB_REPOS.md)。
 
 ---
 
@@ -84,8 +84,8 @@
 | Claude/Codex 插件清单 | 89 |
 | 本轮新增/更新仓库 | 12 |
 
-下载与配置台账: [GITHUB_REPOS.md](GITHUB_REPOS.md)
-GitHub star 手动清单: [GITHUB_STAR_LIST.md](GITHUB_STAR_LIST.md)
+下载与配置台账: [GITHUB_REPOS.md](../GITHUB_REPOS.md)
+GitHub star 手动清单: [GITHUB_STAR_LIST.md](../GITHUB_STAR_LIST.md)
 
 ---
 
@@ -415,7 +415,7 @@ r
 
 ## 🆕 2026-07-19 候选仓库检索
 
-详见: [GITHUB_REPOS.md](GITHUB_REPOS.md)
+详见: [GITHUB_REPOS.md](../GITHUB_REPOS.md)
 
 | 仓库 | 类型 | 当前判断 | 状态 |
 |------|------|----------|------|
@@ -459,7 +459,7 @@ r
 
 ## 🆕 2026-07-30 第三批更新
 
-详见: [GITHUB_REPOS.md](GITHUB_REPOS.md)
+详见: [GITHUB_REPOS.md](../GITHUB_REPOS.md)
 
 | 仓库 | 类型 | 本地目录 | 状态 |
 |------|------|----------|------|

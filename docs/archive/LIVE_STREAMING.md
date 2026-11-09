@@ -5,7 +5,7 @@
 
 ---
 
-> 旧版资源总览（2026-05-11）。当前 `E:\aimodel` 的目录用途和文档入口请查看 [README.md](README.md) 与 [SKILLS_INDEX.md](SKILLS_INDEX.md)；本文件不再作为当前统计依据。
+> 旧版资源总览（2026-05-11）。当前 `E:\aimodel` 的目录用途和文档入口请查看 [README.md](../../README.md) 与 [SKILLS_INDEX.md](../SKILLS_INDEX.md)；本文件不再作为当前统计依据。
 
 ## 📊 资源统计
 

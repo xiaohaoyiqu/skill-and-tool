@@ -5,7 +5,7 @@
 
 ---
 
-> 当前一级目录 skill 索引、搜索、下载和更新规则以 [SKILLS_INDEX.md](SKILLS_INDEX.md) 为准。本文件保留旧版分类和使用说明，不再单独维护统计。
+> 当前一级目录 skill 索引、搜索、下载和更新规则以 [SKILLS_INDEX.md](../SKILLS_INDEX.md) 为准。本文件保留旧版分类和使用说明，不再单独维护统计。
 
 > 2026-08-25：`scientific-agent-skills` 已完整检出并验证，本地含 163 个一级 `SKILL.md`；使用状态、版本和验证边界见权威索引，不在本文件重复维护统计。
 
@@ -142,7 +142,7 @@
 
 ### 8️⃣ 新增工具 / 待配置 (2026-07-19)
 
-详见: [GITHUB_REPOS.md](GITHUB_REPOS.md)
+详见: [GITHUB_REPOS.md](../GITHUB_REPOS.md)
 
 | 仓库 | 入口 | 用途 | 状态 |
 |------|------|------|------|
@@ -330,7 +330,7 @@ irm https://raw.githubusercontent.com/JuliusBrussee/caveman/main/install.ps1 | i
 
 ### 同步状态
 
-本轮 26 个 skill 仓库已快进更新，15 个已是最新；`reverse-skill` 保留本地修改并跳过。其他仓库的 GitHub origin 链接已核对并登记在 [GITHUB_REPOS.md](GITHUB_REPOS.md)。
+本轮 26 个 skill 仓库已快进更新，15 个已是最新；`reverse-skill` 保留本地修改并跳过。其他仓库的 GitHub origin 链接已核对并登记在 [GITHUB_REPOS.md](../GITHUB_REPOS.md)。
 
 ---
 

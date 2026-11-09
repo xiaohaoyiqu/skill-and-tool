@@ -1,7 +1,7 @@
 # AI Skills 仓库索引
 
 **@author liuhao**
-**更新时间**: 2026-11-01
+**更新时间**: 2026-11-09
 
 ---
 
@@ -12,6 +12,36 @@
 - `open-design`、`pi`、`vue-tui` 等工具仓库只存放，不纳入正式 skill 主统计；本轮同步状态单独记录。
 - 这目录只做存放和索引，不在这里装依赖，也不写 C 盘全局配置。
 - `reverse-skill` 当前保留本地修改，已跳过更新。
+
+## 2026-11-09 Skill 评测、动画与 Agent 运行工具
+
+| 项目 | 本轮状态 | Skill 入口与定位 |
+|------|------|------|
+| [skill-up](https://github.com/alibaba/skill-up) | 已有源码快进更新至 `main@78148136`，含 Git 约 13.00 MB | `skill-up/skills/skill-upper/SKILL.md`，1 个正式入口；全仓 24 个物理 SKILL.md 含示例与测试夹具。用于 Skill、Agent 和工作目录评测，Apache-2.0 |
+| [huashu-art-motion](https://github.com/alchaincyf/huashu-art-motion) | 仅登记；`8a0d7d72` 完整浅克隆展开前核算约 148.62 MB，超过 100 MB，临时副本已清理 | 上游根 `SKILL.md`；艺术动画、解说片段和风格配方，MIT；本地没有保存该仓库 |
+| [OpenShell](https://github.com/NVIDIA/OpenShell) | 新增浅克隆 `OpenShell/`，`main@9525bec0`，约 55.65 MB | 公共 `skills/` 下有 openshell-cli、generate-sandbox-policy、debug-openshell-cluster、debug-inference 共 4 个入口；全仓 29 个物理 SKILL.md 含维护工具。Agent 沙箱与策略工具，Apache-2.0 |
+| [context-mode](https://github.com/mksglu/context-mode) | 新增浅克隆 `context-mode/`，`main@3a3ef7d5`，v2.1.7，约 37.44 MB | `skills/ctx-doctor`、`ctx-stats`、`ctx-upgrade` 三项逻辑能力；全仓 13 个物理 SKILL.md 含打包副本和维护入口。本地执行及 SQLite FTS5 检索，Elastic-2.0 |
+
+全部大小含 `.git`，按 100,000,000 字节限额核对。未安装 CLI、依赖、公共 Skill 或 MCP/hooks，不增加已安装 Skill 数量；历史全量统计保留原核验日期。OpenShell 在当前 Windows 主机先作源码参考，context-mode 尚未接入 Agent；系统条件、限额核验和提交见 [下载台账](GITHUB_REPOS.md#2026-11-09-skill-评测艺术动画与-agent-工具)。
+
+追加复核：`arjun988/blender-skills` 已于 2026-11-02 登记，当前本地仍无 `blender-skills/` 目录，未克隆或安装。本轮只查重，不新增来源或安装计数。
+
+## 2026-11-08 Agent Reach 版本快照
+
+推荐参考路径为 `E:\aimodel\Agent-Reach-v1.6.1\agent_reach\skill\SKILL.md`（官方 tag `v1.6.1`，提交 `7a38047acf26a729cbb27851e3cb81639da86b29`）。旧目录 `Agent-Reach/` v1.5.0 保留。已读取 Skill、核对版本和 14 个渠道声明；只保存源码，未安装依赖或全局 CLI/Skill，未执行 setup 或登录。
+
+公开内容优先用现有搜索/读取工具；平台动作再参考 Reach 的渠道声明。新版本浏览器渠道首次访问可能自动复制已连接 Chrome 的站点会话，本次没有运行这些操作；使用前须遵守调用项目的身份隔离和登录授权要求。没有图片上传反查动作，不替代 SauceNAO/IQDB。详细版本、网络限制与核验见[下载台账](GITHUB_REPOS.md#2026-11-08-agent-reach-v161源码快照)。
+
+## 2026-11-02 仅登记的新来源
+
+| 项目 | 来源 | 定位 |
+|------|------|------|
+| fq-book | [hoochanlon/fq-book](https://github.com/hoochanlon/fq-book) | 网络原理与工具配置文档资料 |
+| ai-memory | [akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory) | 编码 Agent 的长期记忆与任务交接工具 |
+| blender-skills | [arjun988/blender-skills](https://github.com/arjun988/blender-skills) | 配合 Blender MCP 使用的三维制作 Skills |
+| LuxTTS | [ysharma3501/LuxTTS](https://github.com/ysharma3501/LuxTTS) | 基于 ZipVoice 的语音合成与声音克隆模型项目 |
+
+本批仅登记链接，未克隆、安装或下载权重，不增加已安装 Skill 或本地一级 Git 仓库统计。许可与核对说明见 [下载与配置台账](GITHUB_REPOS.md#2026-11-02-网络资料-agent-记忆-三维制作与语音合成链接)，对外介绍见 [分享清单](SHARE_GUIDE.md)。
 
 ## 2026-11-01 STT 音视频转文字工具
 
@@ -31,7 +61,7 @@
 
 ## 2026-10-27 音乐、语音与时间序列模型记录
 
-按用户最新要求，后续只更新记录，不继续下载。5 个源码仓库在澄清到达前已形成；未另行安装或下载完整模型检查点。详见 [模型本地适配评价](GITHUB_REPOS.md#2026-10-27-模型记录与本地适配评价) 和 [核验 JSON](scripts/repository-model-review-20261027.json)。
+按用户最新要求，后续只更新记录，不继续下载。5 个源码仓库在澄清到达前已形成；未另行安装或下载完整模型检查点。详见 [模型本地适配评价](GITHUB_REPOS.md#2026-10-27-模型记录与本地适配评价) 和 [核验 JSON](../scripts/repository-model-review-20261027.json)。
 
 | 项目 | 来源 / HEAD | SKILL.md 数 | 用途与评价 |
 |------|-------------|--------------|------------|
@@ -62,7 +92,7 @@
 - 查找工程工作流、Agent 规则或 hooks：以 `ECC/skills/` 的 311 个入口为主；`.agents/`、`.cursor/`、`.kiro/`、`pi/` 和翻译目录不直接累加为独立能力。
 - 代码审查：继续查看 `open-code-review/skills/` 中两个逻辑 Skill。下载器源码保留在 `Ghost-Downloader-3/`，与代码审查用途分开记录。
 
-本轮新增 4 个一级仓库，并更新 2 个已有仓库。该批完成时共 105 个可见第三方 Git 仓库和 1 个隐藏聚合仓库；其他项目仍沿用各自历史扫描日期。6 个选定仓库均通过 Git 对象校验、当前工作树干净，未安装依赖、全局 Skills 或 MCP。分支处理、子模块锁定提交与机器记录见 [下载台账](GITHUB_REPOS.md) 和 [批次 JSON](scripts/repository-batch-20261027.json)。
+本轮新增 4 个一级仓库，并更新 2 个已有仓库。该批完成时共 105 个可见第三方 Git 仓库和 1 个隐藏聚合仓库；其他项目仍沿用各自历史扫描日期。6 个选定仓库均通过 Git 对象校验、当前工作树干净，未安装依赖、全局 Skills 或 MCP。分支处理、子模块锁定提交与机器记录见 [下载台账](GITHUB_REPOS.md) 和 [批次 JSON](../scripts/repository-batch-20261027.json)。
 
 ## 2026-09-15 代码审查、下载工具与手绘风格候选
 
@@ -383,7 +413,7 @@ git clone --depth 1 <url> E:\aimodel\<repo>
 | taste-skill | https://github.com/Leonxlnx/taste-skill | `E:\aimodel\taste-skill\` | UI/视觉审美和反通用化输出 skill | 13 SKILL.md / 1 插件 |
 | awesome-llm-apps | https://github.com/Shubhamsaboo/awesome-llm-apps | `E:\aimodel\awesome-llm-apps\` | 可运行的 LLM、RAG、Agent 应用合集 | 6 SKILL.md |
 | multi-style-image-generator | https://github.com/powerycy/multi-style-image-generator | `E:\aimodel\multi-style-image-generator\` | 多风格图像生成和 360 全景预览 skill | 1 SKILL.md |
-| Agent-Reach | https://github.com/Panniantong/Agent-Reach | `E:\aimodel\Agent-Reach\` | 多平台网页读取/搜索 CLI，无需平台 API | 1 SKILL.md |
+| Agent-Reach | https://github.com/Panniantong/Agent-Reach | `E:\aimodel\Agent-Reach-v1.6.1\`；旧目录保留 | 多平台只读检索；v1.6.1 源码已核对，依赖/登录未配置，无图片反查动作 | 1 个主 SKILL.md；不重复计入独立项目 |
 | hallmark | https://github.com/Nutlope/hallmark | `E:\aimodel\hallmark\` | 反 AI 味 UI 设计 skill，已安装到 Codex skills | 1 SKILL.md |
 
 ---

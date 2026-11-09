@@ -4,17 +4,10 @@
 
 !/.gitignore
 !/README.md
-!/README_ARCHIVE.md
 !/CHANGELOG.md
-!/BROWSER_AUTOMATION_COMPARISON.md
-!/GITHUB_REPOS.md
-!/GITHUB_STAR_LIST.md
-!/SKILLS_INDEX.md
-!/SKILLS_INSTALLED.md
-!/SKILLS_UNIFIED.md
-!/LIVE_STREAMING.md
-!/REPOSITORIES.md
-!/REPOSITORY_MANAGEMENT.md
+
+!/docs/
+!/docs/**
 
 !/scripts/
 !/scripts/**

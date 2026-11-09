@@ -75,6 +75,8 @@
 
 ## 本地核查入口
 
+下表中的路径以存放区根目录 `E:\aimodel` 为基准。
+
 | 主题 | 主要文件 |
 |------|----------|
 | LoopX 定位、安装与边界 | `loopx/README.md`、`loopx/README.zh-CN.md`、`loopx/pyproject.toml`、`loopx/skills/` |

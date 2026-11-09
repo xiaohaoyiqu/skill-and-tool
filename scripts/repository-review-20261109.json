@@ -1,0 +1,468 @@
+{
+  "recorded_date": "2026-11-09",
+  "limit_bytes": 100000000,
+  "size_policy": "Current-version source including Git metadata, summing file lengths. Reject before checkout if source plus existing Git data exceeds limit. No dependencies, models, release assets or submodules.",
+  "repositories": [
+    {
+      "repository": "alibaba/skill-up",
+      "url": "https://github.com/alibaba/skill-up",
+      "checked_at_utc": "2026-11-09T13:15:24.114688+00:00",
+      "branch": "main",
+      "head": "78148136307a078f89e91006f429565f39d0c619",
+      "commit_date": "2026-11-09T09:02:14Z",
+      "github_repository_size_kib": 6485,
+      "license_api": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "description": "An evaluation and evolution tool for Agent Skills.",
+      "tree_truncated": false,
+      "tracked_files": 594,
+      "tree_blob_bytes": 7967633,
+      "largest_files": [
+        {
+          "path": "docs/public/skill-up-overview.png",
+          "bytes": 1137013
+        },
+        {
+          "path": "docs/public/logo.png",
+          "bytes": 703130
+        },
+        {
+          "path": "assets/logo.png",
+          "bytes": 703120
+        },
+        {
+          "path": "internal/evaluator/evaluator_test.go",
+          "bytes": 142668
+        },
+        {
+          "path": "proposals/0001-multi-turn-conversation-eval.md",
+          "bytes": 107699
+        },
+        {
+          "path": "proposals/zh/0001-multi-turn-conversation-eval.md",
+          "bytes": 100974
+        },
+        {
+          "path": "package-lock.json",
+          "bytes": 88340
+        },
+        {
+          "path": "internal/agent/codex_test.go",
+          "bytes": 76917
+        }
+      ],
+      "submodules": [],
+      "skill_paths": [
+        "e2e/testdata/agent-judge-criteria/SKILL.md",
+        "e2e/testdata/custom-engine/SKILL.md",
+        "e2e/testdata/expect-short-circuit/SKILL.md",
+        "e2e/testdata/file-and-tool-rules/SKILL.md",
+        "e2e/testdata/full-report-pipeline/SKILL.md",
+        "e2e/testdata/git-context/SKILL.md",
+        "e2e/testdata/import-skill/SKILL.md",
+        "e2e/testdata/mcp-case-overrides/SKILL.md",
+        "e2e/testdata/mcp-mocked-marker/SKILL.md",
+        "e2e/testdata/mcp-stdio-marker/SKILL.md",
+        "e2e/testdata/mock-engine/SKILL.md",
+        "e2e/testdata/multi-turn-conversation/SKILL.md",
+        "e2e/testdata/multiturn-session/SKILL.md",
+        "e2e/testdata/retry-and-parallelism/SKILL.md",
+        "e2e/testdata/sandbox-mcp/SKILL.md",
+        "e2e/testdata/script-judge-eval/SKILL.md",
+        "e2e/testdata/text-match-rules/SKILL.md",
+        "e2e/testdata/trigger-detection/SKILL.md",
+        "examples/code-stats/SKILL.md",
+        "examples/deepseek-harness/SKILL.md",
+        "examples/user-simulator/SKILL.md",
+        "skills/skill-upper/SKILL.md",
+        "skills/skill-upper/evals/fixtures/skills/sample-no-evals/SKILL.md",
+        "skills/skill-upper/evals/fixtures/skills/sample-with-evals/SKILL.md"
+      ],
+      "sources": [
+        "https://api.github.com/repos/alibaba/skill-up",
+        "https://api.github.com/repos/alibaba/skill-up/commits/78148136307a078f89e91006f429565f39d0c619",
+        "https://api.github.com/repos/alibaba/skill-up/git/trees/78148136307a078f89e91006f429565f39d0c619?recursive=1",
+        "https://github.com/alibaba/skill-up/blob/78148136307a078f89e91006f429565f39d0c619/README.md",
+        "https://github.com/alibaba/skill-up/tree/78148136307a078f89e91006f429565f39d0c619",
+        "https://github.com/alibaba/skill-up/blob/78148136307a078f89e91006f429565f39d0c619/LICENSE"
+      ],
+      "local_path": "E:\\aimodel\\skill-up",
+      "previously_present": true,
+      "previous_head": "6fec8e9f0a9c63ebad772922b6b6cf79030dd20e",
+      "previous_local_file_bytes_including_git": 12043527,
+      "api_observed_head": "78148136307a078f89e91006f429565f39d0c619",
+      "git_metadata_bytes_before_checkout": 4993864,
+      "projected_file_bytes_including_git": 12961497,
+      "size_measured_with": "git ls-tree -rl HEAD plus sum of .git file lengths",
+      "action": "updated_fast_forward",
+      "local_file_bytes_including_git": 12996331,
+      "worktree_clean": true,
+      "shallow": true,
+      "ahead_behind": "0\t0",
+      "fsck_output": "",
+      "fsck_passed": true,
+      "size_below_limit": true,
+      "assessment": "Recommended as evaluation source for this skills collection. Existing clean main fast-forwarded; one public skill-upper, remaining SKILL.md files are examples or fixtures. Go 1.26.0 declared; Go not found on current PATH.",
+      "license_verified": "Apache-2.0",
+      "formal_skill_entries": [
+        "skills/skill-upper/SKILL.md"
+      ]
+    },
+    {
+      "repository": "alchaincyf/huashu-art-motion",
+      "url": "https://github.com/alchaincyf/huashu-art-motion",
+      "checked_at_utc": "2026-11-09T13:15:24.857586+00:00",
+      "branch": "main",
+      "head": "8a0d7d72ca65fcce6f8ba82c4a6c8dfe35b8422c",
+      "commit_date": "2026-10-17T01:03:19+08:00",
+      "github_repository_size_kib": 78640,
+      "license_api": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "description": "艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。",
+      "tree_truncated": false,
+      "tracked_files": 509,
+      "tree_blob_bytes": 76010073,
+      "largest_files": [
+        {
+          "path": "assets/showcase/clawd-vangogh.gif",
+          "bytes": 7699296
+        },
+        {
+          "path": "assets/showcase/clawd-trex.gif",
+          "bytes": 7498304
+        },
+        {
+          "path": "assets/showcase/monet.gif",
+          "bytes": 5351144
+        },
+        {
+          "path": "assets/showcase/egypt.gif",
+          "bytes": 4965668
+        },
+        {
+          "path": "scripts/engine/lib/fonts/NotoSerifJP-600.woff",
+          "bytes": 4415000
+        },
+        {
+          "path": "assets/showcase/mario-pipe.gif",
+          "bytes": 4054279
+        },
+        {
+          "path": "assets/showcase/clawd-dawn.gif",
+          "bytes": 3410125
+        },
+        {
+          "path": "assets/showcase/mario-combo.gif",
+          "bytes": 3094450
+        }
+      ],
+      "submodules": [],
+      "skill_paths": [
+        "SKILL.md"
+      ],
+      "sources": [
+        "https://api.github.com/repos/alchaincyf/huashu-art-motion",
+        "https://api.github.com/repos/alchaincyf/huashu-art-motion/commits/8a0d7d72ca65fcce6f8ba82c4a6c8dfe35b8422c",
+        "https://api.github.com/repos/alchaincyf/huashu-art-motion/git/trees/8a0d7d72ca65fcce6f8ba82c4a6c8dfe35b8422c?recursive=1",
+        "https://github.com/alchaincyf/huashu-art-motion/blob/8a0d7d72ca65fcce6f8ba82c4a6c8dfe35b8422c/README.md",
+        "https://github.com/alchaincyf/huashu-art-motion/blob/8a0d7d72ca65fcce6f8ba82c4a6c8dfe35b8422c/LICENSE"
+      ],
+      "local_path": "E:\\aimodel\\huashu-art-motion",
+      "previously_present": false,
+      "api_observed_head": "8a0d7d72ca65fcce6f8ba82c4a6c8dfe35b8422c",
+      "git_metadata_bytes_before_checkout": 72614498,
+      "projected_file_bytes_including_git": 148624571,
+      "size_measured_with": "git ls-tree -rl HEAD plus sum of .git file lengths",
+      "action": "skipped_over_100mb_before_checkout",
+      "temporary_git_copy_removed": true,
+      "cleanup_note": "Initial Python cleanup hit Windows read-only Git pack attributes; native PowerShell Remove-Item -Force completed cleanup after validating the exact workspace path.",
+      "size_below_limit": false,
+      "assessment": "Useful for programmatic art animation, but a complete shallow checkout would require 148624571 bytes including measured Git metadata. Skipped under the 100000000-byte limit; only catalog entry retained. Rendering would require uv, FFmpeg and Playwright Chromium.",
+      "license_verified": "MIT",
+      "formal_skill_entries": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "repository": "NVIDIA/OpenShell",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "branch": "main",
+      "github_repository_size_kib": 101535,
+      "license_api": {
+        "spdx_id": "Apache-2.0"
+      },
+      "api_recursive_tree_status": "response incomplete after retries; current source size will be read from git ls-tree before checkout",
+      "sources": [
+        "https://api.github.com/repos/NVIDIA/OpenShell",
+        "https://github.com/NVIDIA/OpenShell",
+        "https://github.com/NVIDIA/OpenShell/blob/main/WINDOWS.md",
+        "https://github.com/NVIDIA/OpenShell/tree/9525bec0d3ad79f540c10862e0f463edf084db4f",
+        "https://github.com/NVIDIA/OpenShell/blob/9525bec0d3ad79f540c10862e0f463edf084db4f/LICENSE"
+      ],
+      "local_path": "E:\\aimodel\\OpenShell",
+      "previously_present": false,
+      "api_observed_head": null,
+      "head": "9525bec0d3ad79f540c10862e0f463edf084db4f",
+      "commit_date": "2026-11-09T11:10:16Z",
+      "tracked_files": 2249,
+      "tree_blob_bytes": 45711420,
+      "largest_files": [
+        {
+          "path": "crates/openshell-server/src/grpc/policy.rs",
+          "bytes": 975139
+        },
+        {
+          "path": "THIRD-PARTY-NOTICES",
+          "bytes": 856598
+        },
+        {
+          "path": "sdk/go/proto/openshellv1/openshell.pb.go",
+          "bytes": 835321
+        },
+        {
+          "path": "crates/openshell-server/src/compute/mod.rs",
+          "bytes": 826573
+        },
+        {
+          "path": "crates/openshell-server/src/grpc/provider.rs",
+          "bytes": 663791
+        },
+        {
+          "path": "crates/openshell-supervisor-network/src/proxy.rs",
+          "bytes": 614004
+        },
+        {
+          "path": "crates/openshell-driver-kubernetes/src/driver.rs",
+          "bytes": 577180
+        },
+        {
+          "path": "crates/openshell-driver-vm/src/driver.rs",
+          "bytes": 571581
+        }
+      ],
+      "skill_paths": [
+        ".agents/skills/apply-triage-action/SKILL.md",
+        ".agents/skills/build-from-issue/SKILL.md",
+        ".agents/skills/build-openshell-mxc-windows/SKILL.md",
+        ".agents/skills/create-github-issue/SKILL.md",
+        ".agents/skills/create-github-pr/SKILL.md",
+        ".agents/skills/create-rfc/SKILL.md",
+        ".agents/skills/create-security-advisory/SKILL.md",
+        ".agents/skills/create-spike/SKILL.md",
+        ".agents/skills/fix-security-issue/SKILL.md",
+        ".agents/skills/helm-dev-environment/SKILL.md",
+        ".agents/skills/launch-openshell-gator/SKILL.md",
+        ".agents/skills/release-captain/SKILL.md",
+        ".agents/skills/release-openshell/SKILL.md",
+        ".agents/skills/review-github-pr/SKILL.md",
+        ".agents/skills/review-security-issue/SKILL.md",
+        ".agents/skills/review-triage-queue/SKILL.md",
+        ".agents/skills/sbom/SKILL.md",
+        ".agents/skills/sync-agent-infra/SKILL.md",
+        ".agents/skills/test-release-canary/SKILL.md",
+        ".agents/skills/triage-issue/SKILL.md",
+        ".agents/skills/tui-development/SKILL.md",
+        ".agents/skills/update-docs/SKILL.md",
+        ".agents/skills/watch-github-actions/SKILL.md",
+        "crates/openshell-supervisor-process/src/skills/policy-advisor/SKILL.md",
+        "scripts/agents/gator/skills/gator-gate/SKILL.md",
+        "skills/debug-inference/SKILL.md",
+        "skills/debug-openshell-cluster/SKILL.md",
+        "skills/generate-sandbox-policy/SKILL.md",
+        "skills/openshell-cli/SKILL.md"
+      ],
+      "submodules": [],
+      "git_metadata_bytes_before_checkout": 9679955,
+      "projected_file_bytes_including_git": 55391375,
+      "size_measured_with": "git ls-tree -rl HEAD plus sum of .git file lengths",
+      "action": "cloned_shallow",
+      "local_file_bytes_including_git": 55653564,
+      "worktree_clean": true,
+      "shallow": true,
+      "ahead_behind": "0\t0",
+      "fsck_output": "dangling tag f5dd1ce5e9f204a61a4760463376c1f6631a6220",
+      "fsck_passed": true,
+      "size_below_limit": true,
+      "tree_truncated": null,
+      "source_size_complete": true,
+      "assessment": "Useful sandbox and policy implementation reference; source saved. Running needs a separate supported runtime. Main documents WSL 2 as experimental; native Windows implementation stays on windows branch and is under development, not a production-qualified security boundary.",
+      "license_verified": "Apache-2.0",
+      "formal_skill_entries": [
+        "skills/debug-inference/SKILL.md",
+        "skills/debug-openshell-cluster/SKILL.md",
+        "skills/generate-sandbox-policy/SKILL.md",
+        "skills/openshell-cli/SKILL.md"
+      ]
+    },
+    {
+      "repository": "mksglu/context-mode",
+      "url": "https://github.com/mksglu/context-mode",
+      "checked_at_utc": "2026-11-09T13:15:29.105610+00:00",
+      "branch": "main",
+      "head": "3a3ef7d53c9a30ef05d8f1b009afbcf8d9c6d0a2",
+      "commit_date": "2026-11-09T03:26:09Z",
+      "github_repository_size_kib": 57264,
+      "license_api": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "archived": false,
+      "description": "Free, local plugin that keeps tool output out of your coding agent's context window. Sandbox and SQLite FTS5 search, 99% fewer bytes in context. Works with Claude Code, Codex, Pi, OpenCode, Gemini CLI, Copilot CLI and 4 more agents. Zero telemetry.",
+      "tree_truncated": false,
+      "tracked_files": 861,
+      "tree_blob_bytes": 27586515,
+      "largest_files": [
+        {
+          "path": "plugins/claude-code/pi/index.js",
+          "bytes": 2219284
+        },
+        {
+          "path": "plugins/claude-code/server.mjs",
+          "bytes": 2103191
+        },
+        {
+          "path": "docs/assets/readme/gateway/live.webp",
+          "bytes": 1775746
+        },
+        {
+          "path": "docs/assets/readme/gateway/live.mp4",
+          "bytes": 1688111
+        },
+        {
+          "path": "plugins/claude-code/opencode/plugin.js",
+          "bytes": 1185083
+        },
+        {
+          "path": "tests/fixtures/html/nextjs-docs.html",
+          "bytes": 786181
+        },
+        {
+          "path": "tests/fixtures/html/react-useeffect.html",
+          "bytes": 601984
+        },
+        {
+          "path": "tests/fixtures/parity/react-useeffect.html",
+          "bytes": 601984
+        }
+      ],
+      "submodules": [],
+      "skill_paths": [
+        ".claude/skills/release/SKILL.md",
+        "plugins/claude-code/codex/skills/ctx-doctor/SKILL.md",
+        "plugins/claude-code/codex/skills/ctx-stats/SKILL.md",
+        "plugins/claude-code/codex/skills/ctx-upgrade/SKILL.md",
+        "plugins/claude-code/pi/skills/ctx-doctor/SKILL.md",
+        "plugins/claude-code/pi/skills/ctx-stats/SKILL.md",
+        "plugins/claude-code/pi/skills/ctx-upgrade/SKILL.md",
+        "plugins/claude-code/skills/ctx-doctor/SKILL.md",
+        "plugins/claude-code/skills/ctx-stats/SKILL.md",
+        "plugins/claude-code/skills/ctx-upgrade/SKILL.md",
+        "skills/ctx-doctor/SKILL.md",
+        "skills/ctx-stats/SKILL.md",
+        "skills/ctx-upgrade/SKILL.md"
+      ],
+      "sources": [
+        "https://api.github.com/repos/mksglu/context-mode",
+        "https://api.github.com/repos/mksglu/context-mode/commits/3a3ef7d53c9a30ef05d8f1b009afbcf8d9c6d0a2",
+        "https://api.github.com/repos/mksglu/context-mode/git/trees/3a3ef7d53c9a30ef05d8f1b009afbcf8d9c6d0a2?recursive=1",
+        "https://github.com/mksglu/context-mode/blob/3a3ef7d53c9a30ef05d8f1b009afbcf8d9c6d0a2/README.md",
+        "https://github.com/mksglu/context-mode/tree/3a3ef7d53c9a30ef05d8f1b009afbcf8d9c6d0a2",
+        "https://github.com/mksglu/context-mode/blob/3a3ef7d53c9a30ef05d8f1b009afbcf8d9c6d0a2/LICENSE"
+      ],
+      "local_path": "E:\\aimodel\\context-mode",
+      "previously_present": false,
+      "api_observed_head": "3a3ef7d53c9a30ef05d8f1b009afbcf8d9c6d0a2",
+      "git_metadata_bytes_before_checkout": 9756407,
+      "projected_file_bytes_including_git": 37342922,
+      "size_measured_with": "git ls-tree -rl HEAD plus sum of .git file lengths",
+      "action": "cloned_shallow",
+      "local_file_bytes_including_git": 37436327,
+      "worktree_clean": true,
+      "shallow": true,
+      "ahead_behind": "0\t0",
+      "fsck_output": "",
+      "fsck_passed": true,
+      "size_below_limit": true,
+      "assessment": "Useful candidate for reducing tool-output context via local execution and SQLite FTS5 retrieval. Node >=24.15.0; current Node v25.2.1 meets declared version. Windows needs Git Bash. Hooks/MCP setup not run; performance claims not locally benchmarked.",
+      "license_verified": "Elastic-2.0",
+      "package_version": "2.1.7",
+      "formal_skill_entries": [
+        "skills/ctx-doctor/SKILL.md",
+        "skills/ctx-stats/SKILL.md",
+        "skills/ctx-upgrade/SKILL.md"
+      ]
+    }
+  ],
+  "dependencies_installed": false,
+  "global_configuration_changed": false,
+  "runtimes_started": false,
+  "local_environment": {
+    "os": "Windows",
+    "node": "v25.2.1",
+    "python": "3.10.0",
+    "go_available_on_path": false,
+    "git_bash_present": true
+  },
+  "validation": {
+    "retained_git_repositories": 3,
+    "all_retained_worktrees_clean": true,
+    "all_retained_heads_match_fetched_origin_main": true,
+    "all_retained_git_fsck_passed": true,
+    "huashu_temporary_directory_removed": true,
+    "application_tests_run": false,
+    "share_guide_unique_sources": 123,
+    "share_markdown_html_sources_match": true,
+    "final_sizes_match_record": true,
+    "catalog_documents_updated": [
+      "README.md",
+      "CHANGELOG.md",
+      "docs/REPOSITORIES.md",
+      "docs/GITHUB_REPOS.md",
+      "docs/GITHUB_STAR_LIST.md",
+      "docs/SKILLS_INDEX.md",
+      "docs/SHARE_GUIDE.md",
+      "docs/SHARE_GUIDE.html"
+    ]
+  },
+  "followup_checks": [
+    {
+      "repository": "arjun988/blender-skills",
+      "checked_date": "2026-11-09",
+      "previous_record_date": "2026-11-02",
+      "previous_record": "scripts/repository-links-added-20261102.json",
+      "local_path": "E:\\aimodel\\blender-skills",
+      "local_directory_exists": false,
+      "status": "previously_recorded_link_only_not_cloned_or_installed",
+      "upstream_readme_observation": "94 specialist Blender skills; execution via Blender MCP",
+      "source": "https://github.com/arjun988/blender-skills",
+      "download_performed": false
+    }
+  ],
+  "committed_at_review": false,
+  "pushed_at_review": false,
+  "catalog_remote_check_before_submission": {
+    "checked_date": "2026-11-09",
+    "remote": "https://github.com/xiaohaoyiqu/skill-and-tool.git",
+    "branch": "main",
+    "fetched": true,
+    "local_head": "4be8684cbff2ced5d040fd0086eed8e7aaae098c",
+    "remote_main_head": "4be8684cbff2ced5d040fd0086eed8e7aaae098c",
+    "ahead": 0,
+    "behind": 0
+  }
+}

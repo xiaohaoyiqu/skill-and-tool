@@ -4,6 +4,8 @@
 **目录**: E:\aimodel
 **性质**: 历史安装/配置记录；本目录维护不自动安装依赖或写入 C 盘
 
+> 本文件已归档，安装状态仅代表记录当时的情况。当前分类与用途见 [SKILLS_INDEX.md](../SKILLS_INDEX.md)，仓库版本见 [REPOSITORIES.md](../REPOSITORIES.md)。
+
 ---
 
 ## 2026-08-29 新增仓库（仅克隆，未安装）
@@ -13,7 +15,7 @@
 | loopx | https://github.com/huangruiteng/loopx | `E:\aimodel\loopx\` | 已浅克隆；未安装 PyPI 包、workflow skills 或创建运行状态 |
 | ego-lite | https://github.com/citrolabs/ego-lite | `E:\aimodel\ego-lite\` | 已浅克隆；浏览器应用当前仅 macOS，本机 Windows 未安装 |
 
-两者的定位和浏览器能力对比见 [BROWSER_AUTOMATION_COMPARISON.md](BROWSER_AUTOMATION_COMPARISON.md)。
+两者的定位和浏览器能力对比见 [BROWSER_AUTOMATION_COMPARISON.md](../BROWSER_AUTOMATION_COMPARISON.md)。
 
 ---
 
@@ -23,7 +25,7 @@
 - `reverse-skill` 因 3 个本地修改文件跳过更新。
 - `open-design`、`pi`、`vue-tui` 等工具仓库未更新。
 - 当前仓库和本地包只保留在 `E:\aimodel`，不等同于已安装到 Codex 全局 skills。
-- 当前可用目录索引和搜索命令见 [SKILLS_INDEX.md](SKILLS_INDEX.md)。
+- 当前可用目录索引和搜索命令见 [SKILLS_INDEX.md](../SKILLS_INDEX.md)。
 
 > 以下内容是历史安装与配置记录；“待安装”仅为旧备忘，不会由本目录自动执行。
 
@@ -104,7 +106,7 @@
 
 ### 新增仓库 2026-07-19
 
-详见: [GITHUB_REPOS.md](GITHUB_REPOS.md)
+详见: [GITHUB_REPOS.md](../GITHUB_REPOS.md)
 
 | 仓库 | 来源 | 建议目录 | 状态 |
 |------|------|----------|------|
