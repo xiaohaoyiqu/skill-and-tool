@@ -1,7 +1,7 @@
 # AI Skills 仓库索引
 
 **@author liuhao**
-**更新时间**: 2026-11-09
+**更新时间**: 2026-11-11
 
 ---
 
@@ -18,6 +18,21 @@
 自制 [SKLIB](../sklib/README.md) 源码随聚合仓库保存在 `sklib/`，用于扫描、检索和整理本地 Skill、项目清单与文档。CLI、stdio MCP 和网页界面共用应用核心，支持来源校验、增量索引、标签笔记、分页读取，以及可选本地 Ollama 语义检索。它是检索工具，不增加正式 Skill 或第三方项目来源数量。
 
 源码、测试和使用说明已收录；虚拟环境、资料索引、个人记录、模型及构建产物不随仓库提交。运行条件为 Python 3.10+、SQLite FTS5、PyYAML，Python 3.10 另需 tomli；安装和启动以项目 README 为准。
+
+## 2026-11-11 新增项目与 Skill 入口
+
+| 项目 | 本地状态与版本 | Skill 入口与用途 |
+|------|------|------|
+| [stemdeck](https://github.com/stemdeckapp/stemdeck) | `stemdeck/` 浅克隆，`main@5f9405ca`；14.96 MB | 0 个 SKILL.md；音轨分离与练习工具；Apache-2.0 |
+| [openvid](https://github.com/CristianOlivera1/openvid) | 仅登记上游，`main@3cf6c8ab`；源码 181.96 MB，未克隆 | 4 个逻辑入口：`.agents/skills/3d-web-experience/SKILL.md`、`.agents/skills/gsap/SKILL.md`、`.agents/skills/nextjs-developer/SKILL.md`、`.agents/skills/react-three-fiber/SKILL.md`；浏览器录屏与演示视频编辑器；PolyForm-Noncommercial-1.0.0 |
+| [openauth](https://github.com/anomalyco/openauth) | `openauth/` 浅克隆，`master@98dc5962`；4.47 MB | 0 个 SKILL.md；自行托管的身份认证服务；MIT |
+| [laya](https://github.com/NandhaKishorM/laya) | `laya/` 浅克隆，`main@3a38cbe8`；74.47 MB | 0 个 SKILL.md；结构化决策模型与 SDK；Apache-2.0 |
+| [Ix](https://github.com/ix-infrastructure/Ix) | `Ix/` 浅克隆，`main@b7ea8d9b`；20.16 MB | 1 个逻辑入口：`skills/ix/SKILL.md`；代码关系图、CLI、MCP 与 Skill；Apache-2.0 |
+| [Hands-On-Large-Language-Models](https://github.com/HandsOnLLM/Hands-On-Large-Language-Models) | `Hands-On-Large-Language-Models/` 浅克隆，`main@ea339081`；19.71 MB | 0 个 SKILL.md；LLM 图书官方示例代码；Apache-2.0 |
+| [HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) | `HowToLiveBetter/` 浅克隆，`main@dff814dc`；9.79 MB | 1 个逻辑入口：`skills/life-decision-guide/SKILL.md`；生活资料与正文检索 Skill；正文 CC-BY-4.0；代码 MIT |
+| [up](https://github.com/byoungd/up) | `up/` 浅克隆，`main@ddc96d37`；36.86 MB | 0 个 SKILL.md；终身学习与人生实践书稿；正文 CC-BY-NC-4.0；代码 MIT |
+
+`HowToLiveBetter` 的 2 个物理文件归为 1 个能力；`openvid` 的 5 个物理文件归为 4 个不同开发辅助入口，本次未克隆。本轮只存源码和记录，不安装 Skill、不改全局配置，历史统计保持原核验日期。运行条件、许可和大小证据见 [本批台账](GITHUB_REPOS.md#2026-11-11-音视频认证代码检索与学习资料) 与 [核验 JSON](../scripts/repository-review-20261111.json)。
 
 ## 2026-11-09 Skill 评测、动画与 Agent 运行工具
 

@@ -1,0 +1,841 @@
+{
+  "recorded_date": "2026-11-11",
+  "limit_bytes": 100000000,
+  "size_policy": "Current-version source plus Git metadata; sum of file lengths, decimal MB. No dependencies, weights, release assets or submodules.",
+  "repositories": [
+    {
+      "repository": "stemdeckapp/stemdeck",
+      "url": "https://github.com/stemdeckapp/stemdeck",
+      "checked_at_utc": "2026-11-11T08:55:53.972087+00:00",
+      "branch": "main",
+      "head": "5f9405ca68ac31b31ae07ac416141d4d1f7b5f3a",
+      "commit_date": "2026-10-05T10:43:15Z",
+      "description": "Stemdeck is an modern stem extraction platform for musicians,producers and hobbyists, designed to isolate vocals, drums, bass, piano and guitar  for practice, transcription, remixing, and creative audio workflows through a modern and interactive interface",
+      "archived": false,
+      "license_api": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "github_repository_size_kib": 22143,
+      "tree_truncated": false,
+      "tracked_files": 480,
+      "tree_blob_bytes": 9793290,
+      "largest_files": [
+        {
+          "path": "desktop/src-tauri/icons/icon.icns",
+          "bytes": 1340829
+        },
+        {
+          "path": "desktop/src-tauri/icons/icon.png",
+          "bytes": 895686
+        },
+        {
+          "path": "uv.lock",
+          "bytes": 629245
+        },
+        {
+          "path": "static/js/i18n.js",
+          "bytes": 586300
+        },
+        {
+          "path": "desktop/src-tauri/src/main.rs",
+          "bytes": 333361
+        },
+        {
+          "path": "static/css/daw.css",
+          "bytes": 236423
+        },
+        {
+          "path": "static/js/catalog.js",
+          "bytes": 228362
+        },
+        {
+          "path": "app/_vendor/yt_dlp_ejs/yt/solver/lib.min.js",
+          "bytes": 151561
+        }
+      ],
+      "skill_paths": [],
+      "license_paths": [
+        "LICENSE",
+        "app/_vendor/LICENSE.yt-dlp-ejs",
+        "app/_vendor/opencc/LICENSE"
+      ],
+      "attribute_paths": [
+        ".gitattributes"
+      ],
+      "submodules": [],
+      "local_path": "E:\\aimodel\\stemdeck",
+      "previously_present": false,
+      "sources": [
+        "https://api.github.com/repos/stemdeckapp/stemdeck",
+        "https://api.github.com/repos/stemdeckapp/stemdeck/commits/5f9405ca68ac31b31ae07ac416141d4d1f7b5f3a",
+        "https://api.github.com/repos/stemdeckapp/stemdeck/git/trees/5f9405ca68ac31b31ae07ac416141d4d1f7b5f3a?recursive=1",
+        "https://github.com/stemdeckapp/stemdeck/blob/5f9405ca68ac31b31ae07ac416141d4d1f7b5f3a/README.md",
+        "https://github.com/stemdeckapp/stemdeck/blob/5f9405ca68ac31b31ae07ac416141d4d1f7b5f3a/LICENSE"
+      ],
+      "api_observed_head": "5f9405ca68ac31b31ae07ac416141d4d1f7b5f3a",
+      "git_metadata_bytes_before_checkout": 4960852,
+      "projected_file_bytes_including_git": 14754142,
+      "action": "cloned_shallow",
+      "tracked_source_bytes": 9793290,
+      "local_file_bytes_including_git": 14955640,
+      "size_below_limit": true,
+      "worktree_clean": true,
+      "shallow": true,
+      "ahead_behind": "0\t0",
+      "fsck_output": "",
+      "fsck_passed": true,
+      "category": "音轨分离与练习工具",
+      "license_verified": "Apache-2.0",
+      "formal_skill_entries": [],
+      "logical_skill_count": 0,
+      "assessment_zh": "基于 Demucs 分离人声、鼓、贝斯等音轨，附独奏、循环、变速与变调界面；适合音乐练习和音频处理实现参考。",
+      "runtime_requirements_zh": "pyproject.toml 声明 Python >=3.10,<3.14，README 开发环境使用 3.12；另需 uv、FastAPI、Demucs、FFmpeg，桌面壳使用 Tauri。首次运行会另取模型与运行组件，本轮没有运行。"
+    },
+    {
+      "repository": "CristianOlivera1/openvid",
+      "url": "https://github.com/CristianOlivera1/openvid",
+      "checked_at_utc": "2026-11-11T08:55:54.474723+00:00",
+      "branch": "main",
+      "head": "3cf6c8ab3687498d95b56ffc60af3c1882fba12b",
+      "commit_date": "2026-11-09T16:19:06Z",
+      "description": "Create professional demos and 3D mockups in seconds, directly in your browser",
+      "archived": false,
+      "license_api": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "github_repository_size_kib": 255049,
+      "tree_truncated": false,
+      "tracked_files": 1330,
+      "tree_blob_bytes": 181959302,
+      "largest_files": [
+        {
+          "path": "public/ffmpeg/ffmpeg-core.wasm",
+          "bytes": 32232419
+        },
+        {
+          "path": "public/models/iphone-duo.glb",
+          "bytes": 15137168
+        },
+        {
+          "path": "public/videos/carousel/demo.mp4",
+          "bytes": 9084699
+        },
+        {
+          "path": "public/videos/hero/demo-hero-desktop.mp4",
+          "bytes": 6365498
+        },
+        {
+          "path": "public/videos/hero/demo-hero-desktop.webm",
+          "bytes": 4390242
+        },
+        {
+          "path": "public/videos/showcase/demo6.mp4",
+          "bytes": 3592374
+        },
+        {
+          "path": "public/videos/hero/demo-scroll2.mp4",
+          "bytes": 3353403
+        },
+        {
+          "path": "public/videos/hero/demo-hero-mobile.webm",
+          "bytes": 3304240
+        }
+      ],
+      "skill_paths": [
+        ".agents/skills/3d-web-experience/SKILL.md",
+        ".agents/skills/gsap/SKILL.md",
+        ".agents/skills/nextjs-developer/SKILL.md",
+        ".agents/skills/react-three-fiber/SKILL.md",
+        ".claude/skills/nextjs-developer/SKILL.md"
+      ],
+      "license_paths": [
+        "LICENSE.md",
+        "lib/iphone-duo/LICENSE"
+      ],
+      "attribute_paths": [],
+      "submodules": [],
+      "local_path": "E:\\aimodel\\openvid",
+      "previously_present": false,
+      "sources": [
+        "https://api.github.com/repos/CristianOlivera1/openvid",
+        "https://api.github.com/repos/CristianOlivera1/openvid/commits/3cf6c8ab3687498d95b56ffc60af3c1882fba12b",
+        "https://api.github.com/repos/CristianOlivera1/openvid/git/trees/3cf6c8ab3687498d95b56ffc60af3c1882fba12b?recursive=1",
+        "https://github.com/CristianOlivera1/openvid/blob/3cf6c8ab3687498d95b56ffc60af3c1882fba12b/README.md",
+        "https://github.com/CristianOlivera1/openvid/blob/3cf6c8ab3687498d95b56ffc60af3c1882fba12b/LICENSE.md",
+        "https://github.com/CristianOlivera1/openvid/blob/3cf6c8ab3687498d95b56ffc60af3c1882fba12b/.agents/skills/3d-web-experience/SKILL.md",
+        "https://github.com/CristianOlivera1/openvid/blob/3cf6c8ab3687498d95b56ffc60af3c1882fba12b/.agents/skills/gsap/SKILL.md",
+        "https://github.com/CristianOlivera1/openvid/blob/3cf6c8ab3687498d95b56ffc60af3c1882fba12b/.agents/skills/nextjs-developer/SKILL.md",
+        "https://github.com/CristianOlivera1/openvid/blob/3cf6c8ab3687498d95b56ffc60af3c1882fba12b/.agents/skills/react-three-fiber/SKILL.md",
+        "https://github.com/CristianOlivera1/openvid/blob/3cf6c8ab3687498d95b56ffc60af3c1882fba12b/.claude/skills/nextjs-developer/SKILL.md"
+      ],
+      "action": "skipped_over_100mb_before_clone",
+      "category": "浏览器录屏与演示视频编辑器",
+      "license_verified": "PolyForm-Noncommercial-1.0.0",
+      "formal_skill_entries": [
+        ".agents/skills/3d-web-experience/SKILL.md",
+        ".agents/skills/gsap/SKILL.md",
+        ".agents/skills/nextjs-developer/SKILL.md",
+        ".agents/skills/react-three-fiber/SKILL.md"
+      ],
+      "logical_skill_count": 4,
+      "assessment_zh": "录屏或导入视频后添加缩放、设备样机、三维效果及背景，采用 Next.js、FFmpeg.wasm、Three.js；适合产品演示视频研究。",
+      "runtime_requirements_zh": "上游 Quick Start 使用 pnpm 和 Supabase 配置。当前仓库含 FFmpeg WASM、三维模型和演示视频，源码本身已超过限额；不拆分保存其中的 Skill。"
+    },
+    {
+      "repository": "anomalyco/openauth",
+      "url": "https://github.com/anomalyco/openauth",
+      "checked_at_utc": "2026-11-11T08:55:53.879576+00:00",
+      "branch": "master",
+      "head": "98dc59625e656eace1d7be165500af8ec351be41",
+      "commit_date": "2025-04-09T17:19:10Z",
+      "description": "▦ Universal, standards-based auth provider.",
+      "archived": false,
+      "license_api": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "github_repository_size_kib": 2992,
+      "tree_truncated": false,
+      "tracked_files": 272,
+      "tree_blob_bytes": 2925602,
+      "largest_files": [
+        {
+          "path": "www/src/content/docs/docs/start/nextjs-light.png",
+          "bytes": 535568
+        },
+        {
+          "path": "www/src/content/docs/docs/start/nextjs-dark.png",
+          "bytes": 530188
+        },
+        {
+          "path": "www/src/content/docs/docs/themes-light.png",
+          "bytes": 314735
+        },
+        {
+          "path": "bun.lockb",
+          "bytes": 255216
+        },
+        {
+          "path": "www/bun.lockb",
+          "bytes": 250408
+        },
+        {
+          "path": "www/src/content/docs/docs/themes-dark.png",
+          "bytes": 223346
+        },
+        {
+          "path": "examples/quickstart/sst/package-lock.json",
+          "bytes": 39409
+        },
+        {
+          "path": "packages/openauth/src/issuer.ts",
+          "bytes": 31635
+        }
+      ],
+      "skill_paths": [],
+      "license_paths": [
+        "LICENSE"
+      ],
+      "attribute_paths": [],
+      "submodules": [],
+      "local_path": "E:\\aimodel\\openauth",
+      "previously_present": false,
+      "sources": [
+        "https://api.github.com/repos/anomalyco/openauth",
+        "https://api.github.com/repos/anomalyco/openauth/commits/98dc59625e656eace1d7be165500af8ec351be41",
+        "https://api.github.com/repos/anomalyco/openauth/git/trees/98dc59625e656eace1d7be165500af8ec351be41?recursive=1",
+        "https://github.com/anomalyco/openauth/blob/98dc59625e656eace1d7be165500af8ec351be41/README.md",
+        "https://github.com/anomalyco/openauth/blob/98dc59625e656eace1d7be165500af8ec351be41/LICENSE"
+      ],
+      "api_observed_head": "98dc59625e656eace1d7be165500af8ec351be41",
+      "git_metadata_bytes_before_checkout": 1496772,
+      "projected_file_bytes_including_git": 4422374,
+      "action": "cloned_shallow",
+      "tracked_source_bytes": 2925602,
+      "local_file_bytes_including_git": 4474706,
+      "size_below_limit": true,
+      "worktree_clean": true,
+      "shallow": true,
+      "ahead_behind": "0\t0",
+      "fsck_output": "",
+      "fsck_passed": true,
+      "category": "自行托管的身份认证服务",
+      "license_verified": "MIT",
+      "formal_skill_entries": [],
+      "logical_skill_count": 0,
+      "assessment_zh": "以 OAuth 2.0 组织多应用身份认证，支持第三方身份提供方和内置登录流程；仍为 beta，用户查询与创建由应用自行实现。",
+      "runtime_requirements_zh": "支持 Node.js、Bun、AWS Lambda 或 Cloudflare Workers；需配置身份提供方及 KV 等存储，本轮只存源码。"
+    },
+    {
+      "repository": "NandhaKishorM/laya",
+      "url": "https://github.com/NandhaKishorM/laya",
+      "checked_at_utc": "2026-11-11T08:55:54.600065+00:00",
+      "branch": "main",
+      "head": "3a38cbe83f6ef556f3125fb0065fdc5a55d05792",
+      "commit_date": "2026-11-10T19:14:13Z",
+      "description": "Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ languages, with a router that picks the right checkpoint per request.",
+      "archived": false,
+      "license_api": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "github_repository_size_kib": 22801,
+      "tree_truncated": false,
+      "tracked_files": 2416,
+      "tree_blob_bytes": 61019459,
+      "largest_files": [
+        {
+          "path": "laya-go/fixtures/go_extra.json",
+          "bytes": 8828458
+        },
+        {
+          "path": "laya-dotnet/tests/Laya.Tests/golden/routing/differential_probe.json",
+          "bytes": 3338509
+        },
+        {
+          "path": "laya-rust/tests/golden/routing/differential_probe.json",
+          "bytes": 3210231
+        },
+        {
+          "path": "laya-rust/tests/round4_python_cases.txt",
+          "bytes": 1200027
+        },
+        {
+          "path": "laya-dotnet/tests/Laya.Tests/golden/round4/round4_python.txt",
+          "bytes": 843918
+        },
+        {
+          "path": "assets/laya_vs_jev_full.png",
+          "bytes": 487005
+        },
+        {
+          "path": "assets/benchmark_comparison.png",
+          "bytes": 467466
+        },
+        {
+          "path": "research/benchmarks/feishu_zh/results/v1/laya/raw.jsonl",
+          "bytes": 450482
+        }
+      ],
+      "skill_paths": [],
+      "license_paths": [
+        "LICENSE",
+        "laya-ts/LICENSE",
+        "research/benchmarks/feishu_zh/LICENSE",
+        "sdk/python/LICENSE",
+        "sdk/typescript/LICENSE"
+      ],
+      "attribute_paths": [
+        ".gitattributes"
+      ],
+      "submodules": [],
+      "local_path": "E:\\aimodel\\laya",
+      "previously_present": false,
+      "sources": [
+        "https://api.github.com/repos/NandhaKishorM/laya",
+        "https://api.github.com/repos/NandhaKishorM/laya/commits/3a38cbe83f6ef556f3125fb0065fdc5a55d05792",
+        "https://api.github.com/repos/NandhaKishorM/laya/git/trees/3a38cbe83f6ef556f3125fb0065fdc5a55d05792?recursive=1",
+        "https://github.com/NandhaKishorM/laya/blob/3a38cbe83f6ef556f3125fb0065fdc5a55d05792/README.md",
+        "https://github.com/NandhaKishorM/laya/blob/3a38cbe83f6ef556f3125fb0065fdc5a55d05792/LICENSE"
+      ],
+      "api_observed_head": "3a38cbe83f6ef556f3125fb0065fdc5a55d05792",
+      "git_metadata_bytes_before_checkout": 11899569,
+      "projected_file_bytes_including_git": 72919028,
+      "action": "cloned_shallow",
+      "tracked_source_bytes": 61019459,
+      "local_file_bytes_including_git": 74474403,
+      "size_below_limit": true,
+      "worktree_clean": true,
+      "shallow": true,
+      "ahead_behind": "0\t0",
+      "fsck_output": "dangling tag 2cc9b44de0df2c7e25322c1e0d705233218fa1f2",
+      "fsck_passed": true,
+      "category": "结构化决策模型与 SDK",
+      "license_verified": "Apache-2.0",
+      "formal_skill_entries": [],
+      "logical_skill_count": 0,
+      "assessment_zh": "对输入进行 choice、score、yes/no 等判断，适合分类、请求路由与结构化决策研究；上游的速度和准确率不作为本机实测。",
+      "runtime_requirements_zh": "Python >=3.10；PyTorch 与 Hugging Face 权重等需另备，也含多语言 SDK。未下载权重、安装 SDK 或运行推理。"
+    },
+    {
+      "repository": "ix-infrastructure/Ix",
+      "url": "https://github.com/ix-infrastructure/Ix",
+      "checked_at_utc": "2026-11-11T08:55:58.399113+00:00",
+      "branch": "main",
+      "head": "b7ea8d9b34288c720d99216ba73cf7599f705cf2",
+      "commit_date": "2026-11-11T08:38:56Z",
+      "description": "Understand any codebase instantly. System intelligence for codebases, built for humans and AI.",
+      "archived": false,
+      "license_api": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "github_repository_size_kib": 16906,
+      "tree_truncated": false,
+      "tracked_files": 772,
+      "tree_blob_bytes": 13478219,
+      "largest_files": [
+        {
+          "path": "assets/demo.gif",
+          "bytes": 2220742
+        },
+        {
+          "path": "assets/readme-logo.png",
+          "bytes": 997675
+        },
+        {
+          "path": "assets/logo.jpg",
+          "bytes": 548277
+        },
+        {
+          "path": "ix-cli/assets/logo.png",
+          "bytes": 531550
+        },
+        {
+          "path": "core-ingestion/src/index.ts",
+          "bytes": 305504
+        },
+        {
+          "path": "ix-cli/src/cli/commands/ingest.ts",
+          "bytes": 292286
+        },
+        {
+          "path": "docs-site/package-lock.json",
+          "bytes": 238173
+        },
+        {
+          "path": "ix-cli/package-lock.json",
+          "bytes": 179114
+        }
+      ],
+      "skill_paths": [
+        "skills/ix/SKILL.md"
+      ],
+      "license_paths": [
+        "LICENSE"
+      ],
+      "attribute_paths": [
+        ".gitattributes"
+      ],
+      "submodules": [],
+      "local_path": "E:\\aimodel\\Ix",
+      "previously_present": false,
+      "sources": [
+        "https://api.github.com/repos/ix-infrastructure/Ix",
+        "https://api.github.com/repos/ix-infrastructure/Ix/commits/b7ea8d9b34288c720d99216ba73cf7599f705cf2",
+        "https://api.github.com/repos/ix-infrastructure/Ix/git/trees/b7ea8d9b34288c720d99216ba73cf7599f705cf2?recursive=1",
+        "https://github.com/ix-infrastructure/Ix/blob/b7ea8d9b34288c720d99216ba73cf7599f705cf2/README.md",
+        "https://github.com/ix-infrastructure/Ix/blob/b7ea8d9b34288c720d99216ba73cf7599f705cf2/LICENSE",
+        "https://github.com/ix-infrastructure/Ix/blob/b7ea8d9b34288c720d99216ba73cf7599f705cf2/skills/ix/SKILL.md"
+      ],
+      "api_observed_head": "b7ea8d9b34288c720d99216ba73cf7599f705cf2",
+      "git_metadata_bytes_before_checkout": 6597008,
+      "projected_file_bytes_including_git": 20075227,
+      "action": "cloned_shallow",
+      "tracked_source_bytes": 13478219,
+      "local_file_bytes_including_git": 20163107,
+      "size_below_limit": true,
+      "worktree_clean": true,
+      "shallow": true,
+      "ahead_behind": "0\t0",
+      "fsck_output": "",
+      "fsck_passed": true,
+      "category": "代码关系图、CLI、MCP 与 Skill",
+      "license_verified": "Apache-2.0",
+      "formal_skill_entries": [
+        "skills/ix/SKILL.md"
+      ],
+      "logical_skill_count": 1,
+      "assessment_zh": "用 tree-sitter 提取符号、调用和导入关系，提供调用链、改动影响及结构查询，可与既有 Graphify、gortex、SKLIB 对照研究。",
+      "runtime_requirements_zh": "Windows 路径要求 Node.js >=22 和 Docker Desktop，后端包含 ArangoDB 与记忆层。README 说明后端以发布的 Docker 镜像提供，不由本仓库构建；源码克隆不能代替完整运行系统。未建立索引或接入 MCP。"
+    },
+    {
+      "repository": "HandsOnLLM/Hands-On-Large-Language-Models",
+      "url": "https://github.com/HandsOnLLM/Hands-On-Large-Language-Models",
+      "checked_at_utc": "2026-11-11T08:55:57.440504+00:00",
+      "branch": "main",
+      "head": "ea3390819997999a51983677b80b3aac4dc50ada",
+      "commit_date": "2026-04-24T10:20:08Z",
+      "description": "Official code repo for the O'Reilly Book - \"Hands-On Large Language Models\"",
+      "archived": false,
+      "license_api": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "github_repository_size_kib": 13180,
+      "tree_truncated": false,
+      "tracked_files": 83,
+      "tree_blob_bytes": 10722887,
+      "largest_files": [
+        {
+          "path": "chapter09/Chapter 9 - Multimodal Large Language Models.ipynb",
+          "bytes": 2180061
+        },
+        {
+          "path": "chapter05/Chapter 5 - Text Clustering and Topic Modeling.ipynb",
+          "bytes": 1501531
+        },
+        {
+          "path": "images/bonus_overview.png",
+          "bytes": 1251510
+        },
+        {
+          "path": ".setup/images/build_tools_1.png",
+          "bytes": 894529
+        },
+        {
+          "path": "chapter09/images/puppy.png",
+          "bytes": 364054
+        },
+        {
+          "path": "chapter09/images/cat.png",
+          "bytes": 299429
+        },
+        {
+          "path": ".setup/images/build_tools_4.png",
+          "bytes": 283896
+        },
+        {
+          "path": "images/bonus_sd1.png",
+          "bytes": 269492
+        }
+      ],
+      "skill_paths": [],
+      "license_paths": [
+        "LICENSE"
+      ],
+      "attribute_paths": [],
+      "submodules": [],
+      "local_path": "E:\\aimodel\\Hands-On-Large-Language-Models",
+      "previously_present": false,
+      "sources": [
+        "https://api.github.com/repos/HandsOnLLM/Hands-On-Large-Language-Models",
+        "https://api.github.com/repos/HandsOnLLM/Hands-On-Large-Language-Models/commits/ea3390819997999a51983677b80b3aac4dc50ada",
+        "https://api.github.com/repos/HandsOnLLM/Hands-On-Large-Language-Models/git/trees/ea3390819997999a51983677b80b3aac4dc50ada?recursive=1",
+        "https://github.com/HandsOnLLM/Hands-On-Large-Language-Models/blob/ea3390819997999a51983677b80b3aac4dc50ada/README.md",
+        "https://github.com/HandsOnLLM/Hands-On-Large-Language-Models/blob/ea3390819997999a51983677b80b3aac4dc50ada/LICENSE"
+      ],
+      "api_observed_head": "ea3390819997999a51983677b80b3aac4dc50ada",
+      "git_metadata_bytes_before_checkout": 8952320,
+      "projected_file_bytes_including_git": 19675207,
+      "action": "cloned_shallow",
+      "tracked_source_bytes": 10722887,
+      "local_file_bytes_including_git": 19708412,
+      "size_below_limit": true,
+      "worktree_clean": true,
+      "shallow": true,
+      "ahead_behind": "0\t0",
+      "fsck_output": "",
+      "fsck_passed": true,
+      "category": "LLM 图书官方示例代码",
+      "license_verified": "Apache-2.0",
+      "formal_skill_entries": [],
+      "logical_skill_count": 0,
+      "assessment_zh": "O’Reilly 同名图书的 12 章 Notebook，覆盖嵌入、Transformer、分类、聚类、提示、RAG、多模态和微调，适合作为系统学习路线。",
+      "runtime_requirements_zh": "上游主要在 Colab T4 16 GB 环境测试；本机执行仍需单独准备 Python 依赖、模型和算力。所收录为示例代码，不包含整本图书的出版授权。"
+    },
+    {
+      "repository": "eternity4719/HowToLiveBetter",
+      "url": "https://github.com/eternity4719/HowToLiveBetter",
+      "checked_at_utc": "2026-11-11T08:55:58.691789+00:00",
+      "branch": "main",
+      "head": "dff814dcbb0a2e968acc0af48e418814655ba1df",
+      "commit_date": "2026-11-09T00:26:08Z",
+      "description": "高性价比人生指南: 长寿防病、急救、省钱理财、法律红线、失业与工伤、医保社保、恋爱婚育、怀孕育儿、创业与做平台合规、出国与技能。每条写明成本、收益、证据等级和原始出处，只引期刊论文与官方文件。",
+      "archived": false,
+      "license_api": {
+        "key": "cc-by-4.0",
+        "name": "Creative Commons Attribution 4.0 International",
+        "spdx_id": "CC-BY-4.0",
+        "url": "https://api.github.com/licenses/cc-by-4.0",
+        "node_id": "MDc6TGljZW5zZTI1"
+      },
+      "github_repository_size_kib": 22940,
+      "tree_truncated": false,
+      "tracked_files": 337,
+      "tree_blob_bytes": 6493868,
+      "largest_files": [
+        {
+          "path": "docs/引用对照.md",
+          "bytes": 370946
+        },
+        {
+          "path": "tools/ad-mcyyy-bg.webp",
+          "bytes": 209960
+        },
+        {
+          "path": "og.png",
+          "bytes": 179423
+        },
+        {
+          "path": "book/13-紧急情况.md",
+          "bytes": 178960
+        },
+        {
+          "path": "book/01-不要早死.md",
+          "bytes": 168942
+        },
+        {
+          "path": "book/08-别把自己搭进去.md",
+          "bytes": 155442
+        },
+        {
+          "path": "book/05-不要浪费钱.md",
+          "bytes": 151638
+        },
+        {
+          "path": "book/02-不要慢慢死.md",
+          "bytes": 142654
+        }
+      ],
+      "skill_paths": [
+        ".claude/skills/life-decision-guide/SKILL.md",
+        "skills/life-decision-guide/SKILL.md"
+      ],
+      "license_paths": [
+        "LICENSE",
+        "LICENSE-CODE"
+      ],
+      "attribute_paths": [],
+      "submodules": [],
+      "local_path": "E:\\aimodel\\HowToLiveBetter",
+      "previously_present": false,
+      "sources": [
+        "https://api.github.com/repos/eternity4719/HowToLiveBetter",
+        "https://api.github.com/repos/eternity4719/HowToLiveBetter/commits/dff814dcbb0a2e968acc0af48e418814655ba1df",
+        "https://api.github.com/repos/eternity4719/HowToLiveBetter/git/trees/dff814dcbb0a2e968acc0af48e418814655ba1df?recursive=1",
+        "https://github.com/eternity4719/HowToLiveBetter/blob/dff814dcbb0a2e968acc0af48e418814655ba1df/README.md",
+        "https://github.com/eternity4719/HowToLiveBetter/blob/dff814dcbb0a2e968acc0af48e418814655ba1df/LICENSE",
+        "https://github.com/eternity4719/HowToLiveBetter/blob/dff814dcbb0a2e968acc0af48e418814655ba1df/LICENSE-CODE",
+        "https://github.com/eternity4719/HowToLiveBetter/blob/dff814dcbb0a2e968acc0af48e418814655ba1df/.claude/skills/life-decision-guide/SKILL.md",
+        "https://github.com/eternity4719/HowToLiveBetter/blob/dff814dcbb0a2e968acc0af48e418814655ba1df/skills/life-decision-guide/SKILL.md"
+      ],
+      "api_observed_head": "dff814dcbb0a2e968acc0af48e418814655ba1df",
+      "git_metadata_bytes_before_checkout": 3223765,
+      "projected_file_bytes_including_git": 9717633,
+      "action": "cloned_shallow",
+      "tracked_source_bytes": 6493868,
+      "local_file_bytes_including_git": 9786849,
+      "size_below_limit": true,
+      "worktree_clean": true,
+      "shallow": true,
+      "ahead_behind": "0\t0",
+      "fsck_output": "",
+      "fsck_passed": true,
+      "category": "生活资料与正文检索 Skill",
+      "license_verified": "正文 CC-BY-4.0；代码 MIT",
+      "formal_skill_entries": [
+        "skills/life-decision-guide/SKILL.md"
+      ],
+      "logical_skill_count": 1,
+      "assessment_zh": "按成本、收益和证据组织健康、生活及办事资料，制度内容以中国大陆为背景；配套 Skill 从正文检索并引用条目，适合资料查询。",
+      "runtime_requirements_zh": "可直接阅读 Markdown；Skill 依赖本仓库 book/ 正文。具体健康、财务和法律决策需复核原始出处、日期与当地现行规则，本次未验证每条建议。"
+    },
+    {
+      "repository": "byoungd/up",
+      "url": "https://github.com/byoungd/up",
+      "checked_at_utc": "2026-11-11T08:55:58.438890+00:00",
+      "branch": "main",
+      "head": "ddc96d37a7bda35578e5dc0056cbe56df6c1bf5c",
+      "commit_date": "2026-11-04T03:25:00Z",
+      "description": "韩先凯的人生进阶指南 AI时代 中英双语终身学习指南：AI、学习 、创业、财富、爱情与人生",
+      "archived": false,
+      "license_api": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "github_repository_size_kib": 155310,
+      "tree_truncated": false,
+      "tracked_files": 403,
+      "tree_blob_bytes": 23010151,
+      "largest_files": [
+        {
+          "path": "docs/public/downloads/life-level-up-guide-zh.pdf",
+          "bytes": 5111730
+        },
+        {
+          "path": "docs/public/downloads/life-level-up-guide-en.pdf",
+          "bytes": 4230010
+        },
+        {
+          "path": "docs/public/downloads/life-level-up-guide-zh.epub",
+          "bytes": 2781209
+        },
+        {
+          "path": "docs/public/downloads/life-level-up-guide-en.epub",
+          "bytes": 2748887
+        },
+        {
+          "path": "book-assets/fonts/NotoSerifSC-LifeLevelUp-Regular.ttf",
+          "bytes": 773868
+        },
+        {
+          "path": "book-assets/fonts/NotoSerifSC-LifeLevelUp-Bold.ttf",
+          "bytes": 773820
+        },
+        {
+          "path": "docs/assets/product1.webp",
+          "bytes": 214844
+        },
+        {
+          "path": "docs/assets/bmw.webp",
+          "bytes": 210902
+        }
+      ],
+      "skill_paths": [],
+      "license_paths": [
+        "LICENSE-CODE.md",
+        "LICENSE-CONTENT.md",
+        "LICENSE.md"
+      ],
+      "attribute_paths": [
+        ".gitattributes"
+      ],
+      "submodules": [],
+      "local_path": "E:\\aimodel\\up",
+      "previously_present": false,
+      "sources": [
+        "https://api.github.com/repos/byoungd/up",
+        "https://api.github.com/repos/byoungd/up/commits/ddc96d37a7bda35578e5dc0056cbe56df6c1bf5c",
+        "https://api.github.com/repos/byoungd/up/git/trees/ddc96d37a7bda35578e5dc0056cbe56df6c1bf5c?recursive=1",
+        "https://github.com/byoungd/up/blob/ddc96d37a7bda35578e5dc0056cbe56df6c1bf5c/README.md",
+        "https://github.com/byoungd/up/blob/ddc96d37a7bda35578e5dc0056cbe56df6c1bf5c/LICENSE-CODE.md",
+        "https://github.com/byoungd/up/blob/ddc96d37a7bda35578e5dc0056cbe56df6c1bf5c/LICENSE-CONTENT.md",
+        "https://github.com/byoungd/up/blob/ddc96d37a7bda35578e5dc0056cbe56df6c1bf5c/LICENSE.md"
+      ],
+      "api_observed_head": "ddc96d37a7bda35578e5dc0056cbe56df6c1bf5c",
+      "git_metadata_bytes_before_checkout": 13805248,
+      "projected_file_bytes_including_git": 36815399,
+      "action": "cloned_shallow",
+      "tracked_source_bytes": 23010151,
+      "local_file_bytes_including_git": 36858821,
+      "size_below_limit": true,
+      "worktree_clean": true,
+      "shallow": true,
+      "ahead_behind": "0\t0",
+      "fsck_output": "",
+      "fsck_passed": true,
+      "category": "终身学习与人生实践书稿",
+      "license_verified": "正文 CC-BY-NC-4.0；代码 MIT",
+      "formal_skill_entries": [],
+      "logical_skill_count": 0,
+      "assessment_zh": "中英双语书稿，覆盖英语、AI 学习、真实项目、创业验证及生活复盘，附工作表和 EPUB/PDF，适合离线阅读和实践记录。",
+      "runtime_requirements_zh": "Markdown、EPUB/PDF 可直接阅读；构建站点另需 Node.js 与 VitePress。第三方材料按 ATTRIBUTIONS.md 及各自来源条件使用。"
+    }
+  ],
+  "dependencies_installed": false,
+  "global_configuration_changed": false,
+  "runtimes_started": false,
+  "validation": {
+    "retained_git_repositories": 7,
+    "record_only_repositories": 1,
+    "all_retained_worktrees_clean": true,
+    "all_retained_git_fsck_passed": true,
+    "application_tests_run": false,
+    "catalog_documents_updated": [
+      "README.md",
+      "CHANGELOG.md",
+      "docs/REPOSITORIES.md",
+      "docs/GITHUB_REPOS.md",
+      "docs/GITHUB_STAR_LIST.md",
+      "docs/SKILLS_INDEX.md",
+      "docs/SHARE_GUIDE.md",
+      "docs/SHARE_GUIDE.html"
+    ],
+    "all_retained_heads_match_api_and_fetched_origin": true,
+    "all_retained_sizes_below_limit": true,
+    "all_retained_have_no_submodules_or_lfs_rules": true,
+    "final_sizes_match_record": true,
+    "share_guide_unique_sources": 131,
+    "share_markdown_html_sources_match": true,
+    "record_only_repository_has_no_local_directory": true,
+    "final_local_snapshots": [
+      {
+        "repository": "stemdeckapp/stemdeck",
+        "file_bytes_including_git": 14955640,
+        "head_matches_api_and_origin": true,
+        "clean": true,
+        "skill_paths_match_api": true,
+        "has_lfs_rules": false,
+        "has_submodules": false
+      },
+      {
+        "repository": "anomalyco/openauth",
+        "file_bytes_including_git": 4474706,
+        "head_matches_api_and_origin": true,
+        "clean": true,
+        "skill_paths_match_api": true,
+        "has_lfs_rules": false,
+        "has_submodules": false
+      },
+      {
+        "repository": "NandhaKishorM/laya",
+        "file_bytes_including_git": 74474403,
+        "head_matches_api_and_origin": true,
+        "clean": true,
+        "skill_paths_match_api": true,
+        "has_lfs_rules": false,
+        "has_submodules": false
+      },
+      {
+        "repository": "ix-infrastructure/Ix",
+        "file_bytes_including_git": 20163107,
+        "head_matches_api_and_origin": true,
+        "clean": true,
+        "skill_paths_match_api": true,
+        "has_lfs_rules": false,
+        "has_submodules": false
+      },
+      {
+        "repository": "HandsOnLLM/Hands-On-Large-Language-Models",
+        "file_bytes_including_git": 19708412,
+        "head_matches_api_and_origin": true,
+        "clean": true,
+        "skill_paths_match_api": true,
+        "has_lfs_rules": false,
+        "has_submodules": false
+      },
+      {
+        "repository": "eternity4719/HowToLiveBetter",
+        "file_bytes_including_git": 9786849,
+        "head_matches_api_and_origin": true,
+        "clean": true,
+        "skill_paths_match_api": true,
+        "has_lfs_rules": false,
+        "has_submodules": false
+      },
+      {
+        "repository": "byoungd/up",
+        "file_bytes_including_git": 36858821,
+        "head_matches_api_and_origin": true,
+        "clean": true,
+        "skill_paths_match_api": true,
+        "has_lfs_rules": false,
+        "has_submodules": false
+      }
+    ]
+  }
+}

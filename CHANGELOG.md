@@ -7,6 +7,14 @@
 
 ---
 
+## 2026-11-11 收录八个项目与资料来源
+
+- 新登记用户指定的 8 个来源；新增 `stemdeck`、`openauth`、`laya`、`Ix`、`Hands-On-Large-Language-Models`、`HowToLiveBetter`、`up` 7 个浅克隆，含 Git 均低于 100 MB。
+- `openvid@3cf6c8ab` 当前文件共 181,959,302 字节，下载前按限额跳过，仅保留来源、用途、Skill 路径及 PolyForm Noncommercial 1.0.0 许可记录。
+- 补充 Ix 代码关系图 Skill 与 Docker 后端条件、HowToLiveBetter 正文检索 Skill；区分其正文 CC BY 4.0/代码 MIT，以及 up 正文 CC BY-NC 4.0/代码 MIT 的许可范围。
+- 更新 README、台账、版本清单、Skill 索引、来源清单及两个分享版本，分享来源从 123 项增加到 131 项；历史全量计数保持原核验日期。
+- 7 个新增仓库工作树干净、与已抓取默认分支一致并通过 Git 对象校验；未安装依赖、权重、全局配置或启动服务。证据见 `scripts/repository-review-20261111.json`。
+
 ## 2026-11-09 收录自制 SKLIB 检索工具
 
 - 按用户要求，将 `sklib/` 的源码、静态网页、测试、客户端配置示例及开发验证文档加入 `skill-and-tool` 聚合仓库。

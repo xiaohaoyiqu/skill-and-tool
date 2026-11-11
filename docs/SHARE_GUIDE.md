@@ -1,10 +1,10 @@
 # AI Skills 和工具分享清单
 
-整理于 2026 年 11 月 9 日。
+整理于 2026 年 11 月 11 日。
 
 平时收集的 AI Skills、开发工具和研究资料，按用途放在这里。每项都附上项目链接和简短介绍，找写作、编程、做界面或读论文的工具，可以直接跳到对应分类。
 
-共收录 123 个不同的项目来源。Skill 通常是一组让 AI 按特定方法工作的说明，有些会附带脚本；组件库、桌面应用和模型项目则需要按各自说明使用。链接指向项目来源，具体安装方式、依赖与许可请查看项目 README。
+共收录 131 个不同的项目来源。Skill 通常是一组让 AI 按特定方法工作的说明，有些会附带脚本；组件库、桌面应用和模型项目则需要按各自说明使用。链接指向项目来源，具体安装方式、依赖与许可请查看项目 README。
 
 ## 中文写作与改稿
 
@@ -100,6 +100,7 @@
 | [context-mode](https://github.com/mksglu/context-mode) | 将工具的大段输出保存在本地，再通过 SQLite 全文检索取回所需片段，适合研究编码 Agent 的上下文管理；当前采用 Elastic-2.0 许可证。 |
 | [OpenShell](https://github.com/NVIDIA/OpenShell) | NVIDIA 的 Agent 沙箱运行环境，按策略限制文件、进程和网络访问，适合研究 Agent 隔离与凭据管理；部署需另行准备系统环境。 |
 | [ai-memory](https://github.com/akitaonrails/ai-memory) | 为编码 Agent 保存长期项目记忆，让不同工具之间能够交接任务。以 Git 管理的 Markdown 保存知识，适合需要跨会话继续工作的项目。 |
+| [laya](https://github.com/NandhaKishorM/laya) | 对文本做分类、评分和是非决策的模型与 SDK，适合研究请求路由和结构化判断；模型权重需另行准备，上游速度数据未经本机验证。 |
 
 ## 科研与论文
 
@@ -123,6 +124,7 @@
 | [archify](https://github.com/tt-a1i/archify) | 把系统描述或代码关系整理成可交互的架构图，支持生成便于分享的独立图形与网页。 |
 | [graphify](https://github.com/Graphify-Labs/graphify) | 从代码、文档等材料建立知识图谱，适合分析跨文件关系、模块联系与调用路径。 |
 | [gortex](https://github.com/zzet/gortex) | 代码索引与关系查询引擎，提供命令行、MCP 和网页等入口，适合研究大型代码库。 |
+| [Ix](https://github.com/ix-infrastructure/Ix) | 将代码符号、调用和导入关系保存为图，提供 CLI、MCP 和配套 Skill，适合分析调用链和改动影响；运行需要 Docker 后端。 |
 | [zvec-grep](https://github.com/zvec-ai/zvec-grep) | 将关键词、BM25 和向量检索放在同一入口，适合既需要精确查找也需要语义搜索的资料库。 |
 | [LEANN](https://github.com/StarTrail-org/LEANN) | 面向本地文档检索的向量索引项目，适合构建个人资料搜索与 RAG 应用。 |
 | [liteparse](https://github.com/run-llama/liteparse) | 本地文档解析工具，关注文本位置与 PDF 内容抽取，适合为检索和资料处理准备输入。 |
@@ -149,6 +151,7 @@
 | [scramble](https://github.com/dedoc/scramble) | 根据 Laravel 项目代码生成 OpenAPI 文档，适合减少接口说明与实现之间的重复维护。 |
 | [pipeforge](https://github.com/Sheraz-k/pipeforge) | CI/CD 流水线生成工具，适合参考不同项目的持续集成与部署配置。 |
 | [terraform](https://github.com/hashicorp/terraform) | 以配置文件管理基础设施的工具，适合研究环境的创建、变更与版本管理；使用条件查看对应版本许可。 |
+| [OpenAuth](https://github.com/anomalyco/openauth) | 可自行托管的 OAuth 2.0 身份认证服务，适合参考多应用登录和身份提供方接入；仍处于 beta，用户管理由应用自行实现。 |
 
 ## 安全分析与逆向
 
@@ -167,6 +170,8 @@
 
 | 项目 | 介绍 |
 |------|------|
+| [StemDeck](https://github.com/stemdeckapp/stemdeck) | 用 Demucs 在本机分离人声、鼓、贝斯等音轨，并提供独奏、循环、变速和变调练习界面；实际使用还需运行环境与模型。 |
+| [openvid](https://github.com/CristianOlivera1/openvid) | 浏览器录屏和产品演示视频编辑器，支持缩放、设备样机及三维效果。采用 PolyForm Noncommercial 1.0.0；源码超过本轮限额，仅登记链接。 |
 | [stt](https://github.com/jianchang512/stt) | 基于 faster-whisper 的本地音视频转文字工具，可输出纯文本、JSON 和带时间戳的字幕。 |
 | [pocket-tts](https://github.com/kyutai-labs/pocket-tts) | 以 CPU 运行为重点的轻量文字转语音项目，适合研究本地语音生成。 |
 | [LuxTTS](https://github.com/ysharma3501/LuxTTS) | 基于 ZipVoice 的文字转语音与声音克隆项目，使用参考音频生成语音，提供 GPU、CPU 和 Apple MPS 的运行示例。 |
@@ -187,6 +192,9 @@
 
 | 项目 | 介绍 |
 |------|------|
+| [Hands-On Large Language Models](https://github.com/HandsOnLLM/Hands-On-Large-Language-Models) | 同名 O’Reilly 图书的官方示例代码，包含 12 章 Notebook，覆盖嵌入、Transformer、RAG、多模态和微调；运行需另备依赖与模型。 |
+| [HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) | 按成本、收益和证据整理健康、生活与办事资料，附正文查询 Skill；制度内容以中国大陆为背景。正文 CC BY 4.0，代码 MIT，实际决策需复核原始来源及当地现行规定。 |
+| [up：人生进阶指南](https://github.com/byoungd/up) | 中英双语的终身学习书稿，涉及英语、AI、项目实践、创业和生活复盘，附工作表及 EPUB/PDF。正文 CC BY-NC 4.0，站点与构建代码 MIT。 |
 | [build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) | 从零实现常见技术的教程合集，适合通过小型项目学习底层原理。 |
 | [open-source-games](https://github.com/bobeff/open-source-games) | 开源游戏与部分重制项目的导航，适合寻找游戏源码和学习案例。 |
 | [public-apis](https://github.com/public-apis/public-apis) | 按主题整理的公共 API 导航，适合寻找可用于应用原型与练习的数据接口。 |

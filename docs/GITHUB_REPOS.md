@@ -1,12 +1,46 @@
 # GitHub 仓库下载与配置台账
 
-**最后整理**: 2026-11-09
+**最后整理**: 2026-11-11
 **目录**: E:\aimodel
 **定位**: GitHub 下载与配置历史台账；当前 skill 更新状态以 [SKILLS_INDEX.md](SKILLS_INDEX.md) 为准
 **状态**: 只记录克隆和配置，不自动安装依赖、不写入全局 Codex skills
 **Star 手动清单**: [GITHUB_STAR_LIST.md](GITHUB_STAR_LIST.md)
 
 ---
+
+## 2026-11-11 音视频、认证、代码检索与学习资料
+
+本批登记用户指定的 8 个来源，沿用 **100,000,000 字节（十进制 100 MB）** 的单项目限额。先核对固定提交的完整文件树，再对候选项目以 `--depth 1 --single-branch --no-tags --no-checkout --no-recurse-submodules` 拉取 Git 对象；展开前核算源码与 `.git` 文件长度，展开后复测实际大小。
+
+| 项目 / 来源 | 本地处理与提交 | 大小 | 用途与许可 |
+|------|------|------|------|
+| [stemdeck](https://github.com/stemdeckapp/stemdeck) | 新增 `stemdeck/` 浅克隆，`main@5f9405ca` | 14.96 MB | 基于 Demucs 分离人声、鼓、贝斯等音轨，附独奏、循环、变速与变调界面；适合音乐练习和音频处理实现参考。 Apache-2.0 |
+| [openvid](https://github.com/CristianOlivera1/openvid) | 仅登记，下载前跳过，`main@3cf6c8ab` | 源码 181.96 MB，未克隆 | 录屏或导入视频后添加缩放、设备样机、三维效果及背景，采用 Next.js、FFmpeg.wasm、Three.js；适合产品演示视频研究。 PolyForm-Noncommercial-1.0.0 |
+| [openauth](https://github.com/anomalyco/openauth) | 新增 `openauth/` 浅克隆，`master@98dc5962` | 4.47 MB | 以 OAuth 2.0 组织多应用身份认证，支持第三方身份提供方和内置登录流程；仍为 beta，用户查询与创建由应用自行实现。 MIT |
+| [laya](https://github.com/NandhaKishorM/laya) | 新增 `laya/` 浅克隆，`main@3a38cbe8` | 74.47 MB | 对输入进行 choice、score、yes/no 等判断，适合分类、请求路由与结构化决策研究；上游的速度和准确率不作为本机实测。 Apache-2.0 |
+| [Ix](https://github.com/ix-infrastructure/Ix) | 新增 `Ix/` 浅克隆，`main@b7ea8d9b` | 20.16 MB | 用 tree-sitter 提取符号、调用和导入关系，提供调用链、改动影响及结构查询，可与既有 Graphify、gortex、SKLIB 对照研究。 Apache-2.0 |
+| [Hands-On-Large-Language-Models](https://github.com/HandsOnLLM/Hands-On-Large-Language-Models) | 新增 `Hands-On-Large-Language-Models/` 浅克隆，`main@ea339081` | 19.71 MB | O’Reilly 同名图书的 12 章 Notebook，覆盖嵌入、Transformer、分类、聚类、提示、RAG、多模态和微调，适合作为系统学习路线。 Apache-2.0 |
+| [HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) | 新增 `HowToLiveBetter/` 浅克隆，`main@dff814dc` | 9.79 MB | 按成本、收益和证据组织健康、生活及办事资料，制度内容以中国大陆为背景；配套 Skill 从正文检索并引用条目，适合资料查询。 正文 CC-BY-4.0；代码 MIT |
+| [up](https://github.com/byoungd/up) | 新增 `up/` 浅克隆，`main@ddc96d37` | 36.86 MB | 中英双语书稿，覆盖英语、AI 学习、真实项目、创业验证及生活复盘，附工作表和 EPUB/PDF，适合离线阅读和实践记录。 正文 CC-BY-NC-4.0；代码 MIT |
+
+`openvid` 固定提交共有 1330 个文件，合计 **181,959,302 字节**，尚未计入 Git 就已超限，因此没有创建本地仓库，也没有单独下载其中的 Skill、WASM、三维模型或视频。其许可核对为 [PolyForm Noncommercial 1.0.0](https://github.com/CristianOlivera1/openvid/blob/3cf6c8ab3687498d95b56ffc60af3c1882fba12b/LICENSE.md)，保留非商业使用条件。
+
+Skill 核对：`Ix/skills/ix/SKILL.md` 为 1 个入口；`HowToLiveBetter/skills/life-decision-guide/SKILL.md` 为 1 个逻辑入口，另有 `.claude/skills/` 副本，共 2 个物理文件。`openvid` 上游有 5 个物理 SKILL.md、4 个不同入口（nextjs-developer 在两处内容相同），属于项目开发辅助说明，本轮未保存。其他 5 个来源未发现 SKILL.md，不计作正式 Skill。
+
+| 项目 | 运行条件与使用评价 |
+|------|------|
+| stemdeck | pyproject.toml 声明 Python >=3.10,<3.14，README 开发环境使用 3.12；另需 uv、FastAPI、Demucs、FFmpeg，桌面壳使用 Tauri。首次运行会另取模型与运行组件，本轮没有运行。 |
+| openvid | 上游 Quick Start 使用 pnpm 和 Supabase 配置。当前仓库含 FFmpeg WASM、三维模型和演示视频，源码本身已超过限额；不拆分保存其中的 Skill。 |
+| openauth | 支持 Node.js、Bun、AWS Lambda 或 Cloudflare Workers；需配置身份提供方及 KV 等存储，本轮只存源码。 |
+| laya | Python >=3.10；PyTorch 与 Hugging Face 权重等需另备，也含多语言 SDK。未下载权重、安装 SDK 或运行推理。 |
+| Ix | Windows 路径要求 Node.js >=22 和 Docker Desktop，后端包含 ArangoDB 与记忆层。README 说明后端以发布的 Docker 镜像提供，不由本仓库构建；源码克隆不能代替完整运行系统。未建立索引或接入 MCP。 |
+| Hands-On-Large-Language-Models | 上游主要在 Colab T4 16 GB 环境测试；本机执行仍需单独准备 Python 依赖、模型和算力。所收录为示例代码，不包含整本图书的出版授权。 |
+| HowToLiveBetter | 可直接阅读 Markdown；Skill 依赖本仓库 book/ 正文。具体健康、财务和法律决策需复核原始出处、日期与当地现行规则，本次未验证每条建议。 |
+| up | Markdown、EPUB/PDF 可直接阅读；构建站点另需 Node.js 与 VitePress。第三方材料按 ATTRIBUTIONS.md 及各自来源条件使用。 |
+
+7 个保留仓库均小于 100 MB、工作树干净、HEAD 与本次抓取的对应 origin 默认分支一致，并通过 `git fsck --no-reflogs`。均无子模块，核对 `.gitattributes` 未发现 Git LFS 规则。大小为本机文件长度合计，包含 Git、索引及 Windows 检出后的换行差异；不是压缩下载量或磁盘分配量。未安装依赖、模型、发行包、全局 Skill/MCP 或启动服务，也未运行应用测试。
+
+版本清单只新增这 7 个本地目录，不重扫其他仓库或改写历史总数。8 个来源均为本次新登记，两个分享版本由 123 项增为 131 项。提交、完整文件树大小、Skill 路径及本机校验见 [核验 JSON](../scripts/repository-review-20261111.json)。
 
 ## 2026-11-09 Skill 评测、艺术动画与 Agent 工具
 

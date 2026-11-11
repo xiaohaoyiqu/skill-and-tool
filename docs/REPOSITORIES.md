@@ -26,8 +26,17 @@
 
 2026-11-09 仅更新已有 `skill-up`，新增 `OpenShell` 和 `context-mode` 两个浅克隆，三者均低于 100 MB，工作树干净并通过 Git 对象校验。`huashu-art-motion` 在展开前核算约 148.62 MB，超过限额，已跳过并清理临时目录，不列入下方本地仓库表。没有重扫其他仓库或改写历史总数。`blender-skills` 已于 11 月 2 日登记链接，本轮复核仍无本地目录。详见 [本批台账](GITHUB_REPOS.md#2026-11-09-skill-评测艺术动画与-agent-工具) 和 [JSON](../scripts/repository-review-20261109.json)。
 
+2026-11-11 新登记 8 个来源，其中 7 个新增浅克隆均小于 100 MB，工作树干净并通过 Git 对象校验。`openvid` 源码文件已约 181.96 MB，下载前跳过，只保留来源，不列入下方本地仓库表。本轮没有重扫其他仓库、改写历史总数或安装依赖。详见 [本批台账](GITHUB_REPOS.md#2026-11-11-音视频认证代码检索与学习资料) 与 [核验 JSON](../scripts/repository-review-20261111.json)。
+
 | 本地目录 | 上游 | 分支 | HEAD | 状态 |
 |------|------|------|------|------|
+| stemdeck | https://github.com/stemdeckapp/stemdeck.git | main | `5f9405ca` | 新增浅克隆（2026-11-11）；14.96 MB，干净且与 origin/main 一致；仅源码/资料 |
+| openauth | https://github.com/anomalyco/openauth.git | master | `98dc5962` | 新增浅克隆（2026-11-11）；4.47 MB，干净且与 origin/master 一致；仅源码/资料 |
+| laya | https://github.com/NandhaKishorM/laya.git | main | `3a38cbe8` | 新增浅克隆（2026-11-11）；74.47 MB，干净且与 origin/main 一致；仅源码/资料 |
+| Ix | https://github.com/ix-infrastructure/Ix.git | main | `b7ea8d9b` | 新增浅克隆（2026-11-11）；20.16 MB，干净且与 origin/main 一致；仅源码/资料 |
+| Hands-On-Large-Language-Models | https://github.com/HandsOnLLM/Hands-On-Large-Language-Models.git | main | `ea339081` | 新增浅克隆（2026-11-11）；19.71 MB，干净且与 origin/main 一致；仅源码/资料 |
+| HowToLiveBetter | https://github.com/eternity4719/HowToLiveBetter.git | main | `dff814dc` | 新增浅克隆（2026-11-11）；9.79 MB，干净且与 origin/main 一致；仅源码/资料 |
+| up | https://github.com/byoungd/up.git | main | `ddc96d37` | 新增浅克隆（2026-11-11）；36.86 MB，干净且与 origin/main 一致；仅源码/资料 |
 | OpenShell | https://github.com/NVIDIA/OpenShell.git | main | `9525bec0` | 新增浅克隆（2026-11-09）；约 55.65 MB，干净且与 origin/main 一致；仅源码参考 |
 | context-mode | https://github.com/mksglu/context-mode.git | main | `3a3ef7d5` | 新增浅克隆（2026-11-09）；v2.1.7，约 37.44 MB，Elastic-2.0；未配置 hooks/MCP |
 | stt | https://github.com/jianchang512/stt.git | main | `0df3151d` | 已浅克隆（2026-11-01）；v0.0.94，约 1.98 MiB，干净且与 origin/main 一致 |

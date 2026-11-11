@@ -2,7 +2,7 @@
 
 **生成时间**: 2026-07-30 11:08:51 +08:00
 **初始整理时间**: 2026-07-30
-**最近核对**: 2026-11-09
+**最近核对**: 2026-11-11
 **范围（历史快照）**: `E:\aimodel` 顶层目录中带 `.git` 且 origin 指向 GitHub 的仓库
 **数量（当时）**: 61 个
 **状态**: 自动 star 受本机 GitHub CLI/API 环境影响，本清单改为手动处理参考
@@ -10,6 +10,21 @@
 ---
 
 > 本文件只保留 GitHub 链接和历史范围，不参与当前 skill 更新判定；当前目录台账请查看 [SKILLS_INDEX.md](SKILLS_INDEX.md)。
+
+## 2026-11-11 新增八个指定来源
+
+| 项目 | 来源 | 用途与本地处理 |
+|------|------|------|
+| stemdeck | https://github.com/stemdeckapp/stemdeck | 音轨分离与练习工具；14.96 MB；`5f9405ca`；Apache-2.0 |
+| openvid | https://github.com/CristianOlivera1/openvid | 浏览器录屏与演示视频编辑器；源码 181.96 MB，未克隆；`3cf6c8ab`；PolyForm-Noncommercial-1.0.0 |
+| openauth | https://github.com/anomalyco/openauth | 自行托管的身份认证服务；4.47 MB；`98dc5962`；MIT |
+| laya | https://github.com/NandhaKishorM/laya | 结构化决策模型与 SDK；74.47 MB；`3a38cbe8`；Apache-2.0 |
+| Ix | https://github.com/ix-infrastructure/Ix | 代码关系图、CLI、MCP 与 Skill；20.16 MB；`b7ea8d9b`；Apache-2.0 |
+| Hands-On-Large-Language-Models | https://github.com/HandsOnLLM/Hands-On-Large-Language-Models | LLM 图书官方示例代码；19.71 MB；`ea339081`；Apache-2.0 |
+| HowToLiveBetter | https://github.com/eternity4719/HowToLiveBetter | 生活资料与正文检索 Skill；9.79 MB；`dff814dc`；正文 CC-BY-4.0；代码 MIT |
+| up | https://github.com/byoungd/up | 终身学习与人生实践书稿；36.86 MB；`ddc96d37`；正文 CC-BY-NC-4.0；代码 MIT |
+
+均为新来源，分享清单由 123 项增为 131 项。7 个项目保留浅克隆，`openvid` 超限只登记；未执行 GitHub star。详见 [本批台账](GITHUB_REPOS.md#2026-11-11-音视频认证代码检索与学习资料) 与 [核验 JSON](../scripts/repository-review-20261111.json)。旧批次数量保留其核验日期。
 
 ## 2026-11-09 指定项目复核与补充
 

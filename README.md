@@ -4,7 +4,7 @@
 
 第三方项目主要保存资料与来源记录，使用条件以原项目说明为准。自制的本地 Skill 和项目资料检索工具 [SKLIB](sklib/README.md) 也在本仓库中保存源码。
 
-转发给别人可以使用 [AI Skills 和工具分享清单](docs/SHARE_GUIDE.md)，按用途介绍 123 个项目并附来源链接；[HTML 分享版](docs/SHARE_GUIDE.html) 可作为单个文件发送，用浏览器打开。
+转发给别人可以使用 [AI Skills 和工具分享清单](docs/SHARE_GUIDE.md)，按用途介绍 131 个项目并附来源链接；[HTML 分享版](docs/SHARE_GUIDE.html) 可作为单个文件发送，用浏览器打开。
 
 ## 从哪里开始
 
@@ -55,6 +55,10 @@
 - 第三方内容沿用各自的许可证和使用条件。
 
 统计数字对应各次扫描结果。上游项目继续变化时，以来源仓库为准。
+
+## 2026-11-11 项目收录
+
+本批登记 StemDeck、openvid、OpenAuth、laya、Ix、Hands-On Large Language Models、HowToLiveBetter 和 up 共 8 个来源。除 openvid 的源码本身约 181.96 MB、超限仅登记外，其余 7 个项目均已浅克隆到根目录，含 Git 的实际大小都低于 100 MB。Ix 与 HowToLiveBetter 各含 1 个逻辑 Skill；许可证、运行条件和提交见[本批台账](docs/GITHUB_REPOS.md#2026-11-11-音视频认证代码检索与学习资料)。分享清单已补至 131 个不同来源；未安装依赖、模型或全局 Skill。
 
 ## 2026-11-09 项目核对
 
