@@ -1,5 +1,27 @@
 # 检索复查与扩展
 
+## 工作流查询与原文证据复查（2026-11-11）
+
+- “完成前验证”“提交前验证”“系统化调试”“测试驱动开发”扩展为相应英文技能名。扩展把技能名作为完整的 FTS 短语，并通过 `expanded_terms` 返回。
+- 中英混合查询显式选 `document`、且包含至少三个长度不小于 3 的 ASCII 检索词时，词法候选要求这些词同时命中。短查询保留原行为，允许资料库名仅作为上下文。三词门槛来自本地开发对照，两个词就收紧会漏掉已有 MCP 验收记录。混合模式的向量候选仍按其原有规则筛选，跨模式字面限制继续使用 `required_terms`。
+- Markdown 摘录合并当前标题与候选行的检索词覆盖，同等覆盖优先正文。忽略独占一行的空 HTML 锚点，围栏内的 `#` 按代码原文处理。摘录仍来自单条物理行，保留 `line` 和行内 `match_count`。标题参与选段时返回 `evidence.heading`，较紧的结果预算可以省略标题。
+- `eval` 增加文档标题匹配及 `returned_titles`。正例可写 `evidence_contains`，同一相关结果的正文摘录须包含全部标注短语才计入 `evidence_hit_at_k`，按 Unicode 归一化和大小写折叠比较。只用有摘要标注的案例计算此指标。
+
+前后对照共用一个隔离词法索引，收录 SKLIB 文档、Superpowers 技能和 QQBot 独立文档，共 49 份文档、1 个项目说明、14 个技能。`K=3`，相同标注和评测器运行原版与更新版。
+
+| 样例 | 正例命中 | 正确正文证据 | 负例误命中 |
+|---|---:|---:|---:|
+| 12 条公开工作流样例 | 6/9 → 9/9 | 1/3 → 1/3 | 3/3 → 1/3 |
+| 6 条本机项目任务 | 4/4 → 4/4 | 2/4 → 3/4 | 2/2 → 0/2 |
+
+当前样本用于开发回归。公开样例仍有一条未知技能名因通用词命中，两条工作流与一条项目查询的摘录仍未覆盖标注句。用 `sklib eval examples/evaluation-workflows.json --k 3` 可在已登记 SKLIB `docs/` 和 Superpowers `skills/` 的资料库复现公开样例，排名会随资料范围变化。
+
+SQLite FTS5 的短语及布尔匹配用于限制词法候选。Markdown 行识别参考 CommonMark 的 ATX 标题与围栏规则，并参考 QMD 以文档结构选择边界的做法。中英检索文献讨论了逐词翻译的歧义，因而本轮采用可审阅的任务短语扩展。BEIR 的跨数据集结果支持保留 BM25 作为对照，本机结果以实际任务标注为准。 [SQLite FTS5](https://www.sqlite.org/fts5.html#fts5_boolean_operators) · [CommonMark](https://spec.commonmark.org/0.31.2/#fenced-code-blocks) · [QMD](https://github.com/tobi/qmd#smart-chunking) · [中英跨语言检索](https://aclanthology.org/W00-1313/) · [BEIR](https://datasets-benchmarks-proceedings.neurips.cc/paper_files/paper/2021/hash/65b9eea6e1cc6bb9f0cd2a47751a186f-Abstract-round2.html)
+
+Agent 搜索后继续通过 `get_skill` 与资源读取接口获取完整内容。 [Agent Skills 渐进加载](https://agentskills.io/client-implementation/adding-skills-support)
+
+## 前一轮检索复查
+
 本轮沿用 SQLite、CLI、stdio MCP 和本地界面的架构，处理检索资源消耗、误命中检查及 Windows 请求断连问题，没有增加运行依赖或修改数据库格式。
 
 ## Agent 和手动检索的必含词

@@ -1,0 +1,76 @@
+[
+  {
+    "query": "完成前验证",
+    "relevant": [
+      "verification-before-completion"
+    ]
+  },
+  {
+    "query": "提交前验证怎么做",
+    "relevant": [
+      "verification-before-completion"
+    ]
+  },
+  {
+    "query": "遇到回归怎样做系统化调试",
+    "relevant": [
+      "systematic-debugging"
+    ]
+  },
+  {
+    "query": "怎么用测试驱动开发",
+    "relevant": [
+      "test-driven-development"
+    ]
+  },
+  {
+    "query": "verification-before-completion",
+    "relevant": [
+      "verification-before-completion"
+    ]
+  },
+  {
+    "query": "systematic-debugging",
+    "relevant": [
+      "systematic-debugging"
+    ]
+  },
+  {
+    "query": "SKLIB 的 MCP 宿主验收",
+    "kind": "document",
+    "relevant": [
+      "宿主和真实向量模型验收"
+    ],
+    "evidence_contains": ["临时只读会话"]
+  },
+  {
+    "query": "导入快照怎么预览冲突",
+    "kind": "document",
+    "relevant": [
+      "来源检测、备份恢复与路径迁移"
+    ],
+    "evidence_contains": ["指定来源映射和冲突策略"]
+  },
+  {
+    "query": "必含词如何减少误命中",
+    "kind": "document",
+    "relevant": [
+      "检索复查与扩展"
+    ],
+    "evidence_contains": ["每个指定词的字面分词都必须出现在索引中"]
+  },
+  {
+    "query": "SKLIB 怎么用 AWS Lambda 部署",
+    "kind": "document",
+    "relevant": []
+  },
+  {
+    "query": "SKLIB 的 Azure Functions 托管说明",
+    "kind": "document",
+    "relevant": []
+  },
+  {
+    "query": "sklib-unsupported-technology-fixture",
+    "relevant": []
+  }
+]

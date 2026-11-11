@@ -66,6 +66,7 @@ python -m sklib --home .\.sklib ui --port 8765
 - 内容哈希归一化 CRLF/LF，技能副本分组只针对实际相同内容；同名不同内容保持独立。项目资料各自保留，避免不同项目的相同模板被折叠。每个位置有独立 ID 和注释。
 - 搜索结果是有界候选池，`candidate_groups` 不是全库精确命中总数。默认池大小 200，分页最大 offset 500。`max_chars` 约束结果条目的总字符预算，不含结果外层统计。
 - 中文任务中出现明确 ASCII 名称时，词法候选需要包含至少一个这样的名称，避免 Vue 不存在时只返回泛泛的“优化”技能。
+- 显式选 `document` 且中英混合查询含至少三个 ASCII 检索词时，词法候选须同时匹配这些词。Markdown 证据优先取匹配章节内的正文，保留原文行号。
 
 ```powershell
 python -m sklib annotate <skill-id> --tag 前端 --tag 性能 --note "适用于页面排查" --favorite --state useful
@@ -180,6 +181,7 @@ python scripts/check_local_corpus.py E:\aimodel\anthropic-skills E:\aimodel\vue-
 python -m sklib eval examples/evaluation.json --k 5
 python -m sklib eval examples/evaluation-expanded.json --k 5
 python -m sklib eval examples/evaluation-constrained.json --k 5
+python -m sklib eval examples/evaluation-workflows.json --k 3
 
 # 为技术名增加明确约束，多个 --require-term 都必须匹配。
 python -m sklib search "Vue rendering performance" --require-term Vue --json
@@ -191,7 +193,7 @@ python scripts/audit_semantic.py --entries 3000 --dimension 256
 python scripts/check_mcp_client.py --sdk-path .audit-client
 ```
 
-评测输出 Hit@K、MRR@K、Recall@K、Precision@K、负例误命中率、P95 查询耗时和每条任务的实际候选。`relevant: []` 表示预期没有相关资料，正负例分别统计；可用 `--mode semantic/hybrid --model <本机已有模型>` 比较检索模式。样例需先索引对应资料；不存在的预期项计为失败，不会静默跳过。标签未穷尽全部相关项时，Precision 不代表整体相关性质量。
+评测输出 Hit@K、MRR@K、Recall@K、Precision@K、负例误命中率、P95 查询耗时和每条任务的实际候选。`relevant` 可填技能名、文档标题或稳定 ID，空数组表示预期没有相关资料。正例可用 `evidence_contains` 单独衡量正文摘录是否包含标注短语。可用 `--mode semantic/hybrid --model <本机已有模型>` 比较检索模式。工作流样例需先索引 SKLIB 的 `docs/`（启用 `--include-docs`）与 Superpowers 的 `skills/`，其余样例所需来源见 [检索复查](docs/RETRIEVAL_REVIEW.md)。不存在的预期项计为失败。Precision 以标注范围为准。
 
 界面“必含词”、CLI `--require-term` 和 MCP `search_skills.required_terms` 共用检索约束，最多 8 个词，全部需在索引中匹配。用它明确指定技术名，可以减少通用任务词带来的误命中。实测、指标解释和扩展边界见 [检索复查](docs/RETRIEVAL_REVIEW.md)。
 

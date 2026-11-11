@@ -25,10 +25,16 @@ ALIASES = {
     "图表": "chart visualization plot", "绘图": "plot diagram visualization",
     "图片": "image picture", "设计": "design ui ux", "笔记": "notes obsidian",
     "专利": "patent disclosure", "翻译": "translation translate",
+    "完成前验证": "verification-before-completion", "提交前验证": "verification-before-completion",
+    "系统化调试": "systematic-debugging", "测试驱动开发": "test-driven-development",
+    "停训": "停止 训练",
 }
 STOP = {"the", "a", "an", "and", "or", "to", "of", "in", "for", "with", "is", "how", "can", "i", "my"}
 WORD = re.compile(r"[a-z0-9]+(?:[._+#-][a-z0-9]+)*|[\u3400-\u9fff]+", re.I)
 CJK = re.compile(r"^[\u3400-\u9fff]+$")
+ATX_HEADING = re.compile(r"^ {0,3}#{1,6}(?:[ \t]+|$)")
+FENCE = re.compile(r"^ {0,3}(`{3,}|~{3,})(.*)$")
+EMPTY_ANCHOR = re.compile(r"<a\s+(?:id|name)\s*=\s*(?:\"[^\"]*\"|'[^']*')\s*(?:/\s*>|>\s*</a\s*>)", re.I)
 
 
 def normalized(text: str) -> str:
@@ -58,13 +64,15 @@ def query_terms(query: str) -> tuple[list[str], list[str]]:
     lowered = normalized(query)
     for alias, terms in ALIASES.items():
         if normalized(alias) in lowered:
-            expanded.extend(tokens(terms))
+            # Keep canonical skill names as single FTS phrases.
+            expanded.extend(WORD.findall(normalized(terms)))
     return literal, list(dict.fromkeys(expanded))[:64]
 
 
-def match_expression(terms: list[str]) -> str:
+def match_expression(terms: list[str], *, all_terms: bool = False) -> str:
     # Never pass user syntax to MATCH. Tokens are individually quoted literals.
-    return " OR ".join('"' + term.replace('"', '""') + '"' for term in terms)
+    operator = " AND " if all_terms else " OR "
+    return operator.join('"' + term.replace('"', '""') + '"' for term in terms)
 
 
 def required_expression(terms: list[str] | None) -> str | None:
@@ -81,25 +89,51 @@ def required_expression(terms: list[str] | None) -> str | None:
         if not literal:
             raise ValueError("Each required_terms entry must contain searchable words")
         words.extend(literal)
-    return " AND ".join(match_expression([word]) for word in dict.fromkeys(words)) or None
+    return match_expression(list(dict.fromkeys(words)), all_terms=True) or None
 
 
 def content_hash(content: str) -> str:
     return hashlib.sha256(content.replace("\r\n", "\n").encode("utf-8")).hexdigest()
 
 
-def snippet(content: str, terms: list[str], width: int = 260) -> dict:
+def snippet(content: str, terms: list[str], width: int = 260, *, markdown: bool = False) -> dict:
     lines = text_lines(content) or [""]
     words = list(dict.fromkeys(normalized(t) for t in terms))
-    score, n, line, low = -1, 0, lines[0], normalized(lines[0])
+    score, n, line, low = (-1, False, -1), 0, "", ""
+    section = selected_section = ""
+    heading_matches = set()
+    fence = ""
     for index, current in enumerate(lines):
+        stripped = current.strip()
+        if not stripped:
+            continue
+        marker = FENCE.match(current) if markdown else None
+        if marker:
+            delimiter, rest = marker.groups()
+            if not fence and (delimiter[0] == "~" or "`" not in rest):
+                fence = delimiter
+                continue
+            if fence and delimiter.startswith(fence) and not rest.strip():
+                fence = ""
+                continue
+        if markdown and not fence and EMPTY_ANCHOR.fullmatch(stripped):
+            continue
         lowered = normalized(current)
-        matches = sum(t in lowered for t in words)
-        if matches > score:
-            score, n, line, low = matches, index, current, lowered
-        if words and score == len(words):
+        matches = {t for t in words if t in lowered}
+        heading = markdown and not fence and bool(ATX_HEADING.match(current))
+        if heading:
+            section = ATX_HEADING.sub("", current, count=1).strip()
+            heading_matches = matches
+        key = (len(matches | heading_matches), not heading, len(matches))
+        if key > score:
+            score, n, line, low = key, index, current, lowered
+            selected_section = section if heading_matches and not heading else ""
+        if words and key == (len(words), True, len(words)):
             break
     positions = [low.find(t) for t in words if t in low]
     start = max(0, min(positions, default=0) - 70)
-    return {"text": line[start:start + width], "line": n + 1,
-            "truncated": start > 0 or len(line) > start + width, "match_count": max(score, 0)}
+    result = {"text": line[start:start + width], "line": n + 1,
+              "truncated": start > 0 or len(line) > start + width, "match_count": max(score[2], 0)}
+    if selected_section:
+        result["heading"] = selected_section[:160]
+    return result

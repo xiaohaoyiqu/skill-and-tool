@@ -17,6 +17,7 @@ from sklib.evaluation import evaluate
 from sklib.failures import OperationFailure
 from sklib.semantic import embed_library
 from sklib.mcp import Session
+from sklib.text import snippet
 from sklib.web import create_server
 
 
@@ -103,6 +104,28 @@ class EvaluationTests(Fixture):
             self.assertEqual(result["mode"], mode)
             self.assertEqual(result["hit_at_k"], 1)
 
+    def test_document_titles_and_answer_evidence_have_distinct_metrics(self):
+        self.write("notes/operations.md", "# Service operations\n\n## Restart\n\nUse the local restart command.\n")
+        self.lib.index(self.root, include_docs=True)
+        cases = [
+            {"query": "restart", "kind": "document", "relevant": ["Service operations"],
+             "evidence_contains": ["local restart command"]},
+            {"query": "restart", "kind": "document", "relevant": ["Service operations"],
+             "evidence_contains": ["restart remotely"]},
+            {"query": "absent", "kind": "document", "relevant": []},
+        ]
+        result = evaluate(self.lib, self.dataset(cases))
+        self.assertEqual(result["hit_at_k"], 1)
+        self.assertEqual(result["evidence_queries"], 2)
+        self.assertEqual(result["evidence_hit_at_k"], .5)
+        self.assertEqual(result["details"][0]["returned_titles"], ["Service operations"])
+        self.assertIsNone(result["details"][2]["evidence_hit"])
+        for invalid in ["restart", [" "], [42], []]:
+            with self.subTest(invalid=invalid), patch.object(self.lib, "search") as search:
+                with self.assertRaises(ValueError):
+                    evaluate(self.lib, self.dataset([cases[0], {**cases[0], "evidence_contains": invalid}]))
+                search.assert_not_called()
+
     def test_cli_keeps_old_dataset_and_requires_explicit_embedding_model(self):
         dataset = self.dataset([{"query": "missing", "relevant": []}])
         command = [sys.executable, "-m", "sklib", "--home", str(self.lib.store.home), "eval", str(dataset)]
@@ -112,6 +135,55 @@ class EvaluationTests(Fixture):
         failed = subprocess.run(command + ["--mode", "semantic"], capture_output=True, text=True, encoding="utf-8", timeout=20)
         self.assertEqual(failed.returncode, 2)
         self.assertIn("--model", json.loads(failed.stderr)["error"])
+
+
+class WorkQueryTests(Fixture):
+    def test_chinese_task_phrase_recalls_english_skill_by_name(self):
+        self.write("verification/SKILL.md", skill("verification-before-completion", "Check evidence before finishing"))
+        self.write("generic/SKILL.md", skill("general-testing", "Testing before completion"))
+        self.lib.index(self.root)
+        for query in ("完成前验证", "提交前验证怎么做"):
+            with self.subTest(query=query):
+                results = self.lib.search(query)["results"]
+                self.assertEqual([item["name"] for item in results], ["verification-before-completion"])
+
+    def test_document_evidence_uses_body_under_matching_heading(self):
+        body = ("# Training log\n\n<a id=\"v17-为什么停训\"></a>\n"
+                "## v17 为什么停训\n\n聊天测试退化，候选拒绝采用。\n\n"
+                "## v16\n\nv16 暂停训练，等待数据。\n")
+        self.write("notes/training.md", body)
+        self.lib.index(self.root, include_docs=True)
+        result = self.lib.search("v17 为什么停训", kind="document")["results"][0]["evidence"]
+        self.assertEqual(result["text"], "聊天测试退化，候选拒绝采用。")
+        self.assertEqual(result["line"], 6)
+        self.assertEqual(result["heading"], "v17 为什么停训")
+        self.assertEqual(result["match_count"], 0)
+
+    def test_evidence_keeps_physical_lines_and_ignores_heading_syntax_in_code(self):
+        body = "# Service\r\n\r\n```sh\r\n# deployment example\r\nstart service\r\n```\r\n"
+        result = snippet(body, ["deployment"], markdown=True)
+        self.assertEqual(result["text"], "# deployment example")
+        self.assertEqual(result["line"], 4)
+        self.assertNotIn("heading", result)
+        plain = snippet('<a id="deployment"></a>\nOther text', ["deployment"])
+        self.assertEqual(plain["line"], 1)
+        self.assertEqual(plain["match_count"], 1)
+
+    def test_mixed_document_search_requires_all_explicit_identifiers(self):
+        self.write("notes/bot.md", "# QQBot\n\nQQBot 本地部署与服务维护。\n")
+        self.write("notes/cloud.md", "# AWS\n\nAWS Lambda 部署。\n")
+        self.write("notes/linked.md", "# Service deployment\n\nQQBot 在 AWS ECS 部署。\n")
+        self.lib.index(self.root, include_docs=True)
+        absent = self.lib.search("QQBot 用 AWS Lambda 部署", kind="document")
+        self.assertEqual(absent["returned"], 0)
+        present = self.lib.search("QQBot 用 AWS ECS 部署", kind="document")
+        self.assertEqual([item["title"] for item in present["results"]], ["Service deployment"])
+
+    def test_short_mixed_document_query_allows_collection_name_as_context(self):
+        self.write("notes/mcp.md", "# Host acceptance\n\nMCP 宿主验收通过。\n")
+        self.lib.index(self.root, include_docs=True)
+        result = self.lib.search("SKLIB 的 MCP 宿主验收", kind="document")
+        self.assertEqual([item["title"] for item in result["results"]], ["Host acceptance"])
 
 
 class SemanticRankingTests(Fixture):

@@ -151,6 +151,10 @@ class Library:
         # that the requested framework is absent from the indexed collection.
         has_han = any("\u3400" <= char <= "\u9fff" for char in query)
         anchors = [term for term in literal if term.isascii() and len(term) >= 3] if has_han else []
+        # Short document queries often include a collection name as context.
+        # Require every anchor for multi-identifier document queries.
+        strict_anchors = kind == "document" and len(anchors) >= 3
+        anchor_expression = match_expression(anchors, all_terms=strict_anchors)
         condition, args = selection(kind=kind, root=root, project_type=project_type, tags=tags, favorite=favorite, state=state)
         condition += " AND (" + queue_condition(queue) + ")"
         if required:
@@ -168,8 +172,8 @@ class Library:
                 if not terms:
                     continue
                 expression = match_expression(terms)
-                if anchors:
-                    expression = "(" + expression + ") AND (" + match_expression(anchors) + ")"
+                if anchor_expression:
+                    expression = "(" + expression + ") AND (" + anchor_expression + ")"
                 rows = db.execute(f"""SELECT {SUMMARY_COLUMNS},a.tags,a.note,a.favorite,a.state,a.updated_at,
                     bm25(documents_fts,0,9,5,1,6) AS lexical_score FROM documents_fts
                     JOIN documents d ON d.id=documents_fts.document_id
@@ -247,8 +251,9 @@ class Library:
             for members in grouped[offset:offset + limit]:
                 row = by_id[members[0]]
                 body = db.execute("SELECT body FROM documents WHERE id=?", (row["id"],)).fetchone()[0]
-                evidence = {"field": "body", **snippet(body, literal + expanded)}
-                if evidence["match_count"] == 0:
+                markdown = Path(row["path"]).suffix.lower() in {".md", ".markdown", ".mdx"}
+                evidence = {"field": "body", **snippet(body, literal + expanded, markdown=markdown)}
+                if evidence["match_count"] == 0 and "heading" not in evidence:
                     for field, content in (("annotation", (row["note"] or "") + " " + (row["tags"] or "")),
                                            ("name", row["name"])):
                         candidate = snippet(content, literal + expanded)
@@ -274,6 +279,7 @@ class Library:
                 if size > max_chars:
                     # Keep the first candidate usable even with a tight budget.
                     # Full paths/metadata remain available through get_skill.
+                    evidence.pop("heading", None)
                     item = {"id": row["id"], "kind": row["kind"], "name": row["name"][:120],
                             "description": row["description"][:200], "revision": row["revision"], "annotation_revision": annotation_revision(row["id"], row),
                             "score": round(scores[row["id"]], 6),
