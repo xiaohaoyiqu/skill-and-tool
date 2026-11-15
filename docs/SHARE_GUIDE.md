@@ -4,7 +4,7 @@
 
 平时收集的 AI Skills、开发工具和研究资料，按用途放在这里。每项都附上项目链接和简短介绍，找写作、编程、做界面或读论文的工具，可以直接跳到对应分类。
 
-共收录 142 个不同的项目与论文来源。Skill 通常是一组让 AI 按特定方法工作的说明，有些会附带脚本；组件库、桌面应用和模型项目则需要按各自说明使用。链接指向项目或论文来源，具体安装方式、依赖与许可请查看原始说明。
+共收录 143 个不同的项目与论文来源。Skill 通常是一组让 AI 按特定方法工作的说明，有些会附带脚本；组件库、桌面应用和模型项目则需要按各自说明使用。链接指向项目或论文来源，具体安装方式、依赖与许可请查看原始说明。
 
 ## 中文写作与改稿
 
@@ -87,6 +87,7 @@
 | [web-access](https://github.com/eze-is/web-access) | 联网策略与浏览器操作 Skill，结合检索、网页读取和 CDP 操作处理联网任务。 |
 | [ego-lite](https://github.com/citrolabs/ego-lite) | 围绕人与 Agent 共同使用浏览器设计的项目，关注独立任务空间；使用前先看当前平台支持。 |
 | [nanobrowser](https://github.com/nanobrowser/nanobrowser) | 浏览器扩展形态的网页自动化项目，适合研究在浏览器内让 Agent 执行操作的方式。 |
+| [tailcat](https://github.com/tailscale/tailcat) | 使用 Tailscale 数据平面建立 WireGuard 加密的点对点连接，提供类似 netcat 的文本、文件传输和端口转发；连接元数据通过带外地址交换，无需 Tailscale 账号。BSD-3-Clause。 |
 
 ## Agent 应用与任务管理
 
@@ -155,6 +156,7 @@
 | [pipeforge](https://github.com/Sheraz-k/pipeforge) | CI/CD 流水线生成工具，适合参考不同项目的持续集成与部署配置。 |
 | [terraform](https://github.com/hashicorp/terraform) | 以配置文件管理基础设施的工具，适合研究环境的创建、变更与版本管理；使用条件查看对应版本许可。 |
 | [OpenAuth](https://github.com/anomalyco/openauth) | 可自行托管的 OAuth 2.0 身份认证服务，适合参考多应用登录和身份提供方接入；仍处于 beta，用户管理由应用自行实现。 |
+| [codex-security](https://github.com/openai/codex-security) | 用于漏洞发现、验证、修复及威胁建模的 CLI、TypeScript SDK 和 Codex 插件工作流；Apache-2.0。保存源码与 Skill，未安装或运行安全扫描。 |
 
 ## 安全分析与逆向
 
@@ -214,7 +216,7 @@
 | [prompts.chat](https://github.com/f/prompts.chat) | 提示词社区、提示词数据与可自托管站点；源码和站点原创内容 MIT，提示词数据 CC0。附 2 个检索类插件 Skill 和 2 个项目开发 Skill，均仅随源码保存。 |
 | [freebie-radar](https://github.com/ZiChuanLan/freebie-radar) | 自托管资源聚合与推送工作台，通过规则和 AI 筛选福利、优惠、开源项目及资讯，支持多来源采集与 Telegram 路由；MIT，无 SKILL.md。 |
 | [Horizon](https://github.com/Thysrael/Horizon) | 按个人兴趣聚合新闻、评分去重并生成中英双语简报，提供 CLI、MCP 与多种投递方式；MIT，附 1 个 Horizon Skill。 |
-| [modern-web-guidance-src](https://github.com/GoogleChrome/modern-web-guidance-src) | Modern Web Guidance 的编写、构建、校准与评测源码仓库；当前源码 101.45 MB，超过本批限额，仅登记。与已保存的分发仓库分别记录。 |
+| [modern-web-guidance-src](https://github.com/GoogleChrome/modern-web-guidance-src) | Modern Web Guidance 的指南编写、构建、校准与评测源码；按用户明确授权浅克隆，含 Git 178.77 MB。代码 Apache-2.0，guides/ 文档 CC-BY-4.0；附 13 个维护 Skill 与 2 个分发源入口。 |
 
 ## 补充来源
 

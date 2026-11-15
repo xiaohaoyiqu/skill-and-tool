@@ -8,7 +8,68 @@
 
 ---
 
+## 2026-11-15 全目录同步
+
+按用户“查看本地目录有什么更新，进行更新，更新好后进行提交”的指令，对 **134 个可见一级 Git 仓库**执行在线同步检查。隐藏聚合仓库用于提交台账，不混入第三方批量更新；没有递归更新子模块或其他嵌套仓库。
+
+结果：**已在线核对，无需更新 40 个；本地修改，保留原状 2 个；无 upstream，保留原状 1 个；部分克隆资料库，保留按需下载布局 2 个；已快进更新并通过对象校验 89 个**。网络 TLS 中断和超时已按独立重试报告处理，最终无未处理的同步失败。已更新仓库工作树干净、与抓取的 upstream 一致并通过对象校验；所有仓库最终 HEAD 均已复核，跳过项目保持原提交。Ghost-Downloader-3 父仓库已更新到 `d6273793`，既有 `browser_extension/upstream` 子模块也从 `b34a7677` 切换到父仓库锁定的 `97f6005b`；Awesome-Agent-Skills-for-Empirical-Research 的既有 Paper-WorkFlow 子模块也已同步至新父仓库锁定提交，具体前后版本见子模块核验 JSON。两棵工作树均干净，没有初始化新的子模块。
+
+本轮初次按 **120,000,000 字节**上限核算，25 个已有项目暂缓检出；随后用户明确授权“超过限制的可以直接更新”，这 25 个项目已全部按大小例外继续更新，最终不再有因大小限制而跳过的项目。包括 Ghidra、ECC、Codetracer、Terraform、prompts.chat、Taste Skill 等，具体前后提交和实际大小见最终 JSON。**新增项目的默认下载上限仍为 120 MB，已有仓库更新按本次授权允许超限**。daizhigev20 与 scientific-agent-skills 原为部分克隆，保留按需下载布局，未补全其全部缺失正文或对象。
+
+| 仓库 | 处理结果 | 本地保留提交 |
+|------|------|------|
+| Agent-Reach-v1.6.1 | 无 upstream，保留原状 | `7a38047a` |
+| daizhigev20 | 部分克隆资料库，保留按需下载布局 | `012bc393` |
+| reverse-skill | 本地修改，保留原状 | `a5171e03` |
+| scientific-agent-skills | 部分克隆资料库，保留按需下载布局 | `1e5eeffb` |
+| sklib | 本地修改，保留原状 | `730df725` |
+
+Horizon 与 freebie-radar 已在此前专项核验中从 `ae30765a`、`2fb807c1` 快进到 `12d5fbde`、`4f89041a`；本次全目录核对无需再次更新，详见[专项记录](#2026-11-15-horizon-与-freebie-radar-再次核验)。来源去重数量仍为 **143 项**。新版一级仓库表以本次实际 HEAD 与同步结果为准；旧批次提交、Skill 数量与能力评价保留原核验时间，没有将物理文件数直接当作逻辑 Skill 总数。
+
+新增 `scripts/sync-repositories.py`，默认只读检查，`--pull` 显式同步，`--allow-over-limit` 对应用户授权；为快进、本地修改、分叉、超限、分离 HEAD、只读模式、部分克隆保护和明确大小例外运行 **9 项本地 Git 场景测试，全部通过**。未安装依赖、模型、全局 Skill/MCP，也未启动第三方应用或浏览器。
+
+完整结果见[最终核验 JSON](../scripts/repository-sync-20261115-final.json)；首轮与各次重试路径列在其 `evidence` 字段。聚合仓库只提交来源、索引、维护脚本和校验记录，不提交第三方仓库工作树、Git 对象或 Python 缓存。
+
+
+## 2026-11-15 Horizon 与 freebie-radar 再次核验
+
+用户再次指定两个已有来源，先查同日记录再获取远端更新，沿用新默认 **120 MB（源码与 Git 合计）** 上限，不重复增加来源数量。
+
+| 项目 | 更新前 → 更新后 | 本地大小（含 Git） | Skill 与用途 |
+|------|------|------|------|
+| [Horizon](https://github.com/Thysrael/Horizon) | `ae30765a` → `12d5fbde`，main 快进 | 15,636,105 字节（15.64 MB） | 1 个 `skills/horizon/SKILL.md`；新闻聚合、筛选、简报生成与投递，MIT |
+| [freebie-radar](https://github.com/ZiChuanLan/freebie-radar) | `2fb807c1` → `4f89041a`，main 快进 | 4,077,300 字节（4.08 MB） | 0 个 SKILL.md；资源聚合、筛选与推送工作台，MIT |
+
+两者工作树干净、与本次获取的 origin/main 一致并通过 Git 对象校验。未安装依赖、全局 Skill/MCP 或运行采集和推送；后续全目录同步以其单独记录为准。完整证据见[本次复核 JSON](../scripts/repository-review-20261115-radar-recheck.json)。
+
+## 2026-11-15 网络工具、安全审查与 Chrome 项目追加核验
+
+先查既有记录：open-code-review 已于 9 月 15 日收录、10 月 27 日更新；chrome-devtools-mcp 已有本地源码；modern-web-guidance-src 在同日早批次因超过 100 MB 只登记；tailcat 与 codex-security 为新来源。
+
+用户追加指令将后续单项目默认上限从 100 MB 提高为 **120,000,000 字节（120 MB）**，仍按完整当前源码与 `.git` 文件长度合计。三个新克隆只保存默认分支浅历史，已有两个仓库仅 fast-forward；跳过 LFS 实体和第三方子模块，不下载运行依赖。此前 100 MB 的历史记录保留原口径。
+
+| 项目 | 本次处理与提交 | 本地大小（含 Git） | 用途与许可 |
+|------|------|------|------|
+| [tailcat](https://github.com/tailscale/tailcat) | 新增浅克隆，main `e00cdde6` | **1.14 MB** | 使用 Tailscale 数据平面建立 WireGuard 加密的点对点连接，提供类似 netcat 的文本、文件传输和端口转发；连接元数据通过带外地址交换，无需 Tailscale 账号。BSD-3-Clause。 |
+| [open-code-review](https://github.com/alibaba/open-code-review) | 已有仓库快进更新，main `375f64cd` → `7e5ce06c` | **25.59 MB** | 基于 Git 差异、确定性流程与 LLM Agent 的代码审查 CLI，含规则匹配、行级评论及委托审查 Skill；Apache-2.0。 |
+| [codex-security](https://github.com/openai/codex-security) | 新增浅克隆，main `173483d7` | **33.62 MB** | 用于漏洞发现、验证、修复及威胁建模的 CLI、TypeScript SDK 和 Codex 插件工作流；Apache-2.0。保存源码与 Skill，未安装或运行安全扫描。 |
+| [chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | 已有仓库快进更新，main `086299a6` → `8ba2ac94` | **23.59 MB** | 通过 Chrome DevTools 为 Agent 提供浏览器检查、网络与性能调试能力，含 MCP、CLI 及 8 个 Skill；Apache-2.0。仅更新源码，未启用 MCP 或连接浏览器。 |
+| [modern-web-guidance-src](https://github.com/GoogleChrome/modern-web-guidance-src) | 新增浅克隆，main `5e5cd33a` | **178.77 MB** | Modern Web Guidance 的指南编写、构建、校准与评测源码；按用户明确授权浅克隆，含 Git 178.77 MB。代码 Apache-2.0，guides/ 文档 CC-BY-4.0；附 13 个维护 Skill 与 2 个分发源入口。 |
+
+**modern-web-guidance-src 大小例外**：本次源码 101,448,846 字节，检出前 Git 数据 77,001,261 字节，检出后合计 **178,774,265 字节（178.77 MB）**，也超过新上限。按用户“这可以下载下来”的明确授权保留完整当前源码浅克隆，不删除资源或稀疏检出。此前只登记的状态已被本节的实际下载结果替代；不追溯改写早批次核验 JSON。
+
+Skill 分类：open-code-review 仍为 **2 个逻辑入口、4 个物理文件**；codex-security 有 **20 个插件入口**，另有 `evals/check-skills/fixtures/` 下 **4 个测试夹具**，合计 24 个物理文件；chrome-devtools-mcp 有 **8 个入口**；modern-web-guidance-src 有 **13 个项目维护入口**与 `guides/modern-web-guidance/SKILL.md`、`skills-src/chrome-extensions/SKILL.md` 两个分发源入口，后两者与已有分发仓库对应，不重复增加逻辑数量；tailcat 没有 SKILL.md。均只随源码保存，没有安装全局 Skill。
+
+运行条件按固定提交记录：tailcat 的 go.mod 为 Go 1.27.2；open-code-review 为 Go 1.26.10，实际审查另需模型服务。codex-security 要求 Node.js 22.13+（22.x）、24.x 或 26.x，以及 Python 3.10+；实际使用需认证和服务配置。chrome-devtools-mcp 运行需受支持的 Node.js 和 Chrome，当前 package.json 声明 Node `^20.19.0 || ^22.12.0 || >=23`；源码构建另需其构建工具链与第三方内容。modern-web-guidance-src 声明 Node.js >=22.18.0，评测另需服务配置。
+
+chrome-devtools-mcp 的 `third_party/devtools-frontend` 子模块仅登记锁定提交 `ab6a630afc025e268297e4b4084886d3e955a171`，未初始化；表内大小不含该第三方内容和运行依赖。五个父仓库均工作树干净、与本次抓取的 origin/main 一致并通过 `git fsck --no-reflogs`。未安装依赖、全局 CLI/Skill/MCP，未启动浏览器、服务或扫描。分享表复核原有 141 个不同来源（旧标题误写 142），新增两个来源后为 **143 项**，其他历史全量统计不重算。
+
+完整提交、源码字节数、Skill 路径、来源与校验见[本批核验 JSON](../scripts/repository-review-20261115-tailcat.json)；追加三个链接的下载前 API 快照见[API 记录](../scripts/repository-api-20261115-additions.json)。
+
+
 ## 2026-11-15 提示词社区、资源雷达与 Modern Web Guidance 源码
+
+> 本节保留同日早批次快照。modern-web-guidance-src 随后已按用户明确授权下载，当前状态和新的 120 MB 规则见上方追加核验记录。
 
 用户取消两条 Twitter 链接，改为检查 `GoogleChrome/modern-web-guidance-src`。普通项目仍要求当前源码与 `.git` 文件长度合计严格小于 **100,000,000 字节**；`prompts.chat` 按用户“这个直接克隆下来”的指令作为本批单项目大小例外。采用默认分支 `--depth 1 --no-checkout`，核算后检出；未拉取完整历史。
 
@@ -296,7 +357,7 @@ OpenShell 当前 README 将 Windows + WSL 2 标为实验性路径；原生 Windo
 ### 静态核验
 
 - 6 个新增仓库均为 `main` 分支、`--depth 1` 浅克隆、干净工作树，无 `.gitmodules` 和 Git LFS 规则，并通过 `git fsck --no-reflogs`。
-- 本地占用约为：Rare UI 24.8 MiB、shadcn/ui 62.6 MiB、Beautiful UI 1.3 MiB、beUI 10.5 MiB、Transitions.dev 44.6 MiB、No AI Slop 0.5 MiB，合计约 144.3 MiB。
+- 本地占用约为：Rare UI 24.8 MiB、shadcn/ui 62.6 MiB、Beautiful UI 1.3 MiB、beUI 10.5 MiB、Transitions.dev 44.6 MiB、No AI Slop 0.5 MiB，合计约 143.3 MiB。
 - 本轮只保存源码和索引，没有执行仓库代码、安装 npm/bun/Python 依赖、启动 Refine 服务、访问 Pro registry，或写入全局 Codex skills。
 - 搜索中另发现 `Kainiko943/beautiful-ui`，但 `beautifului.dev` 官网对应的是 `slev12397/beautiful-ui`，因此未克隆前者。
 

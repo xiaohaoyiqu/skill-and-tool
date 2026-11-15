@@ -2,7 +2,7 @@
 
 **生成时间**: 2026-07-30 11:08:51 +08:00
 **初始整理时间**: 2026-07-30
-**最近核对**: 2026-11-13
+**最近核对**: 2026-11-15
 **范围（历史快照）**: `E:\aimodel` 顶层目录中带 `.git` 且 origin 指向 GitHub 的仓库
 **数量（当时）**: 61 个
 **状态**: 自动 star 受本机 GitHub CLI/API 环境影响，本清单改为手动处理参考
@@ -10,6 +10,24 @@
 ---
 
 > 本文件只保留 GitHub 链接和历史范围，不参与当前 skill 更新判定；当前目录台账请查看 [SKILLS_INDEX.md](SKILLS_INDEX.md)。
+
+## 2026-11-15 全目录同步
+
+本次对 134 个可见一级仓库检查更新；更新结果与跳过原因以[全目录同步台账](GITHUB_REPOS.md#2026-11-15-全目录同步)及[版本表](REPOSITORIES.md)为准。Horizon 与 freebie-radar 已专项快进并记录，两个来源均已在旧批次收录，不重复计数。分享清单保留 143 个不同来源，未执行 GitHub Star 动作。
+
+
+## 2026-11-15 网络工具、安全审查与 Chrome 项目追加核验
+
+| 项目 | 来源 | 当前处理 |
+|------|------|------|
+| tailcat | https://github.com/tailscale/tailcat | `e00cdde6`；1.14 MB，新增浅克隆 |
+| open-code-review | https://github.com/alibaba/open-code-review | `7e5ce06c`；25.59 MB，已有仓库快进更新 |
+| codex-security | https://github.com/openai/codex-security | `173483d7`；33.62 MB，新增浅克隆 |
+| chrome-devtools-mcp | https://github.com/ChromeDevTools/chrome-devtools-mcp | `8ba2ac94`；23.59 MB，已有仓库快进更新 |
+| modern-web-guidance-src | https://github.com/GoogleChrome/modern-web-guidance-src | `5e5cd33a`；178.77 MB，新增浅克隆 |
+
+新增两个不同来源；modern-web-guidance-src 已从同日早批次的仅登记改为按明确授权下载。未来默认上限 120 MB，本项目实际 178.77 MB 为用户授权大小例外。分享清单共 143 项；未执行 GitHub Star 动作。详见[本批台账](GITHUB_REPOS.md#2026-11-15-网络工具安全审查与-chrome-项目追加核验)。
+
 
 ## 2026-11-13 VoxCPM 与 Modern Web Guidance
 

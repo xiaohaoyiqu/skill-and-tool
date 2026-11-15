@@ -2,9 +2,11 @@
 
 **扫描目录**: `E:\aimodel`
 
-**目录计数与本批核验时间**: 2026-10-27（当日核验 6 个 Skill/工具仓库和 5 个模型源码仓库，其余行保留各自历史状态）
+**最新全目录核验**: 2026-11-15；134 个可见一级仓库，另有 1 个隐藏聚合仓库；结果见[全目录同步台账](GITHUB_REPOS.md#2026-11-15-全目录同步)。下表各行均已刷新为本次本地实际 HEAD，历史批次说明保留原日期。
 
-**一级仓库目录数（2026-10-27）**: 111（110 个可见第三方仓库 + 1 个隐藏聚合仓库）
+**历史目录计数与本批核验时间**: 2026-10-27（当日核验 6 个 Skill/工具仓库和 5 个模型源码仓库，其余行保留各自历史状态）
+
+**历史一级仓库目录数（2026-10-27）**: 111（110 个可见第三方仓库 + 1 个隐藏聚合仓库）
 
 本表记录一级 Git 仓库的上游地址、当前分支、提交和同步状态。第三方仓库实体不重复上传到本聚合仓库；需要内容时应从对应上游克隆并遵守其许可证。Skill 数量与能力评估见 [SKILLS_INDEX.md](SKILLS_INDEX.md)，批次说明见 [GITHUB_REPOS.md](GITHUB_REPOS.md)。
 
@@ -34,137 +36,144 @@
 
 2026-11-15 新增 `prompts.chat/`、`freebie-radar/`、`Horizon/` 三个源码浅克隆，含 Git 分别为 250.65、3.92、15.60 MB；prompts.chat 按用户指令豁免本批大小限制。`modern-web-guidance-src` 源码已达 101.45 MB，超限只登记。两个 11 月 13 日已有项目在线核对仍为最新。五个本地仓库均工作树干净并通过对象校验；未安装依赖或全局 Skill。见[下载台账](GITHUB_REPOS.md#2026-11-15-提示词社区资源雷达与-modern-web-guidance-源码)及[核验 JSON](../scripts/repository-review-20261115.json)。
 
+2026-11-15 追加核验五个项目：新增 tailcat、codex-security、modern-web-guidance-src，快进更新 open-code-review 与 chrome-devtools-mcp。默认限额提高为 120 MB；modern-web-guidance-src 按明确授权保留 178.77 MB 源码浅克隆。五者校验通过，历史目录总数不重算。详见[本批台账](GITHUB_REPOS.md#2026-11-15-网络工具安全审查与-chrome-项目追加核验)。
+
 | 本地目录 | 上游 | 分支 | HEAD | 状态 |
 |------|------|------|------|------|
-| VoxCPM | https://github.com/OpenBMB/VoxCPM.git | main | `300e4260` | 新增浅克隆（2026-11-13）；10.14 MB，干净且与 origin/main 一致；仅源码/资料 |
-| modern-web-guidance | https://github.com/GoogleChrome/modern-web-guidance.git | main | `4dd96834` | 新增浅克隆（2026-11-13）；3.16 MB，干净且与 origin/main 一致；2 个正式 Skill 随源码保存 |
-| DeepTutor | https://github.com/HKUDS/DeepTutor.git | main | `60fb3bdf` | 新增浅克隆（2026-11-12，用户授权大小例外）；106.70 MB，干净且与 origin/main 一致；仅源码/资料 |
-| harness2 | https://github.com/google-research/harness2.git | main | `68688175` | 新增浅克隆（2026-11-12）；15.30 MB，干净且与 origin/main 一致；仅源码/资料 |
-| minimind | https://github.com/jingyaogong/minimind.git | master | `233d00fa` | 新增浅克隆（2026-11-12）；23.36 MB，干净且与 origin/master 一致；仅源码/资料 |
-| stemdeck | https://github.com/stemdeckapp/stemdeck.git | main | `5f9405ca` | 新增浅克隆（2026-11-11）；14.96 MB，干净且与 origin/main 一致；仅源码/资料 |
-| openauth | https://github.com/anomalyco/openauth.git | master | `98dc5962` | 新增浅克隆（2026-11-11）；4.47 MB，干净且与 origin/master 一致；仅源码/资料 |
-| laya | https://github.com/NandhaKishorM/laya.git | main | `3a38cbe8` | 新增浅克隆（2026-11-11）；74.47 MB，干净且与 origin/main 一致；仅源码/资料 |
-| Ix | https://github.com/ix-infrastructure/Ix.git | main | `b7ea8d9b` | 新增浅克隆（2026-11-11）；20.16 MB，干净且与 origin/main 一致；仅源码/资料 |
-| Hands-On-Large-Language-Models | https://github.com/HandsOnLLM/Hands-On-Large-Language-Models.git | main | `ea339081` | 新增浅克隆（2026-11-11）；19.71 MB，干净且与 origin/main 一致；仅源码/资料 |
-| HowToLiveBetter | https://github.com/eternity4719/HowToLiveBetter.git | main | `dff814dc` | 新增浅克隆（2026-11-11）；9.79 MB，干净且与 origin/main 一致；仅源码/资料 |
-| up | https://github.com/byoungd/up.git | main | `ddc96d37` | 新增浅克隆（2026-11-11）；36.86 MB，干净且与 origin/main 一致；仅源码/资料 |
-| OpenShell | https://github.com/NVIDIA/OpenShell.git | main | `9525bec0` | 新增浅克隆（2026-11-09）；约 55.65 MB，干净且与 origin/main 一致；仅源码参考 |
-| context-mode | https://github.com/mksglu/context-mode.git | main | `3a3ef7d5` | 新增浅克隆（2026-11-09）；v2.1.7，约 37.44 MB，Elastic-2.0；未配置 hooks/MCP |
-| stt | https://github.com/jianchang512/stt.git | main | `0df3151d` | 已浅克隆（2026-11-01）；v0.0.94，约 1.98 MiB，干净且与 origin/main 一致 |
-| kgka_Music_hl | https://github.com/umr-xiaomai/kgka_Music_hl.git | master | `166e84bd` | 已浅克隆（2026-10-30）；静态参考，在线API未实测 |
-| Agent-Reach | https://github.com/Panniantong/Agent-Reach.git | main | `da5044d2` | 已同步（2026-09-05） |
-| agent-rules-books | https://github.com/ciembor/agent-rules-books.git | main | `9c876361` | 已同步 |
-| archify | https://github.com/tt-a1i/archify.git | main | `d8e4daf2` | 已同步（2026-09-05） |
-| agent-skills | https://github.com/addyosmani/agent-skills.git | main | `84ee5067` | 已同步（2026-09-05） |
-| AI-Research-SKILLs | https://github.com/Orchestra-Research/AI-Research-SKILLs.git | main | `773a5294` | 已同步 |
-| ai-unit-tests-generator | https://github.com/gustavolopess/ai-unit-tests-generator.git | main | `064857e2` | 已同步 |
-| andrej-karpathy-skills | https://github.com/multica-ai/andrej-karpathy-skills.git | main | `2c606141` | 已同步 |
-| anthropic-skills | https://github.com/anthropics/skills.git | main | `41bbe19d` | 已同步（2026-09-05） |
-| avoid-ai-writing | https://github.com/conorbronsdon/avoid-ai-writing.git | main | `4b922189` | 已同步（2026-09-05） |
-| awesome-agent-skills | https://github.com/JackyST0/awesome-agent-skills.git | main | `2961d1ea` | 已同步（2026-09-05） |
-| Awesome-Agent-Skills-for-Empirical-Research | https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills.git | main | `129c4591` | 已同步（含锁定子模块，2026-09-05） |
-| awesome-claude-skills | https://github.com/travisvn/awesome-claude-skills.git | main | `1da55aa8` | 已同步 |
-| awesome-design-md | https://github.com/VoltAgent/awesome-design-md.git | main | `8147538b` | 已同步 |
-| awesome-llm-apps | https://github.com/Shubhamsaboo/awesome-llm-apps.git | main | `24c85b09` | 已同步（2026-09-05） |
-| beautiful-ui | https://github.com/slev12397/beautiful-ui.git | main | `ff0f74d6` | 已浅克隆（2026-09-14） |
-| beui | https://github.com/starc007/ui-components.git | main | `8d3fa7b4` | 已浅克隆（2026-09-14） |
-| browser-use | https://github.com/browser-use/browser-use.git | main | `d5453ae8` | 已同步（2026-09-05） |
-| build-your-own-x | https://github.com/codecrafters-io/build-your-own-x.git | master | `aa17439b` | 已同步 |
-| caveman-full | https://github.com/JuliusBrussee/caveman.git | main | `5184b3d1` | 已同步（2026-09-05） |
-| chrome-devtools-mcp | https://github.com/ChromeDevTools/chrome-devtools-mcp.git | main | `086299a6` | 已同步（2026-09-05） |
-| claude-cookbooks | https://github.com/anthropics/claude-cookbooks.git | main | `a97b9a2d` | 已同步（2026-09-05） |
-| claude-guides-full | https://github.com/vtroisWhite/andrej-karpathy-skills.git | main | `54a3028c` | 已同步 |
-| claude-scholar | https://github.com/Galaxy-Dawn/claude-scholar.git | main | `6ed46dac` | 已同步 |
-| claude-skill-refactoring-ui | https://github.com/opkod-france/claude-skill-refactoring-ui.git | main | `80994d98` | 已同步 |
-| claude-video | https://github.com/bradautomates/claude-video.git | main | `83da59fa` | 已同步 |
-| code-review-plugin | https://github.com/anthropics/claude-plugins-official.git | main | `85cce038` | 已同步（2026-09-05） |
-| codetracer | https://github.com/metacraft-labs/codetracer.git | stable | `0478cb4f` | 已跟踪新默认分支；旧 `main` 保留 3 个独有提交 |
-| crawl4ai | https://github.com/unclecode/crawl4ai.git | main | `862f6bcc` | 已同步（2026-09-05） |
-| daizhigev20 | https://github.com/daizhige-org/daizhigev20.git | data | `012bc393` | 已同步 |
-| developer-portfolios | https://github.com/emmabostian/developer-portfolios.git | master | `c7c021be` | 已同步（2026-09-05） |
-| ego-lite | https://github.com/citrolabs/ego-lite.git | main | `5ca3c36c` | 已同步（浅克隆） |
-| ECC | https://github.com/affaan-m/ECC.git | main | `25278e7d` | 新增浅克隆；主 skills/ 下 311 个入口（2026-10-27） |
-| effective-html | https://github.com/plannotator/effective-html.git | main | `d95debba` | 已克隆（浅克隆，2026-09-03） |
-| emilkowalski-skills | https://github.com/emilkowalski/skills.git | main | `d23d7f88` | 已同步 |
-| goose | https://github.com/aaif-goose/goose.git | main | `5e909259` | 已同步（2026-09-05） |
-| gortex | https://github.com/zzet/gortex.git | main | `134f4f20` | 已同步（2026-09-05） |
-| Ghost-Downloader-3 | https://github.com/XiaoYouChR/Ghost-Downloader-3.git | catalog/upstream-20261027 | `ee0cb1aa` | 已跟踪当前上游；旧 main@601e2068 保留；cat-catch@b34a7677（2026-10-27） |
-| ghidra | https://github.com/NationalSecurityAgency/ghidra.git | master | `1b9e58a9` | 新增浅克隆；源码，非运行发行包（2026-10-27） |
-| graphify | https://github.com/Graphify-Labs/graphify.git | v8 | `937e59a5` | 已补全历史并同步（2026-09-05） |
-| hallmark | https://github.com/Nutlope/hallmark.git | main | `13ac0ec7` | 已同步 |
-| headroom | https://github.com/headroomlabs-ai/headroom.git | main | `e59cf101` | 已同步（2026-09-05） |
-| Humanizer-zh | https://github.com/op7418/Humanizer-zh.git | main | `91f3d394` | 已同步 |
-| human-writing | https://github.com/KKKKhazix/human-writing.git | main | `4fda173f` | 已同步 |
-| hyperframes | https://github.com/heygen-com/hyperframes.git | main | `ae3d80c3` | 已同步（2026-09-05） |
-| inspira-ui | https://github.com/rahulv-official/inspira-ui.git | main | `db389077` | 已同步（2026-09-05） |
-| kepano-obsidian | https://github.com/kepano/kepano-obsidian.git | main | `47369734` | 已同步 |
-| khazix-skills | https://github.com/KKKKhazix/khazix-skills.git | main | `7a5c4934` | 已同步 |
-| knowledge-work-plugins | https://github.com/anthropics/knowledge-work-plugins.git | main | `1f517b9d` | 已同步（2026-09-05） |
-| last30days-skill | https://github.com/mvanhorn/last30days-skill.git | main | `56ba5ace` | 已同步（2026-09-05） |
-| LEANN | https://github.com/StarTrail-org/LEANN.git | main | `9b786b02` | 已同步（2026-09-05） |
-| liteparse | https://github.com/run-llama/liteparse.git | main | `cc38a9cc` | 已同步（2026-09-05） |
-| loopx | https://github.com/huangruiteng/loopx.git | main | `e3f9b536` | 已同步（浅克隆，2026-09-05） |
-| magenta-realtime | https://github.com/magenta/magenta-realtime.git | main | `694a545e` | 源码浅克隆；SequenceLayers 子模块未初始化；后续仅更新记录（2026-10-27） |
-| markdown-viewer-skills | https://github.com/markdown-viewer/skills.git | main | `a3afd455` | 已同步 |
-| manim | https://github.com/3b1b/manim.git | master | `fafa083a` | 已有浅克隆；2026-09-15 补登记 |
-| mattpocock-skills | https://github.com/mattpocock/skills.git | main | `3cca18b3` | 已同步（2026-09-05） |
-| mergration | https://github.com/38tter/mergration.git | main | `0595ea02` | 已同步 |
-| mermaid-erd-generator | https://github.com/nharsch/mermaid-erd-generator.git | main | `cbecf0ba` | 已同步 |
-| minimax-skills | https://github.com/MiniMax-AI/skills.git | main | `60aaae52` | 已同步 |
-| multi-style-image-generator | https://github.com/powerycy/multi-style-image-generator.git | main | `db800774` | 已同步（2026-09-05） |
-| nanobrowser | https://github.com/nanobrowser/nanobrowser.git | master | `24a14b76` | 已同步 |
-| nature-skills | https://github.com/Yuan1z0825/nature-skills.git | main | `b1a37a2b` | 已同步（2026-09-05） |
-| nginx-http-flv-module | https://github.com/winshining/nginx-http-flv-module.git | master | `2ad3dabe` | 已同步 |
-| no-ai-slop | https://github.com/petergyang/no-ai-slop.git | main | `000650b1` | 已浅克隆（2026-09-14） |
-| obsidian-skills | https://github.com/kepano/obsidian-skills.git | main | `a1dc48e6` | 已同步 |
-| OpenCLI | https://github.com/jackwener/OpenCLI.git | main | `8271afc6` | 已同步（2026-09-05） |
-| open-code-review | https://github.com/alibaba/open-code-review.git | main | `375f64cd` | 已快进同步；保持浅克隆（2026-10-27） |
-| open-design | https://github.com/nexu-io/open-design.git | main | `50e305df` | 已同步（2026-09-05） |
-| open-source-games | https://github.com/bobeff/open-source-games.git | main | `3a9ab8fc` | 已同步 |
-| openwork | https://github.com/different-ai/openwork.git | dev | `89558a98` | 已同步（2026-09-05） |
-| Paper2Any | https://github.com/OpenDCAI/Paper2Any | main | `b538531e` | 已同步（2026-09-05） |
-| PaperSpine | https://github.com/WUBING2023/PaperSpine.git | main | `1fe46f0e` | 已同步（2026-09-05） |
-| patent-disclosure-skill | https://github.com/handsomestWei/patent-disclosure-skill.git | main | `a0156905` | 已完整克隆（2026-09-05） |
-| pdf-inspector | https://github.com/firecrawl/pdf-inspector.git | main | `636ca1a5` | 已同步（浅克隆，2026-09-05） |
-| pi | https://github.com/earendil-works/pi.git | main | `da840b62` | 已同步（2026-09-05） |
-| pipeforge | https://github.com/Sheraz-k/pipeforge.git | master | `ba84e9ff` | 已同步 |
-| pisper | https://github.com/ling-kong-ran/pisper.git | release | `90983c5c` | 已同步（2026-09-05） |
-| playcaptcha | https://github.com/mortspace/playcaptcha.git | main | `e9e0e0f0` | 已同步 |
-| pocket-tts | https://github.com/kyutai-labs/pocket-tts.git | main | `77c3d76b` | 源码浅克隆；CPU TTS 评价，未安装模型（2026-10-27） |
-| public-apis | https://github.com/public-apis/public-apis.git | master | `9d042687` | 已同步（2026-09-05） |
-| python-refactoring-skills | https://github.com/l-mb/python-refactoring-skills.git | main | `b0835710` | 已同步 |
-| rare-ui | https://github.com/swamimalode07/rare-ui.git | main | `d146c352` | 已浅克隆（2026-09-14） |
-| rea | https://github.com/morluto/rea.git | main | `570abe95` | 新增浅克隆；5 个第三方子模块未初始化（2026-10-27） |
-| reverse-skill | https://github.com/zhaoxuya520/reverse-skill.git | main | `a5171e03` | 本地修改 3；ahead 1 / behind 142，未拉取 |
-| SafeGuard-Code-Profiler | https://github.com/hamed-kuheil/SafeGuard-Code-Profiler.git | main | `6d759c29` | 已同步 |
-| scientific-agent-skills | https://github.com/K-Dense-AI/scientific-agent-skills.git | main | `1e5eeffb` | 已同步（2026-09-05） |
-| scramble | https://github.com/dedoc/scramble.git | main | `7cf945d1` | 已同步（2026-09-05） |
-| sepia | https://github.com/Nanako0129/sepia.git | main | `401c89e4` | 已同步（2026-09-05） |
-| SESA-Self-Evolving-Search-Agents | https://github.com/Zenghuang-Fu/SESA-Self-Evolving-Search-Agents.git | master | `74de5d77` | 已同步 |
-| shadcn-ui | https://github.com/shadcn-ui/ui.git | main | `2b3e6d4f` | 已浅克隆（2026-09-14） |
-| skill-up | https://github.com/alibaba/skill-up.git | main | `78148136` | 已快进更新（2026-11-09）；约 13.00 MB，1 个正式 skill-upper；干净且与 origin/main 一致 |
-| skills-compat-manager | https://github.com/hnaymyh123-henry/skills-compat-manager.git | master | `8be1357e` | 已同步 |
-| skillspector | https://github.com/NVIDIA/skillspector.git | main | `7805bb94` | 已同步（2026-09-05） |
-| skillsProject-AI-Log-Analyzer | https://github.com/sahanaydn/skillsProject-AI-Log-Analyzer.git | main | `3682eae2` | 已同步 |
-| SmeLLM | https://github.com/refactoring-assistant/SmeLLM.git | main | `8b3a5250` | 已同步 |
-| superpowers-repo | https://github.com/obra/superpowers.git | main | `b36e0829` | 已同步 |
-| supertonic | https://github.com/supertone-oss-archive/supertonic.git | main | `1e9799e9` | 源码浅克隆；已归档，记录维护与权重许可差异（2026-10-27） |
-| SupplyChainScanner | https://github.com/benjiamin911/SupplyChainScanner.git | main | `6e4dcc10` | 已同步 |
-| taste-skill | https://github.com/Leonxlnx/taste-skill.git | main | `ccbc1563` | 已同步 |
-| terraform | https://github.com/hashicorp/terraform.git | main | `7b8c301b` | 已完整克隆（2026-09-05） |
-| timesfm | https://github.com/google-research/timesfm.git | master | `e51928e2` | 源码浅克隆；交叉引用已有预测 Skill，区分 2.5/3.0 许可（2026-10-27） |
-| transitions-dev | https://github.com/Jakubantalik/transitions.dev.git | main | `598d3d6a` | 已浅克隆（2026-09-14） |
-| ui-ux-pro-max-skill | https://github.com/nextlevelbuilder/ui-ux-pro-max-skill.git | main | `f3ac1952` | 已同步（2026-09-05） |
-| vue-skills-full | https://github.com/vuejs-ai/skills.git | main | `c9d355ff` | 已同步 |
-| VibeVoice | https://github.com/microsoft/VibeVoice.git | main | `16fb2cb1` | 源码浅克隆；区分历史 TTS、Realtime 与 ASR，未运行（2026-10-27） |
-| vue-tui | https://github.com/Simon-He95/vue-tui.git | main | `07ef737a` | 已同步（2026-09-05） |
-| web-access | https://github.com/eze-is/web-access.git | main | `33eef84a` | 已同步 |
-| WebSecurityScanner | https://github.com/Defensive-Alliance/WebSecurityScanner.git | main | `60a02b48` | 已同步 |
-| z-skills | https://github.com/tjxj/z-skills.git | main | `50539dc6` | 已同步 |
-| zvec-grep | https://github.com/zvec-ai/zvec-grep.git | main | `52653951` | 已完整克隆（2026-09-05） |
-| `prompts.chat` | https://github.com/f/prompts.chat | `main` | `5da3948c` | 2026-11-15 已同步，浅克隆；工作树干净 |
-| `freebie-radar` | https://github.com/ZiChuanLan/freebie-radar | `main` | `2fb807c1` | 2026-11-15 已同步，浅克隆；工作树干净 |
-| `Horizon` | https://github.com/Thysrael/Horizon | `main` | `ae30765a` | 2026-11-15 已同步，浅克隆；工作树干净 |
+| Agent-Reach | https://github.com/Panniantong/Agent-Reach.git | main | `c70ae6da` | 已快进更新并通过对象校验（2026-11-15） |
+| Agent-Reach-v1.6.1 | https://github.com/Panniantong/Agent-Reach.git | 分离 HEAD | `7a38047a` | 无 upstream，保留原状（2026-11-15） |
+| agent-rules-books | https://github.com/ciembor/agent-rules-books.git | main | `893a88a6` | 已快进更新并通过对象校验（2026-11-15） |
+| agent-skills | https://github.com/addyosmani/agent-skills.git | main | `39b723ce` | 已快进更新并通过对象校验（2026-11-15） |
+| AI-Research-SKILLs | https://github.com/Orchestra-Research/AI-Research-SKILLs.git | main | `773a5294` | 已在线核对，无需更新（2026-11-15） |
+| ai-unit-tests-generator | https://github.com/gustavolopess/ai-unit-tests-generator.git | main | `064857e2` | 已在线核对，无需更新（2026-11-15） |
+| andrej-karpathy-skills | https://github.com/multica-ai/andrej-karpathy-skills.git | main | `2c606141` | 已在线核对，无需更新（2026-11-15） |
+| anthropic-skills | https://github.com/anthropics/skills.git | main | `1780c5e5` | 已快进更新并通过对象校验（2026-11-15） |
+| archify | https://github.com/tt-a1i/archify.git | main | `a7ed6fd6` | 已快进更新并通过对象校验（2026-11-15） |
+| avoid-ai-writing | https://github.com/conorbronsdon/avoid-ai-writing.git | main | `cc1d3431` | 已快进更新并通过对象校验（2026-11-15） |
+| awesome-agent-skills | https://github.com/JackyST0/awesome-agent-skills.git | main | `f1a7927f` | 已快进更新并通过对象校验（2026-11-15） |
+| Awesome-Agent-Skills-for-Empirical-Research | https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills.git | main | `8684584e` | 已快进更新并通过对象校验（2026-11-15） |
+| awesome-claude-skills | https://github.com/travisvn/awesome-claude-skills.git | main | `1da55aa8` | 已在线核对，无需更新（2026-11-15） |
+| awesome-design-md | https://github.com/VoltAgent/awesome-design-md.git | main | `fcc70284` | 已快进更新并通过对象校验（2026-11-15） |
+| awesome-llm-apps | https://github.com/Shubhamsaboo/awesome-llm-apps.git | main | `8d2a71df` | 已快进更新并通过对象校验（2026-11-15） |
+| beautiful-ui | https://github.com/slev12397/beautiful-ui.git | main | `44a274e5` | 已快进更新并通过对象校验（2026-11-15） |
+| beui | https://github.com/starc007/ui-components.git | main | `039012eb` | 已快进更新并通过对象校验（2026-11-15） |
+| browser-use | https://github.com/browser-use/browser-use.git | main | `e717df18` | 已快进更新并通过对象校验（2026-11-15） |
+| build-your-own-x | https://github.com/codecrafters-io/build-your-own-x.git | master | `b2daa235` | 已快进更新并通过对象校验（2026-11-15） |
+| caveman-full | https://github.com/JuliusBrussee/caveman.git | main | `b4ee71d5` | 已快进更新并通过对象校验（2026-11-15） |
+| chrome-devtools-mcp | https://github.com/ChromeDevTools/chrome-devtools-mcp.git | main | `8ba2ac94` | 已在线核对，无需更新（2026-11-15） |
+| claude-cookbooks | https://github.com/anthropics/claude-cookbooks.git | main | `ce8b2629` | 已快进更新并通过对象校验（2026-11-15） |
+| claude-guides-full | https://github.com/vtroisWhite/andrej-karpathy-skills.git | main | `54a3028c` | 已在线核对，无需更新（2026-11-15） |
+| claude-scholar | https://github.com/Galaxy-Dawn/claude-scholar.git | main | `d394fb59` | 已快进更新并通过对象校验（2026-11-15） |
+| claude-skill-refactoring-ui | https://github.com/opkod-france/claude-skill-refactoring-ui.git | main | `80994d98` | 已在线核对，无需更新（2026-11-15） |
+| claude-video | https://github.com/bradautomates/claude-video.git | main | `03ceb42f` | 已快进更新并通过对象校验（2026-11-15） |
+| code-review-plugin | https://github.com/anthropics/claude-plugins-official.git | main | `b5b01ac4` | 已快进更新并通过对象校验（2026-11-15） |
+| codetracer | https://github.com/metacraft-labs/codetracer.git | stable | `d29c0743` | 已快进更新并通过对象校验（2026-11-15） |
+| codex-security | https://github.com/openai/codex-security.git | main | `173483d7` | 已在线核对，无需更新（2026-11-15） |
+| context-mode | https://github.com/mksglu/context-mode.git | main | `d5709ae4` | 已快进更新并通过对象校验（2026-11-15） |
+| crawl4ai | https://github.com/unclecode/crawl4ai.git | main | `cae74b20` | 已快进更新并通过对象校验（2026-11-15） |
+| daizhigev20 | https://github.com/daizhige-org/daizhigev20.git | data | `012bc393` | 部分克隆资料库，保留按需下载布局（2026-11-15） |
+| DeepTutor | https://github.com/HKUDS/DeepTutor.git | main | `60fb3bdf` | 已在线核对，无需更新（2026-11-15） |
+| developer-portfolios | https://github.com/emmabostian/developer-portfolios.git | master | `d37beaff` | 已快进更新并通过对象校验（2026-11-15） |
+| ECC | https://github.com/affaan-m/ECC.git | main | `d2ef2680` | 已快进更新并通过对象校验（2026-11-15） |
+| effective-html | https://github.com/plannotator/effective-html.git | main | `5ce160a3` | 已快进更新并通过对象校验（2026-11-15） |
+| ego-lite | https://github.com/citrolabs/ego-lite.git | main | `bacaece4` | 已快进更新并通过对象校验（2026-11-15） |
+| emilkowalski-skills | https://github.com/emilkowalski/skills.git | main | `0f2e23b3` | 已快进更新并通过对象校验（2026-11-15） |
+| freebie-radar | https://github.com/ZiChuanLan/freebie-radar.git | main | `4f89041a` | 已在线核对，无需更新（2026-11-15） |
+| ghidra | https://github.com/NationalSecurityAgency/ghidra.git | master | `42db038f` | 已快进更新并通过对象校验（2026-11-15） |
+| Ghost-Downloader-3 | https://github.com/XiaoYouChR/Ghost-Downloader-3.git | catalog/upstream-20261027 | `d6273793` | 已快进更新并通过对象校验（2026-11-15） |
+| goose | https://github.com/aaif-goose/goose.git | main | `2365bc5e` | 已快进更新并通过对象校验（2026-11-15） |
+| gortex | https://github.com/zzet/gortex.git | main | `6e1d8115` | 已快进更新并通过对象校验（2026-11-15） |
+| graphify | https://github.com/Graphify-Labs/graphify.git | v8 | `d4a5b323` | 已快进更新并通过对象校验（2026-11-15） |
+| hallmark | https://github.com/Nutlope/hallmark.git | main | `04977e15` | 已快进更新并通过对象校验（2026-11-15） |
+| Hands-On-Large-Language-Models | https://github.com/HandsOnLLM/Hands-On-Large-Language-Models.git | main | `ea339081` | 已在线核对，无需更新（2026-11-15） |
+| harness2 | https://github.com/google-research/harness2.git | main | `68688175` | 已在线核对，无需更新（2026-11-15） |
+| headroom | https://github.com/headroomlabs-ai/headroom.git | main | `5023c84e` | 已快进更新并通过对象校验（2026-11-15） |
+| Horizon | https://github.com/Thysrael/Horizon.git | main | `12d5fbde` | 已在线核对，无需更新（2026-11-15） |
+| HowToLiveBetter | https://github.com/eternity4719/HowToLiveBetter.git | main | `36c78569` | 已快进更新并通过对象校验（2026-11-15） |
+| human-writing | https://github.com/KKKKhazix/human-writing.git | main | `a4ed3735` | 已快进更新并通过对象校验（2026-11-15） |
+| Humanizer-zh | https://github.com/op7418/Humanizer-zh.git | main | `f4518a8e` | 已快进更新并通过对象校验（2026-11-15） |
+| hyperframes | https://github.com/heygen-com/hyperframes.git | main | `125a9446` | 已快进更新并通过对象校验（2026-11-15） |
+| inspira-ui | https://github.com/rahulv-official/inspira-ui.git | main | `eec920b0` | 已快进更新并通过对象校验（2026-11-15） |
+| Ix | https://github.com/ix-infrastructure/Ix.git | main | `9ac330ce` | 已快进更新并通过对象校验（2026-11-15） |
+| kepano-obsidian | https://github.com/kepano/kepano-obsidian.git | main | `47369734` | 已在线核对，无需更新（2026-11-15） |
+| kgka_Music_hl | https://github.com/umr-xiaomai/kgka_Music_hl.git | master | `60bd37dd` | 已快进更新并通过对象校验（2026-11-15） |
+| khazix-skills | https://github.com/KKKKhazix/khazix-skills.git | main | `71cd50ff` | 已快进更新并通过对象校验（2026-11-15） |
+| knowledge-work-plugins | https://github.com/anthropics/knowledge-work-plugins.git | main | `e91a1345` | 已快进更新并通过对象校验（2026-11-15） |
+| last30days-skill | https://github.com/mvanhorn/last30days-skill.git | main | `5718ae78` | 已快进更新并通过对象校验（2026-11-15） |
+| laya | https://github.com/NandhaKishorM/laya.git | main | `af8ada06` | 已快进更新并通过对象校验（2026-11-15） |
+| LEANN | https://github.com/StarTrail-org/LEANN.git | main | `07796bd7` | 已快进更新并通过对象校验（2026-11-15） |
+| liteparse | https://github.com/run-llama/liteparse.git | main | `89735b9f` | 已快进更新并通过对象校验（2026-11-15） |
+| loopx | https://github.com/huangruiteng/loopx.git | main | `8ade78cd` | 已快进更新并通过对象校验（2026-11-15） |
+| magenta-realtime | https://github.com/magenta/magenta-realtime.git | main | `694a545e` | 已在线核对，无需更新（2026-11-15） |
+| manim | https://github.com/3b1b/manim.git | master | `fafa083a` | 已在线核对，无需更新（2026-11-15） |
+| markdown-viewer-skills | https://github.com/markdown-viewer/skills.git | main | `2672b692` | 已快进更新并通过对象校验（2026-11-15） |
+| mattpocock-skills | https://github.com/mattpocock/skills.git | main | `5863806d` | 已快进更新并通过对象校验（2026-11-15） |
+| mergration | https://github.com/38tter/mergration.git | main | `0595ea02` | 已在线核对，无需更新（2026-11-15） |
+| mermaid-erd-generator | https://github.com/nharsch/mermaid-erd-generator.git | main | `cbecf0ba` | 已在线核对，无需更新（2026-11-15） |
+| minimax-skills | https://github.com/MiniMax-AI/skills.git | main | `02853d88` | 已快进更新并通过对象校验（2026-11-15） |
+| minimind | https://github.com/jingyaogong/minimind.git | master | `233d00fa` | 已在线核对，无需更新（2026-11-15） |
+| modern-web-guidance | https://github.com/GoogleChrome/modern-web-guidance.git | main | `4dd96834` | 已在线核对，无需更新（2026-11-15） |
+| modern-web-guidance-src | https://github.com/GoogleChrome/modern-web-guidance-src.git | main | `5e5cd33a` | 已在线核对，无需更新（2026-11-15） |
+| multi-style-image-generator | https://github.com/powerycy/multi-style-image-generator.git | main | `059267c7` | 已快进更新并通过对象校验（2026-11-15） |
+| nanobrowser | https://github.com/nanobrowser/nanobrowser.git | master | `6c4c0802` | 已快进更新并通过对象校验（2026-11-15） |
+| nature-skills | https://github.com/Yuan1z0825/nature-skills.git | main | `7bff1d05` | 已快进更新并通过对象校验（2026-11-15） |
+| nginx-http-flv-module | https://github.com/winshining/nginx-http-flv-module.git | master | `b27d1469` | 已快进更新并通过对象校验（2026-11-15） |
+| no-ai-slop | https://github.com/petergyang/no-ai-slop.git | main | `000650b1` | 已在线核对，无需更新（2026-11-15） |
+| obsidian-skills | https://github.com/kepano/obsidian-skills.git | main | `39812773` | 已快进更新并通过对象校验（2026-11-15） |
+| open-code-review | https://github.com/alibaba/open-code-review.git | main | `7e5ce06c` | 已在线核对，无需更新（2026-11-15） |
+| open-design | https://github.com/nexu-io/open-design.git | main | `59e4f2ae` | 已快进更新并通过对象校验（2026-11-15） |
+| open-source-games | https://github.com/bobeff/open-source-games.git | main | `3a9ab8fc` | 已在线核对，无需更新（2026-11-15） |
+| openauth | https://github.com/anomalyco/openauth.git | master | `98dc5962` | 已在线核对，无需更新（2026-11-15） |
+| OpenCLI | https://github.com/jackwener/OpenCLI.git | main | `9bc5f5ca` | 已快进更新并通过对象校验（2026-11-15） |
+| OpenShell | https://github.com/NVIDIA/OpenShell.git | main | `2e5589b2` | 已快进更新并通过对象校验（2026-11-15） |
+| openwork | https://github.com/different-ai/openwork.git | dev | `5631a771` | 已快进更新并通过对象校验（2026-11-15） |
+| Paper2Any | https://github.com/OpenDCAI/Paper2Any | main | `b538531e` | 已在线核对，无需更新（2026-11-15） |
+| PaperSpine | https://github.com/WUBING2023/PaperSpine.git | main | `1a79bf21` | 已快进更新并通过对象校验（2026-11-15） |
+| patent-disclosure-skill | https://github.com/handsomestWei/patent-disclosure-skill.git | main | `91e3b43a` | 已快进更新并通过对象校验（2026-11-15） |
+| pdf-inspector | https://github.com/firecrawl/pdf-inspector.git | main | `6bafce1b` | 已快进更新并通过对象校验（2026-11-15） |
+| pi | https://github.com/earendil-works/pi.git | main | `04fd0897` | 已快进更新并通过对象校验（2026-11-15） |
+| pipeforge | https://github.com/Sheraz-k/pipeforge.git | master | `ba84e9ff` | 已在线核对，无需更新（2026-11-15） |
+| pisper | https://github.com/ling-kong-ran/pisper.git | release | `a86142bb` | 已快进更新并通过对象校验（2026-11-15） |
+| playcaptcha | https://github.com/mortspace/playcaptcha.git | main | `0c12567b` | 已快进更新并通过对象校验（2026-11-15） |
+| pocket-tts | https://github.com/kyutai-labs/pocket-tts.git | main | `9e8413eb` | 已快进更新并通过对象校验（2026-11-15） |
+| prompts.chat | https://github.com/f/prompts.chat.git | main | `a8643cb2` | 已快进更新并通过对象校验（2026-11-15） |
+| public-apis | https://github.com/public-apis/public-apis.git | master | `51bc64ab` | 已快进更新并通过对象校验（2026-11-15） |
+| python-refactoring-skills | https://github.com/l-mb/python-refactoring-skills.git | main | `b0835710` | 已在线核对，无需更新（2026-11-15） |
+| rare-ui | https://github.com/swamimalode07/rare-ui.git | main | `6c84e89f` | 已快进更新并通过对象校验（2026-11-15） |
+| rea | https://github.com/morluto/rea.git | main | `65731d8b` | 已快进更新并通过对象校验（2026-11-15） |
+| reverse-skill | https://github.com/zhaoxuya520/reverse-skill.git | main | `a5171e03` | 本地修改，保留原状（2026-11-15） |
+| SafeGuard-Code-Profiler | https://github.com/hamed-kuheil/SafeGuard-Code-Profiler.git | main | `6d759c29` | 已在线核对，无需更新（2026-11-15） |
+| scientific-agent-skills | https://github.com/K-Dense-AI/scientific-agent-skills.git | main | `1e5eeffb` | 部分克隆资料库，保留按需下载布局（2026-11-15） |
+| scramble | https://github.com/dedoc/scramble.git | main | `c57a689e` | 已快进更新并通过对象校验（2026-11-15） |
+| sepia | https://github.com/Nanako0129/sepia.git | main | `0eb11d6c` | 已快进更新并通过对象校验（2026-11-15） |
+| SESA-Self-Evolving-Search-Agents | https://github.com/Zenghuang-Fu/SESA-Self-Evolving-Search-Agents.git | master | `74de5d77` | 已在线核对，无需更新（2026-11-15） |
+| shadcn-ui | https://github.com/shadcn-ui/ui.git | main | `e62c9435` | 已快进更新并通过对象校验（2026-11-15） |
+| skill-up | https://github.com/alibaba/skill-up.git | main | `1d624e03` | 已快进更新并通过对象校验（2026-11-15） |
+| skills-compat-manager | https://github.com/hnaymyh123-henry/skills-compat-manager.git | master | `8be1357e` | 已在线核对，无需更新（2026-11-15） |
+| skillspector | https://github.com/NVIDIA/skillspector.git | main | `c8161500` | 已快进更新并通过对象校验（2026-11-15） |
+| skillsProject-AI-Log-Analyzer | https://github.com/sahanaydn/skillsProject-AI-Log-Analyzer.git | main | `3682eae2` | 已在线核对，无需更新（2026-11-15） |
+| sklib | 本地仓库，无 origin | main | `730df725` | 本地修改，保留原状（2026-11-15） |
+| SmeLLM | https://github.com/refactoring-assistant/SmeLLM.git | main | `8b3a5250` | 已在线核对，无需更新（2026-11-15） |
+| stemdeck | https://github.com/stemdeckapp/stemdeck.git | main | `b9bd91ae` | 已快进更新并通过对象校验（2026-11-15） |
+| stt | https://github.com/jianchang512/stt.git | main | `0df3151d` | 已在线核对，无需更新（2026-11-15） |
+| superpowers-repo | https://github.com/obra/superpowers.git | main | `22f0b463` | 已快进更新并通过对象校验（2026-11-15） |
+| supertonic | https://github.com/supertone-oss-archive/supertonic.git | main | `1e9799e9` | 已在线核对，无需更新（2026-11-15） |
+| SupplyChainScanner | https://github.com/benjiamin911/SupplyChainScanner.git | main | `6e4dcc10` | 已在线核对，无需更新（2026-11-15） |
+| tailcat | https://github.com/tailscale/tailcat.git | main | `e00cdde6` | 已在线核对，无需更新（2026-11-15） |
+| taste-skill | https://github.com/Leonxlnx/taste-skill.git | main | `f6b76575` | 已快进更新并通过对象校验（2026-11-15） |
+| terraform | https://github.com/hashicorp/terraform.git | main | `7b843103` | 已快进更新并通过对象校验（2026-11-15） |
+| timesfm | https://github.com/google-research/timesfm.git | master | `918df02c` | 已快进更新并通过对象校验（2026-11-15） |
+| transitions-dev | https://github.com/Jakubantalik/transitions.dev.git | main | `20d70c12` | 已快进更新并通过对象校验（2026-11-15） |
+| ui-ux-pro-max-skill | https://github.com/nextlevelbuilder/ui-ux-pro-max-skill.git | main | `d643997c` | 已快进更新并通过对象校验（2026-11-15） |
+| up | https://github.com/byoungd/up.git | main | `9f83b250` | 已快进更新并通过对象校验（2026-11-15） |
+| VibeVoice | https://github.com/microsoft/VibeVoice.git | main | `16fb2cb1` | 已在线核对，无需更新（2026-11-15） |
+| VoxCPM | https://github.com/OpenBMB/VoxCPM.git | main | `300e4260` | 已在线核对，无需更新（2026-11-15） |
+| vue-skills-full | https://github.com/vuejs-ai/skills.git | main | `198f0cd8` | 已快进更新并通过对象校验（2026-11-15） |
+| vue-tui | https://github.com/Simon-He95/vue-tui.git | main | `76dff754` | 已快进更新并通过对象校验（2026-11-15） |
+| web-access | https://github.com/eze-is/web-access.git | main | `d173a759` | 已快进更新并通过对象校验（2026-11-15） |
+| WebSecurityScanner | https://github.com/Defensive-Alliance/WebSecurityScanner.git | main | `60a02b48` | 已在线核对，无需更新（2026-11-15） |
+| z-skills | https://github.com/tjxj/z-skills.git | main | `2b52120b` | 已快进更新并通过对象校验（2026-11-15） |
+| zvec-grep | https://github.com/zvec-ai/zvec-grep.git | main | `38cb1af6` | 已快进更新并通过对象校验（2026-11-15） |
 
 ## 本聚合仓库实际保存的本地内容
 

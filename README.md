@@ -4,7 +4,17 @@
 
 第三方项目主要保存资料与来源记录，使用条件以原项目说明为准。自制的本地 Skill 和项目资料检索工具 [SKLIB](sklib/README.md) 也在本仓库中保存源码。
 
-转发给别人可以使用 [AI Skills 和工具分享清单](docs/SHARE_GUIDE.md)，按用途介绍 142 个项目与论文来源并附链接；[HTML 分享版](docs/SHARE_GUIDE.html) 可作为单个文件发送，用浏览器打开。
+转发给别人可以使用 [AI Skills 和工具分享清单](docs/SHARE_GUIDE.md)，按用途介绍 143 个项目与论文来源并附链接；[HTML 分享版](docs/SHARE_GUIDE.html) 可作为单个文件发送，用浏览器打开。
+
+## 2026-11-15 全目录同步
+
+在线检查 134 个可见一级仓库：已在线核对，无需更新 40 个；本地修改，保留原状 2 个；无 upstream，保留原状 1 个；部分克隆资料库，保留按需下载布局 2 个；已快进更新并通过对象校验 89 个。网络失败已重试处理，完整版本与跳过原因见[全目录台账](docs/GITHUB_REPOS.md#2026-11-15-全目录同步)及[最终核验 JSON](scripts/repository-sync-20261115-final.json)。本轮只同步源码与记录，未安装依赖或全局配置。Horizon 与 freebie-radar 此前已快进至 `12d5fbde`、`4f89041a`，来源分享清单仍为 143 项。
+
+
+## 2026-11-15 网络工具、安全审查与 Chrome 项目追加核验
+
+新增 `tailcat/`、`codex-security/`、`modern-web-guidance-src/` 三个源码浅克隆，含 Git 分别为 1.14、33.62、178.77 MB；更新已有 `open-code-review/`、`chrome-devtools-mcp/`，分别为 25.59、23.59 MB。用户将未来默认下载上限提高至 **120 MB**，modern-web-guidance-src 本次按明确下载授权作为大小例外保留。五个仓库工作树干净并通过对象校验；未安装依赖或全局 Skill/MCP。见[本批台账](docs/GITHUB_REPOS.md#2026-11-15-网络工具安全审查与-chrome-项目追加核验)及[核验 JSON](scripts/repository-review-20261115-tailcat.json)。
+
 
 ## 从哪里开始
 
@@ -48,6 +58,8 @@
 ## 收录规则
 
 - 记录来源、用途和当前提交。
+- 自 2026-11-15 本批追加指令起，单项目默认下载上限提高为 **120 MB（120,000,000 字节）**，按源码与 `.git` 文件长度合计；下载当前分支的浅克隆，超限仅登记，用户明确指定下载的项目另记授权。
+- 用户随后授权已有仓库超限时直接更新；已有项目同步可使用 `--allow-over-limit`，新增项目仍按上述 120 MB 默认上限处理。
 - 已存在的项目先检查上游更新，再刷新索引。
 - 单独保存的文件附带来源说明。
 - 根目录保留 README 和 CHANGELOG；索引与维护文档放入 `docs/`，停止维护的旧版资料放入 `docs/archive/`。

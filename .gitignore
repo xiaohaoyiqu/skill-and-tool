@@ -20,3 +20,8 @@
 
 !/zhihu-cli-skill/
 !/zhihu-cli-skill/**
+
+# Exclude generated Python caches from the allow-listed source directories.
+**/__pycache__/
+*.pyc
+*.pyo

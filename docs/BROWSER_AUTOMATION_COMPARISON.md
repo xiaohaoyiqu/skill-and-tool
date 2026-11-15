@@ -6,6 +6,8 @@
 
 **新增重点**: [huangruiteng/loopx](https://github.com/huangruiteng/loopx)、[citrolabs/ego-lite](https://github.com/citrolabs/ego-lite)
 
+2026-11-15 版本补充：chrome-devtools-mcp 已从 `086299a6` 快进至 `8ba2ac94`，源码含 Git 23.59 MB，保存 8 个 Skill；未安装依赖或启用 MCP，第三方子模块未初始化。下文其余工具与能力对比保留原核查时间，详见[本批台账](GITHUB_REPOS.md#2026-11-15-网络工具安全审查与-chrome-项目追加核验)。
+
 ## 先分清三种能力
 
 | 能力 | 输入/输出 | 能解决什么 | 不能自动代表什么 |

@@ -1,0 +1,82 @@
+[
+  {
+    "repository": "openai/codex-security",
+    "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
+    "branch": "main",
+    "license": "Apache-2.0",
+    "head": "173483d7c658be7a512c93d9559bf01a05d5b196",
+    "truncated": false,
+    "source_bytes": 26776080,
+    "skills": [
+      "evals/check-skills/fixtures/editorial-guide/SKILL.md",
+      "evals/check-skills/fixtures/status-summary/SKILL.md",
+      "evals/check-skills/fixtures/style-guide/SKILL.md",
+      "evals/check-skills/fixtures/word-list/SKILL.md",
+      "plugins/codex-security/skills/assess-patch-risk/SKILL.md",
+      "plugins/codex-security/skills/attack-path-analysis/SKILL.md",
+      "plugins/codex-security/skills/check-skills/SKILL.md",
+      "plugins/codex-security/skills/cloud-findings/SKILL.md",
+      "plugins/codex-security/skills/deep-security-scan/SKILL.md",
+      "plugins/codex-security/skills/define-security-policy/SKILL.md",
+      "plugins/codex-security/skills/finding-discovery/SKILL.md",
+      "plugins/codex-security/skills/fix-finding/SKILL.md",
+      "plugins/codex-security/skills/propose-security-hardening/SKILL.md",
+      "plugins/codex-security/skills/publish-findings/SKILL.md",
+      "plugins/codex-security/skills/resolve-dependency-alert/SKILL.md",
+      "plugins/codex-security/skills/security-diff-scan/SKILL.md",
+      "plugins/codex-security/skills/security-scan/SKILL.md",
+      "plugins/codex-security/skills/threat-model-visualize/SKILL.md",
+      "plugins/codex-security/skills/threat-model/SKILL.md",
+      "plugins/codex-security/skills/track-findings/SKILL.md",
+      "plugins/codex-security/skills/triage-finding/SKILL.md",
+      "plugins/codex-security/skills/validation/SKILL.md",
+      "plugins/codex-security/skills/verify-fix/SKILL.md",
+      "plugins/codex-security/skills/vulnerability-writeup/SKILL.md"
+    ]
+  },
+  {
+    "repository": "ChromeDevTools/chrome-devtools-mcp",
+    "description": "Chrome DevTools for coding agents",
+    "branch": "main",
+    "license": "Apache-2.0",
+    "head": "8ba2ac945ebaf1adb92208c29f3a30e73a920956",
+    "truncated": false,
+    "source_bytes": 14762424,
+    "skills": [
+      "skills/a11y-debugging/SKILL.md",
+      "skills/chrome-devtools-cli/SKILL.md",
+      "skills/chrome-devtools/SKILL.md",
+      "skills/cookie-debugging/SKILL.md",
+      "skills/debug-optimize-lcp/SKILL.md",
+      "skills/inspect-in-devtools/SKILL.md",
+      "skills/memory-leak-debugging/SKILL.md",
+      "skills/troubleshooting/SKILL.md"
+    ]
+  },
+  {
+    "repository": "GoogleChrome/modern-web-guidance-src",
+    "description": "Keep your coding agent up to date with the latest web best practices",
+    "branch": "main",
+    "license": "Apache-2.0",
+    "head": "5e5cd33a7738f21281e3027732bcbd58cfa82bf1",
+    "truncated": false,
+    "source_bytes": 101448846,
+    "skills": [
+      ".agents/skills/coherence-auditor/SKILL.md",
+      ".agents/skills/dev-prompt-canary/SKILL.md",
+      ".agents/skills/grader-replay/SKILL.md",
+      ".agents/skills/nightly-eval-investigation/SKILL.md",
+      ".agents/skills/project-coding-standards/SKILL.md",
+      ".agents/skills/project-discipline-guides/SKILL.md",
+      ".agents/skills/project-evals/SKILL.md",
+      ".agents/skills/project-features/SKILL.md",
+      ".agents/skills/project-guide-validation/SKILL.md",
+      ".agents/skills/project-guides/SKILL.md",
+      ".agents/skills/project-maintenance/SKILL.md",
+      ".agents/skills/project-use-cases/SKILL.md",
+      ".agents/skills/web-baseline/SKILL.md",
+      "guides/modern-web-guidance/SKILL.md",
+      "skills-src/chrome-extensions/SKILL.md"
+    ]
+  }
+]

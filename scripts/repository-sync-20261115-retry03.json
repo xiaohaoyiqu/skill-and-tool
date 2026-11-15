@@ -1,0 +1,40 @@
+{
+  "started_at_utc": "2026-11-15T12:42:29.460852+00:00",
+  "limit_bytes": 120000000,
+  "pull": true,
+  "repositories": [
+    {
+      "repository": "hallmark",
+      "path": "E:\\aimodel\\hallmark",
+      "action": "skipped-over-limit",
+      "head_before": "13ac0ec7e148655948100b6396439e481361d690",
+      "head_after": "13ac0ec7e148655948100b6396439e481361d690",
+      "branch": "main",
+      "origin": "https://github.com/Nutlope/hallmark.git",
+      "dirty_files": [],
+      "upstream": "origin/main",
+      "remote_head": "04977e15f3dfd6ee4b74c887dac3eb52665d6c92",
+      "ahead": 0,
+      "behind": 211,
+      "tracked_source_bytes": 66060120,
+      "projected_bytes_including_git": 306092765,
+      "checked_at_utc": "2026-11-15T12:42:33.075777+00:00"
+    },
+    {
+      "repository": "open-code-review",
+      "path": "E:\\aimodel\\open-code-review",
+      "action": "current",
+      "head_before": "7e5ce06c88de5ce81df5dc4f24e2e485b517fae8",
+      "head_after": "7e5ce06c88de5ce81df5dc4f24e2e485b517fae8",
+      "branch": "main",
+      "origin": "https://github.com/alibaba/open-code-review.git",
+      "dirty_files": [],
+      "upstream": "origin/main",
+      "remote_head": "7e5ce06c88de5ce81df5dc4f24e2e485b517fae8",
+      "ahead": 0,
+      "behind": 0,
+      "checked_at_utc": "2026-11-15T12:42:33.961126+00:00"
+    }
+  ],
+  "completed_at_utc": "2026-11-15T12:42:33.962122+00:00"
+}

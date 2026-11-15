@@ -7,6 +7,23 @@
 
 ---
 
+## 2026-11-15 全目录同步
+
+- 检查 134 个可见一级仓库：已在线核对，无需更新 40 个；本地修改，保留原状 2 个；无 upstream，保留原状 1 个；部分克隆资料库，保留按需下载布局 2 个；已快进更新并通过对象校验 89 个；网络连接失败已重试处理，最终无未处理失败。
+- 用户追加授权已有仓库超限时直接更新，原 25 个超限项目均已继续更新；新增项目默认上限仍为 120 MB。保护本地修改、独有提交与部分克隆布局；未重置、stash 或初始化新的第三方子模块。
+- Horizon、freebie-radar 专项快进到 `12d5fbde`、`4f89041a`；更新全量版本表、台账与 Skill 索引的同步范围，来源数量仍为 143 项。
+- Ghost Downloader 既有 cat-catch 子模块已同步至父仓库锁定的 `97f6005b`，父仓库工作树干净。
+- 新增同步脚本与 9 项通过的本地 Git 场景测试；仅提交聚合目录的记录及维护源码。核验见 `scripts/repository-sync-20261115-final.json`。
+
+
+## 2026-11-15 网络工具、安全审查与 Chrome 项目追加核验
+
+- 新增 tailcat、codex-security、modern-web-guidance-src 三个浅克隆；快进更新 open-code-review 与 chrome-devtools-mcp，五者工作树干净、与已抓取上游一致并通过对象校验。
+- 用户将后续默认下载上限从 100 MB 提高至 120 MB，源码与 Git 合计；modern-web-guidance-src 实际 178.77 MB，按明确下载授权作为本次大小例外保留。
+- 区分 codex-security 的 20 个插件 Skill 与 4 个测试夹具、modern-web-guidance-src 的 13 个维护入口与 2 个分发源入口；chrome-devtools-mcp 保存 8 个入口。
+- 更新下载台账、版本与 Skill 索引、维护规则、来源及两个分享版本；分享表复核原有 141 项（旧标题误写 142），新增后为 143 项。未安装依赖、全局 Skill/MCP 或运行服务。证据见 `scripts/repository-review-20261115-tailcat.json`。
+
+
 ## 2026-11-15 收录 prompts.chat、freebie-radar 与 Horizon
 
 - 新增 3 个源码浅克隆；prompts.chat 含 Git 250.65 MB，按用户指令豁免大小限制；freebie-radar、Horizon 分别 3.92、15.60 MB。

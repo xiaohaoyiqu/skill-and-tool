@@ -1,0 +1,21 @@
+{
+  "started_at_utc": "2026-11-15T12:40:00.896936+00:00",
+  "limit_bytes": 120000000,
+  "pull": true,
+  "repositories": [
+    {
+      "repository": "daizhigev20",
+      "path": "E:\\aimodel\\daizhigev20",
+      "action": "skipped-partial-clone",
+      "head_before": "012bc393ff989f1a4354edf1a16c82645a99b715",
+      "head_after": "012bc393ff989f1a4354edf1a16c82645a99b715",
+      "branch": "data",
+      "origin": "https://github.com/daizhige-org/daizhigev20.git",
+      "dirty_files": [],
+      "upstream": "origin/data",
+      "reason": "Preserve existing partial/sparse archive without hydrating missing source blobs.",
+      "checked_at_utc": "2026-11-15T12:40:01.801748+00:00"
+    }
+  ],
+  "completed_at_utc": "2026-11-15T12:40:01.802747+00:00"
+}
