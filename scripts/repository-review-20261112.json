@@ -1,0 +1,473 @@
+{
+  "recorded_date": "2026-11-12",
+  "limit_bytes": 100000000,
+  "size_policy": "Current-version source plus Git metadata; sum of file lengths, decimal MB. The 100 MB default limit has only the explicit per-repository exceptions recorded in size_policy_exceptions. No dependencies, weights, release assets, LFS payloads or submodules.",
+  "repositories": [
+    {
+      "repository": "google-research/harness2",
+      "url": "https://github.com/google-research/harness2",
+      "checked_at_utc": "2026-11-12T07:52:41.744699+00:00",
+      "branch": "main",
+      "head": "6868817518876de8fd170c6a8354daca273b6191",
+      "commit_date": "2026-11-02T02:17:27Z",
+      "description": null,
+      "archived": false,
+      "license_api": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "github_repository_size_kib": 7254,
+      "tree_truncated": false,
+      "tracked_files": 140,
+      "tree_blob_bytes": 8091234,
+      "largest_files": [
+        {
+          "path": "assets/harness2-video.mp4",
+          "bytes": 2989993
+        },
+        {
+          "path": "assets/logo.png",
+          "bytes": 2455503
+        },
+        {
+          "path": "assets/Harness2-wordmark.png",
+          "bytes": 499744
+        },
+        {
+          "path": "assets/harness2_pipeline.png",
+          "bytes": 390625
+        },
+        {
+          "path": "assets/harness2_recursion_modes.png",
+          "bytes": 355713
+        },
+        {
+          "path": "assets/components.png",
+          "bytes": 217954
+        },
+        {
+          "path": "assets/harness2-setup.gif",
+          "bytes": 137560
+        },
+        {
+          "path": "harness2/core/prompts.py",
+          "bytes": 66499
+        },
+        {
+          "path": "harness2/benchmarks/jobbench.py",
+          "bytes": 52082
+        },
+        {
+          "path": "harness2/benchmarks/lab.py",
+          "bytes": 46045
+        }
+      ],
+      "skill_paths": [],
+      "license_paths": [
+        "LICENSE",
+        "tests/fixtures/harvey-labs/LICENSE",
+        "third_party/jb_runner/LICENSE",
+        "third_party/lab_runner/LICENSE",
+        "third_party/wb_runner/LICENSE"
+      ],
+      "attribute_paths": [
+        "tests/fixtures/harvey-labs/.gitattributes",
+        "tests/fixtures/job-bench-eval/.gitattributes"
+      ],
+      "submodules": [],
+      "local_path": "E:\\aimodel\\harness2",
+      "previously_present": false,
+      "sources": [
+        "https://api.github.com/repos/google-research/harness2",
+        "https://api.github.com/repos/google-research/harness2/commits/6868817518876de8fd170c6a8354daca273b6191",
+        "https://api.github.com/repos/google-research/harness2/git/trees/6868817518876de8fd170c6a8354daca273b6191?recursive=1",
+        "https://github.com/google-research/harness2/blob/6868817518876de8fd170c6a8354daca273b6191/README.md",
+        "https://github.com/google-research/harness2/blob/6868817518876de8fd170c6a8354daca273b6191/LICENSE",
+        "https://github.com/google-research/harness2/blob/6868817518876de8fd170c6a8354daca273b6191/pyproject.toml",
+        "https://github.com/google-research/harness2/blob/6868817518876de8fd170c6a8354daca273b6191/third_party/README.md"
+      ],
+      "action": "cloned_shallow",
+      "git_metadata_bytes_before_checkout": 7188651,
+      "tracked_source_bytes": 8091234,
+      "projected_file_bytes_including_git": 15279885,
+      "local_file_bytes_including_git": 15295762,
+      "size_below_limit": true,
+      "worktree_clean": true,
+      "shallow": true,
+      "ahead_behind": "0\t0",
+      "fsck_output": "",
+      "fsck_passed": true,
+      "origin": "https://github.com/google-research/harness2.git",
+      "license_verified": "Apache-2.0",
+      "formal_skill_entries": [],
+      "logical_skill_count": 0,
+      "prompt_template_paths": [],
+      "lfs_attribute_rules": [],
+      "category": "Agent 执行配置递归改进研究框架",
+      "assessment_zh": "以提出修改、执行探测、组合改进来调整执行配置，并通过持续经验库改进后续任务，模型权重固定。适合与 skill-up、SESA、ECC 对照研究。",
+      "runtime_requirements_zh": "README 推荐 Linux、Python 3.12 和 uv；pyproject 声明 >=3.12,<3.14。模型基准另需模型服务及对应外部工具；本机只存源码，未运行 demo 或基准。",
+      "paper": "https://arxiv.org/abs/2610.14224"
+    },
+    {
+      "repository": "HKUDS/DeepTutor",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "checked_at_utc": "2026-11-12T07:52:43.855887+00:00",
+      "branch": "main",
+      "head": "60fb3bdfddb30b7740c7ce3bd9b28d908f2af6db",
+      "commit_date": "2026-11-06T16:41:21+08:00",
+      "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+      "archived": false,
+      "license_api": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "github_repository_size_kib": 258519,
+      "tree_truncated": false,
+      "tracked_files": 4530,
+      "tree_blob_bytes": 70438066,
+      "largest_files": [
+        {
+          "path": "assets/figs/web-dev/memory-graph.png",
+          "bytes": 2466100
+        },
+        {
+          "path": "web/contracts/schema/openapi.json",
+          "bytes": 1803801
+        },
+        {
+          "path": "web/contracts/generated/api.ts",
+          "bytes": 1310574
+        },
+        {
+          "path": "assets/figs/chat-loop.png",
+          "bytes": 1187881
+        },
+        {
+          "path": "assets/figs/system/partners-architecture.png",
+          "bytes": 1127505
+        },
+        {
+          "path": "assets/figs/system/system architecture.png",
+          "bytes": 1107882
+        },
+        {
+          "path": "assets/figs/system/chat-agent-loop.png",
+          "bytes": 914360
+        },
+        {
+          "path": "web/locales/uk/app.json",
+          "bytes": 692944
+        },
+        {
+          "path": "assets/figs/logo/color-logo.png",
+          "bytes": 679194
+        },
+        {
+          "path": "web/locales/fr/app.json",
+          "bytes": 627129
+        }
+      ],
+      "skill_paths": [
+        "SKILL.md",
+        "deeptutor/capabilities/creator/prompts/en/skill.md",
+        "deeptutor/capabilities/creator/prompts/zh/skill.md",
+        "deeptutor/skills/builtin/docx/SKILL.md",
+        "deeptutor/skills/builtin/pdf/SKILL.md",
+        "deeptutor/skills/builtin/pptx/SKILL.md",
+        "deeptutor/skills/builtin/skill-creator/SKILL.md",
+        "deeptutor/skills/builtin/xlsx/SKILL.md"
+      ],
+      "license_paths": [
+        "LICENSE",
+        "web/public/provider-icons/LICENSE.llama-brand",
+        "web/public/provider-icons/LICENSE.lobehub",
+        "web/vendor/thinking-orbs/LICENSE"
+      ],
+      "attribute_paths": [
+        ".gitattributes"
+      ],
+      "submodules": [],
+      "local_path": "E:\\aimodel\\DeepTutor",
+      "previously_present": false,
+      "sources": [
+        "https://api.github.com/repos/HKUDS/DeepTutor",
+        "https://api.github.com/repos/HKUDS/DeepTutor/commits/60fb3bdfddb30b7740c7ce3bd9b28d908f2af6db",
+        "https://api.github.com/repos/HKUDS/DeepTutor/git/trees/60fb3bdfddb30b7740c7ce3bd9b28d908f2af6db?recursive=1",
+        "https://github.com/HKUDS/DeepTutor/blob/60fb3bdfddb30b7740c7ce3bd9b28d908f2af6db/README.md",
+        "https://github.com/HKUDS/DeepTutor/blob/60fb3bdfddb30b7740c7ce3bd9b28d908f2af6db/LICENSE",
+        "https://github.com/HKUDS/DeepTutor/blob/60fb3bdfddb30b7740c7ce3bd9b28d908f2af6db/SKILL.md",
+        "https://github.com/HKUDS/DeepTutor/blob/60fb3bdfddb30b7740c7ce3bd9b28d908f2af6db/pyproject.toml",
+        "https://github.com/HKUDS/DeepTutor/blob/60fb3bdfddb30b7740c7ce3bd9b28d908f2af6db/.gitattributes",
+        "https://github.com/HKUDS/DeepTutor/blob/60fb3bdfddb30b7740c7ce3bd9b28d908f2af6db/THIRD_PARTY_NOTICES.md"
+      ],
+      "action": "cloned_shallow_user_size_exception",
+      "tracked_source_bytes": 70438066,
+      "license_verified": "Apache-2.0",
+      "formal_skill_entries": [
+        "SKILL.md",
+        "deeptutor/skills/builtin/docx/SKILL.md",
+        "deeptutor/skills/builtin/pdf/SKILL.md",
+        "deeptutor/skills/builtin/pptx/SKILL.md",
+        "deeptutor/skills/builtin/skill-creator/SKILL.md",
+        "deeptutor/skills/builtin/xlsx/SKILL.md"
+      ],
+      "logical_skill_count": 6,
+      "prompt_template_paths": [
+        "deeptutor/capabilities/creator/prompts/en/skill.md",
+        "deeptutor/capabilities/creator/prompts/zh/skill.md"
+      ],
+      "lfs_attribute_rules": [
+        "*.mp4 filter=lfs diff=lfs merge=lfs -text"
+      ],
+      "worktree_checked_out": true,
+      "fsck_output": "dangling tag 9dbbceec99d34ee2baab1d6a40b2ef590c342d9e",
+      "fsck_passed": true,
+      "skill_policy_zh": "根 deeptutor-cli 与 5 个内置办公/技能编写入口均随源码保存；2 个小写 skill.md 为生成提示模板。不安装全局 Skill。",
+      "local_repository_retained": true,
+      "category": "个性化学习平台与 CLI",
+      "assessment_zh": "知识库问答、解题、练习、研究及学习记忆平台；按用户对 DeepTutor 的明确授权，豁免本批 100 MB 限额并保留源码浅克隆。",
+      "runtime_requirements_zh": "Python >=3.11,<3.15；源码 Web 开发推荐 Node.js 22 LTS。学习功能需配置模型、嵌入、检索与解析服务；本批未安装或运行。",
+      "lfs_objects_downloaded": false,
+      "initial_size_limited_attempt": {
+        "action": "skipped_over_limit_cleaned",
+        "head": "60fb3bdfddb30b7740c7ce3bd9b28d908f2af6db",
+        "checked_at_utc": "2026-11-12T07:52:43.855887+00:00",
+        "git_metadata_bytes_before_checkout": 35755135,
+        "tracked_source_bytes": 70438066,
+        "projected_file_bytes_including_git": 106193201,
+        "worktree_checked_out": false,
+        "temporary_clone_removed": true,
+        "local_repository_retained": false,
+        "cleanup_checked_at_utc": "2026-11-12T08:10:46.152073+00:00",
+        "cleanup_safety_checks": [
+          "Exact resolved path E:/aimodel/DeepTutor was an immediate workspace child",
+          "Batch pre-check confirmed destination did not previously exist",
+          "New directory contained only .git; no source checkout",
+          "Target was not a reparse point"
+        ],
+        "fsck_output": "dangling tag 9dbbceec99d34ee2baab1d6a40b2ef590c342d9e",
+        "fsck_passed": true
+      },
+      "clone_verified_at_utc": "2026-11-12T08:34:16.964179+00:00",
+      "local_file_bytes_including_git": 106695484,
+      "git_metadata_bytes": 36257418,
+      "size_below_limit": false,
+      "size_limit_exception_authorized": true,
+      "size_limit_exception_instruction": "DeepTutor可以克隆下来",
+      "worktree_clean": true,
+      "shallow": true,
+      "ahead_behind": "0\t0",
+      "origin": "https://github.com/HKUDS/DeepTutor.git",
+      "lfs_pointer_paths": []
+    },
+    {
+      "repository": "jingyaogong/minimind",
+      "url": "https://github.com/jingyaogong/minimind",
+      "checked_at_utc": "2026-11-12T07:52:40.985311+00:00",
+      "branch": "master",
+      "head": "233d00fa068ec2b8c0d4f07b703934d6391a5a73",
+      "commit_date": "2026-10-27T06:57:05Z",
+      "description": "🧠 Train a 64M-parameter LLM from scratch in just 2h!",
+      "archived": false,
+      "license_api": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "github_repository_size_kib": 39476,
+      "tree_truncated": false,
+      "tracked_files": 49,
+      "tree_blob_bytes": 12544632,
+      "largest_files": [
+        {
+          "path": "images/minimind-3.gif",
+          "bytes": 5994147
+        },
+        {
+          "path": "images/agent_rl_loss.jpg",
+          "bytes": 718986
+        },
+        {
+          "path": "images/logo2.png",
+          "bytes": 629688
+        },
+        {
+          "path": "images/ppo_loss.jpg",
+          "bytes": 615395
+        },
+        {
+          "path": "images/grpo_loss.jpg",
+          "bytes": 604438
+        },
+        {
+          "path": "images/logo.png",
+          "bytes": 507055
+        },
+        {
+          "path": "images/sft_loss.jpg",
+          "bytes": 476758
+        },
+        {
+          "path": "model/tokenizer.json",
+          "bytes": 451182
+        },
+        {
+          "path": "images/LLM-structure-moe.jpg",
+          "bytes": 320712
+        },
+        {
+          "path": "images/pretrain_loss.jpg",
+          "bytes": 299537
+        }
+      ],
+      "skill_paths": [],
+      "license_paths": [
+        "LICENSE"
+      ],
+      "attribute_paths": [],
+      "submodules": [],
+      "local_path": "E:\\aimodel\\minimind",
+      "previously_present": false,
+      "sources": [
+        "https://api.github.com/repos/jingyaogong/minimind",
+        "https://api.github.com/repos/jingyaogong/minimind/commits/233d00fa068ec2b8c0d4f07b703934d6391a5a73",
+        "https://api.github.com/repos/jingyaogong/minimind/git/trees/233d00fa068ec2b8c0d4f07b703934d6391a5a73?recursive=1",
+        "https://github.com/jingyaogong/minimind/blob/233d00fa068ec2b8c0d4f07b703934d6391a5a73/README.md",
+        "https://github.com/jingyaogong/minimind/blob/233d00fa068ec2b8c0d4f07b703934d6391a5a73/LICENSE",
+        "https://github.com/jingyaogong/minimind/blob/233d00fa068ec2b8c0d4f07b703934d6391a5a73/requirements.txt"
+      ],
+      "action": "cloned_shallow",
+      "git_metadata_bytes_before_checkout": 10808924,
+      "tracked_source_bytes": 12544632,
+      "projected_file_bytes_including_git": 23353556,
+      "local_file_bytes_including_git": 23358234,
+      "size_below_limit": true,
+      "worktree_clean": true,
+      "shallow": true,
+      "ahead_behind": "0\t0",
+      "fsck_output": "",
+      "fsck_passed": true,
+      "origin": "https://github.com/jingyaogong/minimind.git",
+      "license_verified": "Apache-2.0",
+      "formal_skill_entries": [],
+      "logical_skill_count": 0,
+      "prompt_template_paths": [],
+      "lfs_attribute_rules": [],
+      "category": "小语言模型结构与训练链路",
+      "assessment_zh": "原生 PyTorch 实现，覆盖预训练、SFT、LoRA、DPO、PPO/GRPO/CISPO 与 Agentic RL 等，用于学习模型结构和训练实现。上游两小时三元指特定 RTX 3090 SFT 训练与租用条件，未在本机实测。",
+      "runtime_requirements_zh": "README 参考环境 Ubuntu 20.04、Python 3.10.16、CUDA 12.2；PyTorch、训练数据、模型权重与算力另备，本轮只存源码。"
+    }
+  ],
+  "research": [
+    {
+      "title": "Orthros: Phase-Aware Heterogeneous Attention for Efficient Transformers",
+      "arxiv": "2610.13735",
+      "url": "https://arxiv.org/html/2610.13735",
+      "action": "paper_downloaded_no_confirmed_official_code",
+      "version": "2610.13735v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.13735v1",
+      "download_final_url": "https://arxiv.org/pdf/2610.13735v1",
+      "local_pdf": "E:\\aimodel\\arxiv-2610.13735v1.pdf",
+      "pdf_bytes": 2454083,
+      "sha256": "2f3a1fca8c2436de023aac9f7112f0cda68e5769b2a0c5373fca9a9c6d19ccc4",
+      "downloaded_at_utc": "2026-11-12T07:57:59.780975+00:00",
+      "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "official_code_repository": null,
+      "code_search_sources": [
+        "https://arxiv.org/html/2610.13735",
+        "https://arxiv.org/abs/2610.13735",
+        "https://www.zhongzhuzhou.org/publication/"
+      ],
+      "code_search_queries": [
+        "\"Orthros\" \"attention\" site:github.com",
+        "\"Orthros\" \"Yuhong Chou\" code"
+      ],
+      "code_status": "No official repository confirmed from paper, author publication page and search; this does not establish that no code exists.",
+      "license_verified": "CC-BY-NC-ND-4.0",
+      "license_source": "https://arxiv.org/html/2610.13735",
+      "pdf_pages": 20,
+      "assessment_zh": "按预填充与解码阶段采用不同注意力计算，研究长上下文效率；涉及架构与训练/转换，非现有模型的直接加速开关，未复现实验。",
+      "pdf_eof_verified": true,
+      "pdf_structure_repair_required": false,
+      "all_pages_text_extracted": true,
+      "pdf_checked_at_utc": "2026-11-12T08:21:37.519620+00:00"
+    },
+    {
+      "title": "Harness^2: Recursive Agent Harnessing for an Open World",
+      "arxiv": "2610.14224",
+      "url": "https://arxiv.org/abs/2610.14224",
+      "repository": "google-research/harness2",
+      "license_verified": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_source": "https://arxiv.org/html/2610.14224v1",
+      "action": "paper_downloaded_repository_cloned",
+      "assessment_zh": "Harness² 官方配套论文；与用户提供的 Orthros 编号分别登记。",
+      "version": "2610.14224v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.14224v1",
+      "download_final_url": "https://arxiv.org/pdf/2610.14224v1",
+      "local_pdf": "E:\\aimodel\\arxiv-2610.14224v1.pdf",
+      "pdf_bytes": 8101889,
+      "sha256": "440be1f694f3b0fdfb8e612e9b2288ff0d8ab38641cfd1064fd77052ba360282",
+      "pdf_pages": 37,
+      "pdf_eof_verified": true,
+      "pdf_structure_repair_required": false,
+      "all_pages_text_extracted": true,
+      "pdf_checked_at_utc": "2026-11-12T08:21:37.853138+00:00",
+      "download_integrity_note": "Initial transfer was truncated. Completed the same official v1 file with HTTP range resume, then checked EOF, structure and all 37 pages. Expected Content-Length: 8101889 bytes."
+    }
+  ],
+  "scope_zh": "新增 harness2、minimind、DeepTutor 共 3 个源码浅克隆；DeepTutor 按用户明确授权豁免 100 MB 限额，原超限清理记录保留在 initial_size_limited_attempt。分别登记 Orthros 与 Harness² 原版论文。未更新其他仓库，未安装依赖、数据集、权重、全局 Skill 或 MCP，未运行应用。",
+  "documentation_files": [
+    "README.md",
+    "CHANGELOG.md",
+    "docs/GITHUB_REPOS.md",
+    "docs/REPOSITORIES.md",
+    "docs/SKILLS_INDEX.md",
+    "docs/GITHUB_STAR_LIST.md",
+    "docs/SHARE_GUIDE.md",
+    "docs/SHARE_GUIDE.html"
+  ],
+  "share_source_count": 135,
+  "verification": {
+    "completed_at_utc": "2026-11-12T08:37:26.450931+00:00",
+    "retained_repository_count": 3,
+    "skipped_repository_count": 0,
+    "retained_repositories_below_limit": false,
+    "retained_worktrees_clean": true,
+    "heads_match_fetched_upstream": true,
+    "retained_git_fsck_passed": true,
+    "share_markdown_and_html_source_sets_match": true,
+    "share_source_count": 135,
+    "new_share_descriptions_match": true,
+    "new_document_links_and_utf8_checked": true,
+    "both_original_pdfs_structurally_intact": true,
+    "temporary_pdf_downloads_absent": true,
+    "runtime_or_model_tests_run": false,
+    "retained_repositories_within_effective_size_policy": true,
+    "size_limit_exception_repositories": [
+      "HKUDS/DeepTutor"
+    ],
+    "deep_tutor_repository_present": true,
+    "deep_tutor_worktree_clean": true,
+    "deep_tutor_heads_match_fetched_upstream": true,
+    "deep_tutor_git_fsck_passed": true,
+    "deep_tutor_documentation_matches_local_clone": true,
+    "deep_tutor_formal_skill_files_present": 6
+  },
+  "size_policy_exceptions": [
+    {
+      "repository": "HKUDS/DeepTutor",
+      "user_instruction": "DeepTutor可以克隆下来",
+      "authorized_scope": "Shallow source clone only; keep the default 100 MB policy for other repositories. No dependencies, model weights, release assets, LFS payloads or submodules.",
+      "recorded_at_utc": "2026-11-12T08:34:16.964179+00:00"
+    }
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "recorded_date": "2026-11-13",
+  "limit_bytes": 100000000,
+  "size_policy": "Current-version source plus Git metadata, sum of file lengths, decimal MB; strictly less than 100000000 bytes. No dependencies, weights, releases, LFS payloads or submodules.",
+  "repositories": [
+    {
+      "repository": "OpenBMB/VoxCPM",
+      "url": "https://github.com/OpenBMB/VoxCPM",
+      "checked_at_utc": "2026-11-13T01:14:14.7244579Z",
+      "branch": "main",
+      "head": "300e4260b509066151d623dc9c0aa922cf82232b",
+      "commit_date": "2026-11-09T07:36:57Z",
+      "description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
+      "archived": false,
+      "license_api": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "github_repository_size_kib": 4267,
+      "tree_truncated": false,
+      "tracked_files": 82,
+      "tree_blob_bytes": 5970793,
+      "largest_files": [
+        {
+          "path": "examples/example.wav",
+          "bytes": 1439096
+        },
+        {
+          "path": "examples/reference_speaker.wav",
+          "bytes": 1228844
+        },
+        {
+          "path": "assets/voxcpm2_model.png",
+          "bytes": 1164797
+        },
+        {
+          "path": "uv.lock",
+          "bytes": 1102071
+        },
+        {
+          "path": "assets/feishu-group.png",
+          "bytes": 215113
+        },
+        {
+          "path": "assets/voxcpm_model.png",
+          "bytes": 144982
+        },
+        {
+          "path": "assets/modelbest_logo.png",
+          "bytes": 55126
+        },
+        {
+          "path": "src/voxcpm/model/voxcpm2.py",
+          "bytes": 54715
+        },
+        {
+          "path": "lora_ft_webui.py",
+          "bytes": 44294
+        },
+        {
+          "path": "src/voxcpm/model/voxcpm.py",
+          "bytes": 43178
+        }
+      ],
+      "skill_paths": [],
+      "license_paths": [
+        "LICENSE"
+      ],
+      "attribute_paths": [],
+      "submodules": [],
+      "local_path": "E:\\aimodel\\VoxCPM",
+      "previously_present": false,
+      "sources": [
+        "https://api.github.com/repos/OpenBMB/VoxCPM",
+        "https://api.github.com/repos/OpenBMB/VoxCPM/commits/300e4260b509066151d623dc9c0aa922cf82232b",
+        "https://api.github.com/repos/OpenBMB/VoxCPM/git/trees/300e4260b509066151d623dc9c0aa922cf82232b?recursive=1",
+        "https://github.com/OpenBMB/VoxCPM/blob/300e4260b509066151d623dc9c0aa922cf82232b/README.md",
+        "https://github.com/OpenBMB/VoxCPM/blob/300e4260b509066151d623dc9c0aa922cf82232b/LICENSE",
+        "https://github.com/OpenBMB/VoxCPM/blob/300e4260b509066151d623dc9c0aa922cf82232b/pyproject.toml",
+        "https://github.com/OpenBMB/VoxCPM/blob/300e4260b509066151d623dc9c0aa922cf82232b/README_zh.md"
+      ],
+      "git_metadata_bytes_before_checkout": 4160206,
+      "tracked_source_bytes": 5970793,
+      "projected_file_bytes_including_git": 10130999,
+      "checkout_output": "Your branch is up to date with 'origin/main'.\nAlready on 'main'",
+      "action": "cloned_shallow",
+      "origin": "https://github.com/OpenBMB/VoxCPM.git",
+      "worktree_clean": true,
+      "shallow": true,
+      "ahead_behind": "0\t0",
+      "fsck_output": "",
+      "fsck_passed": true,
+      "skill_paths_local": [],
+      "lfs_attribute_rules": [],
+      "local_git_metadata_bytes": 4168874,
+      "local_file_bytes_including_git": 10139667,
+      "size_below_limit": true,
+      "verified_at_utc": "2026-11-13T01:15:30.949374+00:00",
+      "formal_skill_entries": [],
+      "logical_skill_count": 0,
+      "prompt_template_paths": [],
+      "license_verified": "Apache-2.0 (code; README also declares Apache-2.0 for weights, which were not downloaded)",
+      "category": "多语言语音合成、音色设计与声音克隆",
+      "assessment_zh": "当前主线为 VoxCPM2，提供含中文的多语言语音生成、音色设计、声音克隆及流式输出；按模型项目保存源码，无 SKILL.md。",
+      "runtime_requirements_zh": "README 推荐 Python >=3.10,<3.13、PyTorch >=2.5.0、CUDA >=12.0；pyproject 仅声明 Python >=3.10。CLI 声明支持 cpu/mps/cuda 等设备。README 对照表的 VoxCPM2 参考显存约 8 GB，未在本机运行或验证。模型、依赖另需准备。"
+    },
+    {
+      "repository": "GoogleChrome/modern-web-guidance",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance",
+      "checked_at_utc": "2026-11-13T01:14:17.0953737Z",
+      "branch": "main",
+      "head": "4dd968349e54ca45a05dd5c818fb035c9054b022",
+      "commit_date": "2026-11-10T03:08:33Z",
+      "description": "Keep your coding agent up to date with the latest web best practices",
+      "archived": false,
+      "license_api": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "github_repository_size_kib": 1726,
+      "tree_truncated": false,
+      "tracked_files": 265,
+      "tree_blob_bytes": 2258348,
+      "largest_files": [
+        {
+          "path": "README.md",
+          "bytes": 107726
+        },
+        {
+          "path": "skills/modern-web-guidance/guides/accessibility/accessibility.md",
+          "bytes": 51700
+        },
+        {
+          "path": "skills/modern-web-guidance/guides/ui-components/stack-drill-down.md",
+          "bytes": 37348
+        },
+        {
+          "path": "skills/modern-web-guidance/guides/ui-behaviors/swipe-to-remove.md",
+          "bytes": 34703
+        },
+        {
+          "path": "skills/modern-web-guidance/guides/ui-components/menu.md",
+          "bytes": 31801
+        },
+        {
+          "path": "skills/modern-web-guidance/guides/security/security.md",
+          "bytes": 30035
+        },
+        {
+          "path": "skills/chrome-extensions/SKILL.md",
+          "bytes": 26456
+        },
+        {
+          "path": "skills/modern-web-guidance/guides/webmcp/agentic-javascript-tools.md",
+          "bytes": 22675
+        },
+        {
+          "path": "skills/modern-web-guidance/guides/ui-components/tabs.md",
+          "bytes": 22204
+        },
+        {
+          "path": "skills/modern-web-guidance/guides/ui-components/toolbar.md",
+          "bytes": 22057
+        }
+      ],
+      "skill_paths": [
+        "skills/chrome-extensions/SKILL.md",
+        "skills/modern-web-guidance/SKILL.md"
+      ],
+      "license_paths": [
+        "LICENSE"
+      ],
+      "attribute_paths": [],
+      "submodules": [],
+      "local_path": "E:\\aimodel\\modern-web-guidance",
+      "previously_present": false,
+      "sources": [
+        "https://api.github.com/repos/GoogleChrome/modern-web-guidance",
+        "https://api.github.com/repos/GoogleChrome/modern-web-guidance/commits/4dd968349e54ca45a05dd5c818fb035c9054b022",
+        "https://api.github.com/repos/GoogleChrome/modern-web-guidance/git/trees/4dd968349e54ca45a05dd5c818fb035c9054b022?recursive=1",
+        "https://github.com/GoogleChrome/modern-web-guidance/blob/4dd968349e54ca45a05dd5c818fb035c9054b022/README.md",
+        "https://github.com/GoogleChrome/modern-web-guidance/blob/4dd968349e54ca45a05dd5c818fb035c9054b022/LICENSE",
+        "https://github.com/GoogleChrome/modern-web-guidance/blob/4dd968349e54ca45a05dd5c818fb035c9054b022/package.json",
+        "https://github.com/GoogleChrome/modern-web-guidance/blob/4dd968349e54ca45a05dd5c818fb035c9054b022/.codex-plugin/plugin.json",
+        "https://github.com/GoogleChrome/modern-web-guidance/blob/4dd968349e54ca45a05dd5c818fb035c9054b022/skills/chrome-extensions/SKILL.md",
+        "https://github.com/GoogleChrome/modern-web-guidance/blob/4dd968349e54ca45a05dd5c818fb035c9054b022/skills/modern-web-guidance/SKILL.md"
+      ],
+      "git_metadata_bytes_before_checkout": 869897,
+      "tracked_source_bytes": 2258348,
+      "projected_file_bytes_including_git": 3128245,
+      "checkout_output": "Your branch is up to date with 'origin/main'.\nAlready on 'main'",
+      "action": "cloned_shallow",
+      "origin": "https://github.com/GoogleChrome/modern-web-guidance.git",
+      "worktree_clean": true,
+      "shallow": true,
+      "ahead_behind": "0\t0",
+      "fsck_output": "",
+      "fsck_passed": true,
+      "skill_paths_local": [
+        "skills/chrome-extensions/SKILL.md",
+        "skills/modern-web-guidance/SKILL.md"
+      ],
+      "lfs_attribute_rules": [],
+      "local_git_metadata_bytes": 905355,
+      "local_file_bytes_including_git": 3163703,
+      "size_below_limit": true,
+      "verified_at_utc": "2026-11-13T01:15:32.199139+00:00",
+      "formal_skill_entries": [
+        "skills/chrome-extensions/SKILL.md",
+        "skills/modern-web-guidance/SKILL.md"
+      ],
+      "logical_skill_count": 2,
+      "prompt_template_paths": [],
+      "license_verified": "Apache-2.0 for software; CC-BY-4.0 for documentation and guide content under guides/ (README License section)",
+      "category": "现代 Web 平台实践与 Chrome 扩展开发 Skills",
+      "assessment_zh": "2 个正式 Skill：modern-web-guidance（原生 Web API、性能、无障碍与兼容性回退指南检索）及 chrome-extensions（Manifest V3 开发、调试与发布指导）。仅保存入口及分发源码，未安装或运行。",
+      "runtime_requirements_zh": "package.json 声明 Node.js >=22.0.0；VS Code 扩展另要求 ^1.90.0。Skill 默认通过 npx 检索/读取指南，需要按需获取 npm 包；本批未执行 CLI、legacy-scan 或插件安装。",
+      "related_source_repository": "https://github.com/GoogleChrome/modern-web-guidance-src",
+      "related_source_repository_action": "relationship recorded only; not cloned"
+    }
+  ],
+  "scope_zh": "仅新增 VoxCPM 与 modern-web-guidance 两个小于 100 MB 的源码浅克隆，并记录 2 个正式 Skill；未更新其他仓库，未安装依赖、模型、全局 Skill/MCP/插件或运行第三方应用。",
+  "documentation_files": [
+    "README.md",
+    "CHANGELOG.md",
+    "docs/GITHUB_REPOS.md",
+    "docs/REPOSITORIES.md",
+    "docs/SKILLS_INDEX.md",
+    "docs/GITHUB_STAR_LIST.md",
+    "docs/SHARE_GUIDE.md",
+    "docs/SHARE_GUIDE.html"
+  ],
+  "share_source_count": 137,
+  "verification": {
+    "completed_at_utc": "2026-11-13T01:21:08.732171+00:00",
+    "retained_repository_count": 2,
+    "skipped_repository_count": 0,
+    "retained_repositories_below_limit": true,
+    "retained_worktrees_clean": true,
+    "heads_match_fetched_upstream": true,
+    "retained_git_fsck_passed": true,
+    "formal_skill_entries_saved": 2,
+    "share_markdown_and_html_source_sets_match": true,
+    "share_source_count": 137,
+    "new_share_descriptions_match": true,
+    "new_document_links_and_utf8_checked": true,
+    "runtime_or_model_tests_run": false,
+    "git_diff_check_passed": true
+  }
+}

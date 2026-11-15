@@ -1,10 +1,10 @@
 # AI Skills 和工具分享清单
 
-整理于 2026 年 11 月 11 日。
+整理于 2026 年 11 月 15 日。
 
 平时收集的 AI Skills、开发工具和研究资料，按用途放在这里。每项都附上项目链接和简短介绍，找写作、编程、做界面或读论文的工具，可以直接跳到对应分类。
 
-共收录 131 个不同的项目来源。Skill 通常是一组让 AI 按特定方法工作的说明，有些会附带脚本；组件库、桌面应用和模型项目则需要按各自说明使用。链接指向项目来源，具体安装方式、依赖与许可请查看项目 README。
+共收录 142 个不同的项目与论文来源。Skill 通常是一组让 AI 按特定方法工作的说明，有些会附带脚本；组件库、桌面应用和模型项目则需要按各自说明使用。链接指向项目或论文来源，具体安装方式、依赖与许可请查看原始说明。
 
 ## 中文写作与改稿
 
@@ -56,6 +56,7 @@
 
 | 项目 | 介绍 |
 |------|------|
+| [Modern Web Guidance](https://github.com/GoogleChrome/modern-web-guidance) | 面向编码 Agent 的现代 Web 平台实践与兼容性指南，附现代 HTML/CSS/JavaScript 和 Chrome 扩展开发两个 Skill；CLI 需 Node.js 22+。代码 Apache-2.0，guides/ 文档 CC BY 4.0；已保存源码，未安装全局 Skill。 |
 | [ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | 面向界面设计与实现的 Skill，提供风格、配色、排版和交互方面的参考，适合从需求开始搭页面。 |
 | [taste-skill](https://github.com/Leonxlnx/taste-skill) | 面向 AI 生成界面的设计指导，关注布局、视觉层次与交互细节，适合改善模板感较强的页面。 |
 | [hallmark](https://github.com/Nutlope/hallmark) | 提供新建界面、审查、重做和设计研究等工作方式，适合给不同内容选择不同的页面结构。 |
@@ -101,6 +102,7 @@
 | [OpenShell](https://github.com/NVIDIA/OpenShell) | NVIDIA 的 Agent 沙箱运行环境，按策略限制文件、进程和网络访问，适合研究 Agent 隔离与凭据管理；部署需另行准备系统环境。 |
 | [ai-memory](https://github.com/akitaonrails/ai-memory) | 为编码 Agent 保存长期项目记忆，让不同工具之间能够交接任务。以 Git 管理的 Markdown 保存知识，适合需要跨会话继续工作的项目。 |
 | [laya](https://github.com/NandhaKishorM/laya) | 对文本做分类、评分和是非决策的模型与 SDK，适合研究请求路由和结构化判断；模型权重需另行准备，上游速度数据未经本机验证。 |
+| [Harness²](https://github.com/google-research/harness2) | Google Research 的 Agent 改进研究框架，通过提出修改、执行探测、组合结果来优化提示、工具、记忆与 Skills，并保存跨任务经验，模型权重固定。源码 Apache-2.0，推荐 Linux 与 Python 3.12；本地仅存源码。 |
 
 ## 科研与论文
 
@@ -116,6 +118,7 @@
 | [SESA-Self-Evolving-Search-Agents](https://github.com/Zenghuang-Fu/SESA-Self-Evolving-Search-Agents) | 搜索 Agent 的自博弈研究代码，研究如何把失败经验整理为可复用的技能，偏实验与方法研究。 |
 | [patent-disclosure-skill](https://github.com/handsomestWei/patent-disclosure-skill) | 辅助梳理技术方案、挖掘专利点和编写交底材料的 Skill，适合准备材料时参考。 |
 | [timesfm](https://github.com/google-research/timesfm) | Google Research 的时间序列预测模型，适合预测实验与相关应用研究；不同版本的接口和权重条件有区别。 |
+| [Orthros 论文](https://arxiv.org/html/2610.13735) | 研究按预填充与解码阶段采用不同注意力计算，以改善长上下文效率。当前收录原版论文，暂未确认官方代码仓库；论文 CC BY-NC-ND 4.0，实验加速数据未经本机复现。 |
 
 ## 文档 图表与知识检索
 
@@ -176,6 +179,7 @@
 | [pocket-tts](https://github.com/kyutai-labs/pocket-tts) | 以 CPU 运行为重点的轻量文字转语音项目，适合研究本地语音生成。 |
 | [LuxTTS](https://github.com/ysharma3501/LuxTTS) | 基于 ZipVoice 的文字转语音与声音克隆项目，使用参考音频生成语音，提供 GPU、CPU 和 Apple MPS 的运行示例。 |
 | [supertonic](https://github.com/supertone-oss-archive/supertonic) | 轻量文字转语音项目，仓库已归档，适合参考实现；源码和模型的使用条件需分别查看。 |
+| [VoxCPM](https://github.com/OpenBMB/VoxCPM) | OpenBMB 的语音合成项目，当前主线 VoxCPM2 支持含中文的多语言生成、音色设计、声音克隆与流式输出；Apache-2.0。已保存源码，模型与运行环境需另行准备。 |
 | [VibeVoice](https://github.com/microsoft/VibeVoice) | 微软的语音项目，涉及语音生成与识别等不同方向，使用时需选择对应子项目和模型。 |
 | [magenta-realtime](https://github.com/magenta/magenta-realtime) | 实时音乐生成项目，包含模型推理与应用示例，适合音乐交互和音频应用研究。 |
 | [hyperframes](https://github.com/heygen-com/hyperframes) | 用 HTML、CSS 和媒体素材生成视频的框架，适合程序化动画与视频制作。 |
@@ -193,6 +197,8 @@
 | 项目 | 介绍 |
 |------|------|
 | [Hands-On Large Language Models](https://github.com/HandsOnLLM/Hands-On-Large-Language-Models) | 同名 O’Reilly 图书的官方示例代码，包含 12 章 Notebook，覆盖嵌入、Transformer、RAG、多模态和微调；运行需另备依赖与模型。 |
+| [DeepTutor](https://github.com/HKUDS/DeepTutor) | 个性化学习平台，涵盖知识库问答、解题、练习、研究与学习记忆，提供 Web 和 CLI；Apache-2.0。已按用户大小例外授权保存源码浅克隆，含 Git 约 106.70 MB，附 6 个正式 Skill 入口；未安装运行依赖。 |
+| [MiniMind](https://github.com/jingyaogong/minimind) | 从零实现小语言模型，覆盖预训练、SFT、LoRA、偏好优化、强化学习与工具调用，适合学习 PyTorch 训练链路；Apache-2.0。运行需另备训练数据、依赖与算力，上游时间和成本不是本机实测。 |
 | [HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) | 按成本、收益和证据整理健康、生活与办事资料，附正文查询 Skill；制度内容以中国大陆为背景。正文 CC BY 4.0，代码 MIT，实际决策需复核原始来源及当地现行规定。 |
 | [up：人生进阶指南](https://github.com/byoungd/up) | 中英双语的终身学习书稿，涉及英语、AI、项目实践、创业和生活复盘，附工作表及 EPUB/PDF。正文 CC BY-NC 4.0，站点与构建代码 MIT。 |
 | [build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) | 从零实现常见技术的教程合集，适合通过小型项目学习底层原理。 |
@@ -200,6 +206,15 @@
 | [public-apis](https://github.com/public-apis/public-apis) | 按主题整理的公共 API 导航，适合寻找可用于应用原型与练习的数据接口。 |
 | [daizhigev20](https://github.com/daizhige-org/daizhigev20) | 中国古典文献数据的修订项目，适合古籍检索、文本处理与相关研究。 |
 | [fq-book](https://github.com/hoochanlon/fq-book) | 《这本书能让你连接互联网》的文档仓库，介绍代理、隧道、VPN 等网络原理，也整理相关工具配置与资料获取方法。 |
+
+## 提示词与信息雷达
+
+| 项目 | 介绍 |
+|------|------|
+| [prompts.chat](https://github.com/f/prompts.chat) | 提示词社区、提示词数据与可自托管站点；源码和站点原创内容 MIT，提示词数据 CC0。附 2 个检索类插件 Skill 和 2 个项目开发 Skill，均仅随源码保存。 |
+| [freebie-radar](https://github.com/ZiChuanLan/freebie-radar) | 自托管资源聚合与推送工作台，通过规则和 AI 筛选福利、优惠、开源项目及资讯，支持多来源采集与 Telegram 路由；MIT，无 SKILL.md。 |
+| [Horizon](https://github.com/Thysrael/Horizon) | 按个人兴趣聚合新闻、评分去重并生成中英双语简报，提供 CLI、MCP 与多种投递方式；MIT，附 1 个 Horizon Skill。 |
+| [modern-web-guidance-src](https://github.com/GoogleChrome/modern-web-guidance-src) | Modern Web Guidance 的编写、构建、校准与评测源码仓库；当前源码 101.45 MB，超过本批限额，仅登记。与已保存的分发仓库分别记录。 |
 
 ## 补充来源
 

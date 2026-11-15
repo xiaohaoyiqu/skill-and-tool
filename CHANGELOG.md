@@ -7,6 +7,32 @@
 
 ---
 
+## 2026-11-15 收录 prompts.chat、freebie-radar 与 Horizon
+
+- 新增 3 个源码浅克隆；prompts.chat 含 Git 250.65 MB，按用户指令豁免大小限制；freebie-radar、Horizon 分别 3.92、15.60 MB。
+- modern-web-guidance-src 源码本身 101.45 MB，按严格小于 100 MB 的条件只登记；两个 Twitter 链接按用户追加指令取消。
+- 核对已有 VoxCPM 和 modern-web-guidance 与远端一致；三个新项目及两个已有项目工作树干净并通过 Git 对象校验。
+- 新保存 5 个 SKILL.md：prompts.chat 的 2 个检索入口与 2 个开发入口，以及 Horizon 的 1 个入口；未安装全局 Skill 或依赖。
+- 同步台账、版本清单、Skill 索引、来源和 Markdown/HTML 分享清单；本批新增 4 个来源，校正既有统计后共 142 项。证据见 `scripts/repository-review-20261115.json`。
+
+
+## 2026-11-13 收录 VoxCPM 与 Modern Web Guidance
+
+- 按单项目源码与 `.git` 合计小于 100,000,000 字节的条件，新增 `VoxCPM@300e4260` 和 `modern-web-guidance@4dd96834` 两个浅克隆，实际分别为 10,139,667、3,163,703 字节。
+- 核对固定提交完整文件树与实际检出内容；两个仓库工作树干净、与已抓取的 origin/main 一致，并通过 `git fsck --no-reflogs`，均无子模块或 Git LFS 规则。
+- VoxCPM 按语音合成项目收录，0 个 SKILL.md；Modern Web Guidance 保存现代 Web 开发与 Chrome 扩展开发 2 个正式 Skill 入口。后者的分发仓库与构建源码仓库分别记录，不额外拉取源码仓库。
+- 核对 VoxCPM 的 Apache-2.0，以及 Modern Web Guidance 的代码 Apache-2.0、`guides/` 文档 CC-BY-4.0；补充运行条件及模型显存声明的上游来源。
+- 更新 README、下载台账、版本清单、Skill 索引、来源清单及 Markdown/HTML 分享版；分享来源从 135 项增至 137 项，历史全量统计保留原核验日期。证据见 `scripts/repository-review-20261113.json`。
+- 未安装依赖、权重、全局 Skill/插件或启动服务，未运行应用与模型。
+
+## 2026-11-12 收录 Harness²、Orthros、DeepTutor 与 MiniMind
+
+- 搜索并确认 Harness² 官方来源为 `google-research/harness2`，对应论文 `arXiv:2610.14224`；用户给出的 `2610.13735` 另记为 Orthros，未查到可确认的官方代码仓库。
+- 新增 `harness2@68688175`、`minimind@233d00fa` 两个浅克隆，含 Git 分别为 15,295,762、23,358,234 字节，均小于 100,000,000 字节，工作树干净、与本次抓取的默认分支一致并通过 `git fsck --no-reflogs`。
+- `DeepTutor@60fb3bdf` 初次按 100 MB 限额跳过并清理临时副本；随后用户明确授权克隆，按该项目的大小例外重新浅克隆到 `DeepTutor/`，检出后含 Git 为 106,695,484 字节，工作树干净、与 origin/main 一致并通过对象校验。6 个正式 Skill 入口随源码保存，另 2 个小写 `skill.md` 属于生成提示模板；其他项目的限额不变。
+- 保存两篇原版论文 PDF 的版本、来源、许可和 SHA-256；更新 README、台账、版本清单、Skill 索引、来源清单和两个分享版本。分享条目由 131 项增为 135 项（新增 3 个项目与 1 篇独立论文来源）。
+- 未安装依赖、权重、数据集、全局 Skill/MCP 或启动服务，未运行应用与模型；历史全量统计保留原核验日期。证据见 `scripts/repository-review-20261112.json`。
+
 ## 2026-11-11 收录八个项目与资料来源
 
 - 新登记用户指定的 8 个来源；新增 `stemdeck`、`openauth`、`laya`、`Ix`、`Hands-On-Large-Language-Models`、`HowToLiveBetter`、`up` 7 个浅克隆，含 Git 均低于 100 MB。

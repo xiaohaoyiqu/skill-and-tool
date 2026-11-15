@@ -1,9 +1,21 @@
 # AI Skills 仓库索引
 
 **@author liuhao**
-**更新时间**: 2026-11-11
+**更新时间**: 2026-11-15
 
 ---
+
+
+## 2026-11-15 新增项目与 Skill 入口
+
+| 仓库 | 本地 SKILL.md | 用途与状态 |
+|------|------|------|
+| [prompts.chat](https://github.com/f/prompts.chat) | 4 | `plugins/claude/prompts.chat/skills/` 下 prompt-lookup、skill-lookup 两个检索入口；`.windsurf/skills/` 下 book-translation、widget-generator 两个项目开发入口。仅随源码保存，未全局安装。 |
+| [Horizon](https://github.com/Thysrael/Horizon) | 1 | `skills/horizon/SKILL.md`，新闻雷达的安装配置、简报生成、调度、投递与扩展指导；运行另需 Python 3.11+ 和服务配置。 |
+| [freebie-radar](https://github.com/ZiChuanLan/freebie-radar) | 0 | 资源聚合与推送应用源码，按工具收录。 |
+| [modern-web-guidance-src](https://github.com/GoogleChrome/modern-web-guidance-src) | 未下载 | 源码超过本批 100 MB 限额，仅登记链接；远端文件树中的入口不计为本地 Skill。 |
+
+已有 `modern-web-guidance` 仍保存 2 个正式 Skill；`VoxCPM` 无 Skill。两者本次在线核对无需更新。以上只补记本批，不重算其他日期的全量统计。详见[本批台账](GITHUB_REPOS.md#2026-11-15-提示词社区资源雷达与-modern-web-guidance-源码)。
 
 ## 当前维护规则
 
@@ -18,6 +30,26 @@
 自制 [SKLIB](../sklib/README.md) 源码随聚合仓库保存在 `sklib/`，用于扫描、检索和整理本地 Skill、项目清单与文档。CLI、stdio MCP 和网页界面共用应用核心，支持来源校验、增量索引、标签笔记、分页读取，以及可选本地 Ollama 语义检索。它是检索工具，不增加正式 Skill 或第三方项目来源数量。
 
 源码、测试和使用说明已收录；虚拟环境、资料索引、个人记录、模型及构建产物不随仓库提交。运行条件为 Python 3.10+、SQLite FTS5、PyYAML，Python 3.10 另需 tomli；安装和启动以项目 README 为准。
+
+## 2026-11-13 语音合成项目与 Web 开发 Skills
+
+| 项目 | 本地状态与版本 | Skill 入口与定位 |
+|------|------|------|
+| [VoxCPM](https://github.com/OpenBMB/VoxCPM) | `VoxCPM/` 浅克隆，`main@300e4260`；含 Git 10.14 MB | 0 个 SKILL.md；VoxCPM2 多语言语音合成、音色设计、声音克隆及流式生成；源码 Apache-2.0 |
+| [Modern Web Guidance](https://github.com/GoogleChrome/modern-web-guidance) | `modern-web-guidance/` 浅克隆，`main@4dd96834`；含 Git 3.16 MB | 2 个正式入口：`skills/modern-web-guidance/SKILL.md` 与 `skills/chrome-extensions/SKILL.md`；现代 Web 平台实践、兼容性回退，以及 Chrome Manifest V3 扩展开发与发布指导；代码 Apache-2.0，`guides/` 文档 CC-BY-4.0 |
+
+两个仓库均小于 100,000,000 字节、工作树干净、与本次抓取的上游一致并通过对象校验。VoxCPM 的运行环境和模型权重需要另行准备，README 给出的 VoxCPM2 参考显存约 8 GB，未在本机运行。Modern Web Guidance 的 CLI 声明 Node.js >=22.0.0；该仓库保存分发内容，构建源码另在 `GoogleChrome/modern-web-guidance-src`，本批未额外克隆。两个 Skill 仅随源码保存，没有安装到全局目录或执行 CLI；历史 Skill 总数不重算。详见[本批台账](GITHUB_REPOS.md#2026-11-13-voxcpm-与-modern-web-guidance)及[核验 JSON](../scripts/repository-review-20261113.json)。
+
+## 2026-11-12 Agent 自改进、学习平台与小模型训练
+
+| 项目 | 本地状态与版本 | Skill 入口与定位 |
+|------|------|------|
+| [Harness²](https://github.com/google-research/harness2) | `harness2/` 浅克隆，`main@68688175`；含 Git 15.30 MB | 0 个 SKILL.md；固定模型权重，研究任务内与跨任务的 Agent 执行配置改进；Apache-2.0 |
+| [DeepTutor](https://github.com/HKUDS/DeepTutor) | `DeepTutor/` 浅克隆，`main@60fb3bdf`；含 Git 106.70 MB，按用户明确授权豁免本项目大小限制 | 6 个正式入口已随源码保存：根 `SKILL.md` 的 deeptutor-cli，加 `deeptutor/skills/builtin/` 下 docx、pdf、pptx、skill-creator、xlsx；另 2 个小写 skill.md 为生成提示模板；未安装全局 Skill；Apache-2.0 |
+| [MiniMind](https://github.com/jingyaogong/minimind) | `minimind/` 浅克隆，`master@233d00fa`；含 Git 23.36 MB | 0 个 SKILL.md；小语言模型结构、训练与推理代码，适合学习 PyTorch 与完整训练链路；Apache-2.0 |
+| [Orthros](https://arxiv.org/html/2610.13735) | 原版论文 `arxiv-2610.13735v1.pdf`；暂未确认官方代码仓库 | 注意力架构研究，不计作 Skill；论文 CC-BY-NC-ND-4.0 |
+
+Harness² 对应论文另为 [`arXiv:2610.14224`](https://arxiv.org/abs/2610.14224)，保存为根目录 `arxiv-2610.14224v1.pdf`（CC-BY-4.0），与用户提供的 Orthros 论文分别记录。三个保留仓库通过对象校验、工作树干净；DeepTutor 为本批唯一的用户授权大小例外，其他项目限额不变。未安装任何全局 Skill、模型或依赖，历史 Skill 总数保持原核验日期。运行条件、限额和用途见[本批台账](GITHUB_REPOS.md#2026-11-12-harness²orthrosdeeptutor-与-minimind)及[核验 JSON](../scripts/repository-review-20261112.json)。
 
 ## 2026-11-11 新增项目与 Skill 入口
 

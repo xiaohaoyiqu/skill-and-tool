@@ -28,8 +28,19 @@
 
 2026-11-11 新登记 8 个来源，其中 7 个新增浅克隆均小于 100 MB，工作树干净并通过 Git 对象校验。`openvid` 源码文件已约 181.96 MB，下载前跳过，只保留来源，不列入下方本地仓库表。本轮没有重扫其他仓库、改写历史总数或安装依赖。详见 [本批台账](GITHUB_REPOS.md#2026-11-11-音视频认证代码检索与学习资料) 与 [核验 JSON](../scripts/repository-review-20261111.json)。
 
+2026-11-12 新增 `harness2/`、`minimind/` 和 `DeepTutor/`，含 Git 分别 15.30、23.36、106.70 MB，工作树干净、与本次抓取的上游默认分支一致并通过对象校验。DeepTutor 初次超限跳过后按用户明确授权重新克隆，作为该项目的大小例外保留，其他项目仍沿用 100 MB 限额。Orthros 只保存论文；本轮不重算历史目录总数或更新其他项目。见[台账](GITHUB_REPOS.md#2026-11-12-harness²orthrosdeeptutor-与-minimind)及[核验 JSON](../scripts/repository-review-20261112.json)。
+
+2026-11-13 新增 `VoxCPM/` 和 `modern-web-guidance/` 两个浅克隆，含 Git 分别 10.14、3.16 MB，均低于 100 MB，工作树干净、与已抓取的 origin/main 一致并通过对象校验。Modern Web Guidance 的 2 个正式 Skill 入口随源码保存；未安装依赖、模型或全局配置，未更新其他仓库或重算历史总数。见[本批台账](GITHUB_REPOS.md#2026-11-13-voxcpm-与-modern-web-guidance)及[核验 JSON](../scripts/repository-review-20261113.json)。
+
+2026-11-15 新增 `prompts.chat/`、`freebie-radar/`、`Horizon/` 三个源码浅克隆，含 Git 分别为 250.65、3.92、15.60 MB；prompts.chat 按用户指令豁免本批大小限制。`modern-web-guidance-src` 源码已达 101.45 MB，超限只登记。两个 11 月 13 日已有项目在线核对仍为最新。五个本地仓库均工作树干净并通过对象校验；未安装依赖或全局 Skill。见[下载台账](GITHUB_REPOS.md#2026-11-15-提示词社区资源雷达与-modern-web-guidance-源码)及[核验 JSON](../scripts/repository-review-20261115.json)。
+
 | 本地目录 | 上游 | 分支 | HEAD | 状态 |
 |------|------|------|------|------|
+| VoxCPM | https://github.com/OpenBMB/VoxCPM.git | main | `300e4260` | 新增浅克隆（2026-11-13）；10.14 MB，干净且与 origin/main 一致；仅源码/资料 |
+| modern-web-guidance | https://github.com/GoogleChrome/modern-web-guidance.git | main | `4dd96834` | 新增浅克隆（2026-11-13）；3.16 MB，干净且与 origin/main 一致；2 个正式 Skill 随源码保存 |
+| DeepTutor | https://github.com/HKUDS/DeepTutor.git | main | `60fb3bdf` | 新增浅克隆（2026-11-12，用户授权大小例外）；106.70 MB，干净且与 origin/main 一致；仅源码/资料 |
+| harness2 | https://github.com/google-research/harness2.git | main | `68688175` | 新增浅克隆（2026-11-12）；15.30 MB，干净且与 origin/main 一致；仅源码/资料 |
+| minimind | https://github.com/jingyaogong/minimind.git | master | `233d00fa` | 新增浅克隆（2026-11-12）；23.36 MB，干净且与 origin/master 一致；仅源码/资料 |
 | stemdeck | https://github.com/stemdeckapp/stemdeck.git | main | `5f9405ca` | 新增浅克隆（2026-11-11）；14.96 MB，干净且与 origin/main 一致；仅源码/资料 |
 | openauth | https://github.com/anomalyco/openauth.git | master | `98dc5962` | 新增浅克隆（2026-11-11）；4.47 MB，干净且与 origin/master 一致；仅源码/资料 |
 | laya | https://github.com/NandhaKishorM/laya.git | main | `3a38cbe8` | 新增浅克隆（2026-11-11）；74.47 MB，干净且与 origin/main 一致；仅源码/资料 |
@@ -151,6 +162,9 @@
 | WebSecurityScanner | https://github.com/Defensive-Alliance/WebSecurityScanner.git | main | `60a02b48` | 已同步 |
 | z-skills | https://github.com/tjxj/z-skills.git | main | `50539dc6` | 已同步 |
 | zvec-grep | https://github.com/zvec-ai/zvec-grep.git | main | `52653951` | 已完整克隆（2026-09-05） |
+| `prompts.chat` | https://github.com/f/prompts.chat | `main` | `5da3948c` | 2026-11-15 已同步，浅克隆；工作树干净 |
+| `freebie-radar` | https://github.com/ZiChuanLan/freebie-radar | `main` | `2fb807c1` | 2026-11-15 已同步，浅克隆；工作树干净 |
+| `Horizon` | https://github.com/Thysrael/Horizon | `main` | `ae30765a` | 2026-11-15 已同步，浅克隆；工作树干净 |
 
 ## 本聚合仓库实际保存的本地内容
 

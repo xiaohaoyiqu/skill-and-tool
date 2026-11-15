@@ -4,7 +4,7 @@
 
 第三方项目主要保存资料与来源记录，使用条件以原项目说明为准。自制的本地 Skill 和项目资料检索工具 [SKLIB](sklib/README.md) 也在本仓库中保存源码。
 
-转发给别人可以使用 [AI Skills 和工具分享清单](docs/SHARE_GUIDE.md)，按用途介绍 131 个项目并附来源链接；[HTML 分享版](docs/SHARE_GUIDE.html) 可作为单个文件发送，用浏览器打开。
+转发给别人可以使用 [AI Skills 和工具分享清单](docs/SHARE_GUIDE.md)，按用途介绍 142 个项目与论文来源并附链接；[HTML 分享版](docs/SHARE_GUIDE.html) 可作为单个文件发送，用浏览器打开。
 
 ## 从哪里开始
 
@@ -55,6 +55,18 @@
 - 第三方内容沿用各自的许可证和使用条件。
 
 统计数字对应各次扫描结果。上游项目继续变化时，以来源仓库为准。
+
+## 2026-11-15 提示词与信息雷达
+
+2026-11-15 新增 `prompts.chat/`、`freebie-radar/`、`Horizon/` 三个源码浅克隆，含 Git 分别为 250.65、3.92、15.60 MB；prompts.chat 按用户指令豁免本批大小限制。`modern-web-guidance-src` 源码已达 101.45 MB，超限只登记。两个 11 月 13 日已有项目在线核对仍为最新。五个本地仓库均工作树干净并通过对象校验；未安装依赖或全局 Skill。见[下载台账](docs/GITHUB_REPOS.md#2026-11-15-提示词社区资源雷达与-modern-web-guidance-源码)及[核验 JSON](scripts/repository-review-20261115.json)。
+
+## 2026-11-13 语音合成与现代 Web Skills
+
+新增 `VoxCPM/` 和 `modern-web-guidance/` 两个源码浅克隆，含 Git 分别为 10.14 MB、3.16 MB，均低于 100 MB。VoxCPM 当前主线为 VoxCPM2 多语言语音合成、音色设计与声音克隆；modern-web-guidance 保存现代 Web 开发和 Chrome 扩展开发两个 Skill 入口。来源、许可、运行条件和校验见[本批台账](docs/GITHUB_REPOS.md#2026-11-13-voxcpm-与-modern-web-guidance)。分享清单增加至 137 项；未安装依赖、模型、全局 Skill 或插件。
+
+## 2026-11-12 Agent 自改进、学习平台与小模型训练
+
+新增 `harness2/`、`minimind/` 和 `DeepTutor/` 三个源码浅克隆，含 Git 分别约 15.30 MB、23.36 MB、106.70 MB。DeepTutor 初次因超过 100 MB 限额跳过，随后按用户明确授权豁免大小限制并完成克隆，6 个 Skill 入口随源码保存；其他项目仍沿用原限额。用户提供的 `arXiv:2610.13735` 是 Orthros 注意力研究，Harness² 对应 `2610.14224`；两篇论文分别登记并保存原版 PDF。用途、运行条件、许可及校验见[本批台账](docs/GITHUB_REPOS.md#2026-11-12-harness²orthrosdeeptutor-与-minimind)，未安装依赖、模型或全局 Skill。
 
 ## 2026-11-11 项目收录
 

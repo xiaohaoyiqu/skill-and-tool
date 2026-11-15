@@ -1,12 +1,91 @@
 # GitHub 仓库下载与配置台账
 
-**最后整理**: 2026-11-11
+**最后整理**: 2026-11-15
 **目录**: E:\aimodel
 **定位**: GitHub 下载与配置历史台账；当前 skill 更新状态以 [SKILLS_INDEX.md](SKILLS_INDEX.md) 为准
 **状态**: 只记录克隆和配置，不自动安装依赖、不写入全局 Codex skills
 **Star 手动清单**: [GITHUB_STAR_LIST.md](GITHUB_STAR_LIST.md)
 
 ---
+
+## 2026-11-15 提示词社区、资源雷达与 Modern Web Guidance 源码
+
+用户取消两条 Twitter 链接，改为检查 `GoogleChrome/modern-web-guidance-src`。普通项目仍要求当前源码与 `.git` 文件长度合计严格小于 **100,000,000 字节**；`prompts.chat` 按用户“这个直接克隆下来”的指令作为本批单项目大小例外。采用默认分支 `--depth 1 --no-checkout`，核算后检出；未拉取完整历史。
+
+| 项目 | 处理与提交 | 实测大小（已克隆项含 Git） |
+|------|------|------|
+| [f/prompts.chat](https://github.com/f/prompts.chat) | 新增浅克隆，`5da3948c` | 250,647,618 字节（250.65 MB） |
+| [ZiChuanLan/freebie-radar](https://github.com/ZiChuanLan/freebie-radar) | 新增浅克隆，`2fb807c1` | 3,917,669 字节（3.92 MB） |
+| [Thysrael/Horizon](https://github.com/Thysrael/Horizon) | 新增浅克隆，`ae30765a` | 15,601,101 字节（15.60 MB） |
+| [GoogleChrome/modern-web-guidance-src](https://github.com/GoogleChrome/modern-web-guidance-src) | 超限，仅登记，未克隆，`5e5cd33a` | 源码 101,448,846 字节（101.45 MB），尚未计 Git |
+| [OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM) | 已有，在线核对无需更新，`300e4260` | 10,139,667 字节（10.14 MB） |
+| [GoogleChrome/modern-web-guidance](https://github.com/GoogleChrome/modern-web-guidance) | 已有，在线核对无需更新，`4dd96834` | 3,163,703 字节（3.16 MB） |
+
+`modern-web-guidance-src` 固定提交完整文件树未截断，源码本身已有 **101,448,846 字节**，因此下载前跳过，本地没有创建该目录。该仓库用于指南编写、构建与评测；已有 `modern-web-guidance/` 是可分发的指南、CLI 与 Skill 仓库，两者用途不同。源码树虽列有 15 个 SKILL.md 路径，但本地未下载，不计入本地 Skill 数量。
+
+| 新项目 | 用途、许可与运行条件 |
+|------|------|
+| f/prompts.chat | 提示词社区、提示词数据与可自托管站点；源码和站点原创内容 MIT，提示词数据 CC0。附 2 个检索类插件 Skill 和 2 个项目开发 Skill，均仅随源码保存。 |
+| ZiChuanLan/freebie-radar | 自托管资源聚合与推送工作台，通过规则和 AI 筛选福利、优惠、开源项目及资讯，支持多来源采集与 Telegram 路由；MIT，无 SKILL.md。 |
+| Thysrael/Horizon | 按个人兴趣聚合新闻、评分去重并生成中英双语简报，提供 CLI、MCP 与多种投递方式；MIT，附 1 个 Horizon Skill。 |
+
+运行条件：prompts.chat 使用 Next.js、Prisma 与 PostgreSQL，完整自托管需另备依赖与数据库；freebie-radar 的 package.json 要求 Node.js >=22.5.0，AI 筛选与 Telegram 推送需自行配置服务；Horizon 要求 Python >=3.11，采集、AI 分析和投递需另备依赖与对应服务。仅保存源码，不代表这些服务已可运行。
+
+三个新克隆与两个已有仓库的 HEAD 均与本次 API 核对的远端默认分支一致，工作树干净，通过 `git fsck --no-reflogs`。本批未安装依赖、数据库、模型、全局 Skill/MCP/插件，未启动服务或运行应用测试。新项目没有子模块；克隆跳过 LFS 实体下载。分享清单本批新增 4 个来源（包括超限源码仓库的链接），按链接去重共 142 项；此前页面标注 137 项，实际已有 138 个不同来源，本次一并校正当前总数。其他仓库与历史全量统计保持原核验日期。完整来源、提交、大小与检查结果见[本批 JSON](../scripts/repository-review-20261115.json)。
+
+
+## 2026-11-13 VoxCPM 与 Modern Web Guidance
+
+按用户给出的两个官方链接继续拉取与记录，单项目沿用 **小于 100,000,000 字节（十进制 100 MB）** 的限额，计入当前源码与 `.git` 文件长度。先用 GitHub API 核对默认分支固定提交的完整文件树，再以 `--depth 1 --single-branch --no-tags --no-checkout --no-recurse-submodules` 拉取 Git 对象，核算后检出并复测实际大小。新仓库设置本地 `core.autocrlf=false`；没有修改全局 Git 配置。
+
+| 项目 / 来源 | 本地处理与固定提交 | 含 Git 实测大小 | 用途与许可 |
+|------|------|------|------|
+| [VoxCPM](https://github.com/OpenBMB/VoxCPM) | 新增 `VoxCPM/` 浅克隆，`main@300e4260` | **10,139,667 字节（10.14 MB）** | 当前主线为 VoxCPM2，提供含中文的多语言语音合成、音色设计、声音克隆与流式生成；0 个 SKILL.md。源码 Apache-2.0，上游也声明模型权重采用该许可；本批未下载权重 |
+| [Modern Web Guidance](https://github.com/GoogleChrome/modern-web-guidance) | 新增 `modern-web-guidance/` 浅克隆，`main@4dd96834` | **3,163,703 字节（3.16 MB）** | 面向编码 Agent 的现代 Web 平台实践与兼容性指导，附 CLI 和 2 个正式 Skill；代码 Apache-2.0，`guides/` 文档 CC-BY-4.0 |
+
+VoxCPM 固定提交包含 **82 个文件、5,970,793 字节源码**，未检出 Git 副本 **4,160,206 字节**，展开前合计 **10,130,999 字节**。Modern Web Guidance 为 **265 个文件、2,258,348 字节源码**，未检出 Git 副本 **869,897 字节**，展开前合计 **3,128,245 字节**。最终大小包含检出后的 Git 索引等元数据；不等于压缩下载量或磁盘分配量。GitHub `size` 含历史统计，只作参考，不替代本机大小。
+
+Modern Web Guidance 的两个逻辑入口均随源码保存：
+
+- `skills/modern-web-guidance/SKILL.md`：检索、读取现代 HTML/CSS/JavaScript 指南，关注原生 Web API、性能、无障碍、浏览器支持与回退策略。
+- `skills/chrome-extensions/SKILL.md`：Chrome Manifest V3 扩展开发、调试及 Chrome Web Store 发布指导。
+
+这两个文件均为正式入口，没有复制件或提示模板混入计数。本批只保存源码；未将 Skill 安装到 Codex 或其他 Agent，未执行 npx、插件安装或发布动作。该链接是可分发的 Skill/CLI 仓库，其 README 和 package.json 指向另一个[构建源码仓库 modern-web-guidance-src](https://github.com/GoogleChrome/modern-web-guidance-src)，本轮只记录其关系，没有额外拉取。
+
+| 项目 | 运行条件与使用评价 |
+|------|------|
+| VoxCPM | README 推荐 Python >=3.10,<3.13、PyTorch >=2.5.0、CUDA >=12.0；pyproject 的 Python 下限为 >=3.10，未声明该上限。CLI 也提供 cpu、mps、cuda 等设备选项，实际依赖与性能需另行验证。上游模型对照表给 VoxCPM2 的参考显存约 8 GB，不是本机实测；源码大小不含模型。适合与已有 Pocket TTS、LuxTTS、VibeVoice 对照研究中文及多语言语音功能。 |
+| Modern Web Guidance | package.json 声明 Node.js >=22.0.0；VS Code 扩展另声明 >=1.90.0。源码保留了指南及 CLI 文件；Skill 默认工作流通过 npx 检索和读取指南，会按需取得 npm 包，后续使用需单独准备环境。适合补充现有 UI 设计与 Chrome DevTools 工具的 Web 平台实践资料；本批未运行 CLI、legacy-scan 或评测。 |
+
+两个仓库均浅克隆、工作树干净，HEAD 与本次抓取的 origin/main 一致（ahead/behind 为 0/0），通过 `git fsck --no-reflogs`，没有子模块或 Git LFS 规则。未下载依赖、模型、发行包，未安装全局 Skill/MCP/插件，未启动服务或运行应用测试，也没有更新其他仓库。分享清单新增两个不同来源，由 **135 项增至 137 项**；历史全量仓库与 Skill 数量保留各自核验日期。完整提交、来源、大小与校验见[本批核验 JSON](../scripts/repository-review-20261113.json)。
+
+## 2026-11-12 Harness²、Orthros、DeepTutor 与 MiniMind
+
+按用户要求继续搜索并收录，默认单项目沿用 **100,000,000 字节（十进制 100 MB）** 上限，计入当前源码与 `.git`。先查默认分支固定提交的完整文件树，再用 `--depth 1 --single-branch --no-tags --no-checkout --no-recurse-submodules` 拉取 Git 对象，按限额决定是否检出，并复测实际大小。DeepTutor 初次超限跳过后，用户追加明确授权“DeepTutor可以克隆下来”，因此仅对该项目豁免大小限制并重新浅克隆、检出源码。其他项目仍按原限额；新仓库本地设置 `core.autocrlf=false` 保留源码换行，未改全局 Git 配置。
+
+| 项目 / 来源 | 本地处理与固定提交 | 大小 | 用途与许可 |
+|------|------|------|------|
+| [Harness²](https://github.com/google-research/harness2) | 新增 `harness2/` 浅克隆，`main@68688175` | 含 Git **15.30 MB** | 通过提出修改、执行探测、组合改进来调整 Agent 的提示、工具、记忆与 Skills，并保留跨任务经验，模型权重固定；源码 Apache-2.0，附带第三方基准代码保留各自许可 |
+| [DeepTutor](https://github.com/HKUDS/DeepTutor) | 按用户大小例外授权新增 `DeepTutor/` 浅克隆，`main@60fb3bdf` | 检出后含 Git **106.70 MB** | 个性化学习平台，包含知识库问答、解题、练习、研究、学习记忆与 CLI；6 个正式 Skill 入口随源码保存；Apache-2.0，第三方部分按各自声明 |
+| [MiniMind](https://github.com/jingyaogong/minimind) | 新增 `minimind/` 浅克隆，`master@233d00fa` | 含 Git **23.36 MB** | 小语言模型及预训练、SFT、LoRA、DPO、PPO/GRPO/CISPO、工具调用与 Agentic RL 等训练过程，适合阅读 PyTorch 实现；Apache-2.0 |
+| [Orthros 论文](https://arxiv.org/html/2610.13735) | 保存 `arxiv-2610.13735v1.pdf`，暂未确认官方代码仓库 | PDF **2.45 MB** | 按预填充与解码阶段采用不同注意力计算，研究长上下文效率；论文 CC-BY-NC-ND-4.0，不计作 Skill |
+
+论文编号分别核对：**`2610.13735` 为 Orthros，Harness² 为 [`2610.14224`](https://arxiv.org/abs/2610.14224)**。Harness² 原版论文另存根目录 `arxiv-2610.14224v1.pdf`，约 **8.10 MB、37 页**，论文许可 CC-BY-4.0，与源码许可分别记录；Orthros 为 **20 页**。两篇均为 v1，已验证 PDF 结束标记、结构和全部页面文本，文件大小及 SHA-256 见本批 JSON。Harness² 初次传输被截断，已从同一官方版本断点补齐并复核为 8,101,889 字节，失败的临时下载均已清理。Orthros 的 [arXiv 正文](https://arxiv.org/html/2610.13735)与[作者论文列表](https://www.zhongzhuzhou.org/publication/)未提供可确认的对应代码链接，按标题与作者补搜后仍未确认；这不等于断言代码不存在。本批未抓取非官方复现仓库。
+
+DeepTutor 固定提交共 4530 个文件，源码 **70,438,066 字节**。初次未检出的浅 Git 副本为 **35,755,135 字节**，展开前合计 **106,193,201 字节**，当时按限额跳过并清理。用户追加授权后，重新浅克隆并检出全部源码；当前 `.git` 为 **36,257,418 字节**，合计 **106,695,484 字节（106.70 MB）**，以实际检出后的文件长度为准。初次核算与清理证据保留在 JSON 的 `initial_size_limited_attempt`，当前状态记为按用户大小例外授权保留。GitHub `size` 的 258,519 KiB 含历史统计，不作为本机大小；未使用稀疏检出或删除资源缩减源码。
+
+Skill 核对：Harness² 和 MiniMind 都没有 `SKILL.md`，按研究框架和模型代码收录。DeepTutor 有 **6 个正式入口**：根 `SKILL.md`（`deeptutor-cli`）及 `deeptutor/skills/builtin/{docx,pdf,pptx,skill-creator,xlsx}/SKILL.md`；`deeptutor/capabilities/creator/prompts/{en,zh}/skill.md` 是 2 个生成提示模板，不能把这 8 个大小写匹配文件都算作 Skill。DeepTutor 入口均已随源码保存在本地，未安装到全局 Skill 目录。
+
+| 项目 | 运行条件与使用评价 |
+|------|------|
+| Harness² | README 推荐 Linux、Python 3.12、uv；pyproject 声明 Python >=3.12,<3.14。模型基准另需模型服务、Node.js 20+ 等，WorkBuddy 需 Docker，LAB 需 Pandoc/Poppler。适合与现有 skill-up、SESA、ECC 对照研究 Agent 改进流程。当前 Windows 主机只存源码，未运行 demo、基准或任何执行器。 |
+| DeepTutor | Python >=3.11,<3.15；源码 Web 开发推荐 Node.js 22 LTS，完整学习功能另需配置 LLM、嵌入、检索及解析服务。根 Skill 依赖 DeepTutor CLI 和配套文档。本批按用户大小例外授权保存源码，未安装或启动。`.gitattributes` 包含 MP4 的 Git LFS 规则，克隆设置跳过 LFS 内容；当前固定提交未发现 MP4 文件，无额外 LFS 资源下载。 |
+| MiniMind | README 参考环境为 Ubuntu 20.04、Python 3.10.16、CUDA 12.2；需按设备单独准备 PyTorch、训练数据与模型权重。当前主线提供 Dense 约 64M 及 MoE 约 198M-A64M 模型；“2 小时、3 元”是上游对特定 RTX 3090 SFT 训练与租卡时段的描述，不作为本机成本或全流程实测。 |
+| Orthros | 研究注意力架构与训练/转换方案，不是现有模型可直接打开的推理加速开关。论文报告的加速有上下文长度和硬件等实验条件，本次只保存论文，未复现训练、转换或推理。 |
+
+Harness² 与 MiniMind 两个 Git 仓库均浅克隆、工作树干净、HEAD 与本次抓取的 origin 默认分支一致，并通过 `git fsck --no-reflogs`。两者均无子模块或 Git LFS 规则。最终大小分别为 **15,295,762** 与 **23,358,234 字节**，为文件长度合计，包含 Git，不是压缩下载量或磁盘分配量。未安装依赖、权重、数据集、发行包、全局 Skill/MCP，也未启动服务或运行应用测试。
+
+追加授权后的 DeepTutor 同样为浅克隆、工作树干净、HEAD 与本次抓取的 origin/main 一致，并通过 `git fsck --no-reflogs`；输出中只有不可达 tag 提示，不是对象损坏。版本清单最终增加三个本地目录，其中 DeepTutor 为明确授权的大小例外；不重扫其他仓库或改写历史数量。来源与分享清单新增 3 个项目和 Orthros 论文，分享条目仍为 **135**，本次状态更新不重复计数。完整提交、树大小、Skill 路径、首次清理与追加授权记录、论文校验见[核验 JSON](../scripts/repository-review-20261112.json)。
 
 ## 2026-11-11 音视频、认证、代码检索与学习资料
 

@@ -2,7 +2,7 @@
 
 **生成时间**: 2026-07-30 11:08:51 +08:00
 **初始整理时间**: 2026-07-30
-**最近核对**: 2026-11-11
+**最近核对**: 2026-11-13
 **范围（历史快照）**: `E:\aimodel` 顶层目录中带 `.git` 且 origin 指向 GitHub 的仓库
 **数量（当时）**: 61 个
 **状态**: 自动 star 受本机 GitHub CLI/API 环境影响，本清单改为手动处理参考
@@ -10,6 +10,25 @@
 ---
 
 > 本文件只保留 GitHub 链接和历史范围，不参与当前 skill 更新判定；当前目录台账请查看 [SKILLS_INDEX.md](SKILLS_INDEX.md)。
+
+## 2026-11-13 VoxCPM 与 Modern Web Guidance
+
+| 项目 | 来源 | 用途与本地处理 |
+|------|------|------|
+| VoxCPM | https://github.com/OpenBMB/VoxCPM | 多语言语音合成、音色设计与声音克隆；`300e4260`，源码浅克隆含 Git 10.14 MB，0 个 SKILL.md；Apache-2.0 |
+| Modern Web Guidance | https://github.com/GoogleChrome/modern-web-guidance | 现代 Web 平台实践与 Chrome 扩展开发 2 个正式 Skill；`4dd96834`，浅克隆含 Git 3.16 MB；代码 Apache-2.0，`guides/` 文档 CC-BY-4.0 |
+
+两者均低于 100 MB；来源、运行条件和对象校验见[本批记录](GITHUB_REPOS.md#2026-11-13-voxcpm-与-modern-web-guidance)。未执行 GitHub Star 动作，未安装依赖、模型或全局 Skill/插件。
+
+## 2026-11-12 Harness²、DeepTutor 与 MiniMind
+
+| 项目 | 来源 | 用途与本地处理 |
+|------|------|------|
+| Harness² | https://github.com/google-research/harness2 | Agent 执行配置递归改进；`68688175`，源码浅克隆含 Git 15.30 MB；Apache-2.0；对应论文 2610.14224 |
+| DeepTutor | https://github.com/HKUDS/DeepTutor | 个性化学习平台与 CLI；`60fb3bdf`，按用户大小例外授权浅克隆至 `DeepTutor/`，含 Git 106.70 MB；6 个正式 Skill 入口随源码保存；Apache-2.0 |
+| MiniMind | https://github.com/jingyaogong/minimind | 小语言模型结构与训练链路；`233d00fa`，源码浅克隆含 Git 23.36 MB；Apache-2.0 |
+
+另存用户提供的[Orthros 论文（2610.13735）](https://arxiv.org/html/2610.13735)，与 Harness² 为不同研究；当前未确认官方代码来源，不添加猜测的 GitHub 地址。两篇原版 PDF、版本和 SHA-256 见[本批核验](../scripts/repository-review-20261112.json)。未执行 GitHub Star 动作，未安装依赖或全局 Skill。
 
 ## 2026-11-11 新增八个指定来源
 
@@ -292,3 +311,15 @@
 | zvec-ai/zvec-grep | https://github.com/zvec-ai/zvec-grep |
 | hashicorp/terraform | https://github.com/hashicorp/terraform |
 | handsomestWei/patent-disclosure-skill | https://github.com/handsomestWei/patent-disclosure-skill |
+
+
+## 2026-11-15 新增来源
+
+VoxCPM 和 modern-web-guidance 已有记录，不重复克隆。Twitter 链接按用户指令取消。modern-web-guidance-src 超限仅登记。
+
+| 来源 | 链接 |
+|------|------|
+| f/prompts.chat | https://github.com/f/prompts.chat |
+| ZiChuanLan/freebie-radar | https://github.com/ZiChuanLan/freebie-radar |
+| Thysrael/Horizon | https://github.com/Thysrael/Horizon |
+| GoogleChrome/modern-web-guidance-src | https://github.com/GoogleChrome/modern-web-guidance-src |
