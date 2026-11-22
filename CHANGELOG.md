@@ -7,6 +7,44 @@
 
 ---
 
+## 2026-11-22 应用平台、模型运行、网页采集与游戏 Skills
+
+- 新增 `open-webui/`、`ollama/`、`Scrapling/` 三个源码浅克隆，含 Git 分别为 **77.83、80.00、15.03 MB**。`public-apis/` 快进至 `867085cc`，`blender-skills/` 快进至 1.3.3 `1a1cc6c4`；游戏开发仓库已保存，在线核对仍为 `c6ca6c41`（79 个游戏 Skill 加 1 个路由入口）。Dify 仅源码已达 153.43 MB，超限只登记。六个本地仓库工作树干净并通过对象校验，分享清单增至 160 个来源。
+- 更新版本、Skill、来源链接及 Markdown/HTML 分享清单；记录 Dify 和 Open WebUI 的定制许可条件。
+- 未安装依赖、模型、引擎或全局 Skill/MCP；版本、大小及对象校验见 `scripts/repository-review-20261122.json`。
+
+## 2026-11-21 游戏开发 Skills 与逆向资料核验
+
+- 新增 `gamedev-skills/awesome-gamedev-agent-skills` 源码浅克隆：main `c6ca6c41`，含 Git 7,836,642 字节（7.84 MB），79 个游戏开发 Skill 和 1 个路由入口，Apache-2.0。
+- 核对已有 `reverse-skill/`：保留 3 个未提交修改及原 HEAD `a5171e03`，按常规同步规则跳过更新；未抓取远端，未将缓存的上游提交标为最新。
+- 两个仓库均通过对象校验；更新下载台账、版本与 Skill 索引、来源链接及 Markdown/HTML 分享清单，来源数由 155 增至 156。详情见 `scripts/repository-review-20261121.json`。
+- 本次保存源码与记录，未安装依赖、引擎、全局 Skill/MCP 或启动项目。
+
+## 2026-11-20 十个 GitHub 仓库续拉
+
+- 新增 `pixelfx@5294518c`、`humanizer@a32f2440`、`elephant-goldfish-model@70406c4d` 三个浅克隆，快进更新 `free-claude/free-claude-code@62db82ec`、`anthropic-skills@e4bb5d96`、`modern-web-guidance-src@998f5114`。六个本地仓库工作树干净并通过对象校验。
+- Plannotator、daily_stock_analysis、Univer 和 Astryx 超过 120 MB，仅登记。重复的 pixelfx 链接合并处理一次。
+- 更新下载台账、本地版本和 Skill 索引、来源清单及 Markdown/HTML 分享清单。分享来源增至 155 个。见[核验 JSON](scripts/repository-review-20261120.json)。
+
+## 2026-11-19 三个仓库续拉
+
+- `EL4CTEO/blender-skills` 从 `b1b21dfb` 快进至 `9e7e04a6`，保留 28 个 Skill；`storytold/craft-anything` 从 `5979f9b1` 快进至 `df227090`。
+- 补齐 `bannedbook/fanqiang@3f5bb7ae` 源码浅克隆，含 Git 180,313,289 字节，按本次点名续拉作为单项目大小例外。
+- 三个仓库工作树干净，HEAD 与本次核对的上游一致，并通过 Git 对象校验。更新下载台账、版本表、Skill 索引及分享清单，来源共 147 个。证据见 `scripts/repository-review-20261119.json`。
+
+## 2026-11-18 收录 Moli 无头浏览器
+
+- 新增 `lexmount/moli@6b8baf41` 源码浅克隆，含 Git 151,888,069 字节，按用户明确下载指令作为大小例外。工作树干净，通过 Git 对象校验。
+- 随源码保存网页提取、搜索与 CDP 控制 3 个 Skill。已补充仓库台账、Skill 索引及 Markdown 和 HTML 分享清单，分享清单增至 147 个来源。详见 `scripts/repository-review-20261118-moli.json`。
+
+## 2026-11-17 收录 Blender Agent Skills、Craft Anything 与 fanqiang
+
+- 新增 `EL4CTEO/blender-skills@b1b21dfb`、`storytold/craft-anything@5979f9b1` 两个源码浅克隆，含 Git 分别为 12,942,239、31,769,446 字节，均低于 120 MB；工作树干净、与本批固定提交一致并通过 Git 对象校验。
+- Blender Agent Skills 的 28 个正式入口随源码保存；与此前仅登记链接的 `arjun988/blender-skills` 分别记账。Craft Anything 无 SKILL.md，按桌面、CLI 和 MCP 工具收录；记录 Rust 1.97+、早期 alpha 状态和代码/品牌素材的许可差异。
+- `bannedbook/fanqiang@3f5bb7ae` 当前文件 97,937,924 字节，检出前 Git 为 82,109,097 字节，合计 180,047,021 字节；超限跳过检出，临时副本已清理，只登记来源、用途、许可边界和核算证据。
+- 更新 README、下载台账、一级仓库版本表、Skill 索引、来源及 Markdown/HTML 分享清单；新增 3 个不同来源，共 146 项。历史全目录扫描与 Skill 总数保留原日期；未安装依赖、全局 Skill/MCP 或启动第三方应用。
+- 核验见 `scripts/repository-review-20261117.json`，完整固定提交文件树另存为同日 `repository-tree-*.json`。
+
 ## 2026-11-15 全目录同步
 
 - 检查 134 个可见一级仓库：已在线核对，无需更新 40 个；本地修改，保留原状 2 个；无 upstream，保留原状 1 个；部分克隆资料库，保留按需下载布局 2 个；已快进更新并通过对象校验 89 个；网络连接失败已重试处理，最终无未处理失败。

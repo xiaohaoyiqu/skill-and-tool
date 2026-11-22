@@ -4,7 +4,31 @@
 
 第三方项目主要保存资料与来源记录，使用条件以原项目说明为准。自制的本地 Skill 和项目资料检索工具 [SKLIB](sklib/README.md) 也在本仓库中保存源码。
 
-转发给别人可以使用 [AI Skills 和工具分享清单](docs/SHARE_GUIDE.md)，按用途介绍 143 个项目与论文来源并附链接；[HTML 分享版](docs/SHARE_GUIDE.html) 可作为单个文件发送，用浏览器打开。
+转发给别人可以使用 [AI Skills 和工具分享清单](docs/SHARE_GUIDE.md)，按用途介绍 160 个项目与论文来源并附链接；[HTML 分享版](docs/SHARE_GUIDE.html) 可作为单个文件发送，用浏览器打开。
+
+## 2026-11-22 应用平台、模型运行、网页采集与游戏 Skills
+
+新增 `open-webui/`、`ollama/`、`Scrapling/` 三个源码浅克隆，含 Git 分别为 **77.83、80.00、15.03 MB**。`public-apis/` 快进至 `867085cc`，`blender-skills/` 快进至 1.3.3 `1a1cc6c4`；游戏开发仓库已保存，在线核对仍为 `c6ca6c41`（79 个游戏 Skill 加 1 个路由入口）。Dify 仅源码已达 153.43 MB，超限只登记。六个本地仓库工作树干净并通过对象校验，分享清单增至 160 个来源。见[下载台账](docs/GITHUB_REPOS.md#2026-11-22-应用平台模型运行网页采集与游戏-skills)和[核验 JSON](scripts/repository-review-20261122.json)。
+
+## 2026-11-21 游戏开发 Skills 与逆向资料核验
+
+新增 `awesome-gamedev-agent-skills/` 源码浅克隆，main `c6ca6c41`，含 Git **7.84 MB**，保存 79 个游戏开发 Skill 和 1 个路由入口，覆盖 12 种引擎。已有 `reverse-skill/` 存在 3 个未提交修改，按常规同步规则保留原状，仍为 `a5171e03`。两个仓库均通过 Git 对象校验。分享清单增至 156 个不同来源。见[下载台账](docs/GITHUB_REPOS.md#2026-11-21-游戏开发-skills-与逆向资料核验)和[核验 JSON](scripts/repository-review-20261121.json)。
+
+## 2026-11-20 十个 GitHub 仓库续拉
+
+新增 `pixelfx/`、`humanizer/` 和 `elephant-goldfish-model/` 三个浅克隆。`anthropic-skills/`、`modern-web-guidance-src/` 和嵌套的 `free-claude/free-claude-code/` 均已快进。Plannotator、daily_stock_analysis、Univer 和 Astryx 超过新增项目的 120 MB 上限，仅登记来源。分享清单增至 155 个来源。见[下载台账](docs/GITHUB_REPOS.md#2026-11-20-十个-github-仓库续拉)和[核验 JSON](scripts/repository-review-20261120.json)。
+
+## 2026-11-19 三个仓库续拉
+
+`blender-skills/` 和 `craft-anything/` 分别快进到 `9e7e04a6` 和 `df227090`。此前仅登记链接的 `bannedbook/fanqiang` 已补拉至 `fanqiang/`，master `3f5bb7ae`，含 Git **180.31 MB**，按本次点名续拉作为单项目大小例外。三个仓库均已通过 Git 对象校验，分享清单共 147 个来源。详见[下载台账](docs/GITHUB_REPOS.md#2026-11-19-三个仓库续拉)和[核验 JSON](scripts/repository-review-20261119.json)。
+
+## 2026-11-18 Moli 无头浏览器
+
+应用户要求将 `lexmount/moli` 源码浅克隆到 `moli/`，main `6b8baf41`，含 Git **151.89 MB**，按本次直接下载指令作为大小例外收录。随源码保存 3 个 Skill，可用于网页提取、网页搜索与 CDP 浏览器控制。分享清单增至 147 个来源。见[下载台账](docs/GITHUB_REPOS.md#2026-11-18-moli-无头浏览器)和[核验 JSON](scripts/repository-review-20261118-moli.json)。
+
+## 2026-11-17 Blender Skills、Craft Anything 与网络资料
+
+新增 `EL4CTEO/blender-skills` 和 `storytold/craft-anything` 的源码浅克隆，保存到 `blender-skills/`、`craft-anything/`，含 Git 分别为 **12.94 MB、31.77 MB**。前者保存 28 个正式 Skill，与此前仅登记的 `arjun988/blender-skills` 是两个独立来源。`bannedbook/fanqiang` 完整当前文件与浅克隆 Git 合计约 **180.05 MB**，超过新增项目的 120 MB 默认上限，仅登记链接并清理临时副本。分享清单由 143 项增至 146 项；用途、许可和版本见[本批台账](docs/GITHUB_REPOS.md#2026-11-17-blender-skillscraft-anything-与网络资料)及[核验 JSON](scripts/repository-review-20261117.json)。仅保存源码与记录，未安装依赖或全局 Skill/MCP。
 
 ## 2026-11-15 全目录同步
 

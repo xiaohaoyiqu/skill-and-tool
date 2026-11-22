@@ -1,12 +1,112 @@
 # GitHub 仓库下载与配置台账
 
-**最后整理**: 2026-11-15
+**最后整理**: 2026-11-22
 **目录**: E:\aimodel
 **定位**: GitHub 下载与配置历史台账；当前 skill 更新状态以 [SKILLS_INDEX.md](SKILLS_INDEX.md) 为准
 **状态**: 只记录克隆和配置，不自动安装依赖、不写入全局 Codex skills
 **Star 手动清单**: [GITHUB_STAR_LIST.md](GITHUB_STAR_LIST.md)
 
 ---
+
+## 2026-11-22 应用平台、模型运行、网页采集与游戏 Skills
+
+| 项目 | 本次处理与版本 | 大小（十进制） | 用途与许可 |
+|------|------|------|------|
+| [Dify](https://github.com/langgenius/dify) | 超限仅登记，main `8b6fbfb0` | 153.43 MB（153,428,103 字节），仅源码 | AI 应用开发平台，组织 Agent 工作流、RAG、模型与工具接入。采用附多租户及前端品牌条件的 Dify License；当前源码超限，仅登记链接。 |
+| [Open WebUI](https://github.com/open-webui/open-webui) | 新增源码浅克隆 `open-webui/`，main `0666e59d` | 77.83 MB（77,833,771 字节），含 Git | 可自托管的 AI 对话界面，支持 Ollama 与兼容 OpenAI 的 API，并提供知识库与扩展功能。采用含品牌条件的 Open WebUI License，历史代码许可另见 LICENSE_HISTORY；已保存源码。 |
+| [Ollama](https://github.com/ollama/ollama) | 新增源码浅克隆 `ollama/`，main `2bd4d6aa` | 80.00 MB（80,002,636 字节），含 Git | 运行和管理语言模型的工具，提供命令行与 API，可与对话界面或应用连接。源码 MIT，模型权重与第三方组件分别按其许可；仅保存源码，未下载模型或启动服务。 |
+| [Scrapling](https://github.com/D4Vinci/Scrapling) | 新增源码浅克隆 `Scrapling/`，main `2998c9eb` | 15.03 MB（15,029,454 字节），含 Git | Python 网页采集框架，整合 HTTP 请求、浏览器渲染、页面解析、并发爬取与数据导出，提供 MCP 和官方 Agent Skill。Python 3.10+，BSD-3-Clause；已保存源码及 1 个 Skill，运行依赖需另备。 |
+| [public-apis](https://github.com/public-apis/public-apis) | 快进更新 `public-apis/`，master `867085cc` | 18.15 MB（18,151,366 字节），含 Git | 公共 API 与 MCP 服务的分类导航；MIT，外链服务各自核对条件。 |
+| [Blender Agent Skills（EL4CTEO）](https://github.com/EL4CTEO/blender-skills) | 快进更新 `blender-skills/`，main `1a1cc6c4` | 13.02 MB（13,016,637 字节），含 Git | 28 个 Blender 制作 Skill；MIT。本次从 `9e7e04a6` 快进 1 个提交至 1.3.3，修复压力测试发现的边界问题。 |
+| [awesome-gamedev-agent-skills](https://github.com/gamedev-skills/awesome-gamedev-agent-skills) | 在线核对，无需更新 `awesome-gamedev-agent-skills/`，main `c6ca6c41` | 7.84 MB（7,836,642 字节），含 Git | 79 个游戏开发 Skill 加 1 个路由入口，覆盖 12 种引擎；Apache-2.0。按用户明确下载授权保留现有副本。 |
+
+本轮 7 个来源中，新增 3 个源码浅克隆，已有 public-apis、Blender Skills 快进更新，已有游戏开发 Skills 在线核对仍为最新，Dify 超限仅登记。public-apis 从 `51bc64ab` 快进 188 个提交至 `867085cc`；不重复克隆或重复计算来源。
+
+沿用新增项目源码与 Git 合计严格小于 **120,000,000 字节**的规则。Dify 固定提交的完整 API 文件树未截断，源码已占 **153,428,103 字节**，未下载 Git 或建立 `dify/`。其远端有 6 个 SKILL.md：4 个项目开发入口、1 个端到端测试夹具及 1 个 difyctl 入口；不作为已安装 Skill 计数。Open WebUI、Ollama 与 public-apis 当前文件树均无 SKILL.md。Scrapling 的正式入口为 `agent-skill/Scrapling-Skill/SKILL.md`，版本 0.5.1。
+
+六个保留的本地仓库均为完整当前工作树，HEAD 与本次固定并抓取的默认分支提交一致，工作树干净，通过 `git fsck --no-reflogs`。新仓库 Git 树对象与下载前固定提交的完整 API 树一致；游戏仓库此前已下载，本次核对后保留，不需重新克隆。各仓库大小均低于上限，本批无需大小例外。Blender 的对象校验含一条 dangling tag 提示，退出码为 0。
+
+仅保存源码与记录，未安装依赖、模型、浏览器、游戏引擎或全局 Skill/MCP，未运行上游安装器、启动服务或复现上游功能。Dify 的多租户与前端品牌条款见[固定提交 LICENSE](https://github.com/langgenius/dify/blob/8b6fbfb010ff77b6d2d9e57c4fdd3d8225f3e6ca/LICENSE)，Open WebUI 的品牌条款见[固定提交 LICENSE](https://github.com/open-webui/open-webui/blob/0666e59d26a4d056e0bacee41742486badd71cf8/LICENSE)；不能一概写为标准 Apache-2.0 或 MIT。
+
+分享清单由 156 增至 **160 个不同来源**。新增来源是 Dify、Open WebUI、Ollama 和 Scrapling；另外三个是已收录来源。见[核验 JSON](../scripts/repository-review-20261122.json)、[下载前 API 汇总](../scripts/repository-api-20261122.json)和同目录 `repository-tree-20261122-*.json` 完整树记录。
+
+## 2026-11-21 游戏开发 Skills 与逆向资料核验
+
+| 项目 | 本次处理与版本 | 大小与内容 |
+|------|------|------|
+| [awesome-gamedev-agent-skills](https://github.com/gamedev-skills/awesome-gamedev-agent-skills) | 新增同名目录源码浅克隆，main `c6ca6c41` | 实测含 Git **7.84 MB（7,836,642 字节）**，低于 120 MB 默认上限；79 个游戏开发 Skill 和 1 个路由入口，Apache-2.0，另见 NOTICE。 |
+| [reverse-skill](https://github.com/zhaoxuya520/reverse-skill) | 已有仓库，按常规规则保留本地修改，跳过更新，main `a5171e03` | 实测含 Git **12.22 MB（12,219,666 字节）**，本地存在 3 个未提交修改；84 个 SKILL.md 文件为当前物理文件数，未据此重算逻辑 Skill 总数。MIT。 |
+
+游戏开发项目按用户“这个可以直接下载”授权保存完整当前工作树，实际无需大小例外。下载经历连接中断，重试完成后清理了本批遗留的锁文件和临时 pack，HEAD 与本次抓取的 `origin/main` 一致，工作树干净，通过 `git fsck --no-reflogs`。覆盖 Godot、Unity、Unreal、Ebitengine、Phaser、PixiJS、three.js、Bevy、pygame、LÖVE、Defold 和 Roblox；从 `router/SKILL.md` 分派到引擎、玩法、制作与发布任务入口。引擎兼容性和上游评测结果未在本机复现。
+
+`reverse-skill/` 的本地修改位于 `skills/pentest-tools/src-hunter/references/payloader/by-category/web/文件漏洞.md`、同目录 `请求走私.md` 和 `skills/pentest-tools/src-hunter/references/playbooks/http-smuggling.md`。本次未执行 fetch、stash、reset 或合并；HEAD 与工作树内容保持原样，通过对象校验，核验 JSON 保存三个文件的 SHA-256。缓存的 `origin/main` 为 `7e2097fd`，并非本次在线核对的远端状态；不标记为已同步。
+
+分享清单由 155 增至 **156 个不同来源**，reverse-skill 为既有来源，不重复计数。未安装依赖、游戏引擎、全局 Skill/MCP 或运行上游安装器。完整提交、大小、Skill 路径及保护状态见[核验 JSON](../scripts/repository-review-20261121.json)。
+
+## 2026-11-20 十个 GitHub 仓库续拉
+
+本批 11 条输入去重后为 10 个来源。已有仓库按授权保留原目录并快进更新，新增仓库沿用源码与 Git 合计严格小于 120 MB 的规则。
+
+| 项目 | 处理与版本 | 大小 | 用途与许可 |
+|------|------|------|------|
+| [PixelFX](https://github.com/patch-gg/pixelfx) | 新增 `pixelfx/` 浅克隆，main `5294518c` | 27.05 MB（27,051,846 字节），实测含 Git | 可由代码生成的像素动效库和可浏览的示例，提供精灵图导出及一个用于制作动效的 Skill。代码采用 MIT，画廊字体许可见 NOTICE。 |
+| [Humanizer](https://github.com/blader/humanizer) | 新增 `humanizer/` 浅克隆，main `a32f2440` | 0.13 MB（134,887 字节），实测含 Git | 文本润色 Skill，检查常见的生成式写作模式，并尽量保留原作者的语气和意思。MIT。 |
+| [Plannotator](https://github.com/backnotprop/plannotator) | 超限，仅登记，main `f61d44dc` | 128.24 MB（128,242,593 字节），仅源码 | 用于批注 Agent 的计划、规格和差异，审查代码并把反馈发回 Agent。Apache-2.0 或 MIT。 |
+| [Free Claude Code](https://github.com/Alishahryar1/free-claude-code) | 快进更新 `free-claude/free-claude-code/`，由 `d3a3b37e` 至 main `62db82ec` | 30.38 MB（30,379,245 字节），实测含 Git | 为多种编码 Agent 接入模型后端的社区项目，提供 API 代理和会话管理。AGPL-3.0-only。 |
+| [daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | 超限，仅登记，main `92f0209e` | 167.16 MB（167,158,646 字节），检出前核算含 Git | 聚合多个市场的行情、新闻和模型分析，提供自选股看板、定时任务及推送。MIT。 |
+| [Elephant-Goldfish Model](https://github.com/google/elephant-goldfish-model) | 新增 `elephant-goldfish-model/` 浅克隆，main `70406c4d` | 5.34 MB（5,337,864 字节），实测含 Git | 辅助软件规格编写与审查的 Agent 插件，起草者保留项目上下文，审查者独立阅读草稿与引用材料。Apache-2.0，附 8 个 Skill。 |
+| [Anthropic Skills](https://github.com/anthropics/skills) | 快进更新 `anthropic-skills/`，由 `1780c5e5` 至 main `e4bb5d96` | 17.89 MB（17,885,870 字节），实测含 Git | Anthropic 的官方 Skill 示例，涵盖文档、设计与应用开发，提供 19 个 Skill 和 1 个模板。各目录许可见上游说明。 |
+| [Univer](https://github.com/dream-num/univer) | 超限，仅登记，dev `0b7a1243` | 146.46 MB（146,459,824 字节），检出前核算含 Git | 可嵌入应用的办公 SDK。开源核心涵盖电子表格、文档和无界面处理，服务端和部分扩展另有许可。开源仓库采用 Apache-2.0。 |
+| [modern-web-guidance-src](https://github.com/GoogleChrome/modern-web-guidance-src) | 快进更新 `modern-web-guidance-src/`，由 `5e5cd33a` 至 main `998f5114` | 181.32 MB（181,317,867 字节），实测含 Git | Modern Web Guidance 的指南编写、构建、校准与评测源码。代码 Apache-2.0，guides/ 文档 CC BY 4.0，附 13 个维护 Skill 与 2 个分发源入口。 |
+| [Astryx](https://github.com/meta/astryx) | 超限，仅登记，main `16fde59f` | 396.78 MB（396,776,352 字节），仅源码 | Meta 的可定制设计系统，提供组件源码、主题和面向 Agent 的 Skill。MIT。 |
+
+六个本地仓库工作树干净，HEAD 与本次抓取的上游一致，均通过 `git fsck --no-reflogs`。`modern-web-guidance-src/` 按既有仓库超限更新授权保留。Plannotator 与 Astryx 的固定提交源码已超限，直接登记。daily_stock_analysis 与 Univer 的临时 Git 副本已清理，二者的大小为检出前的完整源码与 Git 文件长度之和。
+
+本批保存源码与记录，未安装依赖、模型或全局 Skill/MCP。完整提交、Git 对象校验、大小和 Skill 路径见[核验 JSON](../scripts/repository-review-20261120.json)。
+
+## 2026-11-19 三个仓库续拉
+
+| 项目 | 本次处理与版本 | 实际含 Git（十进制） |
+|------|------|------:|
+| [Blender Agent Skills](https://github.com/EL4CTEO/blender-skills) | `blender-skills/` 的 main 从 `b1b21dfb` 快进 2 个提交至 `9e7e04a6`，包含上游 1.3.2 的蒙皮网格检查修复 | 12.96 MB（12,957,191 字节） |
+| [Craft Anything](https://github.com/storytold/craft-anything) | `craft-anything/` 的 main 从 `5979f9b1` 快进 302 个提交至 `df227090` | 35.91 MB（35,914,015 字节） |
+| [fanqiang](https://github.com/bannedbook/fanqiang) | 已登记的来源首次保存本地源码，`fanqiang/` 的 master `3f5bb7ae` | 180.31 MB（180,313,289 字节） |
+
+`fanqiang` 的完整当前工作树占 97,958,388 字节，`.git` 占 82,354,901 字节。此次按用户再次点名拉取处理为单项目大小例外，默认上限仍为 120 MB。Git 文件树和 11 月 17 日保存的同一提交文件树逐项一致。
+
+三个浅克隆的工作树均干净，HEAD 与本次核对的上游一致，均通过 `git fsck --no-reflogs`。Blender 的校验有一条 dangling tag 提示，退出码为 0。Blender 随源码保存 28 个正式 Skill 入口。Craft Anything 的安装器内嵌一个 Skill 模板，本次只同步源码。分享清单共 147 个来源。见[核验 JSON](../scripts/repository-review-20261119.json)。
+
+## 2026-11-18 Moli 无头浏览器
+
+| 项目 | 本次处理与版本 | 大小 | 用途与许可 |
+|------|------|------|------|
+| [Moli](https://github.com/lexmount/moli) | 新增 `moli/` 浅克隆，main `6b8baf41` | 含 Git **151.89 MB**（151,888,069 字节） | 面向 AI Agent 的 Rust 无头浏览器，可提取网页内容、搜索网页和执行浏览器自动化。提供 CLI、CDP、WebDriver Classic 和 WebDriver BiDi，附 3 个 Skill。默认 MIT OR Apache-2.0，第三方组件按各自许可。 |
+
+源码占 124.04 MB，`.git` 占 27.85 MB。合计超过 120 MB 默认上限，按用户明确的直接下载指令保留此项目。HEAD 和本次核对的远端 main 一致，工作树干净，通过 `git fsck --no-reflogs`。
+
+`skills/` 下的 `moli-webfetch`、`moli-websearch` 与 `moli-cdp-server` 分别用于网页提取、网页搜索与 CDP 自动化。三个入口随源码保存，使用时需要 Moli 可执行文件。上游文档列出 Linux、macOS 和 Windows。分享清单增至 **147 个来源**。完整提交与路径见[核验 JSON](../scripts/repository-review-20261118-moli.json)和[固定提交的 README](https://github.com/lexmount/moli/blob/6b8baf41e0c6a2d08c667a6ea9beec5055884452/README.md)。
+
+## 2026-11-17 Blender Skills、Craft Anything 与网络资料
+
+继续收录用户指定的三个来源，沿用新增项目 **120,000,000 字节（120 MB，十进制）**默认上限，按完整当前文件与 `.git` 文件长度合计，严格小于上限才保留。先核对默认分支固定提交的完整 API 文件树（均未截断），再浅克隆到临时目录，比较文件树并核算检出后大小；不删除资源或稀疏检出来规避限额。
+
+| 项目 | 本次处理与版本 | 大小（十进制 MB） | 用途与许可 |
+|------|------|------|------|
+| [Blender Agent Skills](https://github.com/EL4CTEO/blender-skills) | 新增 `blender-skills/` 浅克隆，main `b1b21dfb` | 实际含 Git **12.94 MB**（12,942,239 字节） | 28 个 Blender 制作 Skill，覆盖建模、UV、材质、烘焙、绑定、动画、服装、毛发、环境、模拟、渲染、导出与资产检查；MIT。 |
+| [Craft Anything](https://github.com/storytold/craft-anything) | 新增 `craft-anything/` 浅克隆，main `5979f9b1` | 实际含 Git **31.77 MB**（31,769,446 字节） | Rust 编写的软件检查、分析与重建引擎，提供桌面界面、CLI、MCP 及研究→构建→比对流程；早期 alpha。代码 MIT OR Apache-2.0；字体、图标与品牌素材另见 ATTRIBUTION.md。 |
+| [fanqiang](https://github.com/bannedbook/fanqiang) | master `3f5bb7ae`；超限仅登记链接，临时副本已清理 | 检出前核算 **180.05 MB**（180,047,021 字节） | 跨平台代理与网络访问工具的教程、链接及部分应用源码，包括 FQNews。根目录未见统一许可证，不能将子项目许可推广为整库许可；各子目录与外链分别核对。 |
+
+**同名来源区分**：此次 `EL4CTEO/blender-skills` 为新来源，保存到此前不存在的 `E:\aimodel\blender-skills`。2026-11-02 和 11 月 9 日记录的 `arjun988/blender-skills` 仍为另一个仅登记链接的项目；保留其原日期和状态，不替换来源或重复计算为同一仓库。
+
+Blender 仓库 `skills/` 下实存 **28 个 SKILL.md**，均为正式入口；以 `skills/blender-core/SKILL.md` 为任务路由入口，完整路径见核验 JSON。上游要求 Blender **5.2 LTS+**，声称在 5.3 验证；此处仅记录上游运行要求，没有运行 Blender 或复现效果。MCP 为可选执行方式，也可用后台 Blender；未运行会写入用户全局目录的安装器。
+
+Craft Anything 没有 SKILL.md，作为工具收录。固定提交 Cargo.toml 声明 Rust **1.97+**、edition 2024；实际重建另需登录的编码 Agent，上游优先支持 Claude Code，并说明 Codex 适配器尚未在真实安装上验证。深度分析可选接入 Ghidra。保存源码不代表已安装应用、MCP 或构建依赖。代码双许可证与非开源应用图标、品牌素材须分别看待，详见其 [ATTRIBUTION.md](https://github.com/storytold/craft-anything/blob/5979f9b13f16dcf1df3c7ae7f8e7735f452866f2/ATTRIBUTION.md)。
+
+**fanqiang 大小核算**：完整当前文件树为 **97,937,924 字节**，浅克隆 Git 数据为 **82,109,097 字节**，检出前合计 **180,047,021 字节**，已超过 120 MB。未展开工作树，自动清理本批专用临时目录，最终不存在 `E:\aimodel\fanqiang`。没有下载额外发行包或运行库内应用；不因 API 的历史仓库大小字段直接判定当前工作树大小。
+
+两个保留仓库均为完整当前工作树的浅克隆，工作树干净、HEAD 与本次固定的远端默认分支提交一致，通过 `git fsck --no-reflogs`。Blender 的校验输出只有一个 dangling tag 提示，退出码为 0，无对象损坏。三个来源均无子模块；跳过 LFS 实体，不安装依赖、全局 Skill/MCP 或启动服务。只增加两个本地 Git 目录，未重扫其他项目或重算历史 Skill 总数。分享清单新增三个不同来源，由 **143 项增至 146 项**。
+
+完整提交、来源、大小与校验见[本批核验 JSON](../scripts/repository-review-20261117.json)及[下载前 API 汇总](../scripts/repository-api-20261117.json)；三个固定提交的完整文件树分别保存于 [Blender](../scripts/repository-tree-20261117-blender-skills.json)、[Craft Anything](../scripts/repository-tree-20261117-craft-anything.json)、[fanqiang](../scripts/repository-tree-20261117-fanqiang.json)。
 
 ## 2026-11-15 全目录同步
 

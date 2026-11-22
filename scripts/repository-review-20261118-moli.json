@@ -1,0 +1,39 @@
+{
+  "recorded_date": "2026-11-18",
+  "limit_bytes": 120000000,
+  "repositories": [
+    {
+      "repository": "lexmount/moli",
+      "url": "https://github.com/lexmount/moli",
+      "local_path": "E:\\aimodel\\moli",
+      "origin": "https://github.com/lexmount/moli.git",
+      "action": "cloned-shallow",
+      "branch": "main",
+      "head": "6b8baf41e0c6a2d08c667a6ea9beec5055884452",
+      "remote_head": "6b8baf41e0c6a2d08c667a6ea9beec5055884452",
+      "matches_remote_head": true,
+      "commit_date": "2026-11-18",
+      "shallow": true,
+      "worktree_clean": true,
+      "fsck_exit_code": 0,
+      "fsck_output": "",
+      "tracked_entries": 8947,
+      "tracked_source_bytes": 124036949,
+      "worktree_file_bytes": 124036949,
+      "git_bytes": 27851120,
+      "local_file_bytes_including_git": 151888069,
+      "size_below_limit": false,
+      "size_exception": true,
+      "size_exception_basis": "User explicitly requested a direct download of this repository.",
+      "skill_paths": [
+        "skills/moli-cdp-server/SKILL.md",
+        "skills/moli-webfetch/SKILL.md",
+        "skills/moli-websearch/SKILL.md"
+      ],
+      "skill_file_count": 3,
+      "submodule_paths": [],
+      "lfs_entities_downloaded": false,
+      "license": "MIT OR Apache-2.0 unless otherwise stated; separately licensed third-party components and fixtures retain their terms."
+    }
+  ]
+}

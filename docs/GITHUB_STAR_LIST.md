@@ -2,7 +2,7 @@
 
 **生成时间**: 2026-07-30 11:08:51 +08:00
 **初始整理时间**: 2026-07-30
-**最近核对**: 2026-11-15
+**最近核对**: 2026-11-22
 **范围（历史快照）**: `E:\aimodel` 顶层目录中带 `.git` 且 origin 指向 GitHub 的仓库
 **数量（当时）**: 61 个
 **状态**: 自动 star 受本机 GitHub CLI/API 环境影响，本清单改为手动处理参考
@@ -10,6 +10,68 @@
 ---
 
 > 本文件只保留 GitHub 链接和历史范围，不参与当前 skill 更新判定；当前目录台账请查看 [SKILLS_INDEX.md](SKILLS_INDEX.md)。
+
+## 2026-11-22 应用平台、模型运行、网页采集与游戏 Skills
+
+| 项目 | 来源 | 当前处理 |
+|------|------|------|
+| Dify | https://github.com/langgenius/dify | 源码超限，仅登记，`8b6fbfb0` |
+| Open WebUI | https://github.com/open-webui/open-webui | 新增源码浅克隆，`0666e59d` |
+| Ollama | https://github.com/ollama/ollama | 新增源码浅克隆，`2bd4d6aa` |
+| Scrapling | https://github.com/D4Vinci/Scrapling | 新增源码浅克隆，`2998c9eb` |
+| public-apis | https://github.com/public-apis/public-apis | 已有仓库快进更新，`867085cc` |
+| Blender Agent Skills（EL4CTEO） | https://github.com/EL4CTEO/blender-skills | 已有仓库快进更新，`1a1cc6c4` |
+| awesome-gamedev-agent-skills | https://github.com/gamedev-skills/awesome-gamedev-agent-skills | 已下载，在线核对无需更新，`c6ca6c41` |
+
+分享清单共 **160 个不同来源**。本次维护来源记录，未执行 GitHub Star。
+
+## 2026-11-21 游戏开发 Skills 与逆向资料核验
+
+| 项目 | 来源 | 当前处理 |
+|------|------|------|
+| awesome-gamedev-agent-skills | https://github.com/gamedev-skills/awesome-gamedev-agent-skills | 新增同名目录源码浅克隆，main `c6ca6c41`，含 Git 7.84 MB，79 个游戏 Skill 加 1 个路由入口 |
+| reverse-skill | https://github.com/zhaoxuya520/reverse-skill | 已有仓库，3 个本地修改，保留 `a5171e03`；未抓取远端 |
+
+分享清单共 **156 个不同来源**。本次只维护链接记录，未执行 GitHub Star。见[下载台账](GITHUB_REPOS.md#2026-11-21-游戏开发-skills-与逆向资料核验)。
+
+## 2026-11-20 十个 GitHub 仓库续拉
+
+| 项目 | 来源 | 当前处理 |
+|------|------|------|
+| PixelFX | https://github.com/patch-gg/pixelfx | 新增 `pixelfx/` 浅克隆，main `5294518c` |
+| Humanizer | https://github.com/blader/humanizer | 新增 `humanizer/` 浅克隆，main `a32f2440` |
+| Plannotator | https://github.com/backnotprop/plannotator | 超限，仅登记，main `f61d44dc` |
+| Free Claude Code | https://github.com/Alishahryar1/free-claude-code | 快进更新 `free-claude/free-claude-code/`，由 `d3a3b37e` 至 main `62db82ec` |
+| daily_stock_analysis | https://github.com/ZhuLinsen/daily_stock_analysis | 超限，仅登记，main `92f0209e` |
+| Elephant-Goldfish Model | https://github.com/google/elephant-goldfish-model | 新增 `elephant-goldfish-model/` 浅克隆，main `70406c4d` |
+| Anthropic Skills | https://github.com/anthropics/skills | 快进更新 `anthropic-skills/`，由 `1780c5e5` 至 main `e4bb5d96` |
+| Univer | https://github.com/dream-num/univer | 超限，仅登记，dev `0b7a1243` |
+| modern-web-guidance-src | https://github.com/GoogleChrome/modern-web-guidance-src | 快进更新 `modern-web-guidance-src/`，由 `5e5cd33a` 至 main `998f5114` |
+| Astryx | https://github.com/meta/astryx | 超限，仅登记，main `16fde59f` |
+
+分享清单共 **155 个不同来源**。见[下载台账](GITHUB_REPOS.md#2026-11-20-十个-github-仓库续拉)。
+
+## 2026-11-19 三个仓库续拉
+
+已登记的 `EL4CTEO/blender-skills` 和 `storytold/craft-anything` 分别快进至 `9e7e04a6` 和 `df227090`，`bannedbook/fanqiang` 已补拉至本地 `3f5bb7ae`。分享清单共 **147 个不同来源**。见[下载台账](GITHUB_REPOS.md#2026-11-19-三个仓库续拉)。
+
+## 2026-11-18 新增 Moli
+
+| 项目 | 来源 | 当前处理 |
+|------|------|------|
+| Moli | https://github.com/lexmount/moli | `6b8baf41`，已浅克隆，含 Git 151.89 MB，附 3 个浏览器相关 Skill |
+
+分享清单增至 **147 个不同来源**。见[下载台账](GITHUB_REPOS.md#2026-11-18-moli-无头浏览器)。
+
+## 2026-11-17 新增三个来源
+
+| 项目 | 来源 | 当前处理 |
+|------|------|------|
+| Blender Agent Skills（EL4CTEO） | https://github.com/EL4CTEO/blender-skills | `b1b21dfb`；新增源码浅克隆，含 Git 12.94 MB，保存 28 个 Skill；与 arjun988 的同名项目分别登记 |
+| Craft Anything | https://github.com/storytold/craft-anything | `5979f9b1`；新增源码浅克隆，含 Git 31.77 MB；软件检查与重建工具，无 SKILL.md |
+| fanqiang | https://github.com/bannedbook/fanqiang | `3f5bb7ae`；完整当前文件与 Git 约 180.05 MB，超过新增项目 120 MB 上限，仅登记链接，临时副本已清理 |
+
+分享清单由 143 项增至 **146 个不同来源**；历史全目录扫描计数保留原日期。许可、大小口径和校验见[本批台账](GITHUB_REPOS.md#2026-11-17-blender-skillscraft-anything-与网络资料)。未执行 GitHub Star 动作。
 
 ## 2026-11-15 全目录同步
 

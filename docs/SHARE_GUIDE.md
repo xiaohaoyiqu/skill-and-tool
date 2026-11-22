@@ -1,12 +1,12 @@
 # AI Skills 和工具分享清单
 
-整理于 2026 年 11 月 15 日。
+整理于 2026 年 11 月 22 日。
 
 平时收集的 AI Skills、开发工具和研究资料，按用途放在这里。每项都附上项目链接和简短介绍，找写作、编程、做界面或读论文的工具，可以直接跳到对应分类。
 
-共收录 143 个不同的项目与论文来源。Skill 通常是一组让 AI 按特定方法工作的说明，有些会附带脚本；组件库、桌面应用和模型项目则需要按各自说明使用。链接指向项目或论文来源，具体安装方式、依赖与许可请查看原始说明。
+共收录 160 个不同的项目与论文来源。Skill 通常是一组让 AI 按特定方法工作的说明，有些会附带脚本；组件库、桌面应用和模型项目则需要按各自说明使用。链接指向项目或论文来源，具体安装方式、依赖与许可请查看原始说明。
 
-## 中文写作与改稿
+## 写作与改稿
 
 这几项侧重点不同。写新稿可以看 human-writing，中文逐句修改可以看 Humanizer-zh；技术说明、小说等不同文体的处理，可以再看 sepia。
 
@@ -14,6 +14,7 @@
 |------|------|
 | [human-writing](https://github.com/KKKKhazix/human-writing) | 通用中文写作与改稿 Skill，覆盖文章、评论、教程和故事。强调具体材料、自然语气，适合把想法写成别人愿意读下去的文字。 |
 | [Humanizer-zh](https://github.com/op7418/Humanizer-zh) | 中文文字编辑 Skill，检查夸张表述、套话、重复句式和生硬衔接，适合已有初稿后的逐句修改。 |
+| [Humanizer](https://github.com/blader/humanizer) | 文本润色 Skill，检查常见的生成式写作模式，并尽量保留原作者的语气和意思。MIT。 |
 | [avoid-ai-writing](https://github.com/conorbronsdon/avoid-ai-writing) | 检查并改写常见的 AI 写作模式，可只给诊断，也可修改原文，适合审阅文章和日常文案。 |
 | [no-ai-slop](https://github.com/petergyang/no-ai-slop) | 清理套路化句式，同时尽量保留作者原有的用词和节奏，适合不想把文章改成统一口气的人。 |
 | [sepia](https://github.com/Nanako0129/sepia) | 按文体处理写作问题，涉及小说叙事，也覆盖发布说明、技术文章和 PR 回复等专业文字。 |
@@ -24,10 +25,11 @@
 
 | 项目 | 介绍 |
 |------|------|
-| [Anthropic Skills](https://github.com/anthropics/skills) | Anthropic 的官方 Skill 示例，包含文档、设计及其他工作任务，可用来了解 Skill 的组织方式。 |
+| [Anthropic Skills](https://github.com/anthropics/skills) | Anthropic 的官方 Skill 示例，涵盖文档、设计与应用开发，提供 19 个 Skill 和 1 个模板。各目录许可见上游说明。 |
 | [agent-skills](https://github.com/addyosmani/agent-skills) | 面向软件开发的工程 Skills，涉及需求、实现、验证和交付，适合给编码 Agent 补充工作规范。 |
 | [Matt Pocock Skills](https://github.com/mattpocock/skills) | 一组可组合的工程 Skills，适合处理需求梳理、设计审查、测试和重构等具体任务。 |
 | [Superpowers](https://github.com/obra/superpowers) | 把讨论需求、制定计划、测试和验证串起来的软件开发工作流，适合需要持续推进的编码任务。 |
+| [Elephant-Goldfish Model](https://github.com/google/elephant-goldfish-model) | 辅助软件规格编写与审查的 Agent 插件，起草者保留项目上下文，审查者独立阅读草稿与引用材料。Apache-2.0，附 8 个 Skill。 |
 | [ECC](https://github.com/affaan-m/ECC) | 较完整的 Agent 配置集合，包含 Skills、规则、hooks 和记忆相关方案，适合研究如何组织编码助手的工作环境。 |
 | [agent-rules-books](https://github.com/ciembor/agent-rules-books) | 从软件工程书籍整理出的规则和 Skills，涉及代码质量、重构、架构及领域建模。 |
 | [andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) | 受 Karpathy 编码观察启发的行为指南，重点是确认假设、控制改动范围和避免过度设计；属于社区整理。 |
@@ -74,13 +76,16 @@
 | [vue-tui](https://github.com/Simon-He95/vue-tui) | Vue 3 终端界面工具，可用于浏览器终端风格页面、命令行界面和相关测试。 |
 | [playcaptcha](https://github.com/mortspace/playcaptcha) | 以抓娃娃交互实现的验证码实验，适合学习动画、交互状态与 React 实现。 |
 | [open-design](https://github.com/nexu-io/open-design) | 面向原型、演示和视觉内容的 AI 设计工具，适合研究用 Agent 完成设计任务的流程。 |
+| [Astryx](https://github.com/meta/astryx) | Meta 的可定制设计系统，提供组件源码、主题和面向 Agent 的 Skill。MIT。当前仅登记链接。 |
 
 ## 浏览器与联网工具
 
 | 项目 | 介绍 |
 |------|------|
 | [browser-use](https://github.com/browser-use/browser-use) | 让 Agent 操作浏览器，完成导航、点击、填写和信息提取等任务。 |
+| [Moli](https://github.com/lexmount/moli) | 面向 AI Agent 的 Rust 无头浏览器，可提取网页内容、搜索网页和执行浏览器自动化。提供 CLI、CDP、WebDriver Classic 和 WebDriver BiDi，附 3 个 Skill。默认 MIT OR Apache-2.0，第三方组件按各自许可。 |
 | [chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | 将 Chrome DevTools 的浏览器检查、调试和性能分析能力提供给编码助手。 |
+| [Scrapling](https://github.com/D4Vinci/Scrapling) | Python 网页采集框架，整合 HTTP 请求、浏览器渲染、页面解析、并发爬取与数据导出，提供 MCP 和官方 Agent Skill。Python 3.10+，BSD-3-Clause；已保存源码及 1 个 Skill，运行依赖需另备。 |
 | [crawl4ai](https://github.com/unclecode/crawl4ai) | 面向网页采集与内容抽取的工具，适合把网页整理为供后续处理的文本或结构化内容。 |
 | [OpenCLI](https://github.com/jackwener/OpenCLI) | 用命令行接口组织网站操作，也提供浏览器自动化能力，适合把重复的网页任务整理成命令。 |
 | [Agent-Reach](https://github.com/Panniantong/Agent-Reach) | 为 Agent 接入不同互联网内容来源提供安装与检查方案，适合研究多平台资料获取。 |
@@ -89,13 +94,23 @@
 | [nanobrowser](https://github.com/nanobrowser/nanobrowser) | 浏览器扩展形态的网页自动化项目，适合研究在浏览器内让 Agent 执行操作的方式。 |
 | [tailcat](https://github.com/tailscale/tailcat) | 使用 Tailscale 数据平面建立 WireGuard 加密的点对点连接，提供类似 netcat 的文本、文件传输和端口转发；连接元数据通过带外地址交换，无需 Tailscale 账号。BSD-3-Clause。 |
 
+## AI 应用平台与模型运行
+
+| 项目 | 介绍 |
+|------|------|
+| [Dify](https://github.com/langgenius/dify) | AI 应用开发平台，组织 Agent 工作流、RAG、模型与工具接入。采用附多租户及前端品牌条件的 Dify License；当前源码超限，仅登记链接。 |
+| [Open WebUI](https://github.com/open-webui/open-webui) | 可自托管的 AI 对话界面，支持 Ollama 与兼容 OpenAI 的 API，并提供知识库与扩展功能。采用含品牌条件的 Open WebUI License，历史代码许可另见 LICENSE_HISTORY；已保存源码。 |
+| [Ollama](https://github.com/ollama/ollama) | 运行和管理语言模型的工具，提供命令行与 API，可与对话界面或应用连接。源码 MIT，模型权重与第三方组件分别按其许可；仅保存源码，未下载模型或启动服务。 |
+
 ## Agent 应用与任务管理
 
 | 项目 | 介绍 |
 |------|------|
 | [goose](https://github.com/aaif-goose/goose) | 在本机运行的通用 Agent，提供桌面、命令行及 API 等使用方式，可接入不同模型与工具。 |
 | [pi](https://github.com/earendil-works/pi) | Agent 开发与运行工具集合，包含编码 Agent、模型接口和运行时，适合研究或扩展自己的 Agent。 |
+| [Free Claude Code](https://github.com/Alishahryar1/free-claude-code) | 为多种编码 Agent 接入模型后端的社区项目，提供 API 代理和会话管理。AGPL-3.0-only。 |
 | [openwork](https://github.com/different-ai/openwork) | 用于组织和共享 AI 工作流的应用，围绕 Skills、MCP 和服务连接来复用任务能力。 |
+| [Plannotator](https://github.com/backnotprop/plannotator) | 用于批注 Agent 的计划、规格和差异，审查代码并把反馈发回 Agent。Apache-2.0 或 MIT。当前仅登记链接。 |
 | [pisper](https://github.com/ling-kong-ran/pisper) | 跨桌面、终端与手机的多 Agent 应用，支持分支会话、工具、记忆和工作流管理。 |
 | [LoopX](https://github.com/loopx-project/loopx) | 为跨轮次任务保存目标、状态和证据，关注任务恢复、交接与人工参与，适合研究长任务管理。 |
 | [headroom](https://github.com/headroomlabs-ai/headroom) | 在内容送入模型前压缩工具输出、日志和上下文，适合研究 Agent 的上下文管理与 token 开销。 |
@@ -132,6 +147,7 @@
 | [zvec-grep](https://github.com/zvec-ai/zvec-grep) | 将关键词、BM25 和向量检索放在同一入口，适合既需要精确查找也需要语义搜索的资料库。 |
 | [LEANN](https://github.com/StarTrail-org/LEANN) | 面向本地文档检索的向量索引项目，适合构建个人资料搜索与 RAG 应用。 |
 | [liteparse](https://github.com/run-llama/liteparse) | 本地文档解析工具，关注文本位置与 PDF 内容抽取，适合为检索和资料处理准备输入。 |
+| [Univer](https://github.com/dream-num/univer) | 可嵌入应用的办公 SDK。开源核心涵盖电子表格、文档和无界面处理，服务端和部分扩展另有许可。开源仓库采用 Apache-2.0。当前仅登记链接。 |
 | [pdf-inspector](https://github.com/firecrawl/pdf-inspector) | PDF 分类与文本提取工具，可区分文本和扫描等类型，帮助决定后续解析或 OCR 方式。 |
 | [markdown-viewer-skills](https://github.com/markdown-viewer/skills) | 在 Markdown 中制作图表和可视化的 Skills，涉及技术图、数据图和信息图等。 |
 | [mermaid-erd-generator](https://github.com/nharsch/mermaid-erd-generator) | 辅助生成 Mermaid 实体关系图，适合说明数据库表与业务实体之间的联系。 |
@@ -170,6 +186,7 @@
 | [SafeGuard-Code-Profiler](https://github.com/hamed-kuheil/SafeGuard-Code-Profiler) | 对 C++、Java 和 Python 进行离线静态检查，关注性能、安全和隐私相关问题。 |
 | [SupplyChainScanner](https://github.com/benjiamin911/SupplyChainScanner) | 面向软件依赖与供应链问题的检查工具，适合研究依赖混淆等风险。 |
 | [WebSecurityScanner](https://github.com/Defensive-Alliance/WebSecurityScanner) | 检查常见 Web 漏洞的 Python 工具，涉及 SQL 注入、XSS 和敏感信息暴露等问题。 |
+| [Craft Anything](https://github.com/storytold/craft-anything) | Rust 编写的软件检查与重建工具，提供桌面界面、CLI 和 MCP，串联研究、构建和结果比对；目前为早期 alpha，构建需接入编码 Agent。代码 MIT OR Apache-2.0，字体、图标与品牌素材另有许可；已保存源码。 |
 
 ## 音频 视频与图像
 
@@ -182,6 +199,7 @@
 | [LuxTTS](https://github.com/ysharma3501/LuxTTS) | 基于 ZipVoice 的文字转语音与声音克隆项目，使用参考音频生成语音，提供 GPU、CPU 和 Apple MPS 的运行示例。 |
 | [supertonic](https://github.com/supertone-oss-archive/supertonic) | 轻量文字转语音项目，仓库已归档，适合参考实现；源码和模型的使用条件需分别查看。 |
 | [VoxCPM](https://github.com/OpenBMB/VoxCPM) | OpenBMB 的语音合成项目，当前主线 VoxCPM2 支持含中文的多语言生成、音色设计、声音克隆与流式输出；Apache-2.0。已保存源码，模型与运行环境需另行准备。 |
+| [PixelFX](https://github.com/patch-gg/pixelfx) | 可由代码生成的像素动效库和可浏览的示例，提供精灵图导出及一个用于制作动效的 Skill。代码采用 MIT，画廊字体许可见 NOTICE。 |
 | [VibeVoice](https://github.com/microsoft/VibeVoice) | 微软的语音项目，涉及语音生成与识别等不同方向，使用时需选择对应子项目和模型。 |
 | [magenta-realtime](https://github.com/magenta/magenta-realtime) | 实时音乐生成项目，包含模型推理与应用示例，适合音乐交互和音频应用研究。 |
 | [hyperframes](https://github.com/heygen-com/hyperframes) | 用 HTML、CSS 和媒体素材生成视频的框架，适合程序化动画与视频制作。 |
@@ -193,6 +211,13 @@
 | [nginx-http-flv-module](https://github.com/winshining/nginx-http-flv-module) | Nginx 的流媒体模块，涉及 HTTP-FLV、RTMP 等能力，适合研究直播服务。 |
 | [manim](https://github.com/3b1b/manim) | 3Blue1Brown 作者维护的数学动画引擎，适合程序化数学演示；与 Manim 社区版是不同项目。 |
 | [blender-skills](https://github.com/arjun988/blender-skills) | 面向 Blender 的 Skills 集合，涉及建模、材质、灯光、动画和游戏引擎导出，通过 Blender MCP 配合 Agent 执行，适合三维资产制作。 |
+| [Blender Agent Skills（EL4CTEO）](https://github.com/EL4CTEO/blender-skills) | 28 个 Blender 制作 Skill，覆盖建模、UV、材质、绑定、动画、渲染、导出与资产检查；上游要求 Blender 5.2 LTS+，可通过后台 Blender 或可选 MCP 执行。MIT；与上方 arjun988 的同名仓库分别收录，仅保存源码。 |
+
+## 游戏开发
+
+| 项目 | 介绍 |
+|------|------|
+| [awesome-gamedev-agent-skills](https://github.com/gamedev-skills/awesome-gamedev-agent-skills) | 79 个游戏开发 Skill 和 1 个路由入口，覆盖 Godot、Unity、Unreal、Roblox、three.js 等 12 种引擎，以及关卡、AI、资源制作、存档与发布任务。Apache-2.0；已保存源码，实际开发需另备对应引擎与环境。 |
 
 ## 学习资料与项目导航
 
@@ -208,6 +233,7 @@
 | [public-apis](https://github.com/public-apis/public-apis) | 按主题整理的公共 API 导航，适合寻找可用于应用原型与练习的数据接口。 |
 | [daizhigev20](https://github.com/daizhige-org/daizhigev20) | 中国古典文献数据的修订项目，适合古籍检索、文本处理与相关研究。 |
 | [fq-book](https://github.com/hoochanlon/fq-book) | 《这本书能让你连接互联网》的文档仓库，介绍代理、隧道、VPN 等网络原理，也整理相关工具配置与资料获取方法。 |
+| [fanqiang](https://github.com/bannedbook/fanqiang) | 跨平台代理与网络访问工具的教程、链接及部分应用源码，包含 FQNews。已保存源码浅克隆，含 Git 180.31 MB。根目录未见统一许可证，各子项目和外链分别核对使用条件。 |
 
 ## 提示词与信息雷达
 
@@ -216,7 +242,8 @@
 | [prompts.chat](https://github.com/f/prompts.chat) | 提示词社区、提示词数据与可自托管站点；源码和站点原创内容 MIT，提示词数据 CC0。附 2 个检索类插件 Skill 和 2 个项目开发 Skill，均仅随源码保存。 |
 | [freebie-radar](https://github.com/ZiChuanLan/freebie-radar) | 自托管资源聚合与推送工作台，通过规则和 AI 筛选福利、优惠、开源项目及资讯，支持多来源采集与 Telegram 路由；MIT，无 SKILL.md。 |
 | [Horizon](https://github.com/Thysrael/Horizon) | 按个人兴趣聚合新闻、评分去重并生成中英双语简报，提供 CLI、MCP 与多种投递方式；MIT，附 1 个 Horizon Skill。 |
-| [modern-web-guidance-src](https://github.com/GoogleChrome/modern-web-guidance-src) | Modern Web Guidance 的指南编写、构建、校准与评测源码；按用户明确授权浅克隆，含 Git 178.77 MB。代码 Apache-2.0，guides/ 文档 CC-BY-4.0；附 13 个维护 Skill 与 2 个分发源入口。 |
+| [daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | 聚合多个市场的行情、新闻和模型分析，提供自选股看板、定时任务及推送。MIT。当前仅登记链接。 |
+| [modern-web-guidance-src](https://github.com/GoogleChrome/modern-web-guidance-src) | Modern Web Guidance 的指南编写、构建、校准与评测源码。代码 Apache-2.0，guides/ 文档 CC BY 4.0，附 13 个维护 Skill 与 2 个分发源入口。 |
 
 ## 补充来源
 

@@ -1,0 +1,2059 @@
+{
+  "sha": "b1b21dfb73bc40b874ebf2aa12645931bfed3523",
+  "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/b1b21dfb73bc40b874ebf2aa12645931bfed3523",
+  "tree": [
+    {
+      "path": ".claude-plugin",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b32d0ea81a6dd7442d9bd1b6ed798ebddf3adca7",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/b32d0ea81a6dd7442d9bd1b6ed798ebddf3adca7"
+    },
+    {
+      "path": ".claude-plugin/marketplace.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9951a7320f4d62d3f27b1d344770ce1765bd3898",
+      "size": 405,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/9951a7320f4d62d3f27b1d344770ce1765bd3898"
+    },
+    {
+      "path": ".claude-plugin/plugin.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b2be7fd438ea2b57f7c94f0a28b294eb9019265",
+      "size": 670,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/0b2be7fd438ea2b57f7c94f0a28b294eb9019265"
+    },
+    {
+      "path": ".gitattributes",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94631f7f8e20adc854d9d7ecb621abd3037524af",
+      "size": 67,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/94631f7f8e20adc854d9d7ecb621abd3037524af"
+    },
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "00b79d0205d57bdd76340daea4c4984c3c1c591f",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/00b79d0205d57bdd76340daea4c4984c3c1c591f"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ed3b038133926ccc2df626c88c12b522d1a013a6",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/ed3b038133926ccc2df626c88c12b522d1a013a6"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f4bd05ccf3bb037679e16540954686c8a9d3a42",
+      "size": 1478,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/1f4bd05ccf3bb037679e16540954686c8a9d3a42"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cabf8d8cd3286affad92eb6742b08983d30b8c7e",
+      "size": 107,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/cabf8d8cd3286affad92eb6742b08983d30b8c7e"
+    },
+    {
+      "path": "AGENTS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b548adf28d3582323cbdd6da9ad83258584c2108",
+      "size": 3386,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/b548adf28d3582323cbdd6da9ad83258584c2108"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e9df193d25e2d71355bffacb7db1b795b461787",
+      "size": 2872,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/0e9df193d25e2d71355bffacb7db1b795b461787"
+    },
+    {
+      "path": "CLAUDE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43c994c2d3617f947bcb5adf1933e21dabe46bb5",
+      "size": 11,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/43c994c2d3617f947bcb5adf1933e21dabe46bb5"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f709c423026e30972b83813fc8a58a71495abf0",
+      "size": 1064,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/3f709c423026e30972b83813fc8a58a71495abf0"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf16651dc5cade9014fa0a5d127f563efc3629d2",
+      "size": 4417,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/bf16651dc5cade9014fa0a5d127f563efc3629d2"
+    },
+    {
+      "path": "assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "17b744ab4bc5274b1617e72a606a6f8bc2743c9f",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/17b744ab4bc5274b1617e72a606a6f8bc2743c9f"
+    },
+    {
+      "path": "assets/banner.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8bc703370712092774d88e0b98c078e4489b531b",
+      "size": 58959,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/8bc703370712092774d88e0b98c078e4489b531b"
+    },
+    {
+      "path": "assets/icon.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc23462668840589c448b88157de78d5d3dbd722",
+      "size": 1260,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/fc23462668840589c448b88157de78d5d3dbd722"
+    },
+    {
+      "path": "docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "46004e25aa83151aded8bdcb6f2b4a081cff7314",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/46004e25aa83151aded8bdcb6f2b4a081cff7314"
+    },
+    {
+      "path": "docs/_config.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80785bed0bd37f7101e635142281fe9db28ac002",
+      "size": 28,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/80785bed0bd37f7101e635142281fe9db28ac002"
+    },
+    {
+      "path": "docs/comparison",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "10d3104c373fd3a3207dcfccd20fd99007470958",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/10d3104c373fd3a3207dcfccd20fd99007470958"
+    },
+    {
+      "path": "docs/comparison/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d09fcd46d6a778f339ca14d9ddca19591c3aa1a",
+      "size": 17695,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/1d09fcd46d6a778f339ca14d9ddca19591c3aa1a"
+    },
+    {
+      "path": "docs/comparison/media",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "82f4111082a7c077afbc60d7b6d1d0a6a722de93",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/82f4111082a7c077afbc60d7b6d1d0a6a722de93"
+    },
+    {
+      "path": "docs/comparison/media/blanket-noskill-poster.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4a9a05340e44437d40ca68f4cb58045767963a1",
+      "size": 10434,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/e4a9a05340e44437d40ca68f4cb58045767963a1"
+    },
+    {
+      "path": "docs/comparison/media/blanket-noskill.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73e8bb2e6844e7a01efcfaf09d970f35e7eb20f8",
+      "size": 428226,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/73e8bb2e6844e7a01efcfaf09d970f35e7eb20f8"
+    },
+    {
+      "path": "docs/comparison/media/blanket-skill-poster.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a7a10cf1cbbe85430fbafe4d6443604a199d50a",
+      "size": 11888,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/3a7a10cf1cbbe85430fbafe4d6443604a199d50a"
+    },
+    {
+      "path": "docs/comparison/media/blanket-skill.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49031b2d02afac3932b940f08f16237d70153b3c",
+      "size": 234923,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/49031b2d02afac3932b940f08f16237d70153b3c"
+    },
+    {
+      "path": "docs/comparison/media/concrete-detail-noskill.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "242c9106682bf88c6e57c5e715f63e80ab8f0272",
+      "size": 493610,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/242c9106682bf88c6e57c5e715f63e80ab8f0272"
+    },
+    {
+      "path": "docs/comparison/media/concrete-detail-skill.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac2a46e34d76d21df63f70afb01c44c4074265dc",
+      "size": 752118,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/ac2a46e34d76d21df63f70afb01c44c4074265dc"
+    },
+    {
+      "path": "docs/comparison/media/concrete-hero-noskill-crop.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7427b9bb2b0489a3e27deaa124700d3c3543b8f",
+      "size": 183394,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/b7427b9bb2b0489a3e27deaa124700d3c3543b8f"
+    },
+    {
+      "path": "docs/comparison/media/concrete-hero-noskill.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d3330ef68afff0e29f2338e427c4a4ce0e2c655",
+      "size": 469180,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/4d3330ef68afff0e29f2338e427c4a4ce0e2c655"
+    },
+    {
+      "path": "docs/comparison/media/concrete-hero-skill-crop.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6da495c63633ca4491862a93e92f6ccee28c7e78",
+      "size": 314966,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/6da495c63633ca4491862a93e92f6ccee28c7e78"
+    },
+    {
+      "path": "docs/comparison/media/concrete-hero-skill.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ab4e27fc56f2ab6a077ed953b8de5abfef18d83",
+      "size": 649208,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/1ab4e27fc56f2ab6a077ed953b8de5abfef18d83"
+    },
+    {
+      "path": "docs/comparison/media/nova-noskill-turntable-poster.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f98096dede4230b4233089665b3482cb8e0aa7a",
+      "size": 16550,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/9f98096dede4230b4233089665b3482cb8e0aa7a"
+    },
+    {
+      "path": "docs/comparison/media/nova-noskill-turntable.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc747cc08a33fbfad271cf3cbe85517f6922692e",
+      "size": 644391,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/dc747cc08a33fbfad271cf3cbe85517f6922692e"
+    },
+    {
+      "path": "docs/comparison/media/nova-original-color.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba0b708ec4073cfdd51d8526a794e25f76807878",
+      "size": 20044,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/ba0b708ec4073cfdd51d8526a794e25f76807878"
+    },
+    {
+      "path": "docs/comparison/media/nova-original-wire.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b8218173f8a30f316ea51ebb03ea720f62014f3",
+      "size": 43380,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/9b8218173f8a30f316ea51ebb03ea720f62014f3"
+    },
+    {
+      "path": "docs/comparison/media/nova-skill-turntable-poster.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec9ec687ee828a98d55dd80be7dcb3e3f1707d78",
+      "size": 16224,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/ec9ec687ee828a98d55dd80be7dcb3e3f1707d78"
+    },
+    {
+      "path": "docs/comparison/media/nova-skill-turntable.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e41c05e69b9d9fae39734aa457b707022141bade",
+      "size": 630546,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/e41c05e69b9d9fae39734aa457b707022141bade"
+    },
+    {
+      "path": "docs/comparison/media/pistol-noskill-poster.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b64fb0eb2068c1d6914777b96967cb6974e2a649",
+      "size": 5478,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/b64fb0eb2068c1d6914777b96967cb6974e2a649"
+    },
+    {
+      "path": "docs/comparison/media/pistol-noskill.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f833a0fd10b28e61c464378b4c6dff4a529d877",
+      "size": 191778,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/3f833a0fd10b28e61c464378b4c6dff4a529d877"
+    },
+    {
+      "path": "docs/comparison/media/pistol-skill-poster.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9125705710c3401e4c90b3e50703654129888778",
+      "size": 4834,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/9125705710c3401e4c90b3e50703654129888778"
+    },
+    {
+      "path": "docs/comparison/media/pistol-skill.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1798e136467d9a5819ebb31c86a11a2352ee9bc",
+      "size": 189164,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/d1798e136467d9a5819ebb31c86a11a2352ee9bc"
+    },
+    {
+      "path": "docs/comparison/media/preview.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd5fca089a4e9e51964c9c36915850d78bccedb7",
+      "size": 63326,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/cd5fca089a4e9e51964c9c36915850d78bccedb7"
+    },
+    {
+      "path": "docs/comparison/media/soldier-noskill-poster.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28920d54e0d327407ba29daf010a63945a49d51e",
+      "size": 10160,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/28920d54e0d327407ba29daf010a63945a49d51e"
+    },
+    {
+      "path": "docs/comparison/media/soldier-noskill.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "281ab294088a500977fb763800828f58ab1136f5",
+      "size": 180016,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/281ab294088a500977fb763800828f58ab1136f5"
+    },
+    {
+      "path": "docs/comparison/media/soldier-skill-poster.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8cee50980a127475fbe6e62dab9a00b167081b95",
+      "size": 4484,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/8cee50980a127475fbe6e62dab9a00b167081b95"
+    },
+    {
+      "path": "docs/comparison/media/soldier-skill.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ee645033c7144af1ccec387e348bd47bb2a1d35",
+      "size": 227553,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/3ee645033c7144af1ccec387e348bd47bb2a1d35"
+    },
+    {
+      "path": "docs/reddit-post.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f55eead6ada374aa8a993f2eb17181c462cd6f4",
+      "size": 871,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/7f55eead6ada374aa8a993f2eb17181c462cd6f4"
+    },
+    {
+      "path": "install",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "844387c37868590f7383b9318c0a24d205a9e257",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/844387c37868590f7383b9318c0a24d205a9e257"
+    },
+    {
+      "path": "install/install.ps1",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc6639c08db994034942d5d699f9a0d35e2fbcb5",
+      "size": 2632,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/dc6639c08db994034942d5d699f9a0d35e2fbcb5"
+    },
+    {
+      "path": "install/install.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "144af72055d3ae030dece2b8fa39b48c436359a9",
+      "size": 2343,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/144af72055d3ae030dece2b8fa39b48c436359a9"
+    },
+    {
+      "path": "shared",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d6242aadda5e266143e6810fde0f9cb6e326506e",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/d6242aadda5e266143e6810fde0f9cb6e326506e"
+    },
+    {
+      "path": "shared/_bpyx.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "201c7fc7ac3706e46f79ec69a0f41372882e92a3",
+      "size": 4524,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/201c7fc7ac3706e46f79ec69a0f41372882e92a3"
+    },
+    {
+      "path": "skills",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3fd41a7ad48b2c0ce9d2c67efceb3c3c33aff9b1",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/3fd41a7ad48b2c0ce9d2c67efceb3c3c33aff9b1"
+    },
+    {
+      "path": "skills/blender-addon-development",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f1b6c50d507ed5cab8c21546d8e3b18f2c777ebb",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/f1b6c50d507ed5cab8c21546d8e3b18f2c777ebb"
+    },
+    {
+      "path": "skills/blender-addon-development/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0079b4b25f8f4843bf38b383c411fff1cd0d052e",
+      "size": 5452,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/0079b4b25f8f4843bf38b383c411fff1cd0d052e"
+    },
+    {
+      "path": "skills/blender-addon-development/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "53e5b9f5118c63bf2381268fbdfd297ecd048eac",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/53e5b9f5118c63bf2381268fbdfd297ecd048eac"
+    },
+    {
+      "path": "skills/blender-addon-development/assets/addon_template",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "af1a66f9950eb2d89c1918b7547d5b55b59c62ac",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/af1a66f9950eb2d89c1918b7547d5b55b59c62ac"
+    },
+    {
+      "path": "skills/blender-addon-development/assets/addon_template/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "589bddc3858b1bf3dc6589f59ad60844c0972892",
+      "size": 661,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/589bddc3858b1bf3dc6589f59ad60844c0972892"
+    },
+    {
+      "path": "skills/blender-addon-development/assets/addon_template/blender_manifest.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e13d9776ddf5b8135e7a364fb0309f95d033020",
+      "size": 832,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/2e13d9776ddf5b8135e7a364fb0309f95d033020"
+    },
+    {
+      "path": "skills/blender-addon-development/assets/addon_template/operators.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6df9fdcf0ecee737f40dc5b0ba04094ae0438d98",
+      "size": 1347,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/6df9fdcf0ecee737f40dc5b0ba04094ae0438d98"
+    },
+    {
+      "path": "skills/blender-addon-development/assets/addon_template/ui.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e86f0d47eabc8486aaa06088c05159d62d734ad",
+      "size": 877,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/4e86f0d47eabc8486aaa06088c05159d62d734ad"
+    },
+    {
+      "path": "skills/blender-animation",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ddb804163871a5a058a3e4cac4c206bab3d5b298",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/ddb804163871a5a058a3e4cac4c206bab3d5b298"
+    },
+    {
+      "path": "skills/blender-animation/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "365adfb4690523661461f192b9f03f3724859bd2",
+      "size": 7267,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/365adfb4690523661461f192b9f03f3724859bd2"
+    },
+    {
+      "path": "skills/blender-animation/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bd258a6bfef246a127df47002634463f41020e7a",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/bd258a6bfef246a127df47002634463f41020e7a"
+    },
+    {
+      "path": "skills/blender-animation/scripts/_bpyx.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "201c7fc7ac3706e46f79ec69a0f41372882e92a3",
+      "size": 4524,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/201c7fc7ac3706e46f79ec69a0f41372882e92a3"
+    },
+    {
+      "path": "skills/blender-animation/scripts/bake_action.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92e0c969e9dc4aaa937620734398cf410fb5fe89",
+      "size": 6923,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/92e0c969e9dc4aaa937620734398cf410fb5fe89"
+    },
+    {
+      "path": "skills/blender-animation/scripts/loop_check.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f27641d597481af940cb51b37ea9ebe42fe9907",
+      "size": 6027,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/6f27641d597481af940cb51b37ea9ebe42fe9907"
+    },
+    {
+      "path": "skills/blender-animation/scripts/retarget.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7199cbf19e07ea10645c85123bedc1312edfb70",
+      "size": 9616,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/a7199cbf19e07ea10645c85123bedc1312edfb70"
+    },
+    {
+      "path": "skills/blender-asset-qa",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4f12bbb4d6cd9d4c560ed3a4333530d60d32af1f",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/4f12bbb4d6cd9d4c560ed3a4333530d60d32af1f"
+    },
+    {
+      "path": "skills/blender-asset-qa/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "992ea8ed5b14a9de27841ee9f6bde5f890aafc15",
+      "size": 5185,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/992ea8ed5b14a9de27841ee9f6bde5f890aafc15"
+    },
+    {
+      "path": "skills/blender-asset-qa/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "eede9a16f89a88b3e0137e585099bae1351044f0",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/eede9a16f89a88b3e0137e585099bae1351044f0"
+    },
+    {
+      "path": "skills/blender-asset-qa/scripts/_bpyx.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "201c7fc7ac3706e46f79ec69a0f41372882e92a3",
+      "size": 4524,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/201c7fc7ac3706e46f79ec69a0f41372882e92a3"
+    },
+    {
+      "path": "skills/blender-asset-qa/scripts/qa_check.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0fe3e08c37e20fc3412c9889320128ddf6bac2b",
+      "size": 20244,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/d0fe3e08c37e20fc3412c9889320128ddf6bac2b"
+    },
+    {
+      "path": "skills/blender-asset-qa/scripts/review_shots.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c51a413062aa0bb7c7adc5675a3ea2021ed1c569",
+      "size": 6443,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/c51a413062aa0bb7c7adc5675a3ea2021ed1c569"
+    },
+    {
+      "path": "skills/blender-character-rigging",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7db2eed42bc6c427d5853d134b62656559d90eb7",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/7db2eed42bc6c427d5853d134b62656559d90eb7"
+    },
+    {
+      "path": "skills/blender-character-rigging/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2cb56055fdd17af3b31bd9d64b3becddfe2e1cd",
+      "size": 6763,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/a2cb56055fdd17af3b31bd9d64b3becddfe2e1cd"
+    },
+    {
+      "path": "skills/blender-character-rigging/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b4ba9704282fea8e09406de9e6f4f9c99d2390cb",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/b4ba9704282fea8e09406de9e6f4f9c99d2390cb"
+    },
+    {
+      "path": "skills/blender-character-rigging/scripts/_bpyx.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "201c7fc7ac3706e46f79ec69a0f41372882e92a3",
+      "size": 4524,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/201c7fc7ac3706e46f79ec69a0f41372882e92a3"
+    },
+    {
+      "path": "skills/blender-character-rigging/scripts/bind_mesh.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc5cb8569efa5d5f8eaa20f7bf5057db331fb498",
+      "size": 4516,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/fc5cb8569efa5d5f8eaa20f7bf5057db331fb498"
+    },
+    {
+      "path": "skills/blender-character-rigging/scripts/rig_check.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c65b47fc15727b43a422fe44a8d4c167513b5f18",
+      "size": 9466,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/c65b47fc15727b43a422fe44a8d4c167513b5f18"
+    },
+    {
+      "path": "skills/blender-character-rigging/scripts/rigify_build.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c447509a3fc60148dbb7c1be9737bc4a3ed1cd24",
+      "size": 7387,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/c447509a3fc60148dbb7c1be9737bc4a3ed1cd24"
+    },
+    {
+      "path": "skills/blender-character-rigging/scripts/stress_poses.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df67d2904d4a80bf95f1f903fc10d58ba7207a2f",
+      "size": 5318,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/df67d2904d4a80bf95f1f903fc10d58ba7207a2f"
+    },
+    {
+      "path": "skills/blender-clothing",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b290cb242c820324836023f1ec0dd2e422536836",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/b290cb242c820324836023f1ec0dd2e422536836"
+    },
+    {
+      "path": "skills/blender-clothing/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7586cb15333631da24663ded7734a2d151e6a76b",
+      "size": 5182,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/7586cb15333631da24663ded7734a2d151e6a76b"
+    },
+    {
+      "path": "skills/blender-clothing/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "02886506f0fd2fa1c2b8b50545f52a78f7f9edae",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/02886506f0fd2fa1c2b8b50545f52a78f7f9edae"
+    },
+    {
+      "path": "skills/blender-clothing/scripts/_bpyx.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "201c7fc7ac3706e46f79ec69a0f41372882e92a3",
+      "size": 4524,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/201c7fc7ac3706e46f79ec69a0f41372882e92a3"
+    },
+    {
+      "path": "skills/blender-clothing/scripts/garment.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b18d8462248f4809afc93868b2d1e15943c9a242",
+      "size": 12050,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/b18d8462248f4809afc93868b2d1e15943c9a242"
+    },
+    {
+      "path": "skills/blender-core",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9b69bfd151a5ba675dcfcf678453956d14ae59b1",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/9b69bfd151a5ba675dcfcf678453956d14ae59b1"
+    },
+    {
+      "path": "skills/blender-core/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2cc902160a756a32548d14b54aa7497a028a865c",
+      "size": 7964,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/2cc902160a756a32548d14b54aa7497a028a865c"
+    },
+    {
+      "path": "skills/blender-core/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1bc8486c688c3de14588132ed5de2d18c17c5ad2",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/1bc8486c688c3de14588132ed5de2d18c17c5ad2"
+    },
+    {
+      "path": "skills/blender-core/references/api-changes-5x.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98c7b0022d0f2d762c1a201ac336862493a98869",
+      "size": 9347,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/98c7b0022d0f2d762c1a201ac336862493a98869"
+    },
+    {
+      "path": "skills/blender-core/references/bpy-patterns.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d5489d7af74513297a419ec82b86c48267d48eb",
+      "size": 7793,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/9d5489d7af74513297a419ec82b86c48267d48eb"
+    },
+    {
+      "path": "skills/blender-core/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8e7f10bcda448ac3b3450121e2bdfcd38289e020",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/8e7f10bcda448ac3b3450121e2bdfcd38289e020"
+    },
+    {
+      "path": "skills/blender-core/scripts/_bpyx.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "201c7fc7ac3706e46f79ec69a0f41372882e92a3",
+      "size": 4524,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/201c7fc7ac3706e46f79ec69a0f41372882e92a3"
+    },
+    {
+      "path": "skills/blender-core/scripts/env_report.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36a95d3b9083ed3458af0b67b95f1906764aa322",
+      "size": 2015,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/36a95d3b9083ed3458af0b67b95f1906764aa322"
+    },
+    {
+      "path": "skills/blender-core/scripts/run_in_blender.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c4036ff1be01f009cd7eb062292baf09b0b0c09",
+      "size": 3292,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/6c4036ff1be01f009cd7eb062292baf09b0b0c09"
+    },
+    {
+      "path": "skills/blender-environment-kits",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7509249fc53f7eec14eef7f6ba2fcae76ee591ed",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/7509249fc53f7eec14eef7f6ba2fcae76ee591ed"
+    },
+    {
+      "path": "skills/blender-environment-kits/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d52a526417063b0d97b63404319e6a1b2ddade6",
+      "size": 5184,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/8d52a526417063b0d97b63404319e6a1b2ddade6"
+    },
+    {
+      "path": "skills/blender-environment-kits/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1102b996ba42d62bd74b0e813052d6dcb68525ea",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/1102b996ba42d62bd74b0e813052d6dcb68525ea"
+    },
+    {
+      "path": "skills/blender-environment-kits/scripts/_bpyx.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "201c7fc7ac3706e46f79ec69a0f41372882e92a3",
+      "size": 4524,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/201c7fc7ac3706e46f79ec69a0f41372882e92a3"
+    },
+    {
+      "path": "skills/blender-environment-kits/scripts/kit_check.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f03da57426dc55856afb775236533fde030ca008",
+      "size": 6179,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/f03da57426dc55856afb775236533fde030ca008"
+    },
+    {
+      "path": "skills/blender-environment-kits/scripts/scatter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "645bcef69ce6c8ec36bf93e65157421f84d0524f",
+      "size": 12215,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/645bcef69ce6c8ec36bf93e65157421f84d0524f"
+    },
+    {
+      "path": "skills/blender-environment-kits/scripts/terrain.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0e5e21d05710df8e88329e40454da5dd5393997",
+      "size": 11311,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/d0e5e21d05710df8e88329e40454da5dd5393997"
+    },
+    {
+      "path": "skills/blender-export-pipelines",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1ca55159fa72e1d686f104d4599cdb10ca64ad05",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/1ca55159fa72e1d686f104d4599cdb10ca64ad05"
+    },
+    {
+      "path": "skills/blender-export-pipelines/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a9b47821bc9ca6de7174aedfd6e6015a8f04ee2",
+      "size": 5392,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/8a9b47821bc9ca6de7174aedfd6e6015a8f04ee2"
+    },
+    {
+      "path": "skills/blender-export-pipelines/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "78337cd2ca31094958c9b038788f0c36f410a8e2",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/78337cd2ca31094958c9b038788f0c36f410a8e2"
+    },
+    {
+      "path": "skills/blender-export-pipelines/references/godot-web.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "486acba051cd74877ab09d21c23b28105bec86f3",
+      "size": 3025,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/486acba051cd74877ab09d21c23b28105bec86f3"
+    },
+    {
+      "path": "skills/blender-export-pipelines/references/roblox.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d07843ba03047e829d9345496c6407ebb920c8a0",
+      "size": 3995,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/d07843ba03047e829d9345496c6407ebb920c8a0"
+    },
+    {
+      "path": "skills/blender-export-pipelines/references/unity.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80b5a87f478042bc8032808b86d05a31d3746357",
+      "size": 2354,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/80b5a87f478042bc8032808b86d05a31d3746357"
+    },
+    {
+      "path": "skills/blender-export-pipelines/references/unreal.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02a19edaa21821c6b4e92b4408bdbab113da27b0",
+      "size": 3200,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/02a19edaa21821c6b4e92b4408bdbab113da27b0"
+    },
+    {
+      "path": "skills/blender-export-pipelines/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "17d864785a3f1478b74ddcc18e9d8a36d72047c8",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/17d864785a3f1478b74ddcc18e9d8a36d72047c8"
+    },
+    {
+      "path": "skills/blender-export-pipelines/scripts/_bpyx.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "201c7fc7ac3706e46f79ec69a0f41372882e92a3",
+      "size": 4524,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/201c7fc7ac3706e46f79ec69a0f41372882e92a3"
+    },
+    {
+      "path": "skills/blender-export-pipelines/scripts/export_asset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "676d9a690259d86d0e78cd6f3685064c6b1c10b9",
+      "size": 9611,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/676d9a690259d86d0e78cd6f3685064c6b1c10b9"
+    },
+    {
+      "path": "skills/blender-facial-shapekeys",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "10049ecde17cf7b287a40840e3a9db5fd347a0e3",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/10049ecde17cf7b287a40840e3a9db5fd347a0e3"
+    },
+    {
+      "path": "skills/blender-facial-shapekeys/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7fcd943ef331e98ff81d20f8e282f70b03d5f118",
+      "size": 4875,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/7fcd943ef331e98ff81d20f8e282f70b03d5f118"
+    },
+    {
+      "path": "skills/blender-facial-shapekeys/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e05fa232c20f59e517b9c1f4b82e90dfc8ac2554",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/e05fa232c20f59e517b9c1f4b82e90dfc8ac2554"
+    },
+    {
+      "path": "skills/blender-facial-shapekeys/scripts/_bpyx.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "201c7fc7ac3706e46f79ec69a0f41372882e92a3",
+      "size": 4524,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/201c7fc7ac3706e46f79ec69a0f41372882e92a3"
+    },
+    {
+      "path": "skills/blender-facial-shapekeys/scripts/shapekeys.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39974192e93b17b939edb943a2ab18f6c35e1990",
+      "size": 6208,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/39974192e93b17b939edb943a2ab18f6c35e1990"
+    },
+    {
+      "path": "skills/blender-game-optimization",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "69fd89977f20d4514c8c53c41ca72a62f9e5d11b",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/69fd89977f20d4514c8c53c41ca72a62f9e5d11b"
+    },
+    {
+      "path": "skills/blender-game-optimization/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9197fe3d74bf9b02e04fe418796d1bd2e8bdfbbe",
+      "size": 5978,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/9197fe3d74bf9b02e04fe418796d1bd2e8bdfbbe"
+    },
+    {
+      "path": "skills/blender-game-optimization/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "061ad90d8911326bdf85965180550f299eb3b2fe",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/061ad90d8911326bdf85965180550f299eb3b2fe"
+    },
+    {
+      "path": "skills/blender-game-optimization/scripts/_bpyx.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "201c7fc7ac3706e46f79ec69a0f41372882e92a3",
+      "size": 4524,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/201c7fc7ac3706e46f79ec69a0f41372882e92a3"
+    },
+    {
+      "path": "skills/blender-game-optimization/scripts/make_lods.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24b9662ad2d6d4a3deaff7182f96ae4f58cd90c5",
+      "size": 3956,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/24b9662ad2d6d4a3deaff7182f96ae4f58cd90c5"
+    },
+    {
+      "path": "skills/blender-game-optimization/scripts/mesh_stats.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d53b1730119a172e19b13974d8b54e8d6d19e7d4",
+      "size": 3920,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/d53b1730119a172e19b13974d8b54e8d6d19e7d4"
+    },
+    {
+      "path": "skills/blender-geometry-nodes",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c0e7ef2f3c39c1629ab2ae476e0a2f497f52f3ee",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/c0e7ef2f3c39c1629ab2ae476e0a2f497f52f3ee"
+    },
+    {
+      "path": "skills/blender-geometry-nodes/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62054759f1a89b88f882c4b21a7d6bb6cdf4ad03",
+      "size": 6520,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/62054759f1a89b88f882c4b21a7d6bb6cdf4ad03"
+    },
+    {
+      "path": "skills/blender-geometry-nodes/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "88c95d32383aa4f2e92e3aff2e324ed836414ea0",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/88c95d32383aa4f2e92e3aff2e324ed836414ea0"
+    },
+    {
+      "path": "skills/blender-geometry-nodes/references/recipes.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca9097995d83fcfe6dd454c308f7aa7f7c532c22",
+      "size": 3938,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/ca9097995d83fcfe6dd454c308f7aa7f7c532c22"
+    },
+    {
+      "path": "skills/blender-geometry-nodes/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d8432a8be8ed9a3ab815254b991bac6c33009aba",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/d8432a8be8ed9a3ab815254b991bac6c33009aba"
+    },
+    {
+      "path": "skills/blender-geometry-nodes/scripts/_bpyx.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "201c7fc7ac3706e46f79ec69a0f41372882e92a3",
+      "size": 4524,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/201c7fc7ac3706e46f79ec69a0f41372882e92a3"
+    },
+    {
+      "path": "skills/blender-geometry-nodes/scripts/gn_builder.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ade425e198a6829eea40eb915d7dab18b2fd7f2",
+      "size": 9377,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/5ade425e198a6829eea40eb915d7dab18b2fd7f2"
+    },
+    {
+      "path": "skills/blender-hair-grooming",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7547b51c3fea086af2aa90a7ef586e8e1ed740cc",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/7547b51c3fea086af2aa90a7ef586e8e1ed740cc"
+    },
+    {
+      "path": "skills/blender-hair-grooming/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90ea6005eca4271e60e27129317dcd5f13b8e253",
+      "size": 5486,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/90ea6005eca4271e60e27129317dcd5f13b8e253"
+    },
+    {
+      "path": "skills/blender-hair-grooming/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "aafee118904c68836393a95f4a045c8309b4864f",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/aafee118904c68836393a95f4a045c8309b4864f"
+    },
+    {
+      "path": "skills/blender-hair-grooming/scripts/_bpyx.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "201c7fc7ac3706e46f79ec69a0f41372882e92a3",
+      "size": 4524,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/201c7fc7ac3706e46f79ec69a0f41372882e92a3"
+    },
+    {
+      "path": "skills/blender-hair-grooming/scripts/groom.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "855c1d4270d097ea76577ee46c8edc429aa8581f",
+      "size": 16673,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/855c1d4270d097ea76577ee46c8edc429aa8581f"
+    },
+    {
+      "path": "skills/blender-hardsurface-modeling",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c56b59cfca55b01d643f920d3eb91c62b406f479",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/c56b59cfca55b01d643f920d3eb91c62b406f479"
+    },
+    {
+      "path": "skills/blender-hardsurface-modeling/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "445541101146700d09821a1af3169386e9042e0c",
+      "size": 5924,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/445541101146700d09821a1af3169386e9042e0c"
+    },
+    {
+      "path": "skills/blender-hardsurface-modeling/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6aeef3dc3b05e8f460435c3c8bb78fad25ec420c",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/6aeef3dc3b05e8f460435c3c8bb78fad25ec420c"
+    },
+    {
+      "path": "skills/blender-hardsurface-modeling/scripts/_bpyx.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "201c7fc7ac3706e46f79ec69a0f41372882e92a3",
+      "size": 4524,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/201c7fc7ac3706e46f79ec69a0f41372882e92a3"
+    },
+    {
+      "path": "skills/blender-hardsurface-modeling/scripts/apply_stack.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "878c6c4c960fa7b9ca69e861e8e2b114817ff270",
+      "size": 4877,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/878c6c4c960fa7b9ca69e861e8e2b114817ff270"
+    },
+    {
+      "path": "skills/blender-lighting-lookdev",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c29a2a5ad584d41d9f748657019a0802a46b83a7",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/c29a2a5ad584d41d9f748657019a0802a46b83a7"
+    },
+    {
+      "path": "skills/blender-lighting-lookdev/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "71315c4fdff623c722c7f4a210c48dc8d0a0c54a",
+      "size": 5418,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/71315c4fdff623c722c7f4a210c48dc8d0a0c54a"
+    },
+    {
+      "path": "skills/blender-lighting-lookdev/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ac6c836a7bff94b298f825aab9a2da97742cb159",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/ac6c836a7bff94b298f825aab9a2da97742cb159"
+    },
+    {
+      "path": "skills/blender-lighting-lookdev/scripts/_bpyx.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "201c7fc7ac3706e46f79ec69a0f41372882e92a3",
+      "size": 4524,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/201c7fc7ac3706e46f79ec69a0f41372882e92a3"
+    },
+    {
+      "path": "skills/blender-lighting-lookdev/scripts/turntable.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8cb4f12ce6f752b8927a7f2255d812fc1fd021cf",
+      "size": 7687,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/8cb4f12ce6f752b8927a7f2255d812fc1fd021cf"
+    },
+    {
+      "path": "skills/blender-pbr-materials",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "16d0076c4226fd8284d5f232563c47d24186d163",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/16d0076c4226fd8284d5f232563c47d24186d163"
+    },
+    {
+      "path": "skills/blender-pbr-materials/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf6672b927e80613024354e0217c1c264b1f05fa",
+      "size": 6126,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/bf6672b927e80613024354e0217c1c264b1f05fa"
+    },
+    {
+      "path": "skills/blender-pbr-materials/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a03d9fa2168c67029834a85cd2f79af86941f59e",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/a03d9fa2168c67029834a85cd2f79af86941f59e"
+    },
+    {
+      "path": "skills/blender-pbr-materials/references/pbr-values.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2d750f4b099824590ed7b0c53c7ab315ac29f32",
+      "size": 2645,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/e2d750f4b099824590ed7b0c53c7ab315ac29f32"
+    },
+    {
+      "path": "skills/blender-pbr-materials/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "169c46e78720d646b27ab649af5122a59b5ec615",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/169c46e78720d646b27ab649af5122a59b5ec615"
+    },
+    {
+      "path": "skills/blender-pbr-materials/scripts/_bpyx.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "201c7fc7ac3706e46f79ec69a0f41372882e92a3",
+      "size": 4524,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/201c7fc7ac3706e46f79ec69a0f41372882e92a3"
+    },
+    {
+      "path": "skills/blender-pbr-materials/scripts/build_pbr_material.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e50284656bdb1a7dcddf45c2827dd5e2a3f3f7ea",
+      "size": 12074,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/e50284656bdb1a7dcddf45c2827dd5e2a3f3f7ea"
+    },
+    {
+      "path": "skills/blender-pipeline-automation",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ab0d361283cdcf386249184b37129ecb575354ed",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/ab0d361283cdcf386249184b37129ecb575354ed"
+    },
+    {
+      "path": "skills/blender-pipeline-automation/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f02fd8d577cf16da67db7d5793bf0881490f85af",
+      "size": 5008,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/f02fd8d577cf16da67db7d5793bf0881490f85af"
+    },
+    {
+      "path": "skills/blender-pipeline-automation/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a7b141c4eabcf92f0f6f0267b98fc9a587546d0d",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/a7b141c4eabcf92f0f6f0267b98fc9a587546d0d"
+    },
+    {
+      "path": "skills/blender-pipeline-automation/scripts/_bpyx.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "201c7fc7ac3706e46f79ec69a0f41372882e92a3",
+      "size": 4524,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/201c7fc7ac3706e46f79ec69a0f41372882e92a3"
+    },
+    {
+      "path": "skills/blender-pipeline-automation/scripts/batch_process.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a72ee25b333e7dfce40b6f6a7ff553a042c8e2a6",
+      "size": 6833,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/a72ee25b333e7dfce40b6f6a7ff553a042c8e2a6"
+    },
+    {
+      "path": "skills/blender-rendering",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e814e457346a0bc645ddb2a6976ccd1669374e70",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/e814e457346a0bc645ddb2a6976ccd1669374e70"
+    },
+    {
+      "path": "skills/blender-rendering/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea128a310dd30c0a5ce2ed13ff8e0c6dcea8fde0",
+      "size": 5887,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/ea128a310dd30c0a5ce2ed13ff8e0c6dcea8fde0"
+    },
+    {
+      "path": "skills/blender-rendering/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a85380d169a17a7bb7b7573b6625991dc2d787ca",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/a85380d169a17a7bb7b7573b6625991dc2d787ca"
+    },
+    {
+      "path": "skills/blender-rendering/scripts/_bpyx.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "201c7fc7ac3706e46f79ec69a0f41372882e92a3",
+      "size": 4524,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/201c7fc7ac3706e46f79ec69a0f41372882e92a3"
+    },
+    {
+      "path": "skills/blender-rendering/scripts/render_batch.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1254ed0a4e6df2c8cc951c12dff0840853788afb",
+      "size": 6960,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/1254ed0a4e6df2c8cc951c12dff0840853788afb"
+    },
+    {
+      "path": "skills/blender-retopology-uv",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "378cdd4c2e01932bcfcdee0e56b1daa131992a14",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/378cdd4c2e01932bcfcdee0e56b1daa131992a14"
+    },
+    {
+      "path": "skills/blender-retopology-uv/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d442ed2fdcc147dfab6be955f0d2c8546ee071c0",
+      "size": 5267,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/d442ed2fdcc147dfab6be955f0d2c8546ee071c0"
+    },
+    {
+      "path": "skills/blender-retopology-uv/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1cf0fd6ba2b302efa51b96442dee973654bfb79a",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/1cf0fd6ba2b302efa51b96442dee973654bfb79a"
+    },
+    {
+      "path": "skills/blender-retopology-uv/scripts/_bpyx.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "201c7fc7ac3706e46f79ec69a0f41372882e92a3",
+      "size": 4524,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/201c7fc7ac3706e46f79ec69a0f41372882e92a3"
+    },
+    {
+      "path": "skills/blender-retopology-uv/scripts/auto_retopo.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01ab2624cf8e0a64e47e1a2b542d739a4a05fed1",
+      "size": 4594,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/01ab2624cf8e0a64e47e1a2b542d739a4a05fed1"
+    },
+    {
+      "path": "skills/blender-retopology-uv/scripts/texel_density.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf9056e104133b51d0294764d68611a8fe239d46",
+      "size": 4693,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/bf9056e104133b51d0294764d68611a8fe239d46"
+    },
+    {
+      "path": "skills/blender-retopology-uv/scripts/uv_pack.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e65d82b904f3815e5bda7d20748e9aaa60e5823",
+      "size": 5243,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/5e65d82b904f3815e5bda7d20748e9aaa60e5823"
+    },
+    {
+      "path": "skills/blender-scene-setup",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d818cb3e612c3b65107cf160f8e966233646c6a5",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/d818cb3e612c3b65107cf160f8e966233646c6a5"
+    },
+    {
+      "path": "skills/blender-scene-setup/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a07314eb804637ff009cd7d11efbfe8a64fd59be",
+      "size": 5612,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/a07314eb804637ff009cd7d11efbfe8a64fd59be"
+    },
+    {
+      "path": "skills/blender-scene-setup/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4ab0def0c23a1d6e0a24737ed4b9208cd62fa325",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/4ab0def0c23a1d6e0a24737ed4b9208cd62fa325"
+    },
+    {
+      "path": "skills/blender-scene-setup/scripts/_bpyx.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "201c7fc7ac3706e46f79ec69a0f41372882e92a3",
+      "size": 4524,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/201c7fc7ac3706e46f79ec69a0f41372882e92a3"
+    },
+    {
+      "path": "skills/blender-scene-setup/scripts/scene_audit.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4c3d9000fa0eb4ea2b24277c5dc4f8b56bbf6a5",
+      "size": 5041,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/b4c3d9000fa0eb4ea2b24277c5dc4f8b56bbf6a5"
+    },
+    {
+      "path": "skills/blender-sculpting",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8543eb4ef847effd76db18d67c7118713337dcbf",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/8543eb4ef847effd76db18d67c7118713337dcbf"
+    },
+    {
+      "path": "skills/blender-sculpting/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51b32d6f561f3c6590db8b45ee4f8d6c03ad8e4b",
+      "size": 5122,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/51b32d6f561f3c6590db8b45ee4f8d6c03ad8e4b"
+    },
+    {
+      "path": "skills/blender-sculpting/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3858b95288886f2d887b41245deba546646a042d",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/3858b95288886f2d887b41245deba546646a042d"
+    },
+    {
+      "path": "skills/blender-sculpting/references/forms-and-bake-sources.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f312855a259a2cf75d31974c9567238a9754a869",
+      "size": 4455,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/f312855a259a2cf75d31974c9567238a9754a869"
+    },
+    {
+      "path": "skills/blender-sculpting/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6c1e5e02d7865041eefb067f4d220925c26a15bd",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/6c1e5e02d7865041eefb067f4d220925c26a15bd"
+    },
+    {
+      "path": "skills/blender-sculpting/scripts/_bpyx.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "201c7fc7ac3706e46f79ec69a0f41372882e92a3",
+      "size": 4524,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/201c7fc7ac3706e46f79ec69a0f41372882e92a3"
+    },
+    {
+      "path": "skills/blender-sculpting/scripts/sculpt_ops.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0640d628f7ccd1f1497ab45e252013484c28767a",
+      "size": 4160,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/0640d628f7ccd1f1497ab45e252013484c28767a"
+    },
+    {
+      "path": "skills/blender-simulation",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bb16e8e5a116a64a45fd1c15794df0d65e500604",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/bb16e8e5a116a64a45fd1c15794df0d65e500604"
+    },
+    {
+      "path": "skills/blender-simulation/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "843241ddb1409a37a468f5cb27c916022fc9054b",
+      "size": 5883,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/843241ddb1409a37a468f5cb27c916022fc9054b"
+    },
+    {
+      "path": "skills/blender-simulation/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d00ae21c3f086c6379158561ac2821a0ccd1b9ff",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/d00ae21c3f086c6379158561ac2821a0ccd1b9ff"
+    },
+    {
+      "path": "skills/blender-simulation/scripts/_bpyx.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "201c7fc7ac3706e46f79ec69a0f41372882e92a3",
+      "size": 4524,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/201c7fc7ac3706e46f79ec69a0f41372882e92a3"
+    },
+    {
+      "path": "skills/blender-simulation/scripts/sim_setup.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b0abc85d63739689178d15ee1d1b00f7d7dea46",
+      "size": 10097,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/3b0abc85d63739689178d15ee1d1b00f7d7dea46"
+    },
+    {
+      "path": "skills/blender-stylized-npr",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dff8d1a670e1f6187a117ae02129b64f1a43e918",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/dff8d1a670e1f6187a117ae02129b64f1a43e918"
+    },
+    {
+      "path": "skills/blender-stylized-npr/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3297306e861f1f9d527663a7f00079c28d40d0cf",
+      "size": 5843,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/3297306e861f1f9d527663a7f00079c28d40d0cf"
+    },
+    {
+      "path": "skills/blender-stylized-npr/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fff674ccc2bc9348e4bfd395800a967395fbddd7",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/fff674ccc2bc9348e4bfd395800a967395fbddd7"
+    },
+    {
+      "path": "skills/blender-stylized-npr/scripts/_bpyx.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "201c7fc7ac3706e46f79ec69a0f41372882e92a3",
+      "size": 4524,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/201c7fc7ac3706e46f79ec69a0f41372882e92a3"
+    },
+    {
+      "path": "skills/blender-stylized-npr/scripts/toon_setup.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6f2c35fae1a2ca18fe9c254e267f82aae3d0f42",
+      "size": 17108,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/f6f2c35fae1a2ca18fe9c254e267f82aae3d0f42"
+    },
+    {
+      "path": "skills/blender-texture-baking",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d01d6ee5f0cc0739e6e594bc559202928c980fa4",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/d01d6ee5f0cc0739e6e594bc559202928c980fa4"
+    },
+    {
+      "path": "skills/blender-texture-baking/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4060d86507a34f53116e9a71c29307374bdac5e",
+      "size": 5713,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/e4060d86507a34f53116e9a71c29307374bdac5e"
+    },
+    {
+      "path": "skills/blender-texture-baking/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e05ba2990cbd3fcb64fd2069faed98486cd43f31",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/e05ba2990cbd3fcb64fd2069faed98486cd43f31"
+    },
+    {
+      "path": "skills/blender-texture-baking/scripts/_bpyx.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "201c7fc7ac3706e46f79ec69a0f41372882e92a3",
+      "size": 4524,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/201c7fc7ac3706e46f79ec69a0f41372882e92a3"
+    },
+    {
+      "path": "skills/blender-texture-baking/scripts/bake_maps.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b96d63d35c07eb979990c872ec0530819a4fa1b6",
+      "size": 11253,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/b96d63d35c07eb979990c872ec0530819a4fa1b6"
+    },
+    {
+      "path": "skills/blender-texturing",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7f2dded7dbc90a8e3e7c39c2ad3b87cf75797763",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/7f2dded7dbc90a8e3e7c39c2ad3b87cf75797763"
+    },
+    {
+      "path": "skills/blender-texturing/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5cbe1f350ae755e130e8c78537edb7a5631a2bd0",
+      "size": 5527,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/5cbe1f350ae755e130e8c78537edb7a5631a2bd0"
+    },
+    {
+      "path": "skills/blender-texturing/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "98c17c408d798b8fccdf2e746d768709938b3ab4",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/98c17c408d798b8fccdf2e746d768709938b3ab4"
+    },
+    {
+      "path": "skills/blender-texturing/references/trims-tiling-painting.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "814cbf98e9c6d3482bc43be1583888ed954f4953",
+      "size": 3780,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/814cbf98e9c6d3482bc43be1583888ed954f4953"
+    },
+    {
+      "path": "skills/blender-texturing/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1f46422db362778d0351d0fccd68c70faaf9b695",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/1f46422db362778d0351d0fccd68c70faaf9b695"
+    },
+    {
+      "path": "skills/blender-texturing/scripts/_bpyx.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "201c7fc7ac3706e46f79ec69a0f41372882e92a3",
+      "size": 4524,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/201c7fc7ac3706e46f79ec69a0f41372882e92a3"
+    },
+    {
+      "path": "skills/blender-texturing/scripts/decal.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7dbe999e9a9e9e20d2dba995a7a8f4f149146cbf",
+      "size": 6447,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/7dbe999e9a9e9e20d2dba995a7a8f4f149146cbf"
+    },
+    {
+      "path": "skills/blender-texturing/scripts/smart_material.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e09da6bf35aa9691768981c479b9ddbec1096c9c",
+      "size": 16244,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/e09da6bf35aa9691768981c479b9ddbec1096c9c"
+    },
+    {
+      "path": "skills/blender-time-of-day",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "54d42fe27e96ab23dc2f5780d5e4f2812729472c",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/54d42fe27e96ab23dc2f5780d5e4f2812729472c"
+    },
+    {
+      "path": "skills/blender-time-of-day/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21ebfd3fab9f24522040b5aa59346938d21f9ae0",
+      "size": 6841,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/21ebfd3fab9f24522040b5aa59346938d21f9ae0"
+    },
+    {
+      "path": "skills/blender-time-of-day/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f6eecfa0759d6067032b73a16ae9736ff1a58a19",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/f6eecfa0759d6067032b73a16ae9736ff1a58a19"
+    },
+    {
+      "path": "skills/blender-time-of-day/references/fog-volumetrics.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a015fb7177372046b4cc629cc57e98208f6c116",
+      "size": 3124,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/8a015fb7177372046b4cc629cc57e98208f6c116"
+    },
+    {
+      "path": "skills/blender-time-of-day/references/light-values.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "03ec373ce3062e426690aa057910f04940efff60",
+      "size": 2884,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/03ec373ce3062e426690aa057910f04940efff60"
+    },
+    {
+      "path": "skills/blender-time-of-day/references/night-and-moods.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "436a8a26dd7f3de71e8df41788123865632d7242",
+      "size": 4075,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/436a8a26dd7f3de71e8df41788123865632d7242"
+    },
+    {
+      "path": "skills/blender-time-of-day/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1af6685f4997084e7a8fb66e511c3b4afa7a99f1",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/1af6685f4997084e7a8fb66e511c3b4afa7a99f1"
+    },
+    {
+      "path": "skills/blender-time-of-day/scripts/_bpyx.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "201c7fc7ac3706e46f79ec69a0f41372882e92a3",
+      "size": 4524,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/201c7fc7ac3706e46f79ec69a0f41372882e92a3"
+    },
+    {
+      "path": "skills/blender-time-of-day/scripts/scene_mood.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35b61896ca20d85df8a9c629f6b42fc371f03dc1",
+      "size": 22978,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/35b61896ca20d85df8a9c629f6b42fc371f03dc1"
+    },
+    {
+      "path": "skills/blender-video-editing",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c26d4d8e86064104bf50fd37520cc1f9ea703717",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/c26d4d8e86064104bf50fd37520cc1f9ea703717"
+    },
+    {
+      "path": "skills/blender-video-editing/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e663a1cc87372946665e58546c38e66afb7329b0",
+      "size": 5296,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/e663a1cc87372946665e58546c38e66afb7329b0"
+    },
+    {
+      "path": "skills/blender-video-editing/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bc268d73929aaa8f083cfda684d8cbf12b62a3ed",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/bc268d73929aaa8f083cfda684d8cbf12b62a3ed"
+    },
+    {
+      "path": "skills/blender-video-editing/scripts/_bpyx.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "201c7fc7ac3706e46f79ec69a0f41372882e92a3",
+      "size": 4524,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/201c7fc7ac3706e46f79ec69a0f41372882e92a3"
+    },
+    {
+      "path": "skills/blender-video-editing/scripts/track_camera.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0197593894ce97b5b55f324c8130b6ef3cfa11af",
+      "size": 5293,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/0197593894ce97b5b55f324c8130b6ef3cfa11af"
+    },
+    {
+      "path": "skills/blender-video-editing/scripts/vse_edit.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f1cad5237e5391fa86455f66a72cabf4f9fc20e",
+      "size": 7777,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/3f1cad5237e5391fa86455f66a72cabf4f9fc20e"
+    },
+    {
+      "path": "skills/blender-weather-fx",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "89b04128bbd8cb4b353d78c0cbba34d14af56554",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/89b04128bbd8cb4b353d78c0cbba34d14af56554"
+    },
+    {
+      "path": "skills/blender-weather-fx/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8e4dc097a694832e16a887baf81bffde0e39631",
+      "size": 6649,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/b8e4dc097a694832e16a887baf81bffde0e39631"
+    },
+    {
+      "path": "skills/blender-weather-fx/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2b1f6d2d6ac80dbc3d96938c0b82f238866e2714",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/2b1f6d2d6ac80dbc3d96938c0b82f238866e2714"
+    },
+    {
+      "path": "skills/blender-weather-fx/references/realtime-engines.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69a6aafc1bd816dea1f432d9a8fe26639170a60e",
+      "size": 2659,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/69a6aafc1bd816dea1f432d9a8fe26639170a60e"
+    },
+    {
+      "path": "skills/blender-weather-fx/references/weather-values.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70238e0116918c0bd2196b80ac104f0d2cd9db9f",
+      "size": 3142,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/70238e0116918c0bd2196b80ac104f0d2cd9db9f"
+    },
+    {
+      "path": "skills/blender-weather-fx/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1f3440dd90325648a9f0e91fb090062b8d32d01e",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/1f3440dd90325648a9f0e91fb090062b8d32d01e"
+    },
+    {
+      "path": "skills/blender-weather-fx/scripts/_bpyx.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "201c7fc7ac3706e46f79ec69a0f41372882e92a3",
+      "size": 4524,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/201c7fc7ac3706e46f79ec69a0f41372882e92a3"
+    },
+    {
+      "path": "skills/blender-weather-fx/scripts/lightning.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f163f939d11519947afb943b0fa2d3a172f44b0a",
+      "size": 7844,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/f163f939d11519947afb943b0fa2d3a172f44b0a"
+    },
+    {
+      "path": "skills/blender-weather-fx/scripts/precipitation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "008ead6111ac8f066860302e6a4ca44c33c75b1b",
+      "size": 19038,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/008ead6111ac8f066860302e6a4ca44c33c75b1b"
+    },
+    {
+      "path": "skills/blender-weather-fx/scripts/surface_weather.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9309eb0c5583366ad26eac78787dc450b338d289",
+      "size": 17896,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/9309eb0c5583366ad26eac78787dc450b338d289"
+    },
+    {
+      "path": "skills/blender-workflow-recipes",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c6412bd8d361c3e6625437291490952500371a8b",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/c6412bd8d361c3e6625437291490952500371a8b"
+    },
+    {
+      "path": "skills/blender-workflow-recipes/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce270398549b1000c12997ed28dbfc24b31d57ff",
+      "size": 8226,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/ce270398549b1000c12997ed28dbfc24b31d57ff"
+    },
+    {
+      "path": "tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "193d6ee5559b64c3ed268be370618da87a1d2fdf",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/193d6ee5559b64c3ed268be370618da87a1d2fdf"
+    },
+    {
+      "path": "tests/fixtures.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4009cdb61f8e0a3095d1ed35e621c520625739f2",
+      "size": 4750,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/4009cdb61f8e0a3095d1ed35e621c520625739f2"
+    },
+    {
+      "path": "tests/run_all.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4cc19c9001cdfb99b674cb6dbe7802a254b9649",
+      "size": 2484,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/b4cc19c9001cdfb99b674cb6dbe7802a254b9649"
+    },
+    {
+      "path": "tests/test_addon.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "039dd671a0085970417ae83b08d560eb65eeea7d",
+      "size": 1580,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/039dd671a0085970417ae83b08d560eb65eeea7d"
+    },
+    {
+      "path": "tests/test_animation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "709c367a6c3eb623f6a8b27d2d61cfdeb0b9e87b",
+      "size": 10265,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/709c367a6c3eb623f6a8b27d2d61cfdeb0b9e87b"
+    },
+    {
+      "path": "tests/test_atmosphere.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83c3459dbdd5c284c08416cb5abe2d8dfadbb046",
+      "size": 2743,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/83c3459dbdd5c284c08416cb5abe2d8dfadbb046"
+    },
+    {
+      "path": "tests/test_baking.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a8588fcb9526f7d6e9774e017bf1eefa16d506e",
+      "size": 2283,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/0a8588fcb9526f7d6e9774e017bf1eefa16d506e"
+    },
+    {
+      "path": "tests/test_clothing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f375aca9526c7aa328d116d08f708210bb843892",
+      "size": 2213,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/f375aca9526c7aa328d116d08f708210bb843892"
+    },
+    {
+      "path": "tests/test_core.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44b05658b48d046e65c4c90ecf853273aade33f3",
+      "size": 1520,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/44b05658b48d046e65c4c90ecf853273aade33f3"
+    },
+    {
+      "path": "tests/test_environment.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "118bae66ef0b53017c5b51b12f9685cf1069b8c5",
+      "size": 5052,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/118bae66ef0b53017c5b51b12f9685cf1069b8c5"
+    },
+    {
+      "path": "tests/test_export.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90348b6fa7fa6f4d265e54dd5142b96dece7d2c0",
+      "size": 2071,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/90348b6fa7fa6f4d265e54dd5142b96dece7d2c0"
+    },
+    {
+      "path": "tests/test_facial.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a69cb9800e140919b6ea094c9ad45c8d7242df8",
+      "size": 1632,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/6a69cb9800e140919b6ea094c9ad45c8d7242df8"
+    },
+    {
+      "path": "tests/test_geonodes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f585b09cd89272003e9ee5619f99c246bfded879",
+      "size": 3975,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/f585b09cd89272003e9ee5619f99c246bfded879"
+    },
+    {
+      "path": "tests/test_hair.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad764019df89be42d493b84b23c645e898b02097",
+      "size": 2374,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/ad764019df89be42d493b84b23c645e898b02097"
+    },
+    {
+      "path": "tests/test_materials.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ccce7ae4a562916ca5358b427c74dd2f6346453",
+      "size": 1904,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/0ccce7ae4a562916ca5358b427c74dd2f6346453"
+    },
+    {
+      "path": "tests/test_modeling.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e85c8c1ed2058e31e57e7075ea53721ca08ca775",
+      "size": 1569,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/e85c8c1ed2058e31e57e7075ea53721ca08ca775"
+    },
+    {
+      "path": "tests/test_npr.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3143c5e80b7f0590c4ae5aab0e4dfbf7c9d5f5d5",
+      "size": 4225,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/3143c5e80b7f0590c4ae5aab0e4dfbf7c9d5f5d5"
+    },
+    {
+      "path": "tests/test_optimization.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7af9d8e1be5f43d0073b5fe4b2bea4ce78d64787",
+      "size": 913,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/7af9d8e1be5f43d0073b5fe4b2bea4ce78d64787"
+    },
+    {
+      "path": "tests/test_pipeline.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d37a643137346a6a305814a8ee805dc5e878e80",
+      "size": 1233,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/3d37a643137346a6a305814a8ee805dc5e878e80"
+    },
+    {
+      "path": "tests/test_qa.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b5abc3f23649cab82f26c059873a327325f1943",
+      "size": 7029,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/8b5abc3f23649cab82f26c059873a327325f1943"
+    },
+    {
+      "path": "tests/test_rendering.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9bf1f26328c7dd6368a87dd350281504433cc77",
+      "size": 1730,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/a9bf1f26328c7dd6368a87dd350281504433cc77"
+    },
+    {
+      "path": "tests/test_retopo_uv.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f5ebc054debddc32120be29a8c966241bbd8ae0",
+      "size": 2713,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/9f5ebc054debddc32120be29a8c966241bbd8ae0"
+    },
+    {
+      "path": "tests/test_rigging.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74045d6e24539046cd2b3da65087b7ece223dab4",
+      "size": 2868,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/74045d6e24539046cd2b3da65087b7ece223dab4"
+    },
+    {
+      "path": "tests/test_scene.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "589380c206c32bed063121fe24d63ec1e73cd44d",
+      "size": 1441,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/589380c206c32bed063121fe24d63ec1e73cd44d"
+    },
+    {
+      "path": "tests/test_sculpt.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45fcaf423d500b260db24430ac78566ef7123a4d",
+      "size": 505,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/45fcaf423d500b260db24430ac78566ef7123a4d"
+    },
+    {
+      "path": "tests/test_simulation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6655559d6f0275eaf2dcd91cc642dd5837dc9cf9",
+      "size": 1636,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/6655559d6f0275eaf2dcd91cc642dd5837dc9cf9"
+    },
+    {
+      "path": "tests/test_texturing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab4cf5cc35dbdba1a55653d466bf4df8ffb326e7",
+      "size": 4897,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/ab4cf5cc35dbdba1a55653d466bf4df8ffb326e7"
+    },
+    {
+      "path": "tests/test_video.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4249284643b142995bc34e25ea7c4a8fe6c258c6",
+      "size": 6414,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/4249284643b142995bc34e25ea7c4a8fe6c258c6"
+    },
+    {
+      "path": "tests/test_weather.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "229a17a3349ea0ad6e515066a4f0d880b7532f9f",
+      "size": 4479,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/229a17a3349ea0ad6e515066a4f0d880b7532f9f"
+    },
+    {
+      "path": "tools",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "988b8ed4bbd795a6031ab7e515697f0d40c86a76",
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/trees/988b8ed4bbd795a6031ab7e515697f0d40c86a76"
+    },
+    {
+      "path": "tools/run_tests.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8883e7d5a2593fae642a4575fa0b61d46ddf89c3",
+      "size": 1242,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/8883e7d5a2593fae642a4575fa0b61d46ddf89c3"
+    },
+    {
+      "path": "tools/sync_shared.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "03d4f66ab9fd50f606a753440ddb99f775f20c64",
+      "size": 968,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/03d4f66ab9fd50f606a753440ddb99f775f20c64"
+    },
+    {
+      "path": "tools/trigger_check.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b0e931ce1413a145880c9b6ac0a207aef70e392",
+      "size": 4607,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/0b0e931ce1413a145880c9b6ac0a207aef70e392"
+    },
+    {
+      "path": "tools/validate_skills.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "386b372c5dfd86ace48f79b0d6d9610ba5e1f2f4",
+      "size": 5565,
+      "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/386b372c5dfd86ace48f79b0d6d9610ba5e1f2f4"
+    }
+  ],
+  "truncated": false
+}

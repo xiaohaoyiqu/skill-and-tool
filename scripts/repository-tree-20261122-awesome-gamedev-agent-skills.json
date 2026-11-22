@@ -1,0 +1,3830 @@
+{
+  "sha": "f694e16f8d38e62f61d3287f79b3ffb70c3b943a",
+  "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/f694e16f8d38e62f61d3287f79b3ffb70c3b943a",
+  "tree": [
+    {
+      "path": ".claude-plugin",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0f3070cb8c5cc12953694f60b990928490cbf260",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/0f3070cb8c5cc12953694f60b990928490cbf260"
+    },
+    {
+      "path": ".claude-plugin/marketplace.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90adea6af26f12f47c6bf2ced33c3a3807122d17",
+      "size": 10196,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/90adea6af26f12f47c6bf2ced33c3a3807122d17"
+    },
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2851ecc16e7041b0ed5f94220f2670fd928f0af1",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/2851ecc16e7041b0ed5f94220f2670fd928f0af1"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "649a80c7c5fe5cebc72ffe4684a6b3c4c561474a",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/649a80c7c5fe5cebc72ffe4684a6b3c4c561474a"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4fad39c42a56378354ffac90541b6f725aad819a",
+      "size": 2226,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/4fad39c42a56378354ffac90541b6f725aad819a"
+    },
+    {
+      "path": ".github/workflows/pages.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d614170b86f3d29899d4caf45c2e44ab2a8cef3",
+      "size": 1250,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/5d614170b86f3d29899d4caf45c2e44ab2a8cef3"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d755bebe2592aeba7ad08d3085ee7a13158e6012",
+      "size": 312,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/d755bebe2592aeba7ad08d3085ee7a13158e6012"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78c04cb6f9ceb258266c0d1fbe8b0a5a236a4e2a",
+      "size": 8459,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/78c04cb6f9ceb258266c0d1fbe8b0a5a236a4e2a"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0042608b95beb297d929554bfb08ad1702e5a92c",
+      "size": 7882,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/0042608b95beb297d929554bfb08ad1702e5a92c"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44",
+      "size": 11395,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/c7fc0c6d59cb8129a0e30fe13f5a6118f3933c44"
+    },
+    {
+      "path": "NOTICE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d4204881c3f79f39151a53a6aae476b188a8c51f",
+      "size": 883,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/d4204881c3f79f39151a53a6aae476b188a8c51f"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1aa34fbb81b7e95dfbd3bb9773ac611680fff27a",
+      "size": 26065,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/1aa34fbb81b7e95dfbd3bb9773ac611680fff27a"
+    },
+    {
+      "path": "docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c2b76170d0994c5bda5c74875c1ef1aa4a4b70b0",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/c2b76170d0994c5bda5c74875c1ef1aa4a4b70b0"
+    },
+    {
+      "path": "docs/COMPATIBILITY.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14f21c76e14692612a58681335ce529483e98804",
+      "size": 8687,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/14f21c76e14692612a58681335ce529483e98804"
+    },
+    {
+      "path": "docs/INSTALLATION.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "faa7f021137d7e2f991883b1d14d2df78c4677f6",
+      "size": 11348,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/faa7f021137d7e2f991883b1d14d2df78c4677f6"
+    },
+    {
+      "path": "docs/SKILL-FORMAT.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "128d9455a51ebafa75d79779b776ec8541abe534",
+      "size": 11951,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/128d9455a51ebafa75d79779b776ec8541abe534"
+    },
+    {
+      "path": "docs/VERSION-SUPPORT.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05c8c55521b5761179ddc9c02effd3b387bea921",
+      "size": 5236,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/05c8c55521b5761179ddc9c02effd3b387bea921"
+    },
+    {
+      "path": "docs/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ab18a3b3890f4c4a048b10c143d4a920a32aa9ee",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/ab18a3b3890f4c4a048b10c143d4a920a32aa9ee"
+    },
+    {
+      "path": "docs/assets/awesome-gamedev-agent-skills-banner.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "080292a32b0ecae22aa5befec6db85b4bdb811f8",
+      "size": 2133414,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/080292a32b0ecae22aa5befec6db85b4bdb811f8"
+    },
+    {
+      "path": "docs/assets/sponsors",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "82177cc9e86d0c32b90e013ff92b445083bc6f77",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/82177cc9e86d0c32b90e013ff92b445083bc6f77"
+    },
+    {
+      "path": "docs/assets/sponsors/infistar.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d62bfb1b437228a7106aec71ef7896bf32cf68b",
+      "size": 90614,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/7d62bfb1b437228a7106aec71ef7896bf32cf68b"
+    },
+    {
+      "path": "docs/assets/sponsors/your-product-here.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c0fe3acdbcec5b73d51c924ad378d4df9d8398b",
+      "size": 672,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/0c0fe3acdbcec5b73d51c924ad378d4df9d8398b"
+    },
+    {
+      "path": "evals",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3b0ccb9073f4b5d5033e6ba585f47d4c425385b4",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/3b0ccb9073f4b5d5033e6ba585f47d4c425385b4"
+    },
+    {
+      "path": "evals/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2dd6a27bb8d097be54f67fb1386df5a0115ad91",
+      "size": 4365,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/f2dd6a27bb8d097be54f67fb1386df5a0115ad91"
+    },
+    {
+      "path": "evals/RESULTS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90aaeb3a0d3e5e84688acd4fb80ddb4a37467a7f",
+      "size": 3659,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/90aaeb3a0d3e5e84688acd4fb80ddb4a37467a7f"
+    },
+    {
+      "path": "evals/triggers.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18b72e63a42b805818bf605ab5b676c4856d5f64",
+      "size": 109838,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/18b72e63a42b805818bf605ab5b676c4856d5f64"
+    },
+    {
+      "path": "router",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "59fca8cc159ffc53b0771359c3199802528d4174",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/59fca8cc159ffc53b0771359c3199802528d4174"
+    },
+    {
+      "path": "router/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb31c07d1a1709b880065adeb35550f10fbceec8",
+      "size": 26025,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/bb31c07d1a1709b880065adeb35550f10fbceec8"
+    },
+    {
+      "path": "router/agents",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d80d12a5c47915a10c56257be41c1973a68cd712",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/d80d12a5c47915a10c56257be41c1973a68cd712"
+    },
+    {
+      "path": "router/agents/openai.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2bc50b9472334813cb0bc0fca5cec3c5862abbc2",
+      "size": 221,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/2bc50b9472334813cb0bc0fca5cec3c5862abbc2"
+    },
+    {
+      "path": "router/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9ea00987f75ac526568903059784c212a21ea610",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/9ea00987f75ac526568903059784c212a21ea610"
+    },
+    {
+      "path": "router/references/custom-engines.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82185991fab8df0bc5ea51fe7dc1007479948d0a",
+      "size": 3808,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/82185991fab8df0bc5ea51fe7dc1007479948d0a"
+    },
+    {
+      "path": "router/references/engine-detection.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d132b4e7447dfe363fd66ff3b0131324cf4c999a",
+      "size": 7038,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/d132b4e7447dfe363fd66ff3b0131324cf4c999a"
+    },
+    {
+      "path": "router/references/routing-table.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ccb32fc3ec068885a4a53daf4229ac194c418954",
+      "size": 23051,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/ccb32fc3ec068885a4a53daf4229ac194c418954"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d183524bf4178cec290d95fd5a147dc47e169995",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/d183524bf4178cec290d95fd5a147dc47e169995"
+    },
+    {
+      "path": "scripts/check-site.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "690d0f7f9de52c8ff310a7f5ce436de34bf13458",
+      "size": 2727,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/690d0f7f9de52c8ff310a7f5ce436de34bf13458"
+    },
+    {
+      "path": "scripts/generate-site.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "363126fde3aa78df9ef019a6e75aa8cc45bdb38f",
+      "size": 22891,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/363126fde3aa78df9ef019a6e75aa8cc45bdb38f"
+    },
+    {
+      "path": "scripts/run-trigger-evals.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb322e5105cee5296441479bb48138f6805cfad0",
+      "size": 20883,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/bb322e5105cee5296441479bb48138f6805cfad0"
+    },
+    {
+      "path": "scripts/validate-skills.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c23b3fc0424b28828661292dde159974b5dc777",
+      "size": 17760,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/9c23b3fc0424b28828661292dde159974b5dc777"
+    },
+    {
+      "path": "skills",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9c130639944c3b951f82162fcdaa1c1e9109e839",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/9c130639944c3b951f82162fcdaa1c1e9109e839"
+    },
+    {
+      "path": "skills/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53e9ab60dc406597ad8a5b8faaebb08985de362c",
+      "size": 1200,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/53e9ab60dc406597ad8a5b8faaebb08985de362c"
+    },
+    {
+      "path": "skills/disciplines",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "464ee49a733ed431fd15b3ae04c4d61b23ac301b",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/464ee49a733ed431fd15b3ae04c4d61b23ac301b"
+    },
+    {
+      "path": "skills/disciplines/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "073587816c44ea7836268c771d4106c54cdcf072",
+      "size": 767,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/073587816c44ea7836268c771d4106c54cdcf072"
+    },
+    {
+      "path": "skills/disciplines/ai-behavior-trees-utility-ai",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "025b0d3cefefc9bb3f55324d92a53d45bb9bfd86",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/025b0d3cefefc9bb3f55324d92a53d45bb9bfd86"
+    },
+    {
+      "path": "skills/disciplines/ai-behavior-trees-utility-ai/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4fe71b48dc6fc194dc8ceeccf2f5624d7bef6f83",
+      "size": 10327,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/4fe71b48dc6fc194dc8ceeccf2f5624d7bef6f83"
+    },
+    {
+      "path": "skills/disciplines/ai-behavior-trees-utility-ai/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9dbe1e402eae94047dffad9428b3cd9db5a2a763",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/9dbe1e402eae94047dffad9428b3cd9db5a2a763"
+    },
+    {
+      "path": "skills/disciplines/ai-behavior-trees-utility-ai/references/behavior-tree-core.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c04d8b3e15dac79d3713d59d7e4a9da0a94ac7f",
+      "size": 18663,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/0c04d8b3e15dac79d3713d59d7e4a9da0a94ac7f"
+    },
+    {
+      "path": "skills/disciplines/ai-behavior-trees-utility-ai/references/best-practices-and-pitfalls.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8e8ee13f7bcae73a5498d67582c166e797ea7cc",
+      "size": 5261,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/b8e8ee13f7bcae73a5498d67582c166e797ea7cc"
+    },
+    {
+      "path": "skills/disciplines/ai-behavior-trees-utility-ai/references/practical-examples.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a58eae38bada9fdd8f51b2ae0f07e2788f9a99aa",
+      "size": 8267,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/a58eae38bada9fdd8f51b2ae0f07e2788f9a99aa"
+    },
+    {
+      "path": "skills/disciplines/ai-behavior-trees-utility-ai/references/utility-ai-system.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e835d611472e23e6c88b9ce36b80978a70e93d8",
+      "size": 9505,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/6e835d611472e23e6c88b9ce36b80978a70e93d8"
+    },
+    {
+      "path": "skills/disciplines/audio-design",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d14dfdec11b58d36902e1297109b5f6523cc47d8",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/d14dfdec11b58d36902e1297109b5f6523cc47d8"
+    },
+    {
+      "path": "skills/disciplines/audio-design/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6d742b98a9bb39afa567b26ea908650f4031835",
+      "size": 11431,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/a6d742b98a9bb39afa567b26ea908650f4031835"
+    },
+    {
+      "path": "skills/disciplines/audio-design/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ac4e40ca8f1a59b46f544a7b89e8521fd2ef84ae",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/ac4e40ca8f1a59b46f544a7b89e8521fd2ef84ae"
+    },
+    {
+      "path": "skills/disciplines/audio-design/references/adaptive-music.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29df404ec13b0e75778690d9d568b48cfaab7238",
+      "size": 5399,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/29df404ec13b0e75778690d9d568b48cfaab7238"
+    },
+    {
+      "path": "skills/disciplines/camera-systems",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "aa33685fd5f25a17a54b855b4d5c3888383b12db",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/aa33685fd5f25a17a54b855b4d5c3888383b12db"
+    },
+    {
+      "path": "skills/disciplines/camera-systems/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f8a09963e006459c1ce559c6f5d3c9b24243d84",
+      "size": 10055,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/5f8a09963e006459c1ce559c6f5d3c9b24243d84"
+    },
+    {
+      "path": "skills/disciplines/camera-systems/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "20a5f7c0a6a1f6320ddf263a72edfa15da597d31",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/20a5f7c0a6a1f6320ddf263a72edfa15da597d31"
+    },
+    {
+      "path": "skills/disciplines/camera-systems/references/follow-and-framing.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7d414c0563ee054ce6543b47a5d7dd18005ab9f",
+      "size": 5783,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/c7d414c0563ee054ce6543b47a5d7dd18005ab9f"
+    },
+    {
+      "path": "skills/disciplines/create-game-assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "37b097ab20abadf9a233084f5901053bb0581621",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/37b097ab20abadf9a233084f5901053bb0581621"
+    },
+    {
+      "path": "skills/disciplines/create-game-assets/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c91726e70cd2d891ad04d06d0a6b035a9e6dba79",
+      "size": 12624,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/c91726e70cd2d891ad04d06d0a6b035a9e6dba79"
+    },
+    {
+      "path": "skills/disciplines/create-game-assets/agents",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8eb9a7eaf12d6e5cffa47e9b908741265d4ee701",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/8eb9a7eaf12d6e5cffa47e9b908741265d4ee701"
+    },
+    {
+      "path": "skills/disciplines/create-game-assets/agents/openai.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cba4fa772706ab7d0dac58426d47dc22d969926e",
+      "size": 231,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/cba4fa772706ab7d0dac58426d47dc22d969926e"
+    },
+    {
+      "path": "skills/disciplines/create-game-assets/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6cd08c30ed549977e5b26225c180ce5143b6b3a5",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/6cd08c30ed549977e5b26225c180ce5143b6b3a5"
+    },
+    {
+      "path": "skills/disciplines/create-game-assets/assets/art-direction-brief.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "faf39aea6196fcc9e97c6ea249da57f1149cd8eb",
+      "size": 858,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/faf39aea6196fcc9e97c6ea249da57f1149cd8eb"
+    },
+    {
+      "path": "skills/disciplines/create-game-assets/assets/asset-manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "548ee4867df3f4a9d49a5134e18b0759d046fd7c",
+      "size": 969,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/548ee4867df3f4a9d49a5134e18b0759d046fd7c"
+    },
+    {
+      "path": "skills/disciplines/create-game-assets/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9f8654d124fb195c9311bacfc5758b5945b5c55e",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/9f8654d124fb195c9311bacfc5758b5945b5c55e"
+    },
+    {
+      "path": "skills/disciplines/create-game-assets/references/art-direction.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3cc0543a7f5d58805ff03d133a3881a66e67b21b",
+      "size": 3876,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/3cc0543a7f5d58805ff03d133a3881a66e67b21b"
+    },
+    {
+      "path": "skills/disciplines/create-game-assets/references/provenance.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a62a0d2a1fe7e14ab57a6487b332ca5f190f8770",
+      "size": 2605,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/a62a0d2a1fe7e14ab57a6487b332ca5f190f8770"
+    },
+    {
+      "path": "skills/disciplines/create-game-assets/references/raster-pipeline.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d4baad060963b877e56ca809260bbdaecdbe87db",
+      "size": 4236,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/d4baad060963b877e56ca809260bbdaecdbe87db"
+    },
+    {
+      "path": "skills/disciplines/create-game-assets/references/three-d-pipeline.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ea07a3a9b5395aa58542c15bd1b623fe4a4c1d1",
+      "size": 3163,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/2ea07a3a9b5395aa58542c15bd1b623fe4a4c1d1"
+    },
+    {
+      "path": "skills/disciplines/create-game-assets/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2bf4a49c1168ec79a29a6ead33026f297872efb9",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/2bf4a49c1168ec79a29a6ead33026f297872efb9"
+    },
+    {
+      "path": "skills/disciplines/create-game-assets/scripts/asset_report.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "627f42d4bed8191ea9763308a72eb76d38e0ccf9",
+      "size": 5392,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/627f42d4bed8191ea9763308a72eb76d38e0ccf9"
+    },
+    {
+      "path": "skills/disciplines/create-game-assets/scripts/build_preview_sheet.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "87a656c9dd69791a2aad0a3fd689abbbee670753",
+      "size": 3353,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/87a656c9dd69791a2aad0a3fd689abbbee670753"
+    },
+    {
+      "path": "skills/disciplines/create-game-assets/scripts/requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b8376b4b2b25afe71534d694f72004cb66ca220",
+      "size": 15,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/7b8376b4b2b25afe71534d694f72004cb66ca220"
+    },
+    {
+      "path": "skills/disciplines/dialogue-systems",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b74cb2b8ab6503d61590f70e727eaa9187d86a32",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/b74cb2b8ab6503d61590f70e727eaa9187d86a32"
+    },
+    {
+      "path": "skills/disciplines/dialogue-systems/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4589deb1170d1de032bf19d02109c701e7f0e707",
+      "size": 9958,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/4589deb1170d1de032bf19d02109c701e7f0e707"
+    },
+    {
+      "path": "skills/disciplines/dialogue-systems/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f96d3e464e5988e85b79a2274414914249aff3f7",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/f96d3e464e5988e85b79a2274414914249aff3f7"
+    },
+    {
+      "path": "skills/disciplines/dialogue-systems/references/ink-and-yarn.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80b2a455aee890d5daf0b85d870f73af0299615b",
+      "size": 6223,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/80b2a455aee890d5daf0b85d870f73af0299615b"
+    },
+    {
+      "path": "skills/disciplines/dialogue-systems/references/runner.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eafe14283d0f47d6015e9b52accdb073168c8ffb",
+      "size": 7964,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/eafe14283d0f47d6015e9b52accdb073168c8ffb"
+    },
+    {
+      "path": "skills/disciplines/game-ai",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8f8e998fbe782e8623e0869f923b3b39fc2c4f10",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/8f8e998fbe782e8623e0869f923b3b39fc2c4f10"
+    },
+    {
+      "path": "skills/disciplines/game-ai/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44832c77908c2707538dbf819ea736380c8cde43",
+      "size": 7928,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/44832c77908c2707538dbf819ea736380c8cde43"
+    },
+    {
+      "path": "skills/disciplines/game-ai/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "071c7749e1e85c2d4751136a407eac9a403ad29f",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/071c7749e1e85c2d4751136a407eac9a403ad29f"
+    },
+    {
+      "path": "skills/disciplines/game-ai/references/fsm-perception-steering.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f6edc938e3b55f923ae525cd842f588ae4a6f1e",
+      "size": 6618,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/3f6edc938e3b55f923ae525cd842f588ae4a6f1e"
+    },
+    {
+      "path": "skills/disciplines/game-ai/references/pathfinding.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76a02e86d61cda26787388b77e76be7c4c40ab23",
+      "size": 7667,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/76a02e86d61cda26787388b77e76be7c4c40ab23"
+    },
+    {
+      "path": "skills/disciplines/game-feel",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "87af1d6063f396018e36e0edca78a48b7492f962",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/87af1d6063f396018e36e0edca78a48b7492f962"
+    },
+    {
+      "path": "skills/disciplines/game-feel/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "821eacd2946f4baa7dbe87b77ed2daa58fe9fe2f",
+      "size": 9567,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/821eacd2946f4baa7dbe87b77ed2daa58fe9fe2f"
+    },
+    {
+      "path": "skills/disciplines/game-feel/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a97520d341ea749586a9b7569ab2ab9170ac36c0",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/a97520d341ea749586a9b7569ab2ab9170ac36c0"
+    },
+    {
+      "path": "skills/disciplines/game-feel/references/feedback-recipes.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2167a37ed7c5e2c3ac34a0313ed494ef170a066d",
+      "size": 5529,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/2167a37ed7c5e2c3ac34a0313ed494ef170a066d"
+    },
+    {
+      "path": "skills/disciplines/game-ui-ux",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "02b1367ba8a13aded8f4f75536787e2543221804",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/02b1367ba8a13aded8f4f75536787e2543221804"
+    },
+    {
+      "path": "skills/disciplines/game-ui-ux/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f17857e60afd18f6de0f0a5c77bc00361b07c27f",
+      "size": 10144,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/f17857e60afd18f6de0f0a5c77bc00361b07c27f"
+    },
+    {
+      "path": "skills/disciplines/game-ui-ux/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d977a8f4a02be45fb5d33494f57aeb7eb5b32eba",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/d977a8f4a02be45fb5d33494f57aeb7eb5b32eba"
+    },
+    {
+      "path": "skills/disciplines/game-ui-ux/references/layout-and-flow.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c05dac412605655abdab12bee1d9dbc5b8f4e4e",
+      "size": 7526,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/0c05dac412605655abdab12bee1d9dbc5b8f4e4e"
+    },
+    {
+      "path": "skills/disciplines/input-systems",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "347b02dd1047ddd06ee9b53e0e4c690eba9d7f9d",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/347b02dd1047ddd06ee9b53e0e4c690eba9d7f9d"
+    },
+    {
+      "path": "skills/disciplines/input-systems/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06f41674a3469e24a39d83c4aa689671f42c3b65",
+      "size": 13781,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/06f41674a3469e24a39d83c4aa689671f42c3b65"
+    },
+    {
+      "path": "skills/disciplines/input-systems/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9f3c676b5b9beb0c7e51d2b2ecd40d57b76188bf",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/9f3c676b5b9beb0c7e51d2b2ecd40d57b76188bf"
+    },
+    {
+      "path": "skills/disciplines/input-systems/references/buffering-and-accessibility.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ba8875651873572c2bb35b65745e06094c29d25",
+      "size": 4065,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/6ba8875651873572c2bb35b65745e06094c29d25"
+    },
+    {
+      "path": "skills/disciplines/level-design",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "993ae4ca63639c208604679c6c51cefdbd823fe0",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/993ae4ca63639c208604679c6c51cefdbd823fe0"
+    },
+    {
+      "path": "skills/disciplines/level-design/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1dcab88bfed9a7aeb0bc7afa672b1e0c394261bb",
+      "size": 12347,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/1dcab88bfed9a7aeb0bc7afa672b1e0c394261bb"
+    },
+    {
+      "path": "skills/disciplines/level-design/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f38c69310ec2c00dffd002631986d341aba4fe51",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/f38c69310ec2c00dffd002631986d341aba4fe51"
+    },
+    {
+      "path": "skills/disciplines/level-design/references/pacing-and-flow.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f552854cae34659e233ce9edaea7ac6072317862",
+      "size": 4064,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/f552854cae34659e233ce9edaea7ac6072317862"
+    },
+    {
+      "path": "skills/disciplines/performance-optimization",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0952715a679455f22a957f7b391511de86245ae0",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/0952715a679455f22a957f7b391511de86245ae0"
+    },
+    {
+      "path": "skills/disciplines/performance-optimization/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3df7d779bb92e47e433451c0cf3d73eba0d7f09",
+      "size": 12575,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/b3df7d779bb92e47e433451c0cf3d73eba0d7f09"
+    },
+    {
+      "path": "skills/disciplines/performance-optimization/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "30eb60b6d8625d90dfadb1377ffc3a0ea031aab7",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/30eb60b6d8625d90dfadb1377ffc3a0ea031aab7"
+    },
+    {
+      "path": "skills/disciplines/performance-optimization/references/profiling-and-budgets.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7138f7f31a49f5e8365f672cf2b807bba47867a9",
+      "size": 7935,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/7138f7f31a49f5e8365f672cf2b807bba47867a9"
+    },
+    {
+      "path": "skills/disciplines/physics-tuning",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b77325d9e83c44b4028a1f1640acaa63b88484a1",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/b77325d9e83c44b4028a1f1640acaa63b88484a1"
+    },
+    {
+      "path": "skills/disciplines/physics-tuning/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eda06d1db68a3bc2e381080118505cf712cfacb1",
+      "size": 11851,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/eda06d1db68a3bc2e381080118505cf712cfacb1"
+    },
+    {
+      "path": "skills/disciplines/physics-tuning/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1bd59b04971fbc6be3a5745aca70472e788ae358",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/1bd59b04971fbc6be3a5745aca70472e788ae358"
+    },
+    {
+      "path": "skills/disciplines/physics-tuning/references/timestep-and-ccd.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80878ffd8074aef1f1288ba200c5c5e5549f8907",
+      "size": 6056,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/80878ffd8074aef1f1288ba200c5c5e5549f8907"
+    },
+    {
+      "path": "skills/disciplines/procedural-gen",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0f7ab149dde94c19372f92eef92effee021897ff",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/0f7ab149dde94c19372f92eef92effee021897ff"
+    },
+    {
+      "path": "skills/disciplines/procedural-gen/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "356e09cbf880d966768e9a7707aa58e2e06ef102",
+      "size": 10474,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/356e09cbf880d966768e9a7707aa58e2e06ef102"
+    },
+    {
+      "path": "skills/disciplines/procedural-gen/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6909c667bac28c493f0e35a366b3f52ce722ca9f",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/6909c667bac28c493f0e35a366b3f52ce722ca9f"
+    },
+    {
+      "path": "skills/disciplines/procedural-gen/references/dungeon-generation.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d34260d9a40c145eb5d97de00b79e124677bc7bf",
+      "size": 9013,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/d34260d9a40c145eb5d97de00b79e124677bc7bf"
+    },
+    {
+      "path": "skills/disciplines/procedural-gen/references/noise.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2cdc1d5fa4a7a4591584b6b83cb387b2e4b2882",
+      "size": 4597,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/a2cdc1d5fa4a7a4591584b6b83cb387b2e4b2882"
+    },
+    {
+      "path": "skills/disciplines/save-systems",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "daa1bec743f0c0e3f483ca182a02cfac78d5c8e0",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/daa1bec743f0c0e3f483ca182a02cfac78d5c8e0"
+    },
+    {
+      "path": "skills/disciplines/save-systems/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f01f75fe536802f5093aa707b3115042b8d0a654",
+      "size": 11764,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/f01f75fe536802f5093aa707b3115042b8d0a654"
+    },
+    {
+      "path": "skills/disciplines/save-systems/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a3d9bb29a7fbce6ec747e3e723389a6c3160fdc1",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/a3d9bb29a7fbce6ec747e3e723389a6c3160fdc1"
+    },
+    {
+      "path": "skills/disciplines/save-systems/references/versioning-and-migration.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84ff706bbf6cd60e500502a6b65b75db743a6570",
+      "size": 6822,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/84ff706bbf6cd60e500502a6b65b75db743a6570"
+    },
+    {
+      "path": "skills/disciplines/shader-programming",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7eb7df26675ae89cd48ffba6bdec5685175a3d4d",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/7eb7df26675ae89cd48ffba6bdec5685175a3d4d"
+    },
+    {
+      "path": "skills/disciplines/shader-programming/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9b8762ed2305a3e798d9a9e98bb1935839041c7",
+      "size": 9853,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/f9b8762ed2305a3e798d9a9e98bb1935839041c7"
+    },
+    {
+      "path": "skills/disciplines/shader-programming/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2bd2c1e290d88e5460dbca3c2283304db83add79",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/2bd2c1e290d88e5460dbca3c2283304db83add79"
+    },
+    {
+      "path": "skills/disciplines/shader-programming/references/effects.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "136f4af01d0ff07ab1f36784eabef91175cfffdc",
+      "size": 8050,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/136f4af01d0ff07ab1f36784eabef91175cfffdc"
+    },
+    {
+      "path": "skills/ebitengine",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2ff39b86d5785dfbf65c21cd09351842f3e81fa5",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/2ff39b86d5785dfbf65c21cd09351842f3e81fa5"
+    },
+    {
+      "path": "skills/ebitengine/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b60ff12efbe600b1d6e6388446b5db2b9de00313",
+      "size": 717,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/b60ff12efbe600b1d6e6388446b5db2b9de00313"
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f0e14277c5a8924c5149b32da0cf0474627ee732",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/f0e14277c5a8924c5149b32da0cf0474627ee732"
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "559e389723b1f2a4b49d50dc9b21ecfeb8a3b6c3",
+      "size": 14616,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/559e389723b1f2a4b49d50dc9b21ecfeb8a3b6c3"
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game/agents",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d218e917a9a0798a687e3ecc705ae764da6a5d04",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/d218e917a9a0798a687e3ecc705ae764da6a5d04"
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game/agents/openai.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d92ea36c5be37244d16fa95366d8ef58f7b7fea0",
+      "size": 207,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/d92ea36c5be37244d16fa95366d8ef58f7b7fea0"
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6fb41429cbee12aca0ae05d89e61c1a4b2d8b19b",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/6fb41429cbee12aca0ae05d89e61c1a4b2d8b19b"
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game/assets/ci",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "070e92c5e1482662a7b5865975e00c69489a92ce",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/070e92c5e1482662a7b5865975e00c69489a92ce"
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game/assets/ci/github-actions.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc6eb508a786071e49c066ca900d7b8b08f5d1e3",
+      "size": 5196,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/cc6eb508a786071e49c066ca900d7b8b08f5d1e3"
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game/assets/starter",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d97d9ac4cd1c9f89d122f5a896d1cab0d856e5fb",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/d97d9ac4cd1c9f89d122f5a896d1cab0d856e5fb"
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game/assets/starter/assets.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0acbb366fa0a00edc3545ace02838c28fa29def6",
+      "size": 1738,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/0acbb366fa0a00edc3545ace02838c28fa29def6"
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game/assets/starter/game.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "029b43626ffe717980bd6ca505d0000ffefe598e",
+      "size": 2513,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/029b43626ffe717980bd6ca505d0000ffefe598e"
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game/assets/starter/input.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df7300615d75cc84b835331231832e504ff71d2b",
+      "size": 3205,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/df7300615d75cc84b835331231832e504ff71d2b"
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game/assets/starter/licenses",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a47898b3e33723b7988a6fc246c95921d649794f",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/a47898b3e33723b7988a6fc246c95921d649794f"
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game/assets/starter/licenses/Go-Fonts.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7043c36248e1295eab83edf8a677bd92156eed60",
+      "size": 1913,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/7043c36248e1295eab83edf8a677bd92156eed60"
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game/assets/starter/main.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87ef8d2fcfa2dd2d21d05cd3e034b8be60f9163f",
+      "size": 1733,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/87ef8d2fcfa2dd2d21d05cd3e034b8be60f9163f"
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game/assets/starter/scenes.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb3d1ec8eedb7197ac21d7bf2b837f049c4faf53",
+      "size": 5976,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/eb3d1ec8eedb7197ac21d7bf2b837f049c4faf53"
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game/assets/starter/sound.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1ff560729587104360fcf9204557968c4684a50",
+      "size": 1723,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/a1ff560729587104360fcf9204557968c4684a50"
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game/assets/starter/web",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "98c1ba9cfaf4d4a7af7ca0525a6a4ae8353f67ee",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/98c1ba9cfaf4d4a7af7ca0525a6a4ae8353f67ee"
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game/assets/starter/web/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85e366eb88236280057dd05f60f91eeffa7cbefb",
+      "size": 917,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/85e366eb88236280057dd05f60f91eeffa7cbefb"
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game/assets/starter/world",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d225e4125aa2de9aa701bd1755a92033653f6685",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/d225e4125aa2de9aa701bd1755a92033653f6685"
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game/assets/starter/world/world.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b345876663f42087c1cf0d12bf4d89c645cc39f",
+      "size": 4714,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/8b345876663f42087c1cf0d12bf4d89c645cc39f"
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game/assets/starter/world/world_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "89df3b8547edd2ad1b1608123036da87e136c641",
+      "size": 3731,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/89df3b8547edd2ad1b1608123036da87e136c641"
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2b746572e35f0d01fad9f7593e6a3bebdf747f56",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/2b746572e35f0d01fad9f7593e6a3bebdf747f56"
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game/references/architecture-and-testing.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c16c0a03396294b1b0f66abef3f7aabdbeb92a1",
+      "size": 11610,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/7c16c0a03396294b1b0f66abef3f7aabdbeb92a1"
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game/references/assets-and-animation.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3985f23503590b4322f21875a2b80eeeb44e8e8",
+      "size": 4271,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/d3985f23503590b4322f21875a2b80eeeb44e8e8"
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game/references/audio.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ecfca14916520aed7adcef522356a29ae80a9097",
+      "size": 7208,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/ecfca14916520aed7adcef522356a29ae80a9097"
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game/references/ci-and-release.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b22c30c224efeac5dc674cea2238e555c666890b",
+      "size": 4191,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/b22c30c224efeac5dc674cea2238e555c666890b"
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game/references/design-and-quality.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6168b8c62b9c8fe884b362b0bf7154c9863483d",
+      "size": 8678,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/c6168b8c62b9c8fe884b362b0bf7154c9863483d"
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game/references/gameplay-systems.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08e6b0f41a9d732330d1300338c66df5f4667491",
+      "size": 12309,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/08e6b0f41a9d732330d1300338c66df5f4667491"
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game/references/input.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81d61e60254b0d87c821842a645c72fec27a347b",
+      "size": 9562,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/81d61e60254b0d87c821842a645c72fec27a347b"
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game/references/monetization.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9a57bca884199f6494fa4cfd9f4c772b5a827bb",
+      "size": 5512,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/a9a57bca884199f6494fa4cfd9f4c772b5a827bb"
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game/references/networking.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7a9c75969a95245301e79d1a4ffcc42af973107",
+      "size": 7936,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/f7a9c75969a95245301e79d1a4ffcc42af973107"
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game/references/playtest-diagnostics.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5998de9ac985c1dd92ea36b93accd6241ea6ae9",
+      "size": 3837,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/b5998de9ac985c1dd92ea36b93accd6241ea6ae9"
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game/references/project-and-builds.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "693d65536e9bfd053b04cf0f25193e954be1c0eb",
+      "size": 7916,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/693d65536e9bfd053b04cf0f25193e954be1c0eb"
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game/references/publishing-and-platforms.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b2513fbd253c01242f7cb3a5b6c45738dcf42ab",
+      "size": 6944,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/4b2513fbd253c01242f7cb3a5b6c45738dcf42ab"
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game/references/rendering.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44ffa5fc2478d9cb3181cbf5d27c636f97f9deb6",
+      "size": 11246,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/44ffa5fc2478d9cb3181cbf5d27c636f97f9deb6"
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game/references/text-and-ui.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "89cf99f118c9c9b160a0c56778b290fb639175ca",
+      "size": 14557,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/89cf99f118c9c9b160a0c56778b290fb639175ca"
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game/references/tilemaps.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b6b581d1b72edbef062c1863fbf37262bdf2b17",
+      "size": 12641,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/8b6b581d1b72edbef062c1863fbf37262bdf2b17"
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a3870214616c0eddd9d804e5c798b06c9afc5eb0",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/a3870214616c0eddd9d804e5c798b06c9afc5eb0"
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game/scripts/check_ebitengine.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22dd4e668bb2d3148a49e104b525de1b31b26e46",
+      "size": 17667,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/22dd4e668bb2d3148a49e104b525de1b31b26e46"
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game/scripts/new_game.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce97ac47fec512b39c7e3a97acfdde7be0a8b4f6",
+      "size": 6597,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/ce97ac47fec512b39c7e3a97acfdde7be0a8b4f6"
+    },
+    {
+      "path": "skills/ebitengine/ebitengine-game/scripts/package_macos_app.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4b26886995d0acbbe2eff66cdc947f6a4047f77",
+      "size": 8869,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/b4b26886995d0acbbe2eff66cdc947f6a4047f77"
+    },
+    {
+      "path": "skills/genres",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0509176f71b4a207fd80cb0577a8841d48be43ed",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/0509176f71b4a207fd80cb0577a8841d48be43ed"
+    },
+    {
+      "path": "skills/genres/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d95bd29fde21c7cdfee32b4aa808d780bd1d92c2",
+      "size": 491,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/d95bd29fde21c7cdfee32b4aa808d780bd1d92c2"
+    },
+    {
+      "path": "skills/genres/card-game",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b7c402887d920cb4a9abda928ffe38a52fff60ea",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/b7c402887d920cb4a9abda928ffe38a52fff60ea"
+    },
+    {
+      "path": "skills/genres/card-game/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0de8156c033eff34fe711fe86f56e206765c1f67",
+      "size": 9254,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/0de8156c033eff34fe711fe86f56e206765c1f67"
+    },
+    {
+      "path": "skills/genres/card-game/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "326c811fbabd357adeb8cef67baaa34b5cacbda6",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/326c811fbabd357adeb8cef67baaa34b5cacbda6"
+    },
+    {
+      "path": "skills/genres/card-game/references/effect-resolution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "472a14e5fda19bf3113dea7acb0498edcaa26675",
+      "size": 6850,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/472a14e5fda19bf3113dea7acb0498edcaa26675"
+    },
+    {
+      "path": "skills/genres/fps-shooter",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fd9df36eab9d4bc249effa032ad12621828a771c",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/fd9df36eab9d4bc249effa032ad12621828a771c"
+    },
+    {
+      "path": "skills/genres/fps-shooter/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a795fd7a25444c99faf47de5d8d3fd39a38aa24",
+      "size": 7625,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/6a795fd7a25444c99faf47de5d8d3fd39a38aa24"
+    },
+    {
+      "path": "skills/genres/fps-shooter/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e5ff03c4970acb66832a7a0a4e68b51bcb075ec5",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/e5ff03c4970acb66832a7a0a4e68b51bcb075ec5"
+    },
+    {
+      "path": "skills/genres/fps-shooter/references/shooting-and-feel.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a935c96769a85c33bcf8cb888f9b3609f24df0d3",
+      "size": 6473,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/a935c96769a85c33bcf8cb888f9b3609f24df0d3"
+    },
+    {
+      "path": "skills/genres/platformer",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d33c6a9893581ce130ca800adc5a09b8f9480a8f",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/d33c6a9893581ce130ca800adc5a09b8f9480a8f"
+    },
+    {
+      "path": "skills/genres/platformer/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f51c9b82151b356a4a243f29d2bdc9b37c9397c8",
+      "size": 10914,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/f51c9b82151b356a4a243f29d2bdc9b37c9397c8"
+    },
+    {
+      "path": "skills/genres/platformer/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0f5274e86ff34bb8aba2e264a4b4c30708de86ec",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/0f5274e86ff34bb8aba2e264a4b4c30708de86ec"
+    },
+    {
+      "path": "skills/genres/platformer/references/feel-tuning.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d7655540fc20846c59560a8d9e1d8dbbd4748ba0",
+      "size": 12002,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/d7655540fc20846c59560a8d9e1d8dbbd4748ba0"
+    },
+    {
+      "path": "skills/genres/platformer/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f68ee0e98ff0eaeb23108288c7000f27aeb01ca7",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/f68ee0e98ff0eaeb23108288c7000f27aeb01ca7"
+    },
+    {
+      "path": "skills/genres/platformer/scripts/jump_tuner.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05bfe68dfda6090d185bc34e9596988252496318",
+      "size": 13567,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/05bfe68dfda6090d185bc34e9596988252496318"
+    },
+    {
+      "path": "skills/genres/puzzle",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5da3f96f0f81c25650e5c0bf982e8e964ad9219f",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/5da3f96f0f81c25650e5c0bf982e8e964ad9219f"
+    },
+    {
+      "path": "skills/genres/puzzle/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7214f4b5a7823a2f194989429b23ad7956dd4c73",
+      "size": 6684,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/7214f4b5a7823a2f194989429b23ad7956dd4c73"
+    },
+    {
+      "path": "skills/genres/puzzle/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d727e584d7f44065aec09aa9a6df25a0d39beae4",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/d727e584d7f44065aec09aa9a6df25a0d39beae4"
+    },
+    {
+      "path": "skills/genres/puzzle/references/board-and-resolution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb5860bd1aa165675c399f90a54e0bb95467eddb",
+      "size": 6149,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/cb5860bd1aa165675c399f90a54e0bb95467eddb"
+    },
+    {
+      "path": "skills/genres/roguelike",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8a777ffdd5d9a5ac5ab1b2a38c181a8f05851a33",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/8a777ffdd5d9a5ac5ab1b2a38c181a8f05851a33"
+    },
+    {
+      "path": "skills/genres/roguelike/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ded2dfeeed8176e65904311c93400d6edd84090a",
+      "size": 7283,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/ded2dfeeed8176e65904311c93400d6edd84090a"
+    },
+    {
+      "path": "skills/genres/roguelike/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e0c5225b15856b780da711293e0a8b53e25c1c5e",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/e0c5225b15856b780da711293e0a8b53e25c1c5e"
+    },
+    {
+      "path": "skills/genres/roguelike/references/run-seeds-fov.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d9391d6d84a6be0f94c714b0929579e6bcda1d0",
+      "size": 6867,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/8d9391d6d84a6be0f94c714b0929579e6bcda1d0"
+    },
+    {
+      "path": "skills/genres/rpg",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d4a3a1dd76524b46d2f29971a7db4c9b11ffb8e0",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/d4a3a1dd76524b46d2f29971a7db4c9b11ffb8e0"
+    },
+    {
+      "path": "skills/genres/rpg/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5bc9913945421621b2c9348500ab41cd9989e597",
+      "size": 7483,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/5bc9913945421621b2c9348500ab41cd9989e597"
+    },
+    {
+      "path": "skills/genres/rpg/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9575781bad8577035bb8223cdbe6f47d6d1242d7",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/9575781bad8577035bb8223cdbe6f47d6d1242d7"
+    },
+    {
+      "path": "skills/genres/rpg/references/stats-combat-quests.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f05f04757dfd52f88b592cd2682d3cb6396242f2",
+      "size": 5382,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/f05f04757dfd52f88b592cd2682d3cb6396242f2"
+    },
+    {
+      "path": "skills/genres/survival-crafting",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "07005d246a1d5e5fadd145da0dbf88933c673f2a",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/07005d246a1d5e5fadd145da0dbf88933c673f2a"
+    },
+    {
+      "path": "skills/genres/survival-crafting/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed1a70447c797023cacbb1d34a72f8e5684f3386",
+      "size": 7259,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/ed1a70447c797023cacbb1d34a72f8e5684f3386"
+    },
+    {
+      "path": "skills/genres/survival-crafting/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "526d92390e17c0d4a6cc2fad5093fad4b8539d8b",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/526d92390e17c0d4a6cc2fad5093fad4b8539d8b"
+    },
+    {
+      "path": "skills/genres/survival-crafting/references/needs-and-crafting.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "581ed3412179a9e1f727c4a18d188618fc6964bb",
+      "size": 5267,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/581ed3412179a9e1f727c4a18d188618fc6964bb"
+    },
+    {
+      "path": "skills/genres/tower-defense",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "09ed427a3e512b048e8fe610e5fc609794348893",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/09ed427a3e512b048e8fe610e5fc609794348893"
+    },
+    {
+      "path": "skills/genres/tower-defense/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8916372d5cc753a68e311b384c59a151bc478dd5",
+      "size": 6664,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/8916372d5cc753a68e311b384c59a151bc478dd5"
+    },
+    {
+      "path": "skills/genres/tower-defense/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "59584224f70d818752d390a7b8943a70c86fe107",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/59584224f70d818752d390a7b8943a70c86fe107"
+    },
+    {
+      "path": "skills/genres/tower-defense/references/balancing.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "372e37ac5289e52a4c393357e3d752ad32d96028",
+      "size": 6230,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/372e37ac5289e52a4c393357e3d752ad32d96028"
+    },
+    {
+      "path": "skills/genres/tower-defense/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "45baf82f8e822ab6065c2112097c07fd75e305ab",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/45baf82f8e822ab6065c2112097c07fd75e305ab"
+    },
+    {
+      "path": "skills/genres/tower-defense/scripts/td_curve_check.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96ebba595357fadeab9ceed265f26b06105d3d26",
+      "size": 10944,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/96ebba595357fadeab9ceed265f26b06105d3d26"
+    },
+    {
+      "path": "skills/genres/visual-novel",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fada9f2380911968e49e7a34f730922fe9e6aab4",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/fada9f2380911968e49e7a34f730922fe9e6aab4"
+    },
+    {
+      "path": "skills/genres/visual-novel/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a79055198e0cf1bceacc11abb5ffbbbcbb384de",
+      "size": 7608,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/0a79055198e0cf1bceacc11abb5ffbbbcbb384de"
+    },
+    {
+      "path": "skills/genres/visual-novel/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9ea0d3b03648bfd65eb6c1ac35bb633c93a59ee7",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/9ea0d3b03648bfd65eb6c1ac35bb633c93a59ee7"
+    },
+    {
+      "path": "skills/genres/visual-novel/references/script-and-flow.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43d9ee42c575db3948e8142d2340b310fd2fc9a9",
+      "size": 5576,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/43d9ee42c575db3948e8142d2340b310fd2fc9a9"
+    },
+    {
+      "path": "skills/godot",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e85f2025014e9dd6688337368498b30bc9b01988",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/e85f2025014e9dd6688337368498b30bc9b01988"
+    },
+    {
+      "path": "skills/godot/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d768100a0711dc69c536c41265c70b954a44f2b6",
+      "size": 442,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/d768100a0711dc69c536c41265c70b954a44f2b6"
+    },
+    {
+      "path": "skills/godot/godot-2d-movement",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f990478491af3c0c32cb49b59cdd01221bf8eeb6",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/f990478491af3c0c32cb49b59cdd01221bf8eeb6"
+    },
+    {
+      "path": "skills/godot/godot-2d-movement/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b761423cc38418e1a0bb18459a71d84a0f6a9ded",
+      "size": 7421,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/b761423cc38418e1a0bb18459a71d84a0f6a9ded"
+    },
+    {
+      "path": "skills/godot/godot-2d-movement/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "11c78e24ecd091dcc8236a292b3290a5ceaaf1db",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/11c78e24ecd091dcc8236a292b3290a5ceaaf1db"
+    },
+    {
+      "path": "skills/godot/godot-2d-movement/assets/test_character_controller.gd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be1b3f485291a8181903a449b5b46f879085ab4f",
+      "size": 4347,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/be1b3f485291a8181903a449b5b46f879085ab4f"
+    },
+    {
+      "path": "skills/godot/godot-2d-movement/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "529c30cd2542cf3d73a95acdc52b4bd3e4a2b9ab",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/529c30cd2542cf3d73a95acdc52b4bd3e4a2b9ab"
+    },
+    {
+      "path": "skills/godot/godot-2d-movement/references/controller-recipes.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec9d1572a02c942fb2fa133b7b51619e838ae6a4",
+      "size": 3147,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/ec9d1572a02c942fb2fa133b7b51619e838ae6a4"
+    },
+    {
+      "path": "skills/godot/godot-3d-essentials",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "826d06b71ff040a0b3f4601a161e6e75e2066515",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/826d06b71ff040a0b3f4601a161e6e75e2066515"
+    },
+    {
+      "path": "skills/godot/godot-3d-essentials/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "748f622869a5b2d73d4b01f571c989cf668e17ba",
+      "size": 7939,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/748f622869a5b2d73d4b01f571c989cf668e17ba"
+    },
+    {
+      "path": "skills/godot/godot-3d-essentials/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d7942935cbe63e8ce9680bc709e29e178e141ab9",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/d7942935cbe63e8ce9680bc709e29e178e141ab9"
+    },
+    {
+      "path": "skills/godot/godot-3d-essentials/assets/check_3d_scene.gd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a9612c435bea35c0ce76b6f51dbb99bfcd19652",
+      "size": 4625,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/1a9612c435bea35c0ce76b6f51dbb99bfcd19652"
+    },
+    {
+      "path": "skills/godot/godot-3d-essentials/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5fa5967cd4280439d3ea851644ba0d8ad1a985b1",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/5fa5967cd4280439d3ea851644ba0d8ad1a985b1"
+    },
+    {
+      "path": "skills/godot/godot-3d-essentials/references/scene-and-environment.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16331fe07b16abd10552f8716c443603775acc43",
+      "size": 4915,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/16331fe07b16abd10552f8716c443603775acc43"
+    },
+    {
+      "path": "skills/godot/godot-animation",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6294e11b6675607e3c75d1e888b1053e58502aaf",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/6294e11b6675607e3c75d1e888b1053e58502aaf"
+    },
+    {
+      "path": "skills/godot/godot-animation/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d4cac8a55c9b1b49b72d63b1c5647786e571f396",
+      "size": 7670,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/d4cac8a55c9b1b49b72d63b1c5647786e571f396"
+    },
+    {
+      "path": "skills/godot/godot-animation/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "057a42cfe68bf7a456d74a41416a28c5fc6d6ec6",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/057a42cfe68bf7a456d74a41416a28c5fc6d6ec6"
+    },
+    {
+      "path": "skills/godot/godot-animation/assets/test_animation_states.gd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "387f18849bfe08a5ceda20f06668de94ff0ec056",
+      "size": 2328,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/387f18849bfe08a5ceda20f06668de94ff0ec056"
+    },
+    {
+      "path": "skills/godot/godot-animation/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0b7841d1010a3faa6b79bdeb7460e75c2ff7bd54",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/0b7841d1010a3faa6b79bdeb7460e75c2ff7bd54"
+    },
+    {
+      "path": "skills/godot/godot-animation/references/animation-tree-and-tween.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab718a1c0c7b6b988243f2ca16bda8da6db900ae",
+      "size": 5122,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/ab718a1c0c7b6b988243f2ca16bda8da6db900ae"
+    },
+    {
+      "path": "skills/godot/godot-audio",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "72ca5d93d12b34bd21c9e67b51464857f841b8ad",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/72ca5d93d12b34bd21c9e67b51464857f841b8ad"
+    },
+    {
+      "path": "skills/godot/godot-audio/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53584911c56aefe741a657db9391e86722954ce1",
+      "size": 7227,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/53584911c56aefe741a657db9391e86722954ce1"
+    },
+    {
+      "path": "skills/godot/godot-audio/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "de356593e9730927170856426822283fbd7c29dc",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/de356593e9730927170856426822283fbd7c29dc"
+    },
+    {
+      "path": "skills/godot/godot-audio/assets/check_audio_buses.gd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ae37261433907093229845a63b8210eb34d306f",
+      "size": 1863,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/6ae37261433907093229845a63b8210eb34d306f"
+    },
+    {
+      "path": "skills/godot/godot-audio/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6eaf17d8fbf2f5c7a97bcf3d3f30e184d7713d7d",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/6eaf17d8fbf2f5c7a97bcf3d3f30e184d7713d7d"
+    },
+    {
+      "path": "skills/godot/godot-audio/references/buses-and-effects.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "459b33c0f3921f2810b3a0529d6606db56ba8227",
+      "size": 4121,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/459b33c0f3921f2810b3a0529d6606db56ba8227"
+    },
+    {
+      "path": "skills/godot/godot-csharp",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "69e15eb3a74fa9e4cc85495ccd771fb610b29506",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/69e15eb3a74fa9e4cc85495ccd771fb610b29506"
+    },
+    {
+      "path": "skills/godot/godot-csharp/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b672ea33c5a1a3458272a2e08cb23fcce311a803",
+      "size": 8517,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/b672ea33c5a1a3458272a2e08cb23fcce311a803"
+    },
+    {
+      "path": "skills/godot/godot-csharp/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7d4b3692ed363ff8b69ffc592f88e6246d58315c",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/7d4b3692ed363ff8b69ffc592f88e6246d58315c"
+    },
+    {
+      "path": "skills/godot/godot-csharp/references/csharp-setup-and-interop.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d1ec08e7a9cf897d1f23b9f83ec0c42f940fdce",
+      "size": 4495,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/6d1ec08e7a9cf897d1f23b9f83ec0c42f940fdce"
+    },
+    {
+      "path": "skills/godot/godot-export",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "de43db975cbef96734f50d69eeedbddaa6f3eb13",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/de43db975cbef96734f50d69eeedbddaa6f3eb13"
+    },
+    {
+      "path": "skills/godot/godot-export/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5bb58e1a37d0b780a9e1a408638232d4558e42da",
+      "size": 7066,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/5bb58e1a37d0b780a9e1a408638232d4558e42da"
+    },
+    {
+      "path": "skills/godot/godot-export/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5786f324b9bd71aff638b8ef2a68f5a42d461ce0",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/5786f324b9bd71aff638b8ef2a68f5a42d461ce0"
+    },
+    {
+      "path": "skills/godot/godot-export/references/presets-and-cli.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "684bfd2e85f0bb6135c1ce78e6e6d03c241d468a",
+      "size": 5176,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/684bfd2e85f0bb6135c1ce78e6e6d03c241d468a"
+    },
+    {
+      "path": "skills/godot/godot-gdscript-headless-testing",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "44dd2c492b798c13180e5180bc9afa88509471f5",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/44dd2c492b798c13180e5180bc9afa88509471f5"
+    },
+    {
+      "path": "skills/godot/godot-gdscript-headless-testing/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3811baa84c82717322cc9ba44fa2fb7b2ea74e5f",
+      "size": 7772,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/3811baa84c82717322cc9ba44fa2fb7b2ea74e5f"
+    },
+    {
+      "path": "skills/godot/godot-gdscript",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0e473ddc04d3c3a54abf219f0ce362f80c5fb37d",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/0e473ddc04d3c3a54abf219f0ce362f80c5fb37d"
+    },
+    {
+      "path": "skills/godot/godot-gdscript/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69513d17dcf1557f23c9e435c7b7107082e2ddda",
+      "size": 7338,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/69513d17dcf1557f23c9e435c7b7107082e2ddda"
+    },
+    {
+      "path": "skills/godot/godot-gdscript/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "426306c6c4c46547a98f23969967757e11b9192b",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/426306c6c4c46547a98f23969967757e11b9192b"
+    },
+    {
+      "path": "skills/godot/godot-gdscript/assets/check_scripts_compile.gd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9be262456573b40842805f5e98b1cc624027befd",
+      "size": 1609,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/9be262456573b40842805f5e98b1cc624027befd"
+    },
+    {
+      "path": "skills/godot/godot-gdscript/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0fa497f0b051d0aaebe86761d1b6ba7eb0994808",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/0fa497f0b051d0aaebe86761d1b6ba7eb0994808"
+    },
+    {
+      "path": "skills/godot/godot-gdscript/references/annotations-and-typing.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8c1c42a3040230f96084400635a5a35df8e3c1a",
+      "size": 4038,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/b8c1c42a3040230f96084400635a5a35df8e3c1a"
+    },
+    {
+      "path": "skills/godot/godot-multiplayer",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "832ab957ca2132cd5c39d31669613a3f912dd91a",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/832ab957ca2132cd5c39d31669613a3f912dd91a"
+    },
+    {
+      "path": "skills/godot/godot-multiplayer/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ab78fd67eb9c7ad04bb1ad8a6ce2093da3ba5fe",
+      "size": 10280,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/7ab78fd67eb9c7ad04bb1ad8a6ce2093da3ba5fe"
+    },
+    {
+      "path": "skills/godot/godot-multiplayer/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4de9567a37ba0bb0ea5e20dc10d53c076b445fa4",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/4de9567a37ba0bb0ea5e20dc10d53c076b445fa4"
+    },
+    {
+      "path": "skills/godot/godot-multiplayer/references/replication-and-rpc.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa0ccee0ac3ede87a979f6c0786f9c48f3ec5b8b",
+      "size": 6486,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/fa0ccee0ac3ede87a979f6c0786f9c48f3ec5b8b"
+    },
+    {
+      "path": "skills/godot/godot-nodes-scenes",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "857eb40365db43a993d8ec3cbde573dc68320985",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/857eb40365db43a993d8ec3cbde573dc68320985"
+    },
+    {
+      "path": "skills/godot/godot-nodes-scenes/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5334c8772a6d37610da7fc233268235d5a4bfd48",
+      "size": 8837,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/5334c8772a6d37610da7fc233268235d5a4bfd48"
+    },
+    {
+      "path": "skills/godot/godot-nodes-scenes/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0309922e171f5a98ae3db2187610344a33ee8816",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/0309922e171f5a98ae3db2187610344a33ee8816"
+    },
+    {
+      "path": "skills/godot/godot-nodes-scenes/references/tree-and-instancing.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d977dbe60fc5b52de35b82578c882091f665427",
+      "size": 3079,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/0d977dbe60fc5b52de35b82578c882091f665427"
+    },
+    {
+      "path": "skills/godot/godot-nodes-scenes/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "93b7c30c00fb9106774b0cca8ab0380dd847535e",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/93b7c30c00fb9106774b0cca8ab0380dd847535e"
+    },
+    {
+      "path": "skills/godot/godot-nodes-scenes/scripts/check_godot_project.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65513246e5c6dc4188cc2e873e2c67b1a7fb6454",
+      "size": 55388,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/65513246e5c6dc4188cc2e873e2c67b1a7fb6454"
+    },
+    {
+      "path": "skills/godot/godot-physics",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f60f5e56b513f4eac67a62c146deb498e08aa776",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/f60f5e56b513f4eac67a62c146deb498e08aa776"
+    },
+    {
+      "path": "skills/godot/godot-physics/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8a5d3a366e6f0a2bb6e41dee59f475216e5cf6f",
+      "size": 10487,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/e8a5d3a366e6f0a2bb6e41dee59f475216e5cf6f"
+    },
+    {
+      "path": "skills/godot/godot-physics/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9c0e95ebb2dd11e1966c82680049e4df7e95fcd3",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/9c0e95ebb2dd11e1966c82680049e4df7e95fcd3"
+    },
+    {
+      "path": "skills/godot/godot-physics/references/bodies-and-queries.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dda795efa4ef887747da9c1b9d470d85f69b1ba0",
+      "size": 4159,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/dda795efa4ef887747da9c1b9d470d85f69b1ba0"
+    },
+    {
+      "path": "skills/godot/godot-resources",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ab7604214e4c63e0375998c177fadcd5976018db",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/ab7604214e4c63e0375998c177fadcd5976018db"
+    },
+    {
+      "path": "skills/godot/godot-resources/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d69bcf24421aa1207fd9dc933dfb52fd07b3145b",
+      "size": 7682,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/d69bcf24421aa1207fd9dc933dfb52fd07b3145b"
+    },
+    {
+      "path": "skills/godot/godot-resources/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e23a7459fbeb5860b5199960690f6af5f5f2dba7",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/e23a7459fbeb5860b5199960690f6af5f5f2dba7"
+    },
+    {
+      "path": "skills/godot/godot-resources/references/resource-patterns.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1be788213465264ec89cb8d498aaba3718f45711",
+      "size": 3803,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/1be788213465264ec89cb8d498aaba3718f45711"
+    },
+    {
+      "path": "skills/godot/godot-shaders",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "70dbd11c39ac3ff89f8ec33ced3de2963799dc31",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/70dbd11c39ac3ff89f8ec33ced3de2963799dc31"
+    },
+    {
+      "path": "skills/godot/godot-shaders/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27c77e925e9e4bb13447daec60d2433f823bb50f",
+      "size": 9040,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/27c77e925e9e4bb13447daec60d2433f823bb50f"
+    },
+    {
+      "path": "skills/godot/godot-shaders/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e996fec795bd8bf6dcdbf73e1d18a236a9676ca8",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/e996fec795bd8bf6dcdbf73e1d18a236a9676ca8"
+    },
+    {
+      "path": "skills/godot/godot-shaders/references/shading-language.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2d8712f49debdcb59e4997058fd9e4da164e153",
+      "size": 4296,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/e2d8712f49debdcb59e4997058fd9e4da164e153"
+    },
+    {
+      "path": "skills/godot/godot-signals-groups",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b1c8e58a6cda32c2f6f1c984fad5d5efa6b390ed",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/b1c8e58a6cda32c2f6f1c984fad5d5efa6b390ed"
+    },
+    {
+      "path": "skills/godot/godot-signals-groups/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b94b0f4993748c74d57df0fe91d79d71c013704",
+      "size": 8022,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/7b94b0f4993748c74d57df0fe91d79d71c013704"
+    },
+    {
+      "path": "skills/godot/godot-signals-groups/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a2f744e85e14fe057ec26079dfb9e7d149d89179",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/a2f744e85e14fe057ec26079dfb9e7d149d89179"
+    },
+    {
+      "path": "skills/godot/godot-signals-groups/references/signal-patterns.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95f671795f14ce10fec0aab0c262d376aa351a7c",
+      "size": 4977,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/95f671795f14ce10fec0aab0c262d376aa351a7c"
+    },
+    {
+      "path": "skills/godot/godot-tilemap",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "50a6eeb6111b473cfd49c6e9d00a17a907843ab3",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/50a6eeb6111b473cfd49c6e9d00a17a907843ab3"
+    },
+    {
+      "path": "skills/godot/godot-tilemap/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78feb0c4b5ef267955f635712937bf3842131996",
+      "size": 9108,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/78feb0c4b5ef267955f635712937bf3842131996"
+    },
+    {
+      "path": "skills/godot/godot-tilemap/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2fce72fbe311ef15646a538c279be6d4255321e0",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/2fce72fbe311ef15646a538c279be6d4255321e0"
+    },
+    {
+      "path": "skills/godot/godot-tilemap/references/tileset-and-terrains.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "177f23cc811010b7077700ece51d39774552485a",
+      "size": 4094,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/177f23cc811010b7077700ece51d39774552485a"
+    },
+    {
+      "path": "skills/godot/godot-ui-control",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b386dc05d14e5150891f1dc91a2260ce92ee262c",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/b386dc05d14e5150891f1dc91a2260ce92ee262c"
+    },
+    {
+      "path": "skills/godot/godot-ui-control/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21fc20c4f42361b2f55b49593d8cb6a1a527435c",
+      "size": 9567,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/21fc20c4f42361b2f55b49593d8cb6a1a527435c"
+    },
+    {
+      "path": "skills/godot/godot-ui-control/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d8cda78a5296dd400b3450d2e7536f5fb399a926",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/d8cda78a5296dd400b3450d2e7536f5fb399a926"
+    },
+    {
+      "path": "skills/godot/godot-ui-control/references/layout-and-theming.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "03d21816482838b446a84cca5bc79dfc4a480660",
+      "size": 5244,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/03d21816482838b446a84cca5bc79dfc4a480660"
+    },
+    {
+      "path": "skills/other-engines",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e5fc5b13e1a8c6cf2b656f58f42eabc1d8c2e1d8",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/e5fc5b13e1a8c6cf2b656f58f42eabc1d8c2e1d8"
+    },
+    {
+      "path": "skills/other-engines/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "572cce6f5d415cda38ab49904d44a2b0cb1b3802",
+      "size": 489,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/572cce6f5d415cda38ab49904d44a2b0cb1b3802"
+    },
+    {
+      "path": "skills/other-engines/bevy-ecs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ecceef107ee6d264db2643125452ef0f9d3579b7",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/ecceef107ee6d264db2643125452ef0f9d3579b7"
+    },
+    {
+      "path": "skills/other-engines/bevy-ecs/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf712d7535f163e7fd5515ed91d88addb9d3fcc7",
+      "size": 9576,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/cf712d7535f163e7fd5515ed91d88addb9d3fcc7"
+    },
+    {
+      "path": "skills/other-engines/bevy-ecs/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4d6e4503269858a7290789b0458e6d965d1406bc",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/4d6e4503269858a7290789b0458e6d965d1406bc"
+    },
+    {
+      "path": "skills/other-engines/bevy-ecs/references/queries-and-scheduling.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "15f5f3e192c72dee26aac5bc23bb701d1ef1ff65",
+      "size": 12245,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/15f5f3e192c72dee26aac5bc23bb701d1ef1ff65"
+    },
+    {
+      "path": "skills/other-engines/defold-core",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b6dacf9b70f4216f947778a19fbee70dff432a4a",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/b6dacf9b70f4216f947778a19fbee70dff432a4a"
+    },
+    {
+      "path": "skills/other-engines/defold-core/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ccdb202fbca2afa42626a09dfafc35541412c4e0",
+      "size": 14831,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/ccdb202fbca2afa42626a09dfafc35541412c4e0"
+    },
+    {
+      "path": "skills/other-engines/defold-core/agents",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e4d1c541085a7e3df887862e56cf103baf06175e",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/e4d1c541085a7e3df887862e56cf103baf06175e"
+    },
+    {
+      "path": "skills/other-engines/defold-core/agents/openai.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef66d13aab4241cd2d515d5bd13178e4d728e42e",
+      "size": 229,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/ef66d13aab4241cd2d515d5bd13178e4d728e42e"
+    },
+    {
+      "path": "skills/other-engines/defold-core/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a4dd8762bce9fb5db904751c9bc339156911617a",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/a4dd8762bce9fb5db904751c9bc339156911617a"
+    },
+    {
+      "path": "skills/other-engines/defold-core/references/build-and-run.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed141aff1938b1efd526e337cf22ab07a40669a5",
+      "size": 7555,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/ed141aff1938b1efd526e337cf22ab07a40669a5"
+    },
+    {
+      "path": "skills/other-engines/defold-core/references/file-formats.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2077d0951ad032182cd41ed18dd8364274cfa2e",
+      "size": 7800,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/d2077d0951ad032182cd41ed18dd8364274cfa2e"
+    },
+    {
+      "path": "skills/other-engines/defold-core/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9f2ed3186d13987acc23928f1dae01ed293b786f",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/9f2ed3186d13987acc23928f1dae01ed293b786f"
+    },
+    {
+      "path": "skills/other-engines/defold-core/scripts/check_defold_project.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4fca3bc4665014041fcf6100b4f0228e990157a",
+      "size": 29664,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/a4fca3bc4665014041fcf6100b4f0228e990157a"
+    },
+    {
+      "path": "skills/other-engines/love2d-core",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "58ab0182f320181078f9747453e694b6765a6a0e",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/58ab0182f320181078f9747453e694b6765a6a0e"
+    },
+    {
+      "path": "skills/other-engines/love2d-core/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf61907e74dcd521f995882519616c5a9639ad5c",
+      "size": 9194,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/cf61907e74dcd521f995882519616c5a9639ad5c"
+    },
+    {
+      "path": "skills/other-engines/love2d-core/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "61ce25fc1aa0e01919b88f9a19d124fa6c70e1bb",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/61ce25fc1aa0e01919b88f9a19d124fa6c70e1bb"
+    },
+    {
+      "path": "skills/other-engines/love2d-core/references/state-stack.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "209888d07725a3bfb358a2f58486d40af858d1cc",
+      "size": 5022,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/209888d07725a3bfb358a2f58486d40af858d1cc"
+    },
+    {
+      "path": "skills/other-engines/pygame-core",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ab5b7307452f85cc0dbfba207bad1a478d197a48",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/ab5b7307452f85cc0dbfba207bad1a478d197a48"
+    },
+    {
+      "path": "skills/other-engines/pygame-core/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45df5517938b7cf598fc78d6bc928a08b83734e5",
+      "size": 8198,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/45df5517938b7cf598fc78d6bc928a08b83734e5"
+    },
+    {
+      "path": "skills/other-engines/pygame-core/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "18a9d33e6c4884b87465a0758315c516a769adf4",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/18a9d33e6c4884b87465a0758315c516a769adf4"
+    },
+    {
+      "path": "skills/other-engines/pygame-core/references/sprites-and-collision.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79d08f3b2c0263f635a42f3882286d36f07ded71",
+      "size": 4633,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/79d08f3b2c0263f635a42f3882286d36f07ded71"
+    },
+    {
+      "path": "skills/other-engines/roblox-characters",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e631dea5b1aab24117ebac310ede29ff23b205a7",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/e631dea5b1aab24117ebac310ede29ff23b205a7"
+    },
+    {
+      "path": "skills/other-engines/roblox-characters/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eea4df3fde26e9c2c58f5a8dbfb113baecaafac6",
+      "size": 9639,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/eea4df3fde26e9c2c58f5a8dbfb113baecaafac6"
+    },
+    {
+      "path": "skills/other-engines/roblox-characters/agents",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9101e36a1d92420bbc234af4ee2ff6d3168e1520",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/9101e36a1d92420bbc234af4ee2ff6d3168e1520"
+    },
+    {
+      "path": "skills/other-engines/roblox-characters/agents/openai.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9a4c600d46dcde32004f75120833bd1aba5aac2",
+      "size": 209,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/f9a4c600d46dcde32004f75120833bd1aba5aac2"
+    },
+    {
+      "path": "skills/other-engines/roblox-characters/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "49a186ae5dc61522c3b0226ea102e38e59fd56c2",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/49a186ae5dc61522c3b0226ea102e38e59fd56c2"
+    },
+    {
+      "path": "skills/other-engines/roblox-characters/references/lifecycle-and-animation.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0d5abda504c6c900f37027933f8b1cf9ee13d06",
+      "size": 2623,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/a0d5abda504c6c900f37027933f8b1cf9ee13d06"
+    },
+    {
+      "path": "skills/other-engines/roblox-datastores",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "acdeb58d028064d2461be5a52bd145573badeb8a",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/acdeb58d028064d2461be5a52bd145573badeb8a"
+    },
+    {
+      "path": "skills/other-engines/roblox-datastores/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de8468cdc1afae5a7722ef7f27e467c65643a1e2",
+      "size": 9626,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/de8468cdc1afae5a7722ef7f27e467c65643a1e2"
+    },
+    {
+      "path": "skills/other-engines/roblox-datastores/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7d577fcc0877a079edf0e29063d553e03d77d32d",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/7d577fcc0877a079edf0e29063d553e03d77d32d"
+    },
+    {
+      "path": "skills/other-engines/roblox-datastores/references/sessions-and-limits.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4aa504d722ededef52ed36926d3ab84a528e7570",
+      "size": 7835,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/4aa504d722ededef52ed36926d3ab84a528e7570"
+    },
+    {
+      "path": "skills/other-engines/roblox-luau",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "08e15d2fe0af465a535bbfa87a0cd733ac479f6e",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/08e15d2fe0af465a535bbfa87a0cd733ac479f6e"
+    },
+    {
+      "path": "skills/other-engines/roblox-luau/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d66081d525f04d1a773f6f2c16c18b508376071",
+      "size": 9566,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/6d66081d525f04d1a773f6f2c16c18b508376071"
+    },
+    {
+      "path": "skills/other-engines/roblox-luau/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ce3e6206c1e88ff299ec0416fdabf53b2f128369",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/ce3e6206c1e88ff299ec0416fdabf53b2f128369"
+    },
+    {
+      "path": "skills/other-engines/roblox-luau/references/client-server.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69b72e72a4617ff7284078b1f98970871a943820",
+      "size": 3962,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/69b72e72a4617ff7284078b1f98970871a943820"
+    },
+    {
+      "path": "skills/other-engines/roblox-networking",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f65310b5882f1b2b58d0dd81bcc5612cdc30db26",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/f65310b5882f1b2b58d0dd81bcc5612cdc30db26"
+    },
+    {
+      "path": "skills/other-engines/roblox-networking/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64442a909c4382f3e16ed26901d80cffc5c946f9",
+      "size": 14274,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/64442a909c4382f3e16ed26901d80cffc5c946f9"
+    },
+    {
+      "path": "skills/other-engines/roblox-networking/agents",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "889c744c087cae638489dd12448040157b9a9ad1",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/889c744c087cae638489dd12448040157b9a9ad1"
+    },
+    {
+      "path": "skills/other-engines/roblox-networking/agents/openai.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1030b49cfd0811e297a869acb19f86c268be9af",
+      "size": 206,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/b1030b49cfd0811e297a869acb19f86c268be9af"
+    },
+    {
+      "path": "skills/other-engines/roblox-networking/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3b777e358f10c3aad3a43b26b65f4a768b5e2de3",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/3b777e358f10c3aad3a43b26b65f4a768b5e2de3"
+    },
+    {
+      "path": "skills/other-engines/roblox-networking/references/validation-and-testing.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f846c089f31e1a94cb0a9b527ef33f65fb195e2",
+      "size": 4361,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/5f846c089f31e1a94cb0a9b527ef33f65fb195e2"
+    },
+    {
+      "path": "skills/other-engines/roblox-physics",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "90c237a0074320254b67965f1e9399fbb8d273ba",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/90c237a0074320254b67965f1e9399fbb8d273ba"
+    },
+    {
+      "path": "skills/other-engines/roblox-physics/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c639fd2a4c7c58d2f485c061f1bf27b084af9b31",
+      "size": 8759,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/c639fd2a4c7c58d2f485c061f1bf27b084af9b31"
+    },
+    {
+      "path": "skills/other-engines/roblox-physics/agents",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "92ab3472ee20220ba37a502b92654ce812c0b684",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/92ab3472ee20220ba37a502b92654ce812c0b684"
+    },
+    {
+      "path": "skills/other-engines/roblox-physics/agents/openai.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "085e34287623ff2b2eafc808f5b0dab39beabbd9",
+      "size": 199,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/085e34287623ff2b2eafc808f5b0dab39beabbd9"
+    },
+    {
+      "path": "skills/other-engines/roblox-physics/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e0ff948b218f00dc4e89826d0dbae93dd491b6a3",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/e0ff948b218f00dc4e89826d0dbae93dd491b6a3"
+    },
+    {
+      "path": "skills/other-engines/roblox-physics/references/queries-and-ownership.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c62a5e68995147ecd78fe2536733912ea8896b8",
+      "size": 3430,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/2c62a5e68995147ecd78fe2536733912ea8896b8"
+    },
+    {
+      "path": "skills/other-engines/roblox-simulator-economy",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9d22cbfe3062c9720a711432bdd97371067c0981",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/9d22cbfe3062c9720a711432bdd97371067c0981"
+    },
+    {
+      "path": "skills/other-engines/roblox-simulator-economy/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d916a12abcaa0adc0cd2101c9a009799b0038399",
+      "size": 12456,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/d916a12abcaa0adc0cd2101c9a009799b0038399"
+    },
+    {
+      "path": "skills/other-engines/roblox-simulator-economy/agents",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b67d6377439dca1e003a395933df25ea20980270",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/b67d6377439dca1e003a395933df25ea20980270"
+    },
+    {
+      "path": "skills/other-engines/roblox-simulator-economy/agents/openai.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64680c70e6a9b894471cd682c893d89bc297057a",
+      "size": 229,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/64680c70e6a9b894471cd682c893d89bc297057a"
+    },
+    {
+      "path": "skills/other-engines/roblox-simulator-economy/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cf292e3df90334a3b8426b2507a46f834596f6b0",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/cf292e3df90334a3b8426b2507a46f834596f6b0"
+    },
+    {
+      "path": "skills/other-engines/roblox-simulator-economy/references/formulas.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23b1451dafe42c07688285d108010701d62e202a",
+      "size": 4306,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/23b1451dafe42c07688285d108010701d62e202a"
+    },
+    {
+      "path": "skills/other-engines/roblox-simulator-economy/references/server-patterns.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12102406d2fc1087d82909f34b3ebec4f24b297b",
+      "size": 9361,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/12102406d2fc1087d82909f34b3ebec4f24b297b"
+    },
+    {
+      "path": "skills/other-engines/roblox-simulator-economy/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ffd2413dee7d7ea1ad218945264791cae846f61b",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/ffd2413dee7d7ea1ad218945264791cae846f61b"
+    },
+    {
+      "path": "skills/other-engines/roblox-simulator-economy/scripts/balance.luau",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6afebf48d1cca6933fb380796d1f212db6a0dc9d",
+      "size": 7249,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/6afebf48d1cca6933fb380796d1f212db6a0dc9d"
+    },
+    {
+      "path": "skills/other-engines/roblox-simulator-economy/scripts/economy_math.luau",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55b85a43933d16768714932770ab2aa1ba51a576",
+      "size": 7267,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/55b85a43933d16768714932770ab2aa1ba51a576"
+    },
+    {
+      "path": "skills/other-engines/roblox-simulator-economy/scripts/test_economy_math.luau",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36cf263e1e9437646ce3138b1e7e2e28a0c9295c",
+      "size": 8007,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/36cf263e1e9437646ce3138b1e7e2e28a0c9295c"
+    },
+    {
+      "path": "skills/other-engines/roblox-studio-workflow",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ba53c2a654fd016e06f28326d96a7497eed98137",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/ba53c2a654fd016e06f28326d96a7497eed98137"
+    },
+    {
+      "path": "skills/other-engines/roblox-studio-workflow/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9fbce7b51122e84cfff295cff0765ac42b0aefca",
+      "size": 9381,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/9fbce7b51122e84cfff295cff0765ac42b0aefca"
+    },
+    {
+      "path": "skills/other-engines/roblox-studio-workflow/agents",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "82f297c61e15682d131066a789e176ecf7ae8a4b",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/82f297c61e15682d131066a789e176ecf7ae8a4b"
+    },
+    {
+      "path": "skills/other-engines/roblox-studio-workflow/agents/openai.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7374ee6b681ef21d419de3b43a64fbd37fb541e2",
+      "size": 222,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/7374ee6b681ef21d419de3b43a64fbd37fb541e2"
+    },
+    {
+      "path": "skills/other-engines/roblox-studio-workflow/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "97a95740a6337dd39ab1e865c353ef9c7c8942c6",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/97a95740a6337dd39ab1e865c353ef9c7c8942c6"
+    },
+    {
+      "path": "skills/other-engines/roblox-studio-workflow/references/studio-mcp.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21adf9303c05a703d7ea89547ffac63fe5970193",
+      "size": 3968,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/21adf9303c05a703d7ea89547ffac63fe5970193"
+    },
+    {
+      "path": "skills/other-engines/roblox-studio-workflow/references/studio-verification.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94de97f11ffc405f31344229da6bd4eda4cdbf28",
+      "size": 4899,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/94de97f11ffc405f31344229da6bd4eda4cdbf28"
+    },
+    {
+      "path": "skills/other-engines/roblox-ui",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a7c9126b462049ff724ba246c01c78ababc4558d",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/a7c9126b462049ff724ba246c01c78ababc4558d"
+    },
+    {
+      "path": "skills/other-engines/roblox-ui/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5550647be5817cae51ec5f9e3546bc0faab54bda",
+      "size": 12934,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/5550647be5817cae51ec5f9e3546bc0faab54bda"
+    },
+    {
+      "path": "skills/other-engines/roblox-ui/agents",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "627d2325a6c14c7e3e71d455177e1d20f1518f92",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/627d2325a6c14c7e3e71d455177e1d20f1518f92"
+    },
+    {
+      "path": "skills/other-engines/roblox-ui/agents/openai.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1e0a90175a029f72812687bf729f74e44ef9586",
+      "size": 190,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/c1e0a90175a029f72812687bf729f74e44ef9586"
+    },
+    {
+      "path": "skills/other-engines/roblox-ui/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6962594764fa389c6cb075e85229f5b212c5401a",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/6962594764fa389c6cb075e85229f5b212c5401a"
+    },
+    {
+      "path": "skills/other-engines/roblox-ui/assets/inventory-quality-test.model.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fca108280ee5d330184466fe70b46e898c229232",
+      "size": 12115,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/fca108280ee5d330184466fe70b46e898c229232"
+    },
+    {
+      "path": "skills/other-engines/roblox-ui/assets/inventory-quality-test.project.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36873e8019c6ede4ab97b487c79dc3af06fde97f",
+      "size": 229,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/36873e8019c6ede4ab97b487c79dc3af06fde97f"
+    },
+    {
+      "path": "skills/other-engines/roblox-ui/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e3dab8eba441c4afdc8b0e8ee14feaf46e11eb71",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/e3dab8eba441c4afdc8b0e8ee14feaf46e11eb71"
+    },
+    {
+      "path": "skills/other-engines/roblox-ui/references/input-navigation.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d44f9a208f6c67cf214b122dbb73b3c6e7b31261",
+      "size": 4946,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/d44f9a208f6c67cf214b122dbb73b3c6e7b31261"
+    },
+    {
+      "path": "skills/other-engines/roblox-ui/references/responsive-layout.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d7f16d32140f1a72229c7d6b00419fbaee5e5a46",
+      "size": 7135,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/d7f16d32140f1a72229c7d6b00419fbaee5e5a46"
+    },
+    {
+      "path": "skills/unity",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "803ba487625fcb2554f114721befe568ffd2e6b4",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/803ba487625fcb2554f114721befe568ffd2e6b4"
+    },
+    {
+      "path": "skills/unity/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d86fd88c2e37c174e5fff58fc6bf111ba516129e",
+      "size": 446,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/d86fd88c2e37c174e5fff58fc6bf111ba516129e"
+    },
+    {
+      "path": "skills/unity/unity-animation",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "889f39844a68f5781fd22f8ef8ed422ae9d4064b",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/889f39844a68f5781fd22f8ef8ed422ae9d4064b"
+    },
+    {
+      "path": "skills/unity/unity-animation/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de8908fbd2d774f56a2b59cdbc4c3132b38a56e3",
+      "size": 9150,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/de8908fbd2d774f56a2b59cdbc4c3132b38a56e3"
+    },
+    {
+      "path": "skills/unity/unity-animation/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e5d8c0ed2e0860a727d41f422b7a7559532ec8e5",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/e5d8c0ed2e0860a727d41f422b7a7559532ec8e5"
+    },
+    {
+      "path": "skills/unity/unity-animation/references/blend-trees-and-ik.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85ea2a33d3b174499bc71c244940f737d3558b96",
+      "size": 3448,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/85ea2a33d3b174499bc71c244940f737d3558b96"
+    },
+    {
+      "path": "skills/unity/unity-build-pipeline",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "52165258a111c495add9bb3c1943694cd04d1305",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/52165258a111c495add9bb3c1943694cd04d1305"
+    },
+    {
+      "path": "skills/unity/unity-build-pipeline/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "849459a731b67857b43ab64f97a884784c5b454b",
+      "size": 8366,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/849459a731b67857b43ab64f97a884784c5b454b"
+    },
+    {
+      "path": "skills/unity/unity-build-pipeline/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b85a629e86ba913ff6ad766f2ab2910114ed1882",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/b85a629e86ba913ff6ad766f2ab2910114ed1882"
+    },
+    {
+      "path": "skills/unity/unity-build-pipeline/references/ci-build-script.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e3f73408c4047df8d6ca8cf343975c170ae3db5",
+      "size": 7045,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/8e3f73408c4047df8d6ca8cf343975c170ae3db5"
+    },
+    {
+      "path": "skills/unity/unity-build-size",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "14be586c6a5d30edaa5a730d922ee3fd627fdc72",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/14be586c6a5d30edaa5a730d922ee3fd627fdc72"
+    },
+    {
+      "path": "skills/unity/unity-build-size/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9686995861ca2beef49c74ad70fcd5bb24893f17",
+      "size": 12581,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/9686995861ca2beef49c74ad70fcd5bb24893f17"
+    },
+    {
+      "path": "skills/unity/unity-build-size/agents",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "46947a34a9403609a1977815d56a75614aa8d362",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/46947a34a9403609a1977815d56a75614aa8d362"
+    },
+    {
+      "path": "skills/unity/unity-build-size/agents/openai.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5613335778189664747feb6ecb4f1a291f163f16",
+      "size": 229,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/5613335778189664747feb6ecb4f1a291f163f16"
+    },
+    {
+      "path": "skills/unity/unity-build-size/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0d959b577b93c3057d55394b0da894c9deb02801",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/0d959b577b93c3057d55394b0da894c9deb02801"
+    },
+    {
+      "path": "skills/unity/unity-build-size/references/gltf-textures.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8de2e201cf657d7f24f674bcb9a3eb50564b304",
+      "size": 6223,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/a8de2e201cf657d7f24f674bcb9a3eb50564b304"
+    },
+    {
+      "path": "skills/unity/unity-build-size/references/platform-android.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e81afa756b8936d22b1afe0844a4ef35bfcbe18",
+      "size": 4753,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/1e81afa756b8936d22b1afe0844a4ef35bfcbe18"
+    },
+    {
+      "path": "skills/unity/unity-build-size/references/platform-desktop-steam.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e99e9d0293e0073befc1da2aa922493f152617a",
+      "size": 4782,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/2e99e9d0293e0073befc1da2aa922493f152617a"
+    },
+    {
+      "path": "skills/unity/unity-build-size/references/platform-ios.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "381d02f5f2283a85a9b29121bceea057923709db",
+      "size": 3126,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/381d02f5f2283a85a9b29121bceea057923709db"
+    },
+    {
+      "path": "skills/unity/unity-build-size/references/platform-web.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dbf65ee8e4ee6f485908e3047572821019e99d7e",
+      "size": 4792,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/dbf65ee8e4ee6f485908e3047572821019e99d7e"
+    },
+    {
+      "path": "skills/unity/unity-build-size/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c4c833e002c0890ebf4f16b71dba0e9a37755940",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/c4c833e002c0890ebf4f16b71dba0e9a37755940"
+    },
+    {
+      "path": "skills/unity/unity-build-size/scripts/build_report.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28c388563b6ec00bb1dec9f14d891160cd505b21",
+      "size": 8874,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/28c388563b6ec00bb1dec9f14d891160cd505b21"
+    },
+    {
+      "path": "skills/unity/unity-build-size/scripts/check_unity_build_size.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "556a709dd65faac0a1b375b6db88a830e6e1b4f3",
+      "size": 34653,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/556a709dd65faac0a1b375b6db88a830e6e1b4f3"
+    },
+    {
+      "path": "skills/unity/unity-csharp-scripting",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1bfa2bac7506f2ba9286761ab064836dfba954b7",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/1bfa2bac7506f2ba9286761ab064836dfba954b7"
+    },
+    {
+      "path": "skills/unity/unity-csharp-scripting/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4de9388a4bc35344ff762680445b5176a899a57c",
+      "size": 8352,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/4de9388a4bc35344ff762680445b5176a899a57c"
+    },
+    {
+      "path": "skills/unity/unity-csharp-scripting/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "929a2f3f5dbc73e24e4dc8807f663c6b760b1651",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/929a2f3f5dbc73e24e4dc8807f663c6b760b1651"
+    },
+    {
+      "path": "skills/unity/unity-csharp-scripting/references/agent-checks.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75e8c30c38dca1f96df3849bbeeaf52e809b0895",
+      "size": 6298,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/75e8c30c38dca1f96df3849bbeeaf52e809b0895"
+    },
+    {
+      "path": "skills/unity/unity-csharp-scripting/references/lifecycle-and-coroutines.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d0ba44019b5b113160fb3eccec3b4f648617673",
+      "size": 5544,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/4d0ba44019b5b113160fb3eccec3b4f648617673"
+    },
+    {
+      "path": "skills/unity/unity-csharp-scripting/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4e166b669a42518f3b40b6a2777410f9537e14b0",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/4e166b669a42518f3b40b6a2777410f9537e14b0"
+    },
+    {
+      "path": "skills/unity/unity-csharp-scripting/scripts/check_unity_project.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "15d1d3b87e1a00a6624643c7e9ba647b79e369b9",
+      "size": 36727,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/15d1d3b87e1a00a6624643c7e9ba647b79e369b9"
+    },
+    {
+      "path": "skills/unity/unity-input-system",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fbe01f4df7a489fb6c1c4411de50a9e914b09759",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/fbe01f4df7a489fb6c1c4411de50a9e914b09759"
+    },
+    {
+      "path": "skills/unity/unity-input-system/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5eb7c18cb713908427475c2537b96845439a1ba4",
+      "size": 8898,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/5eb7c18cb713908427475c2537b96845439a1ba4"
+    },
+    {
+      "path": "skills/unity/unity-input-system/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "39468a2c2631273dad7be1acaf8ffb57413b3fa6",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/39468a2c2631273dad7be1acaf8ffb57413b3fa6"
+    },
+    {
+      "path": "skills/unity/unity-input-system/references/rebinding.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c948ed69de0e01e7ad02d8376056b5ab82bbfedf",
+      "size": 3571,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/c948ed69de0e01e7ad02d8376056b5ab82bbfedf"
+    },
+    {
+      "path": "skills/unity/unity-navmesh",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "09130246196949d12fc2a60d29732bcff6e56594",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/09130246196949d12fc2a60d29732bcff6e56594"
+    },
+    {
+      "path": "skills/unity/unity-navmesh/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eed085c42c362931ebdab46685388f599ef73991",
+      "size": 9803,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/eed085c42c362931ebdab46685388f599ef73991"
+    },
+    {
+      "path": "skills/unity/unity-physics",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "35bf8ab64a1f9edd3eacb7c3aebffb772be85e7a",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/35bf8ab64a1f9edd3eacb7c3aebffb772be85e7a"
+    },
+    {
+      "path": "skills/unity/unity-physics/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37901dbadcb69ea6075412544a821bc761f4b263",
+      "size": 12846,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/37901dbadcb69ea6075412544a821bc761f4b263"
+    },
+    {
+      "path": "skills/unity/unity-physics/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "307541bc26ed14c0a57ab65af056bd6cf002bc3a",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/307541bc26ed14c0a57ab65af056bd6cf002bc3a"
+    },
+    {
+      "path": "skills/unity/unity-physics/references/physics-2d.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75839d79a21261156e64213d691c3f78149bdaec",
+      "size": 4985,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/75839d79a21261156e64213d691c3f78149bdaec"
+    },
+    {
+      "path": "skills/unity/unity-physics/references/raycasting-and-joints.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c59d957bb55b1dca313ee979a2f162678b7790ad",
+      "size": 3494,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/c59d957bb55b1dca313ee979a2f162678b7790ad"
+    },
+    {
+      "path": "skills/unity/unity-scriptableobjects",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6b44bd7a13566730df6308c8218a94de3a5f0112",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/6b44bd7a13566730df6308c8218a94de3a5f0112"
+    },
+    {
+      "path": "skills/unity/unity-scriptableobjects/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ac38fb762b759d26631ba96a182e1246360963d",
+      "size": 7982,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/8ac38fb762b759d26631ba96a182e1246360963d"
+    },
+    {
+      "path": "skills/unity/unity-scriptableobjects/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6b1b6ccb0089e918a70b0eb0840c5d08b5f0df62",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/6b1b6ccb0089e918a70b0eb0840c5d08b5f0df62"
+    },
+    {
+      "path": "skills/unity/unity-scriptableobjects/references/event-channels.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9fcc150aac4351fa39c80c5dd0c864b8f6ab0c8c",
+      "size": 4055,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/9fcc150aac4351fa39c80c5dd0c864b8f6ab0c8c"
+    },
+    {
+      "path": "skills/unity/unity-tilemap-2d",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8874d7061cbeed6bebdc3a888acff05c1637ad08",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/8874d7061cbeed6bebdc3a888acff05c1637ad08"
+    },
+    {
+      "path": "skills/unity/unity-tilemap-2d/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b50dc0453b7aaf70c3696d7c997d50f7fdb7b88c",
+      "size": 9085,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/b50dc0453b7aaf70c3696d7c997d50f7fdb7b88c"
+    },
+    {
+      "path": "skills/unreal",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "205f957dce20c99e042e4888c6ab8cc51a1fdafb",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/205f957dce20c99e042e4888c6ab8cc51a1fdafb"
+    },
+    {
+      "path": "skills/unreal/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e89a33129aee164e23605ab2f0cc6b34fb8fb8a3",
+      "size": 456,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/e89a33129aee164e23605ab2f0cc6b34fb8fb8a3"
+    },
+    {
+      "path": "skills/unreal/unreal-behavior-trees",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ddeebfb04fb4d41baa37c1537e918732607ebc62",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/ddeebfb04fb4d41baa37c1537e918732607ebc62"
+    },
+    {
+      "path": "skills/unreal/unreal-behavior-trees/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eeb13a5c8f9e159f2bcc9c82c4be6d75cf785b1b",
+      "size": 10406,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/eeb13a5c8f9e159f2bcc9c82c4be6d75cf785b1b"
+    },
+    {
+      "path": "skills/unreal/unreal-behavior-trees/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "249a759e35a6aa412083a07e0e58cfe3ffdda632",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/249a759e35a6aa412083a07e0e58cfe3ffdda632"
+    },
+    {
+      "path": "skills/unreal/unreal-behavior-trees/references/custom-bttask.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "515b0c0351c1e7804a3596b2236a5c7fab59ffb2",
+      "size": 6761,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/515b0c0351c1e7804a3596b2236a5c7fab59ffb2"
+    },
+    {
+      "path": "skills/unreal/unreal-blueprints",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d241e5c314e7c896a4e591e48ff3dd0a93ae31e7",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/d241e5c314e7c896a4e591e48ff3dd0a93ae31e7"
+    },
+    {
+      "path": "skills/unreal/unreal-blueprints/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dcd32764715f51d7d5daae4dd2bb08125095df14",
+      "size": 7436,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/dcd32764715f51d7d5daae4dd2bb08125095df14"
+    },
+    {
+      "path": "skills/unreal/unreal-blueprints/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f52f6e803f07062d9050dfa566a47bb4602f3111",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/f52f6e803f07062d9050dfa566a47bb4602f3111"
+    },
+    {
+      "path": "skills/unreal/unreal-blueprints/references/communication.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a32ee047733c21b1de6762477f239282f182a36",
+      "size": 3975,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/6a32ee047733c21b1de6762477f239282f182a36"
+    },
+    {
+      "path": "skills/unreal/unreal-cpp-gameplay",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b3f3e0cf15bed0fc7fa6f053068f948eef0b382b",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/b3f3e0cf15bed0fc7fa6f053068f948eef0b382b"
+    },
+    {
+      "path": "skills/unreal/unreal-cpp-gameplay/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93f7c458df54e14180c28c60e0ff87f1971d8abc",
+      "size": 9146,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/93f7c458df54e14180c28c60e0ff87f1971d8abc"
+    },
+    {
+      "path": "skills/unreal/unreal-cpp-gameplay/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8cf1d24a58f8106d4e9955a9155ab05a5f5f3c48",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/8cf1d24a58f8106d4e9955a9155ab05a5f5f3c48"
+    },
+    {
+      "path": "skills/unreal/unreal-cpp-gameplay/references/components-and-gc.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4aa8f911c7695dbe85091c5f6d0be7d5516fa5b5",
+      "size": 4699,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/4aa8f911c7695dbe85091c5f6d0be7d5516fa5b5"
+    },
+    {
+      "path": "skills/unreal/unreal-enhanced-input",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c45a5481db25122dea5f97d1bfe46e7064a087db",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/c45a5481db25122dea5f97d1bfe46e7064a087db"
+    },
+    {
+      "path": "skills/unreal/unreal-enhanced-input/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b7735397ff8b06895da9cb404751cc6b5839edb",
+      "size": 8203,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/0b7735397ff8b06895da9cb404751cc6b5839edb"
+    },
+    {
+      "path": "skills/unreal/unreal-enhanced-input/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "00a976046852d9090b85f5af3dfea81cdcd0e524",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/00a976046852d9090b85f5af3dfea81cdcd0e524"
+    },
+    {
+      "path": "skills/unreal/unreal-enhanced-input/references/cpp-setup.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54965b1c9203cef3ee92580b26e75357721618d7",
+      "size": 5118,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/54965b1c9203cef3ee92580b26e75357721618d7"
+    },
+    {
+      "path": "skills/unreal/unreal-niagara",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b46ebf78fb03d8f6600f09f29653066eacc14584",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/b46ebf78fb03d8f6600f09f29653066eacc14584"
+    },
+    {
+      "path": "skills/unreal/unreal-niagara/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78a50c6add05d5e35e3999e40f449e4d9a706a71",
+      "size": 8362,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/78a50c6add05d5e35e3999e40f449e4d9a706a71"
+    },
+    {
+      "path": "skills/unreal/unreal-packaging",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b17dfd2f65ef61b4448a5d44187d27cfe295f071",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/b17dfd2f65ef61b4448a5d44187d27cfe295f071"
+    },
+    {
+      "path": "skills/unreal/unreal-packaging/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4d8ad9d2fa7c04532d247f39ea86fed402250a7",
+      "size": 7928,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/f4d8ad9d2fa7c04532d247f39ea86fed402250a7"
+    },
+    {
+      "path": "skills/web-engines",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fe6f3e9dbad90dc18303d945c69f0032714d1f90",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/fe6f3e9dbad90dc18303d945c69f0032714d1f90"
+    },
+    {
+      "path": "skills/web-engines/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2e1baf3717fa778a5f0e4d36aee86a38f909c5d",
+      "size": 416,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/b2e1baf3717fa778a5f0e4d36aee86a38f909c5d"
+    },
+    {
+      "path": "skills/web-engines/phaser-arcade-physics",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "daafb24f0817d5c948b7a6ad7fa9abe805dfdf71",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/daafb24f0817d5c948b7a6ad7fa9abe805dfdf71"
+    },
+    {
+      "path": "skills/web-engines/phaser-arcade-physics/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b829f66c62669955d5be42cda9df1cdcd9ade241",
+      "size": 9086,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/b829f66c62669955d5be42cda9df1cdcd9ade241"
+    },
+    {
+      "path": "skills/web-engines/phaser-arcade-physics/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "80cde3b14f265908b9561fca359d7b1340b72e2c",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/80cde3b14f265908b9561fca359d7b1340b72e2c"
+    },
+    {
+      "path": "skills/web-engines/phaser-arcade-physics/references/bodies-and-collision.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0cdd32c0e1b1c85d8eb5dfc580d65ead7ce7ea49",
+      "size": 6632,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/0cdd32c0e1b1c85d8eb5dfc580d65ead7ce7ea49"
+    },
+    {
+      "path": "skills/web-engines/phaser-core",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6a6ee5f81dc5348d181d724064ae45886d63c0e2",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/6a6ee5f81dc5348d181d724064ae45886d63c0e2"
+    },
+    {
+      "path": "skills/web-engines/phaser-core/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd0911dcb09b10cb60221f157ad4c84e369a73d8",
+      "size": 11823,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/cd0911dcb09b10cb60221f157ad4c84e369a73d8"
+    },
+    {
+      "path": "skills/web-engines/phaser-core/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6fd5e33b60b60679422723b92887bc56211d1db9",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/6fd5e33b60b60679422723b92887bc56211d1db9"
+    },
+    {
+      "path": "skills/web-engines/phaser-core/references/scene-flow.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04261e387b30456d1857a51903c8a09faa79f2ea",
+      "size": 7567,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/04261e387b30456d1857a51903c8a09faa79f2ea"
+    },
+    {
+      "path": "skills/web-engines/pixijs-rendering",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "796cf70f00225ea58a6e1eadde3bff57e981e4b7",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/796cf70f00225ea58a6e1eadde3bff57e981e4b7"
+    },
+    {
+      "path": "skills/web-engines/pixijs-rendering/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fcb82338d12d5a29d4eb00d20d4234b77d0d0395",
+      "size": 10810,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/fcb82338d12d5a29d4eb00d20d4234b77d0d0395"
+    },
+    {
+      "path": "skills/web-engines/pixijs-rendering/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a63eb154fed919fad0e7b89385a496a6b1cca483",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/a63eb154fed919fad0e7b89385a496a6b1cca483"
+    },
+    {
+      "path": "skills/web-engines/pixijs-rendering/references/assets-and-display.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08e75bc754cc64f66ccbe0ba250724475aadbba4",
+      "size": 6422,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/08e75bc754cc64f66ccbe0ba250724475aadbba4"
+    },
+    {
+      "path": "skills/web-engines/threejs-gltf-loading",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9e1c4b5a8c6003dfcd68d85fa899b228f9e0074b",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/9e1c4b5a8c6003dfcd68d85fa899b228f9e0074b"
+    },
+    {
+      "path": "skills/web-engines/threejs-gltf-loading/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "341eead6e7f28d7a5746b79787de5fd64a3f7967",
+      "size": 10010,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/341eead6e7f28d7a5746b79787de5fd64a3f7967"
+    },
+    {
+      "path": "skills/web-engines/threejs-gltf-loading/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "02430309ea52c1eab9aafa09c5b7c00df37801db",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/02430309ea52c1eab9aafa09c5b7c00df37801db"
+    },
+    {
+      "path": "skills/web-engines/threejs-gltf-loading/references/loaders-and-animation.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0cdf40dd1ad70479cf9e4caa2c6a16dcc6a01f72",
+      "size": 4882,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/0cdf40dd1ad70479cf9e4caa2c6a16dcc6a01f72"
+    },
+    {
+      "path": "skills/web-engines/threejs-materials-lighting",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9cc53d4f39c1086c10debcb578aec5d85b33c290",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/9cc53d4f39c1086c10debcb578aec5d85b33c290"
+    },
+    {
+      "path": "skills/web-engines/threejs-materials-lighting/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eed4ebb4d406587d0f18cbbeb9f196bfe5f7f9a2",
+      "size": 9258,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/eed4ebb4d406587d0f18cbbeb9f196bfe5f7f9a2"
+    },
+    {
+      "path": "skills/web-engines/threejs-materials-lighting/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f1dc9cf033b6c8be5b7c70b24f747b881fb02cab",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/f1dc9cf033b6c8be5b7c70b24f747b881fb02cab"
+    },
+    {
+      "path": "skills/web-engines/threejs-materials-lighting/references/materials-lights-table.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d0345476d4f49d4b482a355543027c8502e8f33",
+      "size": 6455,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/0d0345476d4f49d4b482a355543027c8502e8f33"
+    },
+    {
+      "path": "skills/web-engines/threejs-scene-setup",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a144ecc84a74fe7e2b50a3cd950e015b6113de4f",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/a144ecc84a74fe7e2b50a3cd950e015b6113de4f"
+    },
+    {
+      "path": "skills/web-engines/threejs-scene-setup/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8b42dfae3f4bd840ce9abaed3a7149340068bc3",
+      "size": 11469,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/c8b42dfae3f4bd840ce9abaed3a7149340068bc3"
+    },
+    {
+      "path": "skills/web-engines/threejs-scene-setup/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e02da39ebf40efa249f839d11dfe12b990dca776",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/e02da39ebf40efa249f839d11dfe12b990dca776"
+    },
+    {
+      "path": "skills/web-engines/threejs-scene-setup/references/scene-graph.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d0a4736c6b8bb52168f8185da1bb5bace3e83c0",
+      "size": 5917,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/9d0a4736c6b8bb52168f8185da1bb5bace3e83c0"
+    },
+    {
+      "path": "skills/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f754fe6bd8a52064164855e228fd3be20a8054ff",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/f754fe6bd8a52064164855e228fd3be20a8054ff"
+    },
+    {
+      "path": "skills/workflows/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef67c5ccdc721b5c3187ef442f2d82b995dc81bf",
+      "size": 508,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/ef67c5ccdc721b5c3187ef442f2d82b995dc81bf"
+    },
+    {
+      "path": "skills/workflows/game-docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5165ba8cc8d5c44814f2667d9cad699a3b8dfbab",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/5165ba8cc8d5c44814f2667d9cad699a3b8dfbab"
+    },
+    {
+      "path": "skills/workflows/game-docs/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "849f6e2fa5bbe10409b5a97fc06b71caa4f1ab9c",
+      "size": 9386,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/849f6e2fa5bbe10409b5a97fc06b71caa4f1ab9c"
+    },
+    {
+      "path": "skills/workflows/game-docs/agents",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "677e9b3794944ee6d5d38f1f370d8aac57bff375",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/677e9b3794944ee6d5d38f1f370d8aac57bff375"
+    },
+    {
+      "path": "skills/workflows/game-docs/agents/openai.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a641d55e3b513d47fa28c61bfde0c12d5300277f",
+      "size": 228,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/a641d55e3b513d47fa28c61bfde0c12d5300277f"
+    },
+    {
+      "path": "skills/workflows/game-docs/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bc7a74c2f4bd1b80165ab8e641d3c5e41ea73e88",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/bc7a74c2f4bd1b80165ab8e641d3c5e41ea73e88"
+    },
+    {
+      "path": "skills/workflows/game-docs/references/architecture-template.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f9fc8efb9bdb1dc1a2196f8fc72f429cb7f7e77",
+      "size": 2601,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/6f9fc8efb9bdb1dc1a2196f8fc72f429cb7f7e77"
+    },
+    {
+      "path": "skills/workflows/game-docs/references/doc-rules.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ceccd244b1417bb7724e05e5ad70c9a4b3bc6586",
+      "size": 4566,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/ceccd244b1417bb7724e05e5ad70c9a4b3bc6586"
+    },
+    {
+      "path": "skills/workflows/game-docs/references/feature-templates.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8006e9d28efb4fdfc8d1a96dae2a7eb2bb9ae6c0",
+      "size": 4253,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/8006e9d28efb4fdfc8d1a96dae2a7eb2bb9ae6c0"
+    },
+    {
+      "path": "skills/workflows/game-docs/references/gdd-template.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c34bf67e38cce562baef493cac693226ece8f80f",
+      "size": 3712,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/c34bf67e38cce562baef493cac693226ece8f80f"
+    },
+    {
+      "path": "skills/workflows/game-docs/references/workflow-modes.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0840a6bc6ca68eaf9e98ce5dc34cf0dfab180a42",
+      "size": 8607,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/0840a6bc6ca68eaf9e98ce5dc34cf0dfab180a42"
+    },
+    {
+      "path": "skills/workflows/game-docs/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b3e7d5735f2510ab19d800866324a99e05388923",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/b3e7d5735f2510ab19d800866324a99e05388923"
+    },
+    {
+      "path": "skills/workflows/game-docs/scripts/check_docs.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a39b70b4e409ffc593b9dcafe548b8a18103714c",
+      "size": 29851,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/a39b70b4e409ffc593b9dcafe548b8a18103714c"
+    },
+    {
+      "path": "skills/workflows/game-jam",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "48480f5f58cde7f304ae9759e0ae80e7e0d24db5",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/48480f5f58cde7f304ae9759e0ae80e7e0d24db5"
+    },
+    {
+      "path": "skills/workflows/game-jam/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60c875d3ea423d9770d266c445dc28c1728123e0",
+      "size": 9717,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/60c875d3ea423d9770d266c445dc28c1728123e0"
+    },
+    {
+      "path": "skills/workflows/itch-publish",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "206dd3216bc18138af15a17e44e0b6f1e2060394",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/206dd3216bc18138af15a17e44e0b6f1e2060394"
+    },
+    {
+      "path": "skills/workflows/itch-publish/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a674d53dabcf026241fa2a5fd44d2438d00cc74",
+      "size": 9434,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/3a674d53dabcf026241fa2a5fd44d2438d00cc74"
+    },
+    {
+      "path": "skills/workflows/itch-publish/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "644281d73cb626cfb317b7d66e2fdc318000e0c9",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/644281d73cb626cfb317b7d66e2fdc318000e0c9"
+    },
+    {
+      "path": "skills/workflows/itch-publish/references/butler-ci.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f8d574eab4084708505f4ac798e649a41398a6f",
+      "size": 7299,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/4f8d574eab4084708505f4ac798e649a41398a6f"
+    },
+    {
+      "path": "skills/workflows/prototype-fast",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f4d220cc0e0a2170187f8c74b9f246c2ed6448ec",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/f4d220cc0e0a2170187f8c74b9f246c2ed6448ec"
+    },
+    {
+      "path": "skills/workflows/prototype-fast/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b552d85b0975a66f626a76ae3581480f5e57ed14",
+      "size": 5978,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/b552d85b0975a66f626a76ae3581480f5e57ed14"
+    },
+    {
+      "path": "skills/workflows/steam-publish",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "97c40124fca3e15a66bc33506a58eae1026c6596",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/97c40124fca3e15a66bc33506a58eae1026c6596"
+    },
+    {
+      "path": "skills/workflows/steam-publish/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97cdc8e8676b57a0b14180c6730f08f714bd5a51",
+      "size": 14746,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/97cdc8e8676b57a0b14180c6730f08f714bd5a51"
+    },
+    {
+      "path": "skills/workflows/steam-publish/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4e0558b616b67d59bf18400aae60cddca1be8909",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/4e0558b616b67d59bf18400aae60cddca1be8909"
+    },
+    {
+      "path": "skills/workflows/steam-publish/references/steampipe-build-scripts.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d12fc59ae9e88317070312d3026deb24b78f14d",
+      "size": 11359,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/0d12fc59ae9e88317070312d3026deb24b78f14d"
+    },
+    {
+      "path": "skills/workflows/steam-publish/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8434f5f30af108bb9000ab8344fbd99baef6c1cc",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/8434f5f30af108bb9000ab8344fbd99baef6c1cc"
+    },
+    {
+      "path": "skills/workflows/steam-publish/scripts/check_steam_build.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0138e3977e27a172c7d24528a6104ea80c6fac80",
+      "size": 45851,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/0138e3977e27a172c7d24528a6104ea80c6fac80"
+    },
+    {
+      "path": "templates",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "55166991a571f07f2c38fe837b89678b81c81c46",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/55166991a571f07f2c38fe837b89678b81c81c46"
+    },
+    {
+      "path": "templates/SKILL.template.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c257ab5732c0aeeb870aaf9319ea9bdc74fbfaa8",
+      "size": 2040,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/c257ab5732c0aeeb870aaf9319ea9bdc74fbfaa8"
+    },
+    {
+      "path": "tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "64af5efdf1e44bf3cc83758e5acb83bb8196fcdd",
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/trees/64af5efdf1e44bf3cc83758e5acb83bb8196fcdd"
+    },
+    {
+      "path": "tests/test_ai_examples.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9bfc18779fab7871fcd422b1eccc9c3f8cd1b2f7",
+      "size": 18378,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/9bfc18779fab7871fcd422b1eccc9c3f8cd1b2f7"
+    },
+    {
+      "path": "tests/test_asset_tools.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "501cfbcb8c742e29befacc368208916555dd86c1",
+      "size": 3764,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/501cfbcb8c742e29befacc368208916555dd86c1"
+    },
+    {
+      "path": "tests/test_build_report.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67e04a1d4d69bef709398192703371efaa98b086",
+      "size": 7086,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/67e04a1d4d69bef709398192703371efaa98b086"
+    },
+    {
+      "path": "tests/test_check_defold_project.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c727db85545f3785beb3e98d69942e2ef212e103",
+      "size": 16471,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/c727db85545f3785beb3e98d69942e2ef212e103"
+    },
+    {
+      "path": "tests/test_check_docs.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "15e33b32ee4b2521b72bf76dc49cd17f5c4b686e",
+      "size": 20894,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/15e33b32ee4b2521b72bf76dc49cd17f5c4b686e"
+    },
+    {
+      "path": "tests/test_check_ebitengine.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79c4577156150a2b273e6134a94309a676a3c98f",
+      "size": 8857,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/79c4577156150a2b273e6134a94309a676a3c98f"
+    },
+    {
+      "path": "tests/test_check_godot_project.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "acffda1fdadd0ab38330d3d514494b334ec56692",
+      "size": 28800,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/acffda1fdadd0ab38330d3d514494b334ec56692"
+    },
+    {
+      "path": "tests/test_check_steam_build.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d03ae3493107ff81af17887b5f6135ea1690256",
+      "size": 32437,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/2d03ae3493107ff81af17887b5f6135ea1690256"
+    },
+    {
+      "path": "tests/test_check_unity_build_size.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f24d22ad391b7c6a9955727fab011fbedb9d5efe",
+      "size": 24589,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/f24d22ad391b7c6a9955727fab011fbedb9d5efe"
+    },
+    {
+      "path": "tests/test_check_unity_project.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a1944dc2d5e5a5e33f1ca2b0ee14670f210ab51",
+      "size": 22498,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/4a1944dc2d5e5a5e33f1ca2b0ee14670f210ab51"
+    },
+    {
+      "path": "tests/test_discipline_examples.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f74e65caf742104d7141028945c6ac4bf317f02a",
+      "size": 5678,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/f74e65caf742104d7141028945c6ac4bf317f02a"
+    },
+    {
+      "path": "tests/test_ebitengine_tools.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63c0c51762ca1954071132c54691c4601d9417c6",
+      "size": 7832,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/63c0c51762ca1954071132c54691c4601d9417c6"
+    },
+    {
+      "path": "tests/test_generate_site.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78672dc1e197323860da391e2fe88a9ace33d732",
+      "size": 6322,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/78672dc1e197323860da391e2fe88a9ace33d732"
+    },
+    {
+      "path": "tests/test_genre_tools.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9dbf20a8fadf7dec4c14ae760c5818f03d208a5",
+      "size": 6449,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/e9dbf20a8fadf7dec4c14ae760c5818f03d208a5"
+    },
+    {
+      "path": "tests/test_godot_examples.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29a7a82d0d9358c76b5d4fb32b510a5f4aabc47a",
+      "size": 10732,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/29a7a82d0d9358c76b5d4fb32b510a5f4aabc47a"
+    },
+    {
+      "path": "tests/test_publish_examples.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69f02239e2164d3feed2827c97d7a482eee8781",
+      "size": 3354,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/e69f02239e2164d3feed2827c97d7a482eee8781"
+    },
+    {
+      "path": "tests/test_run_trigger_evals.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2894e43d32f6bacc6f2d05588e8a47debf239fda",
+      "size": 11046,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/2894e43d32f6bacc6f2d05588e8a47debf239fda"
+    },
+    {
+      "path": "tests/test_threejs_examples.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc94d30afdc3700cfb9bc51725c8d06671889649",
+      "size": 2415,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/dc94d30afdc3700cfb9bc51725c8d06671889649"
+    },
+    {
+      "path": "tests/test_validate_skills.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2abd245a21792fb364e7ffd8f069c72a9a440606",
+      "size": 14363,
+      "url": "https://api.github.com/repos/gamedev-skills/awesome-gamedev-agent-skills/git/blobs/2abd245a21792fb364e7ffd8f069c72a9a440606"
+    }
+  ],
+  "truncated": false
+}

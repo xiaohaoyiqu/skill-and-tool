@@ -2,6 +2,18 @@
 
 **扫描目录**: `E:\aimodel`
 
+**2026-11-22 增量核验**：新增 `open-webui/`、`ollama/`、`Scrapling/` 三个源码浅克隆，含 Git 分别为 **77.83、80.00、15.03 MB**。`public-apis/` 快进至 `867085cc`，`blender-skills/` 快进至 1.3.3 `1a1cc6c4`；游戏开发仓库已保存，在线核对仍为 `c6ca6c41`（79 个游戏 Skill 加 1 个路由入口）。Dify 仅源码已达 153.43 MB，超限只登记。六个本地仓库工作树干净并通过对象校验，分享清单增至 160 个来源。见[下载台账](GITHUB_REPOS.md#2026-11-22-应用平台模型运行网页采集与游戏-skills)。
+
+**2026-11-21 增量核验**：新增 `awesome-gamedev-agent-skills/`，main `c6ca6c41`，含 Git 7.84 MB，浅克隆、工作树干净并通过对象校验。已有 `reverse-skill/` 存在 3 个未提交修改，保留 main `a5171e03`，通过对象校验；未抓取远端。见[下载台账](GITHUB_REPOS.md#2026-11-21-游戏开发-skills-与逆向资料核验)。
+
+**2026-11-20 增量核验**：三个已有仓库快进更新，三个新仓库已浅克隆，四个新来源超限仅登记。见[下载台账](GITHUB_REPOS.md#2026-11-20-十个-github-仓库续拉)。
+
+**2026-11-19 增量核验**：`blender-skills/` 快进至 `9e7e04a6`，`craft-anything/` 快进至 `df227090`，新增 `fanqiang/` 浅克隆（master `3f5bb7ae`，含 Git 180.31 MB，单项目大小例外）。三个工作树均干净并通过对象校验。见[下载台账](GITHUB_REPOS.md#2026-11-19-三个仓库续拉)。
+
+**2026-11-18 增量核验**：新增 `moli/`（main `6b8baf41`），含 Git 151.89 MB，按用户明确下载指令作为大小例外收录。工作树干净并通过对象校验。见[下载台账](GITHUB_REPOS.md#2026-11-18-moli-无头浏览器)。
+
+**2026-11-17 增量核验**：新增 `blender-skills/`（EL4CTEO，`b1b21dfb`）和 `craft-anything/`（`5979f9b1`），含 Git 分别为 12.94、31.77 MB，工作树干净并通过对象校验。`bannedbook/fanqiang` 完整当前文件与浅克隆 Git 合计约 180.05 MB，超过新增项目 120 MB 默认限额，仅登记链接且已清理临时副本，不列入本地仓库表。此前的 `arjun988/blender-skills` 仍为独立的仅登记来源。本批只增加两行，不重扫其他仓库或改写历史全目录计数；见[台账](GITHUB_REPOS.md#2026-11-17-blender-skillscraft-anything-与网络资料)与[核验 JSON](../scripts/repository-review-20261117.json)。
+
 **最新全目录核验**: 2026-11-15；134 个可见一级仓库，另有 1 个隐藏聚合仓库；结果见[全目录同步台账](GITHUB_REPOS.md#2026-11-15-全目录同步)。下表各行均已刷新为本次本地实际 HEAD，历史批次说明保留原日期。
 
 **历史目录计数与本批核验时间**: 2026-10-27（当日核验 6 个 Skill/工具仓库和 5 个模型源码仓库，其余行保留各自历史状态）
@@ -47,7 +59,7 @@
 | AI-Research-SKILLs | https://github.com/Orchestra-Research/AI-Research-SKILLs.git | main | `773a5294` | 已在线核对，无需更新（2026-11-15） |
 | ai-unit-tests-generator | https://github.com/gustavolopess/ai-unit-tests-generator.git | main | `064857e2` | 已在线核对，无需更新（2026-11-15） |
 | andrej-karpathy-skills | https://github.com/multica-ai/andrej-karpathy-skills.git | main | `2c606141` | 已在线核对，无需更新（2026-11-15） |
-| anthropic-skills | https://github.com/anthropics/skills.git | main | `1780c5e5` | 已快进更新并通过对象校验（2026-11-15） |
+| anthropic-skills | https://github.com/anthropics/skills.git | main | `e4bb5d96` | 已快进更新并通过对象校验（2026-11-20） |
 | archify | https://github.com/tt-a1i/archify.git | main | `a7ed6fd6` | 已快进更新并通过对象校验（2026-11-15） |
 | avoid-ai-writing | https://github.com/conorbronsdon/avoid-ai-writing.git | main | `cc1d3431` | 已快进更新并通过对象校验（2026-11-15） |
 | awesome-agent-skills | https://github.com/JackyST0/awesome-agent-skills.git | main | `f1a7927f` | 已快进更新并通过对象校验（2026-11-15） |
@@ -113,7 +125,7 @@
 | minimax-skills | https://github.com/MiniMax-AI/skills.git | main | `02853d88` | 已快进更新并通过对象校验（2026-11-15） |
 | minimind | https://github.com/jingyaogong/minimind.git | master | `233d00fa` | 已在线核对，无需更新（2026-11-15） |
 | modern-web-guidance | https://github.com/GoogleChrome/modern-web-guidance.git | main | `4dd96834` | 已在线核对，无需更新（2026-11-15） |
-| modern-web-guidance-src | https://github.com/GoogleChrome/modern-web-guidance-src.git | main | `5e5cd33a` | 已在线核对，无需更新（2026-11-15） |
+| modern-web-guidance-src | https://github.com/GoogleChrome/modern-web-guidance-src.git | main | `998f5114` | 已快进更新并通过对象校验（2026-11-20） |
 | multi-style-image-generator | https://github.com/powerycy/multi-style-image-generator.git | main | `059267c7` | 已快进更新并通过对象校验（2026-11-15） |
 | nanobrowser | https://github.com/nanobrowser/nanobrowser.git | master | `6c4c0802` | 已快进更新并通过对象校验（2026-11-15） |
 | nature-skills | https://github.com/Yuan1z0825/nature-skills.git | main | `7bff1d05` | 已快进更新并通过对象校验（2026-11-15） |
@@ -137,11 +149,11 @@
 | playcaptcha | https://github.com/mortspace/playcaptcha.git | main | `0c12567b` | 已快进更新并通过对象校验（2026-11-15） |
 | pocket-tts | https://github.com/kyutai-labs/pocket-tts.git | main | `9e8413eb` | 已快进更新并通过对象校验（2026-11-15） |
 | prompts.chat | https://github.com/f/prompts.chat.git | main | `a8643cb2` | 已快进更新并通过对象校验（2026-11-15） |
-| public-apis | https://github.com/public-apis/public-apis.git | master | `51bc64ab` | 已快进更新并通过对象校验（2026-11-15） |
+| public-apis | https://github.com/public-apis/public-apis.git | master | `867085cc` | 已快进更新并通过对象校验（2026-11-22） |
 | python-refactoring-skills | https://github.com/l-mb/python-refactoring-skills.git | main | `b0835710` | 已在线核对，无需更新（2026-11-15） |
 | rare-ui | https://github.com/swamimalode07/rare-ui.git | main | `6c84e89f` | 已快进更新并通过对象校验（2026-11-15） |
 | rea | https://github.com/morluto/rea.git | main | `65731d8b` | 已快进更新并通过对象校验（2026-11-15） |
-| reverse-skill | https://github.com/zhaoxuya520/reverse-skill.git | main | `a5171e03` | 本地修改，保留原状（2026-11-15） |
+| reverse-skill | https://github.com/zhaoxuya520/reverse-skill.git | main | `a5171e03` | 3 个本地修改，保留原状并通过对象校验；未抓取远端（2026-11-21） |
 | SafeGuard-Code-Profiler | https://github.com/hamed-kuheil/SafeGuard-Code-Profiler.git | main | `6d759c29` | 已在线核对，无需更新（2026-11-15） |
 | scientific-agent-skills | https://github.com/K-Dense-AI/scientific-agent-skills.git | main | `1e5eeffb` | 部分克隆资料库，保留按需下载布局（2026-11-15） |
 | scramble | https://github.com/dedoc/scramble.git | main | `c57a689e` | 已快进更新并通过对象校验（2026-11-15） |
@@ -174,6 +186,51 @@
 | WebSecurityScanner | https://github.com/Defensive-Alliance/WebSecurityScanner.git | main | `60a02b48` | 已在线核对，无需更新（2026-11-15） |
 | z-skills | https://github.com/tjxj/z-skills.git | main | `2b52120b` | 已快进更新并通过对象校验（2026-11-15） |
 | zvec-grep | https://github.com/zvec-ai/zvec-grep.git | main | `38cb1af6` | 已快进更新并通过对象校验（2026-11-15） |
+
+## 2026-11-17 新增本地仓库
+
+| 本地目录 | 上游来源 | 分支 | HEAD | 状态 |
+|------|------|------|------|------|
+| blender-skills | https://github.com/EL4CTEO/blender-skills.git | main | `1a1cc6c4` | 已快进更新并通过对象校验（2026-11-22） |
+| craft-anything | https://github.com/storytold/craft-anything.git | main | `df227090` | 已快进更新并通过对象校验（2026-11-19） |
+
+## 2026-11-18 新增本地仓库
+
+| 本地目录 | 上游来源 | 分支 | HEAD | 状态 |
+|------|------|------|------|------|
+| moli | https://github.com/lexmount/moli.git | main | `6b8baf41` | 已浅克隆，工作树干净，与本次远端 main 一致并通过对象校验（2026-11-18） |
+
+## 2026-11-19 新增本地仓库
+
+| 本地目录 | 上游来源 | 分支 | HEAD | 状态 |
+|------|------|------|------|------|
+| fanqiang | https://github.com/bannedbook/fanqiang.git | master | `3f5bb7ae` | 已浅克隆，工作树干净，与本次远端 master 一致并通过对象校验（2026-11-19） |
+
+## 2026-11-20 新增本地仓库
+
+| 本地目录 | 上游来源 | 分支 | HEAD | 状态 |
+|------|------|------|------|------|
+| pixelfx | https://github.com/patch-gg/pixelfx.git | main | `5294518c` | 已浅克隆并通过对象校验（2026-11-20） |
+| humanizer | https://github.com/blader/humanizer.git | main | `a32f2440` | 已浅克隆并通过对象校验（2026-11-20） |
+| elephant-goldfish-model | https://github.com/google/elephant-goldfish-model.git | main | `70406c4d` | 已浅克隆并通过对象校验（2026-11-20） |
+
+同日核验嵌套仓库 [free-claude/free-claude-code](https://github.com/Alishahryar1/free-claude-code)，main 从 `d3a3b37e` 快进至 `62db82ec`，工作树干净并通过对象校验。
+
+## 2026-11-21 新增本地仓库
+
+| 本地目录 | 上游来源 | 分支 | HEAD | 状态 |
+|------|------|------|------|------|
+| awesome-gamedev-agent-skills | https://github.com/gamedev-skills/awesome-gamedev-agent-skills.git | main | `c6ca6c41` | 已在线核对，无需更新（2026-11-22） |
+
+## 2026-11-22 新增本地仓库
+
+| 本地目录 | 上游来源 | 分支 | HEAD | 状态 |
+|------|------|------|------|------|
+| open-webui | https://github.com/open-webui/open-webui.git | main | `0666e59d` | 已浅克隆并通过对象校验（2026-11-22） |
+| ollama | https://github.com/ollama/ollama.git | main | `2bd4d6aa` | 已浅克隆并通过对象校验（2026-11-22） |
+| Scrapling | https://github.com/D4Vinci/Scrapling.git | main | `2998c9eb` | 已浅克隆并通过对象校验（2026-11-22） |
+
+Dify 的当前源码超过新增项目上限，仅登记来源，不列入本地仓库表。见[本批台账](GITHUB_REPOS.md#2026-11-22-应用平台模型运行网页采集与游戏-skills)。
 
 ## 本聚合仓库实际保存的本地内容
 

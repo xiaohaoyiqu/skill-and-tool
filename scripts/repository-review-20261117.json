@@ -1,0 +1,387 @@
+{
+  "recorded_date": "2026-11-17",
+  "limit_bytes": 120000000,
+  "size_policy": "Complete current source plus Git file lengths; decimal MB; strictly below 120 MB. No new-project exceptions.",
+  "preflight": "scripts/repository-api-20261117.json",
+  "repositories": [
+    {
+      "repository": "storytold/craft-anything",
+      "description": "Craft Anything: understand how any software works, and craft your own.",
+      "branch": "main",
+      "github_size_kib": 19616,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "remote_head": "5979f9b13f16dcf1df3c7ae7f8e7735f452866f2",
+      "truncated": false,
+      "tracked_source_bytes": 22974887,
+      "tracked_blob_count": 1127,
+      "skill_paths": [],
+      "submodules": [],
+      "largest_files": [
+        {
+          "path": "packaging/macos/dmg/background.tiff",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "002f1f086bf8ef862f6beba5a91818ad9fe4c0ed",
+          "size": 955808,
+          "url": "https://api.github.com/repos/storytold/craft-anything/git/blobs/002f1f086bf8ef862f6beba5a91818ad9fe4c0ed"
+        },
+        {
+          "path": "assets/app-icon/craft-anything.icns",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "b9f3c1452ad882a9fb36982aec239f2fad068947",
+          "size": 687443,
+          "url": "https://api.github.com/repos/storytold/craft-anything/git/blobs/b9f3c1452ad882a9fb36982aec239f2fad068947"
+        },
+        {
+          "path": "docs/images/workbench.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "0d8ce2267d0082bb49293f40adde20e8c3935c24",
+          "size": 420810,
+          "url": "https://api.github.com/repos/storytold/craft-anything/git/blobs/0d8ce2267d0082bb49293f40adde20e8c3935c24"
+        },
+        {
+          "path": "docs/images/project-website.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "b177c3f2a177404edf55d23c06fdc614887111e6",
+          "size": 390804,
+          "url": "https://api.github.com/repos/storytold/craft-anything/git/blobs/b177c3f2a177404edf55d23c06fdc614887111e6"
+        },
+        {
+          "path": "docs/images/make.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "961cfd9af1766f180ed545cf11efc022f94a37d8",
+          "size": 329943,
+          "url": "https://api.github.com/repos/storytold/craft-anything/git/blobs/961cfd9af1766f180ed545cf11efc022f94a37d8"
+        },
+        {
+          "path": "docs/images/project-game.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "713eda15124cafef9854ce53bb81fd944ddad52e",
+          "size": 313304,
+          "url": "https://api.github.com/repos/storytold/craft-anything/git/blobs/713eda15124cafef9854ce53bb81fd944ddad52e"
+        },
+        {
+          "path": "docs/STATUS.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "e03e399ec50ceac878b06afc3c0e0417f4d4d2d1",
+          "size": 304506,
+          "url": "https://api.github.com/repos/storytold/craft-anything/git/blobs/e03e399ec50ceac878b06afc3c0e0417f4d4d2d1"
+        },
+        {
+          "path": "docs/ROADMAP.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "8ce7627f8e1cefa3eeb39deacb622c8fe2382357",
+          "size": 278488,
+          "url": "https://api.github.com/repos/storytold/craft-anything/git/blobs/8ce7627f8e1cefa3eeb39deacb622c8fe2382357"
+        }
+      ],
+      "url": "https://github.com/storytold/craft-anything",
+      "local_path": "E:\\aimodel\\craft-anything",
+      "previously_present": false,
+      "size_exception": false,
+      "local_directory_exists": true,
+      "matches_preflight_tree": true,
+      "git_bytes_before_checkout": 8674917,
+      "projected_bytes_including_git": 31649804,
+      "head": "5979f9b13f16dcf1df3c7ae7f8e7735f452866f2",
+      "origin": "https://github.com/storytold/craft-anything.git",
+      "worktree_clean": true,
+      "shallow": true,
+      "fsck_output": "",
+      "fsck_exit_code": 0,
+      "local_file_bytes_including_git": 31769446,
+      "verified_skill_file_count": 0,
+      "submodules_initialized": false,
+      "lfs_entities_downloaded": false,
+      "matches_remote_head": true,
+      "size_below_limit": true,
+      "action": "cloned-shallow",
+      "verified_code_license": "MIT OR Apache-2.0",
+      "asset_license_note": "Fonts and icons have separate licenses. The application raven icon and ArtCraft brand assets are not covered by the source-code open-source license; see ATTRIBUTION.md.",
+      "license_evidence": [
+        "Cargo.toml",
+        "LICENSE-MIT",
+        "LICENSE-APACHE",
+        "ATTRIBUTION.md",
+        "assets/app-icon/LICENSE.txt",
+        "docs/brand/LICENSE-brand.txt"
+      ],
+      "runtime_requirement": "Rust 1.97+, edition 2024; early alpha. Rebuild requires a logged-in coding agent. Upstream prioritizes Claude Code and says the Codex adapter is not yet validated on a real installation.",
+      "runtime_evidence": [
+        "Cargo.toml",
+        "README.zh.md"
+      ]
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "description": "Professional Blender 5.3 workflows as Agent Skills for Claude Code, Codex, Gemini CLI, Copilot and Cursor: modeling, UVs, PBR, baking, rigging, animation, export and QA.",
+      "branch": "main",
+      "github_size_kib": 6084,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "remote_head": "b1b21dfb73bc40b874ebf2aa12645931bfed3523",
+      "truncated": false,
+      "tracked_source_bytes": 6721775,
+      "tracked_blob_count": 190,
+      "skill_paths": [
+        "skills/blender-addon-development/SKILL.md",
+        "skills/blender-animation/SKILL.md",
+        "skills/blender-asset-qa/SKILL.md",
+        "skills/blender-character-rigging/SKILL.md",
+        "skills/blender-clothing/SKILL.md",
+        "skills/blender-core/SKILL.md",
+        "skills/blender-environment-kits/SKILL.md",
+        "skills/blender-export-pipelines/SKILL.md",
+        "skills/blender-facial-shapekeys/SKILL.md",
+        "skills/blender-game-optimization/SKILL.md",
+        "skills/blender-geometry-nodes/SKILL.md",
+        "skills/blender-hair-grooming/SKILL.md",
+        "skills/blender-hardsurface-modeling/SKILL.md",
+        "skills/blender-lighting-lookdev/SKILL.md",
+        "skills/blender-pbr-materials/SKILL.md",
+        "skills/blender-pipeline-automation/SKILL.md",
+        "skills/blender-rendering/SKILL.md",
+        "skills/blender-retopology-uv/SKILL.md",
+        "skills/blender-scene-setup/SKILL.md",
+        "skills/blender-sculpting/SKILL.md",
+        "skills/blender-simulation/SKILL.md",
+        "skills/blender-stylized-npr/SKILL.md",
+        "skills/blender-texture-baking/SKILL.md",
+        "skills/blender-texturing/SKILL.md",
+        "skills/blender-time-of-day/SKILL.md",
+        "skills/blender-video-editing/SKILL.md",
+        "skills/blender-weather-fx/SKILL.md",
+        "skills/blender-workflow-recipes/SKILL.md"
+      ],
+      "submodules": [],
+      "largest_files": [
+        {
+          "path": "docs/comparison/media/concrete-detail-skill.webp",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "ac2a46e34d76d21df63f70afb01c44c4074265dc",
+          "size": 752118,
+          "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/ac2a46e34d76d21df63f70afb01c44c4074265dc"
+        },
+        {
+          "path": "docs/comparison/media/concrete-hero-skill.webp",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "1ab4e27fc56f2ab6a077ed953b8de5abfef18d83",
+          "size": 649208,
+          "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/1ab4e27fc56f2ab6a077ed953b8de5abfef18d83"
+        },
+        {
+          "path": "docs/comparison/media/nova-noskill-turntable.mp4",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "dc747cc08a33fbfad271cf3cbe85517f6922692e",
+          "size": 644391,
+          "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/dc747cc08a33fbfad271cf3cbe85517f6922692e"
+        },
+        {
+          "path": "docs/comparison/media/nova-skill-turntable.mp4",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "e41c05e69b9d9fae39734aa457b707022141bade",
+          "size": 630546,
+          "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/e41c05e69b9d9fae39734aa457b707022141bade"
+        },
+        {
+          "path": "docs/comparison/media/concrete-detail-noskill.webp",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "242c9106682bf88c6e57c5e715f63e80ab8f0272",
+          "size": 493610,
+          "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/242c9106682bf88c6e57c5e715f63e80ab8f0272"
+        },
+        {
+          "path": "docs/comparison/media/concrete-hero-noskill.webp",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "4d3330ef68afff0e29f2338e427c4a4ce0e2c655",
+          "size": 469180,
+          "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/4d3330ef68afff0e29f2338e427c4a4ce0e2c655"
+        },
+        {
+          "path": "docs/comparison/media/blanket-noskill.mp4",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "73e8bb2e6844e7a01efcfaf09d970f35e7eb20f8",
+          "size": 428226,
+          "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/73e8bb2e6844e7a01efcfaf09d970f35e7eb20f8"
+        },
+        {
+          "path": "docs/comparison/media/concrete-hero-skill-crop.webp",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "6da495c63633ca4491862a93e92f6ccee28c7e78",
+          "size": 314966,
+          "url": "https://api.github.com/repos/EL4CTEO/blender-skills/git/blobs/6da495c63633ca4491862a93e92f6ccee28c7e78"
+        }
+      ],
+      "url": "https://github.com/EL4CTEO/blender-skills",
+      "local_path": "E:\\aimodel\\blender-skills",
+      "previously_present": false,
+      "size_exception": false,
+      "local_directory_exists": true,
+      "matches_preflight_tree": true,
+      "git_bytes_before_checkout": 6197283,
+      "projected_bytes_including_git": 12919058,
+      "head": "b1b21dfb73bc40b874ebf2aa12645931bfed3523",
+      "origin": "https://github.com/EL4CTEO/blender-skills.git",
+      "worktree_clean": true,
+      "shallow": true,
+      "fsck_output": "dangling tag 2c513ddb501bc53af25feeafbcb7e677b95c46c9",
+      "fsck_exit_code": 0,
+      "local_file_bytes_including_git": 12942239,
+      "verified_skill_file_count": 28,
+      "submodules_initialized": false,
+      "lfs_entities_downloaded": false,
+      "matches_remote_head": true,
+      "size_below_limit": true,
+      "action": "cloned-shallow",
+      "verified_license": "MIT",
+      "formal_skill_count": 28,
+      "runtime_requirement": "Upstream README requires Blender 5.2 LTS+; optional Blender MCP or headless Blender. Upstream claims 5.3 verification; not run locally.",
+      "distinct_previously_recorded_source": "https://github.com/arjun988/blender-skills",
+      "license_evidence": [
+        "LICENSE"
+      ],
+      "runtime_evidence": [
+        "README.md"
+      ],
+      "fsck_note": "Exit code 0; one dangling tag notification, not an object error."
+    },
+    {
+      "repository": "bannedbook/fanqiang",
+      "description": "翻墙-科学上网",
+      "branch": "master",
+      "github_size_kib": 754473,
+      "license": null,
+      "archived": false,
+      "remote_head": "3f5bb7aee071831035a3c817f0a76cbbc19fd511",
+      "truncated": false,
+      "tracked_source_bytes": 97937924,
+      "tracked_blob_count": 1887,
+      "skill_paths": [],
+      "submodules": [],
+      "largest_files": [
+        {
+          "path": "fqnews/v2ray-lib-FQNews/v2ray-lib-FQNews-release.aar",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "0adac148ef9b330903f0a3dbfb80cbb5d25366a2",
+          "size": 17945939,
+          "url": "https://api.github.com/repos/bannedbook/fanqiang/git/blobs/0adac148ef9b330903f0a3dbfb80cbb5d25366a2"
+        },
+        {
+          "path": "fqnews2/fastlane/metadata/android/en-US/images/sevenInchScreenshots/1_en-US_foldable_portrait_light_list.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "90c35d82c9cd01140ba5eb6d1edadcc851fe0ed1",
+          "size": 5122314,
+          "url": "https://api.github.com/repos/bannedbook/fanqiang/git/blobs/90c35d82c9cd01140ba5eb6d1edadcc851fe0ed1"
+        },
+        {
+          "path": "fqnews2/fastlane/metadata/android/en-US/images/sevenInchScreenshots/2_en-US_foldable_portrait_dark_list.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "4cbb9fcc581418b7716fbfbbfa9966c137aba5fc",
+          "size": 5114408,
+          "url": "https://api.github.com/repos/bannedbook/fanqiang/git/blobs/4cbb9fcc581418b7716fbfbbfa9966c137aba5fc"
+        },
+        {
+          "path": "fqnews2/fastlane/metadata/android/en-US/images/tenInchScreenshots/1_en-US_tablet_portrait_light_dual.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "f73e08e1e153dca506e3b84cabb8f1cb67d4c403",
+          "size": 5096870,
+          "url": "https://api.github.com/repos/bannedbook/fanqiang/git/blobs/f73e08e1e153dca506e3b84cabb8f1cb67d4c403"
+        },
+        {
+          "path": "fqnews2/fastlane/metadata/android/en-US/images/tenInchScreenshots/2_en-US_tablet_portrait_dark_dual.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "f8d1d45d691fb8434dfda4d0f81796e3bcdc3abb",
+          "size": 5095468,
+          "url": "https://api.github.com/repos/bannedbook/fanqiang/git/blobs/f8d1d45d691fb8434dfda4d0f81796e3bcdc3abb"
+        },
+        {
+          "path": "v2ss/images/shenyun/2020shenyun2.jpg",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "29a543d2f38fa1aa33c37946c31885ffe320609b",
+          "size": 4390357,
+          "url": "https://api.github.com/repos/bannedbook/fanqiang/git/blobs/29a543d2f38fa1aa33c37946c31885ffe320609b"
+        },
+        {
+          "path": "fqnews2/app/src/androidTest/resources/com/nononsenseapps/feeder/model/rss_londoner.xml",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "b40033c8696213f6e0cd178c4238a79332ee15b7",
+          "size": 2739475,
+          "url": "https://api.github.com/repos/bannedbook/fanqiang/git/blobs/b40033c8696213f6e0cd178c4238a79332ee15b7"
+        },
+        {
+          "path": "fqnews2/fastlane/metadata/android/en-US/images/phoneScreenshots/1_en-US_phone_portrait_light_list.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "1064679ded212b81c388c8d0b68c8594de45b101",
+          "size": 2365365,
+          "url": "https://api.github.com/repos/bannedbook/fanqiang/git/blobs/1064679ded212b81c388c8d0b68c8594de45b101"
+        }
+      ],
+      "url": "https://github.com/bannedbook/fanqiang",
+      "local_path": "E:\\aimodel\\fanqiang",
+      "previously_present": false,
+      "size_exception": false,
+      "local_directory_exists": false,
+      "matches_preflight_tree": true,
+      "git_bytes_before_checkout": 82109097,
+      "projected_bytes_including_git": 180047021,
+      "action": "skipped-checkout-over-limit",
+      "temporary_clone_removed": true,
+      "verified_license": "No repository-wide root license found; individual subprojects and external resources have their own terms.",
+      "license_paths": [
+        "fqnews/LICENSE",
+        "fqnews/LICENSE_GPLv3",
+        "fqnews2/LICENSE",
+        "fqnews2/libcore/LICENSE"
+      ]
+    }
+  ],
+  "updated_at_utc": "2026-11-17T13:25:01.487748+00:00",
+  "completed_at_utc": "2026-11-17T13:25:01.490456+00:00",
+  "scope": "Three user-specified sources only; no dependencies, global skills/MCP, application runs, or unrelated repository updates.",
+  "share_guide_previous_source_count": 143,
+  "share_guide_source_count": 146,
+  "new_local_repository_count": 2,
+  "new_formal_skill_source_entry_count": 28,
+  "preflight_tree_files": [
+    "scripts/repository-tree-20261117-blender-skills.json",
+    "scripts/repository-tree-20261117-craft-anything.json",
+    "scripts/repository-tree-20261117-fanqiang.json"
+  ],
+  "records_finalized_at_utc": "2026-11-17T13:28:20.791338+00:00"
+}

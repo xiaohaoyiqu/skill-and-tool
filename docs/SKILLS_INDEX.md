@@ -1,10 +1,72 @@
 # AI Skills 仓库索引
 
 **@author liuhao**
-**更新时间**: 2026-11-15
+**更新时间**: 2026-11-22
 
 ---
 
+## 2026-11-22 应用平台、模型运行、网页采集与游戏 Skills
+
+| 项目 | 本地版本与 Skill 状态 |
+|------|------|
+| Scrapling | 新增 `2998c9eb`，[官方网页采集 Skill](../Scrapling/agent-skill/Scrapling-Skill/SKILL.md)，1 个正式入口，随源码保存；Python 3.10+，BSD-3-Clause。 |
+| Blender Agent Skills（EL4CTEO） | 快进至 1.3.3 `1a1cc6c4`，[28 个正式 Skill](../blender-skills/skills/)，MIT。 |
+| awesome-gamedev-agent-skills | 已下载，[79 个游戏开发 Skill](../awesome-gamedev-agent-skills/skills/)加 [1 个路由入口](../awesome-gamedev-agent-skills/router/SKILL.md)；本次在线核对仍为 `c6ca6c41`，Apache-2.0。 |
+| Open WebUI / Ollama / public-apis | 分别为 `0666e59d`、`2bd4d6aa`、`867085cc`；当前文件树均无 SKILL.md，作为应用、模型运行工具及资料导航收录。 |
+| Dify | `8b6fbfb0`，超限仅登记；远端 6 个 SKILL.md 含 1 个测试夹具，均未下载或安装。 |
+
+未安装运行依赖、模型、游戏引擎或全局 Skill；本批只核对指定来源，不重算历史逻辑 Skill 总数。见[下载台账](GITHUB_REPOS.md#2026-11-22-应用平台模型运行网页采集与游戏-skills)和[核验 JSON](../scripts/repository-review-20261122.json)。
+
+## 2026-11-21 游戏开发 Skills 与逆向资料核验
+
+| 项目 | 本地版本与 Skill 状态 |
+|------|------|
+| awesome-gamedev-agent-skills | 新增 main `c6ca6c41`。[79 个游戏开发 Skill](../awesome-gamedev-agent-skills/skills/)与 [1 个路由入口](../awesome-gamedev-agent-skills/router/SKILL.md)，覆盖 12 种引擎及关卡、AI、音频、UI、资源制作、存档、优化与发布。Apache-2.0。 |
+| reverse-skill | 已有 main `a5171e03`，3 个本地修改，按常规同步规则保留原状；本地 84 个 SKILL.md 为物理文件数。本次未抓取远端，不标记为最新。 |
+
+两个仓库均通过对象校验。本次仅保存源码与记录；游戏引擎和全局 Skill 未安装，未复现上游引擎测试。见[下载台账](GITHUB_REPOS.md#2026-11-21-游戏开发-skills-与逆向资料核验)与[核验 JSON](../scripts/repository-review-20261121.json)。
+
+## 2026-11-20 十个 GitHub 仓库续拉
+
+| 项目 | 本地版本与 Skill 状态 |
+|------|------|
+| PixelFX | [像素动效 Skill](../pixelfx/skills/pixelfx/SKILL.md)，1 个入口。版本 `5294518c`。 |
+| Humanizer | [文本润色 Skill](../humanizer/SKILL.md)，1 个入口。版本 `a32f2440`。 |
+| Elephant-Goldfish Model | [规格起草与审查 Skills](../elephant-goldfish-model/skills/)，8 个入口。版本 `70406c4d`。 |
+| Anthropic Skills | [19 个 Skill](../anthropic-skills/skills/)和 [1 个模板](../anthropic-skills/template/SKILL.md)，本次提交修改了 docx 和 pptx 的 Skill 说明。版本 `e4bb5d96`。 |
+| modern-web-guidance-src | 13 个维护 Skill、2 个分发源入口，分发入口与已有分发仓库对应。版本 `998f5114`。 |
+
+Plannotator、daily_stock_analysis 和 Astryx 的远端文件树分别含 23、5、1 个 `SKILL.md` 文件，当前只登记链接。Free Claude Code 和 Univer 的固定提交中未见 `SKILL.md`。见[下载台账](GITHUB_REPOS.md#2026-11-20-十个-github-仓库续拉)。
+
+## 2026-11-19 三个仓库续拉
+
+| 项目 | 本地版本与 Skill 状态 |
+|------|------|
+| Blender Agent Skills | `blender-skills/` main `9e7e04a6`，源码保留 28 个 `SKILL.md` 入口 |
+| Craft Anything | `craft-anything/` main `df227090`，安装器内嵌 [Skill 模板](../craft-anything/crates/setup/src/skill.md)，目前保存在源码内 |
+| fanqiang | `fanqiang/` master `3f5bb7ae`，已保存网络资料和应用源码，文件树中有 0 个 `SKILL.md` 入口 |
+
+见[下载台账](GITHUB_REPOS.md#2026-11-19-三个仓库续拉)。
+
+## 2026-11-18 Moli 浏览器 Skills
+
+| 本地入口 | 用途 |
+|------|------|
+| [moli-webfetch](../moli/skills/moli-webfetch/SKILL.md) | 提取网页内容及输出截图或 PDF |
+| [moli-websearch](../moli/skills/moli-websearch/SKILL.md) | 关键词搜索及以图搜图 |
+| [moli-cdp-server](../moli/skills/moli-cdp-server/SKILL.md) | 提供 CDP 端点，供 Playwright、Puppeteer 或其他 CDP 客户端连接 |
+
+三个入口随 [Moli 源码](https://github.com/lexmount/moli)浅克隆保存，使用时需要 Moli 可执行文件。版本、许可与大小见[下载台账](GITHUB_REPOS.md#2026-11-18-moli-无头浏览器)。
+
+## 2026-11-17 Blender Agent Skills 与工具追加
+
+| 来源 | 本地入口与用途 | 本次处理 |
+|------|------|------|
+| [EL4CTEO/blender-skills](https://github.com/EL4CTEO/blender-skills) | `skills/` 下 **28 个正式 SKILL.md**；由 `blender-core` 路由建模、UV、材质、烘焙、绑定、动画、服装、毛发、环境、模拟、渲染、导出与资产检查 | 新增 `blender-skills/`，main `b1b21dfb`，含 Git 12.94 MB；MIT，仅保存源码 |
+| [Craft Anything](https://github.com/storytold/craft-anything) | **0 个 SKILL.md**；软件检查与重建引擎，桌面、CLI、MCP 工具，早期 alpha | 新增 `craft-anything/`，main `5979f9b1`，含 Git 31.77 MB；代码 MIT OR Apache-2.0，素材许可另查 |
+| [fanqiang](https://github.com/bannedbook/fanqiang) | 远端 **0 个 SKILL.md**；网络访问教程、工具链接与部分应用源码，按资料记录 | master `3f5bb7ae`，完整文件与 Git 约 180.05 MB，超过 120 MB 限额，仅登记链接，未保留本地副本 |
+
+Blender 上游要求 5.2 LTS+，可由后台 Blender 或可选 Blender MCP 执行；未安装或运行。该项目与 11 月 2 日记录的 `arjun988/blender-skills` 分别收录，旧记录只代表另一个来源。Craft Anything 声明 Rust 1.97+，重建另需编码 Agent。以上只记录本批 28 个正式入口，不将其算作已安装 Skill，也不重算历史全仓逻辑 Skill 总数；完整路径及运行条件见[本批台账](GITHUB_REPOS.md#2026-11-17-blender-skillscraft-anything-与网络资料)与[核验 JSON](../scripts/repository-review-20261117.json)。
 
 ## 2026-11-15 全目录同步
 
