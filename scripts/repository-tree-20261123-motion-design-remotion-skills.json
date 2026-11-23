@@ -1,0 +1,3072 @@
+{
+  "sha": "c735c9b548bacaa348aecf9448e02c60b327a144",
+  "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/c735c9b548bacaa348aecf9448e02c60b327a144",
+  "tree": [
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ef12cc198144473c5207abb41f57635ddff6a78",
+      "size": 3425,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/9ef12cc198144473c5207abb41f57635ddff6a78"
+    },
+    {
+      "path": "package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4278fcb5bd39f4657c8d4036793637a7af2f0019",
+      "size": 611,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/4278fcb5bd39f4657c8d4036793637a7af2f0019"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7c1f9c647e5afb5b52db431434516efab9f43f9f",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/7c1f9c647e5afb5b52db431434516efab9f43f9f"
+    },
+    {
+      "path": "scripts/prepare-embedded-skills.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9725f61ddb2a65fa67ccf9f292cd7159327cc0c4",
+      "size": 5120,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/9725f61ddb2a65fa67ccf9f292cd7159327cc0c4"
+    },
+    {
+      "path": "scripts/sync-agent-skills.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "867e9d72fc88021f7805901c4de8b175e1be9aed",
+      "size": 2786,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/867e9d72fc88021f7805901c4de8b175e1be9aed"
+    },
+    {
+      "path": "scripts/sync-embedded-skills.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32d7d99c43becd8ff2e87d70ea5d9fd74be9c447",
+      "size": 2688,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/32d7d99c43becd8ff2e87d70ea5d9fd74be9c447"
+    },
+    {
+      "path": "scripts/sync-readme.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00257e9b983c9cc7b2b9674667659e15fd844d1f",
+      "size": 1975,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/00257e9b983c9cc7b2b9674667659e15fd844d1f"
+    },
+    {
+      "path": "scripts/validate-links.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5db828772e0e6c6c01d221a61a2f8885fe11bfcb",
+      "size": 5615,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/5db828772e0e6c6c01d221a61a2f8885fe11bfcb"
+    },
+    {
+      "path": "skills",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "268f91ee852d4a770ac0b68ac510ab9b1d627c61",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/268f91ee852d4a770ac0b68ac510ab9b1d627c61"
+    },
+    {
+      "path": "skills/remotion-best-practices",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "69304a1c9e2f7f12e45997319f5ec110d71168cd",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/69304a1c9e2f7f12e45997319f5ec110d71168cd"
+    },
+    {
+      "path": "skills/remotion-best-practices/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d98da88d7eeb06070da695ebb9d29921384df8ac",
+      "size": 4184,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/d98da88d7eeb06070da695ebb9d29921384df8ac"
+    },
+    {
+      "path": "skills/remotion-best-practices/agents",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "987e27e82a45ae6960101d36d35b351306c4aca2",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/987e27e82a45ae6960101d36d35b351306c4aca2"
+    },
+    {
+      "path": "skills/remotion-best-practices/agents/openai.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ce4e931930a23bf372d6e5bc97415588deba92d",
+      "size": 311,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/5ce4e931930a23bf372d6e5bc97415588deba92d"
+    },
+    {
+      "path": "skills/remotion-best-practices/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c9147c57799f35d5928242717132d977403d00d8",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/c9147c57799f35d5928242717132d977403d00d8"
+    },
+    {
+      "path": "skills/remotion-best-practices/assets/remotion-icon.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "420dbc726662dbb88a144878a49a68dcc6b0cd5b",
+      "size": 1303,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/420dbc726662dbb88a144878a49a68dcc6b0cd5b"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-captions",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4d4dd9299d44ab5c7180c1fd31e4960aa48d95d0",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/4d4dd9299d44ab5c7180c1fd31e4960aa48d95d0"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-captions/REFERENCE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a2c7b2a236dd9fa5a9d5fc321e0156cd1f74f01",
+      "size": 1153,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/5a2c7b2a236dd9fa5a9d5fc321e0156cd1f74f01"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-captions/agents",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d05190d8ad758fdb5b6b35a5f0e2a8112ca2cf59",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/d05190d8ad758fdb5b6b35a5f0e2a8112ca2cf59"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-captions/agents/openai.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3851301aa1e8a8ac9287c705f1679f6fa9fa033",
+      "size": 305,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/f3851301aa1e8a8ac9287c705f1679f6fa9fa033"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-captions/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c9147c57799f35d5928242717132d977403d00d8",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/c9147c57799f35d5928242717132d977403d00d8"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-captions/assets/remotion-icon.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "420dbc726662dbb88a144878a49a68dcc6b0cd5b",
+      "size": 1303,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/420dbc726662dbb88a144878a49a68dcc6b0cd5b"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-captions/display-captions.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7566c1eca568a678fac7e3e47968e62640c667ce",
+      "size": 5951,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/7566c1eca568a678fac7e3e47968e62640c667ce"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-captions/import-srt-captions.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a809442e3bdb42b3c49ba0d7bfa6f2973e3b427",
+      "size": 2231,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/1a809442e3bdb42b3c49ba0d7bfa6f2973e3b427"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-captions/transcribe-captions.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1818b7446282f53aa6157d1560b275b86c2bf32e",
+      "size": 5533,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/1818b7446282f53aa6157d1560b275b86c2bf32e"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-create",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0457a6766be68a0acc5b758ab74e48a19e46d84b",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/0457a6766be68a0acc5b758ab74e48a19e46d84b"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-create/REFERENCE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ee3f689e4b3d5d09ffd89eb220a495e914fccfc",
+      "size": 3023,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/3ee3f689e4b3d5d09ffd89eb220a495e914fccfc"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-create/agents",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "33a028b833934f1bef354646c304a0946b0d292b",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/33a028b833934f1bef354646c304a0946b0d292b"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-create/agents/openai.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20b2d885b78986cf20386ea487ce95e741bea4b5",
+      "size": 310,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/20b2d885b78986cf20386ea487ce95e741bea4b5"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-create/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c9147c57799f35d5928242717132d977403d00d8",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/c9147c57799f35d5928242717132d977403d00d8"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-create/assets/remotion-icon.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "420dbc726662dbb88a144878a49a68dcc6b0cd5b",
+      "size": 1303,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/420dbc726662dbb88a144878a49a68dcc6b0cd5b"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-create/tailwind.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b902131edd8a38a2cfb5f0498e956a81079f82a3",
+      "size": 386,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/b902131edd8a38a2cfb5f0498e956a81079f82a3"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-create/video-layout.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e6bc435ef83df62516c5a7a033809b8539445eb",
+      "size": 498,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/3e6bc435ef83df62516c5a7a033809b8539445eb"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e2430abdf2f3476a8686c1c4c2ee6f6a039e0d8f",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/e2430abdf2f3476a8686c1c4c2ee6f6a039e0d8f"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-docs/REFERENCE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4bf12f4ec3d73f05a8a12ba7bd507dfad088959d",
+      "size": 1355,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/4bf12f4ec3d73f05a8a12ba7bd507dfad088959d"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-docs/agents",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "86b9a22f4b478476ec24ad692b8a86a3994e0e5a",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/86b9a22f4b478476ec24ad692b8a86a3994e0e5a"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-docs/agents/openai.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64be533b693e856568907038f0ecf286ab793262",
+      "size": 307,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/64be533b693e856568907038f0ecf286ab793262"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-docs/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c9147c57799f35d5928242717132d977403d00d8",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/c9147c57799f35d5928242717132d977403d00d8"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-docs/assets/remotion-icon.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "420dbc726662dbb88a144878a49a68dcc6b0cd5b",
+      "size": 1303,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/420dbc726662dbb88a144878a49a68dcc6b0cd5b"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-interactivity",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f531fa1a2e9ab68f04070256d1ebcd8f562d9f45",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/f531fa1a2e9ab68f04070256d1ebcd8f562d9f45"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-interactivity/REFERENCE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b28913c356816ab49bbef4eefa908e51bdb1427b",
+      "size": 14500,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/b28913c356816ab49bbef4eefa908e51bdb1427b"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-interactivity/agents",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b6789d3690d84dfecc01823ac7f26e29a781d0e9",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/b6789d3690d84dfecc01823ac7f26e29a781d0e9"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-interactivity/agents/openai.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4152ad53af85e29c5640bfd19f9f2d2903cd2d9",
+      "size": 320,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/e4152ad53af85e29c5640bfd19f9f2d2903cd2d9"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-interactivity/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c9147c57799f35d5928242717132d977403d00d8",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/c9147c57799f35d5928242717132d977403d00d8"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-interactivity/assets/remotion-icon.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "420dbc726662dbb88a144878a49a68dcc6b0cd5b",
+      "size": 1303,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/420dbc726662dbb88a144878a49a68dcc6b0cd5b"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-interactivity/inline-effects.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "910a95d51e3a6b8ba8929d21e1e9af895696f31c",
+      "size": 993,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/910a95d51e3a6b8ba8929d21e1e9af895696f31c"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-interactivity/timeline-structure.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31e30a67d58114376d1596aae1da39ed3c318eb4",
+      "size": 7016,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/31e30a67d58114376d1596aae1da39ed3c318eb4"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-license",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ae9385e5aa9002b26e3fbfb1c9f9dd216d5ada1d",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/ae9385e5aa9002b26e3fbfb1c9f9dd216d5ada1d"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-license/REFERENCE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b173cbbc939f9427310e52ed812ca7651eb601c",
+      "size": 498,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/9b173cbbc939f9427310e52ed812ca7651eb601c"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-license/agents",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e14fdadce41a0faceb1625fac60d5fb06b616cd8",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/e14fdadce41a0faceb1625fac60d5fb06b616cd8"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-license/agents/openai.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e84fecbd8b3af7906e909062c471e9ac71331744",
+      "size": 300,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/e84fecbd8b3af7906e909062c471e9ac71331744"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-license/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c9147c57799f35d5928242717132d977403d00d8",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/c9147c57799f35d5928242717132d977403d00d8"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-license/assets/remotion-icon.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "420dbc726662dbb88a144878a49a68dcc6b0cd5b",
+      "size": 1303,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/420dbc726662dbb88a144878a49a68dcc6b0cd5b"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2113871a4399b0c44e39bc1c51253169f419ca50",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/2113871a4399b0c44e39bc1c51253169f419ca50"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps/REFERENCE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5df676547e740d5a980931799d969272f8ae5f3",
+      "size": 1030,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/c5df676547e740d5a980931799d969272f8ae5f3"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps/agents",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8ea45ad4f119d69d6cb66eff86c16ccdb833f3ca",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/8ea45ad4f119d69d6cb66eff86c16ccdb833f3ca"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps/agents/openai.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c60b3a186973a32c89176b88446c1856ef5f3ed6",
+      "size": 293,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/c60b3a186973a32c89176b88446c1856ef5f3ed6"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c9147c57799f35d5928242717132d977403d00d8",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/c9147c57799f35d5928242717132d977403d00d8"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps/assets/remotion-icon.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "420dbc726662dbb88a144878a49a68dcc6b0cd5b",
+      "size": 1303,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/420dbc726662dbb88a144878a49a68dcc6b0cd5b"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps/techniques",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2d31941a8d6af10009424179c4bffaff24163e0c",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/2d31941a8d6af10009424179c4bffaff24163e0c"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps/techniques/cesium",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "224092098c90bdf08c2dc6647150f6037d4d296b",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/224092098c90bdf08c2dc6647150f6037d4d296b"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps/techniques/cesium/TECHNIQUE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "938367e8bfc4ef285255b70980036b9dce8fd4eb",
+      "size": 4044,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/938367e8bfc4ef285255b70980036b9dce8fd4eb"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps/techniques/cesium/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7aa1393f8b08a5579dce4d4c71d64e080b36f4bd",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/7aa1393f8b08a5579dce4d4c71d64e080b36f4bd"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps/techniques/cesium/assets/CesiumFlythrough.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f2cbce33ea3112f7d228953bcb327a7a48f69ca",
+      "size": 8376,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/6f2cbce33ea3112f7d228953bcb327a7a48f69ca"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps/techniques/cesium/assets/cesium-path.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32b60baec5b2ec39252936743bb234616a70b996",
+      "size": 12329,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/32b60baec5b2ec39252936743bb234616a70b996"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps/techniques/cesium/assets/city-path.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "821973f2d7e085409016b933c644f8f0efabaed0",
+      "size": 223,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/821973f2d7e085409016b933c644f8f0efabaed0"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps/techniques/cesium/assets/example-Root.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a27a0b7c9491af655e08f6844d2d8cabb6b1a0e",
+      "size": 923,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/9a27a0b7c9491af655e08f6844d2d8cabb6b1a0e"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps/techniques/cesium/assets/flight-path.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c44ea265b39993a182182a0c34d363e2368b8a7e",
+      "size": 1268,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/c44ea265b39993a182182a0c34d363e2368b8a7e"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps/techniques/cesium/assets/sample-river.geojson",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5574b30b311150eed82dd332d756dfa5e3cf9256",
+      "size": 6409,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/5574b30b311150eed82dd332d756dfa5e3cf9256"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps/techniques/cesium/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "026bcbac3dc0172c33f7fb6d59c7d9cbc7c7e59c",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/026bcbac3dc0172c33f7fb6d59c7d9cbc7c7e59c"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps/techniques/cesium/references/3d-data-sources.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "171a8ade289f3aceb78cbb8065bb5add3336e9a3",
+      "size": 1622,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/171a8ade289f3aceb78cbb8065bb5add3336e9a3"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps/techniques/cesium/references/3d-flyover-architecture.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc01276b2144bde6b6582311a38d49e3b87b1a72",
+      "size": 7954,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/bc01276b2144bde6b6582311a38d49e3b87b1a72"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps/techniques/cesium/references/3d-troubleshooting.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "488eb9d438358f604790cccde179e9d37fd52841",
+      "size": 6741,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/488eb9d438358f604790cccde179e9d37fd52841"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps/techniques/cesium/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3929a272ad67e5bc4c4187e3d5f3d8ef8a2aff4c",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/3929a272ad67e5bc4c4187e3d5f3d8ef8a2aff4c"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps/techniques/cesium/scripts/prep-cesium-path.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dbb3f0f9756ec5b2d4bcda6d3b37bd6396defda1",
+      "size": 5561,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/dbb3f0f9756ec5b2d4bcda6d3b37bd6396defda1"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps/techniques/mapbox",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fd50386d121751811c33d05d08a5db949d59892c",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/fd50386d121751811c33d05d08a5db949d59892c"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps/techniques/mapbox/TECHNIQUE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18b2dc5041b5146e604848c6adf72fedd1f35f38",
+      "size": 12981,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/18b2dc5041b5146e604848c6adf72fedd1f35f38"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps/techniques/mapbox/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "21b220095ca1c7a032c51d67be71a58cfa5dd38d",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/21b220095ca1c7a032c51d67be71a58cfa5dd38d"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps/techniques/mapbox/references/render-stability.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc40033139c9cf5baa8160a436d379fd8c606933",
+      "size": 3639,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/fc40033139c9cf5baa8160a436d379fd8c606933"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps/techniques/maplibre",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f9b8d9ef584c78502ff0cf9a3687e73a8cfb324a",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/f9b8d9ef584c78502ff0cf9a3687e73a8cfb324a"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps/techniques/maplibre/TECHNIQUE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38977cce4b9f171bea0ee47e9bffa63a6c681285",
+      "size": 13843,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/38977cce4b9f171bea0ee47e9bffa63a6c681285"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps/techniques/maplibre/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "21b220095ca1c7a032c51d67be71a58cfa5dd38d",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/21b220095ca1c7a032c51d67be71a58cfa5dd38d"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps/techniques/maplibre/references/render-stability.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc40033139c9cf5baa8160a436d379fd8c606933",
+      "size": 3639,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/fc40033139c9cf5baa8160a436d379fd8c606933"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps/techniques/maptiler",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b390ace00c2e390e6fca2eadb4684aee593c01f6",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/b390ace00c2e390e6fca2eadb4684aee593c01f6"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps/techniques/maptiler/TECHNIQUE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25d6b5afac1cc69da5a85bc0223c41e0e2674c97",
+      "size": 3603,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/25d6b5afac1cc69da5a85bc0223c41e0e2674c97"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps/techniques/maptiler/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8b97dfee2b7a9ba98d99a11914edb56d71d5dc14",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/8b97dfee2b7a9ba98d99a11914edb56d71d5dc14"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps/techniques/maptiler/assets/MapTilerVectorElement.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85be0cc32371f9b6b6496e7e7b35dbcd7fa0dac8",
+      "size": 1535,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/85be0cc32371f9b6b6496e7e7b35dbcd7fa0dac8"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps/techniques/maptiler/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8d3a4503542dce2d2226a8bbda63e6d7c3849bdb",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/8d3a4503542dce2d2226a8bbda63e6d7c3849bdb"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps/techniques/maptiler/references/map-data-sources.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7362fad7b7d777a2a3b0d76cea8c0781c4340af3",
+      "size": 4697,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/7362fad7b7d777a2a3b0d76cea8c0781c4340af3"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps/techniques/maptiler/references/render-stability.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc40033139c9cf5baa8160a436d379fd8c606933",
+      "size": 3639,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/fc40033139c9cf5baa8160a436d379fd8c606933"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps/techniques/static-map",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f18e72081ad8db1cc967174f557ca4e5710dc5ab",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/f18e72081ad8db1cc967174f557ca4e5710dc5ab"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps/techniques/static-map/TECHNIQUE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "808ec935c42e3d02cd1486828be367bcf1d676af",
+      "size": 1151,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/808ec935c42e3d02cd1486828be367bcf1d676af"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8c85c0aff576a1ad923a1f146d604f3266cb9e67",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/8c85c0aff576a1ad923a1f146d604f3266cb9e67"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/3d.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9d254f1209d83fd6f8a313659cfc694ec7b7837",
+      "size": 2292,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/c9d254f1209d83fd6f8a313659cfc694ec7b7837"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/REFERENCE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e5b936b329a826b1238ccfb6cd3d0739d56ccba",
+      "size": 13766,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/3e5b936b329a826b1238ccfb6cd3d0739d56ccba"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/agents",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "55fecd1d047776b41a8935e3328398c76cffb481",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/55fecd1d047776b41a8935e3328398c76cffb481"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/agents/openai.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3174fbd37d5a1f6258af7b0ec5724827c6795b05",
+      "size": 310,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/3174fbd37d5a1f6258af7b0ec5724827c6795b05"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/arabic-text.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06cbd0d5afcd5d616df38a2ec63b9845839683af",
+      "size": 4540,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/06cbd0d5afcd5d616df38a2ec63b9845839683af"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c9147c57799f35d5928242717132d977403d00d8",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/c9147c57799f35d5928242717132d977403d00d8"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/assets/remotion-icon.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "420dbc726662dbb88a144878a49a68dcc6b0cd5b",
+      "size": 1303,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/420dbc726662dbb88a144878a49a68dcc6b0cd5b"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/audio-visualization.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "733b0d350db745429d02ddb3e268ddbaa0106b5c",
+      "size": 4892,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/733b0d350db745429d02ddb3e268ddbaa0106b5c"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/audio.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "153c1cf7f0de09ef3cc5f1da2510b8e792db81c9",
+      "size": 4638,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/153c1cf7f0de09ef3cc5f1da2510b8e792db81c9"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/calculate-metadata.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b66aedbe80a3ba7eb97ffbaf3c1439d1dc76ea07",
+      "size": 3498,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/b66aedbe80a3ba7eb97ffbaf3c1439d1dc76ea07"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/color-correction.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d8719367cf7e564034b262b6df010927e061d15",
+      "size": 7476,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/1d8719367cf7e564034b262b6df010927e061d15"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/compositions.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e042330a43a04ce83ea9a9dae643f19c7e70325f",
+      "size": 5134,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/e042330a43a04ce83ea9a9dae643f19c7e70325f"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/connected-compositions.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57f5e30195040726d8ad04b94654dd396945caa5",
+      "size": 3511,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/57f5e30195040726d8ad04b94654dd396945caa5"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/cropping.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ffb6442e689923a64fd4d34e2285d34dbad8aa4",
+      "size": 1324,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/8ffb6442e689923a64fd4d34e2285d34dbad8aa4"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/effects.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c234120e3ab8f85febfa57993619eb58dfee1b5",
+      "size": 10900,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/3c234120e3ab8f85febfa57993619eb58dfee1b5"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/embedding-videos.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5263d6f1c25df5707e1aecda8b36dae9e1ab20b3",
+      "size": 3725,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/5263d6f1c25df5707e1aecda8b36dae9e1ab20b3"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/ffmpeg.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "492c6cb3e49b36d07a4de10dbc87a5e2c19e8133",
+      "size": 1112,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/492c6cb3e49b36d07a4de10dbc87a5e2c19e8133"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/gifs.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9ac8b7d412ee6ac53a3ae7a1019d75644fb4c63",
+      "size": 3783,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/d9ac8b7d412ee6ac53a3ae7a1019d75644fb4c63"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/google-fonts.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9fd4d32fbf5125c2c195362a5b95af100d121281",
+      "size": 1714,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/9fd4d32fbf5125c2c195362a5b95af100d121281"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/html-in-canvas.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8b665a592a8c39fbc97988877b8fb0d6d1e70d4",
+      "size": 2664,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/b8b665a592a8c39fbc97988877b8fb0d6d1e70d4"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/images.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad9ec1a35aff0d0f425d2fffb439218d00fe47fe",
+      "size": 1568,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/ad9ec1a35aff0d0f425d2fffb439218d00fe47fe"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/light-leaks.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c000a07560ae6611890d4247f99a2eba1b865ec9",
+      "size": 3148,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/c000a07560ae6611890d4247f99a2eba1b865ec9"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/local-fonts.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea51a223a03cf99c85d3bfb256dfb98f1d5c873c",
+      "size": 2570,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/ea51a223a03cf99c85d3bfb256dfb98f1d5c873c"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/lottie.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f146cfee76a1558c54b582511c733356dec3c75a",
+      "size": 1806,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/f146cfee76a1558c54b582511c733356dec3c75a"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/measuring-dom-nodes.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d522b16a2cd6f3989e644eebf0110fd7d48b284f",
+      "size": 995,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/d522b16a2cd6f3989e644eebf0110fd7d48b284f"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/measuring-text.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8faca937ad4bce150e238d7ffa946af3da23b30a",
+      "size": 2801,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/8faca937ad4bce150e238d7ffa946af3da23b30a"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/motion-blur.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df44c4307bae7b417cdc1ff6e47453888ea95938",
+      "size": 4128,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/df44c4307bae7b417cdc1ff6e47453888ea95938"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/multi-scene-video.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6b631d903fd70bee152975c0531e1a2903d4d9a",
+      "size": 1035,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/d6b631d903fd70bee152975c0531e1a2903d4d9a"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/parameters.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87260d4af63f51ba23377ea6cc9e81545da4685e",
+      "size": 2544,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/87260d4af63f51ba23377ea6cc9e81545da4685e"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4fc4630e7924d8d593a69d6bac2cbeda12fe3582",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/4fc4630e7924d8d593a69d6bac2cbeda12fe3582"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/REFERENCE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5df676547e740d5a980931799d969272f8ae5f3",
+      "size": 1030,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/c5df676547e740d5a980931799d969272f8ae5f3"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/agents",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8ea45ad4f119d69d6cb66eff86c16ccdb833f3ca",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/8ea45ad4f119d69d6cb66eff86c16ccdb833f3ca"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/agents/openai.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c60b3a186973a32c89176b88446c1856ef5f3ed6",
+      "size": 293,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/c60b3a186973a32c89176b88446c1856ef5f3ed6"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c9147c57799f35d5928242717132d977403d00d8",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/c9147c57799f35d5928242717132d977403d00d8"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/assets/remotion-icon.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "420dbc726662dbb88a144878a49a68dcc6b0cd5b",
+      "size": 1303,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/420dbc726662dbb88a144878a49a68dcc6b0cd5b"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0f2b6be13112dcd97c3016fb743d8052ed49a17f",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/0f2b6be13112dcd97c3016fb743d8052ed49a17f"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/cesium",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "224092098c90bdf08c2dc6647150f6037d4d296b",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/224092098c90bdf08c2dc6647150f6037d4d296b"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/cesium/TECHNIQUE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "938367e8bfc4ef285255b70980036b9dce8fd4eb",
+      "size": 4044,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/938367e8bfc4ef285255b70980036b9dce8fd4eb"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/cesium/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7aa1393f8b08a5579dce4d4c71d64e080b36f4bd",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/7aa1393f8b08a5579dce4d4c71d64e080b36f4bd"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/cesium/assets/CesiumFlythrough.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f2cbce33ea3112f7d228953bcb327a7a48f69ca",
+      "size": 8376,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/6f2cbce33ea3112f7d228953bcb327a7a48f69ca"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/cesium/assets/cesium-path.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32b60baec5b2ec39252936743bb234616a70b996",
+      "size": 12329,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/32b60baec5b2ec39252936743bb234616a70b996"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/cesium/assets/city-path.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "821973f2d7e085409016b933c644f8f0efabaed0",
+      "size": 223,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/821973f2d7e085409016b933c644f8f0efabaed0"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/cesium/assets/example-Root.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a27a0b7c9491af655e08f6844d2d8cabb6b1a0e",
+      "size": 923,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/9a27a0b7c9491af655e08f6844d2d8cabb6b1a0e"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/cesium/assets/flight-path.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c44ea265b39993a182182a0c34d363e2368b8a7e",
+      "size": 1268,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/c44ea265b39993a182182a0c34d363e2368b8a7e"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/cesium/assets/sample-river.geojson",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5574b30b311150eed82dd332d756dfa5e3cf9256",
+      "size": 6409,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/5574b30b311150eed82dd332d756dfa5e3cf9256"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/cesium/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "026bcbac3dc0172c33f7fb6d59c7d9cbc7c7e59c",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/026bcbac3dc0172c33f7fb6d59c7d9cbc7c7e59c"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/cesium/references/3d-data-sources.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "171a8ade289f3aceb78cbb8065bb5add3336e9a3",
+      "size": 1622,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/171a8ade289f3aceb78cbb8065bb5add3336e9a3"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/cesium/references/3d-flyover-architecture.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc01276b2144bde6b6582311a38d49e3b87b1a72",
+      "size": 7954,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/bc01276b2144bde6b6582311a38d49e3b87b1a72"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/cesium/references/3d-troubleshooting.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "488eb9d438358f604790cccde179e9d37fd52841",
+      "size": 6741,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/488eb9d438358f604790cccde179e9d37fd52841"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/cesium/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3929a272ad67e5bc4c4187e3d5f3d8ef8a2aff4c",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/3929a272ad67e5bc4c4187e3d5f3d8ef8a2aff4c"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/cesium/scripts/prep-cesium-path.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dbb3f0f9756ec5b2d4bcda6d3b37bd6396defda1",
+      "size": 5561,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/dbb3f0f9756ec5b2d4bcda6d3b37bd6396defda1"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/mapbox",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fd50386d121751811c33d05d08a5db949d59892c",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/fd50386d121751811c33d05d08a5db949d59892c"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/mapbox/TECHNIQUE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18b2dc5041b5146e604848c6adf72fedd1f35f38",
+      "size": 12981,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/18b2dc5041b5146e604848c6adf72fedd1f35f38"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/mapbox/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "21b220095ca1c7a032c51d67be71a58cfa5dd38d",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/21b220095ca1c7a032c51d67be71a58cfa5dd38d"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/mapbox/references/render-stability.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc40033139c9cf5baa8160a436d379fd8c606933",
+      "size": 3639,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/fc40033139c9cf5baa8160a436d379fd8c606933"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/maplibre",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f9b8d9ef584c78502ff0cf9a3687e73a8cfb324a",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/f9b8d9ef584c78502ff0cf9a3687e73a8cfb324a"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/maplibre/TECHNIQUE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38977cce4b9f171bea0ee47e9bffa63a6c681285",
+      "size": 13843,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/38977cce4b9f171bea0ee47e9bffa63a6c681285"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/maplibre/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "21b220095ca1c7a032c51d67be71a58cfa5dd38d",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/21b220095ca1c7a032c51d67be71a58cfa5dd38d"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/maplibre/references/render-stability.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc40033139c9cf5baa8160a436d379fd8c606933",
+      "size": 3639,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/fc40033139c9cf5baa8160a436d379fd8c606933"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/maptiler",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b390ace00c2e390e6fca2eadb4684aee593c01f6",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/b390ace00c2e390e6fca2eadb4684aee593c01f6"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/maptiler/TECHNIQUE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25d6b5afac1cc69da5a85bc0223c41e0e2674c97",
+      "size": 3603,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/25d6b5afac1cc69da5a85bc0223c41e0e2674c97"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/maptiler/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8b97dfee2b7a9ba98d99a11914edb56d71d5dc14",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/8b97dfee2b7a9ba98d99a11914edb56d71d5dc14"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/maptiler/assets/MapTilerVectorElement.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85be0cc32371f9b6b6496e7e7b35dbcd7fa0dac8",
+      "size": 1535,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/85be0cc32371f9b6b6496e7e7b35dbcd7fa0dac8"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/maptiler/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8d3a4503542dce2d2226a8bbda63e6d7c3849bdb",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/8d3a4503542dce2d2226a8bbda63e6d7c3849bdb"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/maptiler/references/map-data-sources.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7362fad7b7d777a2a3b0d76cea8c0781c4340af3",
+      "size": 4697,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/7362fad7b7d777a2a3b0d76cea8c0781c4340af3"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/maptiler/references/render-stability.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc40033139c9cf5baa8160a436d379fd8c606933",
+      "size": 3639,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/fc40033139c9cf5baa8160a436d379fd8c606933"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/static-map",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c607d0c3f4c1a2d491c30adfc4a694150d9cd9da",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/c607d0c3f4c1a2d491c30adfc4a694150d9cd9da"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/static-map/TECHNIQUE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f23bbc333c2b0d8d7e8ed0489b90fa8b5e104c1",
+      "size": 1138,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/5f23bbc333c2b0d8d7e8ed0489b90fa8b5e104c1"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/sequencing.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9843a701bd4774a59b3348e1e7b064b01746e724",
+      "size": 1293,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/9843a701bd4774a59b3348e1e7b064b01746e724"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/sfx.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9354fe7fbd39087f73e6fb7456d1fbf836fafde1",
+      "size": 1823,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/9354fe7fbd39087f73e6fb7456d1fbf836fafde1"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/silence-detection.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d67110c62769171c5e3d8491fbc49f50746d2c94",
+      "size": 2593,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/d67110c62769171c5e3d8491fbc49f50746d2c94"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/text-highlights.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a39b42c4118faa309ed999d9fea3bbbf8529535f",
+      "size": 1851,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/a39b42c4118faa309ed999d9fea3bbbf8529535f"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/timing-props.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2d81e37ec82ac1c5bb730623a70a1a3590531f3",
+      "size": 3368,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/e2d81e37ec82ac1c5bb730623a70a1a3590531f3"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/timing.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c224f8de06e3e2a4623e73171b4e3733546ff73",
+      "size": 3315,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/4c224f8de06e3e2a4623e73171b4e3733546ff73"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/transitions.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84b30b9e9d8ca8dce86a225eb96c9bd79791daa2",
+      "size": 9139,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/84b30b9e9d8ca8dce86a225eb96c9bd79791daa2"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/video-editing.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36312ba9c906201e3ddb4b2bdd49776b127070e1",
+      "size": 5739,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/36312ba9c906201e3ddb4b2bdd49776b127070e1"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/video-matting.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44eae5301cd15914851e017e2292b7d9bd9404b0",
+      "size": 3385,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/44eae5301cd15914851e017e2292b7d9bd9404b0"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-multimedia",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "30e6d4163562a4394c3edeaca1b69bd7e0d14ee2",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/30e6d4163562a4394c3edeaca1b69bd7e0d14ee2"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-multimedia/REFERENCE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6f8d31c63974c1c26c1a435d03c6a723b60e154",
+      "size": 705,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/d6f8d31c63974c1c26c1a435d03c6a723b60e154"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-multimedia/agents",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2d0dc43246b875d3fb868edbcdcbc890f9f30059",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/2d0dc43246b875d3fb868edbcdcbc890f9f30059"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-multimedia/agents/openai.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fbb5246825fae7ffc62a66512e6e7e37e2cf001d",
+      "size": 317,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/fbb5246825fae7ffc62a66512e6e7e37e2cf001d"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-multimedia/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c9147c57799f35d5928242717132d977403d00d8",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/c9147c57799f35d5928242717132d977403d00d8"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-multimedia/assets/remotion-icon.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "420dbc726662dbb88a144878a49a68dcc6b0cd5b",
+      "size": 1303,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/420dbc726662dbb88a144878a49a68dcc6b0cd5b"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-multimedia/get-audio-duration.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1678eb3c7017a57eaddf43f6957edd1c48045eb0",
+      "size": 1507,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/1678eb3c7017a57eaddf43f6957edd1c48045eb0"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-multimedia/get-video-dimensions.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8071a2bbac76ae5c045b90aad84ec15ccaf61919",
+      "size": 1797,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/8071a2bbac76ae5c045b90aad84ec15ccaf61919"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-multimedia/get-video-duration.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55bbb8635e0161594b87dbc47c12014362840f5b",
+      "size": 1469,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/55bbb8635e0161594b87dbc47c12014362840f5b"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-render",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "394cff0e3579a35c13a382014df974bb4d0d9dba",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/394cff0e3579a35c13a382014df974bb4d0d9dba"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-render/REFERENCE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6ac159420689ed03f639cad9064cf2fb696052a",
+      "size": 3014,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/f6ac159420689ed03f639cad9064cf2fb696052a"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-render/agents",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f19f101a55c998b36a1fc0b3744f2a7b80d1c6c7",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/f19f101a55c998b36a1fc0b3744f2a7b80d1c6c7"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-render/agents/openai.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da473ab10489602492e5e043c62b1ac4e9dd0f14",
+      "size": 286,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/da473ab10489602492e5e043c62b1ac4e9dd0f14"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-render/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c9147c57799f35d5928242717132d977403d00d8",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/c9147c57799f35d5928242717132d977403d00d8"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-render/assets/remotion-icon.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "420dbc726662dbb88a144878a49a68dcc6b0cd5b",
+      "size": 1303,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/420dbc726662dbb88a144878a49a68dcc6b0cd5b"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-render/opentimeline.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98c9dd0b434bf7e280c988159f80136af71754f8",
+      "size": 19794,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/98c9dd0b434bf7e280c988159f80136af71754f8"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-render/transparent-videos.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dce5de5082e9cd3dadd04126e254ad8b61238234",
+      "size": 2267,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/dce5de5082e9cd3dadd04126e254ad8b61238234"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-saas",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "288b858ab439e27fc85cc39f1d15545bdeceff38",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/288b858ab439e27fc85cc39f1d15545bdeceff38"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-saas/REFERENCE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "114761dee92bff00bd1f30d424cb0637d3e4cd8b",
+      "size": 1053,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/114761dee92bff00bd1f30d424cb0637d3e4cd8b"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-saas/agents",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9a3f84a79e36404971abe48538885872aafc185a",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/9a3f84a79e36404971abe48538885872aafc185a"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-saas/agents/openai.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9507e56d1fb17364b587f664aefc10f20d741ea",
+      "size": 283,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/e9507e56d1fb17364b587f664aefc10f20d741ea"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-saas/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c9147c57799f35d5928242717132d977403d00d8",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/c9147c57799f35d5928242717132d977403d00d8"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-saas/assets/remotion-icon.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "420dbc726662dbb88a144878a49a68dcc6b0cd5b",
+      "size": 1303,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/420dbc726662dbb88a144878a49a68dcc6b0cd5b"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-saas/framework.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa2448b62c6f4838b782e3d88ddcbb40c1d19cef",
+      "size": 908,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/aa2448b62c6f4838b782e3d88ddcbb40c1d19cef"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-saas/player.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7cc9185f3b4c64a7db638415bc6b3b3e914c2c69",
+      "size": 942,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/7cc9185f3b4c64a7db638415bc6b3b3e914c2c69"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-saas/rendering.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b73d940b84b23a6600cf52a18085f3f73f1e7354",
+      "size": 4247,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/b73d940b84b23a6600cf52a18085f3f73f1e7354"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-studio",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4d33ffb08efc2961592975ee663e017bff84bb74",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/4d33ffb08efc2961592975ee663e017bff84bb74"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-studio/REFERENCE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e3e185cad3e0923eb36925a0f2d132b0cf21c55",
+      "size": 1537,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/0e3e185cad3e0923eb36925a0f2d132b0cf21c55"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-studio/agents",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9cebfcd36c0317c961a13ef35e2c100bf2e94a7e",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/9cebfcd36c0317c961a13ef35e2c100bf2e94a7e"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-studio/agents/openai.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd0ff182de1963e9e2250294976cd1da33bba6cd",
+      "size": 237,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/dd0ff182de1963e9e2250294976cd1da33bba6cd"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-studio/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c9147c57799f35d5928242717132d977403d00d8",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/c9147c57799f35d5928242717132d977403d00d8"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-studio/assets/remotion-icon.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "420dbc726662dbb88a144878a49a68dcc6b0cd5b",
+      "size": 1303,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/420dbc726662dbb88a144878a49a68dcc6b0cd5b"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-upgrade",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "27290f675a1c3b3c027f072f2895177c19a70127",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/27290f675a1c3b3c027f072f2895177c19a70127"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-upgrade/REFERENCE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40274bc60c6f5f7284cd2ef611e3bd8b73ce8e92",
+      "size": 1947,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/40274bc60c6f5f7284cd2ef611e3bd8b73ce8e92"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-upgrade/agents",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "476dbe1d5e1621bda539812a6e2c17a8711a2a00",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/476dbe1d5e1621bda539812a6e2c17a8711a2a00"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-upgrade/agents/openai.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8b1905afc820dd2fa12c2afc00236ee63956560",
+      "size": 282,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/b8b1905afc820dd2fa12c2afc00236ee63956560"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-upgrade/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c9147c57799f35d5928242717132d977403d00d8",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/c9147c57799f35d5928242717132d977403d00d8"
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-upgrade/assets/remotion-icon.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "420dbc726662dbb88a144878a49a68dcc6b0cd5b",
+      "size": 1303,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/420dbc726662dbb88a144878a49a68dcc6b0cd5b"
+    },
+    {
+      "path": "skills/remotion-captions",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b1c25d395aa802d665fe8756dc762959db351bbe",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/b1c25d395aa802d665fe8756dc762959db351bbe"
+    },
+    {
+      "path": "skills/remotion-captions/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19bc3a7225f8235a9330c7dd6eff6d40bcd8c64a",
+      "size": 1172,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/19bc3a7225f8235a9330c7dd6eff6d40bcd8c64a"
+    },
+    {
+      "path": "skills/remotion-captions/agents",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d05190d8ad758fdb5b6b35a5f0e2a8112ca2cf59",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/d05190d8ad758fdb5b6b35a5f0e2a8112ca2cf59"
+    },
+    {
+      "path": "skills/remotion-captions/agents/openai.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3851301aa1e8a8ac9287c705f1679f6fa9fa033",
+      "size": 305,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/f3851301aa1e8a8ac9287c705f1679f6fa9fa033"
+    },
+    {
+      "path": "skills/remotion-captions/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c9147c57799f35d5928242717132d977403d00d8",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/c9147c57799f35d5928242717132d977403d00d8"
+    },
+    {
+      "path": "skills/remotion-captions/assets/remotion-icon.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "420dbc726662dbb88a144878a49a68dcc6b0cd5b",
+      "size": 1303,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/420dbc726662dbb88a144878a49a68dcc6b0cd5b"
+    },
+    {
+      "path": "skills/remotion-captions/display-captions.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7566c1eca568a678fac7e3e47968e62640c667ce",
+      "size": 5951,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/7566c1eca568a678fac7e3e47968e62640c667ce"
+    },
+    {
+      "path": "skills/remotion-captions/import-srt-captions.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a809442e3bdb42b3c49ba0d7bfa6f2973e3b427",
+      "size": 2231,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/1a809442e3bdb42b3c49ba0d7bfa6f2973e3b427"
+    },
+    {
+      "path": "skills/remotion-captions/transcribe-captions.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1818b7446282f53aa6157d1560b275b86c2bf32e",
+      "size": 5533,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/1818b7446282f53aa6157d1560b275b86c2bf32e"
+    },
+    {
+      "path": "skills/remotion-create",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e95227be2ad854ca5563f334387f057328f49be3",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/e95227be2ad854ca5563f334387f057328f49be3"
+    },
+    {
+      "path": "skills/remotion-create/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a10234e8a9e3274d353555d385362728bfc6575",
+      "size": 3073,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/6a10234e8a9e3274d353555d385362728bfc6575"
+    },
+    {
+      "path": "skills/remotion-create/agents",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "33a028b833934f1bef354646c304a0946b0d292b",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/33a028b833934f1bef354646c304a0946b0d292b"
+    },
+    {
+      "path": "skills/remotion-create/agents/openai.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20b2d885b78986cf20386ea487ce95e741bea4b5",
+      "size": 310,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/20b2d885b78986cf20386ea487ce95e741bea4b5"
+    },
+    {
+      "path": "skills/remotion-create/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c9147c57799f35d5928242717132d977403d00d8",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/c9147c57799f35d5928242717132d977403d00d8"
+    },
+    {
+      "path": "skills/remotion-create/assets/remotion-icon.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "420dbc726662dbb88a144878a49a68dcc6b0cd5b",
+      "size": 1303,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/420dbc726662dbb88a144878a49a68dcc6b0cd5b"
+    },
+    {
+      "path": "skills/remotion-create/tailwind.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b902131edd8a38a2cfb5f0498e956a81079f82a3",
+      "size": 386,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/b902131edd8a38a2cfb5f0498e956a81079f82a3"
+    },
+    {
+      "path": "skills/remotion-create/video-layout.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e6bc435ef83df62516c5a7a033809b8539445eb",
+      "size": 498,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/3e6bc435ef83df62516c5a7a033809b8539445eb"
+    },
+    {
+      "path": "skills/remotion-docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e6d63678ed837b715f7c1e6abea532428b49fda6",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/e6d63678ed837b715f7c1e6abea532428b49fda6"
+    },
+    {
+      "path": "skills/remotion-docs/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b270f4df4f01d32ab5850d56bc8b8c3908340853",
+      "size": 1374,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/b270f4df4f01d32ab5850d56bc8b8c3908340853"
+    },
+    {
+      "path": "skills/remotion-docs/agents",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "86b9a22f4b478476ec24ad692b8a86a3994e0e5a",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/86b9a22f4b478476ec24ad692b8a86a3994e0e5a"
+    },
+    {
+      "path": "skills/remotion-docs/agents/openai.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64be533b693e856568907038f0ecf286ab793262",
+      "size": 307,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/64be533b693e856568907038f0ecf286ab793262"
+    },
+    {
+      "path": "skills/remotion-docs/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c9147c57799f35d5928242717132d977403d00d8",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/c9147c57799f35d5928242717132d977403d00d8"
+    },
+    {
+      "path": "skills/remotion-docs/assets/remotion-icon.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "420dbc726662dbb88a144878a49a68dcc6b0cd5b",
+      "size": 1303,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/420dbc726662dbb88a144878a49a68dcc6b0cd5b"
+    },
+    {
+      "path": "skills/remotion-interactivity",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "48744d9b8f86244a751cdb64e5d957bccd33f12e",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/48744d9b8f86244a751cdb64e5d957bccd33f12e"
+    },
+    {
+      "path": "skills/remotion-interactivity/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96ec9a92f58b40d302173293fb553817beaef7af",
+      "size": 14539,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/96ec9a92f58b40d302173293fb553817beaef7af"
+    },
+    {
+      "path": "skills/remotion-interactivity/agents",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b6789d3690d84dfecc01823ac7f26e29a781d0e9",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/b6789d3690d84dfecc01823ac7f26e29a781d0e9"
+    },
+    {
+      "path": "skills/remotion-interactivity/agents/openai.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4152ad53af85e29c5640bfd19f9f2d2903cd2d9",
+      "size": 320,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/e4152ad53af85e29c5640bfd19f9f2d2903cd2d9"
+    },
+    {
+      "path": "skills/remotion-interactivity/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c9147c57799f35d5928242717132d977403d00d8",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/c9147c57799f35d5928242717132d977403d00d8"
+    },
+    {
+      "path": "skills/remotion-interactivity/assets/remotion-icon.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "420dbc726662dbb88a144878a49a68dcc6b0cd5b",
+      "size": 1303,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/420dbc726662dbb88a144878a49a68dcc6b0cd5b"
+    },
+    {
+      "path": "skills/remotion-interactivity/inline-effects.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "910a95d51e3a6b8ba8929d21e1e9af895696f31c",
+      "size": 993,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/910a95d51e3a6b8ba8929d21e1e9af895696f31c"
+    },
+    {
+      "path": "skills/remotion-interactivity/timeline-structure.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c6e143c7bec57e1185ab9590419316e4827a53d",
+      "size": 7042,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/2c6e143c7bec57e1185ab9590419316e4827a53d"
+    },
+    {
+      "path": "skills/remotion-license",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9171a66609e4ad04ba24bdf3fb55e84d6549c462",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/9171a66609e4ad04ba24bdf3fb55e84d6549c462"
+    },
+    {
+      "path": "skills/remotion-license/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b173cbbc939f9427310e52ed812ca7651eb601c",
+      "size": 498,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/9b173cbbc939f9427310e52ed812ca7651eb601c"
+    },
+    {
+      "path": "skills/remotion-license/agents",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e14fdadce41a0faceb1625fac60d5fb06b616cd8",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/e14fdadce41a0faceb1625fac60d5fb06b616cd8"
+    },
+    {
+      "path": "skills/remotion-license/agents/openai.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e84fecbd8b3af7906e909062c471e9ac71331744",
+      "size": 300,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/e84fecbd8b3af7906e909062c471e9ac71331744"
+    },
+    {
+      "path": "skills/remotion-license/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c9147c57799f35d5928242717132d977403d00d8",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/c9147c57799f35d5928242717132d977403d00d8"
+    },
+    {
+      "path": "skills/remotion-license/assets/remotion-icon.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "420dbc726662dbb88a144878a49a68dcc6b0cd5b",
+      "size": 1303,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/420dbc726662dbb88a144878a49a68dcc6b0cd5b"
+    },
+    {
+      "path": "skills/remotion-maps",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "86b1aa244350bd1e042a65725971629ba02bae9f",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/86b1aa244350bd1e042a65725971629ba02bae9f"
+    },
+    {
+      "path": "skills/remotion-maps/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5df676547e740d5a980931799d969272f8ae5f3",
+      "size": 1030,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/c5df676547e740d5a980931799d969272f8ae5f3"
+    },
+    {
+      "path": "skills/remotion-maps/agents",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8ea45ad4f119d69d6cb66eff86c16ccdb833f3ca",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/8ea45ad4f119d69d6cb66eff86c16ccdb833f3ca"
+    },
+    {
+      "path": "skills/remotion-maps/agents/openai.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c60b3a186973a32c89176b88446c1856ef5f3ed6",
+      "size": 293,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/c60b3a186973a32c89176b88446c1856ef5f3ed6"
+    },
+    {
+      "path": "skills/remotion-maps/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c9147c57799f35d5928242717132d977403d00d8",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/c9147c57799f35d5928242717132d977403d00d8"
+    },
+    {
+      "path": "skills/remotion-maps/assets/remotion-icon.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "420dbc726662dbb88a144878a49a68dcc6b0cd5b",
+      "size": 1303,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/420dbc726662dbb88a144878a49a68dcc6b0cd5b"
+    },
+    {
+      "path": "skills/remotion-maps/techniques",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "966fa52a17bf1fe53a0dd2ba4463db4e1705a07b",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/966fa52a17bf1fe53a0dd2ba4463db4e1705a07b"
+    },
+    {
+      "path": "skills/remotion-maps/techniques/cesium",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "224092098c90bdf08c2dc6647150f6037d4d296b",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/224092098c90bdf08c2dc6647150f6037d4d296b"
+    },
+    {
+      "path": "skills/remotion-maps/techniques/cesium/TECHNIQUE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "938367e8bfc4ef285255b70980036b9dce8fd4eb",
+      "size": 4044,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/938367e8bfc4ef285255b70980036b9dce8fd4eb"
+    },
+    {
+      "path": "skills/remotion-maps/techniques/cesium/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7aa1393f8b08a5579dce4d4c71d64e080b36f4bd",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/7aa1393f8b08a5579dce4d4c71d64e080b36f4bd"
+    },
+    {
+      "path": "skills/remotion-maps/techniques/cesium/assets/CesiumFlythrough.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f2cbce33ea3112f7d228953bcb327a7a48f69ca",
+      "size": 8376,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/6f2cbce33ea3112f7d228953bcb327a7a48f69ca"
+    },
+    {
+      "path": "skills/remotion-maps/techniques/cesium/assets/cesium-path.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32b60baec5b2ec39252936743bb234616a70b996",
+      "size": 12329,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/32b60baec5b2ec39252936743bb234616a70b996"
+    },
+    {
+      "path": "skills/remotion-maps/techniques/cesium/assets/city-path.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "821973f2d7e085409016b933c644f8f0efabaed0",
+      "size": 223,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/821973f2d7e085409016b933c644f8f0efabaed0"
+    },
+    {
+      "path": "skills/remotion-maps/techniques/cesium/assets/example-Root.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a27a0b7c9491af655e08f6844d2d8cabb6b1a0e",
+      "size": 923,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/9a27a0b7c9491af655e08f6844d2d8cabb6b1a0e"
+    },
+    {
+      "path": "skills/remotion-maps/techniques/cesium/assets/flight-path.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c44ea265b39993a182182a0c34d363e2368b8a7e",
+      "size": 1268,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/c44ea265b39993a182182a0c34d363e2368b8a7e"
+    },
+    {
+      "path": "skills/remotion-maps/techniques/cesium/assets/sample-river.geojson",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5574b30b311150eed82dd332d756dfa5e3cf9256",
+      "size": 6409,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/5574b30b311150eed82dd332d756dfa5e3cf9256"
+    },
+    {
+      "path": "skills/remotion-maps/techniques/cesium/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "026bcbac3dc0172c33f7fb6d59c7d9cbc7c7e59c",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/026bcbac3dc0172c33f7fb6d59c7d9cbc7c7e59c"
+    },
+    {
+      "path": "skills/remotion-maps/techniques/cesium/references/3d-data-sources.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "171a8ade289f3aceb78cbb8065bb5add3336e9a3",
+      "size": 1622,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/171a8ade289f3aceb78cbb8065bb5add3336e9a3"
+    },
+    {
+      "path": "skills/remotion-maps/techniques/cesium/references/3d-flyover-architecture.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc01276b2144bde6b6582311a38d49e3b87b1a72",
+      "size": 7954,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/bc01276b2144bde6b6582311a38d49e3b87b1a72"
+    },
+    {
+      "path": "skills/remotion-maps/techniques/cesium/references/3d-troubleshooting.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "488eb9d438358f604790cccde179e9d37fd52841",
+      "size": 6741,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/488eb9d438358f604790cccde179e9d37fd52841"
+    },
+    {
+      "path": "skills/remotion-maps/techniques/cesium/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3929a272ad67e5bc4c4187e3d5f3d8ef8a2aff4c",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/3929a272ad67e5bc4c4187e3d5f3d8ef8a2aff4c"
+    },
+    {
+      "path": "skills/remotion-maps/techniques/cesium/scripts/prep-cesium-path.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dbb3f0f9756ec5b2d4bcda6d3b37bd6396defda1",
+      "size": 5561,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/dbb3f0f9756ec5b2d4bcda6d3b37bd6396defda1"
+    },
+    {
+      "path": "skills/remotion-maps/techniques/mapbox",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fd50386d121751811c33d05d08a5db949d59892c",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/fd50386d121751811c33d05d08a5db949d59892c"
+    },
+    {
+      "path": "skills/remotion-maps/techniques/mapbox/TECHNIQUE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18b2dc5041b5146e604848c6adf72fedd1f35f38",
+      "size": 12981,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/18b2dc5041b5146e604848c6adf72fedd1f35f38"
+    },
+    {
+      "path": "skills/remotion-maps/techniques/mapbox/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "21b220095ca1c7a032c51d67be71a58cfa5dd38d",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/21b220095ca1c7a032c51d67be71a58cfa5dd38d"
+    },
+    {
+      "path": "skills/remotion-maps/techniques/mapbox/references/render-stability.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc40033139c9cf5baa8160a436d379fd8c606933",
+      "size": 3639,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/fc40033139c9cf5baa8160a436d379fd8c606933"
+    },
+    {
+      "path": "skills/remotion-maps/techniques/maplibre",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f9b8d9ef584c78502ff0cf9a3687e73a8cfb324a",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/f9b8d9ef584c78502ff0cf9a3687e73a8cfb324a"
+    },
+    {
+      "path": "skills/remotion-maps/techniques/maplibre/TECHNIQUE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38977cce4b9f171bea0ee47e9bffa63a6c681285",
+      "size": 13843,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/38977cce4b9f171bea0ee47e9bffa63a6c681285"
+    },
+    {
+      "path": "skills/remotion-maps/techniques/maplibre/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "21b220095ca1c7a032c51d67be71a58cfa5dd38d",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/21b220095ca1c7a032c51d67be71a58cfa5dd38d"
+    },
+    {
+      "path": "skills/remotion-maps/techniques/maplibre/references/render-stability.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc40033139c9cf5baa8160a436d379fd8c606933",
+      "size": 3639,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/fc40033139c9cf5baa8160a436d379fd8c606933"
+    },
+    {
+      "path": "skills/remotion-maps/techniques/maptiler",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b390ace00c2e390e6fca2eadb4684aee593c01f6",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/b390ace00c2e390e6fca2eadb4684aee593c01f6"
+    },
+    {
+      "path": "skills/remotion-maps/techniques/maptiler/TECHNIQUE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25d6b5afac1cc69da5a85bc0223c41e0e2674c97",
+      "size": 3603,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/25d6b5afac1cc69da5a85bc0223c41e0e2674c97"
+    },
+    {
+      "path": "skills/remotion-maps/techniques/maptiler/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8b97dfee2b7a9ba98d99a11914edb56d71d5dc14",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/8b97dfee2b7a9ba98d99a11914edb56d71d5dc14"
+    },
+    {
+      "path": "skills/remotion-maps/techniques/maptiler/assets/MapTilerVectorElement.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85be0cc32371f9b6b6496e7e7b35dbcd7fa0dac8",
+      "size": 1535,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/85be0cc32371f9b6b6496e7e7b35dbcd7fa0dac8"
+    },
+    {
+      "path": "skills/remotion-maps/techniques/maptiler/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8d3a4503542dce2d2226a8bbda63e6d7c3849bdb",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/8d3a4503542dce2d2226a8bbda63e6d7c3849bdb"
+    },
+    {
+      "path": "skills/remotion-maps/techniques/maptiler/references/map-data-sources.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7362fad7b7d777a2a3b0d76cea8c0781c4340af3",
+      "size": 4697,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/7362fad7b7d777a2a3b0d76cea8c0781c4340af3"
+    },
+    {
+      "path": "skills/remotion-maps/techniques/maptiler/references/render-stability.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc40033139c9cf5baa8160a436d379fd8c606933",
+      "size": 3639,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/fc40033139c9cf5baa8160a436d379fd8c606933"
+    },
+    {
+      "path": "skills/remotion-maps/techniques/static-map",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7b82df3d5d2982806cd685dfeaeeb9209238968e",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/7b82df3d5d2982806cd685dfeaeeb9209238968e"
+    },
+    {
+      "path": "skills/remotion-maps/techniques/static-map/TECHNIQUE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4dd18db5b8e258ba832708adfb42d70a388335cf",
+      "size": 1121,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/4dd18db5b8e258ba832708adfb42d70a388335cf"
+    },
+    {
+      "path": "skills/remotion-markup",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ed1bdb36601a68db7202fcffde196849b97f49a7",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/ed1bdb36601a68db7202fcffde196849b97f49a7"
+    },
+    {
+      "path": "skills/remotion-markup/3d.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9d254f1209d83fd6f8a313659cfc694ec7b7837",
+      "size": 2292,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/c9d254f1209d83fd6f8a313659cfc694ec7b7837"
+    },
+    {
+      "path": "skills/remotion-markup/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3542a6fabae4da1d9299932be9a88b5bd8f10b0e",
+      "size": 13762,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/3542a6fabae4da1d9299932be9a88b5bd8f10b0e"
+    },
+    {
+      "path": "skills/remotion-markup/agents",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "55fecd1d047776b41a8935e3328398c76cffb481",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/55fecd1d047776b41a8935e3328398c76cffb481"
+    },
+    {
+      "path": "skills/remotion-markup/agents/openai.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3174fbd37d5a1f6258af7b0ec5724827c6795b05",
+      "size": 310,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/3174fbd37d5a1f6258af7b0ec5724827c6795b05"
+    },
+    {
+      "path": "skills/remotion-markup/arabic-text.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06cbd0d5afcd5d616df38a2ec63b9845839683af",
+      "size": 4540,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/06cbd0d5afcd5d616df38a2ec63b9845839683af"
+    },
+    {
+      "path": "skills/remotion-markup/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c9147c57799f35d5928242717132d977403d00d8",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/c9147c57799f35d5928242717132d977403d00d8"
+    },
+    {
+      "path": "skills/remotion-markup/assets/remotion-icon.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "420dbc726662dbb88a144878a49a68dcc6b0cd5b",
+      "size": 1303,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/420dbc726662dbb88a144878a49a68dcc6b0cd5b"
+    },
+    {
+      "path": "skills/remotion-markup/audio-visualization.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "733b0d350db745429d02ddb3e268ddbaa0106b5c",
+      "size": 4892,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/733b0d350db745429d02ddb3e268ddbaa0106b5c"
+    },
+    {
+      "path": "skills/remotion-markup/audio.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6249ce2e8773b329356786f6b3e5c3e724468df",
+      "size": 4651,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/f6249ce2e8773b329356786f6b3e5c3e724468df"
+    },
+    {
+      "path": "skills/remotion-markup/calculate-metadata.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d25e7a63572427acd57a30d1f2e8159a856804c",
+      "size": 3537,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/4d25e7a63572427acd57a30d1f2e8159a856804c"
+    },
+    {
+      "path": "skills/remotion-markup/color-correction.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d8719367cf7e564034b262b6df010927e061d15",
+      "size": 7476,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/1d8719367cf7e564034b262b6df010927e061d15"
+    },
+    {
+      "path": "skills/remotion-markup/compositions.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f13221416437ee1b6af6799005515cb6a4df573",
+      "size": 5147,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/7f13221416437ee1b6af6799005515cb6a4df573"
+    },
+    {
+      "path": "skills/remotion-markup/connected-compositions.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1cca6227df90349ca8415cb1c50ba3da4e9e944d",
+      "size": 3524,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/1cca6227df90349ca8415cb1c50ba3da4e9e944d"
+    },
+    {
+      "path": "skills/remotion-markup/cropping.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce05eb9cbbdf8844851938082fdd1808747283fa",
+      "size": 1315,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/ce05eb9cbbdf8844851938082fdd1808747283fa"
+    },
+    {
+      "path": "skills/remotion-markup/effects.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c234120e3ab8f85febfa57993619eb58dfee1b5",
+      "size": 10900,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/3c234120e3ab8f85febfa57993619eb58dfee1b5"
+    },
+    {
+      "path": "skills/remotion-markup/embedding-videos.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5263d6f1c25df5707e1aecda8b36dae9e1ab20b3",
+      "size": 3725,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/5263d6f1c25df5707e1aecda8b36dae9e1ab20b3"
+    },
+    {
+      "path": "skills/remotion-markup/ffmpeg.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "492c6cb3e49b36d07a4de10dbc87a5e2c19e8133",
+      "size": 1112,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/492c6cb3e49b36d07a4de10dbc87a5e2c19e8133"
+    },
+    {
+      "path": "skills/remotion-markup/gifs.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9ac8b7d412ee6ac53a3ae7a1019d75644fb4c63",
+      "size": 3783,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/d9ac8b7d412ee6ac53a3ae7a1019d75644fb4c63"
+    },
+    {
+      "path": "skills/remotion-markup/google-fonts.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9fd4d32fbf5125c2c195362a5b95af100d121281",
+      "size": 1714,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/9fd4d32fbf5125c2c195362a5b95af100d121281"
+    },
+    {
+      "path": "skills/remotion-markup/html-in-canvas.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8b665a592a8c39fbc97988877b8fb0d6d1e70d4",
+      "size": 2664,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/b8b665a592a8c39fbc97988877b8fb0d6d1e70d4"
+    },
+    {
+      "path": "skills/remotion-markup/images.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad9ec1a35aff0d0f425d2fffb439218d00fe47fe",
+      "size": 1568,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/ad9ec1a35aff0d0f425d2fffb439218d00fe47fe"
+    },
+    {
+      "path": "skills/remotion-markup/light-leaks.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c000a07560ae6611890d4247f99a2eba1b865ec9",
+      "size": 3148,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/c000a07560ae6611890d4247f99a2eba1b865ec9"
+    },
+    {
+      "path": "skills/remotion-markup/local-fonts.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea51a223a03cf99c85d3bfb256dfb98f1d5c873c",
+      "size": 2570,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/ea51a223a03cf99c85d3bfb256dfb98f1d5c873c"
+    },
+    {
+      "path": "skills/remotion-markup/lottie.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f146cfee76a1558c54b582511c733356dec3c75a",
+      "size": 1806,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/f146cfee76a1558c54b582511c733356dec3c75a"
+    },
+    {
+      "path": "skills/remotion-markup/measuring-dom-nodes.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d522b16a2cd6f3989e644eebf0110fd7d48b284f",
+      "size": 995,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/d522b16a2cd6f3989e644eebf0110fd7d48b284f"
+    },
+    {
+      "path": "skills/remotion-markup/measuring-text.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8faca937ad4bce150e238d7ffa946af3da23b30a",
+      "size": 2801,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/8faca937ad4bce150e238d7ffa946af3da23b30a"
+    },
+    {
+      "path": "skills/remotion-markup/motion-blur.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df44c4307bae7b417cdc1ff6e47453888ea95938",
+      "size": 4128,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/df44c4307bae7b417cdc1ff6e47453888ea95938"
+    },
+    {
+      "path": "skills/remotion-markup/multi-scene-video.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95dba219468b21352c3cfb867b2f9630af80a152",
+      "size": 1048,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/95dba219468b21352c3cfb867b2f9630af80a152"
+    },
+    {
+      "path": "skills/remotion-markup/parameters.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87260d4af63f51ba23377ea6cc9e81545da4685e",
+      "size": 2544,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/87260d4af63f51ba23377ea6cc9e81545da4685e"
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8c7d4f97936ce01f14132ccabc9033e337b8c975",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/8c7d4f97936ce01f14132ccabc9033e337b8c975"
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps/REFERENCE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5df676547e740d5a980931799d969272f8ae5f3",
+      "size": 1030,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/c5df676547e740d5a980931799d969272f8ae5f3"
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps/agents",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8ea45ad4f119d69d6cb66eff86c16ccdb833f3ca",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/8ea45ad4f119d69d6cb66eff86c16ccdb833f3ca"
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps/agents/openai.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c60b3a186973a32c89176b88446c1856ef5f3ed6",
+      "size": 293,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/c60b3a186973a32c89176b88446c1856ef5f3ed6"
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c9147c57799f35d5928242717132d977403d00d8",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/c9147c57799f35d5928242717132d977403d00d8"
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps/assets/remotion-icon.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "420dbc726662dbb88a144878a49a68dcc6b0cd5b",
+      "size": 1303,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/420dbc726662dbb88a144878a49a68dcc6b0cd5b"
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps/techniques",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "62ce147a31a2d984772d4f2d2b7c6eb3f714bf3e",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/62ce147a31a2d984772d4f2d2b7c6eb3f714bf3e"
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps/techniques/cesium",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "224092098c90bdf08c2dc6647150f6037d4d296b",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/224092098c90bdf08c2dc6647150f6037d4d296b"
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps/techniques/cesium/TECHNIQUE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "938367e8bfc4ef285255b70980036b9dce8fd4eb",
+      "size": 4044,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/938367e8bfc4ef285255b70980036b9dce8fd4eb"
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps/techniques/cesium/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7aa1393f8b08a5579dce4d4c71d64e080b36f4bd",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/7aa1393f8b08a5579dce4d4c71d64e080b36f4bd"
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps/techniques/cesium/assets/CesiumFlythrough.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f2cbce33ea3112f7d228953bcb327a7a48f69ca",
+      "size": 8376,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/6f2cbce33ea3112f7d228953bcb327a7a48f69ca"
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps/techniques/cesium/assets/cesium-path.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32b60baec5b2ec39252936743bb234616a70b996",
+      "size": 12329,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/32b60baec5b2ec39252936743bb234616a70b996"
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps/techniques/cesium/assets/city-path.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "821973f2d7e085409016b933c644f8f0efabaed0",
+      "size": 223,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/821973f2d7e085409016b933c644f8f0efabaed0"
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps/techniques/cesium/assets/example-Root.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a27a0b7c9491af655e08f6844d2d8cabb6b1a0e",
+      "size": 923,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/9a27a0b7c9491af655e08f6844d2d8cabb6b1a0e"
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps/techniques/cesium/assets/flight-path.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c44ea265b39993a182182a0c34d363e2368b8a7e",
+      "size": 1268,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/c44ea265b39993a182182a0c34d363e2368b8a7e"
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps/techniques/cesium/assets/sample-river.geojson",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5574b30b311150eed82dd332d756dfa5e3cf9256",
+      "size": 6409,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/5574b30b311150eed82dd332d756dfa5e3cf9256"
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps/techniques/cesium/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "026bcbac3dc0172c33f7fb6d59c7d9cbc7c7e59c",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/026bcbac3dc0172c33f7fb6d59c7d9cbc7c7e59c"
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps/techniques/cesium/references/3d-data-sources.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "171a8ade289f3aceb78cbb8065bb5add3336e9a3",
+      "size": 1622,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/171a8ade289f3aceb78cbb8065bb5add3336e9a3"
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps/techniques/cesium/references/3d-flyover-architecture.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc01276b2144bde6b6582311a38d49e3b87b1a72",
+      "size": 7954,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/bc01276b2144bde6b6582311a38d49e3b87b1a72"
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps/techniques/cesium/references/3d-troubleshooting.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "488eb9d438358f604790cccde179e9d37fd52841",
+      "size": 6741,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/488eb9d438358f604790cccde179e9d37fd52841"
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps/techniques/cesium/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3929a272ad67e5bc4c4187e3d5f3d8ef8a2aff4c",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/3929a272ad67e5bc4c4187e3d5f3d8ef8a2aff4c"
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps/techniques/cesium/scripts/prep-cesium-path.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dbb3f0f9756ec5b2d4bcda6d3b37bd6396defda1",
+      "size": 5561,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/dbb3f0f9756ec5b2d4bcda6d3b37bd6396defda1"
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps/techniques/mapbox",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fd50386d121751811c33d05d08a5db949d59892c",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/fd50386d121751811c33d05d08a5db949d59892c"
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps/techniques/mapbox/TECHNIQUE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18b2dc5041b5146e604848c6adf72fedd1f35f38",
+      "size": 12981,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/18b2dc5041b5146e604848c6adf72fedd1f35f38"
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps/techniques/mapbox/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "21b220095ca1c7a032c51d67be71a58cfa5dd38d",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/21b220095ca1c7a032c51d67be71a58cfa5dd38d"
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps/techniques/mapbox/references/render-stability.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc40033139c9cf5baa8160a436d379fd8c606933",
+      "size": 3639,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/fc40033139c9cf5baa8160a436d379fd8c606933"
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps/techniques/maplibre",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f9b8d9ef584c78502ff0cf9a3687e73a8cfb324a",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/f9b8d9ef584c78502ff0cf9a3687e73a8cfb324a"
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps/techniques/maplibre/TECHNIQUE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38977cce4b9f171bea0ee47e9bffa63a6c681285",
+      "size": 13843,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/38977cce4b9f171bea0ee47e9bffa63a6c681285"
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps/techniques/maplibre/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "21b220095ca1c7a032c51d67be71a58cfa5dd38d",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/21b220095ca1c7a032c51d67be71a58cfa5dd38d"
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps/techniques/maplibre/references/render-stability.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc40033139c9cf5baa8160a436d379fd8c606933",
+      "size": 3639,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/fc40033139c9cf5baa8160a436d379fd8c606933"
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps/techniques/maptiler",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b390ace00c2e390e6fca2eadb4684aee593c01f6",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/b390ace00c2e390e6fca2eadb4684aee593c01f6"
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps/techniques/maptiler/TECHNIQUE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25d6b5afac1cc69da5a85bc0223c41e0e2674c97",
+      "size": 3603,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/25d6b5afac1cc69da5a85bc0223c41e0e2674c97"
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps/techniques/maptiler/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8b97dfee2b7a9ba98d99a11914edb56d71d5dc14",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/8b97dfee2b7a9ba98d99a11914edb56d71d5dc14"
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps/techniques/maptiler/assets/MapTilerVectorElement.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85be0cc32371f9b6b6496e7e7b35dbcd7fa0dac8",
+      "size": 1535,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/85be0cc32371f9b6b6496e7e7b35dbcd7fa0dac8"
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps/techniques/maptiler/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8d3a4503542dce2d2226a8bbda63e6d7c3849bdb",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/8d3a4503542dce2d2226a8bbda63e6d7c3849bdb"
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps/techniques/maptiler/references/map-data-sources.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7362fad7b7d777a2a3b0d76cea8c0781c4340af3",
+      "size": 4697,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/7362fad7b7d777a2a3b0d76cea8c0781c4340af3"
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps/techniques/maptiler/references/render-stability.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc40033139c9cf5baa8160a436d379fd8c606933",
+      "size": 3639,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/fc40033139c9cf5baa8160a436d379fd8c606933"
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps/techniques/static-map",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "25d65df4b0783a9e74c841b8d410a9b43a9fe95a",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/25d65df4b0783a9e74c841b8d410a9b43a9fe95a"
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps/techniques/static-map/TECHNIQUE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "025b0710630d940f33cdf66082383419195560c9",
+      "size": 1116,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/025b0710630d940f33cdf66082383419195560c9"
+    },
+    {
+      "path": "skills/remotion-markup/sequencing.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c9407953934f866db17bb352225a25e62c5e2b3",
+      "size": 1306,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/3c9407953934f866db17bb352225a25e62c5e2b3"
+    },
+    {
+      "path": "skills/remotion-markup/sfx.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9354fe7fbd39087f73e6fb7456d1fbf836fafde1",
+      "size": 1823,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/9354fe7fbd39087f73e6fb7456d1fbf836fafde1"
+    },
+    {
+      "path": "skills/remotion-markup/silence-detection.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d67110c62769171c5e3d8491fbc49f50746d2c94",
+      "size": 2593,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/d67110c62769171c5e3d8491fbc49f50746d2c94"
+    },
+    {
+      "path": "skills/remotion-markup/text-highlights.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7462c8ac00da2b14bbfc3c4b168666b015bd14bd",
+      "size": 1842,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/7462c8ac00da2b14bbfc3c4b168666b015bd14bd"
+    },
+    {
+      "path": "skills/remotion-markup/timing-props.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9bbb519f15eabe7c9d710974b59257223d43a81b",
+      "size": 3304,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/9bbb519f15eabe7c9d710974b59257223d43a81b"
+    },
+    {
+      "path": "skills/remotion-markup/timing.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c224f8de06e3e2a4623e73171b4e3733546ff73",
+      "size": 3315,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/4c224f8de06e3e2a4623e73171b4e3733546ff73"
+    },
+    {
+      "path": "skills/remotion-markup/transitions.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b684f51220809b7eca0314fedf440b22efe1040",
+      "size": 9152,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/3b684f51220809b7eca0314fedf440b22efe1040"
+    },
+    {
+      "path": "skills/remotion-markup/video-editing.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "257e992458cedf6f7f1c04e01832660212b296f2",
+      "size": 5734,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/257e992458cedf6f7f1c04e01832660212b296f2"
+    },
+    {
+      "path": "skills/remotion-markup/video-matting.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44eae5301cd15914851e017e2292b7d9bd9404b0",
+      "size": 3385,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/44eae5301cd15914851e017e2292b7d9bd9404b0"
+    },
+    {
+      "path": "skills/remotion-multimedia",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "de449676cd225c689894a1bb36028ede92f728cd",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/de449676cd225c689894a1bb36028ede92f728cd"
+    },
+    {
+      "path": "skills/remotion-multimedia/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6f8d31c63974c1c26c1a435d03c6a723b60e154",
+      "size": 705,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/d6f8d31c63974c1c26c1a435d03c6a723b60e154"
+    },
+    {
+      "path": "skills/remotion-multimedia/agents",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2d0dc43246b875d3fb868edbcdcbc890f9f30059",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/2d0dc43246b875d3fb868edbcdcbc890f9f30059"
+    },
+    {
+      "path": "skills/remotion-multimedia/agents/openai.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fbb5246825fae7ffc62a66512e6e7e37e2cf001d",
+      "size": 317,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/fbb5246825fae7ffc62a66512e6e7e37e2cf001d"
+    },
+    {
+      "path": "skills/remotion-multimedia/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c9147c57799f35d5928242717132d977403d00d8",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/c9147c57799f35d5928242717132d977403d00d8"
+    },
+    {
+      "path": "skills/remotion-multimedia/assets/remotion-icon.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "420dbc726662dbb88a144878a49a68dcc6b0cd5b",
+      "size": 1303,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/420dbc726662dbb88a144878a49a68dcc6b0cd5b"
+    },
+    {
+      "path": "skills/remotion-multimedia/get-audio-duration.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1678eb3c7017a57eaddf43f6957edd1c48045eb0",
+      "size": 1507,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/1678eb3c7017a57eaddf43f6957edd1c48045eb0"
+    },
+    {
+      "path": "skills/remotion-multimedia/get-video-dimensions.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8071a2bbac76ae5c045b90aad84ec15ccaf61919",
+      "size": 1797,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/8071a2bbac76ae5c045b90aad84ec15ccaf61919"
+    },
+    {
+      "path": "skills/remotion-multimedia/get-video-duration.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55bbb8635e0161594b87dbc47c12014362840f5b",
+      "size": 1469,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/55bbb8635e0161594b87dbc47c12014362840f5b"
+    },
+    {
+      "path": "skills/remotion-render",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0f6ad87911e6299767fcc7c957c6ce1be550a517",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/0f6ad87911e6299767fcc7c957c6ce1be550a517"
+    },
+    {
+      "path": "skills/remotion-render/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68cd89e9c1c7604dc6039f2dd2ce842fb66e3a4c",
+      "size": 3005,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/68cd89e9c1c7604dc6039f2dd2ce842fb66e3a4c"
+    },
+    {
+      "path": "skills/remotion-render/agents",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f19f101a55c998b36a1fc0b3744f2a7b80d1c6c7",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/f19f101a55c998b36a1fc0b3744f2a7b80d1c6c7"
+    },
+    {
+      "path": "skills/remotion-render/agents/openai.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da473ab10489602492e5e043c62b1ac4e9dd0f14",
+      "size": 286,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/da473ab10489602492e5e043c62b1ac4e9dd0f14"
+    },
+    {
+      "path": "skills/remotion-render/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c9147c57799f35d5928242717132d977403d00d8",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/c9147c57799f35d5928242717132d977403d00d8"
+    },
+    {
+      "path": "skills/remotion-render/assets/remotion-icon.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "420dbc726662dbb88a144878a49a68dcc6b0cd5b",
+      "size": 1303,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/420dbc726662dbb88a144878a49a68dcc6b0cd5b"
+    },
+    {
+      "path": "skills/remotion-render/opentimeline.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98c9dd0b434bf7e280c988159f80136af71754f8",
+      "size": 19794,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/98c9dd0b434bf7e280c988159f80136af71754f8"
+    },
+    {
+      "path": "skills/remotion-render/transparent-videos.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dce5de5082e9cd3dadd04126e254ad8b61238234",
+      "size": 2267,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/dce5de5082e9cd3dadd04126e254ad8b61238234"
+    },
+    {
+      "path": "skills/remotion-saas",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1e344d7345b58df5be33156d07260cc1dbe39dd3",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/1e344d7345b58df5be33156d07260cc1dbe39dd3"
+    },
+    {
+      "path": "skills/remotion-saas/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "114761dee92bff00bd1f30d424cb0637d3e4cd8b",
+      "size": 1053,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/114761dee92bff00bd1f30d424cb0637d3e4cd8b"
+    },
+    {
+      "path": "skills/remotion-saas/agents",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9a3f84a79e36404971abe48538885872aafc185a",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/9a3f84a79e36404971abe48538885872aafc185a"
+    },
+    {
+      "path": "skills/remotion-saas/agents/openai.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9507e56d1fb17364b587f664aefc10f20d741ea",
+      "size": 283,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/e9507e56d1fb17364b587f664aefc10f20d741ea"
+    },
+    {
+      "path": "skills/remotion-saas/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c9147c57799f35d5928242717132d977403d00d8",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/c9147c57799f35d5928242717132d977403d00d8"
+    },
+    {
+      "path": "skills/remotion-saas/assets/remotion-icon.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "420dbc726662dbb88a144878a49a68dcc6b0cd5b",
+      "size": 1303,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/420dbc726662dbb88a144878a49a68dcc6b0cd5b"
+    },
+    {
+      "path": "skills/remotion-saas/framework.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa2448b62c6f4838b782e3d88ddcbb40c1d19cef",
+      "size": 908,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/aa2448b62c6f4838b782e3d88ddcbb40c1d19cef"
+    },
+    {
+      "path": "skills/remotion-saas/player.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7cc9185f3b4c64a7db638415bc6b3b3e914c2c69",
+      "size": 942,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/7cc9185f3b4c64a7db638415bc6b3b3e914c2c69"
+    },
+    {
+      "path": "skills/remotion-saas/rendering.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "797689cd3b4aa393b9ce07eec14882efd0183199",
+      "size": 4238,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/797689cd3b4aa393b9ce07eec14882efd0183199"
+    },
+    {
+      "path": "skills/remotion-studio",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "672428ed56129fa7cfff91f09f76634372692b09",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/672428ed56129fa7cfff91f09f76634372692b09"
+    },
+    {
+      "path": "skills/remotion-studio/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e3e185cad3e0923eb36925a0f2d132b0cf21c55",
+      "size": 1537,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/0e3e185cad3e0923eb36925a0f2d132b0cf21c55"
+    },
+    {
+      "path": "skills/remotion-studio/agents",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9cebfcd36c0317c961a13ef35e2c100bf2e94a7e",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/9cebfcd36c0317c961a13ef35e2c100bf2e94a7e"
+    },
+    {
+      "path": "skills/remotion-studio/agents/openai.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd0ff182de1963e9e2250294976cd1da33bba6cd",
+      "size": 237,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/dd0ff182de1963e9e2250294976cd1da33bba6cd"
+    },
+    {
+      "path": "skills/remotion-studio/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c9147c57799f35d5928242717132d977403d00d8",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/c9147c57799f35d5928242717132d977403d00d8"
+    },
+    {
+      "path": "skills/remotion-studio/assets/remotion-icon.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "420dbc726662dbb88a144878a49a68dcc6b0cd5b",
+      "size": 1303,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/420dbc726662dbb88a144878a49a68dcc6b0cd5b"
+    },
+    {
+      "path": "skills/remotion-upgrade",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5a6153cb73c6383b1e954a8685f78dc9bc50d851",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/5a6153cb73c6383b1e954a8685f78dc9bc50d851"
+    },
+    {
+      "path": "skills/remotion-upgrade/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40274bc60c6f5f7284cd2ef611e3bd8b73ce8e92",
+      "size": 1947,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/40274bc60c6f5f7284cd2ef611e3bd8b73ce8e92"
+    },
+    {
+      "path": "skills/remotion-upgrade/agents",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "476dbe1d5e1621bda539812a6e2c17a8711a2a00",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/476dbe1d5e1621bda539812a6e2c17a8711a2a00"
+    },
+    {
+      "path": "skills/remotion-upgrade/agents/openai.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8b1905afc820dd2fa12c2afc00236ee63956560",
+      "size": 282,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/b8b1905afc820dd2fa12c2afc00236ee63956560"
+    },
+    {
+      "path": "skills/remotion-upgrade/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c9147c57799f35d5928242717132d977403d00d8",
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/trees/c9147c57799f35d5928242717132d977403d00d8"
+    },
+    {
+      "path": "skills/remotion-upgrade/assets/remotion-icon.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "420dbc726662dbb88a144878a49a68dcc6b0cd5b",
+      "size": 1303,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/420dbc726662dbb88a144878a49a68dcc6b0cd5b"
+    },
+    {
+      "path": "tsconfig.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8779611685d9ff036cd6248243176e17d817e241",
+      "size": 304,
+      "url": "https://api.github.com/repos/remotion-dev/skills/git/blobs/8779611685d9ff036cd6248243176e17d817e241"
+    }
+  ],
+  "truncated": false
+}

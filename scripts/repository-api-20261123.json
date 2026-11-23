@@ -1,0 +1,85 @@
+[
+  {
+    "repository": "AmazingAng/old-coder",
+    "url": "https://github.com/AmazingAng/old-coder",
+    "branch": "main",
+    "remote_head": "a0eb529d393a1cb3ccc564e32b2104e7e75c7a29",
+    "tree_sha": "ed1d6979115d6a0a9f8a4087d10615b8ca5841b4",
+    "commit_date": "2026-08-18T10:37:14Z",
+    "description": "An old coder's strategy for the agent era: don't read the code — make it run the gauntlet. Evidence-first development skill for coding agents, inspired by Uncle Bob.",
+    "license_api": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "github_size_kib": 8705,
+    "truncated": false,
+    "tracked_source_bytes": 4201948,
+    "tracked_entries": 38,
+    "skill_paths": [
+      "skills/old-coder-api/SKILL.md",
+      "skills/old-coder/SKILL.md"
+    ],
+    "submodules": [],
+    "license_paths": [
+      "LICENSE"
+    ],
+    "previously_present": false
+  },
+  {
+    "repository": "ma1902056219-coder/openpixel",
+    "url": "https://github.com/ma1902056219-coder/openpixel",
+    "branch": "main",
+    "remote_head": "1c4aa9235ca319c04247c50c84b1c8a1872fb71e",
+    "tree_sha": "0e43d3c8609fda1752aff70099bae844dc9769db",
+    "commit_date": "2026-11-22T13:47:14Z",
+    "description": "36 个可独立运行、可编辑的像素实验。HTML / JavaScript / Canvas，附中英日韩操作说明。",
+    "license_api": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "github_size_kib": 31093,
+    "truncated": false,
+    "tracked_source_bytes": 23175299,
+    "tracked_entries": 265,
+    "skill_paths": [],
+    "submodules": [],
+    "license_paths": [
+      "LICENSE"
+    ],
+    "previously_present": false
+  },
+  {
+    "repository": "yoruuuchan/create-blender-story-video",
+    "url": "https://github.com/yoruuuchan/create-blender-story-video",
+    "branch": "main",
+    "remote_head": "8f934efb2dcf50103f390249e87d71d6a0beda4b",
+    "tree_sha": "ea18ba47a17a818ece1c0be524985c57be6c1088",
+    "commit_date": "2026-11-13T14:37:11Z",
+    "description": "Agent Skill for resilient Blender story-video production, monitoring, Resolve editing, and verified 4K delivery",
+    "license_api": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "github_size_kib": 120,
+    "truncated": false,
+    "tracked_source_bytes": 173104,
+    "tracked_entries": 15,
+    "skill_paths": [
+      "skills/create-blender-story-video/SKILL.md"
+    ],
+    "submodules": [],
+    "license_paths": [
+      "LICENSE"
+    ],
+    "previously_present": false
+  }
+]

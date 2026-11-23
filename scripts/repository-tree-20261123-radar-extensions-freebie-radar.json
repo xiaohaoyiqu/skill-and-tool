@@ -1,0 +1,1380 @@
+{
+  "sha": "a004aecc05de2289fc72e10028e1b54773f70c0a",
+  "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/trees/a004aecc05de2289fc72e10028e1b54773f70c0a",
+  "tree": [
+    {
+      "path": ".dockerignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db3757a197f514c1d83d391df9cfa3198d2cc5f9",
+      "size": 90,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/db3757a197f514c1d83d391df9cfa3198d2cc5f9"
+    },
+    {
+      "path": ".env.example",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11d23a2e597be4e4b378766618306843bc06f7d2",
+      "size": 4413,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/11d23a2e597be4e4b378766618306843bc06f7d2"
+    },
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "90ff91c3713856a6c5f6ba59b962722b0aa8954f",
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/trees/90ff91c3713856a6c5f6ba59b962722b0aa8954f"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "63ee141f65de18221e471d5f16248272489cf698",
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/trees/63ee141f65de18221e471d5f16248272489cf698"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88725108b897a1a7abcfbacb43f76aa4d76efa67",
+      "size": 582,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/88725108b897a1a7abcfbacb43f76aa4d76efa67"
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14d3d1607ea0ace34d9614696641f1cd51a5c8ce",
+      "size": 1084,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/14d3d1607ea0ace34d9614696641f1cd51a5c8ce"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08450a18257744445f17682c71713922a0bc308b",
+      "size": 323,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/08450a18257744445f17682c71713922a0bc308b"
+    },
+    {
+      "path": ".impeccable",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "81aef8c7b1175eba1bcccbf5a154862d34d771e1",
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/trees/81aef8c7b1175eba1bcccbf5a154862d34d771e1"
+    },
+    {
+      "path": ".impeccable/surfaces",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4d30555099bb61d62dbee4818d795423b2b0d3bc",
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/trees/4d30555099bb61d62dbee4818d795423b2b0d3bc"
+    },
+    {
+      "path": ".impeccable/surfaces/src-web-src-app-tsx.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ae4f62a4ef9dcec22d9461b1f9722ddf577af14",
+      "size": 2984,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/4ae4f62a4ef9dcec22d9461b1f9722ddf577af14"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63a1c9587925f5431489b8d3cccefe68797a6307",
+      "size": 19389,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/63a1c9587925f5431489b8d3cccefe68797a6307"
+    },
+    {
+      "path": "DESIGN.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee2555565d2a52c782e6a48c41624a2965d27f6f",
+      "size": 10013,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/ee2555565d2a52c782e6a48c41624a2965d27f6f"
+    },
+    {
+      "path": "Dockerfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b64a9ee91b545db62ed230192aca49e950b9be49",
+      "size": 1288,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/b64a9ee91b545db62ed230192aca49e950b9be49"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b769a0de78ef77c8239dc5631e35b2f8326d82e2",
+      "size": 1067,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/b769a0de78ef77c8239dc5631e35b2f8326d82e2"
+    },
+    {
+      "path": "PRODUCT.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d63b150d8d208728eb9a4e5977808ea5a14b995",
+      "size": 4190,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/8d63b150d8d208728eb9a4e5977808ea5a14b995"
+    },
+    {
+      "path": "README.en.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70ae996a7de87a0066c7bdacda1e17fcbbf9fab0",
+      "size": 9689,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/70ae996a7de87a0066c7bdacda1e17fcbbf9fab0"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d214b590e73ac5f425ecb9a4db1ec4f52894cc74",
+      "size": 17919,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/d214b590e73ac5f425ecb9a4db1ec4f52894cc74"
+    },
+    {
+      "path": "docker-compose.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07ab721cdadffa64a5da7bc206011198a87f3005",
+      "size": 1299,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/07ab721cdadffa64a5da7bc206011198a87f3005"
+    },
+    {
+      "path": "docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2bf8d0469cf41f9b3e6b8a2d1405451ca755b016",
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/trees/2bf8d0469cf41f9b3e6b8a2d1405451ca755b016"
+    },
+    {
+      "path": "docs/.vitepress",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dff217deee14c07763ac767cc88045f16b205a07",
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/trees/dff217deee14c07763ac767cc88045f16b205a07"
+    },
+    {
+      "path": "docs/.vitepress/config.mts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d61d4e994ee22a635f574a666f5ff3642e4cf17",
+      "size": 2440,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/7d61d4e994ee22a635f574a666f5ff3642e4cf17"
+    },
+    {
+      "path": "docs/accounts.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d511b9bc2ae7c10dcdec6e7cc1dc3f895fd3b410",
+      "size": 9076,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/d511b9bc2ae7c10dcdec6e7cc1dc3f895fd3b410"
+    },
+    {
+      "path": "docs/ai.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c847057df8bac80e67a25e0c30952c86df17caaf",
+      "size": 2457,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/c847057df8bac80e67a25e0c30952c86df17caaf"
+    },
+    {
+      "path": "docs/classification-review.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "803fa7d1fae977f31ec0a33a5687fa50fcb0b078",
+      "size": 3284,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/803fa7d1fae977f31ec0a33a5687fa50fcb0b078"
+    },
+    {
+      "path": "docs/classification.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a17a16ae99147c569c0eb589f546fbed18cbdd7",
+      "size": 4726,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/8a17a16ae99147c569c0eb589f546fbed18cbdd7"
+    },
+    {
+      "path": "docs/data-sources.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "148bff92cba349d553da0135d6803d9404029536",
+      "size": 29167,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/148bff92cba349d553da0135d6803d9404029536"
+    },
+    {
+      "path": "docs/deploy.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7eb509744322f0d8a51f102dda46a64bf9d9949f",
+      "size": 3238,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/7eb509744322f0d8a51f102dda46a64bf9d9949f"
+    },
+    {
+      "path": "docs/index.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88fa69f79b2d4f049387e0ce0fbf333eae5a5f05",
+      "size": 2710,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/88fa69f79b2d4f049387e0ce0fbf333eae5a5f05"
+    },
+    {
+      "path": "docs/logo.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f8a69e79d58d6450fd92e326cc800d0a9aa48c1",
+      "size": 1320,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/3f8a69e79d58d6450fd92e326cc800d0a9aa48c1"
+    },
+    {
+      "path": "docs/obtain.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44f1c76929f3557c4d8a46289dab1e733759c198",
+      "size": 4365,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/44f1c76929f3557c4d8a46289dab1e733759c198"
+    },
+    {
+      "path": "docs/push.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33ec74122d16bf79d12e4e1e77bc61d833b319cc",
+      "size": 5124,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/33ec74122d16bf79d12e4e1e77bc61d833b319cc"
+    },
+    {
+      "path": "docs/security.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9d12ae0b2b16da9bd86120d10460a5768c65cf5",
+      "size": 4536,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/f9d12ae0b2b16da9bd86120d10460a5768c65cf5"
+    },
+    {
+      "path": "docs/timing.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e30f9fe243397d7926fd0dab48a9e499310d53f",
+      "size": 4694,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/4e30f9fe243397d7926fd0dab48a9e499310d53f"
+    },
+    {
+      "path": "docs/ui-admin-login.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5c1b90a4d08bb4135584990333f35f9f586e617",
+      "size": 40278,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/a5c1b90a4d08bb4135584990333f35f9f586e617"
+    },
+    {
+      "path": "docs/ui-ai-panel.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd87bfeb6eeb8103b3dd3ce5d7478c0a835b2dc4",
+      "size": 99265,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/dd87bfeb6eeb8103b3dd3ce5d7478c0a835b2dc4"
+    },
+    {
+      "path": "docs/ui-close.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2ca8b56e33486533862f5aac644c78603d147ec",
+      "size": 77673,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/d2ca8b56e33486533862f5aac644c78603d147ec"
+    },
+    {
+      "path": "docs/ui-grid.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a5bc9d72bce8781240806d8f777d1f98ee9b612",
+      "size": 185653,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/9a5bc9d72bce8781240806d8f777d1f98ee9b612"
+    },
+    {
+      "path": "docs/ui-mobile.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2bb5a32bfc2f3ccd083c3261bed30e3d90e4ce57",
+      "size": 54614,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/2bb5a32bfc2f3ccd083c3261bed30e3d90e4ce57"
+    },
+    {
+      "path": "docs/ui-obtain-feed.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05489640488b2945178255cef0f39e664eed8d15",
+      "size": 219666,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/05489640488b2945178255cef0f39e664eed8d15"
+    },
+    {
+      "path": "docs/ui-obtain-lottery.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "771a440d52502c62168d0f48f63631b6b02104ba",
+      "size": 242237,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/771a440d52502c62168d0f48f63631b6b02104ba"
+    },
+    {
+      "path": "docs/ui-public.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a72b8994497317ef689ea867b02499b37cecfa0",
+      "size": 184731,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/8a72b8994497317ef689ea867b02499b37cecfa0"
+    },
+    {
+      "path": "docs/ui-push-panel.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "726235e1f99895dbcf77ea6c4a62346c41cbada5",
+      "size": 125356,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/726235e1f99895dbcf77ea6c4a62346c41cbada5"
+    },
+    {
+      "path": "docs/ui-review.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e35e139e76bcfc758312b074e571ede8fcc3d6f4",
+      "size": 4999,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/e35e139e76bcfc758312b074e571ede8fcc3d6f4"
+    },
+    {
+      "path": "docs/ui-v2.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba7c346e5643368ddd59e4dd3d6101ca975478e1",
+      "size": 6409,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/ba7c346e5643368ddd59e4dd3d6101ca975478e1"
+    },
+    {
+      "path": "package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "59313d3e3c2e7eac63840843c6ec91092c5c1094",
+      "size": 1447,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/59313d3e3c2e7eac63840843c6ec91092c5c1094"
+    },
+    {
+      "path": "pnpm-lock.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b897f3bfc1416de6fd25cb009b13770804055b7b",
+      "size": 95030,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/b897f3bfc1416de6fd25cb009b13770804055b7b"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0853265a2ff1bdc32b9059bd15e299a70b7bfb2b",
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/trees/0853265a2ff1bdc32b9059bd15e299a70b7bfb2b"
+    },
+    {
+      "path": "scripts/backfill-mergekey.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "774a1749b4dc5fff4af44aa20e1cdcade203bea4",
+      "size": 1776,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/774a1749b4dc5fff4af44aa20e1cdcade203bea4"
+    },
+    {
+      "path": "scripts/benchmark.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f839964f4be6d818a1b9048cb5b2108732339fbc",
+      "size": 2189,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/f839964f4be6d818a1b9048cb5b2108732339fbc"
+    },
+    {
+      "path": "scripts/local-collect.cmd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "985626a08354341aceca782b11a7a0de2818b3c9",
+      "size": 499,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/985626a08354341aceca782b11a7a0de2818b3c9"
+    },
+    {
+      "path": "scripts/pw-collect.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c658840fa13ba1bcc7c0861f3ff27444869ddc9",
+      "size": 19396,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/7c658840fa13ba1bcc7c0861f3ff27444869ddc9"
+    },
+    {
+      "path": "scripts/review-strict.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d0781ada2f39d2fab5a6f4eb344e2219e618b5b",
+      "size": 1739,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/1d0781ada2f39d2fab5a6f4eb344e2219e618b5b"
+    },
+    {
+      "path": "scripts/vps-cookie-runner.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a28c33f722d4223e40de7a74f3c2bb5bfe0a39d",
+      "size": 21845,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/0a28c33f722d4223e40de7a74f3c2bb5bfe0a39d"
+    },
+    {
+      "path": "src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a39ee8f52dfb11e79281821de6c48285ebd6ba21",
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/trees/a39ee8f52dfb11e79281821de6c48285ebd6ba21"
+    },
+    {
+      "path": "src/server",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "32ecd42f801ac699a866a7337e01f2432750cb18",
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/trees/32ecd42f801ac699a866a7337e01f2432750cb18"
+    },
+    {
+      "path": "src/server/access.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "883a2bfd65b31794f5e0f9ec132c18712fb48c5d",
+      "size": 13736,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/883a2bfd65b31794f5e0f9ec132c18712fb48c5d"
+    },
+    {
+      "path": "src/server/ai-admin.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "817272969ae41d15a480bf77eee48380b221f513",
+      "size": 20258,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/817272969ae41d15a480bf77eee48380b221f513"
+    },
+    {
+      "path": "src/server/auth.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e811508e437c81e6a063db8103e0b6b37770abc8",
+      "size": 24874,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/e811508e437c81e6a063db8103e0b6b37770abc8"
+    },
+    {
+      "path": "src/server/classification-settings.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca953588946c3e1eb380a15ef4be9535ccfde234",
+      "size": 796,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/ca953588946c3e1eb380a15ef4be9535ccfde234"
+    },
+    {
+      "path": "src/server/cli.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af0c634cc4b687817d027c4e2644df2abd5005d0",
+      "size": 10437,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/af0c634cc4b687817d027c4e2644df2abd5005d0"
+    },
+    {
+      "path": "src/server/collectors",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "535f42c543ff2d33b480b3a7bf7d51627d8ba970",
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/trees/535f42c543ff2d33b480b3a7bf7d51627d8ba970"
+    },
+    {
+      "path": "src/server/collectors/bili.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b57d27d3743600dd34b244b8fd5f9df7855b29a1",
+      "size": 10651,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/b57d27d3743600dd34b244b8fd5f9df7855b29a1"
+    },
+    {
+      "path": "src/server/collectors/bsky.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a6c7e4d96925228be777074b0ed18fb824fbb11",
+      "size": 3282,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/5a6c7e4d96925228be777074b0ed18fb824fbb11"
+    },
+    {
+      "path": "src/server/collectors/cctv.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab9f96a46a5adcb965a122009bbac26792972b7b",
+      "size": 3940,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/ab9f96a46a5adcb965a122009bbac26792972b7b"
+    },
+    {
+      "path": "src/server/collectors/cheapshark.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2749e2b5495803b15695b5c3d396a5f55e3d138c",
+      "size": 3058,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/2749e2b5495803b15695b5c3d396a5f55e3d138c"
+    },
+    {
+      "path": "src/server/collectors/cookie.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6cf20840691e552d0a94be600330bf2c3c28cd97",
+      "size": 4233,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/6cf20840691e552d0a94be600330bf2c3c28cd97"
+    },
+    {
+      "path": "src/server/collectors/epic.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d496f6a2a8e095d46a1f2d99728a36e84db94a4a",
+      "size": 3931,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/d496f6a2a8e095d46a1f2d99728a36e84db94a4a"
+    },
+    {
+      "path": "src/server/collectors/gamerpower.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c2bfbe581c0e3f54cda8c4fd62e81650814c310",
+      "size": 2037,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/5c2bfbe581c0e3f54cda8c4fd62e81650814c310"
+    },
+    {
+      "path": "src/server/collectors/github.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a55d319f251118ec898731fd11153456cdbdc8a7",
+      "size": 3938,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/a55d319f251118ec898731fd11153456cdbdc8a7"
+    },
+    {
+      "path": "src/server/collectors/gog.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "933d487a311d81979dce19229789c0b7f55f621c",
+      "size": 2539,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/933d487a311d81979dce19229789c0b7f55f621c"
+    },
+    {
+      "path": "src/server/collectors/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f638e2c1587d73f6c13cc2f4ad196963ba18af92",
+      "size": 58978,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/f638e2c1587d73f6c13cc2f4ad196963ba18af92"
+    },
+    {
+      "path": "src/server/collectors/linuxdo.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae79c097d96cc47a0d03748b15190ae5091488ec",
+      "size": 7247,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/ae79c097d96cc47a0d03748b15190ae5091488ec"
+    },
+    {
+      "path": "src/server/collectors/mock.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "764e72a1ee4ccd36e0bf8c2b55c3081e41f02300",
+      "size": 1127,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/764e72a1ee4ccd36e0bf8c2b55c3081e41f02300"
+    },
+    {
+      "path": "src/server/collectors/nga.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09a27e4072b7753f64cc01c48f367fea79db71bd",
+      "size": 7756,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/09a27e4072b7753f64cc01c48f367fea79db71bd"
+    },
+    {
+      "path": "src/server/collectors/openrouter.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ce2677f7495e00fc40d3e333889fca2e6d77c31",
+      "size": 2364,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/8ce2677f7495e00fc40d3e333889fca2e6d77c31"
+    },
+    {
+      "path": "src/server/collectors/rss.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84ea37f4e3306c8a472711b276d9c2fece0cc3e0",
+      "size": 9057,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/84ea37f4e3306c8a472711b276d9c2fece0cc3e0"
+    },
+    {
+      "path": "src/server/collectors/steam.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1d26a05b7357fd550ac3b9d20e679138a3f5986",
+      "size": 2245,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/c1d26a05b7357fd550ac3b9d20e679138a3f5986"
+    },
+    {
+      "path": "src/server/collectors/telegram.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "efeeadd5258afc668b38b50db609ab9a06915de5",
+      "size": 6340,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/efeeadd5258afc668b38b50db609ab9a06915de5"
+    },
+    {
+      "path": "src/server/collectors/types.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dec13666bddd85d95cbe6e9bc4e06e7090404f75",
+      "size": 1601,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/dec13666bddd85d95cbe6e9bc4e06e7090404f75"
+    },
+    {
+      "path": "src/server/collectors/v2ex.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "556a629805020579853c81a302b74ecf30ecc819",
+      "size": 2575,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/556a629805020579853c81a302b74ecf30ecc819"
+    },
+    {
+      "path": "src/server/collectors/weibo.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "86ea17d884f40c6597d9031f9bc775e2987aae3c",
+      "size": 9509,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/86ea17d884f40c6597d9031f9bc775e2987aae3c"
+    },
+    {
+      "path": "src/server/config.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c2dfa0f3e318de31cff4e369667745058636a5b",
+      "size": 7641,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/5c2dfa0f3e318de31cff4e369667745058636a5b"
+    },
+    {
+      "path": "src/server/cookie-store.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7259a6bb49d07131e7c67f9fb463de339476762",
+      "size": 7545,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/e7259a6bb49d07131e7c67f9fb463de339476762"
+    },
+    {
+      "path": "src/server/cron.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49422f210e58b24160c4b2f3a4f6ecb0303ba58a",
+      "size": 4473,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/49422f210e58b24160c4b2f3a4f6ecb0303ba58a"
+    },
+    {
+      "path": "src/server/crypto.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd1eb9dd8e4a1e200935d2c73163febafc54a6d6",
+      "size": 4693,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/fd1eb9dd8e4a1e200935d2c73163febafc54a6d6"
+    },
+    {
+      "path": "src/server/db.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5aa0bf88b5b6c65c757f24ca8dcefb1d37d971f2",
+      "size": 24385,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/5aa0bf88b5b6c65c757f24ca8dcefb1d37d971f2"
+    },
+    {
+      "path": "src/server/digest.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19ab71331f42f3405671c8bb2c970f20cc750edf",
+      "size": 14060,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/19ab71331f42f3405671c8bb2c970f20cc750edf"
+    },
+    {
+      "path": "src/server/enrich",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "249267818c1a101a3990179d23e0729b6b8858e0",
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/trees/249267818c1a101a3990179d23e0729b6b8858e0"
+    },
+    {
+      "path": "src/server/enrich/ai-dedup.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58a91c3350e976249ee972f0813de1a178edb64c",
+      "size": 16609,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/58a91c3350e976249ee972f0813de1a178edb64c"
+    },
+    {
+      "path": "src/server/enrich/ai-queue.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c9d98c382ec0913c0e93bc24d932d999d277a01",
+      "size": 13495,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/7c9d98c382ec0913c0e93bc24d932d999d277a01"
+    },
+    {
+      "path": "src/server/enrich/ai-settings.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7aa76c268902f4cef991c9c66eb4bbd8912c2022",
+      "size": 23909,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/7aa76c268902f4cef991c9c66eb4bbd8912c2022"
+    },
+    {
+      "path": "src/server/enrich/ai-telemetry.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12838f9e1ac238322535aca0440ce0e334c1acfb",
+      "size": 3872,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/12838f9e1ac238322535aca0440ce0e334c1acfb"
+    },
+    {
+      "path": "src/server/enrich/ai.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61199eb5c2b330d5e4fad1cdbcabcd0c4cf0d690",
+      "size": 685,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/61199eb5c2b330d5e4fad1cdbcabcd0c4cf0d690"
+    },
+    {
+      "path": "src/server/enrich/alias.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66c528e1ea63df3e2cfad0e397575c164feabc4e",
+      "size": 2487,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/66c528e1ea63df3e2cfad0e397575c164feabc4e"
+    },
+    {
+      "path": "src/server/enrich/blocklist.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "027240e432e9f600526d22c4f70a74014c7539ea",
+      "size": 4017,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/027240e432e9f600526d22c4f70a74014c7539ea"
+    },
+    {
+      "path": "src/server/enrich/codes.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3587ca1e5b4b30802439a01e5834c0496843cda5",
+      "size": 1912,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/3587ca1e5b4b30802439a01e5834c0496843cda5"
+    },
+    {
+      "path": "src/server/enrich/dedup.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff9b76d2685976d31f291c04a8357ccc43cfb4bf",
+      "size": 25192,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/ff9b76d2685976d31f291c04a8357ccc43cfb4bf"
+    },
+    {
+      "path": "src/server/enrich/evidence.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef8686f5fb4bf705512d9d6c519adb556b3925a7",
+      "size": 5235,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/ef8686f5fb4bf705512d9d6c519adb556b3925a7"
+    },
+    {
+      "path": "src/server/enrich/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c7161e6d2c4bf12e0957e215b9a80c0183436a9",
+      "size": 28935,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/0c7161e6d2c4bf12e0957e215b9a80c0183436a9"
+    },
+    {
+      "path": "src/server/enrich/kind.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44f2b24049bbf2e0dc5f06d002b14b6e0d8c9c9f",
+      "size": 9631,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/44f2b24049bbf2e0dc5f06d002b14b6e0d8c9c9f"
+    },
+    {
+      "path": "src/server/enrich/noise.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec347eabb0f08747097c9227ae2120e7f4b8f526",
+      "size": 4054,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/ec347eabb0f08747097c9227ae2120e7f4b8f526"
+    },
+    {
+      "path": "src/server/enrich/normalize.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5f7eb5a2166d6eca6c3b14b0e39086f7f6cbef4",
+      "size": 5352,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/f5f7eb5a2166d6eca6c3b14b0e39086f7f6cbef4"
+    },
+    {
+      "path": "src/server/enrich/obtain.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7e1ff80d85f63bcc28d5d991fef992e6e948083",
+      "size": 1822,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/b7e1ff80d85f63bcc28d5d991fef992e6e948083"
+    },
+    {
+      "path": "src/server/enrich/pricing.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d4416ef54f74516d69955cb25b1a60901a90e4b",
+      "size": 2803,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/8d4416ef54f74516d69955cb25b1a60901a90e4b"
+    },
+    {
+      "path": "src/server/enrich/score.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81968f095c5fb777229c0db21b3ce32b3753e4bf",
+      "size": 8822,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/81968f095c5fb777229c0db21b3ce32b3753e4bf"
+    },
+    {
+      "path": "src/server/flaresolverr.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa9674f0503a610f5c8da31e6bd90f2ca3162b1c",
+      "size": 4287,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/fa9674f0503a610f5c8da31e6bd90f2ca3162b1c"
+    },
+    {
+      "path": "src/server/hot.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "092aac765a55096f20adc44b30329c20b69adaab",
+      "size": 14302,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/092aac765a55096f20adc44b30329c20b69adaab"
+    },
+    {
+      "path": "src/server/http.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66a78e9b99fd8d2072ad34d177c2b07338788cd9",
+      "size": 7214,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/66a78e9b99fd8d2072ad34d177c2b07338788cd9"
+    },
+    {
+      "path": "src/server/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1bd6fc247438ddb7ecfea118228a70c8afdcf4a6",
+      "size": 6455,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/1bd6fc247438ddb7ecfea118228a70c8afdcf4a6"
+    },
+    {
+      "path": "src/server/instant.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6d91922264f3c481f329fb41c0a1a7fd78f6170",
+      "size": 1392,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/b6d91922264f3c481f329fb41c0a1a7fd78f6170"
+    },
+    {
+      "path": "src/server/local",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f1fc1978cb7aa4fac52b5f1490e86502ea6c3c05",
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/trees/f1fc1978cb7aa4fac52b5f1490e86502ea6c3c05"
+    },
+    {
+      "path": "src/server/local/cdp.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f80066dbd0a52602d950ece48e9850e507c938b2",
+      "size": 5620,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/f80066dbd0a52602d950ece48e9850e507c938b2"
+    },
+    {
+      "path": "src/server/local/cli.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d8305d8c9c79d5c827169d392ffa7c6b7b828cc4",
+      "size": 2024,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/d8305d8c9c79d5c827169d392ffa7c6b7b828cc4"
+    },
+    {
+      "path": "src/server/migrate.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a171f0c34bbb365a06741990b0bb169d9af611f",
+      "size": 209,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/7a171f0c34bbb365a06741990b0bb169d9af611f"
+    },
+    {
+      "path": "src/server/push.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc901c8e275c43ca1dc84b0b61be73204a013446",
+      "size": 53314,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/dc901c8e275c43ca1dc84b0b61be73204a013446"
+    },
+    {
+      "path": "src/server/retention.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8db53b55d0629fc2b9ffaeb11717eaa9208da124",
+      "size": 6086,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/8db53b55d0629fc2b9ffaeb11717eaa9208da124"
+    },
+    {
+      "path": "src/server/routes.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a22e93d6548fd4d6a5a64c29407eed4df059d75",
+      "size": 95735,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/6a22e93d6548fd4d6a5a64c29407eed4df059d75"
+    },
+    {
+      "path": "src/server/rss.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c80fbd206eb3f96abc0f725e6cd693dfaf51faa",
+      "size": 5354,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/7c80fbd206eb3f96abc0f725e6cd693dfaf51faa"
+    },
+    {
+      "path": "src/server/security.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c3f41cac7342d1a7bd560a78aa42a308faa206c",
+      "size": 7480,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/6c3f41cac7342d1a7bd560a78aa42a308faa206c"
+    },
+    {
+      "path": "src/server/source-settings.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "951a85ffc398643f4aafc838ce25ae475a284d87",
+      "size": 2680,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/951a85ffc398643f4aafc838ce25ae475a284d87"
+    },
+    {
+      "path": "src/server/telegram.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30ea247166fe36d9e737abdcfec5965654999a7f",
+      "size": 3797,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/30ea247166fe36d9e737abdcfec5965654999a7f"
+    },
+    {
+      "path": "src/server/updater.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f0b55fb7d76c4c59d6c141b01610b81f33563ab",
+      "size": 14182,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/6f0b55fb7d76c4c59d6c141b01610b81f33563ab"
+    },
+    {
+      "path": "src/server/user-push.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c024c3fe73a097f19d9c45a276654783ae48b619",
+      "size": 43828,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/c024c3fe73a097f19d9c45a276654783ae48b619"
+    },
+    {
+      "path": "src/server/webhook.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d172b86a52be5ae5c9e1a194ac39964f4ee2ddf1",
+      "size": 3986,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/d172b86a52be5ae5c9e1a194ac39964f4ee2ddf1"
+    },
+    {
+      "path": "src/shared",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "27a1c930b724cc4009ca7a57d8c27804a4cbe604",
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/trees/27a1c930b724cc4009ca7a57d8c27804a4cbe604"
+    },
+    {
+      "path": "src/shared/channel-query.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a361246cb2d68d99aae87d835a8d28a7c1e734cc",
+      "size": 1387,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/a361246cb2d68d99aae87d835a8d28a7c1e734cc"
+    },
+    {
+      "path": "src/shared/source-classification.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "455cf574cfb5b1aa313819b293767ff2df843fb2",
+      "size": 1013,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/455cf574cfb5b1aa313819b293767ff2df843fb2"
+    },
+    {
+      "path": "src/shared/taxonomy.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "180136de5830da30a35722ee3940f3539debec03",
+      "size": 12164,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/180136de5830da30a35722ee3940f3539debec03"
+    },
+    {
+      "path": "src/web",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4c57a8b3c0385e1f718050d68aafb5f34250f964",
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/trees/4c57a8b3c0385e1f718050d68aafb5f34250f964"
+    },
+    {
+      "path": "src/web/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "891780d907b0a29780d6733f88e7864f6bef9746",
+      "size": 692,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/891780d907b0a29780d6733f88e7864f6bef9746"
+    },
+    {
+      "path": "src/web/public",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1a431a3609ef7fdce3e2bf039a6be29848d136a1",
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/trees/1a431a3609ef7fdce3e2bf039a6be29848d136a1"
+    },
+    {
+      "path": "src/web/public/favicon.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f8a69e79d58d6450fd92e326cc800d0a9aa48c1",
+      "size": 1320,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/3f8a69e79d58d6450fd92e326cc800d0a9aa48c1"
+    },
+    {
+      "path": "src/web/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1db1a38f608b39ddb1ea0d23929e8cd418f22365",
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/trees/1db1a38f608b39ddb1ea0d23929e8cd418f22365"
+    },
+    {
+      "path": "src/web/src/App.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "157c405debf2d133a408fb48ea0d81aeada58811",
+      "size": 108507,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/157c405debf2d133a408fb48ea0d81aeada58811"
+    },
+    {
+      "path": "src/web/src/components",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2e121f330e67290bf71e813970f2875bb93ba0de",
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/trees/2e121f330e67290bf71e813970f2875bb93ba0de"
+    },
+    {
+      "path": "src/web/src/components/AdminGate.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e72240eee0257110fbdd694109bcf7081727882",
+      "size": 5200,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/3e72240eee0257110fbdd694109bcf7081727882"
+    },
+    {
+      "path": "src/web/src/components/AiPanel.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1e5a6da1fa2087a62aabf007af4c75e9f0a400a",
+      "size": 58534,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/f1e5a6da1fa2087a62aabf007af4c75e9f0a400a"
+    },
+    {
+      "path": "src/web/src/components/AuthModal.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e30dc63723e96f5e399ef881c5b2819e1b09843",
+      "size": 10198,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/4e30dc63723e96f5e399ef881c5b2819e1b09843"
+    },
+    {
+      "path": "src/web/src/components/ClassificationPanel.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d95d90d11515c8f5cdcacd761ec32b89e3fe12c",
+      "size": 8580,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/7d95d90d11515c8f5cdcacd761ec32b89e3fe12c"
+    },
+    {
+      "path": "src/web/src/components/DigestPanel.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d9d473d3698d05affb330e66bc1fd968eba788b",
+      "size": 5994,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/6d9d473d3698d05affb330e66bc1fd968eba788b"
+    },
+    {
+      "path": "src/web/src/components/HotPanel.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d8180e3bed40e5e8c52a984840ab83a0d3a0a58d",
+      "size": 15464,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/d8180e3bed40e5e8c52a984840ab83a0d3a0a58d"
+    },
+    {
+      "path": "src/web/src/components/ItemClassificationEditor.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "703b8b4528b7c6f11f6d8c6cbc791fa9096adc4e",
+      "size": 4668,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/703b8b4528b7c6f11f6d8c6cbc791fa9096adc4e"
+    },
+    {
+      "path": "src/web/src/components/ItemView.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e04c80ab6f42ccfdb7421c326679df512477363",
+      "size": 39275,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/1e04c80ab6f42ccfdb7421c326679df512477363"
+    },
+    {
+      "path": "src/web/src/components/OpsPanel.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d730c1d451108b0091e31540349698c774d93cd",
+      "size": 85241,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/9d730c1d451108b0091e31540349698c774d93cd"
+    },
+    {
+      "path": "src/web/src/components/PageHeading.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24db53fb8b0bccaf29cae32032445c4a7a47cbb4",
+      "size": 797,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/24db53fb8b0bccaf29cae32032445c4a7a47cbb4"
+    },
+    {
+      "path": "src/web/src/components/PushPanel.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cfc096c602ec1860bba16df498e0a2a16907a89e",
+      "size": 83162,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/cfc096c602ec1860bba16df498e0a2a16907a89e"
+    },
+    {
+      "path": "src/web/src/components/RssModal.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38c4fe5c11f40032dd9ec1972bc48a190fadf656",
+      "size": 4921,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/38c4fe5c11f40032dd9ec1972bc48a190fadf656"
+    },
+    {
+      "path": "src/web/src/components/RulesPanel.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c7f68758b65624f04fc11d0466428c2f39944d2",
+      "size": 12905,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/5c7f68758b65624f04fc11d0466428c2f39944d2"
+    },
+    {
+      "path": "src/web/src/components/SiteAdminPanel.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e3a00d2498f38c39f5e951182c760a164000dea",
+      "size": 25680,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/3e3a00d2498f38c39f5e951182c760a164000dea"
+    },
+    {
+      "path": "src/web/src/components/UserPushPanel.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70e217960d72a74538739bfd44c9fe918ad4e96b",
+      "size": 36740,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/70e217960d72a74538739bfd44c9fe918ad4e96b"
+    },
+    {
+      "path": "src/web/src/components/WelcomeModal.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da005f0549c5a30413b035b70cd820f73d2a66cf",
+      "size": 3585,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/da005f0549c5a30413b035b70cd820f73d2a66cf"
+    },
+    {
+      "path": "src/web/src/lib",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "80b5c1766195ccae059dc31654a25101a0227f8c",
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/trees/80b5c1766195ccae059dc31654a25101a0227f8c"
+    },
+    {
+      "path": "src/web/src/lib/auth.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "495988342759d621c6eb03613c52a23da5aa7d72",
+      "size": 2208,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/495988342759d621c6eb03613c52a23da5aa7d72"
+    },
+    {
+      "path": "src/web/src/lib/session.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73c7b0ae28941aeecd6e60b0148e2473d5da2f41",
+      "size": 6785,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/73c7b0ae28941aeecd6e60b0148e2473d5da2f41"
+    },
+    {
+      "path": "src/web/src/lib/sources.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b6a93278d8cf86489e64092394d8126bd14edb0",
+      "size": 4373,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/9b6a93278d8cf86489e64092394d8126bd14edb0"
+    },
+    {
+      "path": "src/web/src/main.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d399e700c7853ca15b6ee30472ae9f67790163f",
+      "size": 369,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/0d399e700c7853ca15b6ee30472ae9f67790163f"
+    },
+    {
+      "path": "src/web/src/styles.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f08625cceb99a5189288b1c342712d35bdab7315",
+      "size": 8300,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/f08625cceb99a5189288b1c342712d35bdab7315"
+    },
+    {
+      "path": "src/web/src/types.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d4bc85c4c8035bf0013d84f3c10a946fac355cc",
+      "size": 9525,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/9d4bc85c4c8035bf0013d84f3c10a946fac355cc"
+    },
+    {
+      "path": "tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6e5e3b0c0088f82e93ef0f4305157454a2ff9fb9",
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/trees/6e5e3b0c0088f82e93ef0f4305157454a2ff9fb9"
+    },
+    {
+      "path": "tests/bili.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60424e89c78d0e44218ed2b2811189477561725d",
+      "size": 6282,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/60424e89c78d0e44218ed2b2811189477561725d"
+    },
+    {
+      "path": "tests/classification.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6524a6a89a3d7fca18fe894757e8cc0e72aa447e",
+      "size": 23958,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/6524a6a89a3d7fca18fe894757e8cc0e72aa447e"
+    },
+    {
+      "path": "tests/dedup.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "786b1f17c3a9a44455eba6d7c671c6cd3cd5dec8",
+      "size": 16179,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/786b1f17c3a9a44455eba6d7c671c6cd3cd5dec8"
+    },
+    {
+      "path": "tests/enrich.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4044e49efda1535371cee3c0bac1b5d0251923ad",
+      "size": 8210,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/4044e49efda1535371cee3c0bac1b5d0251923ad"
+    },
+    {
+      "path": "tests/hot-and-weekly.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3458a0756f5cf3d2804ae17a6dba528c7d4bcd74",
+      "size": 13317,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/3458a0756f5cf3d2804ae17a6dba528c7d4bcd74"
+    },
+    {
+      "path": "tests/nga.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d567e9f9d7de6cfa3068900a2144489a8d90a25f",
+      "size": 5360,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/d567e9f9d7de6cfa3068900a2144489a8d90a25f"
+    },
+    {
+      "path": "tests/push-limits.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de0a531484a53827ed51775db9713ea14c849407",
+      "size": 5887,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/de0a531484a53827ed51775db9713ea14c849407"
+    },
+    {
+      "path": "tests/routes-and-collect.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca9905d9dfd2b16cef645ef72b37c982b32664ba",
+      "size": 55351,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/ca9905d9dfd2b16cef645ef72b37c982b32664ba"
+    },
+    {
+      "path": "tests/score.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c55f4a876c1ad0a6f701ca31bb2a4a97ed505d9",
+      "size": 4330,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/6c55f4a876c1ad0a6f701ca31bb2a4a97ed505d9"
+    },
+    {
+      "path": "tests/security.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f725b673b792f563d12a537b73fe0b5ee6f34311",
+      "size": 17607,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/f725b673b792f563d12a537b73fe0b5ee6f34311"
+    },
+    {
+      "path": "tests/web-state.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30fb848301b50e0f3bb796bd05620170dcf4be45",
+      "size": 2674,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/30fb848301b50e0f3bb796bd05620170dcf4be45"
+    },
+    {
+      "path": "tests/webhook-transport.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a1625120ab23c533d3d1d4c9485b6c2dc1f4d54",
+      "size": 1916,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/9a1625120ab23c533d3d1d4c9485b6c2dc1f4d54"
+    },
+    {
+      "path": "tests/weibo.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e976aa9f4197571b292ac97d57dbd3a5cdc719a8",
+      "size": 5138,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/e976aa9f4197571b292ac97d57dbd3a5cdc719a8"
+    },
+    {
+      "path": "tsconfig.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b879fab80a29e7a50370e3b228f8332d96e2be3",
+      "size": 533,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/5b879fab80a29e7a50370e3b228f8332d96e2be3"
+    },
+    {
+      "path": "vite.config.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0eafe5463990b576285ce0c13a77b76af2a0ffc9",
+      "size": 902,
+      "url": "https://api.github.com/repos/ZiChuanLan/freebie-radar/git/blobs/0eafe5463990b576285ce0c13a77b76af2a0ffc9"
+    }
+  ],
+  "truncated": false
+}

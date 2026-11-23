@@ -4,7 +4,39 @@
 
 第三方项目主要保存资料与来源记录，使用条件以原项目说明为准。自制的本地 Skill 和项目资料检索工具 [SKLIB](sklib/README.md) 也在本仓库中保存源码。
 
-转发给别人可以使用 [AI Skills 和工具分享清单](docs/SHARE_GUIDE.md)，按用途介绍 160 个项目与论文来源并附链接；[HTML 分享版](docs/SHARE_GUIDE.html) 可作为单个文件发送，用浏览器打开。
+转发给别人可以使用 [AI Skills 和工具分享清单](docs/SHARE_GUIDE.md)，按用途介绍 188 个项目、网站与论文来源并附链接。[HTML 分享版](docs/SHARE_GUIDE.html) 可作为单个文件发送，用浏览器打开。
+
+## 2026-11-23 独立创业、社媒研究、动效与游戏索引
+
+新增 OPC Skills、Social Media Research Skills、oil-motion、coil-reclaim-indicator 和 LibreGet 五个源码浅克隆。已有 `open-source-games/` 拉取后确认是最新版本。见[下载台账](docs/GITHUB_REPOS.md#2026-11-23-独立创业社媒研究动效与游戏索引)。
+
+## 2026-11-23 Agent Skills 与工具续拉
+
+同步 Matt Pocock Skills、ECC 和 REA，新增 Claude-Mem、Diagram Design 两个源码浅克隆。Karpathy Skills 已是最新，另四个新来源超限仅登记。见[下载台账](docs/GITHUB_REPOS.md#2026-11-23-agent-skills-与工具续拉)。
+
+## 2026-11-23 网站资源与 Horizon 续拉
+
+将 `huarun.win`（华润赢网络应用导航）和 `cve.pojia.ai`（POJIA 公开漏洞报告图谱）作为网站资源登记，均已核对页面可访问，保存链接和用途。已有 `Horizon/` 从 `12d5fbde` 快进 4 个提交至 `e17ea80c`，含 Git **15.76 MB**，保留 1 个 Skill；工作树干净并通过对象校验。分享清单增至 177 个来源。见[下载台账](docs/GITHUB_REPOS.md#2026-11-23-网站资源与-horizon-续拉)及[核验 JSON](scripts/repository-review-20261123-web-horizon.json)。
+
+## 2026-11-23 动画框架、视频 Skills 与设计参考
+
+新增 `motion-prompt/`、`remotion-skills/`、`motion-canvas/` 三个源码浅克隆，含 Git 分别为 **74.58、1.14、5.68 MB**。HyperFrames 快进 637 个提交至 `44c1e0c4`，含 Git **683.29 MB**，按已有项目超限更新规则同步；AI for UI 对应已有 `emilkowalski-skills/`，快进至 `64eb3deb`，保存 20 个 Skill。Blender Skills 在线核对仍为 `1a1cc6c4`，Motion 库源码 291.94 MB 超限只登记，DesignBookmark Motion 按网页参考收录。六个本地仓库工作树干净并通过对象校验，分享清单共 175 个来源。见[下载台账](docs/GITHUB_REPOS.md#2026-11-23-动画框架视频-skills-与设计参考)及[核验 JSON](scripts/repository-review-20261123-motion-design.json)。
+
+## 2026-11-23 Agent 协议、交易 Skills 与安全研究
+
+新增 `ag-ui/`、`claude-trading-skills/`、`Claude-BugHunter/` 三个源码浅克隆，含 Git 分别为 **101.72、55.01、6.57 MB**。已有 `modern-web-guidance-src/` 快进 9 个提交至 `920ee542`，含 Git **181.74 MB**，按已有仓库超限更新规则保留；Astryx 源码 401.14 MB、Univer 检出前含 Git 148.26 MB，继续仅登记。四个本地仓库工作树干净并通过对象校验，分享清单增至 170 个来源。交易仓库含 74 个正式 Skill 与 20 个示例入口，BugHunter 含 83 个 Skill；技能内容与代码许可分别记录。见[下载台账](docs/GITHUB_REPOS.md#2026-11-23-agent-协议交易-skills-与安全研究)及[核验 JSON](scripts/repository-review-20261123-agents-trading-security.json)。
+
+## 2026-11-23 资源雷达与 Claude Code 扩展目录
+
+已有 `freebie-radar/` 从 `4f89041a` 快进 31 个提交至 `9191745d`（package 1.0.0），含 Git **5.00 MB**；新增 `awesome-claude-code-extensions/` 源码浅克隆，main `f108d909`，含 Git **7.99 MB**，保存 2,465 条 Claude Code/Codex 扩展索引。两个仓库均无 SKILL.md，工作树干净并通过对象校验；分享清单共 167 个来源。扩展目录的原创内容 CC0-1.0、代码 MIT，导入资料保留上游许可。见[下载台账](docs/GITHUB_REPOS.md#2026-11-23-资源雷达与-claude-code-扩展目录)及[核验 JSON](scripts/repository-review-20261123-radar-extensions.json)。
+
+## 2026-11-23 自动剪辑、浏览器视频编辑与团队知识库
+
+新增 `auto-editor/`、`arkon/` 两个源码浅克隆，含 Git 分别为 **49.02、17.35 MB**，随源码保存 5 个自动剪辑 Skill 和 3 个知识库 Skill。已有 Scrapling 在线核对仍为 `2998c9eb`；OpenReel Video 当前源码 179.76 MB，超过新增项目的 120 MB 上限，仅登记。三个本地仓库均工作树干净并通过对象校验，分享清单增至 166 个来源。Arkon 采用 PolyForm Internal Use 1.0.0，限制分发与对外服务。见[下载台账](docs/GITHUB_REPOS.md#2026-11-23-自动剪辑浏览器视频编辑与团队知识库)和[核验 JSON](scripts/repository-review-20261123-video-tools.json)。
+
+## 2026-11-23 可靠编码、像素实验与 Blender 视频制作
+
+新增 `old-coder/`、`openpixel/` 和 `create-blender-story-video/` 三个源码浅克隆，含 Git 分别为 **8.28、43.12、0.26 MB**，均低于 120 MB 上限。随源码保存 old-coder 的可靠编码与 API 设计 2 个 Skill、Blender 视频制作的 1 个 Skill，以及 OpenPixel 的 36 个浏览器像素实验。三个仓库工作树干净并通过对象校验；分享清单增至 163 个来源。用途、许可和版本见[下载台账](docs/GITHUB_REPOS.md#2026-11-23-可靠编码像素实验与-blender-视频制作)及[核验 JSON](scripts/repository-review-20261123.json)。仅保存源码与记录，未安装依赖或全局 Skill/MCP。
 
 ## 2026-11-22 应用平台、模型运行、网页采集与游戏 Skills
 

@@ -1,0 +1,190 @@
+{
+  "sha": "ea18ba47a17a818ece1c0be524985c57be6c1088",
+  "url": "https://api.github.com/repos/yoruuuchan/create-blender-story-video/git/trees/ea18ba47a17a818ece1c0be524985c57be6c1088",
+  "tree": [
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b9d509c984f6b03673ab557961a62136dc8df1df",
+      "url": "https://api.github.com/repos/yoruuuchan/create-blender-story-video/git/trees/b9d509c984f6b03673ab557961a62136dc8df1df"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c770c4ad74847a660ba716ebabf59f3f13675df7",
+      "url": "https://api.github.com/repos/yoruuuchan/create-blender-story-video/git/trees/c770c4ad74847a660ba716ebabf59f3f13675df7"
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17fb3c4d74e1e6ea5cc217417461e6951ee2355a",
+      "size": 381,
+      "url": "https://api.github.com/repos/yoruuuchan/create-blender-story-video/git/blobs/17fb3c4d74e1e6ea5cc217417461e6951ee2355a"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "960620b011fa6dc2c213d22c5871bb42e96fddce",
+      "size": 39,
+      "url": "https://api.github.com/repos/yoruuuchan/create-blender-story-video/git/blobs/960620b011fa6dc2c213d22c5871bb42e96fddce"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c642f6d2b9c9b8a81de71288c511d480f9956f4c",
+      "size": 1067,
+      "url": "https://api.github.com/repos/yoruuuchan/create-blender-story-video/git/blobs/c642f6d2b9c9b8a81de71288c511d480f9956f4c"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a07591650c6aa296b27bafb83f8d22afe40546c",
+      "size": 4874,
+      "url": "https://api.github.com/repos/yoruuuchan/create-blender-story-video/git/blobs/6a07591650c6aa296b27bafb83f8d22afe40546c"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dcb5cafc8dc13391bc19d2ca6318f894436e45da",
+      "url": "https://api.github.com/repos/yoruuuchan/create-blender-story-video/git/trees/dcb5cafc8dc13391bc19d2ca6318f894436e45da"
+    },
+    {
+      "path": "scripts/check-links.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fec8c9d06b6557b6031b8367940121ffb7b8731b",
+      "size": 13129,
+      "url": "https://api.github.com/repos/yoruuuchan/create-blender-story-video/git/blobs/fec8c9d06b6557b6031b8367940121ffb7b8731b"
+    },
+    {
+      "path": "skills",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "895128f4fff5adf9bf799bd14ef2f1c0439de192",
+      "url": "https://api.github.com/repos/yoruuuchan/create-blender-story-video/git/trees/895128f4fff5adf9bf799bd14ef2f1c0439de192"
+    },
+    {
+      "path": "skills/create-blender-story-video",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "45dda66c0d47a80bb94e511ea1f70a4f30d37ebd",
+      "url": "https://api.github.com/repos/yoruuuchan/create-blender-story-video/git/trees/45dda66c0d47a80bb94e511ea1f70a4f30d37ebd"
+    },
+    {
+      "path": "skills/create-blender-story-video/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7a1ca59ede7df0879a334e2e588ae824eece473",
+      "size": 15855,
+      "url": "https://api.github.com/repos/yoruuuchan/create-blender-story-video/git/blobs/f7a1ca59ede7df0879a334e2e588ae824eece473"
+    },
+    {
+      "path": "skills/create-blender-story-video/agents",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "05b8df23513da83d34026166dfbf36a20edb0743",
+      "url": "https://api.github.com/repos/yoruuuchan/create-blender-story-video/git/trees/05b8df23513da83d34026166dfbf36a20edb0743"
+    },
+    {
+      "path": "skills/create-blender-story-video/agents/openai.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c95e1d9a4ce7b7c4a75db24d905ecde71fd17cc",
+      "size": 345,
+      "url": "https://api.github.com/repos/yoruuuchan/create-blender-story-video/git/blobs/2c95e1d9a4ce7b7c4a75db24d905ecde71fd17cc"
+    },
+    {
+      "path": "skills/create-blender-story-video/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3060bcdedbfd5efc9816e5a2ba473aa5cf633d5c",
+      "url": "https://api.github.com/repos/yoruuuchan/create-blender-story-video/git/trees/3060bcdedbfd5efc9816e5a2ba473aa5cf633d5c"
+    },
+    {
+      "path": "skills/create-blender-story-video/assets/render-monitor-dashboard",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0b2bfcb0e64f5f15b486cc04fa0e53defbf22cd8",
+      "url": "https://api.github.com/repos/yoruuuchan/create-blender-story-video/git/trees/0b2bfcb0e64f5f15b486cc04fa0e53defbf22cd8"
+    },
+    {
+      "path": "skills/create-blender-story-video/assets/render-monitor-dashboard/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad7f41aab58913f3e1f880342b6fcab26abed7dc",
+      "size": 70462,
+      "url": "https://api.github.com/repos/yoruuuchan/create-blender-story-video/git/blobs/ad7f41aab58913f3e1f880342b6fcab26abed7dc"
+    },
+    {
+      "path": "skills/create-blender-story-video/assets/render-monitor-dashboard/monitor-config.example.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d4598d1d25b40711cd7383533f1f50e5e096d9b",
+      "size": 1066,
+      "url": "https://api.github.com/repos/yoruuuchan/create-blender-story-video/git/blobs/3d4598d1d25b40711cd7383533f1f50e5e096d9b"
+    },
+    {
+      "path": "skills/create-blender-story-video/assets/render-monitor-dashboard/server.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c38b86f396b891c5302e83085a2efa20b2be296f",
+      "size": 34924,
+      "url": "https://api.github.com/repos/yoruuuchan/create-blender-story-video/git/blobs/c38b86f396b891c5302e83085a2efa20b2be296f"
+    },
+    {
+      "path": "skills/create-blender-story-video/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b69d32740a99a9a1c0ade9d47a221d647af304c8",
+      "url": "https://api.github.com/repos/yoruuuchan/create-blender-story-video/git/trees/b69d32740a99a9a1c0ade9d47a221d647af304c8"
+    },
+    {
+      "path": "skills/create-blender-story-video/references/monitor-dashboard.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf7f22d3f3e48de8a6a35b386795dc886a6daa4a",
+      "size": 6144,
+      "url": "https://api.github.com/repos/yoruuuchan/create-blender-story-video/git/blobs/bf7f22d3f3e48de8a6a35b386795dc886a6daa4a"
+    },
+    {
+      "path": "skills/create-blender-story-video/references/reference-gates.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "afebad15f2d0569be1866e1190f411ba86909bd4",
+      "size": 4788,
+      "url": "https://api.github.com/repos/yoruuuchan/create-blender-story-video/git/blobs/afebad15f2d0569be1866e1190f411ba86909bd4"
+    },
+    {
+      "path": "skills/create-blender-story-video/references/render-and-delivery.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0298d9f0d3691ce416578ef7b81ffd3c86d06217",
+      "size": 7056,
+      "url": "https://api.github.com/repos/yoruuuchan/create-blender-story-video/git/blobs/0298d9f0d3691ce416578ef7b81ffd3c86d06217"
+    },
+    {
+      "path": "skills/create-blender-story-video/references/resolve-routing.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ee6c9afeae515b159cf7e1bf29a2b49ba37275b",
+      "size": 5236,
+      "url": "https://api.github.com/repos/yoruuuchan/create-blender-story-video/git/blobs/9ee6c9afeae515b159cf7e1bf29a2b49ba37275b"
+    },
+    {
+      "path": "skills/create-blender-story-video/references/stability-and-recovery.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d78d419bf19e38082bbf6301aebb0e4699bd24d",
+      "size": 7738,
+      "url": "https://api.github.com/repos/yoruuuchan/create-blender-story-video/git/blobs/5d78d419bf19e38082bbf6301aebb0e4699bd24d"
+    }
+  ],
+  "truncated": false
+}

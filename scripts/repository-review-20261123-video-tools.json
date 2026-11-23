@@ -1,0 +1,253 @@
+{
+  "recorded_date": "2026-11-23",
+  "updated_at_utc": "2026-11-23T02:31:15.187371+00:00",
+  "limit_bytes": 120000000,
+  "size_policy": "New repositories strictly below 120 MB including Git; existing clean repositories may exceed the limit.",
+  "repositories": [
+    {
+      "repository": "WyattBlue/auto-editor",
+      "url": "https://github.com/WyattBlue/auto-editor",
+      "branch": "master",
+      "remote_head": "1b99b6a84f9e96d10ed90ba6622b1cc7497a1c85",
+      "tree_sha": "6f7232efaaef70a8798c07323d745487688fd850",
+      "commit_date": "2026-11-22T20:26:20Z",
+      "description": "Effort free video editing!",
+      "license_api": {
+        "key": "unlicense",
+        "name": "The Unlicense",
+        "spdx_id": "Unlicense",
+        "url": "https://api.github.com/licenses/unlicense",
+        "node_id": "MDc6TGljZW5zZTE1"
+      },
+      "github_size_kib": 121877,
+      "truncated": false,
+      "tracked_source_bytes": 36679468,
+      "tracked_entries": 203,
+      "skill_paths": [
+        "skills/auto-editor-effects/SKILL.md",
+        "skills/auto-editor-export/SKILL.md",
+        "skills/auto-editor-transcribe/SKILL.md",
+        "skills/auto-editor-transitions/SKILL.md",
+        "skills/auto-editor/SKILL.md"
+      ],
+      "submodules": [],
+      "license_paths": [
+        "LICENSE"
+      ],
+      "previously_present": false,
+      "local_path": "E:\\aimodel\\auto-editor",
+      "size_exception": false,
+      "dependencies_installed": false,
+      "global_skills_installed": false,
+      "submodules_initialized": false,
+      "lfs_entities_downloaded": false,
+      "matches_preflight_tree": true,
+      "git_bytes_before_checkout": 12316428,
+      "projected_bytes_including_git": 48995896,
+      "action": "cloned-shallow",
+      "head": "1b99b6a84f9e96d10ed90ba6622b1cc7497a1c85",
+      "origin": "https://github.com/WyattBlue/auto-editor.git",
+      "worktree_clean": true,
+      "shallow": true,
+      "fsck_output": "",
+      "fsck_exit_code": 0,
+      "git_bytes": 12335955,
+      "local_file_bytes_including_git": 49015423,
+      "verified_skill_file_count": 5,
+      "matches_remote_head": true,
+      "size_below_limit": true,
+      "local_directory_exists": true,
+      "license_verified": "Unlicense (repository source); release binaries and separate applications have their own licensing terms.",
+      "license_verified_source_url": "https://github.com/WyattBlue/auto-editor/blob/1b99b6a84f9e96d10ed90ba6622b1cc7497a1c85/LICENSE",
+      "skill_file_count": 5,
+      "upstream_functionality_reproduced": false,
+      "gitlink_entries": [],
+      "license_file_sha256": {
+        "LICENSE": "ca2abdf695884c77ea4b4a5b64ca7b732d9d9dbade4eebc1c2e76c53e9e3bc83"
+      },
+      "worktree_file_bytes": 36679468,
+      "verified_tracked_entry_count": 203,
+      "worktree_matches_api_source_bytes": true
+    },
+    {
+      "repository": "Augani/openreel-video",
+      "url": "https://github.com/Augani/openreel-video",
+      "branch": "main",
+      "remote_head": "c8f33f212c8d39ff9cfabb3302a44423d8dad83d",
+      "tree_sha": "f8014886b08fe60dff0eea731d6a773073b7841c",
+      "commit_date": "2026-11-20T06:19:51Z",
+      "description": "OpenReel Video - Professional browser-based video editor. Open source CapCut alternative. 100% browser-based, no installation, no cloud uploads, no watermarks.",
+      "license_api": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "github_size_kib": 40790,
+      "truncated": false,
+      "tracked_source_bytes": 179761841,
+      "tracked_entries": 10320,
+      "skill_paths": [],
+      "submodules": [],
+      "license_paths": [
+        "LICENSE"
+      ],
+      "previously_present": false,
+      "local_path": "E:\\aimodel\\openreel-video",
+      "size_exception": false,
+      "dependencies_installed": false,
+      "global_skills_installed": false,
+      "submodules_initialized": false,
+      "lfs_entities_downloaded": false,
+      "action": "skipped-source-over-limit",
+      "local_directory_exists": false,
+      "license_verified": "MIT",
+      "license_verified_source_url": "https://github.com/Augani/openreel-video/blob/c8f33f212c8d39ff9cfabb3302a44423d8dad83d/LICENSE",
+      "skill_file_count": 0,
+      "upstream_functionality_reproduced": false,
+      "gitlink_entries": []
+    },
+    {
+      "repository": "nduckmink/arkon",
+      "url": "https://github.com/nduckmink/arkon",
+      "branch": "main",
+      "remote_head": "5e4069df67b80b3ebcea1a4e841196b6f263d28e",
+      "tree_sha": "e778490e47e77139fc19d48af160a56b3a44bfef",
+      "commit_date": "2026-06-02T15:34:00Z",
+      "description": "Arkon: Enterprise AI Knowledge Hub & MCP Server. Self-hosted knowledge base for teams to manage RAG contexts, access policies, and AI skills. Connect Claude and other LLMs via Model Context Protocol (MCP) for automated, secure organizational knowledge integration.",
+      "license_api": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "github_size_kib": 9940,
+      "truncated": false,
+      "tracked_source_bytes": 9776944,
+      "tracked_entries": 302,
+      "skill_paths": [
+        "skills/arkon-edit/SKILL.md",
+        "skills/arkon-query/SKILL.md",
+        "skills/arkon-review/SKILL.md"
+      ],
+      "submodules": [
+        ".claude/worktrees/practical-margulis-63f2c1"
+      ],
+      "license_paths": [
+        "LICENSE"
+      ],
+      "previously_present": false,
+      "local_path": "E:\\aimodel\\arkon",
+      "size_exception": false,
+      "dependencies_installed": false,
+      "global_skills_installed": false,
+      "submodules_initialized": false,
+      "lfs_entities_downloaded": false,
+      "matches_preflight_tree": true,
+      "git_bytes_before_checkout": 7540459,
+      "projected_bytes_including_git": 17317403,
+      "action": "cloned-shallow",
+      "head": "5e4069df67b80b3ebcea1a4e841196b6f263d28e",
+      "origin": "https://github.com/nduckmink/arkon.git",
+      "worktree_clean": true,
+      "shallow": true,
+      "fsck_output": "",
+      "fsck_exit_code": 0,
+      "git_bytes": 7573744,
+      "local_file_bytes_including_git": 17350688,
+      "verified_skill_file_count": 3,
+      "matches_remote_head": true,
+      "size_below_limit": true,
+      "local_directory_exists": true,
+      "license_verified": "PolyForm Internal Use License 1.0.0; internal business use, no redistribution; README disallows offering Arkon as a service to third parties.",
+      "license_verified_source_url": "https://github.com/nduckmink/arkon/blob/5e4069df67b80b3ebcea1a4e841196b6f263d28e/LICENSE",
+      "skill_file_count": 3,
+      "upstream_functionality_reproduced": false,
+      "gitlink_entries": [
+        {
+          "path": ".claude/worktrees/practical-margulis-63f2c1",
+          "mode": "160000",
+          "type": "commit",
+          "sha": "99879f66c4531d43f1bc8af9653ee23d8a178ba2"
+        }
+      ],
+      "license_file_sha256": {
+        "LICENSE": "7c341ebea6711687263dab6b93148fd53d5e0c454bf27d50538e7085793a9764"
+      },
+      "worktree_file_bytes": 9776944,
+      "verified_tracked_entry_count": 302,
+      "worktree_matches_api_source_bytes": true
+    },
+    {
+      "repository": "D4Vinci/Scrapling",
+      "url": "https://github.com/D4Vinci/Scrapling",
+      "branch": "main",
+      "remote_head": "2998c9ebba52ef6116f0a483c7d2f21908250024",
+      "tree_sha": "7df269a16b4d0f4bebae2aee3ead89e901bdec5e",
+      "commit_date": "2026-11-17T09:51:29Z",
+      "description": "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev",
+      "license_api": {
+        "key": "bsd-3-clause",
+        "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+        "spdx_id": "BSD-3-Clause",
+        "url": "https://api.github.com/licenses/bsd-3-clause",
+        "node_id": "MDc6TGljZW5zZTU="
+      },
+      "github_size_kib": 15769,
+      "truncated": false,
+      "tracked_source_bytes": 10821133,
+      "tracked_entries": 698,
+      "skill_paths": [
+        "agent-skill/Scrapling-Skill/SKILL.md"
+      ],
+      "submodules": [],
+      "license_paths": [
+        "LICENSE"
+      ],
+      "previously_present": true,
+      "local_path": "E:\\aimodel\\Scrapling",
+      "size_exception": false,
+      "dependencies_installed": false,
+      "global_skills_installed": false,
+      "submodules_initialized": false,
+      "lfs_entities_downloaded": false,
+      "head_before": "2998c9ebba52ef6116f0a483c7d2f21908250024",
+      "origin": "https://github.com/D4Vinci/Scrapling.git",
+      "ahead": 0,
+      "behind": 0,
+      "action": "current",
+      "head": "2998c9ebba52ef6116f0a483c7d2f21908250024",
+      "worktree_clean": true,
+      "shallow": true,
+      "fsck_output": "",
+      "fsck_exit_code": 0,
+      "git_bytes": 4208417,
+      "local_file_bytes_including_git": 15029550,
+      "verified_skill_file_count": 1,
+      "matches_remote_head": true,
+      "size_below_limit": true,
+      "local_directory_exists": true,
+      "license_verified": "BSD-3-Clause",
+      "license_verified_source_url": "https://github.com/D4Vinci/Scrapling/blob/2998c9ebba52ef6116f0a483c7d2f21908250024/LICENSE",
+      "skill_file_count": 1,
+      "upstream_functionality_reproduced": false,
+      "gitlink_entries": [],
+      "license_file_sha256": {
+        "LICENSE": "5c782ef0346e4fbfe0dc76fd435f181a0f1e4a1a7a6b13c169c6e74314ff5964"
+      },
+      "worktree_file_bytes": 10821133,
+      "verified_tracked_entry_count": 698,
+      "worktree_matches_api_source_bytes": true,
+      "matches_preflight_tree": true
+    }
+  ],
+  "input_link_count": 5,
+  "unique_repository_count": 4,
+  "duplicate_input_repositories": [
+    "WyattBlue/auto-editor"
+  ],
+  "new_source_count": 3,
+  "share_source_count": 166
+}

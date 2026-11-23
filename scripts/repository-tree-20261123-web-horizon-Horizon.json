@@ -1,0 +1,2086 @@
+{
+  "sha": "5c24d23111ecb8c377f133648a787fa4289ce9bd",
+  "url": "https://api.github.com/repos/Thysrael/Horizon/git/trees/5c24d23111ecb8c377f133648a787fa4289ce9bd",
+  "tree": [
+    {
+      "path": ".dockerignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa74d4ffb787d8c9cbfe6e9e09db1653bdd68b29",
+      "size": 403,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/fa74d4ffb787d8c9cbfe6e9e09db1653bdd68b29"
+    },
+    {
+      "path": ".env.example",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0afb1afbbcfa471b624ac2a7fc35eaf07a57fc57",
+      "size": 1114,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/0afb1afbbcfa471b624ac2a7fc35eaf07a57fc57"
+    },
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b9d1b64f6a9127a9e5570a0573cd6d42a2288b3d",
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/trees/b9d1b64f6a9127a9e5570a0573cd6d42a2288b3d"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "aa30853989bfbde82015ff83a21255ce8ce1cae8",
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/trees/aa30853989bfbde82015ff83a21255ce8ce1cae8"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/feature_request.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df81be2bee2767f5b98051c3cc739f1f7e8a9b11",
+      "size": 458,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/df81be2bee2767f5b98051c3cc739f1f7e8a9b11"
+    },
+    {
+      "path": ".github/pull_request_template.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ff76e7f74986fa7171b0c4f34c97a5fb6289b05",
+      "size": 443,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/5ff76e7f74986fa7171b0c4f34c97a5fb6289b05"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dbbd71e184fb8a200a3110e83f175f71dd5ec11c",
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/trees/dbbd71e184fb8a200a3110e83f175f71dd5ec11c"
+    },
+    {
+      "path": ".github/workflows/daily-summary.yml.disabled",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ff7ff4bfee219f5f38c4331d342262281627efe",
+      "size": 1911,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/8ff7ff4bfee219f5f38c4331d342262281627efe"
+    },
+    {
+      "path": ".github/workflows/deploy-docs.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "012254b43184ba31785b8a2ac37bbdfbad0dc22b",
+      "size": 882,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/012254b43184ba31785b8a2ac37bbdfbad0dc22b"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7da4e7a026b227af46d85f8ba888c9706733b904",
+      "size": 636,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/7da4e7a026b227af46d85f8ba888c9706733b904"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e58d8d1c780103b79b8fd28e083659516bbb395",
+      "size": 5220,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/7e58d8d1c780103b79b8fd28e083659516bbb395"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18b805f930d1cdf8209cb734b52f50ea8c5b7f1e",
+      "size": 2357,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/18b805f930d1cdf8209cb734b52f50ea8c5b7f1e"
+    },
+    {
+      "path": "Dockerfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a333d49fd8d968cf51ebbdb3816c271a55be4317",
+      "size": 1254,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/a333d49fd8d968cf51ebbdb3816c271a55be4317"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bbc1ed84540bb5ec91aae764e4fe3717ae08d181",
+      "size": 1065,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/bbc1ed84540bb5ec91aae764e4fe3717ae08d181"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67899262fe65415a3e8c51f70de89a71b5f61457",
+      "size": 25870,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/67899262fe65415a3e8c51f70de89a71b5f61457"
+    },
+    {
+      "path": "README_ja.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "522446b059ecb2a6ace13a469f284ece4fc258f0",
+      "size": 30208,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/522446b059ecb2a6ace13a469f284ece4fc258f0"
+    },
+    {
+      "path": "README_zh.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07afafd5a083e0b9fe3a22616fb4c964ed158593",
+      "size": 25098,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/07afafd5a083e0b9fe3a22616fb4c964ed158593"
+    },
+    {
+      "path": "SECURITY.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26d8e2e4a79db11063648c5d85e7198b946dfe1f",
+      "size": 817,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/26d8e2e4a79db11063648c5d85e7198b946dfe1f"
+    },
+    {
+      "path": "data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "32559e1aa435bc0b7241f091d04ad1a8bdc40543",
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/trees/32559e1aa435bc0b7241f091d04ad1a8bdc40543"
+    },
+    {
+      "path": "data/config.example.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94fbad6d135183b924b8568969826afe15f1d73f",
+      "size": 6500,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/94fbad6d135183b924b8568969826afe15f1d73f"
+    },
+    {
+      "path": "data/config.github.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "059005ffb1a6eae76365ddbc19f3d1f94b3fb332",
+      "size": 5049,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/059005ffb1a6eae76365ddbc19f3d1f94b3fb332"
+    },
+    {
+      "path": "data/presets.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54cc3f24dca67f9f578172c5ad9242ba7dc603aa",
+      "size": 13082,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/54cc3f24dca67f9f578172c5ad9242ba7dc603aa"
+    },
+    {
+      "path": "docker-compose.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13e87200300c2421619c6a233659666d0a51ffc4",
+      "size": 441,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/13e87200300c2421619c6a233659666d0a51ffc4"
+    },
+    {
+      "path": "docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8414778360d713ba49df8d9ba5a4d19499009832",
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/trees/8414778360d713ba49df8d9ba5a4d19499009832"
+    },
+    {
+      "path": "docs/_config.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0174c02fae84e043999f569660c685b8795fb7fe",
+      "size": 544,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/0174c02fae84e043999f569660c685b8795fb7fe"
+    },
+    {
+      "path": "docs/_includes",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7a0dbe9aeeea76acda8a788e706958ecac6a6e17",
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/trees/7a0dbe9aeeea76acda8a788e706958ecac6a6e17"
+    },
+    {
+      "path": "docs/_includes/head-custom.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "429a6b7edad0fa53312183ee1ca884e2746837ed",
+      "size": 1384,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/429a6b7edad0fa53312183ee1ca884e2746837ed"
+    },
+    {
+      "path": "docs/agent-skill.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "208d683518c9b6cff352dbd5ea09cfc62f7ff2a1",
+      "size": 6833,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/208d683518c9b6cff352dbd5ea09cfc62f7ff2a1"
+    },
+    {
+      "path": "docs/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fd8fcb600cc36d384de1c7990c24575a1df6c4d5",
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/trees/fd8fcb600cc36d384de1c7990c24575a1df6c4d5"
+    },
+    {
+      "path": "docs/assets/apimart-logo.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "941706313a34c2e1be9d24821774b7a625ca62c6",
+      "size": 129936,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/941706313a34c2e1be9d24821774b7a625ca62c6"
+    },
+    {
+      "path": "docs/assets/apixo-ai-stacked-on-black.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e81d7f00de18d0023dc0ce9097a1d1952a2c2979",
+      "size": 8747,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/e81d7f00de18d0023dc0ce9097a1d1952a2c2979"
+    },
+    {
+      "path": "docs/assets/apixo-logo.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a71b0e23993802e8673ac1183cd1c1a4159dbdc",
+      "size": 298054,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/2a71b0e23993802e8673ac1183cd1c1a4159dbdc"
+    },
+    {
+      "path": "docs/assets/architecture.graffle",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b78cd5802983e4faa3546527d4d9bdbbb0f8f77",
+      "size": 256474,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/9b78cd5802983e4faa3546527d4d9bdbbb0f8f77"
+    },
+    {
+      "path": "docs/assets/architecture.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61e278d9d2dd72333736c0dfc3ed5c377d187df6",
+      "size": 76479,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/61e278d9d2dd72333736c0dfc3ed5c377d187df6"
+    },
+    {
+      "path": "docs/assets/astraflow-logo.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8491a4fa5535994ac9620011526ea9f4d07f7bb3",
+      "size": 11891,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/8491a4fa5535994ac9620011526ea9f4d07f7bb3"
+    },
+    {
+      "path": "docs/assets/compshare-logo.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63daedae8d3f652dbec5a6bbe3d44b913362c44f",
+      "size": 32203,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/63daedae8d3f652dbec5a6bbe3d44b913362c44f"
+    },
+    {
+      "path": "docs/assets/css",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b4e79ea2f4cfa6a1b149dc430d1443892f823584",
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/trees/b4e79ea2f4cfa6a1b149dc430d1443892f823584"
+    },
+    {
+      "path": "docs/assets/css/horizon.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be4c3a820d0f26c77be9937833f8de5c53cfadc6",
+      "size": 4658,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/be4c3a820d0f26c77be9937833f8de5c53cfadc6"
+    },
+    {
+      "path": "docs/assets/email.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4270ce0ec677c683b5b0b2186ca1ef2edb7aaad8",
+      "size": 425090,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/4270ce0ec677c683b5b0b2186ca1ef2edb7aaad8"
+    },
+    {
+      "path": "docs/assets/feishu_en.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3b4255a22c37eeeeed38b392717c224c4179ec8",
+      "size": 503194,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/b3b4255a22c37eeeeed38b392717c224c4179ec8"
+    },
+    {
+      "path": "docs/assets/feishu_zh.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85dbd1f59bbc6f392d9a882e9c0b6dd9a213438e",
+      "size": 584927,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/85dbd1f59bbc6f392d9a882e9c0b6dd9a213438e"
+    },
+    {
+      "path": "docs/assets/horizon-header.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34c0890898b336147ae49fb0c363b6a0b11fb4d0",
+      "size": 2915,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/34c0890898b336147ae49fb0c363b6a0b11fb4d0"
+    },
+    {
+      "path": "docs/assets/js",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2a788fd3dc648bd10f9e5f09a6350f1a23f83881",
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/trees/2a788fd3dc648bd10f9e5f09a6350f1a23f83881"
+    },
+    {
+      "path": "docs/assets/js/horizon.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "696f9dd7a4ad94e6038711b488f42e3aafe74166",
+      "size": 4220,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/696f9dd7a4ad94e6038711b488f42e3aafe74166"
+    },
+    {
+      "path": "docs/assets/modelflare-logo.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91bd54198dbc69656947135700ccad4cadf7f700",
+      "size": 65630,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/91bd54198dbc69656947135700ccad4cadf7f700"
+    },
+    {
+      "path": "docs/assets/ofoxai-logo.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a6907d45fa437743745b7df0152acaf1e0fd4b6",
+      "size": 5035,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/8a6907d45fa437743745b7df0152acaf1e0fd4b6"
+    },
+    {
+      "path": "docs/assets/one_news_en.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3ba135dda1b3fb9b8f22b75c7094d25c1c95041",
+      "size": 608081,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/d3ba135dda1b3fb9b8f22b75c7094d25c1c95041"
+    },
+    {
+      "path": "docs/assets/one_news_zh.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4819b5716c3beafee83962751a34177dd173da5",
+      "size": 553634,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/f4819b5716c3beafee83962751a34177dd173da5"
+    },
+    {
+      "path": "docs/assets/overview_en.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0788eaf8492c44347e74b057bc1706f76ff19dc7",
+      "size": 435474,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/0788eaf8492c44347e74b057bc1706f76ff19dc7"
+    },
+    {
+      "path": "docs/assets/overview_zh.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07eb66f6c5be2132086d32d5383d41eae60fb715",
+      "size": 442673,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/07eb66f6c5be2132086d32d5383d41eae60fb715"
+    },
+    {
+      "path": "docs/assets/qq-group.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92b6463a95e1018d751674da7cbd57baa79b67df",
+      "size": 595623,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/92b6463a95e1018d751674da7cbd57baa79b67df"
+    },
+    {
+      "path": "docs/assets/terminal_log.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2743cdc3b7b6643ba6e802b01208ce6f77b780e9",
+      "size": 626035,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/2743cdc3b7b6643ba6e802b01208ce6f77b780e9"
+    },
+    {
+      "path": "docs/assets/wechat-preview.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "630827b595f417e6238e966a3d75c0c5765f63e6",
+      "size": 211848,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/630827b595f417e6238e966a3d75c0c5765f63e6"
+    },
+    {
+      "path": "docs/assets/wechat.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc1079e1bf7387be03d2d34af751193871bb3fb7",
+      "size": 738057,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/cc1079e1bf7387be03d2d34af751193871bb3fb7"
+    },
+    {
+      "path": "docs/chatgpt.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e62fb7e2776064487ba4c7e2c0ae309cd14331ae",
+      "size": 6927,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/e62fb7e2776064487ba4c7e2c0ae309cd14331ae"
+    },
+    {
+      "path": "docs/configuration.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e8edd00381a51465848ae8b608687d5c90f90b9",
+      "size": 39221,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/4e8edd00381a51465848ae8b608687d5c90f90b9"
+    },
+    {
+      "path": "docs/debug",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fbc9eb4d6a1d2f73d67049b3576f38a9bee77858",
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/trees/fbc9eb4d6a1d2f73d67049b3576f38a9bee77858"
+    },
+    {
+      "path": "docs/debug/trafilatura-concurrency",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e04f163bc2c9ad291fec1504d3447632547d6b15",
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/trees/e04f163bc2c9ad291fec1504d3447632547d6b15"
+    },
+    {
+      "path": "docs/debug/trafilatura-concurrency/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5faf38ebbd6908536c243e3a056c9fc1418a5efa",
+      "size": 5616,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/5faf38ebbd6908536c243e3a056c9fc1418a5efa"
+    },
+    {
+      "path": "docs/debug/trafilatura-concurrency/fixtures.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7c4461a1b4ddec04c2e8661bc173db0d692ccdf",
+      "size": 647,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/b7c4461a1b4ddec04c2e8661bc173db0d692ccdf"
+    },
+    {
+      "path": "docs/debug/trafilatura-concurrency/requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e64a088105fb870673660b03378f06f35826a98",
+      "size": 567,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/1e64a088105fb870673660b03378f06f35826a98"
+    },
+    {
+      "path": "docs/debug/trafilatura-concurrency/results.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60a482fd8f25c29330a8cfbab2b8a5caaf94c6a9",
+      "size": 17735,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/60a482fd8f25c29330a8cfbab2b8a5caaf94c6a9"
+    },
+    {
+      "path": "docs/extractors.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0da630663b24c51fb188964830f0721e6252815",
+      "size": 7555,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/e0da630663b24c51fb188964830f0721e6252815"
+    },
+    {
+      "path": "docs/feed-en.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "288a909cc0a8fcbde3121d1fb272d1b54123d90e",
+      "size": 781,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/288a909cc0a8fcbde3121d1fb272d1b54123d90e"
+    },
+    {
+      "path": "docs/feed-zh.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e29455d628cc0512af60921c6752b1efc55f7c5e",
+      "size": 779,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/e29455d628cc0512af60921c6752b1efc55f7c5e"
+    },
+    {
+      "path": "docs/horizon-hub-design.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5be86c96304e1bdd391fb2225b520853ffe97677",
+      "size": 8780,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/5be86c96304e1bdd391fb2225b520853ffe97677"
+    },
+    {
+      "path": "docs/index.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed1e872d1dfe3267a7221bd2b711f34089a527e9",
+      "size": 3271,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/ed1e872d1dfe3267a7221bd2b711f34089a527e9"
+    },
+    {
+      "path": "docs/profiles.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff4d30d3527602449eb7f9a8001c49ffdfbc6ade",
+      "size": 15446,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/ff4d30d3527602449eb7f9a8001c49ffdfbc6ade"
+    },
+    {
+      "path": "docs/scoring.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5394ea18889d7c93141a419fe4f553d8662dea7b",
+      "size": 4792,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/5394ea18889d7c93141a419fe4f553d8662dea7b"
+    },
+    {
+      "path": "docs/scrapers.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84cbb0e7388f1c6e12aa81a59afb32224efe0e95",
+      "size": 10939,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/84cbb0e7388f1c6e12aa81a59afb32224efe0e95"
+    },
+    {
+      "path": "docs/twitter-cookies.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d328f3e2b771ff4ab613cb76a2c0680ca43f9393",
+      "size": 3277,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/d328f3e2b771ff4ab613cb76a2c0680ca43f9393"
+    },
+    {
+      "path": "profiles",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8bac37236993b717bc7f2e2766823c57bec93f14",
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/trees/8bac37236993b717bc7f2e2766823c57bec93f14"
+    },
+    {
+      "path": "profiles/ai-creator",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "55ef3d6f17775fad92dec618a8c410afc1864e72",
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/trees/55ef3d6f17775fad92dec618a8c410afc1864e72"
+    },
+    {
+      "path": "profiles/ai-creator/analysis.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2695753723772e8e613988dadc4ef63f332a8e1b",
+      "size": 1194,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/2695753723772e8e613988dadc4ef63f332a8e1b"
+    },
+    {
+      "path": "profiles/ai-creator/enrichment.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0df2c52e8f226caed047edf486763a77029d21be",
+      "size": 1226,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/0df2c52e8f226caed047edf486763a77029d21be"
+    },
+    {
+      "path": "profiles/ai-creator/match.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba6cdbe8ce6a7a4a38e3f609b942d18f0452318d",
+      "size": 643,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/ba6cdbe8ce6a7a4a38e3f609b942d18f0452318d"
+    },
+    {
+      "path": "profiles/ai-creator/profile.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f17fb0c03a1930237523dd04bd94b066263c372",
+      "size": 548,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/8f17fb0c03a1930237523dd04bd94b066263c372"
+    },
+    {
+      "path": "profiles/finance-news",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3319c97c08b588b3b91afccbb17e4a58f1169226",
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/trees/3319c97c08b588b3b91afccbb17e4a58f1169226"
+    },
+    {
+      "path": "profiles/finance-news/analysis.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a52ed1e184d24e0dde10c91236bf01b1422102db",
+      "size": 1456,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/a52ed1e184d24e0dde10c91236bf01b1422102db"
+    },
+    {
+      "path": "profiles/finance-news/enrichment.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40207892b2ea199b4eae3569410411b3d5a57242",
+      "size": 2340,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/40207892b2ea199b4eae3569410411b3d5a57242"
+    },
+    {
+      "path": "profiles/finance-news/match.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa06126f9b910ddec6f5a4097e23d07b41c63e4d",
+      "size": 842,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/aa06126f9b910ddec6f5a4097e23d07b41c63e4d"
+    },
+    {
+      "path": "profiles/finance-news/profile.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "001dc3520b2a867c8d8143440080c2ba234f8391",
+      "size": 688,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/001dc3520b2a867c8d8143440080c2ba234f8391"
+    },
+    {
+      "path": "profiles/tech-blog",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b34984d5543b055c50d264b624d1e17afa75f33a",
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/trees/b34984d5543b055c50d264b624d1e17afa75f33a"
+    },
+    {
+      "path": "profiles/tech-blog/analysis.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a00c62aebe13458cb7112074f049f32812092c28",
+      "size": 1622,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/a00c62aebe13458cb7112074f049f32812092c28"
+    },
+    {
+      "path": "profiles/tech-blog/enrichment.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8dd803574d137b56b95ae3bda4b85a6363d7bc13",
+      "size": 2451,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/8dd803574d137b56b95ae3bda4b85a6363d7bc13"
+    },
+    {
+      "path": "profiles/tech-blog/match.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f31ddfe4047b057a19d0d6b6cfe9acf79a18d09",
+      "size": 801,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/4f31ddfe4047b057a19d0d6b6cfe9acf79a18d09"
+    },
+    {
+      "path": "profiles/tech-blog/profile.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67cce8fe0c7f9d964c4281a89601eb23c9adf216",
+      "size": 626,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/67cce8fe0c7f9d964c4281a89601eb23c9adf216"
+    },
+    {
+      "path": "profiles/tech-news",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9c80c2b3a3cbfcccce68ecd545521104ec234d92",
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/trees/9c80c2b3a3cbfcccce68ecd545521104ec234d92"
+    },
+    {
+      "path": "profiles/tech-news/analysis.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57ee37a2a06c8b829be197302462707332af3e1b",
+      "size": 1320,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/57ee37a2a06c8b829be197302462707332af3e1b"
+    },
+    {
+      "path": "profiles/tech-news/enrichment.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11abce4cd82f78aebf505e9bbf9c4afb84dca2ca",
+      "size": 3161,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/11abce4cd82f78aebf505e9bbf9c4afb84dca2ca"
+    },
+    {
+      "path": "profiles/tech-news/match.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6b74472ec592df3445f9800c13db01ad4956590",
+      "size": 660,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/f6b74472ec592df3445f9800c13db01ad4956590"
+    },
+    {
+      "path": "profiles/tech-news/profile.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "abe460a9cb23735e2d2fb1fd9a5425d6cc6deea6",
+      "size": 721,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/abe460a9cb23735e2d2fb1fd9a5425d6cc6deea6"
+    },
+    {
+      "path": "pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0779571860c704af7d558d97a2344362f8c3b89",
+      "size": 1488,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/c0779571860c704af7d558d97a2344362f8c3b89"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4231d61113738bef9b5974dc4bc6c9113a1c961c",
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/trees/4231d61113738bef9b5974dc4bc6c9113a1c961c"
+    },
+    {
+      "path": "scripts/check_mcp.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90499f0e77b9569a4baab3768d066c78000ee2b4",
+      "size": 990,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/90499f0e77b9569a4baab3768d066c78000ee2b4"
+    },
+    {
+      "path": "scripts/daily-run.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "43eaaef17c9fa3bd0d4de196e2ec69646ce37b56",
+      "size": 1661,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/43eaaef17c9fa3bd0d4de196e2ec69646ce37b56"
+    },
+    {
+      "path": "scripts/reproduce_trafilatura_concurrency.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72a7908f089d497762b0c958d9344865e860cae8",
+      "size": 5729,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/72a7908f089d497762b0c958d9344865e860cae8"
+    },
+    {
+      "path": "skills",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4717ab91eb6ba319f6b393ab70f903f585de3b0c",
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/trees/4717ab91eb6ba319f6b393ab70f903f585de3b0c"
+    },
+    {
+      "path": "skills/horizon",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "165e67e3fca1c94ac1b391004311b1504e32c88a",
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/trees/165e67e3fca1c94ac1b391004311b1504e32c88a"
+    },
+    {
+      "path": "skills/horizon/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af89c9a4a3c3685a7caa71678076fc74758bb9d5",
+      "size": 14713,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/af89c9a4a3c3685a7caa71678076fc74758bb9d5"
+    },
+    {
+      "path": "skills/horizon/evals",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d5596ba2705fe1a390a067231c71efd3e7d45abc",
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/trees/d5596ba2705fe1a390a067231c71efd3e7d45abc"
+    },
+    {
+      "path": "skills/horizon/evals/scenarios.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "accb7b0f30b05a0abca1a35f3f1dc692de16b199",
+      "size": 3718,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/accb7b0f30b05a0abca1a35f3f1dc692de16b199"
+    },
+    {
+      "path": "skills/horizon/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ce2f1998c3cde97518f3bd7769d628db485343d0",
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/trees/ce2f1998c3cde97518f3bd7769d628db485343d0"
+    },
+    {
+      "path": "skills/horizon/references/automation.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a8915625e737721cc7fa46deef996c7d5cb0d28",
+      "size": 6178,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/7a8915625e737721cc7fa46deef996c7d5cb0d28"
+    },
+    {
+      "path": "skills/horizon/references/pipeline.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "231e9ba20b9faa8963abddfbdbad92b81165f9ac",
+      "size": 5840,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/231e9ba20b9faa8963abddfbdbad92b81165f9ac"
+    },
+    {
+      "path": "skills/horizon/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2c1f8fa9ea5a8814b49baff1a117ff801e40b5f5",
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/trees/2c1f8fa9ea5a8814b49baff1a117ff801e40b5f5"
+    },
+    {
+      "path": "skills/horizon/scripts/horizon_ops.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7da9055746fc652a6c0d9e67000c75a50534cfd1",
+      "size": 5190,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/7da9055746fc652a6c0d9e67000c75a50534cfd1"
+    },
+    {
+      "path": "src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a2899ca3b4e7df8fd9e6c851fa8581b511ab5220",
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/trees/a2899ca3b4e7df8fd9e6c851fa8581b511ab5220"
+    },
+    {
+      "path": "src/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "src/_cli.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec7d4a4030ad9bde11c3dd5082bb33bb24e0fb42",
+      "size": 844,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/ec7d4a4030ad9bde11c3dd5082bb33bb24e0fb42"
+    },
+    {
+      "path": "src/_file_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37828e366547400f6f2cf277136bd4ca8cb6c32a",
+      "size": 722,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/37828e366547400f6f2cf277136bd4ca8cb6c32a"
+    },
+    {
+      "path": "src/ai",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "48b6a072f0f9ef1f3eb459e5c8c6772b7f27f494",
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/trees/48b6a072f0f9ef1f3eb459e5c8c6772b7f27f494"
+    },
+    {
+      "path": "src/ai/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "src/ai/analyzer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "674d8e20250f0fa56ca7753cf9b938c09c8e1ebd",
+      "size": 7889,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/674d8e20250f0fa56ca7753cf9b938c09c8e1ebd"
+    },
+    {
+      "path": "src/ai/chatgpt.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b863028538f5d563b3b9506d9b577660e8835e43",
+      "size": 4754,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/b863028538f5d563b3b9506d9b577660e8835e43"
+    },
+    {
+      "path": "src/ai/chatgpt_auth.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa54a163e1c3a7714047b5360175302fbcddc39f",
+      "size": 22665,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/fa54a163e1c3a7714047b5360175302fbcddc39f"
+    },
+    {
+      "path": "src/ai/classifier.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b84045920113c59ec7b6f27f557eb671194626e",
+      "size": 5400,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/8b84045920113c59ec7b6f27f557eb671194626e"
+    },
+    {
+      "path": "src/ai/client.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dcc9bd7be0360576459da26613f97555fd6d928c",
+      "size": 26998,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/dcc9bd7be0360576459da26613f97555fd6d928c"
+    },
+    {
+      "path": "src/ai/enricher.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41d7df86622eac137c32d89e1a09acd40f7cae03",
+      "size": 19172,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/41d7df86622eac137c32d89e1a09acd40f7cae03"
+    },
+    {
+      "path": "src/ai/errors.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61abb01415aa69c79e3868e6c22cc6c45b8f03ff",
+      "size": 207,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/61abb01415aa69c79e3868e6c22cc6c45b8f03ff"
+    },
+    {
+      "path": "src/ai/localization.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23d7af180bc63c3e27908e3d0876638fa393dfb1",
+      "size": 373,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/23d7af180bc63c3e27908e3d0876638fa393dfb1"
+    },
+    {
+      "path": "src/ai/markdown_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88020c105a44de6af0917efacd5e7a80ed7a703f",
+      "size": 3556,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/88020c105a44de6af0917efacd5e7a80ed7a703f"
+    },
+    {
+      "path": "src/ai/prompting",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "412f23a74620e09d2d7d8aa35b05f62451817baa",
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/trees/412f23a74620e09d2d7d8aa35b05f62451817baa"
+    },
+    {
+      "path": "src/ai/prompting/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8917e4b885abad1cdcaee2daa4967fe2c42e16b5",
+      "size": 52,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/8917e4b885abad1cdcaee2daa4967fe2c42e16b5"
+    },
+    {
+      "path": "src/ai/prompting/analysis.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe90d0279e34ea96039b390a642bc1b8b67fd702",
+      "size": 1111,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/fe90d0279e34ea96039b390a642bc1b8b67fd702"
+    },
+    {
+      "path": "src/ai/prompting/classification.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7caaf66fa42d478cf64ef669af3eba11dcff18f",
+      "size": 1392,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/a7caaf66fa42d478cf64ef669af3eba11dcff18f"
+    },
+    {
+      "path": "src/ai/prompting/common.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65f760d9d5c290cac01c07f87fff110c427ee01a",
+      "size": 408,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/65f760d9d5c290cac01c07f87fff110c427ee01a"
+    },
+    {
+      "path": "src/ai/prompting/deduplication.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e58b2cfc939b3b3f33a62191167bb3fbaae6dfe5",
+      "size": 1011,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/e58b2cfc939b3b3f33a62191167bb3fbaae6dfe5"
+    },
+    {
+      "path": "src/ai/prompting/enrichment.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f846151f6b5c125a4d4918a287ff4e27074f321b",
+      "size": 6861,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/f846151f6b5c125a4d4918a287ff4e27074f321b"
+    },
+    {
+      "path": "src/ai/summarizer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0324da9cd4f7900941c3541a6b4e842b68f0e525",
+      "size": 17319,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/0324da9cd4f7900941c3541a6b4e842b68f0e525"
+    },
+    {
+      "path": "src/ai/tokens.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a052f4b40039ac6dfa48fba59d32ba2cb7150533",
+      "size": 1967,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/a052f4b40039ac6dfa48fba59d32ba2cb7150533"
+    },
+    {
+      "path": "src/ai/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8072d0a4b3f85403f853223e11218dbed331bc8a",
+      "size": 2230,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/8072d0a4b3f85403f853223e11218dbed331bc8a"
+    },
+    {
+      "path": "src/collection_window.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "920347f44339194919adb803b84f607e0914b51f",
+      "size": 660,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/920347f44339194919adb803b84f607e0914b51f"
+    },
+    {
+      "path": "src/console_icons.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ded494d9bd502fbd6bbee1cef10f843c3e1bc81d",
+      "size": 2197,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/ded494d9bd502fbd6bbee1cef10f843c3e1bc81d"
+    },
+    {
+      "path": "src/extractors",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "31fa1a0551cb5af83a2307f35d6871f4c9991999",
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/trees/31fa1a0551cb5af83a2307f35d6871f4c9991999"
+    },
+    {
+      "path": "src/extractors/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09ee442dc8a6a0e0c5b0e1a40b8e954049734a62",
+      "size": 411,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/09ee442dc8a6a0e0c5b0e1a40b8e954049734a62"
+    },
+    {
+      "path": "src/extractors/base.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16a0ea9ec62c2326439cdd52b3bdc4326fbba7f3",
+      "size": 322,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/16a0ea9ec62c2326439cdd52b3bdc4326fbba7f3"
+    },
+    {
+      "path": "src/extractors/firecrawl.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c548300932712e02c6cd4a62fb4096df612a90cc",
+      "size": 2149,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/c548300932712e02c6cd4a62fb4096df612a90cc"
+    },
+    {
+      "path": "src/extractors/outcrawl.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56ebf0ada1bc4e4841131356a63f863a3e3eff7f",
+      "size": 1960,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/56ebf0ada1bc4e4841131356a63f863a3e3eff7f"
+    },
+    {
+      "path": "src/extractors/registry.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94b338b7ab17acfb17597a089fce9bf6cf0fb5c3",
+      "size": 1671,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/94b338b7ab17acfb17597a089fce9bf6cf0fb5c3"
+    },
+    {
+      "path": "src/extractors/specstream.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e74cca01336a170cc3aafbd25d207d5bfe71a62",
+      "size": 1907,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/2e74cca01336a170cc3aafbd25d207d5bfe71a62"
+    },
+    {
+      "path": "src/extractors/trafilatura.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3cf4bda0ab5492d6c50f55deec56fcde04b98791",
+      "size": 2457,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/3cf4bda0ab5492d6c50f55deec56fcde04b98791"
+    },
+    {
+      "path": "src/logging_config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d4333d7a3acedc19d55e1d583d6deaa95916df60",
+      "size": 479,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/d4333d7a3acedc19d55e1d583d6deaa95916df60"
+    },
+    {
+      "path": "src/main.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34f049a897e88fc954f8031ccbd6ab06eda9c8f9",
+      "size": 4721,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/34f049a897e88fc954f8031ccbd6ab06eda9c8f9"
+    },
+    {
+      "path": "src/mcp",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e7101508037fdca98bb1237308c973cad34ee46b",
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/trees/e7101508037fdca98bb1237308c973cad34ee46b"
+    },
+    {
+      "path": "src/mcp/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1114475743f3a1341b331cd566b82fb8534a716",
+      "size": 3294,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/e1114475743f3a1341b331cd566b82fb8534a716"
+    },
+    {
+      "path": "src/mcp/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cac34146e7690a7e76b8c37d2268ceeb291e32a5",
+      "size": 77,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/cac34146e7690a7e76b8c37d2268ceeb291e32a5"
+    },
+    {
+      "path": "src/mcp/errors.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e81019ee5f8eac8800d0b13a0467db455f6a086e",
+      "size": 408,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/e81019ee5f8eac8800d0b13a0467db455f6a086e"
+    },
+    {
+      "path": "src/mcp/horizon_adapter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "560825b6517d5bf2830eea3c9922c37c3e3b7627",
+      "size": 8439,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/560825b6517d5bf2830eea3c9922c37c3e3b7627"
+    },
+    {
+      "path": "src/mcp/integration.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed08051de41a7d53da80d0d2ff4d8720cf1656c4",
+      "size": 2299,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/ed08051de41a7d53da80d0d2ff4d8720cf1656c4"
+    },
+    {
+      "path": "src/mcp/run_store.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f05430ac67f7e725654996c8c03349cfd07724f6",
+      "size": 7850,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/f05430ac67f7e725654996c8c03349cfd07724f6"
+    },
+    {
+      "path": "src/mcp/server.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53e26e27fb058995f239e08607ba7bc2c16f4950",
+      "size": 12863,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/53e26e27fb058995f239e08607ba7bc2c16f4950"
+    },
+    {
+      "path": "src/mcp/service.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73c1f95d1e3c7d18339b1d25ec091605571fc04a",
+      "size": 30855,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/73c1f95d1e3c7d18339b1d25ec091605571fc04a"
+    },
+    {
+      "path": "src/models.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9fbbf879f7ab179b251bbb53fa80347f37f907fe",
+      "size": 21838,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/9fbbf879f7ab179b251bbb53fa80347f37f907fe"
+    },
+    {
+      "path": "src/orchestrator.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95431139d74ccffe7fd1bf6b12e7a52c422df44d",
+      "size": 46133,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/95431139d74ccffe7fd1bf6b12e7a52c422df44d"
+    },
+    {
+      "path": "src/processing",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b595ef68ef7b7edb74fa2acaeb0f6c792f31654d",
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/trees/b595ef68ef7b7edb74fa2acaeb0f6c792f31654d"
+    },
+    {
+      "path": "src/processing/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5e37b5d520bc8e3a7d56fe4f1430af53ef96de7",
+      "size": 143,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/d5e37b5d520bc8e3a7d56fe4f1430af53ef96de7"
+    },
+    {
+      "path": "src/processing/content.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "308984ca075cceabb0788b14d712e7a14bf1cbd5",
+      "size": 1726,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/308984ca075cceabb0788b14d712e7a14bf1cbd5"
+    },
+    {
+      "path": "src/processing/history.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "86bd2e845b628b423a4bacad423307601cfb6078",
+      "size": 6240,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/86bd2e845b628b423a4bacad423307601cfb6078"
+    },
+    {
+      "path": "src/processing/profiles.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be8fadffb2e9d33d4d7746f44d606867641c875c",
+      "size": 7326,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/be8fadffb2e9d33d4d7746f44d606867641c875c"
+    },
+    {
+      "path": "src/processing/tools.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02597eca00a703b8d8fb05a15cbc395e59dec767",
+      "size": 2570,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/02597eca00a703b8d8fb05a15cbc395e59dec767"
+    },
+    {
+      "path": "src/scrapers",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4e3423f0f6b6fb86ff5792812259eac7ffa01da3",
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/trees/4e3423f0f6b6fb86ff5792812259eac7ffa01da3"
+    },
+    {
+      "path": "src/scrapers/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "src/scrapers/base.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b71b9a0945b5b0cc410b3ba5d4b0dc88d642a8a",
+      "size": 2441,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/2b71b9a0945b5b0cc410b3ba5d4b0dc88d642a8a"
+    },
+    {
+      "path": "src/scrapers/gdelt.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0275fdf5f9fb193bb629edb78e51d9fe7787079",
+      "size": 6503,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/f0275fdf5f9fb193bb629edb78e51d9fe7787079"
+    },
+    {
+      "path": "src/scrapers/github.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ed695fb554df1a856e1931473797f3136a0861e",
+      "size": 7309,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/4ed695fb554df1a856e1931473797f3136a0861e"
+    },
+    {
+      "path": "src/scrapers/google_news.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60c5122d604d3ad32143811ff6fd38ae5c72d772",
+      "size": 8357,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/60c5122d604d3ad32143811ff6fd38ae5c72d772"
+    },
+    {
+      "path": "src/scrapers/hackernews.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f404c7b7d98570ba4e4a4fae0b5ed5681fc70347",
+      "size": 5039,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/f404c7b7d98570ba4e4a4fae0b5ed5681fc70347"
+    },
+    {
+      "path": "src/scrapers/openbb.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "addcae384d2bb4584ff74df71f467cdb423f9095",
+      "size": 8711,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/addcae384d2bb4584ff74df71f467cdb423f9095"
+    },
+    {
+      "path": "src/scrapers/ossinsight.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc8f18af368f43b37f4e78d163b57d1cddf01df9",
+      "size": 6013,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/cc8f18af368f43b37f4e78d163b57d1cddf01df9"
+    },
+    {
+      "path": "src/scrapers/reddit.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe99dd8f95ad54e02821f72da53dacdc0a266540",
+      "size": 21394,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/fe99dd8f95ad54e02821f72da53dacdc0a266540"
+    },
+    {
+      "path": "src/scrapers/rss.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d965a920090cad4f3d8a49d295a6dddd48cb820",
+      "size": 9857,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/1d965a920090cad4f3d8a49d295a6dddd48cb820"
+    },
+    {
+      "path": "src/scrapers/telegram.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d46b6a3223bbea63ba2e801fd73b8fb2e67bc1f",
+      "size": 6705,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/5d46b6a3223bbea63ba2e801fd73b8fb2e67bc1f"
+    },
+    {
+      "path": "src/scrapers/twitter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "939736a3ddee6ec91b42fd158ecf65111c199826",
+      "size": 13061,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/939736a3ddee6ec91b42fd158ecf65111c199826"
+    },
+    {
+      "path": "src/scrapers/twitter_playwright.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8fac32b7e81743704fbaf4b42c40db0816eec427",
+      "size": 18596,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/8fac32b7e81743704fbaf4b42c40db0816eec427"
+    },
+    {
+      "path": "src/services",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fbcaf479f7990dcc17a33af823b40332575e15e7",
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/trees/fbcaf479f7990dcc17a33af823b40332575e15e7"
+    },
+    {
+      "path": "src/services/email.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5084eafd18f921e79f2af284c83be91199ad2b62",
+      "size": 13125,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/5084eafd18f921e79f2af284c83be91199ad2b62"
+    },
+    {
+      "path": "src/services/webhook.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0fe7d4670359d8ac4b321b0f0efd6dbab580828",
+      "size": 31833,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/e0fe7d4670359d8ac4b321b0f0efd6dbab580828"
+    },
+    {
+      "path": "src/services/webhook_cli.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5739db0298a36276e4568240452d6e5e576fff94",
+      "size": 9800,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/5739db0298a36276e4568240452d6e5e576fff94"
+    },
+    {
+      "path": "src/services/wechat.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa7a2ec899524523437a792f36e360309615740a",
+      "size": 16824,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/aa7a2ec899524523437a792f36e360309615740a"
+    },
+    {
+      "path": "src/services/wechat_cli.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a31018e23cdec51468bc855e31629f70f86425cd",
+      "size": 9487,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/a31018e23cdec51468bc855e31629f70f86425cd"
+    },
+    {
+      "path": "src/setup",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e41993c1ba9793eab27161c9ffcec9f9f48c13d1",
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/trees/e41993c1ba9793eab27161c9ffcec9f9f48c13d1"
+    },
+    {
+      "path": "src/setup/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b02cb29caa0ee8b60bbb7d7c4b3273a556e5b6e1",
+      "size": 46,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/b02cb29caa0ee8b60bbb7d7c4b3273a556e5b6e1"
+    },
+    {
+      "path": "src/setup/ai_recommend.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd10748f7bc15192774e92b64c0e7b1c09d57ea6",
+      "size": 2623,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/bd10748f7bc15192774e92b64c0e7b1c09d57ea6"
+    },
+    {
+      "path": "src/setup/chatgpt.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22b5223c5e7c44acd0d3176ce54c0c2f5f4e4071",
+      "size": 4111,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/22b5223c5e7c44acd0d3176ce54c0c2f5f4e4071"
+    },
+    {
+      "path": "src/setup/presets.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4da53e39af7a531017767c2272ad6a8f0124ff0",
+      "size": 10218,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/c4da53e39af7a531017767c2272ad6a8f0124ff0"
+    },
+    {
+      "path": "src/setup/prompts.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0f743da6db78a5dc1a215d24e43b7586235b316",
+      "size": 1457,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/e0f743da6db78a5dc1a215d24e43b7586235b316"
+    },
+    {
+      "path": "src/setup/tag_aliases.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35c64ebc734ab7a0930ca868a851ec7875e37f03",
+      "size": 5110,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/35c64ebc734ab7a0930ca868a851ec7875e37f03"
+    },
+    {
+      "path": "src/setup/wizard.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ab337d088796f43ca18c3eef5bc72e9244ae64a",
+      "size": 18322,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/9ab337d088796f43ca18c3eef5bc72e9244ae64a"
+    },
+    {
+      "path": "src/storage",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "db23d21f9d22764627be728c0ecbdccee616ffb5",
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/trees/db23d21f9d22764627be728c0ecbdccee616ffb5"
+    },
+    {
+      "path": "src/storage/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "src/storage/manager.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0227260bf0a7b55bd6f257db17ddc5f082b6f64",
+      "size": 6234,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/f0227260bf0a7b55bd6f257db17ddc5f082b6f64"
+    },
+    {
+      "path": "src/url_security.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f27b653cb6043fde20817b19e6c8929fe72a45f",
+      "size": 4168,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/4f27b653cb6043fde20817b19e6c8929fe72a45f"
+    },
+    {
+      "path": "tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fd9129cb03cdd443d9f82760743b8d982cf70c90",
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/trees/fd9129cb03cdd443d9f82760743b8d982cf70c90"
+    },
+    {
+      "path": "tests/conftest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41da167f7306f7d4ffbe6300ced964395fb625b2",
+      "size": 182,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/41da167f7306f7d4ffbe6300ced964395fb625b2"
+    },
+    {
+      "path": "tests/test_ai_parameter_compatibility.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32aa21248bf979c3e5fa98b48f40a0df055b7883",
+      "size": 12815,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/32aa21248bf979c3e5fa98b48f40a0df055b7883"
+    },
+    {
+      "path": "tests/test_ai_recommend.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d9da112906b2fbd1d550fe932f3f58b7a613c14",
+      "size": 1582,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/7d9da112906b2fbd1d550fe932f3f58b7a613c14"
+    },
+    {
+      "path": "tests/test_analyzer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8d534f8884b4e439d8cf904a87d02fec664c48b",
+      "size": 9351,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/c8d534f8884b4e439d8cf904a87d02fec664c48b"
+    },
+    {
+      "path": "tests/test_azure_client.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd0c983a803ec433f65df0c5fae4b4532abf6bef",
+      "size": 4421,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/fd0c983a803ec433f65df0c5fae4b4532abf6bef"
+    },
+    {
+      "path": "tests/test_balanced_digest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dba1e3466e6756daec7e824d11281cb7c04c4144",
+      "size": 15706,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/dba1e3466e6756daec7e824d11281cb7c04c4144"
+    },
+    {
+      "path": "tests/test_category_wiring.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4880826ab26a9e2240900af85f76e5f9b6ecc799",
+      "size": 12176,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/4880826ab26a9e2240900af85f76e5f9b6ecc799"
+    },
+    {
+      "path": "tests/test_chained_client.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec6d9aeb14cfa6938203b8dc8dd703a77a376449",
+      "size": 13009,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/ec6d9aeb14cfa6938203b8dc8dd703a77a376449"
+    },
+    {
+      "path": "tests/test_chatgpt_auth.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39e21335f9dee28c57b9565f38c04be7a8b2000b",
+      "size": 19231,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/39e21335f9dee28c57b9565f38c04be7a8b2000b"
+    },
+    {
+      "path": "tests/test_chatgpt_client.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3574f3c00e31b0c4d182fd997f239c8d93fa8a26",
+      "size": 16020,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/3574f3c00e31b0c4d182fd997f239c8d93fa8a26"
+    },
+    {
+      "path": "tests/test_classifier.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd70955518e9e1cdda6504ecc3e4eb7fd26d4f01",
+      "size": 5230,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/bd70955518e9e1cdda6504ecc3e4eb7fd26d4f01"
+    },
+    {
+      "path": "tests/test_cli.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c30b7b2f5912f3c9e1eb3534d4227befcc6db306",
+      "size": 2075,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/c30b7b2f5912f3c9e1eb3534d4227befcc6db306"
+    },
+    {
+      "path": "tests/test_collection_windows.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e7c7eeade957437b857b2260741a8393346f1db",
+      "size": 4154,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/1e7c7eeade957437b857b2260741a8393346f1db"
+    },
+    {
+      "path": "tests/test_console_icons.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aae64518dfb187f09420b301cc06b4c49d851bd1",
+      "size": 1138,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/aae64518dfb187f09420b301cc06b4c49d851bd1"
+    },
+    {
+      "path": "tests/test_content_selection.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "86bf18e88a8e636733a4070486678ed75353c249",
+      "size": 845,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/86bf18e88a8e636733a4070486678ed75353c249"
+    },
+    {
+      "path": "tests/test_cross_source_duplicates.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2fb795e0bbc37be343e0247b3f67d091fa4b8ca",
+      "size": 5246,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/d2fb795e0bbc37be343e0247b3f67d091fa4b8ca"
+    },
+    {
+      "path": "tests/test_email.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7ced48e71dc815334a44469623f582a58103bcf",
+      "size": 14396,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/b7ced48e71dc815334a44469623f582a58103bcf"
+    },
+    {
+      "path": "tests/test_enricher.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50237dc1f6cbac2a7c6f969be77b2c294e98a4c9",
+      "size": 21147,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/50237dc1f6cbac2a7c6f969be77b2c294e98a4c9"
+    },
+    {
+      "path": "tests/test_enrichment_publication.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fad26b1277e32825ded75a1cf1830e3858cf056f",
+      "size": 5208,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/fad26b1277e32825ded75a1cf1830e3858cf056f"
+    },
+    {
+      "path": "tests/test_extra_body.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "887058f600d5b7b0e85ecd545d3d4d6587ae7d59",
+      "size": 4470,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/887058f600d5b7b0e85ecd545d3d4d6587ae7d59"
+    },
+    {
+      "path": "tests/test_extractors_firecrawl.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "512ead35194dcd0bb2026dfe381c245d98bc0372",
+      "size": 5852,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/512ead35194dcd0bb2026dfe381c245d98bc0372"
+    },
+    {
+      "path": "tests/test_extractors_outcrawl.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe19fcdc8d59ae7464ac65587c0a935b26033f69",
+      "size": 6237,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/fe19fcdc8d59ae7464ac65587c0a935b26033f69"
+    },
+    {
+      "path": "tests/test_extractors_registry.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec03fcc9a65c55d238fb238568a47f698e70ffd6",
+      "size": 3370,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/ec03fcc9a65c55d238fb238568a47f698e70ffd6"
+    },
+    {
+      "path": "tests/test_extractors_specstream.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "467b82f3117df40c4d7493f4315a31237d47c6e3",
+      "size": 6441,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/467b82f3117df40c4d7493f4315a31237d47c6e3"
+    },
+    {
+      "path": "tests/test_extractors_trafilatura.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9dc668ee06abfa248f12ea8a7b4f4e4a9458e48e",
+      "size": 7026,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/9dc668ee06abfa248f12ea8a7b4f4e4a9458e48e"
+    },
+    {
+      "path": "tests/test_fetch_reporting.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e0711acfa3f63cc5e71f5ef5b78424738e3e1e5",
+      "size": 10403,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/8e0711acfa3f63cc5e71f5ef5b78424738e3e1e5"
+    },
+    {
+      "path": "tests/test_gdelt.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0863642b6be758ed83f02012c8c54c0861fb4840",
+      "size": 6344,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/0863642b6be758ed83f02012c8c54c0861fb4840"
+    },
+    {
+      "path": "tests/test_github_unpublished.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c21f2842bbc228b5255b24971e56479ddef99878",
+      "size": 1189,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/c21f2842bbc228b5255b24971e56479ddef99878"
+    },
+    {
+      "path": "tests/test_google_news.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72fdd9e19e01f0a0f42b44b8422924296ed7062c",
+      "size": 6554,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/72fdd9e19e01f0a0f42b44b8422924296ed7062c"
+    },
+    {
+      "path": "tests/test_hackernews_text.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c7093e51be225d9e7a8396066d58d0050e0c301",
+      "size": 1347,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/3c7093e51be225d9e7a8396066d58d0050e0c301"
+    },
+    {
+      "path": "tests/test_hackernews_visibility.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f87b57b548b8406f88f97d575f113472c2bfae0",
+      "size": 860,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/1f87b57b548b8406f88f97d575f113472c2bfae0"
+    },
+    {
+      "path": "tests/test_history.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b96211ebc57691e04bbc02155f1d45e52764640e",
+      "size": 8207,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/b96211ebc57691e04bbc02155f1d45e52764640e"
+    },
+    {
+      "path": "tests/test_horizon_skill.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e406dc2cb48d6d0ee6c713281582b091555f6462",
+      "size": 7057,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/e406dc2cb48d6d0ee6c713281582b091555f6462"
+    },
+    {
+      "path": "tests/test_logging_config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed539105451923b7cd61350031f20212316adb7d",
+      "size": 500,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/ed539105451923b7cd61350031f20212316adb7d"
+    },
+    {
+      "path": "tests/test_main.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9b20d29ca3318b794f8fa7f7512b1ff239bb453",
+      "size": 3708,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/a9b20d29ca3318b794f8fa7f7512b1ff239bb453"
+    },
+    {
+      "path": "tests/test_mcp_adapter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "402b303c921b4dced0e066547c4c11be92e99888",
+      "size": 7006,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/402b303c921b4dced0e066547c4c11be92e99888"
+    },
+    {
+      "path": "tests/test_mcp_errors.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4c3ec923cc1cc4b2e8b008eeeb3a3e89305af15",
+      "size": 258,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/c4c3ec923cc1cc4b2e8b008eeeb3a3e89305af15"
+    },
+    {
+      "path": "tests/test_mcp_run_store.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c601e8be42ad1fa504e7d97070e423c21ce428db",
+      "size": 5779,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/c601e8be42ad1fa504e7d97070e423c21ce428db"
+    },
+    {
+      "path": "tests/test_mcp_server.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d5fcbfcd7293480ad770083cdaf29a82ba36cd4",
+      "size": 1180,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/1d5fcbfcd7293480ad770083cdaf29a82ba36cd4"
+    },
+    {
+      "path": "tests/test_mcp_service_smoke.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06252f900cb0728f797ca60083a1fd9a5c28c660",
+      "size": 26271,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/06252f900cb0728f797ca60083a1fd9a5c28c660"
+    },
+    {
+      "path": "tests/test_minimax_client.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6476e7b9e6c52eab8fe289cdf80aa8fafe110e0",
+      "size": 15737,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/d6476e7b9e6c52eab8fe289cdf80aa8fafe110e0"
+    },
+    {
+      "path": "tests/test_minimax_flash.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4248e2469337480f03ef4cebcf3e0cda8f0e28d",
+      "size": 7780,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/e4248e2469337480f03ef4cebcf3e0cda8f0e28d"
+    },
+    {
+      "path": "tests/test_openbb_scraper.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da43cdd34712ff46a33401209849275446d0310c",
+      "size": 12394,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/da43cdd34712ff46a33401209849275446d0310c"
+    },
+    {
+      "path": "tests/test_output_language_config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0eb4112f6bc86039fca9542b2049d61e346ba5af",
+      "size": 803,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/0eb4112f6bc86039fca9542b2049d61e346ba5af"
+    },
+    {
+      "path": "tests/test_parse_json_response.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f78787f355c53315489808a310dce3c2ff61e1b",
+      "size": 699,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/2f78787f355c53315489808a310dce3c2ff61e1b"
+    },
+    {
+      "path": "tests/test_presets.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d230110659bf47a3ebbb9f9de95d72d9bfcb27c",
+      "size": 1117,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/1d230110659bf47a3ebbb9f9de95d72d9bfcb27c"
+    },
+    {
+      "path": "tests/test_profiles.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9652597bd0cedfee5e5c9d178f18a538389301b7",
+      "size": 4553,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/9652597bd0cedfee5e5c9d178f18a538389301b7"
+    },
+    {
+      "path": "tests/test_prompting.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eeb4ad7e822b44e7c7efddcd23d51d282810caa0",
+      "size": 2258,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/eeb4ad7e822b44e7c7efddcd23d51d282810caa0"
+    },
+    {
+      "path": "tests/test_reddit.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b3585c559731e55ddfafc78aee80d439249791e",
+      "size": 17696,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/5b3585c559731e55ddfafc78aee80d439249791e"
+    },
+    {
+      "path": "tests/test_rss.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "854cc7d9946566a193925ce30f803ffe3d2bcad5",
+      "size": 17570,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/854cc7d9946566a193925ce30f803ffe3d2bcad5"
+    },
+    {
+      "path": "tests/test_rss_concurrency.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4758116b3f2d27c901a1d7294f6bd1bed73f7fde",
+      "size": 4762,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/4758116b3f2d27c901a1d7294f6bd1bed73f7fde"
+    },
+    {
+      "path": "tests/test_rss_encoding.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4683dadfa654d96634ede9df7e8cee04581c5905",
+      "size": 1667,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/4683dadfa654d96634ede9df7e8cee04581c5905"
+    },
+    {
+      "path": "tests/test_rss_rate_limit.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "083a115ca994645c6e1338d67ca5c6e940386f43",
+      "size": 3619,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/083a115ca994645c6e1338d67ca5c6e940386f43"
+    },
+    {
+      "path": "tests/test_rss_request_headers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4569b6469de7afaf5c48f88fda019a0424b2a3b7",
+      "size": 3305,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/4569b6469de7afaf5c48f88fda019a0424b2a3b7"
+    },
+    {
+      "path": "tests/test_run_listing_recovery.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "89fb69c16ebc330dc68e9b52b0efd14034a7fbf0",
+      "size": 1035,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/89fb69c16ebc330dc68e9b52b0efd14034a7fbf0"
+    },
+    {
+      "path": "tests/test_setup_wizard.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9260e592811dd445ad8843833004a9e03d36ef7",
+      "size": 10504,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/f9260e592811dd445ad8843833004a9e03d36ef7"
+    },
+    {
+      "path": "tests/test_storage.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2550e0bc30eeb12d91a63b65993e067648d7f129",
+      "size": 8585,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/2550e0bc30eeb12d91a63b65993e067648d7f129"
+    },
+    {
+      "path": "tests/test_subscriber_corruption.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe4515fb332e994668aed0ee210c9eb5372fb7c6",
+      "size": 1166,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/fe4515fb332e994668aed0ee210c9eb5372fb7c6"
+    },
+    {
+      "path": "tests/test_summarizer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d4e51485b0adc5b8a352f18e6a2d5042a89d4eaa",
+      "size": 14850,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/d4e51485b0adc5b8a352f18e6a2d5042a89d4eaa"
+    },
+    {
+      "path": "tests/test_telegram.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d6ec7d6c4e1018bab709db964c43b18ad1adaf2",
+      "size": 6738,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/6d6ec7d6c4e1018bab709db964c43b18ad1adaf2"
+    },
+    {
+      "path": "tests/test_token_snapshots.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08c78b4780907d359969520739eac35c6a22c769",
+      "size": 799,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/08c78b4780907d359969520739eac35c6a22c769"
+    },
+    {
+      "path": "tests/test_topic_dedup.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b718e79de12aea3945e58ca65b6092717f3c1a0",
+      "size": 5013,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/8b718e79de12aea3945e58ca65b6092717f3c1a0"
+    },
+    {
+      "path": "tests/test_twitter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "585f8bfcc8e4fab2ba0fdf953712d4761e95631f",
+      "size": 28636,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/585f8bfcc8e4fab2ba0fdf953712d4761e95631f"
+    },
+    {
+      "path": "tests/test_twitter_playwright.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7bd67607004972db4a3ca819548808fb3da65b65",
+      "size": 6088,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/7bd67607004972db4a3ca819548808fb3da65b65"
+    },
+    {
+      "path": "tests/test_url_security.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09dcb42d485e7e19dd136035e83094db50998920",
+      "size": 3050,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/09dcb42d485e7e19dd136035e83094db50998920"
+    },
+    {
+      "path": "tests/test_webhook.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98c17837a92378222cf5168c5138e6b298473979",
+      "size": 70747,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/98c17837a92378222cf5168c5138e6b298473979"
+    },
+    {
+      "path": "tests/test_webhook_cli.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d44dff4772def5144feafde5480fd3caa167811a",
+      "size": 5381,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/d44dff4772def5144feafde5480fd3caa167811a"
+    },
+    {
+      "path": "tests/test_wechat.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8d2274117a3f2303416f310e485b3f4d6193ef8",
+      "size": 12381,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/c8d2274117a3f2303416f310e485b3f4d6193ef8"
+    },
+    {
+      "path": "tests/test_wechat_cli.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f5efb30369dd0dfe6c73ad33e6e9252d0291952",
+      "size": 6321,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/5f5efb30369dd0dfe6c73ad33e6e9252d0291952"
+    },
+    {
+      "path": "uv.lock",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9521cab2b0e868cf8f931ca19719a87130b36c46",
+      "size": 643310,
+      "url": "https://api.github.com/repos/Thysrael/Horizon/git/blobs/9521cab2b0e868cf8f931ca19719a87130b36c46"
+    }
+  ],
+  "truncated": false
+}

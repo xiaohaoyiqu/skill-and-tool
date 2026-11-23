@@ -1,0 +1,124 @@
+{
+  "recorded_date": "2026-11-23",
+  "updated_at_utc": "2026-11-23T08:33:45.953004+00:00",
+  "limit_bytes": 120000000,
+  "size_policy": "New repositories strictly below 120 MB including Git; existing clean repositories may exceed the limit.",
+  "repositories": [
+    {
+      "repository": "Thysrael/Horizon",
+      "url": "https://github.com/Thysrael/Horizon",
+      "branch": "main",
+      "remote_head": "e17ea80ced84e575e89489f3905b75eabf7e249b",
+      "tree_sha": "5c24d23111ecb8c377f133648a787fa4289ce9bd",
+      "commit_date": "2026-11-22T15:32:43Z",
+      "description": "📡 Your own AI-powered news radar. Generates daily briefings in English & Chinese. | 用 AI 构建你专属的新闻雷达",
+      "license_api": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "github_size_kib": 17068,
+      "truncated": false,
+      "tracked_source_bytes": 8690411,
+      "tracked_entries": 231,
+      "skill_paths": [
+        "skills/horizon/SKILL.md"
+      ],
+      "submodules": [],
+      "license_paths": [
+        "LICENSE"
+      ],
+      "previously_present": true,
+      "local_path": "E:\\aimodel\\Horizon",
+      "size_exception": false,
+      "dependencies_installed": false,
+      "global_skills_installed": false,
+      "submodules_initialized": false,
+      "lfs_entities_downloaded": false,
+      "head_before": "12d5fbde4d9e0776a48618ea65d16fe6d1e1b606",
+      "origin": "https://github.com/Thysrael/Horizon.git",
+      "ahead": 0,
+      "behind": 4,
+      "action": "updated-fast-forward",
+      "head": "e17ea80ced84e575e89489f3905b75eabf7e249b",
+      "worktree_clean": true,
+      "shallow": true,
+      "fsck_output": "",
+      "fsck_exit_code": 0,
+      "git_bytes": 7028896,
+      "local_file_bytes_including_git": 15761643,
+      "verified_skill_file_count": 1,
+      "matches_remote_head": true,
+      "size_below_limit": true,
+      "local_directory_exists": true,
+      "license_verified": "MIT",
+      "license_verified_source_url": "https://github.com/Thysrael/Horizon/blob/e17ea80ced84e575e89489f3905b75eabf7e249b/LICENSE",
+      "license_file_sha256": {
+        "LICENSE": "cf0a16e8c6a031909fee6e5d49f9c9c4d12e5bbd80e6dc65b12290c5f40f5d05"
+      },
+      "matches_preflight_tree": true,
+      "verified_tracked_entry_count": 231,
+      "worktree_file_bytes": 8732747,
+      "worktree_matches_api_source_bytes": false,
+      "matches_git_blobs_after_line_ending_normalization": true,
+      "crlf_converted_file_count": 208,
+      "skill_file_count": 1,
+      "formal_skill_count": 1,
+      "previously_cataloged": true,
+      "application_run": false,
+      "news_collection_run": false,
+      "notifications_sent": false
+    }
+  ],
+  "input_link_count": 3,
+  "requested_urls": [
+    "https://huarun.win/",
+    "https://cve.pojia.ai/",
+    "https://github.com/Thysrael/Horizon"
+  ],
+  "unique_repository_count": 1,
+  "new_source_count": 2,
+  "share_source_count": 177,
+  "web_resources": [
+    {
+      "url": "https://huarun.win/",
+      "title": "??? ? ??????????????",
+      "resource_type": "website",
+      "reviewed_at_utc": "2026-11-23T08:33:45.953004+00:00",
+      "access_status": "accessible during read-only web review",
+      "action": "recorded-web-reference",
+      "description": "A directory of proxy clients, servers, subscriptions, rules/configuration and auxiliary tools, with platform, core and code-availability filters.",
+      "reviewed_pages": [
+        "https://huarun.win/"
+      ],
+      "license_verified": "Website and linked application-specific terms; no blanket open-source license inferred.",
+      "website_mirrored": false,
+      "linked_applications_downloaded": false,
+      "proxy_configuration_changed": false,
+      "authentication_used": false,
+      "counted_as_new_source": true
+    },
+    {
+      "url": "https://cve.pojia.ai/",
+      "title": "POJIA ? public vulnerability report map",
+      "resource_type": "website",
+      "reviewed_at_utc": "2026-11-23T08:33:45.953004+00:00",
+      "access_status": "homepage and About accessible during read-only web review",
+      "action": "recorded-web-reference",
+      "description": "A knowledge map and search index of publicly disclosed vulnerability reports, grouped by vulnerability class, weakness, program and CVE, with original report links.",
+      "reviewed_pages": [
+        "https://cve.pojia.ai/",
+        "https://cve.pojia.ai/about"
+      ],
+      "license_verified": "Report author and source terms apply; no blanket open-source license inferred for the website or report corpus.",
+      "ai_annotations_disclosed_by_site": true,
+      "website_mirrored": false,
+      "reports_bulk_copied": false,
+      "mcp_connected": false,
+      "authentication_used": false,
+      "counted_as_new_source": true
+    }
+  ]
+}

@@ -1,10 +1,10 @@
 # AI Skills 和工具分享清单
 
-整理于 2026 年 11 月 22 日。
+整理于 2026 年 11 月 23 日。
 
 平时收集的 AI Skills、开发工具和研究资料，按用途放在这里。每项都附上项目链接和简短介绍，找写作、编程、做界面或读论文的工具，可以直接跳到对应分类。
 
-共收录 160 个不同的项目与论文来源。Skill 通常是一组让 AI 按特定方法工作的说明，有些会附带脚本；组件库、桌面应用和模型项目则需要按各自说明使用。链接指向项目或论文来源，具体安装方式、依赖与许可请查看原始说明。
+共收录 188 个不同的项目、网站与论文来源。Skill 通常是一组让 AI 按特定方法工作的说明，有些会附带脚本；组件库、桌面应用和模型项目则需要按各自说明使用。链接指向项目、网站或论文来源，具体安装方式、依赖与许可请查看原始说明。
 
 ## 写作与改稿
 
@@ -25,9 +25,11 @@
 
 | 项目 | 介绍 |
 |------|------|
+| [Awesome Claude Code & Codex Extensions](https://github.com/omgits0mar/awesome-claude-code-extensions) | Claude Code/Codex 扩展导航，提供可检索网页和 Markdown/JSON/CSV 目录，当前保存 2,465 条插件、Skills、MCP、Agent 与工具索引。原创目录内容 CC0-1.0、代码 MIT，导入资料保留上游许可。已保存目录源码，未逐项下载外链项目。 |
 | [Anthropic Skills](https://github.com/anthropics/skills) | Anthropic 的官方 Skill 示例，涵盖文档、设计与应用开发，提供 19 个 Skill 和 1 个模板。各目录许可见上游说明。 |
 | [agent-skills](https://github.com/addyosmani/agent-skills) | 面向软件开发的工程 Skills，涉及需求、实现、验证和交付，适合给编码 Agent 补充工作规范。 |
 | [Matt Pocock Skills](https://github.com/mattpocock/skills) | 一组可组合的工程 Skills，适合处理需求梳理、设计审查、测试和重构等具体任务。 |
+| [OPC Skills](https://github.com/ReScienceLab/opc-skills) | 面向独立创业者的 Skills，覆盖选域名、品牌图像、产品上线与渠道研究。Apache-2.0。 |
 | [Superpowers](https://github.com/obra/superpowers) | 把讨论需求、制定计划、测试和验证串起来的软件开发工作流，适合需要持续推进的编码任务。 |
 | [Elephant-Goldfish Model](https://github.com/google/elephant-goldfish-model) | 辅助软件规格编写与审查的 Agent 插件，起草者保留项目上下文，审查者独立阅读草稿与引用材料。Apache-2.0，附 8 个 Skill。 |
 | [ECC](https://github.com/affaan-m/ECC) | 较完整的 Agent 配置集合，包含 Skills、规则、hooks 和记忆相关方案，适合研究如何组织编码助手的工作环境。 |
@@ -58,12 +60,15 @@
 
 | 项目 | 介绍 |
 |------|------|
+| [Motion](https://github.com/motiondivision/motion) | React/JavaScript 动画库，适合界面动效、手势、布局和滚动动画；MIT。当前源码约 291.94 MB，超过新增项目的 120 MB 上限，仅登记链接。 |
+| [oil-motion](https://github.com/oil-oil/oil-motion) | 用于跟随滚动和鼠标交互的网页动效 Skill，附实现参考。MIT。 |
+| [DesignBookmark Motion](https://designbookmark.com/motion) | 可交互的按钮、输入、导航、卡片和 AI 界面动效参考页，提供面向 Claude/Codex 的复制入口及部分组件源码入口。按网页资源收录，组件使用条件分别查看各自来源。 |
 | [Modern Web Guidance](https://github.com/GoogleChrome/modern-web-guidance) | 面向编码 Agent 的现代 Web 平台实践与兼容性指南，附现代 HTML/CSS/JavaScript 和 Chrome 扩展开发两个 Skill；CLI 需 Node.js 22+。代码 Apache-2.0，guides/ 文档 CC BY 4.0；已保存源码，未安装全局 Skill。 |
 | [ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | 面向界面设计与实现的 Skill，提供风格、配色、排版和交互方面的参考，适合从需求开始搭页面。 |
 | [taste-skill](https://github.com/Leonxlnx/taste-skill) | 面向 AI 生成界面的设计指导，关注布局、视觉层次与交互细节，适合改善模板感较强的页面。 |
 | [hallmark](https://github.com/Nutlope/hallmark) | 提供新建界面、审查、重做和设计研究等工作方式，适合给不同内容选择不同的页面结构。 |
 | [Refactoring UI Skill](https://github.com/opkod-france/claude-skill-refactoring-ui) | 将部分 Refactoring UI 设计原则用于界面修改。旧仓库已归档，后续可查看 [OPKOD 插件仓库](https://github.com/opkod-france/opkod-claude-code-plugins)；原书仍需单独阅读。 |
-| [emilkowalski-skills](https://github.com/emilkowalski/skills) | 面向设计师与工程师的界面 Skills，重点包含动效及设计判断，适合打磨已有页面的细节。 |
+| [emilkowalski-skills（AI for UI）](https://github.com/emilkowalski/skills) | 面向设计师与工程师的界面设计、动效、手势、性能及审查 Skills。已保存 20 个源码入口，MIT；[官网 Skills 页](https://aiforui.dev/skills)提供用途、结果示例与提示词，与本项目合并收录。 |
 | [awesome-design-md](https://github.com/VoltAgent/awesome-design-md) | 从不同网站整理的 DESIGN.md 设计分析，适合寻找视觉参考、理解配色和排版规则。 |
 | [developer-portfolios](https://github.com/emmabostian/developer-portfolios) | 开发者个人网站的参考链接，适合准备作品集或个人主页时寻找案例。 |
 | [inspira-ui](https://github.com/rahulv-official/inspira-ui) | Vue 与 Nuxt 的界面组件集合，适合查看带动效和视觉表现的组件实现。 |
@@ -82,10 +87,12 @@
 
 | 项目 | 介绍 |
 |------|------|
+| [华润赢](https://huarun.win/) | 代理客户端、服务端、订阅与规则配置工具的分类导航，可按平台、内核和代码公开情况等筛选。按网站链接收录，外链应用的许可和下载条件分别查看其来源。 |
 | [browser-use](https://github.com/browser-use/browser-use) | 让 Agent 操作浏览器，完成导航、点击、填写和信息提取等任务。 |
 | [Moli](https://github.com/lexmount/moli) | 面向 AI Agent 的 Rust 无头浏览器，可提取网页内容、搜索网页和执行浏览器自动化。提供 CLI、CDP、WebDriver Classic 和 WebDriver BiDi，附 3 个 Skill。默认 MIT OR Apache-2.0，第三方组件按各自许可。 |
 | [chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | 将 Chrome DevTools 的浏览器检查、调试和性能分析能力提供给编码助手。 |
 | [Scrapling](https://github.com/D4Vinci/Scrapling) | Python 网页采集框架，整合 HTTP 请求、浏览器渲染、页面解析、并发爬取与数据导出，提供 MCP 和官方 Agent Skill。Python 3.10+，BSD-3-Clause；已保存源码及 1 个 Skill，运行依赖需另备。 |
+| [Social Media Research Skills](https://github.com/ScrapeCreators/social-media-research-skills) | 使用 ScrapeCreators API 研究社媒内容、评论、受众、竞品和趋势。MIT。 |
 | [crawl4ai](https://github.com/unclecode/crawl4ai) | 面向网页采集与内容抽取的工具，适合把网页整理为供后续处理的文本或结构化内容。 |
 | [OpenCLI](https://github.com/jackwener/OpenCLI) | 用命令行接口组织网站操作，也提供浏览器自动化能力，适合把重复的网页任务整理成命令。 |
 | [Agent-Reach](https://github.com/Panniantong/Agent-Reach) | 为 Agent 接入不同互联网内容来源提供安装与检查方案，适合研究多平台资料获取。 |
@@ -106,6 +113,7 @@
 
 | 项目 | 介绍 |
 |------|------|
+| [AG-UI](https://github.com/ag-ui-protocol/ag-ui) | 连接 AI Agent 与用户应用的事件协议、SDK 和示例，涵盖流式消息、工具调用、共享状态与人工参与；MIT。已保存源码及开发、.NET 插件和 A2UI 集成入口，运行依赖另备。 |
 | [goose](https://github.com/aaif-goose/goose) | 在本机运行的通用 Agent，提供桌面、命令行及 API 等使用方式，可接入不同模型与工具。 |
 | [pi](https://github.com/earendil-works/pi) | Agent 开发与运行工具集合，包含编码 Agent、模型接口和运行时，适合研究或扩展自己的 Agent。 |
 | [Free Claude Code](https://github.com/Alishahryar1/free-claude-code) | 为多种编码 Agent 接入模型后端的社区项目，提供 API 代理和会话管理。AGPL-3.0-only。 |
@@ -117,6 +125,8 @@
 | [context-mode](https://github.com/mksglu/context-mode) | 将工具的大段输出保存在本地，再通过 SQLite 全文检索取回所需片段，适合研究编码 Agent 的上下文管理；当前采用 Elastic-2.0 许可证。 |
 | [OpenShell](https://github.com/NVIDIA/OpenShell) | NVIDIA 的 Agent 沙箱运行环境，按策略限制文件、进程和网络访问，适合研究 Agent 隔离与凭据管理；部署需另行准备系统环境。 |
 | [ai-memory](https://github.com/akitaonrails/ai-memory) | 为编码 Agent 保存长期项目记忆，让不同工具之间能够交接任务。以 Git 管理的 Markdown 保存知识，适合需要跨会话继续工作的项目。 |
+| [Claude-Mem](https://github.com/thedotmack/claude-mem) | 为编码 Agent 保存会话摘要，在后续会话检索相关上下文。Apache-2.0，已保存源码。 |
+| [Paperclip](https://github.com/paperclipai/paperclip) | 集中管理 Agent 团队、任务分派、预算与运行记录。MIT，源码超限，仅登记。 |
 | [laya](https://github.com/NandhaKishorM/laya) | 对文本做分类、评分和是非决策的模型与 SDK，适合研究请求路由和结构化判断；模型权重需另行准备，上游速度数据未经本机验证。 |
 | [Harness²](https://github.com/google-research/harness2) | Google Research 的 Agent 改进研究框架，通过提出修改、执行探测、组合结果来优化提示、工具、记忆与 Skills，并保存跨任务经验，模型权重固定。源码 Apache-2.0，推荐 Linux 与 Python 3.12；本地仅存源码。 |
 
@@ -140,6 +150,7 @@
 
 | 项目 | 介绍 |
 |------|------|
+| [Arkon](https://github.com/nduckmink/arkon) | 团队知识库与 MCP 服务，将组织文档整理为可溯源 Wiki，支持搜索、部门权限、审核和 Skill 分发；附查询、编辑、审核 3 个 Skill。PolyForm Internal Use 1.0.0，限制分发与对外服务，已保存源码；运行需另备 Docker 和模型 API。 |
 | [archify](https://github.com/tt-a1i/archify) | 把系统描述或代码关系整理成可交互的架构图，支持生成便于分享的独立图形与网页。 |
 | [graphify](https://github.com/Graphify-Labs/graphify) | 从代码、文档等材料建立知识图谱，适合分析跨文件关系、模块联系与调用路径。 |
 | [gortex](https://github.com/zzet/gortex) | 代码索引与关系查询引擎，提供命令行、MCP 和网页等入口，适合研究大型代码库。 |
@@ -149,6 +160,8 @@
 | [liteparse](https://github.com/run-llama/liteparse) | 本地文档解析工具，关注文本位置与 PDF 内容抽取，适合为检索和资料处理准备输入。 |
 | [Univer](https://github.com/dream-num/univer) | 可嵌入应用的办公 SDK。开源核心涵盖电子表格、文档和无界面处理，服务端和部分扩展另有许可。开源仓库采用 Apache-2.0。当前仅登记链接。 |
 | [pdf-inspector](https://github.com/firecrawl/pdf-inspector) | PDF 分类与文本提取工具，可区分文本和扫描等类型，帮助决定后续解析或 OCR 方式。 |
+| [PPT Master](https://github.com/hugohe3/ppt-master) | 把文档或主题转换为可编辑的 PowerPoint，支持原生形状、图表和模板。MIT，含 Git 超限，仅登记。 |
+| [Diagram Design](https://github.com/cathrynlavery/diagram-design) | 用 HTML 和 SVG 制作流程、架构和关系图，附 1 个图表设计 Skill。MIT，已保存源码。 |
 | [markdown-viewer-skills](https://github.com/markdown-viewer/skills) | 在 Markdown 中制作图表和可视化的 Skills，涉及技术图、数据图和信息图等。 |
 | [mermaid-erd-generator](https://github.com/nharsch/mermaid-erd-generator) | 辅助生成 Mermaid 实体关系图，适合说明数据库表与业务实体之间的联系。 |
 | [obsidian-skills](https://github.com/kepano/obsidian-skills) | 与 Obsidian 文件和工作方式配合的 Skills，涉及 Markdown、Canvas 和其他笔记结构。 |
@@ -160,6 +173,7 @@
 
 | 项目 | 介绍 |
 |------|------|
+| [old-coder](https://github.com/AmazingAng/old-coder) | 让编码 Agent 先提出规格与测试计划，再用测试、变异测试等检查提交证据报告；另附 HTTP/JSON API 设计与评审 Skill。共 2 个 Skill，MIT，已保存源码。 |
 | [open-code-review](https://github.com/alibaba/open-code-review) | 基于 Git 差异进行 AI 代码审查的命令行工具，可结合代码上下文输出具体问题。 |
 | [Claude 官方插件目录](https://github.com/anthropics/claude-plugins-official) | 实际来源是 Anthropic 官方插件目录，代码审查只是其中一部分，也可用来查找其他插件。 |
 | [ai-unit-tests-generator](https://github.com/gustavolopess/ai-unit-tests-generator) | 使用 AI 改进 TypeScript 仓库测试覆盖率的应用，适合研究测试生成和结果管理。 |
@@ -180,6 +194,8 @@
 
 | 项目 | 介绍 |
 |------|------|
+| [POJIA CVE](https://cve.pojia.ai/) | 公开漏洞披露报告的检索与知识图谱网站，可按漏洞类别、弱点、项目与 CVE 浏览，并保留原始报告链接。按网页资源收录，报告和注释的使用条件查看原来源。 |
+| [Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter) | 用于授权漏洞研究与外部安全测试的 Skill 集合，覆盖方法、验证、证据与报告，保存 83 个 Skill 和 15 个命令。代码 MIT，Skill、词表与文档 CC BY 4.0；仅保存源码，未安装或运行扫描。 |
 | [ghidra](https://github.com/NationalSecurityAgency/ghidra) | NSA 开源的逆向分析框架，提供反汇编、反编译与脚本能力，适合分析编译后的程序。 |
 | [rea](https://github.com/morluto/rea) | 面向应用与二进制分析的逆向工具，提供 CLI 和 MCP 等接口，可结合多种分析工具工作。 |
 | [reverse-skill](https://github.com/zhaoxuya520/reverse-skill) | 逆向、安全研究与授权测试的 Skill 路由集合，适合按任务查找分析方法与所需工具。 |
@@ -192,7 +208,16 @@
 
 | 项目 | 介绍 |
 |------|------|
+| [Motion Prompt](https://github.com/showheyohtaki/motion-prompt) | 10 组、240 个动效、镜头、界面、摄影和视觉风格名称，配可视化样例及提示词，附 1 个 Skill，MIT；已保存源码，适合把想要的效果描述清楚。 |
+| [Remotion Agent Skills](https://github.com/remotion-dev/skills) | Remotion 官方维护的 13 个视频制作 Skill，涉及 React 视频编写、创建、预览、渲染、字幕、地图与多媒体。已保存源码；固定提交未见明确许可证，运行框架和服务条款需另查。 |
+| [Motion Canvas](https://github.com/motion-canvas/motion-canvas) | 用 TypeScript 生成器编排动画并实时预览的开发工具，适合矢量解说动画和旁白同步。MIT，已保存源码，当前无 SKILL.md，运行依赖需另备。 |
+| [God’s Eye View](https://github.com/bilawalsidhu/gods-eye-view) | 在三维地球上展示地理数据。代码 MIT，第三方数据适用各自条款。源码超限，仅登记。 |
+| [Auto-Editor](https://github.com/WyattBlue/auto-editor) | 按音量、运动等条件自动剪辑音视频、去除静音或静止片段，支持导出到 Premiere、Resolve 等编辑器。附剪辑、效果、导出、转写与转场 5 个 Skill，已保存源码。仓库源码 Unlicense，独立应用和发布二进制许可另查。 |
+| [OpenReel Video](https://github.com/Augani/openreel-video) | 浏览器视频编辑器，包含多轨时间线、关键帧、调色、音频效果及 WebCodecs/WebGPU 媒体处理。MIT。当前源码超过新增项目的 120 MB 上限，仅登记链接，未在本机运行验证。 |
+| [OpenPixel · 像素万象](https://github.com/ma1902056219-coder/openpixel) | 36 个可独立运行、编辑的 HTML/JavaScript/Canvas 像素实验，附中英日韩说明；无需构建或 AI 接口，适合创意编程与互动动画参考。MIT，已保存源码，无 SKILL.md。 |
+| [Create Blender Story Video](https://github.com/yoruuuchan/create-blender-story-video) | 从创意分镜、参考图到 Blender 场景、可恢复渲染、进度监控、Resolve 剪辑与 4K 媒体校验的视频制作 Skill。MIT，已保存 1 个 Skill；实际制作需另备 Blender、Resolve、FFmpeg 及所用 MCP/API。 |
 | [StemDeck](https://github.com/stemdeckapp/stemdeck) | 用 Demucs 在本机分离人声、鼓、贝斯等音轨，并提供独奏、循环、变速和变调练习界面；实际使用还需运行环境与模型。 |
+| [VoiceStudio](https://github.com/debpalash/VoiceStudio) | 本地语音制作工具，覆盖转写、配音、语音设计和有声书。AGPL-3.0，含 Git 超限，仅登记。 |
 | [openvid](https://github.com/CristianOlivera1/openvid) | 浏览器录屏和产品演示视频编辑器，支持缩放、设备样机及三维效果。采用 PolyForm Noncommercial 1.0.0；源码超过本轮限额，仅登记链接。 |
 | [stt](https://github.com/jianchang512/stt) | 基于 faster-whisper 的本地音视频转文字工具，可输出纯文本、JSON 和带时间戳的字幕。 |
 | [pocket-tts](https://github.com/kyutai-labs/pocket-tts) | 以 CPU 运行为重点的轻量文字转语音项目，适合研究本地语音生成。 |
@@ -202,11 +227,12 @@
 | [PixelFX](https://github.com/patch-gg/pixelfx) | 可由代码生成的像素动效库和可浏览的示例，提供精灵图导出及一个用于制作动效的 Skill。代码采用 MIT，画廊字体许可见 NOTICE。 |
 | [VibeVoice](https://github.com/microsoft/VibeVoice) | 微软的语音项目，涉及语音生成与识别等不同方向，使用时需选择对应子项目和模型。 |
 | [magenta-realtime](https://github.com/magenta/magenta-realtime) | 实时音乐生成项目，包含模型推理与应用示例，适合音乐交互和音频应用研究。 |
-| [hyperframes](https://github.com/heygen-com/hyperframes) | 用 HTML、CSS 和媒体素材生成视频的框架，适合程序化动画与视频制作。 |
+| [HyperFrames](https://github.com/heygen-com/hyperframes) | 用 HTML/CSS 与媒体素材创建、编辑和复刻视频，提供 Studio、CLI 和 9 个主 Skill。Apache-2.0，已更新源码；实际制作需另备运行依赖。 |
 | [huashu-art-motion](https://github.com/alchaincyf/huashu-art-motion) | 用代码制作艺术风格动画和解说视频的 Skill，附风格配方、场景代码及检查脚本；渲染需准备 uv、FFmpeg 和 Playwright Chromium。 |
 | [claude-video](https://github.com/bradautomates/claude-video) | 帮助 Agent 读取和理解视频内容的 Skill，适合整理视频资料与分析内容。 |
 | [multi-style-image-generator](https://github.com/shengjidaguai-china/multi-style-image-generator) | 多风格图像与提示词工作流，涉及参考图重绘、全景图及空间效果等方向。 |
 | [Ghost-Downloader-3](https://github.com/XiaoYouChR/Ghost-Downloader-3) | 多协议下载工具，适合查看下载任务管理、分块与媒体处理方面的实现。 |
+| [LibreGet](https://github.com/OpenSelena/libreget) | 基于 Tauri、Rust 和 Svelte 的下载管理器，支持多种媒体来源。GPL-3.0。 |
 | [kgka_Music_hl](https://github.com/umr-xiaomai/kgka_Music_hl) | Flutter 第三方音乐客户端，可参考跨平台界面、搜索、播放和歌词功能；项目说明限学习交流使用。 |
 | [nginx-http-flv-module](https://github.com/winshining/nginx-http-flv-module) | Nginx 的流媒体模块，涉及 HTTP-FLV、RTMP 等能力，适合研究直播服务。 |
 | [manim](https://github.com/3b1b/manim) | 3Blue1Brown 作者维护的数学动画引擎，适合程序化数学演示；与 Manim 社区版是不同项目。 |
@@ -239,6 +265,8 @@
 
 | 项目 | 介绍 |
 |------|------|
+| [Claude Trading Skills](https://github.com/tradermonty/claude-trading-skills) | 市场复盘、组合审查、风险管理、交易计划与日志工作流，含 74 个正式 Skill，MIT。已保存源码；部分流程需另备行情数据或 API，收录用于学习和流程研究，本机未复现回测或收益。 |
+| [coil-reclaim-indicator](https://github.com/Allencake/coil-reclaim-indicator) | TradingView Pine Script v5 回踩确认指标源码，另附 Grok 提示词。MIT。 |
 | [prompts.chat](https://github.com/f/prompts.chat) | 提示词社区、提示词数据与可自托管站点；源码和站点原创内容 MIT，提示词数据 CC0。附 2 个检索类插件 Skill 和 2 个项目开发 Skill，均仅随源码保存。 |
 | [freebie-radar](https://github.com/ZiChuanLan/freebie-radar) | 自托管资源聚合与推送工作台，通过规则和 AI 筛选福利、优惠、开源项目及资讯，支持多来源采集与 Telegram 路由；MIT，无 SKILL.md。 |
 | [Horizon](https://github.com/Thysrael/Horizon) | 按个人兴趣聚合新闻、评分去重并生成中英双语简报，提供 CLI、MCP 与多种投递方式；MIT，附 1 个 Horizon Skill。 |

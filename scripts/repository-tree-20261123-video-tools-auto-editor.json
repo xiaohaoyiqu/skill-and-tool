@@ -1,0 +1,1869 @@
+{
+  "sha": "6f7232efaaef70a8798c07323d745487688fd850",
+  "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/trees/6f7232efaaef70a8798c07323d745487688fd850",
+  "tree": [
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d8fe161c3d72d64c2f7029105458d25a2373dd2a",
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/trees/d8fe161c3d72d64c2f7029105458d25a2373dd2a"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "033f908da6ddeb33acb84530116d162bdac2a634",
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/trees/033f908da6ddeb33acb84530116d162bdac2a634"
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b418029e5bbdbec046be9413a2d90c1f3f0fbdb9",
+      "size": 11074,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/b418029e5bbdbec046be9413a2d90c1f3f0fbdb9"
+    },
+    {
+      "path": ".github/workflows/smoke.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c4610cf9828018c22b9a054d2692f7128283f0b",
+      "size": 8433,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/3c4610cf9828018c22b9a054d2692f7128283f0b"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7bc498ea7833d7a63f83a85efce246387e9f8c5",
+      "size": 261,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/f7bc498ea7833d7a63f83a85efce246387e9f8c5"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a29a7eaa887c87e39c664b5485e09e4b770848e",
+      "size": 2528,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/2a29a7eaa887c87e39c664b5485e09e4b770848e"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58dc48d5f9caed036f16a41a7279235d2361539b",
+      "size": 1771,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/58dc48d5f9caed036f16a41a7279235d2361539b"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00d2e135a7ee7b81c27fed80ddf6ee341c8d6752",
+      "size": 1210,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/00d2e135a7ee7b81c27fed80ddf6ee341c8d6752"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5d3bde7999cc30fe04dc9c924814ea99f513c8f",
+      "size": 4503,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/c5d3bde7999cc30fe04dc9c924814ea99f513c8f"
+    },
+    {
+      "path": "ae.nimble",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36cd20d0da98fe6f0e17e84da48753822be16508",
+      "size": 59250,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/36cd20d0da98fe6f0e17e84da48753822be16508"
+    },
+    {
+      "path": "config.nims",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c692b0aa6f8d386d1672431f53c9cac0ee1559e0",
+      "size": 9547,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/c692b0aa6f8d386d1672431f53c9cac0ee1559e0"
+    },
+    {
+      "path": "docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c28abf8ede6ccb3cfccd8e4e28b3a596b2fc9eed",
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/trees/c28abf8ede6ccb3cfccd8e4e28b3a596b2fc9eed"
+    },
+    {
+      "path": "docs/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1c617a20e8aa1223918ba51e06f53310cbe05e4",
+      "size": 41,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/f1c617a20e8aa1223918ba51e06f53310cbe05e4"
+    },
+    {
+      "path": "docs/Makefile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d824188377b1c85422f5eec99cc7815b52fe7df",
+      "size": 516,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/1d824188377b1c85422f5eec99cc7815b52fe7df"
+    },
+    {
+      "path": "docs/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "738578016a32e5c7d06e8fbdd2c0f5fb159719ac",
+      "size": 590,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/738578016a32e5c7d06e8fbdd2c0f5fb159719ac"
+    },
+    {
+      "path": "docs/components",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "026364d2816d84e12d0d5f2ec8bd0627069cf5b0",
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/trees/026364d2816d84e12d0d5f2ec8bd0627069cf5b0"
+    },
+    {
+      "path": "docs/components/cls_center.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66204329a689b93e0b9926fa30e822e7406e0f40",
+      "size": 94,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/66204329a689b93e0b9926fa30e822e7406e0f40"
+    },
+    {
+      "path": "docs/components/core_style.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23e838e6263d0c705316a5fa8c48f88c13e91ced",
+      "size": 8563,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/23e838e6263d0c705316a5fa8c48f88c13e91ced"
+    },
+    {
+      "path": "docs/components/gen_actions.nims",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a6068de6fc98283c04315c4c42ba05f4522387a",
+      "size": 1623,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/5a6068de6fc98283c04315c4c42ba05f4522387a"
+    },
+    {
+      "path": "docs/components/gen_edit.nims",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c1fc2e1d8c102a2da15c0548ad2dff533f9f30e",
+      "size": 2064,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/8c1fc2e1d8c102a2da15c0548ad2dff533f9f30e"
+    },
+    {
+      "path": "docs/components/gen_options.nims",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "377a7df21b43259d3fa06b136abc822560bddf1e",
+      "size": 1438,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/377a7df21b43259d3fa06b136abc822560bddf1e"
+    },
+    {
+      "path": "docs/components/head_icon.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a5118b48c2e3596911c2c3c5d53b1ea09f0c6d7",
+      "size": 303,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/4a5118b48c2e3596911c2c3c5d53b1ea09f0c6d7"
+    },
+    {
+      "path": "docs/components/init_head.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "138c25bf364b68281b5023c49d5bbb2419e9f5ac",
+      "size": 93,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/138c25bf364b68281b5023c49d5bbb2419e9f5ac"
+    },
+    {
+      "path": "docs/components/nav.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed5f9a8ca38c8d7288c47687baa94016be5c7452",
+      "size": 4038,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/ed5f9a8ca38c8d7288c47687baa94016be5c7452"
+    },
+    {
+      "path": "docs/hunim.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5a9747e6dd4d35167acc765621185c93bfbf419",
+      "size": 138,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/e5a9747e6dd4d35167acc765621185c93bfbf419"
+    },
+    {
+      "path": "docs/package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91f4138161878d7228255316aefd94fbb498a6d6",
+      "size": 183,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/91f4138161878d7228255316aefd94fbb498a6d6"
+    },
+    {
+      "path": "docs/server.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "359c94cbddb36bec14f12cf29a97d74a9e46784c",
+      "size": 1356,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/359c94cbddb36bec14f12cf29a97d74a9e46784c"
+    },
+    {
+      "path": "docs/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7521d962a46f0c79e5a18555790c628f9e946bf7",
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/trees/7521d962a46f0c79e5a18555790c628f9e946bf7"
+    },
+    {
+      "path": "docs/src/404.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad9cc02f98bca2c870156c297303549dca354e34",
+      "size": 657,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/ad9cc02f98bca2c870156c297303549dca354e34"
+    },
+    {
+      "path": "docs/src/docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f3843797b85108adaeb4777c2421dcb8735f8448",
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/trees/f3843797b85108adaeb4777c2421dcb8735f8448"
+    },
+    {
+      "path": "docs/src/docs/actions.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc414bd17763e31fe03a2e2d45a94b5b86229a8d",
+      "size": 21885,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/dc414bd17763e31fe03a2e2d45a94b5b86229a8d"
+    },
+    {
+      "path": "docs/src/docs/anorm.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c871d07311c0c671103238526ee6e33facb3c2e",
+      "size": 1860,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/1c871d07311c0c671103238526ee6e33facb3c2e"
+    },
+    {
+      "path": "docs/src/docs/cookbook.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e73c410ae71fa59d709d3cf3db3cac636e20573",
+      "size": 4821,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/1e73c410ae71fa59d709d3cf3db3cac636e20573"
+    },
+    {
+      "path": "docs/src/docs/file-size.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be138043367b1efb92e1369dde23518fe650df4f",
+      "size": 2811,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/be138043367b1efb92e1369dde23518fe650df4f"
+    },
+    {
+      "path": "docs/src/docs/index.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b972a41e67479b68f87070dbc6fa3230952828e",
+      "size": 439,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/0b972a41e67479b68f87070dbc6fa3230952828e"
+    },
+    {
+      "path": "docs/src/docs/range-syntax.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8fba41af58256f115063d6596015f02fa6823b7",
+      "size": 3804,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/c8fba41af58256f115063d6596015f02fa6823b7"
+    },
+    {
+      "path": "docs/src/docs/subcommands",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "057a2b327ae354dfc39a955354ef4a9d89c7a1de",
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/trees/057a2b327ae354dfc39a955354ef4a9d89c7a1de"
+    },
+    {
+      "path": "docs/src/docs/subcommands/cache.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5fecd60fd764bbcd69bd90f8416735311c118e07",
+      "size": 372,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/5fecd60fd764bbcd69bd90f8416735311c118e07"
+    },
+    {
+      "path": "docs/src/docs/subcommands/desc.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "230d88ff85b019dc9a95f681b0837bb8ea75fb35",
+      "size": 488,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/230d88ff85b019dc9a95f681b0837bb8ea75fb35"
+    },
+    {
+      "path": "docs/src/docs/subcommands/index.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d4a3d2a385198497da9306b5cbddd9ad6717e711",
+      "size": 376,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/d4a3d2a385198497da9306b5cbddd9ad6717e711"
+    },
+    {
+      "path": "docs/src/docs/subcommands/info.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4726542b5e0b662de13ca36ae830c695b9a45e46",
+      "size": 2321,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/4726542b5e0b662de13ca36ae830c695b9a45e46"
+    },
+    {
+      "path": "docs/src/docs/subcommands/levels.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ba5fc3e2225d2d0a8a1fdf3acc316cd7cb796e8",
+      "size": 614,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/3ba5fc3e2225d2d0a8a1fdf3acc316cd7cb796e8"
+    },
+    {
+      "path": "docs/src/docs/subcommands/subdump.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b223b307c072673572cd8ee46af6765a6c8b63ca",
+      "size": 913,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/b223b307c072673572cd8ee46af6765a6c8b63ca"
+    },
+    {
+      "path": "docs/src/docs/subcommands/whisper.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47755827211ef679275985877f08b0b6ac79933e",
+      "size": 2918,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/47755827211ef679275985877f08b0b6ac79933e"
+    },
+    {
+      "path": "docs/src/docs/supported-media.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ed8424197241a5188ffc92959100826bf0294fa",
+      "size": 763,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/8ed8424197241a5188ffc92959100826bf0294fa"
+    },
+    {
+      "path": "docs/src/docs/transition.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47fa9f11e39a079b75d9ed4cbf723111c1b8908f",
+      "size": 5547,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/47fa9f11e39a079b75d9ed4cbf723111c1b8908f"
+    },
+    {
+      "path": "docs/src/docs/v1.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2dcc7b5bcc107a290e922b4145f13041bb98792c",
+      "size": 3421,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/2dcc7b5bcc107a290e922b4145f13041bb98792c"
+    },
+    {
+      "path": "docs/src/docs/v2.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bded784434d5ce75cbfe579139dfacbd40581864",
+      "size": 3415,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/bded784434d5ce75cbfe579139dfacbd40581864"
+    },
+    {
+      "path": "docs/src/docs/v3.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf795b47034e10ce1e26dc1ccc108c0c3c41ce45",
+      "size": 10821,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/bf795b47034e10ce1e26dc1ccc108c0c3c41ce45"
+    },
+    {
+      "path": "docs/src/favicon",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "904188d0ad1bd1d390511eb7c7ffc38347d8a98b",
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/trees/904188d0ad1bd1d390511eb7c7ffc38347d8a98b"
+    },
+    {
+      "path": "docs/src/favicon/android-chrome-192x192.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27a65deb82b6708a091088eaa78e52a6e079b8a3",
+      "size": 7046,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/27a65deb82b6708a091088eaa78e52a6e079b8a3"
+    },
+    {
+      "path": "docs/src/favicon/android-chrome-512x512.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "282f69df3263693f32d460e6566c83ade5bc8630",
+      "size": 14381,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/282f69df3263693f32d460e6566c83ade5bc8630"
+    },
+    {
+      "path": "docs/src/favicon/apple-touch-icon.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a5b2959af20980cd775a6ac4762dd339bd6e755",
+      "size": 6644,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/0a5b2959af20980cd775a6ac4762dd339bd6e755"
+    },
+    {
+      "path": "docs/src/favicon/favicon-16x16.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ff5d8cf783de059caa3a05cc5e412ab0977d2cf",
+      "size": 643,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/8ff5d8cf783de059caa3a05cc5e412ab0977d2cf"
+    },
+    {
+      "path": "docs/src/favicon/favicon-32x32.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "631002d4869c87067edc957183382377caa49daa",
+      "size": 1296,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/631002d4869c87067edc957183382377caa49daa"
+    },
+    {
+      "path": "docs/src/favicon/favicon.ico",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3fc4f0b75667be6c568999577bf81479e554dc0b",
+      "size": 15406,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/3fc4f0b75667be6c568999577bf81479e554dc0b"
+    },
+    {
+      "path": "docs/src/favicon/site.webmanifest",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2825a36d82e31582040033e0eaacfdbfc0f8b9a4",
+      "size": 280,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/2825a36d82e31582040033e0eaacfdbfc0f8b9a4"
+    },
+    {
+      "path": "docs/src/img",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e6bcc44f60acbd53b34d273f9f0f691a9e963502",
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/trees/e6bcc44f60acbd53b34d273f9f0f691a9e963502"
+    },
+    {
+      "path": "docs/src/img/auto-editor-banner.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ce523974c03c833710bb47fc12d8851c048ead9",
+      "size": 8064,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/5ce523974c03c833710bb47fc12d8851c048ead9"
+    },
+    {
+      "path": "docs/src/img/auto-editor-banner.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40f45d9e68cbc29a6f313dc424a393f1e5da6406",
+      "size": 57018,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/40f45d9e68cbc29a6f313dc424a393f1e5da6406"
+    },
+    {
+      "path": "docs/src/img/cross-platform.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b51b4e1e0a7356fa02c24daccc73d63908b03872",
+      "size": 255242,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/b51b4e1e0a7356fa02c24daccc73d63908b03872"
+    },
+    {
+      "path": "docs/src/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53ce8363181b60b146139b2d9542e139b3d01276",
+      "size": 2327,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/53ce8363181b60b146139b2d9542e139b3d01276"
+    },
+    {
+      "path": "docs/src/installing.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af871576a997d87730c274ff6a1dcb7668cfb190",
+      "size": 2233,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/af871576a997d87730c274ff6a1dcb7668cfb190"
+    },
+    {
+      "path": "docs/src/ref",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3277aa1a67ca0129e92a0775bbac9e93a8edb467",
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/trees/3277aa1a67ca0129e92a0775bbac9e93a8edb467"
+    },
+    {
+      "path": "docs/src/ref/actions.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "530a8e36b5a368ebbf87944517b4dced9f213ee0",
+      "size": 62,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/530a8e36b5a368ebbf87944517b4dced9f213ee0"
+    },
+    {
+      "path": "docs/src/ref/edit.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75ba3ec16b503aee9e95f499827416fdf8ee8bf1",
+      "size": 1245,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/75ba3ec16b503aee9e95f499827416fdf8ee8bf1"
+    },
+    {
+      "path": "docs/src/ref/index.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b612b6d4af7fba49206d77bee4772c63f3f615c9",
+      "size": 186,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/b612b6d4af7fba49206d77bee4772c63f3f615c9"
+    },
+    {
+      "path": "docs/src/ref/options.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a06c96ef3f6b8500fa24fb3df676bb4bc5b3d580",
+      "size": 53,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/a06c96ef3f6b8500fa24fb3df676bb4bc5b3d580"
+    },
+    {
+      "path": "docs/src/robots.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d931b5efc114cafa1dc9e3a2875e49a8fefa782",
+      "size": 59,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/8d931b5efc114cafa1dc9e3a2875e49a8fefa782"
+    },
+    {
+      "path": "docs/templates",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3fc9e9855d733aacfb3b741cb003e77f81aa628a",
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/trees/3fc9e9855d733aacfb3b741cb003e77f81aa628a"
+    },
+    {
+      "path": "docs/templates/default.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "103f5f4cc63edb7852d098b8a793cba3242f8fa7",
+      "size": 308,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/103f5f4cc63edb7852d098b8a793cba3242f8fa7"
+    },
+    {
+      "path": "example.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55e1c51226fa759b1c774651f381e30be9c11635",
+      "size": 3022780,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/55e1c51226fa759b1c774651f381e30be9c11635"
+    },
+    {
+      "path": "patches",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "aeadee43d9e271ba38c7f3ffbf04351e135b9bec",
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/trees/aeadee43d9e271ba38c7f3ffbf04351e135b9bec"
+    },
+    {
+      "path": "patches/ffmpeg.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "081b6954802ca35098444014f03e2eedf71e1c04",
+      "size": 9965,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/081b6954802ca35098444014f03e2eedf71e1c04"
+    },
+    {
+      "path": "patches/libvpl.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e14a5c7631b76abc23af09fa9f58ba33732083dd",
+      "size": 565,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/e14a5c7631b76abc23af09fa9f58ba33732083dd"
+    },
+    {
+      "path": "patches/whisper.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2b159d1225e200b832be00c66cff5b49cabe531",
+      "size": 2841,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/b2b159d1225e200b832be00c66cff5b49cabe531"
+    },
+    {
+      "path": "patches/x264.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2de619659a109c523ad4a360fe80a028d1e27cd",
+      "size": 4629,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/f2de619659a109c523ad4a360fe80a028d1e27cd"
+    },
+    {
+      "path": "patches/x265.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a328c1cf5c5ad11d28799cf8988f5146440233b5",
+      "size": 2313,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/a328c1cf5c5ad11d28799cf8988f5146440233b5"
+    },
+    {
+      "path": "resources",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0720620133570c9573f604da641487149b27e6e0",
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/trees/0720620133570c9573f604da641487149b27e6e0"
+    },
+    {
+      "path": "resources/SAR-2by3.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49aaacf07de9d68ce03abf6cf902b79fff10f3b3",
+      "size": 28057,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/49aaacf07de9d68ce03abf6cf902b79fff10f3b3"
+    },
+    {
+      "path": "resources/aac.m4a",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17e1b5df44835eff6581fe3602f7607e5be29702",
+      "size": 64393,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/17e1b5df44835eff6581fe3602f7607e5be29702"
+    },
+    {
+      "path": "resources/alac.m4a",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f85e046bb482035b84e664f6c7aac80894222aca",
+      "size": 232923,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/f85e046bb482035b84e664f6c7aac80894222aca"
+    },
+    {
+      "path": "resources/apac-only.mov",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04ccdc02d173db41b022db687e9a97511e75c058",
+      "size": 13575,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/04ccdc02d173db41b022db687e9a97511e75c058"
+    },
+    {
+      "path": "resources/apac.mov",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f36ba3e067abebed642b44bde8d766a54f53c140",
+      "size": 18916,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/f36ba3e067abebed642b44bde8d766a54f53c140"
+    },
+    {
+      "path": "resources/embedded-image",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "09dab2c9b9b2b051fe173eb0452d0f28211c93e7",
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/trees/09dab2c9b9b2b051fe173eb0452d0f28211c93e7"
+    },
+    {
+      "path": "resources/embedded-image/h264-mjpeg.mkv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17f30f3493b43cd70e131ab9a30716a8ce6a4e9e",
+      "size": 38202,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/17f30f3493b43cd70e131ab9a30716a8ce6a4e9e"
+    },
+    {
+      "path": "resources/embedded-image/h264-mjpeg.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aec2045c4876c87671b7fd455fe3f91e01643ef0",
+      "size": 41095,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/aec2045c4876c87671b7fd455fe3f91e01643ef0"
+    },
+    {
+      "path": "resources/embedded-image/h264-png.mkv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ebeb1151a06151525a7ea32a3b40933b6f9a87c",
+      "size": 52715,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/1ebeb1151a06151525a7ea32a3b40933b6f9a87c"
+    },
+    {
+      "path": "resources/embedded-image/h264-png.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84ae9bf6b1758b3b447b5a3793d7bc4f6bd94be0",
+      "size": 57933,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/84ae9bf6b1758b3b447b5a3793d7bc4f6bd94be0"
+    },
+    {
+      "path": "resources/mono.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7640e14169f4c7a0f033bc30fd4ec150123536dd",
+      "size": 20421,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/7640e14169f4c7a0f033bc30fd4ec150123536dd"
+    },
+    {
+      "path": "resources/mov_text.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1306a4847a62498f01e1d33d47455db46403e44b",
+      "size": 19517,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/1306a4847a62498f01e1d33d47455db46403e44b"
+    },
+    {
+      "path": "resources/multi-track.mov",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5072ab6acb99c7e544e0d76a3e4699373154827",
+      "size": 20966660,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/d5072ab6acb99c7e544e0d76a3e4699373154827"
+    },
+    {
+      "path": "resources/new-commentary.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca484e7682ba7fe0c7f73559148d2592a9fbdb51",
+      "size": 48924,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/ca484e7682ba7fe0c7f73559148d2592a9fbdb51"
+    },
+    {
+      "path": "resources/only-video",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "807e3e4f6f2e1d26099aa3073179068e365b7b42",
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/trees/807e3e4f6f2e1d26099aa3073179068e365b7b42"
+    },
+    {
+      "path": "resources/only-video/man-on-green-screen.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3875e4ed1b66cb204fd7b15b5a27b8ff20c4a967",
+      "size": 5034311,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/3875e4ed1b66cb204fd7b15b5a27b8ff20c4a967"
+    },
+    {
+      "path": "resources/only-video/man-on-green-screen.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "202cdd59d09b7b4b82aa8d2590d6d74e7fede7c5",
+      "size": 456336,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/202cdd59d09b7b4b82aa8d2590d6d74e7fede7c5"
+    },
+    {
+      "path": "resources/stereo.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00970d4b3aaa26475f5918ce31deaecf37a0cab5",
+      "size": 186004,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/00970d4b3aaa26475f5918ce31deaecf37a0cab5"
+    },
+    {
+      "path": "resources/test_attachment.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ec7e0eaca9588316b11218131c2c79977aa4739",
+      "size": 47,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/5ec7e0eaca9588316b11218131c2c79977aa4739"
+    },
+    {
+      "path": "resources/test_yuv422p.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61f4c0d4e3f379ae277ed1ac65521a31368dc349",
+      "size": 30557,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/61f4c0d4e3f379ae277ed1ac65521a31368dc349"
+    },
+    {
+      "path": "resources/testsrc-hevc.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ee7a4b0d5651101ae4f1b48d68fadbfa99b3680",
+      "size": 29883,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/2ee7a4b0d5651101ae4f1b48d68fadbfa99b3680"
+    },
+    {
+      "path": "resources/testsrc.mkv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45fd4a7ec3aea8090e014f7886610d3efe8d966e",
+      "size": 31048,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/45fd4a7ec3aea8090e014f7886610d3efe8d966e"
+    },
+    {
+      "path": "resources/testsrc.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf73d8d41d14b8d2dc4c4bf463e0bdb3a71e319a",
+      "size": 32771,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/cf73d8d41d14b8d2dc4c4bf463e0bdb3a71e319a"
+    },
+    {
+      "path": "resources/testsrc_with_attachment.mkv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2aee1b90e423735bdde57857299fab5a40328b78",
+      "size": 31158,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/2aee1b90e423735bdde57857299fab5a40328b78"
+    },
+    {
+      "path": "resources/wav",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5dec70bb0e630b1a30f991e8e7bb7561275d30ac",
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/trees/5dec70bb0e630b1a30f991e8e7bb7561275d30ac"
+    },
+    {
+      "path": "resources/wav/example-cut-s16le.wav",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01bb5d7c6eb40134fb9aeaa46f13dfffaa2735a8",
+      "size": 3379278,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/01bb5d7c6eb40134fb9aeaa46f13dfffaa2735a8"
+    },
+    {
+      "path": "resources/wav/pcm-f32le.wav",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d69818f7d7fbe64909482109b7aba873e5960b0",
+      "size": 424114,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/6d69818f7d7fbe64909482109b7aba873e5960b0"
+    },
+    {
+      "path": "resources/wav/pcm-s32le.wav",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "285f858941d471f599d4317635d3d2d4c34e19f0",
+      "size": 424102,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/285f858941d471f599d4317635d3d2d4c34e19f0"
+    },
+    {
+      "path": "resources/webvtt.mkv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d33846e814f733e9157264a3202418438e1eade4",
+      "size": 18280,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/d33846e814f733e9157264a3202418438e1eade4"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "650d5aac3989c6b1e97ccfc80b08dba1656b4ef4",
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/trees/650d5aac3989c6b1e97ccfc80b08dba1656b4ef4"
+    },
+    {
+      "path": "scripts/aarch64-w64-mingw32.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4de0ecc2718f12cd2f2d942b55c8996d7486384",
+      "size": 497,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/a4de0ecc2718f12cd2f2d942b55c8996d7486384"
+    },
+    {
+      "path": "scripts/aarch64-w64-mingw32.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00727841d5f7849ab431fd983841e2aa8fa8e9c3",
+      "size": 232,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/00727841d5f7849ab431fd983841e2aa8fa8e9c3"
+    },
+    {
+      "path": "scripts/arm-linux-gnueabihf.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d1d17981f6ab79a38439c0d6f5a2acea80c1b29",
+      "size": 562,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/6d1d17981f6ab79a38439c0d6f5a2acea80c1b29"
+    },
+    {
+      "path": "scripts/arm-linux-gnueabihf.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f36b31b58863c2c04a2264bae4c0df941e2ec9d",
+      "size": 408,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/4f36b31b58863c2c04a2264bae4c0df941e2ec9d"
+    },
+    {
+      "path": "scripts/strip_avx512_asm.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3390be0cd8b3a4ac9ca8593b149eda6baee7b89a",
+      "size": 8040,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/3390be0cd8b3a4ac9ca8593b149eda6baee7b89a"
+    },
+    {
+      "path": "scripts/wasm32-emcc.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b86681fe41e376630b065743bf5f44c6b521a8d4",
+      "size": 186,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/b86681fe41e376630b065743bf5f44c6b521a8d4"
+    },
+    {
+      "path": "scripts/wasm64-emcc.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b04589cf7c6f48e4679cfa687406b0d406999cfe",
+      "size": 324,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/b04589cf7c6f48e4679cfa687406b0d406999cfe"
+    },
+    {
+      "path": "scripts/x86_64-w64-mingw32.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce1b7013a5d562b06f4ce9cf1b14adbaa79d824c",
+      "size": 494,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/ce1b7013a5d562b06f4ce9cf1b14adbaa79d824c"
+    },
+    {
+      "path": "scripts/x86_64-w64-mingw32.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "045d1628bd18d6707ddf3ca19f8672419d7dd752",
+      "size": 242,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/045d1628bd18d6707ddf3ca19f8672419d7dd752"
+    },
+    {
+      "path": "skills",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c756dfc6d3926274988d0d5990de2e9fde84ad1d",
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/trees/c756dfc6d3926274988d0d5990de2e9fde84ad1d"
+    },
+    {
+      "path": "skills/auto-editor-effects",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b432a4bf5d9258f5c24d933f6a7fe46441f14610",
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/trees/b432a4bf5d9258f5c24d933f6a7fe46441f14610"
+    },
+    {
+      "path": "skills/auto-editor-effects/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e9674d9829a37569369dbce87927e2f2bfe27e1",
+      "size": 7595,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/9e9674d9829a37569369dbce87927e2f2bfe27e1"
+    },
+    {
+      "path": "skills/auto-editor-export",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3d3944119b95d29b0854ad0dce2f81da3a39c09a",
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/trees/3d3944119b95d29b0854ad0dce2f81da3a39c09a"
+    },
+    {
+      "path": "skills/auto-editor-export/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8261b96321be860ad313949e4bee84db74a63393",
+      "size": 5005,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/8261b96321be860ad313949e4bee84db74a63393"
+    },
+    {
+      "path": "skills/auto-editor-transcribe",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "78760add91dc5d0b731f3d43d89f7240a15a9330",
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/trees/78760add91dc5d0b731f3d43d89f7240a15a9330"
+    },
+    {
+      "path": "skills/auto-editor-transcribe/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd965d1b79674d0b790aa72a7e0b1fb547344df9",
+      "size": 5355,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/fd965d1b79674d0b790aa72a7e0b1fb547344df9"
+    },
+    {
+      "path": "skills/auto-editor-transitions",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "927b7962a8ebd648e27942c5a211aedad8111718",
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/trees/927b7962a8ebd648e27942c5a211aedad8111718"
+    },
+    {
+      "path": "skills/auto-editor-transitions/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05bf229f9987c9b437c488d6391b53cea6dcafdd",
+      "size": 7436,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/05bf229f9987c9b437c488d6391b53cea6dcafdd"
+    },
+    {
+      "path": "skills/auto-editor",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "65502c6c70492e354905fb1706434c306eab647d",
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/trees/65502c6c70492e354905fb1706434c306eab647d"
+    },
+    {
+      "path": "skills/auto-editor/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45383671700f78bf61189eafa16a2bab3f5b5af1",
+      "size": 7090,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/45383671700f78bf61189eafa16a2bab3f5b5af1"
+    },
+    {
+      "path": "src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2f2becddff7b2aac54d1f69c1760722fcda86044",
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/trees/2f2becddff7b2aac54d1f69c1760722fcda86044"
+    },
+    {
+      "path": "src/about.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7254ee03931bbede731d004fdd4ac43350f3076a",
+      "size": 26,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/7254ee03931bbede731d004fdd4ac43350f3076a"
+    },
+    {
+      "path": "src/action.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69cdd62a508772a6f36303516b0b7b4af69ff1e4",
+      "size": 93319,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/69cdd62a508772a6f36303516b0b7b4af69ff1e4"
+    },
+    {
+      "path": "src/ae_speech.swift",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d6a6993a4d13b26e27968b57e4cb8456d10aec3",
+      "size": 6673,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/6d6a6993a4d13b26e27968b57e4cb8456d10aec3"
+    },
+    {
+      "path": "src/analyze",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "13b9eff9fd82b66e761cb3c0084570b64163c142",
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/trees/13b9eff9fd82b66e761cb3c0084570b64163c142"
+    },
+    {
+      "path": "src/analyze/audio.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ca3ca8b3013b1e08ad837c2e12a713335708613",
+      "size": 17308,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/9ca3ca8b3013b1e08ad837c2e12a713335708613"
+    },
+    {
+      "path": "src/analyze/blackdetect.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "297f07884e7886ff27ca57db0927ca16e296f858",
+      "size": 5781,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/297f07884e7886ff27ca57db0927ca16e296f858"
+    },
+    {
+      "path": "src/analyze/motion.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2e80797da919b6b1388bf78d8a4b69d661db5de",
+      "size": 13956,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/b2e80797da919b6b1388bf78d8a4b69d661db5de"
+    },
+    {
+      "path": "src/analyze/subtitle.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35c86abb2e98083b762e15d970da8c229cc7b815",
+      "size": 2594,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/35c86abb2e98083b762e15d970da8c229cc7b815"
+    },
+    {
+      "path": "src/av.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "315b7218460073a8447a934465ad90fe450783a0",
+      "size": 38393,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/315b7218460073a8447a934465ad90fe450783a0"
+    },
+    {
+      "path": "src/cache.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc5a4b061d2da8630f1b6469b4040fd25cb75312",
+      "size": 4739,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/bc5a4b061d2da8630f1b6469b4040fd25cb75312"
+    },
+    {
+      "path": "src/cli.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab60f2a20774628396cae04c6c894e44a3339a67",
+      "size": 25449,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/ab60f2a20774628396cae04c6c894e44a3339a67"
+    },
+    {
+      "path": "src/cmds",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bd6844864b1e570b559576f7e1e6e046f505c6d8",
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/trees/bd6844864b1e570b559576f7e1e6e046f505c6d8"
+    },
+    {
+      "path": "src/cmds/cache.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d438bc3d278f83ff75c3a749291b6e6fc0aff3d1",
+      "size": 1735,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/d438bc3d278f83ff75c3a749291b6e6fc0aff3d1"
+    },
+    {
+      "path": "src/cmds/completion.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0bfe3ac8427b3201c275e051c9a9d7137954f68",
+      "size": 535,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/b0bfe3ac8427b3201c275e051c9a9d7137954f68"
+    },
+    {
+      "path": "src/cmds/desc.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "593ef2d211b461619e77f93121c76e861f73db40",
+      "size": 757,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/593ef2d211b461619e77f93121c76e861f73db40"
+    },
+    {
+      "path": "src/cmds/help.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "880ac111b674ce3b124017f09ce955d80ad6f6ed",
+      "size": 2121,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/880ac111b674ce3b124017f09ce955d80ad6f6ed"
+    },
+    {
+      "path": "src/cmds/info.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b1501cf60a55ee790f591fa9693ea56043d7cbf",
+      "size": 11310,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/8b1501cf60a55ee790f591fa9693ea56043d7cbf"
+    },
+    {
+      "path": "src/cmds/levels.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc0876e99dd8a9497b26bda9268418153cda8363",
+      "size": 9340,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/dc0876e99dd8a9497b26bda9268418153cda8363"
+    },
+    {
+      "path": "src/cmds/subdump.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "feef723abc0ab42dbbf0e74f0b5ebb7b86104ffa",
+      "size": 5283,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/feef723abc0ab42dbbf0e74f0b5ebb7b86104ffa"
+    },
+    {
+      "path": "src/cmds/whisper.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88011b089a0e8d4fe10558afc16770fcf736e751",
+      "size": 4874,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/88011b089a0e8d4fe10558afc16770fcf736e751"
+    },
+    {
+      "path": "src/conductor.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96033065b9a351fd5d419303f078a8424c5f3a9a",
+      "size": 35595,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/96033065b9a351fd5d419303f078a8424c5f3a9a"
+    },
+    {
+      "path": "src/edit.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f5d6ad5c51b1f6cb3129615e53f6bcb3164ec83",
+      "size": 16809,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/8f5d6ad5c51b1f6cb3129615e53f6bcb3164ec83"
+    },
+    {
+      "path": "src/editexpr.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17faf559a1762b801a3336f5bbe8d44490154092",
+      "size": 3236,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/17faf559a1762b801a3336f5bbe8d44490154092"
+    },
+    {
+      "path": "src/editlexer.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69c8b7afc1a2fe300461b9eb7fdf12abee9418b0",
+      "size": 8505,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/69c8b7afc1a2fe300461b9eb7fdf12abee9418b0"
+    },
+    {
+      "path": "src/editmethods.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f5f9151fc5eba95dac9ee10260791173ca81f88",
+      "size": 4658,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/7f5f9151fc5eba95dac9ee10260791173ca81f88"
+    },
+    {
+      "path": "src/editparse.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27be4cf917bd176be7246043f69f66f8f4bfd702",
+      "size": 3401,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/27be4cf917bd176be7246043f69f66f8f4bfd702"
+    },
+    {
+      "path": "src/encoders.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "057059fcd3560f0cb0093b2354b754bb6b8c1611",
+      "size": 10800,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/057059fcd3560f0cb0093b2354b754bb6b8c1611"
+    },
+    {
+      "path": "src/exports",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "50ae5a299ce6f641a027ea390b321ea373286945",
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/trees/50ae5a299ce6f641a027ea390b321ea373286945"
+    },
+    {
+      "path": "src/exports/drops.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab6e0b7f9fb616fb9a4667ad7f8381ddc42dbac6",
+      "size": 7114,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/ab6e0b7f9fb616fb9a4667ad7f8381ddc42dbac6"
+    },
+    {
+      "path": "src/exports/edl.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "492c67413211053bcac00e699c331e89a34d8e76",
+      "size": 9855,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/492c67413211053bcac00e699c331e89a34d8e76"
+    },
+    {
+      "path": "src/exports/fcp11.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2574bae1b8c2be3785ec8325e4b7982fbb32be1",
+      "size": 14300,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/b2574bae1b8c2be3785ec8325e4b7982fbb32be1"
+    },
+    {
+      "path": "src/exports/fcp7.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c9770848bb4265ed1f5950d64dece3810ccee0d",
+      "size": 29132,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/7c9770848bb4265ed1f5950d64dece3810ccee0d"
+    },
+    {
+      "path": "src/exports/json.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e62d0b1469c70a1f1f1e8793ca2d0edf798898d2",
+      "size": 4811,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/e62d0b1469c70a1f1f1e8793ca2d0edf798898d2"
+    },
+    {
+      "path": "src/exports/kdenlive.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c00dc1f4a58411fbcdd3f322692678285dd79a5a",
+      "size": 18861,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/c00dc1f4a58411fbcdd3f322692678285dd79a5a"
+    },
+    {
+      "path": "src/exports/mlt.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd2a1d36a9636fbb8989cf0fa738bd4209d83c9e",
+      "size": 3031,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/bd2a1d36a9636fbb8989cf0fa738bd4209d83c9e"
+    },
+    {
+      "path": "src/exports/otio.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05ba6deb8abf47df72258ce4c3f82e59c7d20a80",
+      "size": 25949,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/05ba6deb8abf47df72258ce4c3f82e59c7d20a80"
+    },
+    {
+      "path": "src/exports/shotcut.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f81af619ff62c8e0bb94fd4f3f9917148250a8a0",
+      "size": 15135,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/f81af619ff62c8e0bb94fd4f3f9917148250a8a0"
+    },
+    {
+      "path": "src/ffmpeg.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cbac12b049cc9756c6c67eb0f239404e063758a0",
+      "size": 39205,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/cbac12b049cc9756c6c67eb0f239404e063758a0"
+    },
+    {
+      "path": "src/graph.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99e85ef610a92c03670c4e1f4d7acfc073546064",
+      "size": 6007,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/99e85ef610a92c03670c4e1f4d7acfc073546064"
+    },
+    {
+      "path": "src/imports",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2e1815a0963ffcf6bd3b8844372a4abcb4185637",
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/trees/2e1815a0963ffcf6bd3b8844372a4abcb4185637"
+    },
+    {
+      "path": "src/imports/edl.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32f9577f58af089cccc035a503af86f3a70e65bf",
+      "size": 20454,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/32f9577f58af089cccc035a503af86f3a70e65bf"
+    },
+    {
+      "path": "src/imports/fcp11.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1aec27106a760a619900ce9d92ca024fc523de9",
+      "size": 18239,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/b1aec27106a760a619900ce9d92ca024fc523de9"
+    },
+    {
+      "path": "src/imports/fcp7.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33486501fc5b08948ebbb6b21b63f261b4bb8c4d",
+      "size": 24333,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/33486501fc5b08948ebbb6b21b63f261b4bb8c4d"
+    },
+    {
+      "path": "src/imports/json.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "640a9bc2ff3a97438478251a5d2c4b7152cb02ff",
+      "size": 12491,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/640a9bc2ff3a97438478251a5d2c4b7152cb02ff"
+    },
+    {
+      "path": "src/job.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3a28fa513780d6afe284c51d4fbaf4878dd5cee",
+      "size": 859,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/e3a28fa513780d6afe284c51d4fbaf4878dd5cee"
+    },
+    {
+      "path": "src/lib",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "893431ad1bd8c42b65b2493a2821fcc27f4f0de8",
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/trees/893431ad1bd8c42b65b2493a2821fcc27f4f0de8"
+    },
+    {
+      "path": "src/lib/audioutil.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0f030c30bf3e1740b24c93cdff1148e36f26167",
+      "size": 1105,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/a0f030c30bf3e1740b24c93cdff1148e36f26167"
+    },
+    {
+      "path": "src/lib/biquad.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e6290cac75db8efe293af158452f86d653899906",
+      "size": 1675,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/e6290cac75db8efe293af158452f86d653899906"
+    },
+    {
+      "path": "src/lib/cliputil.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "558c22472bf3a4e418220758f24cb2d0822f82ed",
+      "size": 809,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/558c22472bf3a4e418220758f24cb2d0822f82ed"
+    },
+    {
+      "path": "src/lib/dnorm16.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c03e6f37cd7a588dc134646e8d1b38ce4b4fc755",
+      "size": 4257,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/c03e6f37cd7a588dc134646e8d1b38ce4b4fc755"
+    },
+    {
+      "path": "src/lib/editutil.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a0af6809c3bddffaa948c637c5ba0cc262b3dcc",
+      "size": 2129,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/7a0af6809c3bddffaa948c637c5ba0cc262b3dcc"
+    },
+    {
+      "path": "src/lib/escape.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d16b217104b6f3f1e6f4cc0e1283f747943f9f75",
+      "size": 1180,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/d16b217104b6f3f1e6f4cc0e1283f747943f9f75"
+    },
+    {
+      "path": "src/lib/speedmap.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3dfe11be84821559e1761ac5fcc48c096f886e6",
+      "size": 4733,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/e3dfe11be84821559e1761ac5fcc48c096f886e6"
+    },
+    {
+      "path": "src/lib/timecode.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2db6d63601e218af00152c2c8cc9eab38148b1b",
+      "size": 2499,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/c2db6d63601e218af00152c2c8cc9eab38148b1b"
+    },
+    {
+      "path": "src/lib/timeunit.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7673ced43fefcafed1b11d449834c0bb873fa990",
+      "size": 1061,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/7673ced43fefcafed1b11d449834c0bb873fa990"
+    },
+    {
+      "path": "src/lib/wordre.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7340b10132398b29167e113a47e657f4b77b9674",
+      "size": 937,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/7340b10132398b29167e113a47e657f4b77b9674"
+    },
+    {
+      "path": "src/libass.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c30e1330deb9c3cfdab319b8d1bc29d7698f21c2",
+      "size": 2556,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/c30e1330deb9c3cfdab319b8d1bc29d7698f21c2"
+    },
+    {
+      "path": "src/license.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99ef513cad5db2cc98b33d843a1f08c22a4b1d9b",
+      "size": 4669,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/99ef513cad5db2cc98b33d843a1f08c22a4b1d9b"
+    },
+    {
+      "path": "src/log.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40154c94d662049a5232b67f46d7480111d4b6ec",
+      "size": 11367,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/40154c94d662049a5232b67f46d7480111d4b6ec"
+    },
+    {
+      "path": "src/main.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e2bda1fb81e0e5584b605dddacd00d289097242",
+      "size": 27612,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/6e2bda1fb81e0e5584b605dddacd00d289097242"
+    },
+    {
+      "path": "src/media.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18dda83d7bba4640e2a1daebbdbc82af32a1f8dd",
+      "size": 7101,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/18dda83d7bba4640e2a1daebbdbc82af32a1f8dd"
+    },
+    {
+      "path": "src/mic.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08a35ef1156c8e1803ece397082f818eec3972e5",
+      "size": 15912,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/08a35ef1156c8e1803ece397082f818eec3972e5"
+    },
+    {
+      "path": "src/render",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "72db3e37e3b78f34460811271654f270e5fd3c41",
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/trees/72db3e37e3b78f34460811271654f270e5fd3c41"
+    },
+    {
+      "path": "src/render/asyncenc.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "244888671d39dd3eedea7a7510dfcf4522135763",
+      "size": 4654,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/244888671d39dd3eedea7a7510dfcf4522135763"
+    },
+    {
+      "path": "src/render/audio.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef789326ff0bcfccb3d5d81c573fad84f1bc2ea7",
+      "size": 57807,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/ef789326ff0bcfccb3d5d81c573fad84f1bc2ea7"
+    },
+    {
+      "path": "src/render/burnsubs.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd91bdbc8220287d676d6a207f98d687d763d5da",
+      "size": 26549,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/fd91bdbc8220287d676d6a207f98d687d763d5da"
+    },
+    {
+      "path": "src/render/convolve.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd84b39d2c48a653503d57e12e6fe293c97eafff",
+      "size": 7813,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/dd84b39d2c48a653503d57e12e6fe293c97eafff"
+    },
+    {
+      "path": "src/render/format.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "afd9c2a2d75b5a3ec3a62d91dfd7d72bed59f37b",
+      "size": 25555,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/afd9c2a2d75b5a3ec3a62d91dfd7d72bed59f37b"
+    },
+    {
+      "path": "src/render/h264.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1db50fb7a4ffbfd43a693251c1a92cefc2aeb3f3",
+      "size": 4965,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/1db50fb7a4ffbfd43a693251c1a92cefc2aeb3f3"
+    },
+    {
+      "path": "src/render/hevc.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dfbab5f7585e691f3f825ff44b77c955bc100a07",
+      "size": 7669,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/dfbab5f7585e691f3f825ff44b77c955bc100a07"
+    },
+    {
+      "path": "src/render/partialplan.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4ee927631cae7dabc2482490f8a7ea60ea125ff",
+      "size": 24128,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/f4ee927631cae7dabc2482490f8a7ea60ea125ff"
+    },
+    {
+      "path": "src/render/preview.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a78a67c35a52dbe54b7160ee2a8ea74199f621a2",
+      "size": 4509,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/a78a67c35a52dbe54b7160ee2a8ea74199f621a2"
+    },
+    {
+      "path": "src/render/smart.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7eb76dc8ca2c25986ebe74145e38c15fd752d9e0",
+      "size": 6820,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/7eb76dc8ca2c25986ebe74145e38c15fd752d9e0"
+    },
+    {
+      "path": "src/render/subtitle.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a18c48a5a6a3c7f33f7a2586da61a8e2d18f7e92",
+      "size": 8861,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/a18c48a5a6a3c7f33f7a2586da61a8e2d18f7e92"
+    },
+    {
+      "path": "src/render/transition.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5dfa2baa1f0394e7950ae25a075e01a5b752f32",
+      "size": 67459,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/e5dfa2baa1f0394e7950ae25a075e01a5b752f32"
+    },
+    {
+      "path": "src/render/video.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b9375395dc8f4fe76f68da0712b66ddcb090915",
+      "size": 108655,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/4b9375395dc8f4fe76f68da0712b66ddcb090915"
+    },
+    {
+      "path": "src/resampler.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1646a3ec15b20ab5e871c364061ef1f74ad0362",
+      "size": 5932,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/b1646a3ec15b20ab5e871c364061ef1f74ad0362"
+    },
+    {
+      "path": "src/stats.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6143e152602ee46407ae0bf1ceec4bce810b1814",
+      "size": 3563,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/6143e152602ee46407ae0bf1ceec4bce810b1814"
+    },
+    {
+      "path": "src/throttle.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c5a054d6925a98820b270977ea8eecd02f99d99",
+      "size": 3000,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/2c5a054d6925a98820b270977ea8eecd02f99d99"
+    },
+    {
+      "path": "src/timeline.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e808b7d87043c74cc2ed7166faed04c0b6db8b29",
+      "size": 32384,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/e808b7d87043c74cc2ed7166faed04c0b6db8b29"
+    },
+    {
+      "path": "src/tinyre.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "281ac5b9e8560d456b4b586a81c2fdd5ebbe9623",
+      "size": 39514,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/281ac5b9e8560d456b4b586a81c2fdd5ebbe9623"
+    },
+    {
+      "path": "src/transcribe.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad07a71b0222e7d1efd59e1ea978bfc9df9dd01d",
+      "size": 21980,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/ad07a71b0222e7d1efd59e1ea978bfc9df9dd01d"
+    },
+    {
+      "path": "src/transitions.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9088b93bd7f71a085510eec31e2bd7ca27e5c387",
+      "size": 14059,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/9088b93bd7f71a085510eec31e2bd7ca27e5c387"
+    },
+    {
+      "path": "src/util",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "443a3c3f3d478a4923d3b745388b66df81b44780",
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/trees/443a3c3f3d478a4923d3b745388b66df81b44780"
+    },
+    {
+      "path": "src/util/bar.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd9e717ff93dd5eedc7bbc3ee59c5f71487ffb59",
+      "size": 8710,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/cd9e717ff93dd5eedc7bbc3ee59c5f71487ffb59"
+    },
+    {
+      "path": "src/util/color.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9896f40e7ea95b94f3c4111af70ca6a81b9de39",
+      "size": 4048,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/d9896f40e7ea95b94f3c4111af70ca6a81b9de39"
+    },
+    {
+      "path": "src/util/fun.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c71ea1329200bf241d1a6d5d0e2ab20b45ab654",
+      "size": 13274,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/9c71ea1329200bf241d1a6d5d0e2ab20b45ab654"
+    },
+    {
+      "path": "src/util/lang.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a3c059142d39c56f0aa619c1004fd325366b0ab1",
+      "size": 4664,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/a3c059142d39c56f0aa619c1004fd325366b0ab1"
+    },
+    {
+      "path": "src/util/rational.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc172667e7853b1fbb64ecc9f7a0dce7bfcac4dc",
+      "size": 551,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/dc172667e7853b1fbb64ecc9f7a0dce7bfcac4dc"
+    },
+    {
+      "path": "src/util/rules.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c96a82b4ea149276cdb0960b4ac9d8ad5ddf6a86",
+      "size": 1302,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/c96a82b4ea149276cdb0960b4ac9d8ad5ddf6a86"
+    },
+    {
+      "path": "src/util/suggest.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f35c2a81abbc3dd4a1f920423601f143fa8d57a2",
+      "size": 682,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/f35c2a81abbc3dd4a1f920423601f143fa8d57a2"
+    },
+    {
+      "path": "src/util/term.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52ae4288a9e23b0ddb477f052e6d1b98ef79b5c6",
+      "size": 355,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/52ae4288a9e23b0ddb477f052e6d1b98ef79b5c6"
+    },
+    {
+      "path": "src/util/xml.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b292acf8ad35186739f350ff29e28e86406a758",
+      "size": 9517,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/3b292acf8ad35186739f350ff29e28e86406a758"
+    },
+    {
+      "path": "src/util/xmllexer.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e79cfb6263d77c5a18d46302d85aa401b5a7a840",
+      "size": 14590,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/e79cfb6263d77c5a18d46302d85aa401b5a7a840"
+    },
+    {
+      "path": "src/vendor",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6ca45e3d7611c91854bb15623f274c3ee451ab1b",
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/trees/6ca45e3d7611c91854bb15623f274c3ee451ab1b"
+    },
+    {
+      "path": "src/vendor/csort",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "90ebac106a0e13ffadb68a65d148c22c39b72bca",
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/trees/90ebac106a0e13ffadb68a65d148c22c39b72bca"
+    },
+    {
+      "path": "src/vendor/csort/LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68a49daad8ff7e35068f2b7a97d643aab440eaec",
+      "size": 1211,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/68a49daad8ff7e35068f2b7a97d643aab440eaec"
+    },
+    {
+      "path": "src/vendor/csort/csort.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c696553c8ffff67a56280a142d02e21c84f401c4",
+      "size": 16788,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/c696553c8ffff67a56280a142d02e21c84f401c4"
+    },
+    {
+      "path": "src/vendor/libp2p",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2c2d967e838b05081a5423ec3d5c42d01135f855",
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/trees/2c2d967e838b05081a5423ec3d5c42d01135f855"
+    },
+    {
+      "path": "src/vendor/libp2p/LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8766e65da94fceaf783ab1a347eb5fd8d34528a1",
+      "size": 1101,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/8766e65da94fceaf783ab1a347eb5fd8d34528a1"
+    },
+    {
+      "path": "src/vendor/libp2p/constants.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91825101b8d76857630f50440115b3f1aaac5b90",
+      "size": 5174,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/91825101b8d76857630f50440115b3f1aaac5b90"
+    },
+    {
+      "path": "src/vendor/libp2p/ed25519.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8038bb460c49056df9e1746b63c86d294d6a43de",
+      "size": 47376,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/8038bb460c49056df9e1746b63c86d294d6a43de"
+    },
+    {
+      "path": "src/wavutil.nim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "437f729f1741a6bebe918e3b78cd8024b70fcd0e",
+      "size": 13387,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/437f729f1741a6bebe918e3b78cd8024b70fcd0e"
+    },
+    {
+      "path": "src/webcodecs.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a5ba27cec7d12464c0ba8a04e6aee1fce7c58e7",
+      "size": 14738,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/4a5ba27cec7d12464c0ba8a04e6aee1fce7c58e7"
+    },
+    {
+      "path": "src/webcodecsdec.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e9d1b1279d33170be97c3bd02ed89f5ab10c735",
+      "size": 21837,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/1e9d1b1279d33170be97c3bd02ed89f5ab10c735"
+    },
+    {
+      "path": "src/webcodecsenc.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "126f7dad119e123ec5e63143a9b5f76fa7cfc161",
+      "size": 16126,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/126f7dad119e123ec5e63143a9b5f76fa7cfc161"
+    },
+    {
+      "path": "src/webcodecsenc.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72a00d011f1d3c0e9454d20368649ae1a753da76",
+      "size": 13451,
+      "url": "https://api.github.com/repos/WyattBlue/auto-editor/git/blobs/72a00d011f1d3c0e9454d20368649ae1a753da76"
+    }
+  ],
+  "truncated": false
+}

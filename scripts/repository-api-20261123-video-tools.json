@@ -1,0 +1,120 @@
+[
+  {
+    "repository": "WyattBlue/auto-editor",
+    "url": "https://github.com/WyattBlue/auto-editor",
+    "branch": "master",
+    "remote_head": "1b99b6a84f9e96d10ed90ba6622b1cc7497a1c85",
+    "tree_sha": "6f7232efaaef70a8798c07323d745487688fd850",
+    "commit_date": "2026-11-22T20:26:20Z",
+    "description": "Effort free video editing!",
+    "license_api": {
+      "key": "unlicense",
+      "name": "The Unlicense",
+      "spdx_id": "Unlicense",
+      "url": "https://api.github.com/licenses/unlicense",
+      "node_id": "MDc6TGljZW5zZTE1"
+    },
+    "github_size_kib": 121877,
+    "truncated": false,
+    "tracked_source_bytes": 36679468,
+    "tracked_entries": 203,
+    "skill_paths": [
+      "skills/auto-editor-effects/SKILL.md",
+      "skills/auto-editor-export/SKILL.md",
+      "skills/auto-editor-transcribe/SKILL.md",
+      "skills/auto-editor-transitions/SKILL.md",
+      "skills/auto-editor/SKILL.md"
+    ],
+    "submodules": [],
+    "license_paths": [
+      "LICENSE"
+    ],
+    "previously_present": false
+  },
+  {
+    "repository": "Augani/openreel-video",
+    "url": "https://github.com/Augani/openreel-video",
+    "branch": "main",
+    "remote_head": "c8f33f212c8d39ff9cfabb3302a44423d8dad83d",
+    "tree_sha": "f8014886b08fe60dff0eea731d6a773073b7841c",
+    "commit_date": "2026-11-20T06:19:51Z",
+    "description": "OpenReel Video - Professional browser-based video editor. Open source CapCut alternative. 100% browser-based, no installation, no cloud uploads, no watermarks.",
+    "license_api": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "github_size_kib": 40790,
+    "truncated": false,
+    "tracked_source_bytes": 179761841,
+    "tracked_entries": 10320,
+    "skill_paths": [],
+    "submodules": [],
+    "license_paths": [
+      "LICENSE"
+    ],
+    "previously_present": false
+  },
+  {
+    "repository": "nduckmink/arkon",
+    "url": "https://github.com/nduckmink/arkon",
+    "branch": "main",
+    "remote_head": "5e4069df67b80b3ebcea1a4e841196b6f263d28e",
+    "tree_sha": "e778490e47e77139fc19d48af160a56b3a44bfef",
+    "commit_date": "2026-06-02T15:34:00Z",
+    "description": "Arkon: Enterprise AI Knowledge Hub & MCP Server. Self-hosted knowledge base for teams to manage RAG contexts, access policies, and AI skills. Connect Claude and other LLMs via Model Context Protocol (MCP) for automated, secure organizational knowledge integration.",
+    "license_api": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "github_size_kib": 9940,
+    "truncated": false,
+    "tracked_source_bytes": 9776944,
+    "tracked_entries": 302,
+    "skill_paths": [
+      "skills/arkon-edit/SKILL.md",
+      "skills/arkon-query/SKILL.md",
+      "skills/arkon-review/SKILL.md"
+    ],
+    "submodules": [
+      ".claude/worktrees/practical-margulis-63f2c1"
+    ],
+    "license_paths": [
+      "LICENSE"
+    ],
+    "previously_present": false
+  },
+  {
+    "repository": "D4Vinci/Scrapling",
+    "url": "https://github.com/D4Vinci/Scrapling",
+    "branch": "main",
+    "remote_head": "2998c9ebba52ef6116f0a483c7d2f21908250024",
+    "tree_sha": "7df269a16b4d0f4bebae2aee3ead89e901bdec5e",
+    "commit_date": "2026-11-17T09:51:29Z",
+    "description": "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev",
+    "license_api": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    },
+    "github_size_kib": 15769,
+    "truncated": false,
+    "tracked_source_bytes": 10821133,
+    "tracked_entries": 698,
+    "skill_paths": [
+      "agent-skill/Scrapling-Skill/SKILL.md"
+    ],
+    "submodules": [],
+    "license_paths": [
+      "LICENSE"
+    ],
+    "previously_present": true
+  }
+]

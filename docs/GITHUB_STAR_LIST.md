@@ -2,7 +2,7 @@
 
 **生成时间**: 2026-07-30 11:08:51 +08:00
 **初始整理时间**: 2026-07-30
-**最近核对**: 2026-11-22
+**最近核对**: 2026-11-23
 **范围（历史快照）**: `E:\aimodel` 顶层目录中带 `.git` 且 origin 指向 GitHub 的仓库
 **数量（当时）**: 61 个
 **状态**: 自动 star 受本机 GitHub CLI/API 环境影响，本清单改为手动处理参考
@@ -10,6 +10,99 @@
 ---
 
 > 本文件只保留 GitHub 链接和历史范围，不参与当前 skill 更新判定；当前目录台账请查看 [SKILLS_INDEX.md](SKILLS_INDEX.md)。
+
+## 2026-11-23 独立创业、社媒研究、动效与游戏索引
+
+| 项目 | 来源 | 本地收录 |
+|------|------|------|
+| OPC Skills | https://github.com/ReScienceLab/opc-skills | 已浅克隆 |
+| Social Media Research Skills | https://github.com/ScrapeCreators/social-media-research-skills | 已浅克隆 |
+| oil-motion | https://github.com/oil-oil/oil-motion | 已浅克隆 |
+| coil-reclaim-indicator | https://github.com/Allencake/coil-reclaim-indicator | 已浅克隆 |
+| LibreGet | https://github.com/OpenSelena/libreget | 已浅克隆 |
+
+已有的 `bobeff/open-source-games` 拉取后确认最新。分享清单现共 188 个来源。见[下载台账](GITHUB_REPOS.md#2026-11-23-独立创业社媒研究动效与游戏索引)。
+
+## 2026-11-23 Agent Skills 与工具续拉
+
+| 项目 | 来源 | 本地收录 |
+|------|------|------|
+| Claude-Mem | https://github.com/thedotmack/claude-mem | 已浅克隆 |
+| Paperclip | https://github.com/paperclipai/paperclip | 超限，仅登记 |
+| PPT Master | https://github.com/hugohe3/ppt-master | 超限，仅登记 |
+| VoiceStudio | https://github.com/debpalash/VoiceStudio | 超限，仅登记 |
+| God’s Eye View | https://github.com/bilawalsidhu/gods-eye-view | 超限，仅登记 |
+| Diagram Design | https://github.com/cathrynlavery/diagram-design | 已浅克隆 |
+
+此次增加六个来源，分享清单共 183 个。见[下载台账](GITHUB_REPOS.md#2026-11-23-agent-skills-与工具续拉)。
+
+## 2026-11-23 网站资源与 Horizon 续拉
+
+| 项目 | 来源 | 当前处理 |
+|------|------|------|
+| 华润赢 | https://huarun.win/ | 网站参考，已核对可访问，仅登记链接与用途 |
+| POJIA CVE | https://cve.pojia.ai/ | 网站参考，已核对可访问，仅登记链接与用途 |
+| Horizon | https://github.com/Thysrael/Horizon | 已有仓库快进更新，main `e17ea80c`，1 个 Skill |
+
+分享清单共 **177 个不同来源**。两个网站不属于 GitHub Star 对象，Horizon 为已有来源；本次未执行 GitHub Star。见[下载台账](GITHUB_REPOS.md#2026-11-23-网站资源与-horizon-续拉)。
+
+## 2026-11-23 动画框架、视频 Skills 与设计参考
+
+| 项目 | 来源 | 当前处理 |
+|------|------|------|
+| Motion Prompt | https://github.com/showheyohtaki/motion-prompt | 新增源码浅克隆，main `683ecca0` |
+| HyperFrames | https://github.com/heygen-com/hyperframes | 已有仓库快进更新，main `44c1e0c4` |
+| AI for UI / Emil Skills | https://aiforui.dev/skills → https://github.com/emilkowalski/skills | 关联并更新已有源码，main `64eb3deb` |
+| DesignBookmark Motion | https://designbookmark.com/motion | 网页参考，仅登记链接 |
+| Remotion Agent Skills | https://github.com/remotion-dev/skills | 新增源码浅克隆至 remotion-skills，main `6f55706d` |
+| Blender Agent Skills（EL4CTEO） | https://github.com/EL4CTEO/blender-skills | 在线核对，无需更新，main `1a1cc6c4` |
+| Motion | https://github.com/motiondivision/motion | 源码超限仅登记，main `1b374802` |
+| Motion Canvas | https://github.com/motion-canvas/motion-canvas | 新增源码浅克隆，main `7b91435c` |
+
+分享清单共 **175 个不同来源**。AI for UI 与已有 Emil 项目合并记录，不重复计数；未执行 GitHub Star。见[下载台账](GITHUB_REPOS.md#2026-11-23-动画框架视频-skills-与设计参考)。
+
+## 2026-11-23 Agent 协议、交易 Skills 与安全研究
+
+| 项目 | 来源 | 当前处理 |
+|------|------|------|
+| AG-UI | https://github.com/ag-ui-protocol/ag-ui | 新增源码浅克隆，main `c31e1e81` |
+| Claude Trading Skills | https://github.com/tradermonty/claude-trading-skills | 新增源码浅克隆，main `906b4b84`，74 个正式 Skill |
+| Modern Web Guidance 源码 | https://github.com/GoogleChrome/modern-web-guidance-src | 已有仓库快进更新，main `920ee542` |
+| Astryx | https://github.com/meta/astryx | 超限继续仅登记，main `85efed98` |
+| Univer | https://github.com/dream-num/univer | 超限继续仅登记，dev `f6eb7e18` |
+| Claude-BugHunter | https://github.com/elementalsouls/Claude-BugHunter | 新增源码浅克隆，main `5601278e`，83 个 Skill |
+
+分享清单共 **170 个不同来源**。本次新增 3 个来源，已有来源不重复计数；未执行 GitHub Star。见[下载台账](GITHUB_REPOS.md#2026-11-23-agent-协议交易-skills-与安全研究)。
+
+## 2026-11-23 资源雷达与 Claude Code 扩展目录
+
+| 项目 | 来源 | 当前处理 |
+|------|------|------|
+| freebie-radar | https://github.com/ZiChuanLan/freebie-radar | 已有仓库快进更新，main `9191745d`，package 1.0.0 |
+| Awesome Claude Code & Codex Extensions | https://github.com/omgits0mar/awesome-claude-code-extensions | 新增源码浅克隆，main `f108d909`，2,465 条扩展索引 |
+
+分享清单共 **167 个不同来源**。freebie-radar 为已有来源，不重复计数；未执行 GitHub Star。见[下载台账](GITHUB_REPOS.md#2026-11-23-资源雷达与-claude-code-扩展目录)。
+
+## 2026-11-23 自动剪辑、浏览器视频编辑与团队知识库
+
+| 项目 | 来源 | 当前处理 |
+|------|------|------|
+| Auto-Editor | https://github.com/WyattBlue/auto-editor | 重复链接去重，新增源码浅克隆，master `1b99b6a8`，5 个 Skill |
+| OpenReel Video | https://github.com/Augani/openreel-video | 源码超限，仅登记，main `c8f33f21` |
+| Arkon | https://github.com/nduckmink/arkon | 新增源码浅克隆，main `5e4069df`，3 个 Skill，内部使用许可 |
+| Scrapling | https://github.com/D4Vinci/Scrapling | 已有仓库在线核对，无需更新，main `2998c9eb` |
+
+分享清单共 **166 个不同来源**。本次只维护来源记录，未执行 GitHub Star。见[下载台账](GITHUB_REPOS.md#2026-11-23-自动剪辑浏览器视频编辑与团队知识库)。
+
+## 2026-11-23 可靠编码、像素实验与 Blender 视频制作
+
+| 项目 | 来源 | 当前处理 |
+|------|------|------|
+| old-coder | https://github.com/AmazingAng/old-coder | 新增源码浅克隆，main `a0eb529d`，2 个 Skill |
+| OpenPixel · 像素万象 | https://github.com/ma1902056219-coder/openpixel | 新增源码浅克隆，main `1c4aa923`，36 个像素实验 |
+| Create Blender Story Video | https://github.com/yoruuuchan/create-blender-story-video | 新增源码浅克隆，main `8f934efb`，1 个 Skill |
+
+分享清单共 **163 个不同来源**。本次维护来源记录，未执行 GitHub Star。见[下载台账](GITHUB_REPOS.md#2026-11-23-可靠编码像素实验与-blender-视频制作)。
 
 ## 2026-11-22 应用平台、模型运行、网页采集与游戏 Skills
 

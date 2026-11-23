@@ -1,0 +1,666 @@
+{
+  "sha": "621ab4cc8e6c59b56a3f2a9461ee14a54f5c2713",
+  "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/trees/621ab4cc8e6c59b56a3f2a9461ee14a54f5c2713",
+  "tree": [
+    {
+      "path": ".gitattributes",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13beb27ffd7b5ed43fc68d1da45c2c70a5351ed0",
+      "size": 139,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/13beb27ffd7b5ed43fc68d1da45c2c70a5351ed0"
+    },
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "10ed0a2d71eafbf6f7d5dd922218cac9dfde0d33",
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/trees/10ed0a2d71eafbf6f7d5dd922218cac9dfde0d33"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "102ce3a6b80a095febe544c336793222b5238ef1",
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/trees/102ce3a6b80a095febe544c336793222b5238ef1"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/add-project.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0ba75b5b152a8c63c4a070c32c91865a0b04ff2",
+      "size": 2490,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/f0ba75b5b152a8c63c4a070c32c91865a0b04ff2"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48153b37462d62deced3c423e837571c4f91503b",
+      "size": 260,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/48153b37462d62deced3c423e837571c4f91503b"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/security-contact.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ab853ee240625595998b50f10532812d6ca9d01",
+      "size": 852,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/6ab853ee240625595998b50f10532812d6ca9d01"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/update-project.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a4b0d8803ddf6ec142273d8e70c893bb6d4a3bc",
+      "size": 803,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/7a4b0d8803ddf6ec142273d8e70c893bb6d4a3bc"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "68ecf64931ec03b93f49ef45e8e01ee6e9e94e7c",
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/trees/68ecf64931ec03b93f49ef45e8e01ee6e9e94e7c"
+    },
+    {
+      "path": ".github/workflows/check-links.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "950b290965bd46694efc0f201386b49d61065a1e",
+      "size": 636,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/950b290965bd46694efc0f201386b49d61065a1e"
+    },
+    {
+      "path": ".github/workflows/pages.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a45ed56bb7e6e35724bfd4e45d3e95550ceaf107",
+      "size": 1640,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/a45ed56bb7e6e35724bfd4e45d3e95550ceaf107"
+    },
+    {
+      "path": ".github/workflows/validate.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b3eabdc0bc96a775f8e6df15342d67ac7e134d8",
+      "size": 667,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/3b3eabdc0bc96a775f8e6df15342d67ac7e134d8"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf33b7bf551ea33cf635590b108c170bc1e6a7aa",
+      "size": 191,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/bf33b7bf551ea33cf635590b108c170bc1e6a7aa"
+    },
+    {
+      "path": "AGENTS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d844cc46833f5c1b169866e1d8f806a4d9e5fe17",
+      "size": 2938,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/d844cc46833f5c1b169866e1d8f806a4d9e5fe17"
+    },
+    {
+      "path": "CATALOG.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4284f9c5a8f384193ab6f313a949422307b2de0d",
+      "size": 2090,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/4284f9c5a8f384193ab6f313a949422307b2de0d"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8fd3f0547e1bc74de7c5070693b64a8caf221ac",
+      "size": 715,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/e8fd3f0547e1bc74de7c5070693b64a8caf221ac"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a411d353300edd67c2b7029ae4d61ef0c0bec4d8",
+      "size": 7089,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/a411d353300edd67c2b7029ae4d61ef0c0bec4d8"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0037c6acf81c1a4003b8bba143911a71db13f5b",
+      "size": 6512,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/c0037c6acf81c1a4003b8bba143911a71db13f5b"
+    },
+    {
+      "path": "LICENSE-CODE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47dc65859e8acce96d395c325343465fcff7234b",
+      "size": 1107,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/47dc65859e8acce96d395c325343465fcff7234b"
+    },
+    {
+      "path": "Makefile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "339e46cf70bec5b3c11c1493eed040b636504b55",
+      "size": 351,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/339e46cf70bec5b3c11c1493eed040b636504b55"
+    },
+    {
+      "path": "NOTICE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52358034721868e081b9fa6c6bf8f09c7e4eb2a1",
+      "size": 1911,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/52358034721868e081b9fa6c6bf8f09c7e4eb2a1"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6435e6a9a6dd3c8374abbdafb8c45f881df1827f",
+      "size": 8925,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/6435e6a9a6dd3c8374abbdafb8c45f881df1827f"
+    },
+    {
+      "path": "SECURITY.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5c7afc9ec6063279990723b31cc6be78665c095",
+      "size": 1015,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/c5c7afc9ec6063279990723b31cc6be78665c095"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac3de81a92809ac42a2c51945bcc56bb1ed45049",
+      "size": 2924,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/ac3de81a92809ac42a2c51945bcc56bb1ed45049"
+    },
+    {
+      "path": "catalog",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d000656dd26e2f338416ff1e81832b43488490e0",
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/trees/d000656dd26e2f338416ff1e81832b43488490e0"
+    },
+    {
+      "path": "catalog/by-kind",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cb3754b263ac474885e34f10e3c213a6d460e667",
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/trees/cb3754b263ac474885e34f10e3c213a6d460e667"
+    },
+    {
+      "path": "catalog/by-kind/agents-workflows.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "982e9223b7a1065da218e8161558f69781cf8324",
+      "size": 33961,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/982e9223b7a1065da218e8161558f69781cf8324"
+    },
+    {
+      "path": "catalog/by-kind/collections.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c51fd856fad317708121521027d5dbcfd3a14474",
+      "size": 5634,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/c51fd856fad317708121521027d5dbcfd3a14474"
+    },
+    {
+      "path": "catalog/by-kind/learning.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83c6e4947f9dbfbadf723202a593323cc79e4b52",
+      "size": 3238,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/83c6e4947f9dbfbadf723202a593323cc79e4b52"
+    },
+    {
+      "path": "catalog/by-kind/mcp-servers.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7eeb1bd067ab1c53c649cfbab7b076077054539",
+      "size": 398497,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/c7eeb1bd067ab1c53c649cfbab7b076077054539"
+    },
+    {
+      "path": "catalog/by-kind/mcp-tooling.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da87371bcb8bc4d20f756219c504edcabd41c03f",
+      "size": 6735,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/da87371bcb8bc4d20f756219c504edcabd41c03f"
+    },
+    {
+      "path": "catalog/by-kind/other.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c25effcc685c2ce908d35ef25bdc4ea48ad19c71",
+      "size": 279,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/c25effcc685c2ce908d35ef25bdc4ea48ad19c71"
+    },
+    {
+      "path": "catalog/by-kind/plugins.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d13610654522111c8ca202a744b0921506d2600",
+      "size": 96284,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/7d13610654522111c8ca202a744b0921506d2600"
+    },
+    {
+      "path": "catalog/by-kind/skills-commands-hooks.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06a948e827aa2989310aa5235968baf4497d30c3",
+      "size": 36654,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/06a948e827aa2989310aa5235968baf4497d30c3"
+    },
+    {
+      "path": "catalog/by-kind/tools-interfaces.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db4d96549a4a49076f72b839b0359f646cc5d760",
+      "size": 29299,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/db4d96549a4a49076f72b839b0359f646cc5d760"
+    },
+    {
+      "path": "catalog/catalog.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63ae34edc98a3fc317022e764888c93adeb70a59",
+      "size": 1278113,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/63ae34edc98a3fc317022e764888c93adeb70a59"
+    },
+    {
+      "path": "catalog/catalog.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7523ede98d87e76068da23ed9bb8531d9531d090",
+      "size": 3268446,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/7523ede98d87e76068da23ed9bb8531d9531d090"
+    },
+    {
+      "path": "catalog/exclusions.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0ebb917b3c8ac9c98d1a883c7ca05d9a574544e",
+      "size": 7681,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/b0ebb917b3c8ac9c98d1a883c7ca05d9a574544e"
+    },
+    {
+      "path": "catalog/link-overrides.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ff8246ec517dc7908c668bf3b652eb909c2cb1e",
+      "size": 12238,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/7ff8246ec517dc7908c668bf3b652eb909c2cb1e"
+    },
+    {
+      "path": "catalog/schema.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dcda2459304ffa4b5a430580f68eac79eaae9ec9",
+      "size": 6226,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/dcda2459304ffa4b5a430580f68eac79eaae9ec9"
+    },
+    {
+      "path": "catalog/stats.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70cf6bb3209c5c4368fca7f893f942d84661e7c8",
+      "size": 3761,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/70cf6bb3209c5c4368fca7f893f942d84661e7c8"
+    },
+    {
+      "path": "catalog/verified-open-source.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac0dfc94fd2b6528b5d2cf02941e9469c9e13dcd",
+      "size": 49170,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/ac0dfc94fd2b6528b5d2cf02941e9469c9e13dcd"
+    },
+    {
+      "path": "docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "69767a5547c3faed08df213a6db198b6d89e754c",
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/trees/69767a5547c3faed08df213a6db198b6d89e754c"
+    },
+    {
+      "path": "docs/LICENSING.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43dbd71f98d3d78b564fcb7048bd5c30f9f16d54",
+      "size": 1540,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/43dbd71f98d3d78b564fcb7048bd5c30f9f16d54"
+    },
+    {
+      "path": "docs/METHODOLOGY.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf1860336321a397c96ee77c1ee178d84f4e1360",
+      "size": 5897,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/bf1860336321a397c96ee77c1ee178d84f4e1360"
+    },
+    {
+      "path": "docs/SOURCES.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28f14459f31f9dd171f3a9ad5eaae9bafdbf8855",
+      "size": 29009,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/28f14459f31f9dd171f3a9ad5eaae9bafdbf8855"
+    },
+    {
+      "path": "docs/TAXONOMY.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a20d89e59b01cbb54a3bb05e759b58b84a74d874",
+      "size": 2421,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/a20d89e59b01cbb54a3bb05e759b58b84a74d874"
+    },
+    {
+      "path": "docs/TRUST_AND_SAFETY.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bebc47d21139674280cd0505433e5c7464e0d9dd",
+      "size": 2077,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/bebc47d21139674280cd0505433e5c7464e0d9dd"
+    },
+    {
+      "path": "docs/WEBSITE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a47e7d2756237b81d6431a5af74a4a6fb24c33a9",
+      "size": 2491,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/a47e7d2756237b81d6431a5af74a4a6fb24c33a9"
+    },
+    {
+      "path": "research",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0453cb13d07558578efcc201e6d07bf3b9bc2087",
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/trees/0453cb13d07558578efcc201e6d07bf3b9bc2087"
+    },
+    {
+      "path": "research/claude-native-sources.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4508880ede902f8d376b6bc87c6c80247f707f33",
+      "size": 4349,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/4508880ede902f8d376b6bc87c6c80247f707f33"
+    },
+    {
+      "path": "research/claude-native.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54e6f88b359730f74ea3ed2fccbc328df75a4e9d",
+      "size": 284555,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/54e6f88b359730f74ea3ed2fccbc328df75a4e9d"
+    },
+    {
+      "path": "research/ecosystem-sources.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c18ad813bb676d2f9c0cb40d016583aff9a6832",
+      "size": 40417,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/4c18ad813bb676d2f9c0cb40d016583aff9a6832"
+    },
+    {
+      "path": "research/manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32b2ee862d67027c3750eb34a61f508232b064c1",
+      "size": 510,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/32b2ee862d67027c3750eb34a61f508232b064c1"
+    },
+    {
+      "path": "research/mcp-servers.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61d44eb1b687b46f47e82cc75ed331b57bd5e387",
+      "size": 182622,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/61d44eb1b687b46f47e82cc75ed331b57bd5e387"
+    },
+    {
+      "path": "research/mcp-sources.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28ac6f847622c817a0a1cf8e4358eb9926e2d97f",
+      "size": 4021,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/28ac6f847622c817a0a1cf8e4358eb9926e2d97f"
+    },
+    {
+      "path": "research/research-notes.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7618fb11af3208c0e4c49d5e8263fa7189920b14",
+      "size": 18805,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/7618fb11af3208c0e4c49d5e8263fa7189920b14"
+    },
+    {
+      "path": "research/snapshots",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e37f93c5d445916bdc8a3ee8ecc53262a0b588ba",
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/trees/e37f93c5d445916bdc8a3ee8ecc53262a0b588ba"
+    },
+    {
+      "path": "research/snapshots/anthropic-marketplace.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae86c57c55eab002b7bf44e65fea712d6a4c2cb7",
+      "size": 159239,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/ae86c57c55eab002b7bf44e65fea712d6a4c2cb7"
+    },
+    {
+      "path": "research/snapshots/appcypher-mcp.md.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7626a0c3a50536f8a4f0ff38c49c21ce010b053",
+      "size": 62701,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/e7626a0c3a50536f8a4f0ff38c49c21ce010b053"
+    },
+    {
+      "path": "research/snapshots/manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61c4151ad6aec10a9af72626a33476506ea89b2b",
+      "size": 1022,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/61c4151ad6aec10a9af72626a33476506ea89b2b"
+    },
+    {
+      "path": "research/snapshots/punkpeye-mcp.md.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b03475bc71b60562c0a719094a72bb9b1b3a6082",
+      "size": 512000,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/b03475bc71b60562c0a719094a72bb9b1b3a6082"
+    },
+    {
+      "path": "research/snapshots/subinium-awesome.md.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "acf17566de8d9d0901d29d66961cf650eaaf49ac",
+      "size": 76984,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/acf17566de8d9d0901d29d66961cf650eaaf49ac"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "88ee5ce6d596275a5ae7539403b5af6f6336df78",
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/trees/88ee5ce6d596275a5ae7539403b5af6f6336df78"
+    },
+    {
+      "path": "scripts/build_catalog.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "014f0039fa1a17b533e043f99bc82284aff79642",
+      "size": 38377,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/014f0039fa1a17b533e043f99bc82284aff79642"
+    },
+    {
+      "path": "scripts/catalog_lib.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ce334ec476d035a44414657e659e722303d6d85",
+      "size": 14241,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/8ce334ec476d035a44414657e659e722303d6d85"
+    },
+    {
+      "path": "scripts/check_links.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b242ce4ba3837e0ee96081068864b977beb7936",
+      "size": 6372,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/3b242ce4ba3837e0ee96081068864b977beb7936"
+    },
+    {
+      "path": "scripts/discover_github.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd177f2ca1f3609b961f1b8d881c03a84c61120c",
+      "size": 3573,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/dd177f2ca1f3609b961f1b8d881c03a84c61120c"
+    },
+    {
+      "path": "scripts/fetch_github_metadata.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4cd1481b5a80404a05fa8813413bff36e7e76050",
+      "size": 18018,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/4cd1481b5a80404a05fa8813413bff36e7e76050"
+    },
+    {
+      "path": "scripts/fetch_sources.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2de23c6a7fbffafdedd4deffe95e9fb4bcb1d9ed",
+      "size": 3798,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/2de23c6a7fbffafdedd4deffe95e9fb4bcb1d9ed"
+    },
+    {
+      "path": "scripts/import_mcp_registry.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bbeb4a24648b18d73ecf02c4c67234ca9a15d01e",
+      "size": 3951,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/bbeb4a24648b18d73ecf02c4c67234ca9a15d01e"
+    },
+    {
+      "path": "scripts/validate_catalog.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7aebbf3ccdd039243763b0f457760aa8b5e35a25",
+      "size": 12610,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/7aebbf3ccdd039243763b0f457760aa8b5e35a25"
+    },
+    {
+      "path": "site",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f91228d43406574479f515fb7273147578b03ca6",
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/trees/f91228d43406574479f515fb7273147578b03ca6"
+    },
+    {
+      "path": "site/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9e6260ec663d38c5bf38a35c0dfc6b04abc9e382",
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/trees/9e6260ec663d38c5bf38a35c0dfc6b04abc9e382"
+    },
+    {
+      "path": "site/assets/app.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5278d724e5861a02477d11328dd51175e30734bf",
+      "size": 41772,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/5278d724e5861a02477d11328dd51175e30734bf"
+    },
+    {
+      "path": "site/assets/favicon.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00bd48fecb936cfaf8b0ad45108cf58266b59f66",
+      "size": 693,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/00bd48fecb936cfaf8b0ad45108cf58266b59f66"
+    },
+    {
+      "path": "site/assets/styles.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "daf6992ebf514dd0ba462b534357296dd260c559",
+      "size": 28283,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/daf6992ebf514dd0ba462b534357296dd260c559"
+    },
+    {
+      "path": "site/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ce05fbbba1852073c6b8719228c075db136e7cd",
+      "size": 12961,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/7ce05fbbba1852073c6b8719228c075db136e7cd"
+    },
+    {
+      "path": "tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6697ac79b8344abaad8fcc04049a154496835b63",
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/trees/6697ac79b8344abaad8fcc04049a154496835b63"
+    },
+    {
+      "path": "tests/test_build_catalog.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df2fe9036062d09547d0cd1d1c978d049f2cde05",
+      "size": 5589,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/df2fe9036062d09547d0cd1d1c978d049f2cde05"
+    },
+    {
+      "path": "tests/test_catalog_lib.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13a6628edf76057cffc6e871fed3637fbced0fa1",
+      "size": 3452,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/13a6628edf76057cffc6e871fed3637fbced0fa1"
+    },
+    {
+      "path": "tests/test_check_links.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "046744487e7b2cf1b670f3f818df4a956dbc28f1",
+      "size": 1403,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/046744487e7b2cf1b670f3f818df4a956dbc28f1"
+    },
+    {
+      "path": "tests/test_fetch_github_metadata.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f6dcbb2fa5ad2d44965170469c9a5f826b5df02",
+      "size": 13226,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/4f6dcbb2fa5ad2d44965170469c9a5f826b5df02"
+    },
+    {
+      "path": "third_party",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "aa73dcda3e9344a44e6b342e8ab4286f06d058c5",
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/trees/aa73dcda3e9344a44e6b342e8ab4286f06d058c5"
+    },
+    {
+      "path": "third_party/APACHE-2.0.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9590d39072a0600799d9752529f62b6ce5e69951",
+      "size": 10342,
+      "url": "https://api.github.com/repos/omgits0mar/awesome-claude-code-extensions/git/blobs/9590d39072a0600799d9752529f62b6ce5e69951"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "repository": "ZiChuanLan/freebie-radar",
+    "url": "https://github.com/ZiChuanLan/freebie-radar",
+    "branch": "main",
+    "remote_head": "9191745d6368ca34b89f436abe2df66b9dd17d6e",
+    "tree_sha": "a004aecc05de2289fc72e10028e1b54773f70c0a",
+    "commit_date": "2026-11-20T15:30:06Z",
+    "description": "白嫖与资讯资源聚合雷达：100+个源定时采集 + AI 二审过滤假福利 + 获取方式分级隔离抽奖/试用/推广 + Telegram 即时推送",
+    "license_api": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "github_size_kib": 8320,
+    "truncated": false,
+    "tracked_source_bytes": 2977583,
+    "tracked_entries": 155,
+    "skill_paths": [],
+    "submodules": [],
+    "license_paths": [
+      "LICENSE"
+    ],
+    "previously_present": true
+  },
+  {
+    "repository": "omgits0mar/awesome-claude-code-extensions",
+    "url": "https://github.com/omgits0mar/awesome-claude-code-extensions",
+    "branch": "main",
+    "remote_head": "f108d909f030485bdf235d5e77e901f15ad808a1",
+    "tree_sha": "621ab4cc8e6c59b56a3f2a9461ee14a54f5c2713",
+    "commit_date": "2026-07-28T10:50:43Z",
+    "description": "Searchable index of Claude Code & Codex extensions: plugins, skills, MCP servers, agents, and tools.",
+    "license_api": {
+      "key": "cc0-1.0",
+      "name": "Creative Commons Zero v1.0 Universal",
+      "spdx_id": "CC0-1.0",
+      "url": "https://api.github.com/licenses/cc0-1.0",
+      "node_id": "MDc6TGljZW5zZTY="
+    },
+    "github_size_kib": 1123,
+    "truncated": false,
+    "tracked_source_bytes": 6888792,
+    "tracked_entries": 71,
+    "skill_paths": [],
+    "submodules": [],
+    "license_paths": [
+      "LICENSE",
+      "LICENSE-CODE",
+      "NOTICE.md"
+    ],
+    "previously_present": false
+  }
+]

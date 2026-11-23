@@ -2,6 +2,22 @@
 
 **扫描目录**: `E:\aimodel`
 
+**2026-11-23 独立创业、社媒研究、动效与游戏索引**新增 OPC Skills、Social Media Research Skills、oil-motion、coil-reclaim-indicator 和 LibreGet 五个源码浅克隆。已有 `open-source-games/` 拉取后确认仍为 `3a9ab8fc`。见[下载台账](GITHUB_REPOS.md#2026-11-23-独立创业社媒研究动效与游戏索引)。
+
+**2026-11-23 Agent Skills 与工具续拉**更新 Matt Pocock Skills、ECC 和 REA，在线核对 Karpathy Skills 已是最新。新增 Claude-Mem 和 Diagram Design 两个浅克隆，另四项超限仅登记。见[下载台账](GITHUB_REPOS.md#2026-11-23-agent-skills-与工具续拉)。
+
+**2026-11-23 网站与 Horizon 追加核验**：已有 `Horizon/` 从 `12d5fbde` 快进 4 个提交至 `e17ea80c`，含 Git **15.76 MB**，工作树干净并通过对象校验。`huarun.win` 与 `cve.pojia.ai` 按网站资源登记，不加入 Git 仓库表；分享清单共 177 个来源。见[下载台账](GITHUB_REPOS.md#2026-11-23-网站资源与-horizon-续拉)和[核验 JSON](../scripts/repository-review-20261123-web-horizon.json)。
+
+**2026-11-23 动画与设计资料追加核验**：新增 `motion-prompt/`（`683ecca0`，含 Git 74.58 MB）、`remotion-skills/`（`6f55706d`，1.14 MB）、`motion-canvas/`（`7b91435c`，5.68 MB）。HyperFrames 快进至 `44c1e0c4`（683.29 MB），AI for UI 关联的 Emil 源码快进至 `64eb3deb`（0.75 MB），Blender Skills 保持 `1a1cc6c4`。六个工作树干净并通过对象校验。Motion 库源码 291.94 MB 超限仅登记，DesignBookmark Motion 为网页参考；分享清单共 175 个来源。见[下载台账](GITHUB_REPOS.md#2026-11-23-动画框架视频-skills-与设计参考)与[核验 JSON](../scripts/repository-review-20261123-motion-design.json)。
+
+**2026-11-23 Agent 协议、交易与安全资料追加核验**：新增 `ag-ui/`（`c31e1e81`，含 Git 101.72 MB）、`claude-trading-skills/`（`906b4b84`，55.01 MB）与 `Claude-BugHunter/`（`5601278e`，6.57 MB）；已有 `modern-web-guidance-src/` 快进至 `920ee542`（181.74 MB）。四个工作树干净并通过对象校验。Astryx 源码 401.14 MB、Univer 检出前含 Git 148.26 MB，超限继续仅登记。分享清单共 170 个来源。见[下载台账](GITHUB_REPOS.md#2026-11-23-agent-协议交易-skills-与安全研究)及[核验 JSON](../scripts/repository-review-20261123-agents-trading-security.json)。
+
+**2026-11-23 资源雷达与扩展目录追加核验**：`freebie-radar/` 从 `4f89041a` 快进 31 个提交至 `9191745d`（package 1.0.0，含 Git 5.00 MB）；新增 `awesome-claude-code-extensions/`，main `f108d909`，含 Git 7.99 MB，保存 2,465 条扩展索引。两个工作树干净并通过对象校验，当前均无 SKILL.md；分享清单共 167 个来源。见[下载台账](GITHUB_REPOS.md#2026-11-23-资源雷达与-claude-code-扩展目录)与[核验 JSON](../scripts/repository-review-20261123-radar-extensions.json)。
+
+**2026-11-23 视频工具与团队知识库追加核验**：新增 `auto-editor/`（master `1b99b6a8`，含 Git 49.02 MB）与 `arkon/`（main `5e4069df`，含 Git 17.35 MB），Scrapling 在线核对仍为 `2998c9eb`。三个本地仓库工作树干净并通过对象校验；OpenReel Video 源码 179.76 MB 超限，仅登记。分享清单共 166 个来源。见[下载台账](GITHUB_REPOS.md#2026-11-23-自动剪辑浏览器视频编辑与团队知识库)与[核验 JSON](../scripts/repository-review-20261123-video-tools.json)。
+
+**2026-11-23 增量核验**：新增 `old-coder/`、`openpixel/` 和 `create-blender-story-video/` 三个源码浅克隆，含 Git 分别为 **8.28、43.12、0.26 MB**，均低于 120 MB。三个仓库工作树干净并通过对象校验，保存 3 个正式 Skill 与 36 个像素实验；分享清单共 163 个来源。见[下载台账](GITHUB_REPOS.md#2026-11-23-可靠编码像素实验与-blender-视频制作)及[核验 JSON](../scripts/repository-review-20261123.json)。
+
 **2026-11-22 增量核验**：新增 `open-webui/`、`ollama/`、`Scrapling/` 三个源码浅克隆，含 Git 分别为 **77.83、80.00、15.03 MB**。`public-apis/` 快进至 `867085cc`，`blender-skills/` 快进至 1.3.3 `1a1cc6c4`；游戏开发仓库已保存，在线核对仍为 `c6ca6c41`（79 个游戏 Skill 加 1 个路由入口）。Dify 仅源码已达 153.43 MB，超限只登记。六个本地仓库工作树干净并通过对象校验，分享清单增至 160 个来源。见[下载台账](GITHUB_REPOS.md#2026-11-22-应用平台模型运行网页采集与游戏-skills)。
 
 **2026-11-21 增量核验**：新增 `awesome-gamedev-agent-skills/`，main `c6ca6c41`，含 Git 7.84 MB，浅克隆、工作树干净并通过对象校验。已有 `reverse-skill/` 存在 3 个未提交修改，保留 main `a5171e03`，通过对象校验；未抓取远端。见[下载台账](GITHUB_REPOS.md#2026-11-21-游戏开发-skills-与逆向资料核验)。
@@ -58,7 +74,7 @@
 | agent-skills | https://github.com/addyosmani/agent-skills.git | main | `39b723ce` | 已快进更新并通过对象校验（2026-11-15） |
 | AI-Research-SKILLs | https://github.com/Orchestra-Research/AI-Research-SKILLs.git | main | `773a5294` | 已在线核对，无需更新（2026-11-15） |
 | ai-unit-tests-generator | https://github.com/gustavolopess/ai-unit-tests-generator.git | main | `064857e2` | 已在线核对，无需更新（2026-11-15） |
-| andrej-karpathy-skills | https://github.com/multica-ai/andrej-karpathy-skills.git | main | `2c606141` | 已在线核对，无需更新（2026-11-15） |
+| andrej-karpathy-skills | https://github.com/multica-ai/andrej-karpathy-skills.git | main | `2c606141` | 已在线核对并通过对象校验（2026-11-23） |
 | anthropic-skills | https://github.com/anthropics/skills.git | main | `e4bb5d96` | 已快进更新并通过对象校验（2026-11-20） |
 | archify | https://github.com/tt-a1i/archify.git | main | `a7ed6fd6` | 已快进更新并通过对象校验（2026-11-15） |
 | avoid-ai-writing | https://github.com/conorbronsdon/avoid-ai-writing.git | main | `cc1d3431` | 已快进更新并通过对象校验（2026-11-15） |
@@ -86,11 +102,11 @@
 | daizhigev20 | https://github.com/daizhige-org/daizhigev20.git | data | `012bc393` | 部分克隆资料库，保留按需下载布局（2026-11-15） |
 | DeepTutor | https://github.com/HKUDS/DeepTutor.git | main | `60fb3bdf` | 已在线核对，无需更新（2026-11-15） |
 | developer-portfolios | https://github.com/emmabostian/developer-portfolios.git | master | `d37beaff` | 已快进更新并通过对象校验（2026-11-15） |
-| ECC | https://github.com/affaan-m/ECC.git | main | `d2ef2680` | 已快进更新并通过对象校验（2026-11-15） |
+| ECC | https://github.com/affaan-m/ECC.git | main | `4adeee67` | 已快进更新并通过对象校验（2026-11-23） |
 | effective-html | https://github.com/plannotator/effective-html.git | main | `5ce160a3` | 已快进更新并通过对象校验（2026-11-15） |
 | ego-lite | https://github.com/citrolabs/ego-lite.git | main | `bacaece4` | 已快进更新并通过对象校验（2026-11-15） |
-| emilkowalski-skills | https://github.com/emilkowalski/skills.git | main | `0f2e23b3` | 已快进更新并通过对象校验（2026-11-15） |
-| freebie-radar | https://github.com/ZiChuanLan/freebie-radar.git | main | `4f89041a` | 已在线核对，无需更新（2026-11-15） |
+| emilkowalski-skills | https://github.com/emilkowalski/skills.git | main | `64eb3deb` | 已快进更新并通过对象校验（2026-11-23），对应 AI for UI 官网 |
+| freebie-radar | https://github.com/ZiChuanLan/freebie-radar.git | main | `9191745d` | 已快进更新并通过对象校验（2026-11-23） |
 | ghidra | https://github.com/NationalSecurityAgency/ghidra.git | master | `42db038f` | 已快进更新并通过对象校验（2026-11-15） |
 | Ghost-Downloader-3 | https://github.com/XiaoYouChR/Ghost-Downloader-3.git | catalog/upstream-20261027 | `d6273793` | 已快进更新并通过对象校验（2026-11-15） |
 | goose | https://github.com/aaif-goose/goose.git | main | `2365bc5e` | 已快进更新并通过对象校验（2026-11-15） |
@@ -100,11 +116,11 @@
 | Hands-On-Large-Language-Models | https://github.com/HandsOnLLM/Hands-On-Large-Language-Models.git | main | `ea339081` | 已在线核对，无需更新（2026-11-15） |
 | harness2 | https://github.com/google-research/harness2.git | main | `68688175` | 已在线核对，无需更新（2026-11-15） |
 | headroom | https://github.com/headroomlabs-ai/headroom.git | main | `5023c84e` | 已快进更新并通过对象校验（2026-11-15） |
-| Horizon | https://github.com/Thysrael/Horizon.git | main | `12d5fbde` | 已在线核对，无需更新（2026-11-15） |
+| Horizon | https://github.com/Thysrael/Horizon.git | main | `e17ea80c` | 已快进更新并通过对象校验（2026-11-23） |
 | HowToLiveBetter | https://github.com/eternity4719/HowToLiveBetter.git | main | `36c78569` | 已快进更新并通过对象校验（2026-11-15） |
 | human-writing | https://github.com/KKKKhazix/human-writing.git | main | `a4ed3735` | 已快进更新并通过对象校验（2026-11-15） |
 | Humanizer-zh | https://github.com/op7418/Humanizer-zh.git | main | `f4518a8e` | 已快进更新并通过对象校验（2026-11-15） |
-| hyperframes | https://github.com/heygen-com/hyperframes.git | main | `125a9446` | 已快进更新并通过对象校验（2026-11-15） |
+| hyperframes | https://github.com/heygen-com/hyperframes.git | main | `44c1e0c4` | 已快进更新并通过对象校验（2026-11-23） |
 | inspira-ui | https://github.com/rahulv-official/inspira-ui.git | main | `eec920b0` | 已快进更新并通过对象校验（2026-11-15） |
 | Ix | https://github.com/ix-infrastructure/Ix.git | main | `9ac330ce` | 已快进更新并通过对象校验（2026-11-15） |
 | kepano-obsidian | https://github.com/kepano/kepano-obsidian.git | main | `47369734` | 已在线核对，无需更新（2026-11-15） |
@@ -119,13 +135,13 @@
 | magenta-realtime | https://github.com/magenta/magenta-realtime.git | main | `694a545e` | 已在线核对，无需更新（2026-11-15） |
 | manim | https://github.com/3b1b/manim.git | master | `fafa083a` | 已在线核对，无需更新（2026-11-15） |
 | markdown-viewer-skills | https://github.com/markdown-viewer/skills.git | main | `2672b692` | 已快进更新并通过对象校验（2026-11-15） |
-| mattpocock-skills | https://github.com/mattpocock/skills.git | main | `5863806d` | 已快进更新并通过对象校验（2026-11-15） |
+| mattpocock-skills | https://github.com/mattpocock/skills.git | main | `abeeaf95` | 已快进更新并通过对象校验（2026-11-23） |
 | mergration | https://github.com/38tter/mergration.git | main | `0595ea02` | 已在线核对，无需更新（2026-11-15） |
 | mermaid-erd-generator | https://github.com/nharsch/mermaid-erd-generator.git | main | `cbecf0ba` | 已在线核对，无需更新（2026-11-15） |
 | minimax-skills | https://github.com/MiniMax-AI/skills.git | main | `02853d88` | 已快进更新并通过对象校验（2026-11-15） |
 | minimind | https://github.com/jingyaogong/minimind.git | master | `233d00fa` | 已在线核对，无需更新（2026-11-15） |
 | modern-web-guidance | https://github.com/GoogleChrome/modern-web-guidance.git | main | `4dd96834` | 已在线核对，无需更新（2026-11-15） |
-| modern-web-guidance-src | https://github.com/GoogleChrome/modern-web-guidance-src.git | main | `998f5114` | 已快进更新并通过对象校验（2026-11-20） |
+| modern-web-guidance-src | https://github.com/GoogleChrome/modern-web-guidance-src.git | main | `920ee542` | 已快进更新并通过对象校验（2026-11-23） |
 | multi-style-image-generator | https://github.com/powerycy/multi-style-image-generator.git | main | `059267c7` | 已快进更新并通过对象校验（2026-11-15） |
 | nanobrowser | https://github.com/nanobrowser/nanobrowser.git | master | `6c4c0802` | 已快进更新并通过对象校验（2026-11-15） |
 | nature-skills | https://github.com/Yuan1z0825/nature-skills.git | main | `7bff1d05` | 已快进更新并通过对象校验（2026-11-15） |
@@ -134,7 +150,7 @@
 | obsidian-skills | https://github.com/kepano/obsidian-skills.git | main | `39812773` | 已快进更新并通过对象校验（2026-11-15） |
 | open-code-review | https://github.com/alibaba/open-code-review.git | main | `7e5ce06c` | 已在线核对，无需更新（2026-11-15） |
 | open-design | https://github.com/nexu-io/open-design.git | main | `59e4f2ae` | 已快进更新并通过对象校验（2026-11-15） |
-| open-source-games | https://github.com/bobeff/open-source-games.git | main | `3a9ab8fc` | 已在线核对，无需更新（2026-11-15） |
+| open-source-games | https://github.com/bobeff/open-source-games.git | main | `3a9ab8fc` | 拉取确认已是最新并通过对象校验（2026-11-23） |
 | openauth | https://github.com/anomalyco/openauth.git | master | `98dc5962` | 已在线核对，无需更新（2026-11-15） |
 | OpenCLI | https://github.com/jackwener/OpenCLI.git | main | `9bc5f5ca` | 已快进更新并通过对象校验（2026-11-15） |
 | OpenShell | https://github.com/NVIDIA/OpenShell.git | main | `2e5589b2` | 已快进更新并通过对象校验（2026-11-15） |
@@ -152,7 +168,7 @@
 | public-apis | https://github.com/public-apis/public-apis.git | master | `867085cc` | 已快进更新并通过对象校验（2026-11-22） |
 | python-refactoring-skills | https://github.com/l-mb/python-refactoring-skills.git | main | `b0835710` | 已在线核对，无需更新（2026-11-15） |
 | rare-ui | https://github.com/swamimalode07/rare-ui.git | main | `6c84e89f` | 已快进更新并通过对象校验（2026-11-15） |
-| rea | https://github.com/morluto/rea.git | main | `65731d8b` | 已快进更新并通过对象校验（2026-11-15） |
+| rea | https://github.com/morluto/rea.git | main | `2e98c70c` | 已快进更新并通过对象校验（2026-11-23） |
 | reverse-skill | https://github.com/zhaoxuya520/reverse-skill.git | main | `a5171e03` | 3 个本地修改，保留原状并通过对象校验；未抓取远端（2026-11-21） |
 | SafeGuard-Code-Profiler | https://github.com/hamed-kuheil/SafeGuard-Code-Profiler.git | main | `6d759c29` | 已在线核对，无需更新（2026-11-15） |
 | scientific-agent-skills | https://github.com/K-Dense-AI/scientific-agent-skills.git | main | `1e5eeffb` | 部分克隆资料库，保留按需下载布局（2026-11-15） |
@@ -191,7 +207,7 @@
 
 | 本地目录 | 上游来源 | 分支 | HEAD | 状态 |
 |------|------|------|------|------|
-| blender-skills | https://github.com/EL4CTEO/blender-skills.git | main | `1a1cc6c4` | 已快进更新并通过对象校验（2026-11-22） |
+| blender-skills | https://github.com/EL4CTEO/blender-skills.git | main | `1a1cc6c4` | 已在线核对，无需更新并通过对象校验（2026-11-23） |
 | craft-anything | https://github.com/storytold/craft-anything.git | main | `df227090` | 已快进更新并通过对象校验（2026-11-19） |
 
 ## 2026-11-18 新增本地仓库
@@ -228,9 +244,35 @@
 |------|------|------|------|------|
 | open-webui | https://github.com/open-webui/open-webui.git | main | `0666e59d` | 已浅克隆并通过对象校验（2026-11-22） |
 | ollama | https://github.com/ollama/ollama.git | main | `2bd4d6aa` | 已浅克隆并通过对象校验（2026-11-22） |
-| Scrapling | https://github.com/D4Vinci/Scrapling.git | main | `2998c9eb` | 已浅克隆并通过对象校验（2026-11-22） |
+| Scrapling | https://github.com/D4Vinci/Scrapling.git | main | `2998c9eb` | 已在线核对，无需更新并通过对象校验（2026-11-23） |
 
 Dify 的当前源码超过新增项目上限，仅登记来源，不列入本地仓库表。见[本批台账](GITHUB_REPOS.md#2026-11-22-应用平台模型运行网页采集与游戏-skills)。
+
+## 2026-11-23 新增本地仓库
+
+| 本地目录 | 上游来源 | 分支 | HEAD | 状态 |
+|------|------|------|------|------|
+| old-coder | https://github.com/AmazingAng/old-coder.git | main | `a0eb529d` | 已浅克隆并通过对象校验（2026-11-23） |
+| openpixel | https://github.com/ma1902056219-coder/openpixel.git | main | `1c4aa923` | 已浅克隆并通过对象校验（2026-11-23） |
+| create-blender-story-video | https://github.com/yoruuuchan/create-blender-story-video.git | main | `8f934efb` | 已浅克隆并通过对象校验（2026-11-23） |
+| auto-editor | https://github.com/WyattBlue/auto-editor.git | master | `1b99b6a8` | 已浅克隆并通过对象校验（2026-11-23） |
+| arkon | https://github.com/nduckmink/arkon.git | main | `5e4069df` | 已浅克隆并通过对象校验（2026-11-23） |
+| awesome-claude-code-extensions | https://github.com/omgits0mar/awesome-claude-code-extensions.git | main | `f108d909` | 已浅克隆并通过对象校验（2026-11-23） |
+| ag-ui | https://github.com/ag-ui-protocol/ag-ui.git | main | `c31e1e81` | 已浅克隆并通过对象校验（2026-11-23） |
+| claude-trading-skills | https://github.com/tradermonty/claude-trading-skills.git | main | `906b4b84` | 已浅克隆并通过对象校验（2026-11-23） |
+| Claude-BugHunter | https://github.com/elementalsouls/Claude-BugHunter.git | main | `5601278e` | 已浅克隆并通过对象校验（2026-11-23） |
+| motion-prompt | https://github.com/showheyohtaki/motion-prompt.git | main | `683ecca0` | 已浅克隆并通过对象校验（2026-11-23） |
+| remotion-skills | https://github.com/remotion-dev/skills.git | main | `6f55706d` | 已浅克隆并通过对象校验（2026-11-23） |
+| motion-canvas | https://github.com/motion-canvas/motion-canvas.git | main | `7b91435c` | 已浅克隆并通过对象校验（2026-11-23） |
+| claude-mem | https://github.com/thedotmack/claude-mem.git | main | `29bc1cdf` | 已浅克隆并通过对象校验（2026-11-23） |
+| diagram-design | https://github.com/cathrynlavery/diagram-design.git | main | `0eeda75a` | 已浅克隆并通过对象校验（2026-11-23） |
+| opc-skills | https://github.com/ReScienceLab/opc-skills.git | main | `9cdd2e00` | 已浅克隆并通过对象校验（2026-11-23） |
+| social-media-research-skills | https://github.com/ScrapeCreators/social-media-research-skills.git | main | `64ba7b4d` | 已浅克隆并通过对象校验（2026-11-23） |
+| oil-motion | https://github.com/oil-oil/oil-motion.git | main | `07e31f22` | 已浅克隆并通过对象校验（2026-11-23） |
+| coil-reclaim-indicator | https://github.com/Allencake/coil-reclaim-indicator.git | main | `50a66116` | 已浅克隆并通过对象校验（2026-11-23） |
+| libreget | https://github.com/OpenSelena/libreget.git | main | `d12f9a8c` | 已浅克隆并通过对象校验（2026-11-23） |
+
+OpenReel Video 的当前源码超过新增项目上限，仅登记来源，不列入本地仓库表。见[本批台账](GITHUB_REPOS.md#2026-11-23-自动剪辑浏览器视频编辑与团队知识库)。
 
 ## 本聚合仓库实际保存的本地内容
 

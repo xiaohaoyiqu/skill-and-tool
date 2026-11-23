@@ -1,9 +1,100 @@
 # AI Skills 仓库索引
 
 **@author liuhao**
-**更新时间**: 2026-11-22
+**更新时间**: 2026-11-23
 
 ---
+
+## 2026-11-23 独立创业、社媒研究、动效与游戏索引
+
+| 本地仓库 | 版本与 Skill 入口 |
+|------|------|
+| opc-skills | `9cdd2e00`，[主 skills 目录有 10 个入口](../opc-skills/skills/)，另有 1 份 SEO 镜像、1 个维护入口和 1 个模板。 |
+| social-media-research-skills | `64ba7b4d`，[13 个入口](../social-media-research-skills/skills/)，含社媒和受众研究流程及 ScrapeCreators API 入口。 |
+| oil-motion | `07e31f22`，[1 个网页动效 Skill](../oil-motion/SKILL.md)。 |
+| libreget | `d12f9a8c`，[2 个项目内 Skill](../libreget/.agents/skills/)。 |
+| coil-reclaim-indicator | `50a66116`，Pine Script 指标和提示词，0 个 SKILL.md。 |
+| open-source-games | `3a9ab8fc`，拉取后确认已是最新。[游戏项目索引](../open-source-games/README.md)，0 个 SKILL.md。 |
+
+见[下载台账](GITHUB_REPOS.md#2026-11-23-独立创业社媒研究动效与游戏索引)。
+
+## 2026-11-23 Agent Skills 与工具续拉
+
+| 本地仓库 | 版本与 Skill 入口 |
+|------|------|
+| andrej-karpathy-skills | `2c606141`，在线核对已是最新，保留 [1 个 Skill](../andrej-karpathy-skills/skills/karpathy-guidelines/SKILL.md)。 |
+| mattpocock-skills | `abeeaf95`，[39 个 SKILL.md](../mattpocock-skills/skills/)。本次更新修正 software-factory 的 YAML 元数据，并增加 CI 校验。 |
+| ECC | `4adeee67`，[主 `skills/` 下 328 个入口](../ECC/skills/)。全仓 1,089 个 SKILL.md，含翻译和平台变体。 |
+| REA | `2e98c70c`，1 个用户入口和 4 个维护入口，另有 1 份 Cursor 镜像。 |
+| Claude-Mem | `29bc1cdf`，47 个 SKILL.md，包含各平台分发版本、模板和维护入口，按源码文件计数。 |
+| Diagram Design | `0eeda75a`，[1 个图表设计 Skill](../diagram-design/skills/diagram-design/SKILL.md)。 |
+
+Paperclip、PPT Master、VoiceStudio 和 God’s Eye View 超限，仅登记链接。见[下载台账](GITHUB_REPOS.md#2026-11-23-agent-skills-与工具续拉)。
+
+## 2026-11-23 网站资源与 Horizon 续拉
+
+| 来源 | 本地版本与 Skill 状态 |
+|------|------|
+| Horizon | 从 `12d5fbde` 快进 4 个提交至 `e17ea80c`，保留 [1 个正式 Skill](../Horizon/skills/horizon/SKILL.md)，用于新闻雷达配置、简报、投递及扩展。MIT，运行需另备 Python 3.11+ 与相关服务配置。 |
+| 华润赢 / POJIA CVE | 分别为 [网络应用导航网站](https://huarun.win/)和 [公开漏洞报告检索与图谱网站](https://cve.pojia.ai/)，按网页参考收录，不视为已下载或已安装 Skill。 |
+
+本批不新增正式 Skill，未安装全局 Skill/MCP、采集网站数据或启动 Horizon 服务。见[下载台账](GITHUB_REPOS.md#2026-11-23-网站资源与-horizon-续拉)及[核验 JSON](../scripts/repository-review-20261123-web-horizon.json)。
+
+## 2026-11-23 动画框架、视频 Skills 与设计参考
+
+| 项目 | 本地版本与 Skill 状态 |
+|------|------|
+| Motion Prompt | 新增 `683ecca0`，[1 个正式 Skill](../motion-prompt/skills/motion-prompt/SKILL.md)，配合 10 组、240 个动效及视觉名称样例；MIT，随源码保存。 |
+| HyperFrames | 快进至 `44c1e0c4`，[9 个主 Skill](../hyperframes/skills/)；另有 6 个项目入口各保留两份镜像、7 个 registry 入口和 1 个测试夹具，共 29 个 SKILL.md，不能全部重复计作主 Skill。Apache-2.0。 |
+| AI for UI / Emil Skills | 官网 [aiforui.dev/skills](https://aiforui.dev/skills) 指向已有 `emilkowalski/skills`，本地快进至 `64eb3deb`，[20 个 Skill](../emilkowalski-skills/skills/)，MIT。官网当前列 19 项，源码另含 write-swift 入口；按固定源码数量保存，不重复克隆。 |
+| Remotion Agent Skills | 新增 `6f55706d`，[13 个正式入口](../remotion-skills/skills/)，包括视频编写、创建、预览、渲染、字幕、地图与多媒体工作流；固定树未见明确许可证，许可未确认。仅保存源码，运行环境与 Remotion 使用条款另查。 |
+| Blender Agent Skills（EL4CTEO） | 在线核对仍为 `1a1cc6c4`，[28 个制作 Skill](../blender-skills/skills/)，MIT，无需更新。 |
+| Motion Canvas | 新增 `7b91435c`，[TypeScript 动画库与编辑器源码](../motion-canvas/README.md)，MIT，当前无 SKILL.md。 |
+| Motion / DesignBookmark Motion | Motion 源码超限仅登记，远端 2 个项目开发入口未下载；DesignBookmark Motion 为组件动效参考网页，不按已安装 Skill 计数。 |
+
+本批仅保存源码与记录，未安装全局 Skill/MCP 或渲染运行环境，不重算其他批次的历史逻辑 Skill 总数。见[下载台账](GITHUB_REPOS.md#2026-11-23-动画框架视频-skills-与设计参考)及[核验 JSON](../scripts/repository-review-20261123-motion-design.json)。
+
+## 2026-11-23 Agent 协议、交易 Skills 与安全研究
+
+| 项目 | 本地版本与 Skill 状态 |
+|------|------|
+| AG-UI | 新增 `c31e1e81`，MIT。保存 [13 个仓库维护入口](../ag-ui/.github/skills/)、[9 个 .NET 插件入口](../ag-ui/sdks/dotnet/plugins/ag-ui-dotnet/skills/)与 [1 个 A2UI 集成入口](../ag-ui/skills/ag-ui-a2ui-integration/SKILL.md)，共 23 个 SKILL.md；不将维护入口全部计作用户功能。 |
+| Claude Trading Skills | 新增 `906b4b84`，[74 个正式 Skill](../claude-trading-skills/skills/)，与 [skills-index.yaml](../claude-trading-skills/skills-index.yaml) 一致；另有 20 个示例或测试入口，不重复计数。MIT，涵盖市场复盘、组合、风险、计划与日志，数据和 API 条件按各 Skill 说明。 |
+| Modern Web Guidance 源码 | 快进至 `920ee542`，保持 [13 个维护入口](../modern-web-guidance-src/.agents/skills/)、[现代 Web 指南源入口](../modern-web-guidance-src/guides/modern-web-guidance/SKILL.md)与 [Chrome 扩展源入口](../modern-web-guidance-src/skills-src/chrome-extensions/SKILL.md)，共 15 个。代码 Apache-2.0，guides/ 文档 CC BY 4.0。 |
+| Claude-BugHunter | 新增 `5601278e`，[83 个 Skill](../Claude-BugHunter/skills/)与 [15 个命令](../Claude-BugHunter/commands/)，覆盖授权漏洞研究、验证、证据与报告。代码 MIT，Skill 与文档内容 CC BY 4.0，仅随源码保存。 |
+| Astryx / Univer | 分别为 `85efed98`、`f6eb7e18`，超限仅登记。Astryx 远端有 1 个 SKILL.md，未下载；Univer 当前树无 SKILL.md。 |
+
+本批未安装全局 Skill、MCP、运行依赖或执行交易与安全测试，不重算历史逻辑 Skill 总数。见[下载台账](GITHUB_REPOS.md#2026-11-23-agent-协议交易-skills-与安全研究)和[核验 JSON](../scripts/repository-review-20261123-agents-trading-security.json)。
+
+## 2026-11-23 资源雷达与 Claude Code 扩展目录
+
+| 项目 | 本地版本与 Skill 状态 |
+|------|------|
+| freebie-radar | 从 `4f89041a` 快进至 `9191745d`，package 1.0.0；[资源聚合与推送应用](../freebie-radar/README.md)，MIT，当前无 SKILL.md，作为工具收录。 |
+| awesome-claude-code-extensions | 新增 `f108d909`，[Claude Code/Codex 扩展目录](../awesome-claude-code-extensions/README.md)，JSON 保存 2,465 条索引；覆盖插件、Skills、MCP、Agent 等，仓库自身无 SKILL.md。原创目录内容 CC0-1.0、代码 MIT，导入资料与外链分别适用上游许可。 |
+
+本批不新增正式 Skill；目录条目不计作已下载或已安装 Skill，也未逐项拉取链接仓库。见[下载台账](GITHUB_REPOS.md#2026-11-23-资源雷达与-claude-code-扩展目录)与[核验 JSON](../scripts/repository-review-20261123-radar-extensions.json)。
+
+## 2026-11-23 自动剪辑、浏览器视频编辑与团队知识库
+
+| 项目 | 本地版本与 Skill 状态 |
+|------|------|
+| Auto-Editor | 新增 `1b99b6a8`，[5 个正式 Skill](../auto-editor/skills/)：auto-editor、auto-editor-effects、auto-editor-export、auto-editor-transcribe、auto-editor-transitions，分别覆盖剪辑、效果、编辑器导出、转写与转场。源码 Unlicense；使用需另备 CLI 与媒体运行依赖。 |
+| Arkon | 新增 `5e4069df`，[3 个正式 Skill](../arkon/skills/)：arkon-query、arkon-edit、arkon-review，分别用于知识库查询、编辑和草稿审核。PolyForm Internal Use 1.0.0；需连接已部署的 Arkon MCP 服务与相应权限，仅随源码保存。 |
+| Scrapling | 已有 `2998c9eb`，[1 个正式 Skill](../Scrapling/agent-skill/Scrapling-Skill/SKILL.md)；在线核对无需更新，BSD-3-Clause，不重复计数。 |
+| OpenReel Video | `c8f33f21`，源码超过 120 MB 上限，仅登记来源；当前完整文件树无 SKILL.md，按视频编辑应用收录。 |
+
+本批新保存 8 个正式 Skill，未安装全局 Skill/MCP 或运行依赖；不重算历史逻辑 Skill 总数。见[下载台账](GITHUB_REPOS.md#2026-11-23-自动剪辑浏览器视频编辑与团队知识库)及[核验 JSON](../scripts/repository-review-20261123-video-tools.json)。
+
+## 2026-11-23 可靠编码、像素实验与 Blender 视频制作
+
+| 项目 | 本地版本与 Skill 状态 |
+|------|------|
+| old-coder | 新增 `a0eb529d`，保存 [old-coder 可靠编码流程](../old-coder/skills/old-coder/SKILL.md)与 [old-coder-api API 设计与评审](../old-coder/skills/old-coder-api/SKILL.md)共 2 个正式入口，MIT。前者组织规格、测试与证据报告，后者补充兼容、授权、幂等、分页和限流等 API 契约检查。 |
+| Create Blender Story Video | 新增 `8f934efb`，[1 个正式 Skill](../create-blender-story-video/skills/create-blender-story-video/SKILL.md)，覆盖分镜、参考图、Blender 制作、可恢复渲染、进度监控、Resolve 剪辑和 4K 交付校验，MIT。仅随源码保存；运行工具与服务需另备。 |
+| OpenPixel · 像素万象 | 新增 `1c4aa923`，[36 个浏览器像素实验](../openpixel/works/)，各有可编辑的 `source.js`，MIT；当前无 SKILL.md，按创意编程资料收录。 |
+
+本批新增 3 个正式 Skill 文件，未安装全局 Skill、MCP 或运行依赖；不重算其他批次的历史逻辑 Skill 总数。见[下载台账](GITHUB_REPOS.md#2026-11-23-可靠编码像素实验与-blender-视频制作)和[核验 JSON](../scripts/repository-review-20261123.json)。
 
 ## 2026-11-22 应用平台、模型运行、网页采集与游戏 Skills
 

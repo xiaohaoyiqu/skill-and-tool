@@ -1,12 +1,152 @@
 # GitHub 仓库下载与配置台账
 
-**最后整理**: 2026-11-22
+**最后整理**: 2026-11-23
 **目录**: E:\aimodel
 **定位**: GitHub 下载与配置历史台账；当前 skill 更新状态以 [SKILLS_INDEX.md](SKILLS_INDEX.md) 为准
 **状态**: 只记录克隆和配置，不自动安装依赖、不写入全局 Codex skills
 **Star 手动清单**: [GITHUB_STAR_LIST.md](GITHUB_STAR_LIST.md)
 
 ---
+
+## 2026-11-23 独立创业、社媒研究、动效与游戏索引
+
+| 来源 | 本次结果 | 含 Git 大小 |
+|------|------|------|
+| [OPC Skills](https://github.com/ReScienceLab/opc-skills) | 新增浅克隆 `opc-skills/`，`main@9cdd2e00`。独立创业相关 Skills，涵盖域名、品牌素材、上线和渠道研究，Apache-2.0。 | 31.24 MB |
+| [Social Media Research Skills](https://github.com/ScrapeCreators/social-media-research-skills) | 新增浅克隆 `social-media-research-skills/`，`main@64ba7b4d`。社媒内容、评论、受众及竞品研究，MIT。数据获取使用 ScrapeCreators API。 | 0.13 MB |
+| [oil-motion](https://github.com/oil-oil/oil-motion) | 新增浅克隆 `oil-motion/`，`main@07e31f22`。面向滚动和鼠标交互的网页动效 Skill，MIT。 | 6.48 MB |
+| [coil-reclaim-indicator](https://github.com/Allencake/coil-reclaim-indicator) | 新增浅克隆 `coil-reclaim-indicator/`，`main@50a66116`。TradingView Pine Script v5 回踩确认指标及 Grok 提示词，MIT。 | 0.11 MB |
+| [LibreGet](https://github.com/OpenSelena/libreget) | 新增浅克隆 `libreget/`，`main@d12f9a8c`。基于 Tauri、Rust 和 Svelte 的下载管理器，GPL-3.0。 | 87.05 MB |
+| [open-source-games](https://github.com/bobeff/open-source-games) | 已有本地副本，直接拉取后确认 `main@3a9ab8fc` 最新。目录收录开源游戏和重制项目，索引为 CC0-1.0，各游戏按各自来源许可。 | 0.09 MB |
+
+五个新增浅克隆均低于 120 MB。六个本地仓库与核验的上游提交一致，工作树干净，都通过 Git 对象校验。分享清单增加五个来源，现共 188 个。见[核验 JSON](../scripts/repository-review-20261123-skills-games.json)。
+
+## 2026-11-23 Agent Skills 与工具续拉
+
+| 来源 | 本次结果 | 大小 |
+|------|------|------|
+| [andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) | 已有记录和本地副本，在线核对 `main@2c606141` 已是最新 | 0.09 MB，含 Git |
+| [Matt Pocock Skills](https://github.com/mattpocock/skills) | 已有仓库快进 4 个提交，`5863806d` → `abeeaf95` | 3.76 MB，含 Git |
+| [ECC](https://github.com/affaan-m/ECC) | 已有仓库快进 847 个提交，`d2ef2680` → `4adeee67` | 128.97 MB，含 Git |
+| [REA](https://github.com/morluto/rea) | 已有仓库快进 2,215 个提交，`65731d8b` → `2e98c70c` | 215.94 MB，含 Git |
+| [Claude-Mem](https://github.com/thedotmack/claude-mem) | Apache-2.0，新增源码浅克隆 `claude-mem/`，`main@29bc1cdf` | 102.11 MB，含 Git |
+| [Diagram Design](https://github.com/cathrynlavery/diagram-design) | MIT，新增源码浅克隆 `diagram-design/`，`main@0eeda75a` | 57.71 MB，含 Git |
+| [Paperclip](https://github.com/paperclipai/paperclip) | MIT，Agent 团队管理，`master@cb4129a9`，超限仅登记 | 255.00 MB，仅源码 |
+| [PPT Master](https://github.com/hugohe3/ppt-master) | MIT，生成原生 PowerPoint，`main@63a03673`，超限仅登记 | 131.12 MB，源码加浅克隆 Git |
+| [VoiceStudio](https://github.com/debpalash/VoiceStudio) | AGPL-3.0，本地语音制作，`main@1214e264`，超限仅登记 | 150.70 MB，源码加浅克隆 Git |
+| [God’s Eye View](https://github.com/bilawalsidhu/gods-eye-view) | 三维地球和地理数据可视化，`main@e51853de`，超限仅登记。代码 MIT，第三方数据适用各自条款 | 121.12 MB，仅源码 |
+
+四个已有来源此前均已登记。ECC 和 REA 沿用已有仓库可超限更新的规则。新仓库仍按源码加 Git 合计低于 120 MB 核算，PPT Master 与 VoiceStudio 的临时浅克隆已清理。六个本地仓库均与本次核对的上游版本一致，工作树干净并通过 Git 对象校验。REA 的五个第三方子模块仍未初始化。
+
+Markdown 和 HTML 分享清单增加六个来源，现共 183 个。详见[已有仓库同步记录](../scripts/repository-sync-20261123-existing-skills.json)和[新增来源核验记录](../scripts/repository-review-20261123-more-tools.json)。
+
+## 2026-11-23 网站资源与 Horizon 续拉
+
+| 来源 | 本次处理 | 用途与边界 |
+|------|------|------|
+| [华润赢](https://huarun.win/) | 网站资源，已核对首页可访问；仅登记链接与用途 | 代理客户端、服务端、订阅、规则配置及辅助工具导航，支持按平台、内核和代码公开情况等筛选。网站与外链应用分别适用各自条款；本次未下载客户端、订阅或站点镜像。 |
+| [POJIA CVE](https://cve.pojia.ai/) | 网站资源，已核对首页与 [About](https://cve.pojia.ai/about) 可访问；仅登记链接与用途 | 公开漏洞披露报告的检索与知识图谱，可按漏洞类别、弱点、项目与 CVE 浏览，保留原报告链接。部分注释由 AI 生成，报告权利按作者及原来源说明；本次未采集报告或配置 API/MCP。 |
+| [Horizon](https://github.com/Thysrael/Horizon) | 已有源码快进，main `12d5fbde` → `e17ea80c`，4 个提交；含 Git **15.76 MB（15,761,643 字节）** | 个人新闻雷达与简报工具，聚合、评分去重并生成中英双语简报，提供 CLI、MCP 与投递扩展。MIT，保留 `skills/horizon/SKILL.md` 1 个正式入口；运行需另备 Python 3.11+、依赖与相应服务配置。 |
+
+两个网站按用户明确说明收录为网页参考，不作为 Git 仓库或已安装 Skill 计数；未从页面下载外链项目、应用、订阅或报告，未进行账号登录、代理设置、安全测试或 AI 服务连接。页面可访问的结论只对应本次只读核对；未据此为网站整体内容指定统一开源许可证。
+
+Horizon 沿用已有干净仓库只允许 fast-forward 的规则。固定提交完整 API 树未截断，Git 源码为 **8,690,411 字节**；保留既有换行设置后按实际检出与 Git 文件长度核算大小，低于 120 MB。HEAD 与本次抓取的默认分支固定提交一致，Git 树与预检树相符，工作树干净，通过 `git fsck --no-reflogs`。本次同步包括并发提取、Webhook 预览 URL 敏感字段处理、异常 Cookie 文件跳过与平台路径断言修复，未运行应用或测试上游服务。
+
+分享清单由 175 增至 **177 个不同来源**，两个网站为新增来源，Horizon 已有来源不重复计算。已同步版本表、Skill 索引与 Markdown/HTML 分享清单；仅保存源码及记录，未安装依赖、全局 Skill/MCP 或启动推送。见[核验 JSON](../scripts/repository-review-20261123-web-horizon.json)、[下载前 API 汇总](../scripts/repository-api-20261123-web-horizon.json)及[固定提交文件树](../scripts/repository-tree-20261123-web-horizon-Horizon.json)。
+
+## 2026-11-23 动画框架、视频 Skills 与设计参考
+
+| 请求来源 | 本次处理与版本 | 大小（十进制） | 用途与许可 |
+|------|------|------|------|
+| [Motion Prompt](https://github.com/showheyohtaki/motion-prompt) | 新增源码浅克隆 `motion-prompt/`，main `683ecca0` | 74.58 MB（74,577,052 字节），含 Git | 动效、镜头、界面、摄影、艺术风格与图表的术语及提示词参考，包含 10 组、240 个名称与可视化样例，附 1 个 motion-prompt Skill。MIT；Skill 运行需 Node.js 18+。 |
+| [HyperFrames](https://github.com/heygen-com/hyperframes) | 已有仓库快进，main `125a9446` → `44c1e0c4`，637 个提交 | 683.29 MB（683,294,743 字节），含 Git | 用 HTML/CSS 与媒体素材创建、编辑和复刻视频，提供 Studio、CLI 与 9 个主 Skill；Apache-2.0。已有项目按超限更新授权同步，未安装运行依赖或生成视频。 |
+| [AI for UI Skills](https://aiforui.dev/skills) | 关联并更新已有 `emilkowalski-skills/`，main `0f2e23b3` → `64eb3deb`，1 个提交 | 0.75 MB（749,114 字节），含 Git | 官网指向 [emilkowalski/skills](https://github.com/emilkowalski/skills)，提供界面设计、动效、手势、性能与审查方法；MIT。固定源码含 20 个 Skill，官网当前展示 19 项；以源码保存数量为准，不重复创建仓库。 |
+| [DesignBookmark Motion](https://designbookmark.com/motion) | 网页参考，仅登记链接与用途 | 网页资源，不按仓库大小核算 | 可交互的按钮、输入、导航、卡片与 AI 界面动效参考，提供面向 Claude/Codex 的复制入口及部分组件源码入口。本次按网站及各组件来源条款记录，未作为独立源码仓库或全局 Skill 下载。 |
+| [Remotion Agent Skills](https://github.com/remotion-dev/skills) | 新增源码浅克隆 `remotion-skills/`，main `6f55706d` | 1.14 MB（1,144,103 字节），含 Git | 保存 13 个 Remotion 项目创建、React 视频编写、预览、渲染、字幕、地图与多媒体等 Skill。固定提交未见 LICENSE 或明确许可声明，许可未确认；Remotion 运行框架及服务的条款需另查。 |
+| [Blender Agent Skills（EL4CTEO）](https://github.com/EL4CTEO/blender-skills) | 已有仓库在线核对，无需更新，main `1a1cc6c4` | 13.02 MB（13,016,637 字节），含 Git | 28 个 Blender 制作 Skill，MIT；保持既有完整源码，未安装 Blender 或运行制作流程。 |
+| [Motion](https://github.com/motiondivision/motion) | 源码超限，仅登记，main `1b374802` | 291.94 MB（291,943,095 字节），仅源码 | React/JavaScript 动画库，MIT。当前源码已超过新增项目的 120 MB 上限，未下载 Git；远端 2 个 SKILL.md 位于项目开发目录，不计作本地已保存 Skill。 |
+| [Motion Canvas](https://github.com/motion-canvas/motion-canvas) | 新增源码浅克隆 `motion-canvas/`，main `7b91435c` | 5.68 MB（5,681,812 字节），含 Git | 以 TypeScript 生成器编排动画并提供实时预览编辑器，适合解说矢量动画与旁白同步；MIT，当前无 SKILL.md，作为动画开发工具收录。 |
+
+输入为 6 个 GitHub 链接和 2 个网站。AI for UI 的页面安装命令及 GitHub 链接确认其源码是已有 `emilkowalski/skills`，因此本批实际核对 7 个 Git 仓库；其官网作为关联页面记录，不重复增加来源数。DesignBookmark Motion 按网页参考收录，本次页面未提供可核实的独立源码仓库地址，未镜像站点或批量复制组件。
+
+新增项目沿用完整当前源码与 `.git` 文件长度合计严格小于 **120,000,000 字节**的规则；三个新浅克隆均低于上限，未删资源或使用稀疏检出。Motion 库仅源码已超限，未下载 Git。HyperFrames 当前源码为 **329,623,376 字节**，按已有项目超限更新授权同步，最终大小包括既有与新增 Git 对象；这不放宽新项目的下载上限。
+
+六个保留的本地仓库均工作树干净，HEAD 与本次抓取的默认分支固定提交一致，Git 树与完整预检树相符，均通过 `git fsck --no-reflogs`。HyperFrames 保留 224 个 Git LFS 指针，本轮未获取对应大文件实体；已有仓库的换行设置保留，内容经换行归一后与 Git blob 相符。Blender 校验含一条 dangling tag 提示，退出码为 0。motion-prompt 初次 TLS 连接中断后已重试成功，最终状态以本批核验 JSON 为准。
+
+Skill 数量按用途区分：Motion Prompt 为 1 个入口，Remotion Skills 为 13 个，Blender 为 28 个，Emil 源码为 20 个。HyperFrames 共 29 个 SKILL.md：9 个主入口、6 个项目动效入口分别镜像在 `.agents/` 与 `.claude/` 共 12 份、7 个 registry 组件入口、1 个测试夹具；镜像和夹具不重复计作主 Skill。Motion Canvas 当前无 SKILL.md。
+
+Motion Prompt、Blender、Motion Canvas、Emil 和 Motion 的相应仓库许可为 MIT，HyperFrames 为 Apache-2.0；Remotion Skills 的固定树未找到明确许可证，不能从其他 Remotion 仓库推定其条款。DesignBookmark 的网页及外链组件分别适用各自条件，见[网站条款](https://designbookmark.com/terms)。本批只保存源码与记录，未安装依赖、浏览器、全局 Skill/MCP，未执行 npx 安装、视频渲染或服务启动。
+
+分享清单由 170 增至 **175 个不同来源**：新增 Motion Prompt、Remotion Skills、Motion、Motion Canvas 与 DesignBookmark Motion；HyperFrames、Blender 和 AI for UI 对应的 Emil 项目是已有来源。见[核验 JSON](../scripts/repository-review-20261123-motion-design.json)、[下载前 API 汇总](../scripts/repository-api-20261123-motion-design.json)及同目录 `repository-tree-20261123-motion-design-*.json` 完整树记录。
+
+## 2026-11-23 Agent 协议、交易 Skills 与安全研究
+
+| 项目 | 本次处理与版本 | 大小（十进制） | 用途与许可 |
+|------|------|------|------|
+| [AG-UI](https://github.com/ag-ui-protocol/ag-ui) | 新增源码浅克隆 `ag-ui/`，main `c31e1e81` | 101.72 MB（101,717,171 字节），含 Git | 连接 Agent 与用户应用的事件协议、SDK 和示例，覆盖流式消息、工具调用、共享状态与人工参与。MIT。保存 23 个 SKILL.md，其中 13 个仓库维护、9 个 .NET 插件及 1 个 A2UI 集成入口。 |
+| [Claude Trading Skills](https://github.com/tradermonty/claude-trading-skills) | 新增源码浅克隆 `claude-trading-skills/`，main `906b4b84` | 55.01 MB（55,008,222 字节），含 Git | 市场复盘、组合审查、风险管理、交易计划与日志工作流，MIT。正式索引与 `skills/` 对应 74 个 Skill，另有 20 个示例或测试入口；部分流程需行情数据或相应 API，本次未分析行情或连接交易服务。 |
+| [Modern Web Guidance 源码](https://github.com/GoogleChrome/modern-web-guidance-src) | 已有仓库快进更新，main `998f5114` → `920ee542`，9 个提交 | 181.74 MB（181,739,938 字节），含 Git | 现代 Web 指南编写、构建、校准与评测源码，保存 13 个维护 Skill 和 2 个分发源入口。代码 Apache-2.0，`guides/` 文档 CC BY 4.0；已有项目按超限更新授权同步，未重新构建或安装依赖。 |
+| [Astryx](https://github.com/meta/astryx) | 继续仅登记，main `85efed98` | 401.14 MB（401,143,340 字节），仅源码 | Meta 的可定制设计系统，包含组件、主题与 Agent Skill，MIT。源码已超过新增项目上限，未下载 Git；远端有 1 个 SKILL.md，未作为本地 Skill 计数。 |
+| [Univer](https://github.com/dream-num/univer) | 继续仅登记，dev `f6eb7e18` | 148.26 MB（148,260,151 字节），检出前核算含 Git | 可嵌入应用的电子表格、文档与办公 SDK，开源仓库 Apache-2.0，服务端与部分扩展分别适用其他许可。源码 105,219,555 字节，加浅克隆 Git 43,040,596 字节后超限，未检出，临时副本已清理。 |
+| [Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter) | 新增源码浅克隆 `Claude-BugHunter/`，main `5601278e` | 6.57 MB（6,574,140 字节），含 Git | 用于授权漏洞研究、外部安全测试、证据整理与报告的 Skill 集合，保存 83 个 Skill、15 个命令及工具源码。代码 MIT，Skill 方法、词表与文档 CC BY 4.0；上游引用与安装配方保留原来源许可。 |
+
+新增项目沿用完整当前源码与 `.git` 文件长度合计严格小于 **120,000,000 字节**的规则；已有干净仓库允许超限快进更新，因此 Modern Web Guidance 源码本次继续同步，不据此放宽 Astryx 与 Univer 的新增下载限制。六个固定提交的完整 API 树均未截断；未删资源或使用稀疏检出来规避限额。Astryx 未下载 Git，Univer 只完成未检出浅克隆的大小核算，超限后删除临时副本。
+
+AG-UI 初次检出因 Windows 长路径处理缺失部分 .NET 测试基线文件；在该仓库本地启用 `core.longpaths=true` 后重新完整检出，未修改全局设置。四个保留的本地仓库均为完整当前工作树，HEAD 与本次抓取的默认分支固定提交一致，Git 树与预检树相符，工作树干净，均通过 `git fsck --no-reflogs`。AG-UI 保留 38 个 Git LFS 指针，未获取其对应大文件实体。下载前后大小按文件长度计，不等同于网络流量、磁盘分配量或 LFS 实体大小。
+
+Skill 数量按角色记录：AG-UI 的 13 个维护入口与 10 个 SDK/集成入口分开；交易仓库共 94 个 SKILL.md，其中 `skills/` 的 74 个与 `skills-index.yaml` 一致，`examples/` 的 20 个不计作额外正式交易 Skill。BugHunter 的 83 个入口均位于 `skills/`，Modern Web Guidance 的 15 个入口包含 13 个维护与 2 个分发源。仅登记的 Astryx 入口未下载，Univer 当前文件树无 SKILL.md。
+
+BugHunter 的许可范围已按 `LICENSE`、`LICENSE-CONTENT` 和 `NOTICE` 核对，不能将全部 Skill 正文一概记为 MIT。交易仓库的说明与示例作为学习和流程研究资料收录，本机未复现回测、收益或交易执行。仅保存源码与记录，未安装依赖、模型、全局 Skill/MCP，未运行安装器、交易服务、安全扫描或应用服务。
+
+分享清单由 167 增至 **170 个不同来源**，新增 AG-UI、Claude Trading Skills 与 Claude-BugHunter；Modern Web Guidance、Astryx 与 Univer 已有来源不重复计算。见[核验 JSON](../scripts/repository-review-20261123-agents-trading-security.json)、[下载前 API 汇总](../scripts/repository-api-20261123-agents-trading-security.json)及同目录 `repository-tree-20261123-agents-trading-security-*.json` 完整树记录。
+
+## 2026-11-23 资源雷达与 Claude Code 扩展目录
+
+| 项目 | 本次处理与版本 | 大小（十进制） | 用途与许可 |
+|------|------|------|------|
+| [freebie-radar](https://github.com/ZiChuanLan/freebie-radar) | 已有 `freebie-radar/` 快进更新，main `4f89041a` → `9191745d`，31 个提交 | 5.00 MB（4,996,685 字节），含 Git | 自托管资源聚合、AI 筛选与多路由推送工作台，当前 package 1.0.0；本次同步分类与频道、公开站配置、界面性能及保存行为等改进。MIT，无 SKILL.md；package 要求 Node.js >=22.5，AI 与消息推送需另备相应服务。 |
+| [Awesome Claude Code & Codex Extensions](https://github.com/omgits0mar/awesome-claude-code-extensions) | 新增源码浅克隆 `awesome-claude-code-extensions/`，main `f108d909` | 7.99 MB（7,987,165 字节），含 Git | Claude Code/Codex 扩展资料导航，保存可检索静态站、Markdown/JSON/CSV 目录和来源快照。当前 JSON 含 2,465 条记录，目录统计 2,382 个 GitHub 仓库；覆盖插件、Skills、MCP、Agent、命令及工具。原创目录结构、注释与正文 CC0-1.0，代码 MIT，导入资料保留上游条款。 |
+
+本批沿用新增项目完整当前源码与 `.git` 文件长度合计严格小于 **120,000,000 字节**的规则，已有仓库允许超限快进更新；两个仓库均低于上限，无需大小例外。固定提交的完整 API 树均未截断，Git 源码分别为 **2,977,583、6,888,792 字节**。freebie-radar 保留已有换行设置，146 个文件按 CRLF 检出，实际工作树为 **3,017,203 字节**；含 Git 大小按实际文件长度计，内容经换行归一后与固定 Git blob 一致。
+
+两个仓库的 HEAD 与本次抓取的默认分支固定提交一致，Git 树与预检树相符，工作树干净，均通过 `git fsck --no-reflogs`。二者当前文件树均无 SKILL.md；扩展目录中的条目是发现与检索资料，不代表已逐项下载或安装其链接项目，也不作为本地正式 Skill 计数。
+
+扩展目录的许可范围已对照 `LICENSE`、`LICENSE-CODE`、`NOTICE.md` 和 `THIRD_PARTY_NOTICES.md` 核实，原创目录内容的 CC0 不覆盖导入快照、上游派生描述与外链项目。重建目录需 Python 3.10+ 标准库；静态浏览与重新采集上游是不同操作，本次未重建或刷新其来源快照。
+
+本批仅保存源码与记录，未安装依赖、全局 Skill/MCP，未启动采集、推送或网站服务。分享清单由 166 增至 **167 个不同来源**，freebie-radar 为已有来源，不重复计算。见[核验 JSON](../scripts/repository-review-20261123-radar-extensions.json)、[下载前 API 汇总](../scripts/repository-api-20261123-radar-extensions.json)及同目录 `repository-tree-20261123-radar-extensions-*.json` 完整树记录。
+
+## 2026-11-23 自动剪辑、浏览器视频编辑与团队知识库
+
+| 项目 | 本次处理与版本 | 大小（十进制） | 用途与许可 |
+|------|------|------|------|
+| [Auto-Editor](https://github.com/WyattBlue/auto-editor) | 新增源码浅克隆 `auto-editor/`，master `1b99b6a8` | 49.02 MB（49,015,423 字节），含 Git | 按音量、运动等条件自动剪辑音视频、去除静音或静止片段，并导出到 Premiere、Resolve 等编辑器。附剪辑、效果、导出、转写与转场 5 个 Skill。仓库源码 Unlicense，发布二进制与独立应用另有许可；当前主线使用 Nim，构建需 Nim 2.2.2+ 与媒体依赖。 |
+| [OpenReel Video](https://github.com/Augani/openreel-video) | 超限仅登记，main `c8f33f21` | 179.76 MB（179,761,841 字节），仅源码 | 浏览器视频编辑器，涉及多轨时间线、关键帧、调色、音频效果与 WebCodecs/WebGPU 导出；MIT。当前文件树无 SKILL.md，本机未克隆、构建或运行。 |
+| [Arkon](https://github.com/nduckmink/arkon) | 新增源码浅克隆 `arkon/`，main `5e4069df` | 17.35 MB（17,350,688 字节），含 Git | 团队知识库与 MCP 服务，将组织文档整理为可溯源 Wiki，提供搜索、部门权限、审核与 Skill 分发；附查询、编辑、审核 3 个 Skill。采用 PolyForm Internal Use 1.0.0，允许内部业务使用，限制分发与对外提供服务；实际运行需另备 Docker/Compose 和模型 API。 |
+| [Scrapling](https://github.com/D4Vinci/Scrapling) | 已有仓库在线核对，无需更新，main `2998c9eb` | 15.03 MB（15,029,550 字节），含 Git | Python 网页采集框架，提供 HTTP/浏览器采集、解析、并发爬取、MCP 和 1 个正式 Skill。BSD-3-Clause，Python 3.10+；未重复克隆或重复计算来源。 |
+
+输入 5 个链接，auto-editor 重复一次，实际处理 **4 个不同仓库**。新增项目沿用完整当前源码与 `.git` 文件长度合计严格小于 **120,000,000 字节**的规则；已有仓库允许超限更新，但本批无需大小例外。四个固定提交的完整 API 树均未截断；auto-editor 和 Arkon 源码分别为 **36,679,468、9,776,944 字节**，与浅克隆 Git 合计均低于上限。OpenReel Video 仅源码已超限，未建立本地目录，未下载 Git 或以稀疏检出裁剪资源。
+
+三个本地仓库的 HEAD 与本次抓取的默认分支固定提交一致，工作树干净，均通过 `git fsck --no-reflogs`，Git 树与预检树相符。Scrapling 的源码与提交未变化，`.git` 大小随本次远端核对略增。Arkon 树中含 `.claude/worktrees/practical-margulis-63f2c1` 一个 Git 子模块条目，未初始化，其实体不计入本次大小。新保存 **8 个正式 Skill**；Scrapling 的 1 个为已有入口。
+
+Auto-Editor 的 Unlicense 仅按本仓库范围记录，不能据此推定其独立应用或发布二进制许可。Arkon 的许可见[固定提交 LICENSE](https://github.com/nduckmink/arkon/blob/5e4069df67b80b3ebcea1a4e841196b6f263d28e/LICENSE)，不登记为 MIT 或无使用限制的开源项目。OpenReel Video 的 MIT 见[固定提交 LICENSE](https://github.com/Augani/openreel-video/blob/c8f33f212c8d39ff9cfabb3302a44423d8dad83d/LICENSE)。
+
+本批仅保存源码与记录，未安装依赖、模型、全局 Skill/MCP 或子模块，未启动服务、剪辑媒体或复现上游功能。分享清单由 163 增至 **166 个不同来源**。见[核验 JSON](../scripts/repository-review-20261123-video-tools.json)、[下载前 API 汇总](../scripts/repository-api-20261123-video-tools.json)及同目录 `repository-tree-20261123-video-tools-*.json` 完整树记录。
+
+## 2026-11-23 可靠编码、像素实验与 Blender 视频制作
+
+| 项目 | 本次处理与版本 | 大小（十进制） | 用途与许可 |
+|------|------|------|------|
+| [old-coder](https://github.com/AmazingAng/old-coder) | 新增源码浅克隆 `old-coder/`，main `a0eb529d` | 8.28 MB（8,277,400 字节），含 Git | 让编码 Agent 先给出规格与测试计划，再通过测试、变异测试、属性测试等检查提交证据报告；另附 HTTP/JSON API 设计与评审 Skill。共 2 个正式 Skill，MIT。 |
+| [OpenPixel · 像素万象](https://github.com/ma1902056219-coder/openpixel) | 新增源码浅克隆 `openpixel/`，main `1c4aa923` | 43.12 MB（43,115,082 字节），含 Git | 36 个可独立运行、修改的 HTML/JavaScript/Canvas 像素实验，附中英日韩说明；浏览器本地绘制，无需构建或 AI 接口。MIT；当前无 SKILL.md，作为创意编程源码收录。 |
+| [Create Blender Story Video](https://github.com/yoruuuchan/create-blender-story-video) | 新增源码浅克隆 `create-blender-story-video/`，main `8f934efb` | 0.26 MB（263,607 字节），含 Git | 从创意、分镜、参考图到 Blender 场景、可恢复渲染、只读进度页、DaVinci Resolve 剪辑与 4K 媒体校验的工作流。1 个正式 Skill，MIT；实际制作需另备 Blender、Resolve、FFmpeg 及所用 MCP/API。 |
+
+沿用新增项目完整当前源码与 `.git` 文件长度合计严格小于 **120,000,000 字节**的规则。三个固定提交的完整 API 树均未截断，源码分别为 **4,201,948、23,175,299、173,104 字节**；浅克隆前后均核算大小，无需大小例外，未裁剪资源或使用稀疏检出。
+
+三个仓库的 HEAD 与本次抓取的默认分支固定提交一致，Git 树对象与预检树一致，工作树干净，均通过 `git fsck --no-reflogs`。根目录 LICENSE 均已核实为 MIT，并保存 SHA-256。old-coder 的正式入口为 `skills/old-coder/SKILL.md` 和 `skills/old-coder-api/SKILL.md`；视频制作入口为 `skills/create-blender-story-video/SKILL.md`。OpenPixel 保存 36 组作品入口与 `source.js`，不计作正式 Skill。
+
+本批仅保存源码与记录，未安装依赖、模型、Blender、Resolve 或全局 Skill/MCP，未启动服务、渲染或运行上游示例。OpenPixel 可从本地 `openpixel/index.html` 或单个作品入口打开；视频制作的媒体规格与可恢复流程是上游工作流约定，本机未复现成片。
+
+分享清单由 160 增至 **163 个不同来源**。见[核验 JSON](../scripts/repository-review-20261123.json)、[下载前 API 汇总](../scripts/repository-api-20261123.json)及同目录 `repository-tree-20261123-*.json` 完整树记录。
 
 ## 2026-11-22 应用平台、模型运行、网页采集与游戏 Skills
 

@@ -1,0 +1,442 @@
+{
+  "sha": "ad86a1c8afedd72f4288cd7b782866e1a68983a9",
+  "url": "https://api.github.com/repos/emilkowalski/skills/git/trees/ad86a1c8afedd72f4288cd7b782866e1a68983a9",
+  "tree": [
+    {
+      "path": ".gitattributes",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0652a605e6b418261a2b4fb1ad82576be0c3b53",
+      "size": 68,
+      "url": "https://api.github.com/repos/emilkowalski/skills/git/blobs/a0652a605e6b418261a2b4fb1ad82576be0c3b53"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e43b0f988953ae3a84b00331d0ccf5f7d51cb3cf",
+      "size": 10,
+      "url": "https://api.github.com/repos/emilkowalski/skills/git/blobs/e43b0f988953ae3a84b00331d0ccf5f7d51cb3cf"
+    },
+    {
+      "path": ".pl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/emilkowalski/skills/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57b46f1fd11dc62351ea548104a88aa3f659c11b",
+      "size": 1070,
+      "url": "https://api.github.com/repos/emilkowalski/skills/git/blobs/57b46f1fd11dc62351ea548104a88aa3f659c11b"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97b93db915c578349e8df2b6d6d4353d558fac5f",
+      "size": 5859,
+      "url": "https://api.github.com/repos/emilkowalski/skills/git/blobs/97b93db915c578349e8df2b6d6d4353d558fac5f"
+    },
+    {
+      "path": "performance-cheatsheet.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "15f73d24a3b0e8a44d96d16d996719565b3ab7d5",
+      "size": 932,
+      "url": "https://api.github.com/repos/emilkowalski/skills/git/blobs/15f73d24a3b0e8a44d96d16d996719565b3ab7d5"
+    },
+    {
+      "path": "skills",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "de214b1e273dc788f8c63362abadf4e1b857e56e",
+      "url": "https://api.github.com/repos/emilkowalski/skills/git/trees/de214b1e273dc788f8c63362abadf4e1b857e56e"
+    },
+    {
+      "path": "skills/animate-expo",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d8aad567cb34790db6f32b47f0862797c58574b6",
+      "url": "https://api.github.com/repos/emilkowalski/skills/git/trees/d8aad567cb34790db6f32b47f0862797c58574b6"
+    },
+    {
+      "path": "skills/animate-expo/RECIPES.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f702a71a9c531187ae98fc03ae4c47b4048daa2",
+      "size": 16954,
+      "url": "https://api.github.com/repos/emilkowalski/skills/git/blobs/5f702a71a9c531187ae98fc03ae4c47b4048daa2"
+    },
+    {
+      "path": "skills/animate-expo/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ab54f8a9edda2cf679fc830ab7fab874320fc00",
+      "size": 18046,
+      "url": "https://api.github.com/repos/emilkowalski/skills/git/blobs/2ab54f8a9edda2cf679fc830ab7fab874320fc00"
+    },
+    {
+      "path": "skills/animate",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6a0393c04fe65ec31746b67956c5d7775a8b9dec",
+      "url": "https://api.github.com/repos/emilkowalski/skills/git/trees/6a0393c04fe65ec31746b67956c5d7775a8b9dec"
+    },
+    {
+      "path": "skills/animate/RECIPES.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20bc376c15b16541b1e45c94b60b23d73ab59656",
+      "size": 8060,
+      "url": "https://api.github.com/repos/emilkowalski/skills/git/blobs/20bc376c15b16541b1e45c94b60b23d73ab59656"
+    },
+    {
+      "path": "skills/animate/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69338805e0ea1c77d6f4c1987d516f46b1657819",
+      "size": 12122,
+      "url": "https://api.github.com/repos/emilkowalski/skills/git/blobs/69338805e0ea1c77d6f4c1987d516f46b1657819"
+    },
+    {
+      "path": "skills/animation-performance",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "70a3674a7db0ef9a27fc5e4eb2f9afc70ad2f0d8",
+      "url": "https://api.github.com/repos/emilkowalski/skills/git/trees/70a3674a7db0ef9a27fc5e4eb2f9afc70ad2f0d8"
+    },
+    {
+      "path": "skills/animation-performance/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7dd441dde8d597c877e851ed9f9601249351591",
+      "size": 14002,
+      "url": "https://api.github.com/repos/emilkowalski/skills/git/blobs/c7dd441dde8d597c877e851ed9f9601249351591"
+    },
+    {
+      "path": "skills/animation-vocabulary",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5b8f08921a61e64893d5d4572752b3362cb8a24d",
+      "url": "https://api.github.com/repos/emilkowalski/skills/git/trees/5b8f08921a61e64893d5d4572752b3362cb8a24d"
+    },
+    {
+      "path": "skills/animation-vocabulary/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e976138ced9ba6e9ecc3d65236c9ec24b753d9c0",
+      "size": 13363,
+      "url": "https://api.github.com/repos/emilkowalski/skills/git/blobs/e976138ced9ba6e9ecc3d65236c9ec24b753d9c0"
+    },
+    {
+      "path": "skills/apple-design",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9bfcd2e17dbac4b390ab231bbf9bd3f3734b21ff",
+      "url": "https://api.github.com/repos/emilkowalski/skills/git/trees/9bfcd2e17dbac4b390ab231bbf9bd3f3734b21ff"
+    },
+    {
+      "path": "skills/apple-design/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97ec82d4ef630ff7f6f2fd283dc04702a63fcea4",
+      "size": 22852,
+      "url": "https://api.github.com/repos/emilkowalski/skills/git/blobs/97ec82d4ef630ff7f6f2fd283dc04702a63fcea4"
+    },
+    {
+      "path": "skills/ask-emil",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7da3d47af274c796c2f9f599db70619e1a3a734f",
+      "url": "https://api.github.com/repos/emilkowalski/skills/git/trees/7da3d47af274c796c2f9f599db70619e1a3a734f"
+    },
+    {
+      "path": "skills/ask-emil/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2fe1a76a2e06e05dc12381e2d4ad6d740749e99f",
+      "size": 4948,
+      "url": "https://api.github.com/repos/emilkowalski/skills/git/blobs/2fe1a76a2e06e05dc12381e2d4ad6d740749e99f"
+    },
+    {
+      "path": "skills/ask-sonner",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4c2100bb05d30b4e3a889edf25bfbeb27c3f1447",
+      "url": "https://api.github.com/repos/emilkowalski/skills/git/trees/4c2100bb05d30b4e3a889edf25bfbeb27c3f1447"
+    },
+    {
+      "path": "skills/ask-sonner/API.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74c883d5ffbe43cb6f6044c396e4a303c2917a54",
+      "size": 4663,
+      "url": "https://api.github.com/repos/emilkowalski/skills/git/blobs/74c883d5ffbe43cb6f6044c396e4a303c2917a54"
+    },
+    {
+      "path": "skills/ask-sonner/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "368752157d59c75e7374f84406e26755f35ac8d8",
+      "size": 7326,
+      "url": "https://api.github.com/repos/emilkowalski/skills/git/blobs/368752157d59c75e7374f84406e26755f35ac8d8"
+    },
+    {
+      "path": "skills/break-ui",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3366af548a363c2012e53503cbcf718dc07f047f",
+      "url": "https://api.github.com/repos/emilkowalski/skills/git/trees/3366af548a363c2012e53503cbcf718dc07f047f"
+    },
+    {
+      "path": "skills/break-ui/CATALOG.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40e348ba2c469cb8e36768223e4b1c0dd135e4fd",
+      "size": 8215,
+      "url": "https://api.github.com/repos/emilkowalski/skills/git/blobs/40e348ba2c469cb8e36768223e4b1c0dd135e4fd"
+    },
+    {
+      "path": "skills/break-ui/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52be42ffb02f252e889b8ac3a45b97d9f7a0c36c",
+      "size": 14660,
+      "url": "https://api.github.com/repos/emilkowalski/skills/git/blobs/52be42ffb02f252e889b8ac3a45b97d9f7a0c36c"
+    },
+    {
+      "path": "skills/choreograph",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d95a9d2f4f47c56c05c04522eab52c6d997215c3",
+      "url": "https://api.github.com/repos/emilkowalski/skills/git/trees/d95a9d2f4f47c56c05c04522eab52c6d997215c3"
+    },
+    {
+      "path": "skills/choreograph/RECIPES.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35461d735091b12a97a52e7669df5c425b825e7f",
+      "size": 10079,
+      "url": "https://api.github.com/repos/emilkowalski/skills/git/blobs/35461d735091b12a97a52e7669df5c425b825e7f"
+    },
+    {
+      "path": "skills/choreograph/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "965f7b1ee991adbbc301401cf2f6f6890b247572",
+      "size": 15666,
+      "url": "https://api.github.com/repos/emilkowalski/skills/git/blobs/965f7b1ee991adbbc301401cf2f6f6890b247572"
+    },
+    {
+      "path": "skills/emil-design-eng",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8086a08e5ebde316c4b9226764f1f2196e1869fa",
+      "url": "https://api.github.com/repos/emilkowalski/skills/git/trees/8086a08e5ebde316c4b9226764f1f2196e1869fa"
+    },
+    {
+      "path": "skills/emil-design-eng/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5155a4bf33e99028645dbdad4c049a3d209b1f21",
+      "size": 28257,
+      "url": "https://api.github.com/repos/emilkowalski/skills/git/blobs/5155a4bf33e99028645dbdad4c049a3d209b1f21"
+    },
+    {
+      "path": "skills/find-animation-opportunities",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4a44e78f996f1e1877ab6d2c82596c64c36e8bb9",
+      "url": "https://api.github.com/repos/emilkowalski/skills/git/trees/4a44e78f996f1e1877ab6d2c82596c64c36e8bb9"
+    },
+    {
+      "path": "skills/find-animation-opportunities/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a72a1931e82d21ae24cd00834f4f0aaebf58a60",
+      "size": 9884,
+      "url": "https://api.github.com/repos/emilkowalski/skills/git/blobs/8a72a1931e82d21ae24cd00834f4f0aaebf58a60"
+    },
+    {
+      "path": "skills/gestures",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "759639ab6e4ad2a8578dbf3a4d8cae7a43ecc64f",
+      "url": "https://api.github.com/repos/emilkowalski/skills/git/trees/759639ab6e4ad2a8578dbf3a4d8cae7a43ecc64f"
+    },
+    {
+      "path": "skills/gestures/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "71fb5af14cf57ce9b052bfbf22dad8e4c71e3ac1",
+      "size": 8823,
+      "url": "https://api.github.com/repos/emilkowalski/skills/git/blobs/71fb5af14cf57ce9b052bfbf22dad8e4c71e3ac1"
+    },
+    {
+      "path": "skills/improve-animations",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f5891a5e4a2b535d59daf89f763abe7ed29135e5",
+      "url": "https://api.github.com/repos/emilkowalski/skills/git/trees/f5891a5e4a2b535d59daf89f763abe7ed29135e5"
+    },
+    {
+      "path": "skills/improve-animations/AUDIT.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bde2a512b062ca768c01a6b18fc65a42c531bb15",
+      "size": 8062,
+      "url": "https://api.github.com/repos/emilkowalski/skills/git/blobs/bde2a512b062ca768c01a6b18fc65a42c531bb15"
+    },
+    {
+      "path": "skills/improve-animations/PLAN-TEMPLATE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53fb58d5f17b3a5505a0110942a883db65c87ec3",
+      "size": 2915,
+      "url": "https://api.github.com/repos/emilkowalski/skills/git/blobs/53fb58d5f17b3a5505a0110942a883db65c87ec3"
+    },
+    {
+      "path": "skills/improve-animations/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb85fcc8c1707010ac0c64250d8a56ed0a68fe2d",
+      "size": 8666,
+      "url": "https://api.github.com/repos/emilkowalski/skills/git/blobs/fb85fcc8c1707010ac0c64250d8a56ed0a68fe2d"
+    },
+    {
+      "path": "skills/learn-taste",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4d26b3fcff1c91b4fa82709839ca2f7f3e479c93",
+      "url": "https://api.github.com/repos/emilkowalski/skills/git/trees/4d26b3fcff1c91b4fa82709839ca2f7f3e479c93"
+    },
+    {
+      "path": "skills/learn-taste/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ea9da36bf557e063723df8641ce6b56594170d4",
+      "size": 9251,
+      "url": "https://api.github.com/repos/emilkowalski/skills/git/blobs/9ea9da36bf557e063723df8641ce6b56594170d4"
+    },
+    {
+      "path": "skills/mobile-native",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a728bbf1f4a20873d3c041a9151da4b710a86ae2",
+      "url": "https://api.github.com/repos/emilkowalski/skills/git/trees/a728bbf1f4a20873d3c041a9151da4b710a86ae2"
+    },
+    {
+      "path": "skills/mobile-native/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b97d73d9bd5f6b283b03588b852b7a2ad3764673",
+      "size": 16904,
+      "url": "https://api.github.com/repos/emilkowalski/skills/git/blobs/b97d73d9bd5f6b283b03588b852b7a2ad3764673"
+    },
+    {
+      "path": "skills/pick-ui-library",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0fec768a94dee684dcbd0b8da8a438ca214443d0",
+      "url": "https://api.github.com/repos/emilkowalski/skills/git/trees/0fec768a94dee684dcbd0b8da8a438ca214443d0"
+    },
+    {
+      "path": "skills/pick-ui-library/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fca76b8792f0b2e72623a25ffb182c2c46d3fbc0",
+      "size": 4699,
+      "url": "https://api.github.com/repos/emilkowalski/skills/git/blobs/fca76b8792f0b2e72623a25ffb182c2c46d3fbc0"
+    },
+    {
+      "path": "skills/prototype",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4ea5b3b58efecc83751b275fb58b516bbf42010b",
+      "url": "https://api.github.com/repos/emilkowalski/skills/git/trees/4ea5b3b58efecc83751b275fb58b516bbf42010b"
+    },
+    {
+      "path": "skills/prototype/PICKER.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f61186257d9b9f7a4ccd672754be030de6e1aec4",
+      "size": 7705,
+      "url": "https://api.github.com/repos/emilkowalski/skills/git/blobs/f61186257d9b9f7a4ccd672754be030de6e1aec4"
+    },
+    {
+      "path": "skills/prototype/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56a648d217a8665f2acdf9d6f6a21bbfb5a325f3",
+      "size": 8095,
+      "url": "https://api.github.com/repos/emilkowalski/skills/git/blobs/56a648d217a8665f2acdf9d6f6a21bbfb5a325f3"
+    },
+    {
+      "path": "skills/remove-animations",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8d9dbf29d9e3153420d80e518a85abc3a9a4a68b",
+      "url": "https://api.github.com/repos/emilkowalski/skills/git/trees/8d9dbf29d9e3153420d80e518a85abc3a9a4a68b"
+    },
+    {
+      "path": "skills/remove-animations/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ccd6070c53575a9e96995de805eee9ad7d81bc58",
+      "size": 11555,
+      "url": "https://api.github.com/repos/emilkowalski/skills/git/blobs/ccd6070c53575a9e96995de805eee9ad7d81bc58"
+    },
+    {
+      "path": "skills/review-animations",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5b83aaadbcae77e09b07b5057c342b8074f7225b",
+      "url": "https://api.github.com/repos/emilkowalski/skills/git/trees/5b83aaadbcae77e09b07b5057c342b8074f7225b"
+    },
+    {
+      "path": "skills/review-animations/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70bb73c016d0dafc28c03272a205cd97ece9f06d",
+      "size": 8309,
+      "url": "https://api.github.com/repos/emilkowalski/skills/git/blobs/70bb73c016d0dafc28c03272a205cd97ece9f06d"
+    },
+    {
+      "path": "skills/review-animations/STANDARDS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "065db58d4331a93c8efe4ea4e9b5f62b599527dc",
+      "size": 10347,
+      "url": "https://api.github.com/repos/emilkowalski/skills/git/blobs/065db58d4331a93c8efe4ea4e9b5f62b599527dc"
+    },
+    {
+      "path": "skills/write-swift",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "631930d487cf9871128f582d309531481d26cabe",
+      "url": "https://api.github.com/repos/emilkowalski/skills/git/trees/631930d487cf9871128f582d309531481d26cabe"
+    },
+    {
+      "path": "skills/write-swift/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9fdf55eaf5f490da0c5712a3fdcdfb30195c9fc0",
+      "size": 42776,
+      "url": "https://api.github.com/repos/emilkowalski/skills/git/blobs/9fdf55eaf5f490da0c5712a3fdcdfb30195c9fc0"
+    },
+    {
+      "path": "ui-cheatsheet.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5c803280b82f72dd11ed2136caaf0ea8c139a5c",
+      "size": 1344,
+      "url": "https://api.github.com/repos/emilkowalski/skills/git/blobs/a5c803280b82f72dd11ed2136caaf0ea8c139a5c"
+    }
+  ],
+  "truncated": false
+}

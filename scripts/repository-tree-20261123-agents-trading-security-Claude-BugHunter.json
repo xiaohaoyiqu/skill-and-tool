@@ -1,0 +1,3645 @@
+{
+  "sha": "992a68f0505c6720d6649f0fa1cb1c345ead3959",
+  "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/992a68f0505c6720d6649f0fa1cb1c345ead3959",
+  "tree": [
+    {
+      "path": ".claude-plugin",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "37f6b2e1399b669020c86542751820d328cea8d5",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/37f6b2e1399b669020c86542751820d328cea8d5"
+    },
+    {
+      "path": ".claude-plugin/marketplace.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d60be2c79c53ce1138d465984355189d4b86600e",
+      "size": 1093,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/d60be2c79c53ce1138d465984355189d4b86600e"
+    },
+    {
+      "path": ".claude-plugin/plugin.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "646ca31528c4c273ecd670b45b9f0a0fa1196882",
+      "size": 1603,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/646ca31528c4c273ecd670b45b9f0a0fa1196882"
+    },
+    {
+      "path": ".gitattributes",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "908f1f1e4626de555e9259a5edc0f3497b2bd336",
+      "size": 570,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/908f1f1e4626de555e9259a5edc0f3497b2bd336"
+    },
+    {
+      "path": ".githooks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1730719191c937ba79492fe073bfcbd4a4da07d6",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/1730719191c937ba79492fe073bfcbd4a4da07d6"
+    },
+    {
+      "path": ".githooks/pre-commit",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "c6f1ea2337b1de2352dad38d39ef062bb3eb4ca8",
+      "size": 507,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/c6f1ea2337b1de2352dad38d39ef062bb3eb4ca8"
+    },
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "560bed9c02f9652b858014b75d49b0e3a747fe74",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/560bed9c02f9652b858014b75d49b0e3a747fe74"
+    },
+    {
+      "path": ".github/CODEOWNERS",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45f6fce8c127ac977de76bfb8eb7e4c4e953b8dc",
+      "size": 369,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/45f6fce8c127ac977de76bfb8eb7e4c4e953b8dc"
+    },
+    {
+      "path": ".github/FUNDING.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "363722c0dceb19ceed6b6e13ef7f3a3f6df7fe55",
+      "size": 406,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/363722c0dceb19ceed6b6e13ef7f3a3f6df7fe55"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "28f549e8728fba793087ebd83442198ed6883f0c",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/28f549e8728fba793087ebd83442198ed6883f0c"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9e580374ee335667f14084199be420e2c47ed8d",
+      "size": 1405,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/f9e580374ee335667f14084199be420e2c47ed8d"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d467496d807d92d1f8a6519ebdbc7c865730c96c",
+      "size": 507,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/d467496d807d92d1f8a6519ebdbc7c865730c96c"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/dx_feedback.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d37f2b295a948a1d313c93d8f3f92fdceb246a74",
+      "size": 1501,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/d37f2b295a948a1d313c93d8f3f92fdceb246a74"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/false_positive.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0445b03334dd69e91045c394cce202f8372c890",
+      "size": 1190,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/d0445b03334dd69e91045c394cce202f8372c890"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/new_skill.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "231373a5984fd2f9a12c3dca23301ef0e2362e83",
+      "size": 1676,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/231373a5984fd2f9a12c3dca23301ef0e2362e83"
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85e652add50f1fa649cb15ffe925d7be479c8c8a",
+      "size": 1175,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/85e652add50f1fa649cb15ffe925d7be479c8c8a"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1c692a2d7c552f96f2b47fc046de9a9b27a83031",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/1c692a2d7c552f96f2b47fc046de9a9b27a83031"
+    },
+    {
+      "path": ".github/workflows/doc-count-check.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41d91c1fea87c4c6f3bc0331da8fd3ce93d1b61c",
+      "size": 1057,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/41d91c1fea87c4c6f3bc0331da8fd3ce93d1b61c"
+    },
+    {
+      "path": ".github/workflows/eval-harness.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1aff4bc0d6728f031e35811c3a51adcecc6b16c",
+      "size": 951,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/f1aff4bc0d6728f031e35811c3a51adcecc6b16c"
+    },
+    {
+      "path": ".github/workflows/install-smoke.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b2c840f473731e34ee61d5d23a3c0fec3b85505",
+      "size": 7844,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/1b2c840f473731e34ee61d5d23a3c0fec3b85505"
+    },
+    {
+      "path": ".github/workflows/leak-guard.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "651153c1b0356fd665c49c829cac2e7b995a98fa",
+      "size": 824,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/651153c1b0356fd665c49c829cac2e7b995a98fa"
+    },
+    {
+      "path": ".github/workflows/research-tools.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be1a462277d9b9597dc8a7f8b977dd57fab44cc0",
+      "size": 961,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/be1a462277d9b9597dc8a7f8b977dd57fab44cc0"
+    },
+    {
+      "path": ".github/workflows/runtime-tests.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "544db8834d2faedb37d02e9584a22a629741ea0e",
+      "size": 1863,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/544db8834d2faedb37d02e9584a22a629741ea0e"
+    },
+    {
+      "path": ".github/workflows/skill-lint.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ffccd5a322d246f8fcf8f9c59ca04e1c654b3e2",
+      "size": 1811,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/8ffccd5a322d246f8fcf8f9c59ca04e1c654b3e2"
+    },
+    {
+      "path": ".github/workflows/star-history.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94fa8110e24b8b6380c4c4cff6951fd508540cb0",
+      "size": 1462,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/94fa8110e24b8b6380c4c4cff6951fd508540cb0"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d4b6b247004953cbfe53c924d0676d1690b8441",
+      "size": 1326,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/3d4b6b247004953cbfe53c924d0676d1690b8441"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c35252e39f6cced2f1d937a6a907d12eca03bc0a",
+      "size": 12926,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/c35252e39f6cced2f1d937a6a907d12eca03bc0a"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4273018077c0fd90c5b5cc57a72715fd5f1dacb1",
+      "size": 4660,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/4273018077c0fd90c5b5cc57a72715fd5f1dacb1"
+    },
+    {
+      "path": "ENGAGEMENTS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b80b92c0beafb1968f6aa4f3689d0f5e090c6d93",
+      "size": 14109,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/b80b92c0beafb1968f6aa4f3689d0f5e090c6d93"
+    },
+    {
+      "path": "INSTALL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c45c09799a1e176cdff7afec2ce7ae94f0bca4c",
+      "size": 10864,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/0c45c09799a1e176cdff7afec2ce7ae94f0bca4c"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a05729079e1aaa9728b266d7d4827b714e2f982c",
+      "size": 1070,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/a05729079e1aaa9728b266d7d4827b714e2f982c"
+    },
+    {
+      "path": "LICENSE-CONTENT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da6ab6cc8f333d7e89a99812866df8f24374d47c",
+      "size": 18657,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/da6ab6cc8f333d7e89a99812866df8f24374d47c"
+    },
+    {
+      "path": "NOTICE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7cc7d15968c8c01cde3879c224788fd9d939831b",
+      "size": 556,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/7cc7d15968c8c01cde3879c224788fd9d939831b"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd07caf4e92730b808891539a9397f1489f039d6",
+      "size": 23330,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/cd07caf4e92730b808891539a9397f1489f039d6"
+    },
+    {
+      "path": "SECURITY.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "295e1ffdfe1d9208ba045479aca9c472692a2edc",
+      "size": 8932,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/295e1ffdfe1d9208ba045479aca9c472692a2edc"
+    },
+    {
+      "path": "USAGE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4afa72efa79c4bc48867989ac6cb215a3cd1d093",
+      "size": 25549,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/4afa72efa79c4bc48867989ac6cb215a3cd1d093"
+    },
+    {
+      "path": "assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ff49837b72b84cb8cd05c04812e4629fccf399f3",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/ff49837b72b84cb8cd05c04812e4629fccf399f3"
+    },
+    {
+      "path": "assets/architecture-overview.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce3d2f5e4091cb82d462a749724d61fad476db38",
+      "size": 73491,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/ce3d2f5e4091cb82d462a749724d61fad476db38"
+    },
+    {
+      "path": "assets/banner-v2.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e0fca74790af8f68db72b113b1a297a5f5070ed",
+      "size": 9475,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/3e0fca74790af8f68db72b113b1a297a5f5070ed"
+    },
+    {
+      "path": "assets/banner.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dcd77a42558e815bda4051a69d6db679eab7e4a1",
+      "size": 612291,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/dcd77a42558e815bda4051a69d6db679eab7e4a1"
+    },
+    {
+      "path": "assets/capability-map.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "59f39a033b41540b1f967631fbe95bee837f31bd",
+      "size": 25608,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/59f39a033b41540b1f967631fbe95bee837f31bd"
+    },
+    {
+      "path": "assets/engagement-flow.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8458711f9cb6c297166091e8b71df8c16d2f7fc",
+      "size": 24636,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/a8458711f9cb6c297166091e8b71df8c16d2f7fc"
+    },
+    {
+      "path": "assets/harness-routing.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4bb06f9ba988fe50761d8d8900564158c5040102",
+      "size": 25707,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/4bb06f9ba988fe50761d8d8900564158c5040102"
+    },
+    {
+      "path": "assets/sponsors",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f387d97b971bcbfe509cbb768f205299972d8788",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/f387d97b971bcbfe509cbb768f205299972d8788"
+    },
+    {
+      "path": "assets/sponsors/apismart-dark.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32afa6fbfe2995c0931f4f1dea1da4d05da63517",
+      "size": 8287,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/32afa6fbfe2995c0931f4f1dea1da4d05da63517"
+    },
+    {
+      "path": "assets/sponsors/apismart-light.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "537f5e50863032dc9bf424c16cf98fd36f16fd2d",
+      "size": 9096,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/537f5e50863032dc9bf424c16cf98fd36f16fd2d"
+    },
+    {
+      "path": "assets/sponsors/tw360-dark.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f3d870d91738112a4086a2263773eca3203e322",
+      "size": 8285,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/3f3d870d91738112a4086a2263773eca3203e322"
+    },
+    {
+      "path": "assets/sponsors/tw360-light.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1371a7d4082a3c19877e78e6f589e15913f621f5",
+      "size": 8285,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/1371a7d4082a3c19877e78e6f589e15913f621f5"
+    },
+    {
+      "path": "assets/star-history-dark.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d620278c30823a418e5790e86236e323d4f4d3f",
+      "size": 8037,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/2d620278c30823a418e5790e86236e323d4f4d3f"
+    },
+    {
+      "path": "assets/star-history-light.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f14bfa4c0f279524bf126173714409e52ae35d70",
+      "size": 8039,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/f14bfa4c0f279524bf126173714409e52ae35d70"
+    },
+    {
+      "path": "cbh",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f39278571bb188b2cdd083d5755e552d28acc766",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/f39278571bb188b2cdd083d5755e552d28acc766"
+    },
+    {
+      "path": "cbh/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37ddcb31f85be34d171f30b95cc1a3a1f4c7b522",
+      "size": 58,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/37ddcb31f85be34d171f30b95cc1a3a1f4c7b522"
+    },
+    {
+      "path": "cbh/cli.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "c473dfea05305d98adae2fa8cfb9b39c717472c4",
+      "size": 46387,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/c473dfea05305d98adae2fa8cfb9b39c717472c4"
+    },
+    {
+      "path": "cbh/data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "376d2360802f5326f4399d90e45e3c5c7539154d",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/376d2360802f5326f4399d90e45e3c5c7539154d"
+    },
+    {
+      "path": "cbh/data/skill_index.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed9a156783c3b9b6078863bb74a05d1cb2a4d565",
+      "size": 53310,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/ed9a156783c3b9b6078863bb74a05d1cb2a4d565"
+    },
+    {
+      "path": "commands",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5edd9da00c330d933ff19eff9aa08e45f6b90ba3",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/5edd9da00c330d933ff19eff9aa08e45f6b90ba3"
+    },
+    {
+      "path": "commands/autopilot.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4efca067fd06467b86ae202e608f9397f8402d75",
+      "size": 3902,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/4efca067fd06467b86ae202e608f9397f8402d75"
+    },
+    {
+      "path": "commands/chain.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ffb51c44b4b3e78e50ac1d0685dfa6219e527905",
+      "size": 5451,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/ffb51c44b4b3e78e50ac1d0685dfa6219e527905"
+    },
+    {
+      "path": "commands/hunt.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69ebf16c9bd40567bf8c54b651afd0c50c1b8f4",
+      "size": 5349,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/e69ebf16c9bd40567bf8c54b651afd0c50c1b8f4"
+    },
+    {
+      "path": "commands/intel.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf501e2eccefc3060e68df70a38b55c06a141090",
+      "size": 2176,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/bf501e2eccefc3060e68df70a38b55c06a141090"
+    },
+    {
+      "path": "commands/memory-gc.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0bc034703914f5da079da9782421204115d660e8",
+      "size": 1185,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/0bc034703914f5da079da9782421204115d660e8"
+    },
+    {
+      "path": "commands/pickup.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4b1f96dc5555e55b708019e78b4eda2a4ab3566",
+      "size": 870,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/e4b1f96dc5555e55b708019e78b4eda2a4ab3566"
+    },
+    {
+      "path": "commands/recon.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bfe904741ad21e129596411d8bab9ead2cd8f3e6",
+      "size": 12011,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/bfe904741ad21e129596411d8bab9ead2cd8f3e6"
+    },
+    {
+      "path": "commands/remember.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7a188362b476265817d535886cfa8945d679285",
+      "size": 791,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/a7a188362b476265817d535886cfa8945d679285"
+    },
+    {
+      "path": "commands/report.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99b1744341d97d10f7c5a6b3ca505722af5f70a9",
+      "size": 3584,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/99b1744341d97d10f7c5a6b3ca505722af5f70a9"
+    },
+    {
+      "path": "commands/scope.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "163d53c02c820c1dd34593479b49341d94f2b1d7",
+      "size": 2038,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/163d53c02c820c1dd34593479b49341d94f2b1d7"
+    },
+    {
+      "path": "commands/surface.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95f24eaac2bc4484e1b4decaa6b4dce80e039d54",
+      "size": 1911,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/95f24eaac2bc4484e1b4decaa6b4dce80e039d54"
+    },
+    {
+      "path": "commands/token-scan.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e03e9f82f5d4016b56ad550503afd2e89ba188ed",
+      "size": 4947,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/e03e9f82f5d4016b56ad550503afd2e89ba188ed"
+    },
+    {
+      "path": "commands/triage.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad85ffb75095a6ee22fad14c21efc1e6653341c6",
+      "size": 3320,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/ad85ffb75095a6ee22fad14c21efc1e6653341c6"
+    },
+    {
+      "path": "commands/validate.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "facf874d357e40432d1fc15715ab20319d122bf2",
+      "size": 3805,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/facf874d357e40432d1fc15715ab20319d122bf2"
+    },
+    {
+      "path": "commands/web3-audit.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a73d0c8b04d878427ba3ee71e18f89a31d0e9609",
+      "size": 6711,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/a73d0c8b04d878427ba3ee71e18f89a31d0e9609"
+    },
+    {
+      "path": "docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4a6532df274bc9a5b682c5f260ac7ff32bae9b52",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/4a6532df274bc9a5b682c5f260ac7ff32bae9b52"
+    },
+    {
+      "path": "docs/_config.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec040204293faf90a427a2a088d74b73ddd25f00",
+      "size": 1037,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/ec040204293faf90a427a2a088d74b73ddd25f00"
+    },
+    {
+      "path": "docs/architecture.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9fadb3bc8318e1d97c07a22edfbe808c851999db",
+      "size": 13029,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/9fadb3bc8318e1d97c07a22edfbe808c851999db"
+    },
+    {
+      "path": "docs/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "baff8a2209870f1ffb1e11255ad6ecf4b6e0911c",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/baff8a2209870f1ffb1e11255ad6ecf4b6e0911c"
+    },
+    {
+      "path": "docs/assets/architecture-overview.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce3d2f5e4091cb82d462a749724d61fad476db38",
+      "size": 73491,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/ce3d2f5e4091cb82d462a749724d61fad476db38"
+    },
+    {
+      "path": "docs/assets/capability-map.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "59f39a033b41540b1f967631fbe95bee837f31bd",
+      "size": 25608,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/59f39a033b41540b1f967631fbe95bee837f31bd"
+    },
+    {
+      "path": "docs/assets/engagement-flow.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8458711f9cb6c297166091e8b71df8c16d2f7fc",
+      "size": 24636,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/a8458711f9cb6c297166091e8b71df8c16d2f7fc"
+    },
+    {
+      "path": "docs/automation",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ec21c2b901afb5a9f78872d98e7d57cbc43bc2a4",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/ec21c2b901afb5a9f78872d98e7d57cbc43bc2a4"
+    },
+    {
+      "path": "docs/automation/cve-refresh.yml.template",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d74771f914ea4c412f9576aa20ccc49dffd1c149",
+      "size": 2994,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/d74771f914ea4c412f9576aa20ccc49dffd1c149"
+    },
+    {
+      "path": "docs/cbh-cli.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee24e980f21882f6a975a1e55170b0d972bd8e52",
+      "size": 12834,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/ee24e980f21882f6a975a1e55170b0d972bd8e52"
+    },
+    {
+      "path": "docs/credits.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21921752521e00ff0a25a52c6f109cbde7aeb37e",
+      "size": 15590,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/21921752521e00ff0a25a52c6f109cbde7aeb37e"
+    },
+    {
+      "path": "docs/cve-coverage.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e28ca7aecf3751dfdca6ad3abdbb02d829aa86c",
+      "size": 4618,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/2e28ca7aecf3751dfdca6ad3abdbb02d829aa86c"
+    },
+    {
+      "path": "docs/disclosed-reports",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c21c34cd1fbe0a9c00a707276da20de8143502ee",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/c21c34cd1fbe0a9c00a707276da20de8143502ee"
+    },
+    {
+      "path": "docs/disclosed-reports/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2f3378210be32e3e944f5cc41ee02abab50a4b8",
+      "size": 2688,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/e2f3378210be32e3e944f5cc41ee02abab50a4b8"
+    },
+    {
+      "path": "docs/disclosed-reports/hunt-ato.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a64f4f030d1550cb788bbaa0a9140abd318fcb1a",
+      "size": 4445,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/a64f4f030d1550cb788bbaa0a9140abd318fcb1a"
+    },
+    {
+      "path": "docs/disclosed-reports/hunt-auth-bypass.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d759ebb3991a5c804f7340b1385c92ad636d3cec",
+      "size": 2661,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/d759ebb3991a5c804f7340b1385c92ad636d3cec"
+    },
+    {
+      "path": "docs/disclosed-reports/hunt-brute-force.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db68356a313150f222bc43a46407bf8679e0931f",
+      "size": 7114,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/db68356a313150f222bc43a46407bf8679e0931f"
+    },
+    {
+      "path": "docs/disclosed-reports/hunt-business-logic.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ad3f94bb10ebffdde02559cea2fa80a7d8732ca",
+      "size": 23600,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/2ad3f94bb10ebffdde02559cea2fa80a7d8732ca"
+    },
+    {
+      "path": "docs/disclosed-reports/hunt-cache-poison.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26e807a69e1e575794007778b8acd99fee59e185",
+      "size": 20584,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/26e807a69e1e575794007778b8acd99fee59e185"
+    },
+    {
+      "path": "docs/disclosed-reports/hunt-captcha-bypass.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4514e27feb273a94516c928422198550a14cea9b",
+      "size": 1680,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/4514e27feb273a94516c928422198550a14cea9b"
+    },
+    {
+      "path": "docs/disclosed-reports/hunt-clickjacking.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dca529b13194295d655fe50a66e25083786a4082",
+      "size": 1711,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/dca529b13194295d655fe50a66e25083786a4082"
+    },
+    {
+      "path": "docs/disclosed-reports/hunt-cloud-misconfig.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60f8f7a9a900950bff39c4bcf9d5087bd86549c0",
+      "size": 4101,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/60f8f7a9a900950bff39c4bcf9d5087bd86549c0"
+    },
+    {
+      "path": "docs/disclosed-reports/hunt-cors.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dfaf72a2b024adab1683742a18dc64478c4296af",
+      "size": 3751,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/dfaf72a2b024adab1683742a18dc64478c4296af"
+    },
+    {
+      "path": "docs/disclosed-reports/hunt-csrf.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25fc808dc1d4242a276247fa8cee74c5f6cec398",
+      "size": 22856,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/25fc808dc1d4242a276247fa8cee74c5f6cec398"
+    },
+    {
+      "path": "docs/disclosed-reports/hunt-deserialization.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee4e8a1b5d7d6190d77ac3bd0051ee75b5771773",
+      "size": 3982,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/ee4e8a1b5d7d6190d77ac3bd0051ee75b5771773"
+    },
+    {
+      "path": "docs/disclosed-reports/hunt-dom.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77d510c9c02bba1daad5163368b3c7a8a01d9fbf",
+      "size": 3506,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/77d510c9c02bba1daad5163368b3c7a8a01d9fbf"
+    },
+    {
+      "path": "docs/disclosed-reports/hunt-file-upload.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ccdfd0cba1423ec3fa846cf8e4d450167cce79d8",
+      "size": 21100,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/ccdfd0cba1423ec3fa846cf8e4d450167cce79d8"
+    },
+    {
+      "path": "docs/disclosed-reports/hunt-forgot-password.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b011ea9b9f303680dbaa2c1769323a2ce270d33",
+      "size": 2412,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/6b011ea9b9f303680dbaa2c1769323a2ce270d33"
+    },
+    {
+      "path": "docs/disclosed-reports/hunt-graphql.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ee9a613b4ec380640c2cdfa27f778028bb0aee9",
+      "size": 26751,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/2ee9a613b4ec380640c2cdfa27f778028bb0aee9"
+    },
+    {
+      "path": "docs/disclosed-reports/hunt-host-header.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb5f4ca0937d492e3e755ab1a573c39b69a40b78",
+      "size": 3595,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/fb5f4ca0937d492e3e755ab1a573c39b69a40b78"
+    },
+    {
+      "path": "docs/disclosed-reports/hunt-html-injection.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5375e4c0491485d945e2216030c21fb22ab83e1",
+      "size": 2557,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/e5375e4c0491485d945e2216030c21fb22ab83e1"
+    },
+    {
+      "path": "docs/disclosed-reports/hunt-http-smuggling.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c24196cc5b89c9eb64c8884d3b023a98c01abfb",
+      "size": 22474,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/3c24196cc5b89c9eb64c8884d3b023a98c01abfb"
+    },
+    {
+      "path": "docs/disclosed-reports/hunt-idor.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3b32ba03d4e66ce10059498b145d29c0be2a131",
+      "size": 19742,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/e3b32ba03d4e66ce10059498b145d29c0be2a131"
+    },
+    {
+      "path": "docs/disclosed-reports/hunt-jwt-crypto.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8795fb3ee444de1935174f03521351786cdf50b",
+      "size": 3515,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/f8795fb3ee444de1935174f03521351786cdf50b"
+    },
+    {
+      "path": "docs/disclosed-reports/hunt-ldap.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "386af21e4672ab057752caccaab17b666a7204ae",
+      "size": 3745,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/386af21e4672ab057752caccaab17b666a7204ae"
+    },
+    {
+      "path": "docs/disclosed-reports/hunt-lfi.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c83c10a6c132c439c5c6ec6a0200002548677fb4",
+      "size": 6741,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/c83c10a6c132c439c5c6ec6a0200002548677fb4"
+    },
+    {
+      "path": "docs/disclosed-reports/hunt-mfa-bypass.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dce18ca8f9bf204ab99a11c1f9169b3b2f551783",
+      "size": 21444,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/dce18ca8f9bf204ab99a11c1f9169b3b2f551783"
+    },
+    {
+      "path": "docs/disclosed-reports/hunt-nosqli.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0808807127f251d2fb7ad8db08ecd74266be57f",
+      "size": 3483,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/a0808807127f251d2fb7ad8db08ecd74266be57f"
+    },
+    {
+      "path": "docs/disclosed-reports/hunt-oauth.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a303be53a5bb5ce8ea2648b139a926d1a4ea4741",
+      "size": 20383,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/a303be53a5bb5ce8ea2648b139a926d1a4ea4741"
+    },
+    {
+      "path": "docs/disclosed-reports/hunt-open-redirect.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "719290556a6e3c3a3b069ab6b203bd98ce68adfa",
+      "size": 3622,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/719290556a6e3c3a3b069ab6b203bd98ce68adfa"
+    },
+    {
+      "path": "docs/disclosed-reports/hunt-race-condition.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13c4923bb24204fd77a5933b855ef49dd02bd440",
+      "size": 3733,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/13c4923bb24204fd77a5933b855ef49dd02bd440"
+    },
+    {
+      "path": "docs/disclosed-reports/hunt-rce.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd9be6b9bb11f3de0978b4dbfa5d74b8e71bd16e",
+      "size": 30853,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/fd9be6b9bb11f3de0978b4dbfa5d74b8e71bd16e"
+    },
+    {
+      "path": "docs/disclosed-reports/hunt-saml.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43ec997da16f6bf41d52d7d768d40d42a4c85d33",
+      "size": 20727,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/43ec997da16f6bf41d52d7d768d40d42a4c85d33"
+    },
+    {
+      "path": "docs/disclosed-reports/hunt-session.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57243a18048a6e6552efd13f7253173846a44594",
+      "size": 3953,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/57243a18048a6e6552efd13f7253173846a44594"
+    },
+    {
+      "path": "docs/disclosed-reports/hunt-source-leak.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d31e324fa03b10881b141793e12057635e7c171",
+      "size": 5526,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/9d31e324fa03b10881b141793e12057635e7c171"
+    },
+    {
+      "path": "docs/disclosed-reports/hunt-sqli.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1bc4a08f02c173ac96fe220ca5a3769e70e0e675",
+      "size": 25276,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/1bc4a08f02c173ac96fe220ca5a3769e70e0e675"
+    },
+    {
+      "path": "docs/disclosed-reports/hunt-ssrf.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5eb4ed3a6e590fbec4e62746f7bfdfdf69a0ff0a",
+      "size": 20699,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/5eb4ed3a6e590fbec4e62746f7bfdfdf69a0ff0a"
+    },
+    {
+      "path": "docs/disclosed-reports/hunt-ssti.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d69558e1f04c596374496630644a643623ae2085",
+      "size": 22088,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/d69558e1f04c596374496630644a643623ae2085"
+    },
+    {
+      "path": "docs/disclosed-reports/hunt-tls-network.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ac9fa1f769c93a6b1224ed8ef1e357a8c3558e3",
+      "size": 2272,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/1ac9fa1f769c93a6b1224ed8ef1e357a8c3558e3"
+    },
+    {
+      "path": "docs/disclosed-reports/hunt-xss.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df3d5d989d0d68b8b47ca113dcf91f244d203aba",
+      "size": 16891,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/df3d5d989d0d68b8b47ca113dcf91f244d203aba"
+    },
+    {
+      "path": "docs/index.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7f7d6fc9672c427d0c4e6fce3bbc1ce2b946423",
+      "size": 2676,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/f7f7d6fc9672c427d0c4e6fce3bbc1ce2b946423"
+    },
+    {
+      "path": "docs/multi-harness.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c867482225b2aa7593baf6ad6ca6fd371d96b0d",
+      "size": 7911,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/8c867482225b2aa7593baf6ad6ca6fd371d96b0d"
+    },
+    {
+      "path": "docs/recon-manifest.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ba5a5c09666acb10e7b96cb9973b027d39bc3c0",
+      "size": 3098,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/7ba5a5c09666acb10e7b96cb9973b027d39bc3c0"
+    },
+    {
+      "path": "docs/recon-manifest.schema.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb9e2be933f5b36b64cf76ca34b455c6fafeddb2",
+      "size": 2311,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/bb9e2be933f5b36b64cf76ca34b455c6fafeddb2"
+    },
+    {
+      "path": "docs/skills.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ae9f77d76e11b83f7108c933cb236ac2ba59693",
+      "size": 16405,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/4ae9f77d76e11b83f7108c933cb236ac2ba59693"
+    },
+    {
+      "path": "docs/superpowers",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "120fddc48a9a76a6421dbc1683c364da0f0eb7d0",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/120fddc48a9a76a6421dbc1683c364da0f0eb7d0"
+    },
+    {
+      "path": "docs/superpowers/plans",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d6800f8664f2d8ac33eac0b421299d3dfa09be7b",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/d6800f8664f2d8ac33eac0b421299d3dfa09be7b"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-08-09-autopilot-ledger.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc1d39e103c1d3183198e40ad625742f9e6740f3",
+      "size": 29918,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/cc1d39e103c1d3183198e40ad625742f9e6740f3"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-11-20-h1-report-body-fetch.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9acc6afc1bc2ff046e27ba1afb9da0a93f4f87f3",
+      "size": 12434,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/9acc6afc1bc2ff046e27ba1afb9da0a93f4f87f3"
+    },
+    {
+      "path": "docs/superpowers/specs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "57d599f31a8976799b0dcb572b8d35d5214f5414",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/57d599f31a8976799b0dcb572b8d35d5214f5414"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-08-09-engine-native-ledger-memory-design.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dfb2fa45e350b7a2b9f615a2510f8a0138fb563c",
+      "size": 11809,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/dfb2fa45e350b7a2b9f615a2510f8a0138fb563c"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-11-19-h1-report-body-fetch-design.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea3f01ac81b699b75a8c01b9de8c9f33641ce9ff",
+      "size": 11350,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/ea3f01ac81b699b75a8c01b9de8c9f33641ce9ff"
+    },
+    {
+      "path": "docs/verification",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d0a61fb5ea728113c165bea7850600df3109c9d6",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/d0a61fb5ea728113c165bea7850600df3109c9d6"
+    },
+    {
+      "path": "docs/verification/apache-cve-2021-41773.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "319bb8a00bd8f568a35fca49e61f74ca63d929ef",
+      "size": 5576,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/319bb8a00bd8f568a35fca49e61f74ca63d929ef"
+    },
+    {
+      "path": "docs/verification/hardened-lab-discipline-rules.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5f0dae72de79c5fd465bf0acd2028d6b9f613ee",
+      "size": 15312,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/a5f0dae72de79c5fd465bf0acd2028d6b9f613ee"
+    },
+    {
+      "path": "docs/verification/hardened-lab",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1c4b546ffbbef66ba272a1c799577c6dfc356aa1",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/1c4b546ffbbef66ba272a1c799577c6dfc356aa1"
+    },
+    {
+      "path": "docs/verification/hardened-lab/app.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "127d48cc2bc29baec4e4e88012435f6ca31cb346",
+      "size": 10889,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/127d48cc2bc29baec4e4e88012435f6ca31cb346"
+    },
+    {
+      "path": "docs/verification/jenkins-cve-2024-23897.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "196556f656e29b8110ef759d473aa2c7a61db66b",
+      "size": 9411,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/196556f656e29b8110ef759d473aa2c7a61db66b"
+    },
+    {
+      "path": "docs/verification/juice-shop-2026-05-15.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e4b4f32379026c79a7fd01f2a45dd7100158068",
+      "size": 16909,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/5e4b4f32379026c79a7fd01f2a45dd7100158068"
+    },
+    {
+      "path": "docs/verification/phase2e-jwt-graphql-race.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54d22401a2cffb5718a33c6990658aa2ced97e84",
+      "size": 10097,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/54d22401a2cffb5718a33c6990658aa2ced97e84"
+    },
+    {
+      "path": "docs/verification/phase2e-lab",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "352849289818b76225d425626eed87fa949b20b8",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/352849289818b76225d425626eed87fa949b20b8"
+    },
+    {
+      "path": "docs/verification/phase2e-lab/app.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94ee4af6d1163f6ac7f462205abea3b6199e9070",
+      "size": 13011,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/94ee4af6d1163f6ac7f462205abea3b6199e9070"
+    },
+    {
+      "path": "docs/verification/phase2f-lab",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4850c1bd0ed643e71825d29f43afac1be0f952fe",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/4850c1bd0ed643e71825d29f43afac1be0f952fe"
+    },
+    {
+      "path": "docs/verification/phase2f-lab/app.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e52e4b45df1cf1fae3402b673f5f998eff54a9e",
+      "size": 6859,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/2e52e4b45df1cf1fae3402b673f5f998eff54a9e"
+    },
+    {
+      "path": "docs/verification/phase2f-ssti-oauth-fileupload.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "edabca2990176437ca12afc02c1e6237b065ef35",
+      "size": 12471,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/edabca2990176437ca12afc02c1e6237b065ef35"
+    },
+    {
+      "path": "docs/verification/phase2g-lab",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "db979f4a5b74ff584fb7647a701259a56cfeff85",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/db979f4a5b74ff584fb7647a701259a56cfeff85"
+    },
+    {
+      "path": "docs/verification/phase2g-lab/app.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c2b431fe9ce6726223e705db165970105845304",
+      "size": 7634,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/3c2b431fe9ce6726223e705db165970105845304"
+    },
+    {
+      "path": "docs/verification/phase2g-saml-mfa-xxe.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fcef815f164f33a5e4e7aa229628bb99bff1dac7",
+      "size": 9616,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/fcef815f164f33a5e4e7aa229628bb99bff1dac7"
+    },
+    {
+      "path": "docs/verification/phase2h-lab",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0d5218d2dcdc2ffb263c6b204cf2877cd10e3520",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/0d5218d2dcdc2ffb263c6b204cf2877cd10e3520"
+    },
+    {
+      "path": "docs/verification/phase2h-lab/docker-compose.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27c6986efeba75fccec677249fed5412128e7ca1",
+      "size": 231,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/27c6986efeba75fccec677249fed5412128e7ca1"
+    },
+    {
+      "path": "docs/verification/phase2h-lab/nginx",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "32e15cb6ee26818d5913fec8a34d733eb56fb91d",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/32e15cb6ee26818d5913fec8a34d733eb56fb91d"
+    },
+    {
+      "path": "docs/verification/phase2h-lab/nginx/Dockerfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a29d7c2532ca41713bfb754262d61a2e325eb047",
+      "size": 64,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/a29d7c2532ca41713bfb754262d61a2e325eb047"
+    },
+    {
+      "path": "docs/verification/phase2h-lab/nginx/nginx.conf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f39dfe75ab4f8f47f9ecac5b6e43efb795f1f7cd",
+      "size": 1097,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/f39dfe75ab4f8f47f9ecac5b6e43efb795f1f7cd"
+    },
+    {
+      "path": "docs/verification/phase2h-lab/origin",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "488641045f3a6c32343afcc42f8b2f455801c864",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/488641045f3a6c32343afcc42f8b2f455801c864"
+    },
+    {
+      "path": "docs/verification/phase2h-lab/origin/Dockerfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5e81cf0711adebc273237267c6f32a852b594d1",
+      "size": 304,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/b5e81cf0711adebc273237267c6f32a852b594d1"
+    },
+    {
+      "path": "docs/verification/phase2h-lab/origin/app.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7ef850bbf8625ccca0b2fc63137beb4fba31fab",
+      "size": 2322,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/e7ef850bbf8625ccca0b2fc63137beb4fba31fab"
+    },
+    {
+      "path": "docs/verification/phase2h-smuggling-cachepoison.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49f0aa7cae125130dd7343710835a8da0890c1ca",
+      "size": 8266,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/49f0aa7cae125130dd7343710835a8da0890c1ca"
+    },
+    {
+      "path": "docs/verification/phase2i-lab",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dd4293ab59038aefab6063178dea656d203cf9ed",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/dd4293ab59038aefab6063178dea656d203cf9ed"
+    },
+    {
+      "path": "docs/verification/phase2i-lab/app.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "916ed5cbb18ab23a5de3d6239b95f39399e9a1d5",
+      "size": 9876,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/916ed5cbb18ab23a5de3d6239b95f39399e9a1d5"
+    },
+    {
+      "path": "docs/verification/phase2i-llm-ato.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26abad3d1b34fb9ad62fb2c43f231397833ce18b",
+      "size": 8715,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/26abad3d1b34fb9ad62fb2c43f231397833ce18b"
+    },
+    {
+      "path": "docs/verification/phase2j-cloud-localstack.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "678ba6372288e044d3573b7909442f7e78dae945",
+      "size": 8241,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/678ba6372288e044d3573b7909442f7e78dae945"
+    },
+    {
+      "path": "docs/verification/phase3-playwright-browser-execution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d4491b2c172c1dbe9553d473d6a2639ea96937a",
+      "size": 8942,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/4d4491b2c172c1dbe9553d473d6a2639ea96937a"
+    },
+    {
+      "path": "docs/verification/phase3-playwright",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2a3d8da9dd5b1d36234694d3c2ac75ccd7158090",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/2a3d8da9dd5b1d36234694d3c2ac75ccd7158090"
+    },
+    {
+      "path": "docs/verification/phase3-playwright/harness.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f0d6e49d9a46befb30f06a892cb7755657b467e",
+      "size": 8015,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/2f0d6e49d9a46befb30f06a892cb7755657b467e"
+    },
+    {
+      "path": "docs/verification/phase3-playwright/target_app.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d4b6c789959081823daf59b4371c8a0ac87d9c0f",
+      "size": 3200,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/d4b6c789959081823daf59b4371c8a0ac87d9c0f"
+    },
+    {
+      "path": "docs/verification/recon-hackerone-vdp.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5662c00966b39cc1e459dbd1a009da825178d069",
+      "size": 14151,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/5662c00966b39cc1e459dbd1a009da825178d069"
+    },
+    {
+      "path": "docs/verification/spring-cve-2022-22963.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4ae6a70da3de84a9d19d1edb431587fba0a1fb6",
+      "size": 5453,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/a4ae6a70da3de84a9d19d1edb431587fba0a1fb6"
+    },
+    {
+      "path": "engine",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "17ab22499655a85f64f83d0b3495039040c30b02",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/17ab22499655a85f64f83d0b3495039040c30b02"
+    },
+    {
+      "path": "engine/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d3b8b1cc6f2d17ebcc5aa4c5e8fb92e50248153",
+      "size": 90,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/4d3b8b1cc6f2d17ebcc5aa4c5e8fb92e50248153"
+    },
+    {
+      "path": "engine/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "15ad9cc56f3fe7378548d52be8fcdd9725dabac2",
+      "size": 5968,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/15ad9cc56f3fe7378548d52be8fcdd9725dabac2"
+    },
+    {
+      "path": "engine/agent.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2a9eb7cdf8552c35658b4e258d3ba51aa4cc985",
+      "size": 3925,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/d2a9eb7cdf8552c35658b4e258d3ba51aa4cc985"
+    },
+    {
+      "path": "engine/burp-mcp.json.example",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "440cca7ef43b75bf9616b4ef57b4a3d55a920e5e",
+      "size": 184,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/440cca7ef43b75bf9616b4ef57b4a3d55a920e5e"
+    },
+    {
+      "path": "engine/closure.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75588692b0a313bef3ffa52ac612dfdfbb3d5d35",
+      "size": 6967,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/75588692b0a313bef3ffa52ac612dfdfbb3d5d35"
+    },
+    {
+      "path": "engine/engagement.example.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85656a6d11e5f628c0c65ed3e90dbdc20614c880",
+      "size": 146,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/85656a6d11e5f628c0c65ed3e90dbdc20614c880"
+    },
+    {
+      "path": "engine/engine.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84ceec05203d7eb798aa1af6c04985fd6140f876",
+      "size": 30886,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/84ceec05203d7eb798aa1af6c04985fd6140f876"
+    },
+    {
+      "path": "engine/memory.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f339c1a3df6f57fe4f93ef205574af815dcf16ca",
+      "size": 13055,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/f339c1a3df6f57fe4f93ef205574af815dcf16ca"
+    },
+    {
+      "path": "engine/osint.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da895fd72c483420ee3146bd503b895a8610000c",
+      "size": 7513,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/da895fd72c483420ee3146bd503b895a8610000c"
+    },
+    {
+      "path": "engine/recon.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b691f91fa0bc7b73a250469b6f502b3ab431914b",
+      "size": 32951,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/b691f91fa0bc7b73a250469b6f502b3ab431914b"
+    },
+    {
+      "path": "engine/scope.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db6e3fb717111cd36aa8629128d9d4285da8bbd6",
+      "size": 8709,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/db6e3fb717111cd36aa8629128d9d4285da8bbd6"
+    },
+    {
+      "path": "engine/skill_map.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c062f31b067c2fdcc9ed1b5bf95571689de7ac26",
+      "size": 14155,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/c062f31b067c2fdcc9ed1b5bf95571689de7ac26"
+    },
+    {
+      "path": "engine/state.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55f4248ac31145250f3da2904bb6cdc9c728204c",
+      "size": 6398,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/55f4248ac31145250f3da2904bb6cdc9c728204c"
+    },
+    {
+      "path": "engine/test_agent.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "198c2bb06b0bd76917ed1845d8dbd2a9b5f09cb7",
+      "size": 1438,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/198c2bb06b0bd76917ed1845d8dbd2a9b5f09cb7"
+    },
+    {
+      "path": "engine/test_burp_config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "856815d84726ea75ce4958e29080ef15c329c032",
+      "size": 1441,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/856815d84726ea75ce4958e29080ef15c329c032"
+    },
+    {
+      "path": "engine/test_coverage_ledger.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "376f5a668e18dace5d6aa4175cd8609a7226943d",
+      "size": 6357,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/376f5a668e18dace5d6aa4175cd8609a7226943d"
+    },
+    {
+      "path": "engine/test_hunt_persistence.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7fa1a28cea454725e27d139c8d73c3f7323be80d",
+      "size": 1559,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/7fa1a28cea454725e27d139c8d73c3f7323be80d"
+    },
+    {
+      "path": "engine/test_json_fence_order.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ea66bd8bd483336c8c0112fa41ab2e94e9fc585",
+      "size": 548,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/3ea66bd8bd483336c8c0112fa41ab2e94e9fc585"
+    },
+    {
+      "path": "engine/test_ledger_observations.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b6898cb2f8766db644ad58e066e368465a35e74",
+      "size": 964,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/9b6898cb2f8766db644ad58e066e368465a35e74"
+    },
+    {
+      "path": "engine/test_ledger_records.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21bfad1b0282ff0ddb969c698c97bf6bfd1f00af",
+      "size": 789,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/21bfad1b0282ff0ddb969c698c97bf6bfd1f00af"
+    },
+    {
+      "path": "engine/test_ledger_rotation_limit.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "efe4c6f89b52994645ab91f99870c0c3f6c5de82",
+      "size": 679,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/efe4c6f89b52994645ab91f99870c0c3f6c5de82"
+    },
+    {
+      "path": "engine/test_mock_ledger.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5df922a8c0eade2277a1b4baca405980f09a08c",
+      "size": 2506,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/f5df922a8c0eade2277a1b4baca405980f09a08c"
+    },
+    {
+      "path": "engine/test_openapi_readonly.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb21851bcfff1c378a018f4afcb07eed1ce455bc",
+      "size": 1091,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/bb21851bcfff1c378a018f4afcb07eed1ce455bc"
+    },
+    {
+      "path": "engine/test_osint_probe_body.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39322e63753bac1965041e1737b8f0d1f8901f26",
+      "size": 1047,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/39322e63753bac1965041e1737b8f0d1f8901f26"
+    },
+    {
+      "path": "engine/test_phase_args.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "42187ee15a6cad08d7e0f648040e6f6c2e58b832",
+      "size": 906,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/42187ee15a6cad08d7e0f648040e6f6c2e58b832"
+    },
+    {
+      "path": "engine/test_scope_malformed_targets.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc88e80ccb6351037cb144b142a21fe925dc8d0a",
+      "size": 563,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/bc88e80ccb6351037cb144b142a21fe925dc8d0a"
+    },
+    {
+      "path": "engine/test_scope_md_rules.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f802066f5f4c935854e4015c529df0814bb4cec7",
+      "size": 1916,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/f802066f5f4c935854e4015c529df0814bb4cec7"
+    },
+    {
+      "path": "engine/test_scope_regex_escapes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e2e1f8a0a97f2eacfed67af8293029b6168aedc",
+      "size": 361,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/6e2e1f8a0a97f2eacfed67af8293029b6168aedc"
+    },
+    {
+      "path": "engine/test_validation_current_scope.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ceb89ecad38631b79ade34653e0ca0c601b6bbcf",
+      "size": 1029,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/ceb89ecad38631b79ade34653e0ca0c601b6bbcf"
+    },
+    {
+      "path": "engine/test_validation_resume.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d4807fc3ac29223585fb74088ddd3283f3807883",
+      "size": 2078,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/d4807fc3ac29223585fb74088ddd3283f3807883"
+    },
+    {
+      "path": "engine/test_verdicts.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4fe868984b7bc9df7e827f17512339df3a316e46",
+      "size": 1684,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/4fe868984b7bc9df7e827f17512339df3a316e46"
+    },
+    {
+      "path": "engine/test_windows_encoding.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8542eabdc4957c3630e51bcac843607738f5399f",
+      "size": 1467,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/8542eabdc4957c3630e51bcac843607738f5399f"
+    },
+    {
+      "path": "engine/test_worker_errors.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66b07c259305a13796915f886b1922c340cf52cf",
+      "size": 1070,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/66b07c259305a13796915f886b1922c340cf52cf"
+    },
+    {
+      "path": "eval",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "117aa2cce65461b03191fdad079e2d96743ed385",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/117aa2cce65461b03191fdad079e2d96743ed385"
+    },
+    {
+      "path": "eval/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6aedbf0c98737099ba8fa1bf1fd5f010644e7e2",
+      "size": 126,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/d6aedbf0c98737099ba8fa1bf1fd5f010644e7e2"
+    },
+    {
+      "path": "eval/BASELINE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98ad6ba541429c1906cc222ac5978e40eb979e00",
+      "size": 2464,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/98ad6ba541429c1906cc222ac5978e40eb979e00"
+    },
+    {
+      "path": "eval/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3861f5e4f9a6443a0778d0e76350ad7fedb4951",
+      "size": 5438,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/d3861f5e4f9a6443a0778d0e76350ad7fedb4951"
+    },
+    {
+      "path": "eval/burp-mcp.json.example",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "440cca7ef43b75bf9616b4ef57b4a3d55a920e5e",
+      "size": 184,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/440cca7ef43b75bf9616b4ef57b4a3d55a920e5e"
+    },
+    {
+      "path": "eval/challenges.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fdc0ac040a4d11856b7ca14bee81d1161c61121c",
+      "size": 1346,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/fdc0ac040a4d11856b7ca14bee81d1161c61121c"
+    },
+    {
+      "path": "eval/fp_app.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ff0c5a5ef666c3506ac8f8d4c81ebf2d50cb2b8",
+      "size": 4840,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/7ff0c5a5ef666c3506ac8f8d4c81ebf2d50cb2b8"
+    },
+    {
+      "path": "eval/fp_cases.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a36aef2233ed063879f1bdb43819c03ededc8e9",
+      "size": 2399,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/6a36aef2233ed063879f1bdb43819c03ededc8e9"
+    },
+    {
+      "path": "eval/oracle_portswigger.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a505d7dfffa719cb4ba1f05b6867d889014b7cf",
+      "size": 3207,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/9a505d7dfffa719cb4ba1f05b6867d889014b7cf"
+    },
+    {
+      "path": "eval/ps_labs.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e74ffe59952c8153027749c1dd3ca514fd134ba",
+      "size": 3078,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/1e74ffe59952c8153027749c1dd3ca514fd134ba"
+    },
+    {
+      "path": "eval/ps_labs_hard.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4bab072009bebdc9baa951acfce1c98fcc3a6966",
+      "size": 2334,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/4bab072009bebdc9baa951acfce1c98fcc3a6966"
+    },
+    {
+      "path": "eval/run_eval.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c673725e218eaa92ab5cd89cfa4d8fda1e7651a1",
+      "size": 10235,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/c673725e218eaa92ab5cd89cfa4d8fda1e7651a1"
+    },
+    {
+      "path": "eval/run_eval_ps.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33be568244287945d4db8f185dc8b0c573eaf54d",
+      "size": 6879,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/33be568244287945d4db8f185dc8b0c573eaf54d"
+    },
+    {
+      "path": "eval/run_eval_ps_auto.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a56abd6580b3e84613852f18e9693a9b527d63d",
+      "size": 8635,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/4a56abd6580b3e84613852f18e9693a9b527d63d"
+    },
+    {
+      "path": "eval/run_eval_ps_par.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ca6cd61d3ea777a59b2d6ebd0385a779ddfa3cd",
+      "size": 5897,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/4ca6cd61d3ea777a59b2d6ebd0385a779ddfa3cd"
+    },
+    {
+      "path": "eval/run_fp.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6102dfc00cf371edfdaf38e26e114f210ffa183c",
+      "size": 6979,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/6102dfc00cf371edfdaf38e26e114f210ffa183c"
+    },
+    {
+      "path": "eval/test_harness.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba6e52f8d8201c81c0cab551421fcd04ad4ba034",
+      "size": 5703,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/ba6e52f8d8201c81c0cab551421fcd04ad4ba034"
+    },
+    {
+      "path": "mcp",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a03ba03df559c3d04b30a9408e84484ae7435b97",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/a03ba03df559c3d04b30a9408e84484ae7435b97"
+    },
+    {
+      "path": "mcp/hackerone",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a3ac1b5180863f918f1c6f897c57b838165ac105",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/a3ac1b5180863f918f1c6f897c57b838165ac105"
+    },
+    {
+      "path": "mcp/hackerone/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b45af52e57d0776033d08ccbfd6b72a2120f6ea",
+      "size": 2644,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/6b45af52e57d0776033d08ccbfd6b72a2120f6ea"
+    },
+    {
+      "path": "mcp/hackerone/server.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4da428db3009e6f9696fabbba976812a06840cc0",
+      "size": 22455,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/4da428db3009e6f9696fabbba976812a06840cc0"
+    },
+    {
+      "path": "pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b13dee2ff9b5bf6c19b0aba378dfc850a151ea4",
+      "size": 885,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/3b13dee2ff9b5bf6c19b0aba378dfc850a151ea4"
+    },
+    {
+      "path": "research",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "83588b85da322150aa28035f59f59edbe68741af",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/83588b85da322150aa28035f59f59edbe68741af"
+    },
+    {
+      "path": "research/reports",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "da5f39fd90147d6a08af9c44bb08c58cd5c5b21e",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/da5f39fd90147d6a08af9c44bb08c58cd5c5b21e"
+    },
+    {
+      "path": "research/reports/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb2fcd91f9490f0b8eb7e2f45e5f908fba8b4ab0",
+      "size": 3758,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/bb2fcd91f9490f0b8eb7e2f45e5f908fba8b4ab0"
+    },
+    {
+      "path": "research/reports/classify_reports.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7bddb53ced97a024c470cc6d492116c396f17cad",
+      "size": 8940,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/7bddb53ced97a024c470cc6d492116c396f17cad"
+    },
+    {
+      "path": "research/reports/draft_patterns.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57d357ec52fc2794f7c0aacb2cc742700e3c5de9",
+      "size": 4118,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/57d357ec52fc2794f7c0aacb2cc742700e3c5de9"
+    },
+    {
+      "path": "research/reports/harvest_bugcrowd.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2ceb4f55dd5b8b8e05ae31d1fae1bf704fbd443",
+      "size": 2654,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/a2ceb4f55dd5b8b8e05ae31d1fae1bf704fbd443"
+    },
+    {
+      "path": "research/reports/harvest_h1.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "03ce88451367fb6db06ecffba8290646014f93c8",
+      "size": 8385,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/03ce88451367fb6db06ecffba8290646014f93c8"
+    },
+    {
+      "path": "research/reports/harvest_intigriti.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c73554538c6cd56a26d2171ebb9ab81ccae85961",
+      "size": 1215,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/c73554538c6cd56a26d2171ebb9ab81ccae85961"
+    },
+    {
+      "path": "research/reports/report_coverage.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6af443988d456aa5ffb790bfa5b3feae1a48cb0f",
+      "size": 3802,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/6af443988d456aa5ffb790bfa5b3feae1a48cb0f"
+    },
+    {
+      "path": "research/reports/test_citation_identity.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29b0efd3140eac2091440307cde9e3d35b354a2b",
+      "size": 2775,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/29b0efd3140eac2091440307cde9e3d35b354a2b"
+    },
+    {
+      "path": "research/reports/test_pipeline.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e05dfb7cafd61c45b32d6453900e37f27d0bb724",
+      "size": 4599,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/e05dfb7cafd61c45b32d6453900e37f27d0bb724"
+    },
+    {
+      "path": "research/reports/verify_citations.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd7cf6c524d39d4fc25eb7c4b4c8d77445cb2249",
+      "size": 4420,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/fd7cf6c524d39d4fc25eb7c4b4c8d77445cb2249"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "18aa8484ac956b442d345e2eec5138e90a2a614a",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/18aa8484ac956b442d345e2eec5138e90a2a614a"
+    },
+    {
+      "path": "scripts/.identifier-denylist.sha256",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ab3d0ebd451c87aa5c0d81e9b972e68e0e04d34",
+      "size": 1364,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/3ab3d0ebd451c87aa5c0d81e9b972e68e0e04d34"
+    },
+    {
+      "path": "scripts/cbh.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ae781f8abe90c466be03d93242251d18389b128",
+      "size": 516,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/3ae781f8abe90c466be03d93242251d18389b128"
+    },
+    {
+      "path": "scripts/check_doc_counts.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1c606cf21b1e0934907d920b41100db6a0c0701",
+      "size": 6677,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/c1c606cf21b1e0934907d920b41100db6a0c0701"
+    },
+    {
+      "path": "scripts/gen_skill_catalog.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43fd9eabb7f8916cbc50981e72e37cbb2f3e165b",
+      "size": 4532,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/43fd9eabb7f8916cbc50981e72e37cbb2f3e165b"
+    },
+    {
+      "path": "scripts/gen_skill_index.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "013fe80ac4282f233a42618172410debc409e367",
+      "size": 2211,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/013fe80ac4282f233a42618172410debc409e367"
+    },
+    {
+      "path": "scripts/gen_star_history.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "0c4b3c77469dfecdb8499bf4fecdd5fa1299192e",
+      "size": 6931,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/0c4b3c77469dfecdb8499bf4fecdd5fa1299192e"
+    },
+    {
+      "path": "scripts/hunt.ps1",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "732b648442159c9efaa736d885f03ba88251cee4",
+      "size": 11548,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/732b648442159c9efaa736d885f03ba88251cee4"
+    },
+    {
+      "path": "scripts/hunt.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c2be194fd42cb5c864de64d169b5c06cbe007db",
+      "size": 10412,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/8c2be194fd42cb5c864de64d169b5c06cbe007db"
+    },
+    {
+      "path": "scripts/install-community-skills.ps1",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68ac376a1e18d9a2ac19e6ff824251ab214f1153",
+      "size": 5521,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/68ac376a1e18d9a2ac19e6ff824251ab214f1153"
+    },
+    {
+      "path": "scripts/install-community-skills.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "cf0701253aafef5149815a56c215b8c07ff6be56",
+      "size": 3636,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/cf0701253aafef5149815a56c215b8c07ff6be56"
+    },
+    {
+      "path": "scripts/install.ps1",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "331dec32da8375be763cabc75d3fedda6501974d",
+      "size": 22087,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/331dec32da8375be763cabc75d3fedda6501974d"
+    },
+    {
+      "path": "scripts/install.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "35604067eab0bce9c77ef1de9ad3537ec68cf894",
+      "size": 17478,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/35604067eab0bce9c77ef1de9ad3537ec68cf894"
+    },
+    {
+      "path": "scripts/lint_skills.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4b4be99ab19c1840375bbba62549d0dc3fa0f70",
+      "size": 11152,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/b4b4be99ab19c1840375bbba62549d0dc3fa0f70"
+    },
+    {
+      "path": "scripts/refresh-cve-index.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "597d8855fb6b7103b94e252e22f49f6898ac0379",
+      "size": 8381,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/597d8855fb6b7103b94e252e22f49f6898ac0379"
+    },
+    {
+      "path": "scripts/scan_identifiers.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "3f36834630249bbf397c3df01e2443f78e711c50",
+      "size": 6739,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/3f36834630249bbf397c3df01e2443f78e711c50"
+    },
+    {
+      "path": "scripts/setup_harness_mcp.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "e4f38743c53f0c1909f0bab406a5ea1cd8dbf4ee",
+      "size": 11928,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/e4f38743c53f0c1909f0bab406a5ea1cd8dbf4ee"
+    },
+    {
+      "path": "scripts/test_scan_identifiers.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "f78cf32ddf5d98ded466c95b5cad4723f59e425e",
+      "size": 4087,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/f78cf32ddf5d98ded466c95b5cad4723f59e425e"
+    },
+    {
+      "path": "scripts/test_triage.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "23d59add1a6bad6eb9b5fc127a862e1945148860",
+      "size": 2945,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/23d59add1a6bad6eb9b5fc127a862e1945148860"
+    },
+    {
+      "path": "skills",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b9d9e70acf6b3564eb2a947e315f07809b13aa06",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/b9d9e70acf6b3564eb2a947e315f07809b13aa06"
+    },
+    {
+      "path": "skills/apk-redteam-pipeline",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a1c1ce153ae18150f18c959b6d82264d39f26549",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/a1c1ce153ae18150f18c959b6d82264d39f26549"
+    },
+    {
+      "path": "skills/apk-redteam-pipeline/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ea9dc7651e772e3b6ceb628401e95d901862654",
+      "size": 17754,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/6ea9dc7651e772e3b6ceb628401e95d901862654"
+    },
+    {
+      "path": "skills/bb-local-toolkit",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a173c8096aa4784b96d32c0772d6ab5dff5c0a9e",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/a173c8096aa4784b96d32c0772d6ab5dff5c0a9e"
+    },
+    {
+      "path": "skills/bb-local-toolkit/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6b0554ad0f41f0b68d5b0d1d0fa17a7a7436823",
+      "size": 73500,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/a6b0554ad0f41f0b68d5b0d1d0fa17a7a7436823"
+    },
+    {
+      "path": "skills/bb-methodology",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dfacf31b6b0f07ca0f0e99c926c46c8519e76079",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/dfacf31b6b0f07ca0f0e99c926c46c8519e76079"
+    },
+    {
+      "path": "skills/bb-methodology/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9006bb32990ef4e1f59595f23f9a9b5c962f57a6",
+      "size": 29608,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/9006bb32990ef4e1f59595f23f9a9b5c962f57a6"
+    },
+    {
+      "path": "skills/bug-bounty",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5f57c4b2a36aa6d30011d6391679027fd754faf7",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/5f57c4b2a36aa6d30011d6391679027fd754faf7"
+    },
+    {
+      "path": "skills/bug-bounty/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a56ed2bc4872bc940b7e415785b8ae51bf76625",
+      "size": 77087,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/1a56ed2bc4872bc940b7e415785b8ae51bf76625"
+    },
+    {
+      "path": "skills/bugcrowd-reporting",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "622deddb5608c84df3f8cf3c8a2b5bde617ca28e",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/622deddb5608c84df3f8cf3c8a2b5bde617ca28e"
+    },
+    {
+      "path": "skills/bugcrowd-reporting/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "daa93e11f19e82fa8628256f17a3a8f323e8080f",
+      "size": 23149,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/daa93e11f19e82fa8628256f17a3a8f323e8080f"
+    },
+    {
+      "path": "skills/cloud-iam-deep",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ad373c0435ef8ca99807d8009536970aa29ab39a",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/ad373c0435ef8ca99807d8009536970aa29ab39a"
+    },
+    {
+      "path": "skills/cloud-iam-deep/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19aba18c86d8bff11010037fac84006926eeaa21",
+      "size": 25564,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/19aba18c86d8bff11010037fac84006926eeaa21"
+    },
+    {
+      "path": "skills/enterprise-vpn-attack",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "61e360125ad7726efe6ab84cde599020957460dc",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/61e360125ad7726efe6ab84cde599020957460dc"
+    },
+    {
+      "path": "skills/enterprise-vpn-attack/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b860662355d3afc5169284e2ca2c8fc4f01896f4",
+      "size": 17269,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/b860662355d3afc5169284e2ca2c8fc4f01896f4"
+    },
+    {
+      "path": "skills/evidence-hygiene",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "36029e56eb866cb74b1cf85fe113ebf99e0728eb",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/36029e56eb866cb74b1cf85fe113ebf99e0728eb"
+    },
+    {
+      "path": "skills/evidence-hygiene/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "159952c88f49996053f7833f86280f00a65007dd",
+      "size": 18543,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/159952c88f49996053f7833f86280f00a65007dd"
+    },
+    {
+      "path": "skills/hunt-api-misconfig",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0da4ccfcdc4845e0619dd1e39267f92beccc5e52",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/0da4ccfcdc4845e0619dd1e39267f92beccc5e52"
+    },
+    {
+      "path": "skills/hunt-api-misconfig/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca6d677caca6cb4c3723dd55c691ee0cc22c0109",
+      "size": 17969,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/ca6d677caca6cb4c3723dd55c691ee0cc22c0109"
+    },
+    {
+      "path": "skills/hunt-aspnet",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c6f9c9dd1cf9f70d1f6b32cbb345e1d14d6197c2",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/c6f9c9dd1cf9f70d1f6b32cbb345e1d14d6197c2"
+    },
+    {
+      "path": "skills/hunt-aspnet/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e31a1ff06d7cc68218f7864b429a2250de3da95a",
+      "size": 19858,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/e31a1ff06d7cc68218f7864b429a2250de3da95a"
+    },
+    {
+      "path": "skills/hunt-ato",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9e03f26ed49c9c23a466a9bf99930e6134ad5a50",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/9e03f26ed49c9c23a466a9bf99930e6134ad5a50"
+    },
+    {
+      "path": "skills/hunt-ato/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1ffc0b90ca17fa198bdd29ac4ed66368d7020f6",
+      "size": 13581,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/a1ffc0b90ca17fa198bdd29ac4ed66368d7020f6"
+    },
+    {
+      "path": "skills/hunt-auth-bypass",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "29f6be8f046820bb4e518248e41b2fa838406d9b",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/29f6be8f046820bb4e518248e41b2fa838406d9b"
+    },
+    {
+      "path": "skills/hunt-auth-bypass/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a03d38cb63e21950f72af6d56baddad7e70955f",
+      "size": 32858,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/3a03d38cb63e21950f72af6d56baddad7e70955f"
+    },
+    {
+      "path": "skills/hunt-brute-force",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5114ffd8efb0412fb6a3b2e25570bc0254afe49f",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/5114ffd8efb0412fb6a3b2e25570bc0254afe49f"
+    },
+    {
+      "path": "skills/hunt-brute-force/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b182738de4100f8a92c77e936e01484f653beea",
+      "size": 17766,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/9b182738de4100f8a92c77e936e01484f653beea"
+    },
+    {
+      "path": "skills/hunt-business-logic",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3ae9a2bca6c1ad03c1df225b576d7a33db1de4b7",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/3ae9a2bca6c1ad03c1df225b576d7a33db1de4b7"
+    },
+    {
+      "path": "skills/hunt-business-logic/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "205d79b073f2b764f9fc52837ed54a119c2c3adc",
+      "size": 17527,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/205d79b073f2b764f9fc52837ed54a119c2c3adc"
+    },
+    {
+      "path": "skills/hunt-cache-poison",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2e2677fc02dd5d036802ede255c09c5fff7ef0b6",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/2e2677fc02dd5d036802ede255c09c5fff7ef0b6"
+    },
+    {
+      "path": "skills/hunt-cache-poison/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "374659c80c9532db47e14f4cebfdc2361c587beb",
+      "size": 23120,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/374659c80c9532db47e14f4cebfdc2361c587beb"
+    },
+    {
+      "path": "skills/hunt-captcha-bypass",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f0954e5025b3fc3cef32ae30bb5a1a87006bbc89",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/f0954e5025b3fc3cef32ae30bb5a1a87006bbc89"
+    },
+    {
+      "path": "skills/hunt-captcha-bypass/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "034e7745916c992927bf12d2048019f2acf7dfce",
+      "size": 6168,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/034e7745916c992927bf12d2048019f2acf7dfce"
+    },
+    {
+      "path": "skills/hunt-cicd",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "89e72ee4065255e3d90f817a7f3ff43795c3f2fc",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/89e72ee4065255e3d90f817a7f3ff43795c3f2fc"
+    },
+    {
+      "path": "skills/hunt-cicd/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4279e4fe1e7999f26a3e9d0d089e5daea2402a8",
+      "size": 18085,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/b4279e4fe1e7999f26a3e9d0d089e5daea2402a8"
+    },
+    {
+      "path": "skills/hunt-clickjacking",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "59aab22b62b46597867fc87e36cfdea446bd16e3",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/59aab22b62b46597867fc87e36cfdea446bd16e3"
+    },
+    {
+      "path": "skills/hunt-clickjacking/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b7d6d7226ae4b3228740e437ee3c7803c2e4107",
+      "size": 4225,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/2b7d6d7226ae4b3228740e437ee3c7803c2e4107"
+    },
+    {
+      "path": "skills/hunt-cloud-misconfig",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "39824e9c9ba63ed488dc004db7341923da7ee221",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/39824e9c9ba63ed488dc004db7341923da7ee221"
+    },
+    {
+      "path": "skills/hunt-cloud-misconfig/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c9b67bc94e66f551169c8c7e24f4a1e626af8df",
+      "size": 12806,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/9c9b67bc94e66f551169c8c7e24f4a1e626af8df"
+    },
+    {
+      "path": "skills/hunt-cors",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3dd52030e37304ed5c7265088082803eec18254a",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/3dd52030e37304ed5c7265088082803eec18254a"
+    },
+    {
+      "path": "skills/hunt-cors/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e8c5d2ca812f60dbd083b17f80f79d8428f51bd",
+      "size": 14661,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/3e8c5d2ca812f60dbd083b17f80f79d8428f51bd"
+    },
+    {
+      "path": "skills/hunt-csrf",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "330336f6f963816541c988898fd2b1dd0cd8f2d4",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/330336f6f963816541c988898fd2b1dd0cd8f2d4"
+    },
+    {
+      "path": "skills/hunt-csrf/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf98d143f91db164350644b59be24e8583fe76cc",
+      "size": 26748,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/cf98d143f91db164350644b59be24e8583fe76cc"
+    },
+    {
+      "path": "skills/hunt-deserialization",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "10366546278a33c25951ee55a9e4e8df4fadda1e",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/10366546278a33c25951ee55a9e4e8df4fadda1e"
+    },
+    {
+      "path": "skills/hunt-deserialization/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a95121045ac6100d98927379e075f2a142d55595",
+      "size": 6118,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/a95121045ac6100d98927379e075f2a142d55595"
+    },
+    {
+      "path": "skills/hunt-dispatch",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f347a3e1a5f3a2c803f891eb58fb6c5b39e5d658",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/f347a3e1a5f3a2c803f891eb58fb6c5b39e5d658"
+    },
+    {
+      "path": "skills/hunt-dispatch/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af35450ca038523214469276bf71b83ccc2b7fed",
+      "size": 17682,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/af35450ca038523214469276bf71b83ccc2b7fed"
+    },
+    {
+      "path": "skills/hunt-dom",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c9185a3e609c33441ea39f8136b810026583ba8d",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/c9185a3e609c33441ea39f8136b810026583ba8d"
+    },
+    {
+      "path": "skills/hunt-dom/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c4360478495dfa266be6388b9abec8bb787cf51",
+      "size": 17043,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/9c4360478495dfa266be6388b9abec8bb787cf51"
+    },
+    {
+      "path": "skills/hunt-exceptional-conditions",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f86d2377a108322dcb0aa3dd2c28a3305a75901c",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/f86d2377a108322dcb0aa3dd2c28a3305a75901c"
+    },
+    {
+      "path": "skills/hunt-exceptional-conditions/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc9ca4f5697b749f7a227106e54150feae5b987b",
+      "size": 3160,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/bc9ca4f5697b749f7a227106e54150feae5b987b"
+    },
+    {
+      "path": "skills/hunt-file-upload",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8ddd0b838ee40be38c010c06310c7c131f215ae8",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/8ddd0b838ee40be38c010c06310c7c131f215ae8"
+    },
+    {
+      "path": "skills/hunt-file-upload/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4aefa6aa2600e1482db2708bc3f6f0a62761ada",
+      "size": 7963,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/a4aefa6aa2600e1482db2708bc3f6f0a62761ada"
+    },
+    {
+      "path": "skills/hunt-fintech-graphql",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1a1452e575d8cc98da0c00d7e42d58473cf2655a",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/1a1452e575d8cc98da0c00d7e42d58473cf2655a"
+    },
+    {
+      "path": "skills/hunt-fintech-graphql/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23a1cbc634317f24a19bbf4c517757b593eaaadc",
+      "size": 14071,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/23a1cbc634317f24a19bbf4c517757b593eaaadc"
+    },
+    {
+      "path": "skills/hunt-forgot-password",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b978a1f622b6006f7619eb5508e7ce0847d7d677",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/b978a1f622b6006f7619eb5508e7ce0847d7d677"
+    },
+    {
+      "path": "skills/hunt-forgot-password/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "928da0550a1d76d59bbfaaf3078112f409f4e60c",
+      "size": 5805,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/928da0550a1d76d59bbfaaf3078112f409f4e60c"
+    },
+    {
+      "path": "skills/hunt-graphql",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2ed6716e6fa031d6638d6766657b76366a1f92c2",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/2ed6716e6fa031d6638d6766657b76366a1f92c2"
+    },
+    {
+      "path": "skills/hunt-graphql/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "076dc94e62b5955c87788ae478ce9af22deae370",
+      "size": 20616,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/076dc94e62b5955c87788ae478ce9af22deae370"
+    },
+    {
+      "path": "skills/hunt-grpc",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fca675924fc194b803d6aeaedf4761fff2e24997",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/fca675924fc194b803d6aeaedf4761fff2e24997"
+    },
+    {
+      "path": "skills/hunt-grpc/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e97eb48b89ec7cb8dbde78b9267766910224696",
+      "size": 17266,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/0e97eb48b89ec7cb8dbde78b9267766910224696"
+    },
+    {
+      "path": "skills/hunt-host-header",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1953226774ed16396ea714ffacdd142cac47dce4",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/1953226774ed16396ea714ffacdd142cac47dce4"
+    },
+    {
+      "path": "skills/hunt-host-header/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "42b1ee0d6c804c66f81f9af504c0c093a5a996b9",
+      "size": 14101,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/42b1ee0d6c804c66f81f9af504c0c093a5a996b9"
+    },
+    {
+      "path": "skills/hunt-html-injection",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c2c25ecf1c199a1f687d6fe39bb94791bf0023b8",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/c2c25ecf1c199a1f687d6fe39bb94791bf0023b8"
+    },
+    {
+      "path": "skills/hunt-html-injection/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b751fd6e9d18d17068a147835ddc92e23d971b6",
+      "size": 4421,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/7b751fd6e9d18d17068a147835ddc92e23d971b6"
+    },
+    {
+      "path": "skills/hunt-http-smuggling",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "496fcd93f36dc37b3ce3d207baa099183c0d6eec",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/496fcd93f36dc37b3ce3d207baa099183c0d6eec"
+    },
+    {
+      "path": "skills/hunt-http-smuggling/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33651b1dd2a705d02d4fb11627450adbcc78b070",
+      "size": 7501,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/33651b1dd2a705d02d4fb11627450adbcc78b070"
+    },
+    {
+      "path": "skills/hunt-idor",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4bafee5d63968bc70e55b556591bddd42ec7d1ff",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/4bafee5d63968bc70e55b556591bddd42ec7d1ff"
+    },
+    {
+      "path": "skills/hunt-idor/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46b0b8dd12e79937ac741717f2893155a4a1936f",
+      "size": 21457,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/46b0b8dd12e79937ac741717f2893155a4a1936f"
+    },
+    {
+      "path": "skills/hunt-jwt-crypto",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9ca570ea6b2e5f9627f407864a9cfee70c4141e8",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/9ca570ea6b2e5f9627f407864a9cfee70c4141e8"
+    },
+    {
+      "path": "skills/hunt-jwt-crypto/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d2f4bc483c346c56f48e420fde3101eec62ad79",
+      "size": 9173,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/4d2f4bc483c346c56f48e420fde3101eec62ad79"
+    },
+    {
+      "path": "skills/hunt-k8s",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2d2616c415560eb51e3c0052c00456e8daf12260",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/2d2616c415560eb51e3c0052c00456e8daf12260"
+    },
+    {
+      "path": "skills/hunt-k8s/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b9506c2ad476cd6d58cb00656c21af1b9e159cc",
+      "size": 20147,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/0b9506c2ad476cd6d58cb00656c21af1b9e159cc"
+    },
+    {
+      "path": "skills/hunt-laravel",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "80f786b56795018d14af9158fa424f409bed8994",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/80f786b56795018d14af9158fa424f409bed8994"
+    },
+    {
+      "path": "skills/hunt-laravel/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b03e479aab474846299bfa636930db2b4e730f78",
+      "size": 8111,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/b03e479aab474846299bfa636930db2b4e730f78"
+    },
+    {
+      "path": "skills/hunt-ldap",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ff7448d8ba51bc8efc87ed9b7220f3c0283385df",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/ff7448d8ba51bc8efc87ed9b7220f3c0283385df"
+    },
+    {
+      "path": "skills/hunt-ldap/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2969ca1986eacdb8012b11f403739ae5eb772d3a",
+      "size": 15346,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/2969ca1986eacdb8012b11f403739ae5eb772d3a"
+    },
+    {
+      "path": "skills/hunt-lfi",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7f4f2abf29d41b2a05fe05c501d29637b8e77cf2",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/7f4f2abf29d41b2a05fe05c501d29637b8e77cf2"
+    },
+    {
+      "path": "skills/hunt-lfi/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9203a98b96b0a68dfcdd68924699cf617749e0c9",
+      "size": 16865,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/9203a98b96b0a68dfcdd68924699cf617749e0c9"
+    },
+    {
+      "path": "skills/hunt-llm-ai",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "88afbefe476dfacc306d43c431d13509abec6ebd",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/88afbefe476dfacc306d43c431d13509abec6ebd"
+    },
+    {
+      "path": "skills/hunt-llm-ai/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27ec152c2b059f8b80d61b8889415e7fa375ebf7",
+      "size": 16143,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/27ec152c2b059f8b80d61b8889415e7fa375ebf7"
+    },
+    {
+      "path": "skills/hunt-mfa-bypass",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a7b5d867538a742e02ade3aaea4f6347ddfdecb1",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/a7b5d867538a742e02ade3aaea4f6347ddfdecb1"
+    },
+    {
+      "path": "skills/hunt-mfa-bypass/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "584f3dc7df0a80814dc89a1d1e8122571cdaef74",
+      "size": 8809,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/584f3dc7df0a80814dc89a1d1e8122571cdaef74"
+    },
+    {
+      "path": "skills/hunt-misc",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2c1ce6ac5d3a15b7a40a7d1a239bca8283b68981",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/2c1ce6ac5d3a15b7a40a7d1a239bca8283b68981"
+    },
+    {
+      "path": "skills/hunt-misc/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce48e1c21aa806f64d6a2b065161f9d42daa6e56",
+      "size": 23689,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/ce48e1c21aa806f64d6a2b065161f9d42daa6e56"
+    },
+    {
+      "path": "skills/hunt-nextjs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4c79fdb14f3ddcfcfc6066ba506e729ced8e65d5",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/4c79fdb14f3ddcfcfc6066ba506e729ced8e65d5"
+    },
+    {
+      "path": "skills/hunt-nextjs/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64dc6144bf460ba2a4f2faf6190e85c50bd86e29",
+      "size": 10696,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/64dc6144bf460ba2a4f2faf6190e85c50bd86e29"
+    },
+    {
+      "path": "skills/hunt-nodejs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3864d5445894af277a2d4c5db066b2d2333e340e",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/3864d5445894af277a2d4c5db066b2d2333e340e"
+    },
+    {
+      "path": "skills/hunt-nodejs/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b02d182419ae1d4be13ac33b4f691ccf3fc23e93",
+      "size": 8013,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/b02d182419ae1d4be13ac33b4f691ccf3fc23e93"
+    },
+    {
+      "path": "skills/hunt-nosqli",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f7ac01dc588a80f737b77819769bc008da5dcd91",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/f7ac01dc588a80f737b77819769bc008da5dcd91"
+    },
+    {
+      "path": "skills/hunt-nosqli/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2f0235d661e3d30495aab61282db60628617ec9",
+      "size": 5631,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/b2f0235d661e3d30495aab61282db60628617ec9"
+    },
+    {
+      "path": "skills/hunt-ntlm-info",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ad1724311861e012ebb5f44c0211fb2c690f0aa4",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/ad1724311861e012ebb5f44c0211fb2c690f0aa4"
+    },
+    {
+      "path": "skills/hunt-ntlm-info/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1af3199b06007ca9c3f36c1fd4a420640c7f0081",
+      "size": 16826,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/1af3199b06007ca9c3f36c1fd4a420640c7f0081"
+    },
+    {
+      "path": "skills/hunt-oauth",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "de894ffec0afaa598fdab65207a8c9a96971740f",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/de894ffec0afaa598fdab65207a8c9a96971740f"
+    },
+    {
+      "path": "skills/hunt-oauth/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38280741d0c14d5b75278abda695931d511dffca",
+      "size": 28785,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/38280741d0c14d5b75278abda695931d511dffca"
+    },
+    {
+      "path": "skills/hunt-open-redirect",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ee3f1e93d61231f94a4ddf0dd81e4f00509982fb",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/ee3f1e93d61231f94a4ddf0dd81e4f00509982fb"
+    },
+    {
+      "path": "skills/hunt-open-redirect/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0c3ab671d7843f7155032d372f80ecc4cf5cf1b",
+      "size": 5735,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/d0c3ab671d7843f7155032d372f80ecc4cf5cf1b"
+    },
+    {
+      "path": "skills/hunt-race-condition",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "504a76677d582b6fbfa5f2fcb3eafe6f5a1035b5",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/504a76677d582b6fbfa5f2fcb3eafe6f5a1035b5"
+    },
+    {
+      "path": "skills/hunt-race-condition/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73afeb35b7c44810c0ba2b565c1f95eebe5eca94",
+      "size": 35437,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/73afeb35b7c44810c0ba2b565c1f95eebe5eca94"
+    },
+    {
+      "path": "skills/hunt-rag-vector",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c95b3d03252054c9195ef8decfdcbf4986bdf60a",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/c95b3d03252054c9195ef8decfdcbf4986bdf60a"
+    },
+    {
+      "path": "skills/hunt-rag-vector/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9dea66efca5a95c948c55e44ea55cbb0c95970c",
+      "size": 10282,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/b9dea66efca5a95c948c55e44ea55cbb0c95970c"
+    },
+    {
+      "path": "skills/hunt-rce",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7d7f84bccce43d68e7391d19428fd00999e1385c",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/7d7f84bccce43d68e7391d19428fd00999e1385c"
+    },
+    {
+      "path": "skills/hunt-rce/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0413fbf9bf349a4d607e31d97a928403f36c1364",
+      "size": 30296,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/0413fbf9bf349a4d607e31d97a928403f36c1364"
+    },
+    {
+      "path": "skills/hunt-saml",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9fb674f063c8e7e34e0fa883265463733ae61afa",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/9fb674f063c8e7e34e0fa883265463733ae61afa"
+    },
+    {
+      "path": "skills/hunt-saml/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "698fb8580ec0e618ce980eb1d1fd21b8b4040219",
+      "size": 6831,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/698fb8580ec0e618ce980eb1d1fd21b8b4040219"
+    },
+    {
+      "path": "skills/hunt-session",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cbcb8973560d22455ba2bed525a8f2c3bcbec248",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/cbcb8973560d22455ba2bed525a8f2c3bcbec248"
+    },
+    {
+      "path": "skills/hunt-session/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "468187799aee99c38dd205c30a849933c9fbb1d7",
+      "size": 19857,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/468187799aee99c38dd205c30a849933c9fbb1d7"
+    },
+    {
+      "path": "skills/hunt-shadow-api",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7eb9021acb9fdc9d360a8d93296fe08c999ae512",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/7eb9021acb9fdc9d360a8d93296fe08c999ae512"
+    },
+    {
+      "path": "skills/hunt-shadow-api/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1038df5de5ac7515889361fb13f5d7dfdbcdc8d6",
+      "size": 8387,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/1038df5de5ac7515889361fb13f5d7dfdbcdc8d6"
+    },
+    {
+      "path": "skills/hunt-sharepoint",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c76aa58bb8a3fe6838d2b334ba13fa26548a4414",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/c76aa58bb8a3fe6838d2b334ba13fa26548a4414"
+    },
+    {
+      "path": "skills/hunt-sharepoint/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eda26a0efc05a11e1e2d43ef0289c93aaaaa45b0",
+      "size": 32346,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/eda26a0efc05a11e1e2d43ef0289c93aaaaa45b0"
+    },
+    {
+      "path": "skills/hunt-source-leak",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e4f6ef9aa12d4a64c3c073bd3009fc8ce86861c6",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/e4f6ef9aa12d4a64c3c073bd3009fc8ce86861c6"
+    },
+    {
+      "path": "skills/hunt-source-leak/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6760a8acc67f21333b258ffd57eefad9684b40c",
+      "size": 10489,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/f6760a8acc67f21333b258ffd57eefad9684b40c"
+    },
+    {
+      "path": "skills/hunt-spa-api",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "febf5d487761bd89c55daf777f2ecaa27caec42b",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/febf5d487761bd89c55daf777f2ecaa27caec42b"
+    },
+    {
+      "path": "skills/hunt-spa-api/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4c91ac745256e68d470b17774f897745a05d371",
+      "size": 9006,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/f4c91ac745256e68d470b17774f897745a05d371"
+    },
+    {
+      "path": "skills/hunt-springboot",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "65114479b6d0b025297dd901d1ee014e6778a6ef",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/65114479b6d0b025297dd901d1ee014e6778a6ef"
+    },
+    {
+      "path": "skills/hunt-springboot/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb9cb091fd738ba2dff3251803b48a09c1482fc3",
+      "size": 10519,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/cb9cb091fd738ba2dff3251803b48a09c1482fc3"
+    },
+    {
+      "path": "skills/hunt-sqli",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5f8d582fec7d6012dd14701becb867274ae7c281",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/5f8d582fec7d6012dd14701becb867274ae7c281"
+    },
+    {
+      "path": "skills/hunt-sqli/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df6afc21a8e1a5716dd6bad70a097dd29c7127b3",
+      "size": 22173,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/df6afc21a8e1a5716dd6bad70a097dd29c7127b3"
+    },
+    {
+      "path": "skills/hunt-ssrf",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b7722f42e036554c1669b949193414b3405c7003",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/b7722f42e036554c1669b949193414b3405c7003"
+    },
+    {
+      "path": "skills/hunt-ssrf/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92ce6693895d54f7079aa064eda65740c6ff0775",
+      "size": 27455,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/92ce6693895d54f7079aa064eda65740c6ff0775"
+    },
+    {
+      "path": "skills/hunt-ssti",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4c9746535a649335308129725a78658ca30e64a3",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/4c9746535a649335308129725a78658ca30e64a3"
+    },
+    {
+      "path": "skills/hunt-ssti/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "306a063d3aacac411c3c257035a9259f4bf28c23",
+      "size": 8303,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/306a063d3aacac411c3c257035a9259f4bf28c23"
+    },
+    {
+      "path": "skills/hunt-subdomain",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "00dcffc08c7f73f96e79ea25d7fc74715a82fd1b",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/00dcffc08c7f73f96e79ea25d7fc74715a82fd1b"
+    },
+    {
+      "path": "skills/hunt-subdomain/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8901e0a19193a73c24256eb203c6a11147fc117c",
+      "size": 25030,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/8901e0a19193a73c24256eb203c6a11147fc117c"
+    },
+    {
+      "path": "skills/hunt-tls-network",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cf16e62efdb101f8e50e1ced939ba34ab4b2ee7e",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/cf16e62efdb101f8e50e1ced939ba34ab4b2ee7e"
+    },
+    {
+      "path": "skills/hunt-tls-network/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ddcda56e649e30a2428ca28764e2f6e58ed84925",
+      "size": 20348,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/ddcda56e649e30a2428ca28764e2f6e58ed84925"
+    },
+    {
+      "path": "skills/hunt-websocket",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ee18f0ab3a0094aa30ac18660aabd813e15044af",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/ee18f0ab3a0094aa30ac18660aabd813e15044af"
+    },
+    {
+      "path": "skills/hunt-websocket/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "abb989c49c7e851d24eff791ec957b5a6d6a7364",
+      "size": 18656,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/abb989c49c7e851d24eff791ec957b5a6d6a7364"
+    },
+    {
+      "path": "skills/hunt-xss",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c05a49354dfd2e4726e7651611c03c873945d81a",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/c05a49354dfd2e4726e7651611c03c873945d81a"
+    },
+    {
+      "path": "skills/hunt-xss/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c392338060d21363138675ca1cc2f69cd1f0754",
+      "size": 29647,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/5c392338060d21363138675ca1cc2f69cd1f0754"
+    },
+    {
+      "path": "skills/hunt-xxe",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "50f813005715447682a610d8946f49cfc78f2643",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/50f813005715447682a610d8946f49cfc78f2643"
+    },
+    {
+      "path": "skills/hunt-xxe/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09d145985622fa90991672a155526a8de3561886",
+      "size": 23779,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/09d145985622fa90991672a155526a8de3561886"
+    },
+    {
+      "path": "skills/ios-redteam-pipeline",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0d41d14648b9790622b1f6cafb852461a5fbf4c9",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/0d41d14648b9790622b1f6cafb852461a5fbf4c9"
+    },
+    {
+      "path": "skills/ios-redteam-pipeline/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25926497ae70dfc2e277fd1509ed2bd889fbd3ed",
+      "size": 14687,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/25926497ae70dfc2e277fd1509ed2bd889fbd3ed"
+    },
+    {
+      "path": "skills/m365-entra-attack",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bcb3ff061dbcbb5fc5534e9a99911f15ee6c0f13",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/bcb3ff061dbcbb5fc5534e9a99911f15ee6c0f13"
+    },
+    {
+      "path": "skills/m365-entra-attack/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40f05bf093c0c7b0702f7051a53f0f860c6849c9",
+      "size": 23078,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/40f05bf093c0c7b0702f7051a53f0f860c6849c9"
+    },
+    {
+      "path": "skills/meme-coin-audit",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bf2e5f4c38ec2a9a1da5308293ac6c18901c3ebe",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/bf2e5f4c38ec2a9a1da5308293ac6c18901c3ebe"
+    },
+    {
+      "path": "skills/meme-coin-audit/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "152c022a98af505c65c7c8df5cf356947bb963dc",
+      "size": 15014,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/152c022a98af505c65c7c8df5cf356947bb963dc"
+    },
+    {
+      "path": "skills/mid-engagement-ir-detection",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "30918f138d29823363bab137abd1a548cff29b91",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/30918f138d29823363bab137abd1a548cff29b91"
+    },
+    {
+      "path": "skills/mid-engagement-ir-detection/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07c0115c2602e8199459ddb9ef62cac69dc773b0",
+      "size": 17481,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/07c0115c2602e8199459ddb9ef62cac69dc773b0"
+    },
+    {
+      "path": "skills/offensive-osint",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d2807811f9dcd0370e6ea71edc933df1c79f2f85",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/d2807811f9dcd0370e6ea71edc933df1c79f2f85"
+    },
+    {
+      "path": "skills/offensive-osint/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a1fc4d86546547e3f623d3ab9d49f84ecc737df",
+      "size": 5313,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/5a1fc4d86546547e3f623d3ab9d49f84ecc737df"
+    },
+    {
+      "path": "skills/offensive-osint/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa80010abb5965bbb8b3bdf7484ac863495d375b",
+      "size": 34038,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/fa80010abb5965bbb8b3bdf7484ac863495d375b"
+    },
+    {
+      "path": "skills/offensive-osint/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4b6e66c138a305481a559e820bd351b3e8067905",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/4b6e66c138a305481a559e820bd351b3e8067905"
+    },
+    {
+      "path": "skills/offensive-osint/references/breach-and-credentials.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0aa8b8e90452a1f01c5f5491135920a9e02c0a07",
+      "size": 7419,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/0aa8b8e90452a1f01c5f5491135920a9e02c0a07"
+    },
+    {
+      "path": "skills/offensive-osint/references/dork-corpus.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "427c177be27323e4ae9dbc8c171e5c56b86a6523",
+      "size": 6295,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/427c177be27323e4ae9dbc8c171e5c56b86a6523"
+    },
+    {
+      "path": "skills/offensive-osint/references/helpers-and-automation.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f839b92bedb1888353f7519049bb3cd357df9f5",
+      "size": 11155,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/5f839b92bedb1888353f7519049bb3cd357df9f5"
+    },
+    {
+      "path": "skills/offensive-osint/references/identity-fabric.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1613316ad5d339eaec331ecda81b6708f2a8615",
+      "size": 12042,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/f1613316ad5d339eaec331ecda81b6708f2a8615"
+    },
+    {
+      "path": "skills/offensive-osint/references/people-osint.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c3d46c3098ede6157c12447d8bc731ef1851d6c",
+      "size": 6098,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/1c3d46c3098ede6157c12447d8bc731ef1851d6c"
+    },
+    {
+      "path": "skills/offensive-osint/references/probes-and-wordlists.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f1072db97a87edfe66219a120b2ddadf9f4c0c0",
+      "size": 55596,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/7f1072db97a87edfe66219a120b2ddadf9f4c0c0"
+    },
+    {
+      "path": "skills/offensive-osint/references/recon-stack.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29dfefcedcbb77899ce5953a264be4900e1bbe86",
+      "size": 13587,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/29dfefcedcbb77899ce5953a264be4900e1bbe86"
+    },
+    {
+      "path": "skills/offensive-osint/references/recon-techniques.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9e101ca18f105f64afda3369945878af315f4df",
+      "size": 16610,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/f9e101ca18f105f64afda3369945878af315f4df"
+    },
+    {
+      "path": "skills/offensive-osint/references/saas-public-surfaces.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35ea64153d2bdb689c38276ffb545385b451f7a5",
+      "size": 4405,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/35ea64153d2bdb689c38276ffb545385b451f7a5"
+    },
+    {
+      "path": "skills/offensive-osint/references/secret-patterns.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1816017bc35bf07bce047ed1e828ca9b5522324",
+      "size": 5700,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/e1816017bc35bf07bce047ed1e828ca9b5522324"
+    },
+    {
+      "path": "skills/offensive-osint/references/secret-validators.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94eab9c38125b2afe05bed602ec41a36c12995cd",
+      "size": 11712,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/94eab9c38125b2afe05bed602ec41a36c12995cd"
+    },
+    {
+      "path": "skills/offensive-osint/references/sector-notes.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "42c280bc2901228ee471b1bb6c96c322d19f4897",
+      "size": 4443,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/42c280bc2901228ee471b1bb6c96c322d19f4897"
+    },
+    {
+      "path": "skills/offensive-osint/references/severity-matrix.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5896ede4ecafe82080a187fae00db3f43eca4baf",
+      "size": 9645,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/5896ede4ecafe82080a187fae00db3f43eca4baf"
+    },
+    {
+      "path": "skills/offensive-osint/references/specialized-osint.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b7a37efb36bd5d11ec6181a60de10ce4d1a9812",
+      "size": 11517,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/8b7a37efb36bd5d11ec6181a60de10ce4d1a9812"
+    },
+    {
+      "path": "skills/offensive-osint/references/tooling-install.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d6ab6e6b3efbe1653f0abfb9c2ab87aee27e534",
+      "size": 4297,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/5d6ab6e6b3efbe1653f0abfb9c2ab87aee27e534"
+    },
+    {
+      "path": "skills/offensive-osint/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8f9608cc0abc1cfaea9cae60dde0712d4b206ada",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/8f9608cc0abc1cfaea9cae60dde0712d4b206ada"
+    },
+    {
+      "path": "skills/offensive-osint/scripts/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "385a7c417eb8c9be2497bfe79912df79e928dfe9",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/385a7c417eb8c9be2497bfe79912df79e928dfe9"
+    },
+    {
+      "path": "skills/offensive-osint/scripts/assets/FONT-LICENSE.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cffc602e8c43a51e281e276c1f135971c5aa82b1",
+      "size": 528,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/cffc602e8c43a51e281e276c1f135971c5aa82b1"
+    },
+    {
+      "path": "skills/offensive-osint/scripts/assets/archivo-black.woff2",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85cf1745ce2eec0f34648881d448de91d490abbb",
+      "size": 14332,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/85cf1745ce2eec0f34648881d448de91d490abbb"
+    },
+    {
+      "path": "skills/offensive-osint/scripts/dashboard.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "532260ba3cf8182c328eb6d65ec0b5a25bf39102",
+      "size": 48752,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/532260ba3cf8182c328eb6d65ec0b5a25bf39102"
+    },
+    {
+      "path": "skills/offensive-osint/scripts/h1_reference.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9db2c3669d2371a8ed5feb181b0e93dda0a244ba",
+      "size": 14222,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/9db2c3669d2371a8ed5feb181b0e93dda0a244ba"
+    },
+    {
+      "path": "skills/offensive-osint/scripts/secret_scan.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9371f2102cde0d53c1f49ae22e53f026ba2f7ac",
+      "size": 8111,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/a9371f2102cde0d53c1f49ae22e53f026ba2f7ac"
+    },
+    {
+      "path": "skills/okta-attack",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7ddc5c27f9ed8885efc7264c6169a1c5c9d8393f",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/7ddc5c27f9ed8885efc7264c6169a1c5c9d8393f"
+    },
+    {
+      "path": "skills/okta-attack/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dac368d62c0290fea24ea0aa5e1c11520e969fef",
+      "size": 24192,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/dac368d62c0290fea24ea0aa5e1c11520e969fef"
+    },
+    {
+      "path": "skills/osint-methodology",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4886d98091b7c1486d472ac204b37dfbc2125f86",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/4886d98091b7c1486d472ac204b37dfbc2125f86"
+    },
+    {
+      "path": "skills/osint-methodology/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "560fc414478f651fb187f9367ff6721de97d20a4",
+      "size": 2968,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/560fc414478f651fb187f9367ff6721de97d20a4"
+    },
+    {
+      "path": "skills/osint-methodology/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d82010bf88178cc32bd1e2bfa76816bea979e283",
+      "size": 94368,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/d82010bf88178cc32bd1e2bfa76816bea979e283"
+    },
+    {
+      "path": "skills/recon-scope-triage",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f7b423ee57a68412d7b31cfde72dde2343536d54",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/f7b423ee57a68412d7b31cfde72dde2343536d54"
+    },
+    {
+      "path": "skills/recon-scope-triage/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "324a69a34a74102277298cec7519d31bcdccd7ba",
+      "size": 7509,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/324a69a34a74102277298cec7519d31bcdccd7ba"
+    },
+    {
+      "path": "skills/redteam-mindset",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ace9e35264d3993fa37d8efe5db85b95fe31b735",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/ace9e35264d3993fa37d8efe5db85b95fe31b735"
+    },
+    {
+      "path": "skills/redteam-mindset/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7c666320f82051d4a76b2f983978c85a6e2a7af",
+      "size": 28070,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/e7c666320f82051d4a76b2f983978c85a6e2a7af"
+    },
+    {
+      "path": "skills/redteam-report-template",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ea081ca6ae2510befbee627194fc649f91b8aea1",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/ea081ca6ae2510befbee627194fc649f91b8aea1"
+    },
+    {
+      "path": "skills/redteam-report-template/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7116a08a363d27a847c42332695d46b064b3195b",
+      "size": 15528,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/7116a08a363d27a847c42332695d46b064b3195b"
+    },
+    {
+      "path": "skills/report-writing",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bfb9a764075a5b21346c2f66b77f52de685e3e76",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/bfb9a764075a5b21346c2f66b77f52de685e3e76"
+    },
+    {
+      "path": "skills/report-writing/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56f67855e539a85f26a77a69698519de46ff9cdb",
+      "size": 21033,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/56f67855e539a85f26a77a69698519de46ff9cdb"
+    },
+    {
+      "path": "skills/security-arsenal",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e5bc49b69f550b52645c8784c0918ce912ad49d3",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/e5bc49b69f550b52645c8784c0918ce912ad49d3"
+    },
+    {
+      "path": "skills/security-arsenal/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "805e05e60a4b145f09ef6429800c270198fe4c02",
+      "size": 29017,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/805e05e60a4b145f09ef6429800c270198fe4c02"
+    },
+    {
+      "path": "skills/supply-chain-attack-recon",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3aea3aa9e51a7d133c63873eec49b874def84fd4",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/3aea3aa9e51a7d133c63873eec49b874def84fd4"
+    },
+    {
+      "path": "skills/supply-chain-attack-recon/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3cda33c9ce32bee7b63d3baaa56690ffe10fc59",
+      "size": 42450,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/d3cda33c9ce32bee7b63d3baaa56690ffe10fc59"
+    },
+    {
+      "path": "skills/triage-validation",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "231a412b5a834fda25849282dd33ec07f91f40d1",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/231a412b5a834fda25849282dd33ec07f91f40d1"
+    },
+    {
+      "path": "skills/triage-validation/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ef9287c1e7f0037772ba6282933d605efca5a32",
+      "size": 22210,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/3ef9287c1e7f0037772ba6282933d605efca5a32"
+    },
+    {
+      "path": "skills/vmware-vcenter-attack",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1f6db1c73548b8960f53476f873ad1ddb605b14a",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/1f6db1c73548b8960f53476f873ad1ddb605b14a"
+    },
+    {
+      "path": "skills/vmware-vcenter-attack/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f354ca12360870a9754356d76bbac2437765d87",
+      "size": 31101,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/1f354ca12360870a9754356d76bbac2437765d87"
+    },
+    {
+      "path": "skills/web2-recon",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "12cdf33045e3554171a9ada93ec2b9b439d68b55",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/12cdf33045e3554171a9ada93ec2b9b439d68b55"
+    },
+    {
+      "path": "skills/web2-recon/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f347a72a5322e4f4f2b48eacf168d14d954eece",
+      "size": 24289,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/6f347a72a5322e4f4f2b48eacf168d14d954eece"
+    },
+    {
+      "path": "skills/web3-audit",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "62a971ebb465985ebae83ead54021cc455cf8c82",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/62a971ebb465985ebae83ead54021cc455cf8c82"
+    },
+    {
+      "path": "skills/web3-audit/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aafc5f968b3484fa93645e3f18cd0dc864d93d61",
+      "size": 24000,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/aafc5f968b3484fa93645e3f18cd0dc864d93d61"
+    },
+    {
+      "path": "tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "64b65defd3f96591b791e3b243505913603a92f4",
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/trees/64b65defd3f96591b791e3b243505913603a92f4"
+    },
+    {
+      "path": "tests/test_cbh_windows_encoding.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bec8db2af63c0e1d7930ca0d6988616aba441eff",
+      "size": 1437,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/bec8db2af63c0e1d7930ca0d6988616aba441eff"
+    },
+    {
+      "path": "tests/test_crtsh.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85ac52f4acf8b60a131028a4b8a3c5bd294f0715",
+      "size": 1149,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/85ac52f4acf8b60a131028a4b8a3c5bd294f0715"
+    },
+    {
+      "path": "tests/test_eval_agent_failures.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "acea61026a2a054e35dca35f3a61442b521d0867",
+      "size": 1387,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/acea61026a2a054e35dca35f3a61442b521d0867"
+    },
+    {
+      "path": "tests/test_eval_fp_coverage.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b122a872af87ba1ee861c5cd529f902d58644686",
+      "size": 1703,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/b122a872af87ba1ee861c5cd529f902d58644686"
+    },
+    {
+      "path": "tests/test_eval_juice_oracle.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c796f2240ffbed508d477918753d5442e75e6618",
+      "size": 2273,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/c796f2240ffbed508d477918753d5442e75e6618"
+    },
+    {
+      "path": "tests/test_eval_ps_manual_instances.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82a96488e21f67e6a3f797057079ad35a6812a86",
+      "size": 1595,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/82a96488e21f67e6a3f797057079ad35a6812a86"
+    },
+    {
+      "path": "tests/test_eval_ps_oracle_loss.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e1943a2ef82759c4c4a7f9d8e7a6659e2b16705",
+      "size": 1041,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/1e1943a2ef82759c4c4a7f9d8e7a6659e2b16705"
+    },
+    {
+      "path": "tests/test_eval_target_reset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4db262f3c33b7fc211c0ed9f6e76dac654f6ef36",
+      "size": 1391,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/4db262f3c33b7fc211c0ed9f6e76dac654f6ef36"
+    },
+    {
+      "path": "tests/test_h1_reference.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "792bfff290c0cb3aec5b69cafa57009a2c47faf2",
+      "size": 2569,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/792bfff290c0cb3aec5b69cafa57009a2c47faf2"
+    },
+    {
+      "path": "tests/test_hackerone_mcp.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab2162c7f1c9b56d4693c17e581daab16ce0067a",
+      "size": 10744,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/ab2162c7f1c9b56d4693c17e581daab16ce0067a"
+    },
+    {
+      "path": "tests/test_mcp_codex_toml.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f56a7fed31f27c10fb04b388c178eaa1870fb396",
+      "size": 1059,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/f56a7fed31f27c10fb04b388c178eaa1870fb396"
+    },
+    {
+      "path": "tests/test_mcp_hackerone_harness.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e9f9dae2301103697d1dcc6a22a97c57f70378b",
+      "size": 2379,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/5e9f9dae2301103697d1dcc6a22a97c57f70378b"
+    },
+    {
+      "path": "tests/test_mcp_json_config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d6643555d4be60655c91bd0b7ecd727dd743c11",
+      "size": 1448,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/2d6643555d4be60655c91bd0b7ecd727dd743c11"
+    },
+    {
+      "path": "tests/test_ps1_ascii.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2a2448e302a106e64c1954d5a6f53408d285238",
+      "size": 1073,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/a2a2448e302a106e64c1954d5a6f53408d285238"
+    },
+    {
+      "path": "tests/test_recon_domain_boundary.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b2aa827c4773f70317fa97183c076d4732981f3",
+      "size": 2331,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/7b2aa827c4773f70317fa97183c076d4732981f3"
+    },
+    {
+      "path": "tests/test_recon_headers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a61d1c92905ab3a6a7f6545679ad4e50a0c8d4d8",
+      "size": 648,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/a61d1c92905ab3a6a7f6545679ad4e50a0c8d4d8"
+    },
+    {
+      "path": "tests/test_recon_redirects.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c547ee87132b21d8f01a9ed16a79c4bcf5f1413",
+      "size": 1835,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/4c547ee87132b21d8f01a9ed16a79c4bcf5f1413"
+    },
+    {
+      "path": "tests/test_report_sections.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ebd2d2012f259230c9313c33aa8bac7160da1abc",
+      "size": 5214,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/ebd2d2012f259230c9313c33aa8bac7160da1abc"
+    },
+    {
+      "path": "tests/test_report_utf8_bom.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb3448766990e998a965b9022f4cafcd85789184",
+      "size": 1414,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/cb3448766990e998a965b9022f4cafcd85789184"
+    },
+    {
+      "path": "tests/test_surface_manifest_shape.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2578dac81ffb3e318920777ce082a0b8270f6f88",
+      "size": 938,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/2578dac81ffb3e318920777ce082a0b8270f6f88"
+    },
+    {
+      "path": "tests/test_tool_discovery.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f41d5f8d1aa89245922e9fa11e1297e2631d8f7",
+      "size": 739,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/0f41d5f8d1aa89245922e9fa11e1297e2631d8f7"
+    },
+    {
+      "path": "tests/test_triage.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b684d1aba6db43fad16c2fdf9f95d33d88ccf12f",
+      "size": 7684,
+      "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/git/blobs/b684d1aba6db43fad16c2fdf9f95d33d88ccf12f"
+    }
+  ],
+  "truncated": false
+}

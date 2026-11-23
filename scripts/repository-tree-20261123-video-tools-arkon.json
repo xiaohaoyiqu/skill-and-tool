@@ -1,0 +1,2905 @@
+{
+  "sha": "e778490e47e77139fc19d48af160a56b3a44bfef",
+  "url": "https://api.github.com/repos/nduckmink/arkon/git/trees/e778490e47e77139fc19d48af160a56b3a44bfef",
+  "tree": [
+    {
+      "path": ".claude",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b596f828edbaa6b5cc77d24217059699a589310c",
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/trees/b596f828edbaa6b5cc77d24217059699a589310c"
+    },
+    {
+      "path": ".claude/settings.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85a18a2466067d039fc608c5d7239ffdea181141",
+      "size": 2243,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/85a18a2466067d039fc608c5d7239ffdea181141"
+    },
+    {
+      "path": ".claude/settings.local.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ce6f63b910df41ce683160211a7a1de2dc72265",
+      "size": 72,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/1ce6f63b910df41ce683160211a7a1de2dc72265"
+    },
+    {
+      "path": ".claude/worktrees",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a62b2e9611c12160169bb9cd5f5cb1d73d3db881",
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/trees/a62b2e9611c12160169bb9cd5f5cb1d73d3db881"
+    },
+    {
+      "path": ".claude/worktrees/practical-margulis-63f2c1",
+      "mode": "160000",
+      "type": "commit",
+      "sha": "99879f66c4531d43f1bc8af9653ee23d8a178ba2"
+    },
+    {
+      "path": ".dockerignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7345c138ff61f593f9f42dbeb272e746c873632",
+      "size": 238,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/b7345c138ff61f593f9f42dbeb272e746c873632"
+    },
+    {
+      "path": ".env.docker.example",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a52784b09103b361ee347dabe6f2e767f16fcf79",
+      "size": 1521,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/a52784b09103b361ee347dabe6f2e767f16fcf79"
+    },
+    {
+      "path": ".env.local.example",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "631b6bfa4dfbb0fa6343ee4ce60f2f5b60499c4f",
+      "size": 1219,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/631b6bfa4dfbb0fa6343ee4ce60f2f5b60499c4f"
+    },
+    {
+      "path": ".gitattributes",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f2a04321dd2547b3c8b250914f4764c25967a8f",
+      "size": 85,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/2f2a04321dd2547b3c8b250914f4764c25967a8f"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50b4a87aad492b320522c6579957baae02c866bb",
+      "size": 530,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/50b4a87aad492b320522c6579957baae02c866bb"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e1a8eb8759495b7ab675faad97707d97086fdf7",
+      "size": 33291,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/7e1a8eb8759495b7ab675faad97707d97086fdf7"
+    },
+    {
+      "path": "CLAUDE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62a5f205434ad8e3c51eeb782a9f643d6b718b5f",
+      "size": 6302,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/62a5f205434ad8e3c51eeb782a9f643d6b718b5f"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a429fb7b89efbf56f22a9a35b99e1ce19e0d24a",
+      "size": 10722,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/8a429fb7b89efbf56f22a9a35b99e1ce19e0d24a"
+    },
+    {
+      "path": "DESIGN.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f1b3b6fabf4884addf506a59a75c230e90d4de6",
+      "size": 1441,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/2f1b3b6fabf4884addf506a59a75c230e90d4de6"
+    },
+    {
+      "path": "Dockerfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ba1a0cbc7078a792882803125461ae97b971021",
+      "size": 879,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/1ba1a0cbc7078a792882803125461ae97b971021"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7573d948ac374c56de02e0dbc4f1607ccf58b95",
+      "size": 3644,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/c7573d948ac374c56de02e0dbc4f1607ccf58b95"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b01fdfafeda0a38595abfca73890fafb754eb6df",
+      "size": 11450,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/b01fdfafeda0a38595abfca73890fafb754eb6df"
+    },
+    {
+      "path": "alembic.ini",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f082472b706f63649975fe0c779b327b72a84861",
+      "size": 605,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/f082472b706f63649975fe0c779b327b72a84861"
+    },
+    {
+      "path": "alembic",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0afb4299b7dd06f898afce2d54cc005ae61a1fab",
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/trees/0afb4299b7dd06f898afce2d54cc005ae61a1fab"
+    },
+    {
+      "path": "alembic/env.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26cb32a7d34d69bb6e19f2f33ec4eb571287f46f",
+      "size": 1873,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/26cb32a7d34d69bb6e19f2f33ec4eb571287f46f"
+    },
+    {
+      "path": "alembic/script.py.mako",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad3afb520ea0c0a29ab46fe7a59e2fbde15cc3bc",
+      "size": 617,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/ad3afb520ea0c0a29ab46fe7a59e2fbde15cc3bc"
+    },
+    {
+      "path": "alembic/versions",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bb6cd90bbdfa4932b70137a547942c92fbfd508e",
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/trees/bb6cd90bbdfa4932b70137a547942c92fbfd508e"
+    },
+    {
+      "path": "alembic/versions/001_initial_schema.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d7e0ffff042e8119a06808ace1bc07272cee0564",
+      "size": 7680,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/d7e0ffff042e8119a06808ace1bc07272cee0564"
+    },
+    {
+      "path": "alembic/versions/002_add_progress.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b028d407e19ef6ec67151a60bb8dc950954be4ca",
+      "size": 655,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/b028d407e19ef6ec67151a60bb8dc950954be4ca"
+    },
+    {
+      "path": "alembic/versions/002_rbac.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3264ebbfcfcf848414812533c2e2a0d02c32a96",
+      "size": 5680,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/f3264ebbfcfcf848414812533c2e2a0d02c32a96"
+    },
+    {
+      "path": "alembic/versions/003_add_fulltext_index.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14964c9bbae383d8bc49cc48c90d2b05acf499c3",
+      "size": 646,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/14964c9bbae383d8bc49cc48c90d2b05acf499c3"
+    },
+    {
+      "path": "alembic/versions/004_add_projects.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11ba31d18606e6a0ad06638df752d7dcfafef90c",
+      "size": 2728,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/11ba31d18606e6a0ad06638df752d7dcfafef90c"
+    },
+    {
+      "path": "alembic/versions/005_add_custom_roles.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47f81b6703f8d62978d3ee56e59c1af5c682ee99",
+      "size": 1981,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/47f81b6703f8d62978d3ee56e59c1af5c682ee99"
+    },
+    {
+      "path": "alembic/versions/006_wiki_pivot.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "efee5092c552548bc84b234c698c926b65f409bc",
+      "size": 7310,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/efee5092c552548bc84b234c698c926b65f409bc"
+    },
+    {
+      "path": "alembic/versions/007_scope_rbac.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4b69332e3778e4817dfa513020264b053f3f35f",
+      "size": 5955,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/c4b69332e3778e4817dfa513020264b053f3f35f"
+    },
+    {
+      "path": "alembic/versions/008_workspace_type.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05665d0d9f409dea60bed012b692495d8efa1cde",
+      "size": 577,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/05665d0d9f409dea60bed012b692495d8efa1cde"
+    },
+    {
+      "path": "alembic/versions/009_drop_contacts.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54ae766e89e87adca92eb863ec669d6fc6b56a04",
+      "size": 1030,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/54ae766e89e87adca92eb863ec669d6fc6b56a04"
+    },
+    {
+      "path": "alembic/versions/010_workspace_wiki_scope.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "180da70a6444568631067bb3292ad43b73dd3adc",
+      "size": 970,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/180da70a6444568631067bb3292ad43b73dd3adc"
+    },
+    {
+      "path": "alembic/versions/011_permission_v2.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "362625dabd01834db40689721a604ca85e9cd292",
+      "size": 5958,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/362625dabd01834db40689721a604ca85e9cd292"
+    },
+    {
+      "path": "alembic/versions/012_add_skill.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0370bc753f2437f4252863fd79c3f003cf606bb",
+      "size": 4306,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/a0370bc753f2437f4252863fd79c3f003cf606bb"
+    },
+    {
+      "path": "alembic/versions/013_wiki_user_contributions.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "923d86d261dedb3bece86fd0f396379f25e6cde7",
+      "size": 1073,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/923d86d261dedb3bece86fd0f396379f25e6cde7"
+    },
+    {
+      "path": "alembic/versions/014_wiki_draft_revision.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29edd04fcb9ec7f9eeae05a783c3cfe46eef0b4e",
+      "size": 4972,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/29edd04fcb9ec7f9eeae05a783c3cfe46eef0b4e"
+    },
+    {
+      "path": "alembic/versions/015_multi_dim_embeddings.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1fe04ece296453f67eac2bad2d225dc9d882da22",
+      "size": 5121,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/1fe04ece296453f67eac2bad2d225dc9d882da22"
+    },
+    {
+      "path": "alembic/versions/016_source_images.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7374b80a3860fbf8f502a1dcb3e9a3b09f8f166",
+      "size": 1841,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/e7374b80a3860fbf8f502a1dcb3e9a3b09f8f166"
+    },
+    {
+      "path": "alembic/versions/017_add_skill_contributions.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "367fbae4416e5d41faa3f1f41c99043a2bbaa417",
+      "size": 2181,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/367fbae4416e5d41faa3f1f41c99043a2bbaa417"
+    },
+    {
+      "path": "alembic/versions/018_drop_skill_description.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1cc3d575bdf79b53fc708a349e48ddf6dfcde6b9",
+      "size": 20182,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/1cc3d575bdf79b53fc708a349e48ddf6dfcde6b9"
+    },
+    {
+      "path": "alembic/versions/019_skill_is_system.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02ab832cdec69ad12330c0de9b680d236129781c",
+      "size": 673,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/02ab832cdec69ad12330c0de9b680d236129781c"
+    },
+    {
+      "path": "alembic/versions/020_mrp_pipeline.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2bd4e40afe3319c1775b10bffc3adc7685c3629",
+      "size": 3553,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/c2bd4e40afe3319c1775b10bffc3adc7685c3629"
+    },
+    {
+      "path": "alembic/versions/021_oauth_tables.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d845b3179588476d595ae21a08eb1d89dc72c31f",
+      "size": 2229,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/d845b3179588476d595ae21a08eb1d89dc72c31f"
+    },
+    {
+      "path": "alembic/versions/022_stats_tables.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ce8d13b3e5a300e054924fd8710d0e85f046768",
+      "size": 3538,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/4ce8d13b3e5a300e054924fd8710d0e85f046768"
+    },
+    {
+      "path": "alembic/versions/023_drafts_base_version_and_wikilink_scope.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4206ce30158b21a94a405f0ec21e79e04f065998",
+      "size": 3390,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/4206ce30158b21a94a405f0ec21e79e04f065998"
+    },
+    {
+      "path": "alembic/versions/024_contribution_lifecycle.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9214a99dda47074d7e0f92f1a2d814c825d2beb",
+      "size": 4391,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/c9214a99dda47074d7e0f92f1a2d814c825d2beb"
+    },
+    {
+      "path": "alembic/versions/025_ai_pre_review_and_create_drafts.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40b71bb789ed2e32b97c56d14a2b5d4fba9c5b37",
+      "size": 2866,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/40b71bb789ed2e32b97c56d14a2b5d4fba9c5b37"
+    },
+    {
+      "path": "alembic/versions/026_revisions_unique_page_version.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93dddba36159239408b00af24f44c5b5c72fc252",
+      "size": 1351,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/93dddba36159239408b00af24f44c5b5c72fc252"
+    },
+    {
+      "path": "alembic/versions/027_hash_mcp_tokens.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf872eade31b4a8c2afc8f67a0bd7ac6232574e1",
+      "size": 2005,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/cf872eade31b4a8c2afc8f67a0bd7ac6232574e1"
+    },
+    {
+      "path": "alembic/versions/028_employee_departments_m2m.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f672f90d6c5ac9572555f64c7287297687022d40",
+      "size": 3129,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/f672f90d6c5ac9572555f64c7287297687022d40"
+    },
+    {
+      "path": "alembic/versions/029_source_extracted_token_count.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2db16a34fae8a850d79b1319ac2196c2691f92be",
+      "size": 845,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/2db16a34fae8a850d79b1319ac2196c2691f92be"
+    },
+    {
+      "path": "alembic/versions/030_source_auto_recover_count.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bff0d64ecca144ff79bbc04855cac3822eaf6c8f",
+      "size": 1075,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/bff0d64ecca144ff79bbc04855cac3822eaf6c8f"
+    },
+    {
+      "path": "alembic/versions/031_pivot_general_wiki_pages.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc52b37a563ed8e684b5d7c4dced51788f844bfe",
+      "size": 1449,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/bc52b37a563ed8e684b5d7c4dced51788f844bfe"
+    },
+    {
+      "path": "alembic/versions/032_cleanup_legacy_source_pages.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "386859d1008a0f6480b6b38b91bac981f6e62126",
+      "size": 1180,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/386859d1008a0f6480b6b38b91bac981f6e62126"
+    },
+    {
+      "path": "alembic/versions/033_add_wiki_branches.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52f3fc5374ab214623dda2963122f8cec34a442d",
+      "size": 2733,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/52f3fc5374ab214623dda2963122f8cec34a442d"
+    },
+    {
+      "path": "alembic/versions/034_simplify_auth_fixed_roles.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "276574cd3e4843ba501c2fa90b1f719b42d01fc7",
+      "size": 4480,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/276574cd3e4843ba501c2fa90b1f719b42d01fc7"
+    },
+    {
+      "path": "alembic/versions/035_remove_workspace_module.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54fa55305d0356b0fff23adcb58c8eeacde0b8d6",
+      "size": 3604,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/54fa55305d0356b0fff23adcb58c8eeacde0b8d6"
+    },
+    {
+      "path": "alembic/versions/036_verbatim_sources.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9d3d359a6781d2b1a5ed67b811c22076886e1f9",
+      "size": 3658,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/c9d3d359a6781d2b1a5ed67b811c22076886e1f9"
+    },
+    {
+      "path": "app",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7b72a573e14616e6427fc80b539f7c3650ac0fb6",
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/trees/7b72a573e14616e6427fc80b539f7c3650ac0fb6"
+    },
+    {
+      "path": "app/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ff014989ac58fdc686a7065f966e0dd9107d746",
+      "size": 45,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/8ff014989ac58fdc686a7065f966e0dd9107d746"
+    },
+    {
+      "path": "app/ai",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "48d404ed92ccf8422cc3a61c675ac2ef9340121c",
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/trees/48d404ed92ccf8422cc3a61c675ac2ef9340121c"
+    },
+    {
+      "path": "app/ai/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bde8826639b95d492f4e96532202020ff1f02152",
+      "size": 18,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/bde8826639b95d492f4e96532202020ff1f02152"
+    },
+    {
+      "path": "app/ai/agent_protocol.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "553a4baa739c0c17cf1b3eacede182c6b5f7389e",
+      "size": 9371,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/553a4baa739c0c17cf1b3eacede182c6b5f7389e"
+    },
+    {
+      "path": "app/ai/embedding_catalog.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0fafeb80828dfce100d9340d8d6b466b8eaef9dc",
+      "size": 4565,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/0fafeb80828dfce100d9340d8d6b466b8eaef9dc"
+    },
+    {
+      "path": "app/ai/llm_catalog.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88fbe31d055aa9451b8c61a5aaad8459a64e4868",
+      "size": 7811,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/88fbe31d055aa9451b8c61a5aaad8459a64e4868"
+    },
+    {
+      "path": "app/ai/mrp",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bd1ebba77f36225f7767e51c4df081f8c11d8f61",
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/trees/bd1ebba77f36225f7767e51c4df081f8c11d8f61"
+    },
+    {
+      "path": "app/ai/mrp/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "125d5ae250b444449a570a2d3a0ff57a114d9cc5",
+      "size": 63,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/125d5ae250b444449a570a2d3a0ff57a114d9cc5"
+    },
+    {
+      "path": "app/ai/mrp/mapper.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40763dcf3e19e8f4d1ae51b5400bf83db439db4d",
+      "size": 17041,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/40763dcf3e19e8f4d1ae51b5400bf83db439db4d"
+    },
+    {
+      "path": "app/ai/mrp/merger.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3ae841b077a1a8ac1f9fe943f436f7b1b78e349",
+      "size": 4159,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/e3ae841b077a1a8ac1f9fe943f436f7b1b78e349"
+    },
+    {
+      "path": "app/ai/mrp/pipeline.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f75b40a437d098799f5aad041d79b50da3d4dcb3",
+      "size": 19833,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/f75b40a437d098799f5aad041d79b50da3d4dcb3"
+    },
+    {
+      "path": "app/ai/mrp/reducer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84e90ccbb5b6a098e42bd15db06492460da37f63",
+      "size": 24298,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/84e90ccbb5b6a098e42bd15db06492460da37f63"
+    },
+    {
+      "path": "app/ai/mrp/verifier.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9dd6022471ce24ceba6bb526f24ba9e8134b9da2",
+      "size": 7891,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/9dd6022471ce24ceba6bb526f24ba9e8134b9da2"
+    },
+    {
+      "path": "app/ai/mrp/writer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18f9e01e0a4fc7a803d6a25a1cf3fea38d6c6eca",
+      "size": 51197,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/18f9e01e0a4fc7a803d6a25a1cf3fea38d6c6eca"
+    },
+    {
+      "path": "app/ai/providers",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0368234b0bd966dcf306fcb588a147ece2437468",
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/trees/0368234b0bd966dcf306fcb588a147ece2437468"
+    },
+    {
+      "path": "app/ai/providers/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e423fdc09f6cd30875287e42c3a82ef7f1c3de54",
+      "size": 108,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/e423fdc09f6cd30875287e42c3a82ef7f1c3de54"
+    },
+    {
+      "path": "app/ai/providers/anthropic_provider.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52a2f467c0653ca7de8b4c6f80f22b8ea895cb5b",
+      "size": 3250,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/52a2f467c0653ca7de8b4c6f80f22b8ea895cb5b"
+    },
+    {
+      "path": "app/ai/providers/base.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62f937bdc5015387f902029c1df1b8f6cbbb86f6",
+      "size": 4918,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/62f937bdc5015387f902029c1df1b8f6cbbb86f6"
+    },
+    {
+      "path": "app/ai/providers/google.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9fb6ee9a33d8c44623522d9250beb2822d9538ba",
+      "size": 9739,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/9fb6ee9a33d8c44623522d9250beb2822d9538ba"
+    },
+    {
+      "path": "app/ai/providers/openai_provider.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f652d7ded6094dca78a4a8937e32c96f16e3bf5c",
+      "size": 8694,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/f652d7ded6094dca78a4a8937e32c96f16e3bf5c"
+    },
+    {
+      "path": "app/ai/registry.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e100dc4082084bd6f1f5b12a75f205551ad38a95",
+      "size": 13782,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/e100dc4082084bd6f1f5b12a75f205551ad38a95"
+    },
+    {
+      "path": "app/ai/vision_catalog.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ddfdbcd5518c0dd5b458e11f7e6a02db64b7943c",
+      "size": 3527,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/ddfdbcd5518c0dd5b458e11f7e6a02db64b7943c"
+    },
+    {
+      "path": "app/ai/wiki_agent.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00f1f97e26069b7612e87dd20e7ae68077e0a46f",
+      "size": 17130,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/00f1f97e26069b7612e87dd20e7ae68077e0a46f"
+    },
+    {
+      "path": "app/ai/wiki_agent_tools.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d0f05f69d2a0362b7dbb5bfb484144eaf47b7f3",
+      "size": 17256,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/4d0f05f69d2a0362b7dbb5bfb484144eaf47b7f3"
+    },
+    {
+      "path": "app/ai/wiki_analyzer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1837c59df8aede7a5fd517bea1a913a97dae8000",
+      "size": 6148,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/1837c59df8aede7a5fd517bea1a913a97dae8000"
+    },
+    {
+      "path": "app/ai/wiki_compiler.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc734a8c4933ebe84723d5564cc860b5c08a1386",
+      "size": 29668,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/fc734a8c4933ebe84723d5564cc860b5c08a1386"
+    },
+    {
+      "path": "app/config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95d2d87df58a503f358d627858c04eead5d781e4",
+      "size": 4453,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/95d2d87df58a503f358d627858c04eead5d781e4"
+    },
+    {
+      "path": "app/database",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "270f19a50d48d7b3d4eba2a70d51a5d74fede0e0",
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/trees/270f19a50d48d7b3d4eba2a70d51a5d74fede0e0"
+    },
+    {
+      "path": "app/database/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25044f49efb77ee933b5cc5e87bec4a14672fb06",
+      "size": 863,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/25044f49efb77ee933b5cc5e87bec4a14672fb06"
+    },
+    {
+      "path": "app/database/models.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08d530a5ba3956709b7962401d2ed51a26c5a104",
+      "size": 53756,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/08d530a5ba3956709b7962401d2ed51a26c5a104"
+    },
+    {
+      "path": "app/database/oauth_models.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c0b1fbccf295a24f34a4cb93e9ee53192ffc2fc",
+      "size": 2202,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/6c0b1fbccf295a24f34a4cb93e9ee53192ffc2fc"
+    },
+    {
+      "path": "app/database/repository.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d537c88931f4e4507efd1e98f77b59370b3e439",
+      "size": 2154,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/2d537c88931f4e4507efd1e98f77b59370b3e439"
+    },
+    {
+      "path": "app/main.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "704e46f5253b8d28ee2521f2d13184cc8e996afe",
+      "size": 10930,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/704e46f5253b8d28ee2521f2d13184cc8e996afe"
+    },
+    {
+      "path": "app/mcp",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2eaaec77bb8bea347effcd75f3ed337d7cd69437",
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/trees/2eaaec77bb8bea347effcd75f3ed337d7cd69437"
+    },
+    {
+      "path": "app/mcp/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0beade297dc590d3855bf4b10114db8de99fd674",
+      "size": 78,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/0beade297dc590d3855bf4b10114db8de99fd674"
+    },
+    {
+      "path": "app/mcp/logging.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b76e51f518991b1f3fb089dae2c5f120759562c6",
+      "size": 6782,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/b76e51f518991b1f3fb089dae2c5f120759562c6"
+    },
+    {
+      "path": "app/mcp/middleware.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1cb8da9fb8f3cd5a503b5fcf561efa6edc5f1c61",
+      "size": 3193,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/1cb8da9fb8f3cd5a503b5fcf561efa6edc5f1c61"
+    },
+    {
+      "path": "app/mcp/permissions.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec5e25f3574dfa6a191b637eb94ae6f3797c56de",
+      "size": 3870,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/ec5e25f3574dfa6a191b637eb94ae6f3797c56de"
+    },
+    {
+      "path": "app/mcp/resources.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8f4d00f28b65eef1e2d782fd217d977ec92e510",
+      "size": 2826,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/a8f4d00f28b65eef1e2d782fd217d977ec92e510"
+    },
+    {
+      "path": "app/mcp/server.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73b76afd19a0ebdf1535941216b77338121ddc9c",
+      "size": 2692,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/73b76afd19a0ebdf1535941216b77338121ddc9c"
+    },
+    {
+      "path": "app/mcp/tools.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd0af7bbfd2725284041ea05aa8be7d75513856d",
+      "size": 80040,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/fd0af7bbfd2725284041ea05aa8be7d75513856d"
+    },
+    {
+      "path": "app/routers",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "aebfc06ff3b3acd252503f1bfc8ce3f486cf6318",
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/trees/aebfc06ff3b3acd252503f1bfc8ce3f486cf6318"
+    },
+    {
+      "path": "app/routers/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "053f1467f8885e9192c47fc26c9e90c6ef1abea5",
+      "size": 22,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/053f1467f8885e9192c47fc26c9e90c6ef1abea5"
+    },
+    {
+      "path": "app/routers/admin_embeddings.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5947cd3cd7e090f65627abd0c6cdae8c95a32f0c",
+      "size": 8797,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/5947cd3cd7e090f65627abd0c6cdae8c95a32f0c"
+    },
+    {
+      "path": "app/routers/admin_models.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a00473c8624aa274a75bda93e6418dba4b652d53",
+      "size": 6484,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/a00473c8624aa274a75bda93e6418dba4b652d53"
+    },
+    {
+      "path": "app/routers/admin_settings.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de9866ab9c93b3f812c50b25fa8a88bc2342af10",
+      "size": 5466,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/de9866ab9c93b3f812c50b25fa8a88bc2342af10"
+    },
+    {
+      "path": "app/routers/admin_stats.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "720a1c4929622e4a2d7eb5fa7a10456beaa68350",
+      "size": 13215,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/720a1c4929622e4a2d7eb5fa7a10456beaa68350"
+    },
+    {
+      "path": "app/routers/audit.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d845eba847ddcc683c930ca9d5913d89a9b5d97",
+      "size": 3542,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/9d845eba847ddcc683c930ca9d5913d89a9b5d97"
+    },
+    {
+      "path": "app/routers/auth.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "89886a2dbcbe209ae480a6723e479525b31198d0",
+      "size": 5268,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/89886a2dbcbe209ae480a6723e479525b31198d0"
+    },
+    {
+      "path": "app/routers/knowledge_types.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff8090a23cae0504bf32a0ce517fb7c8095191bf",
+      "size": 5711,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/ff8090a23cae0504bf32a0ce517fb7c8095191bf"
+    },
+    {
+      "path": "app/routers/notes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "86173e06645612122d79aa5c5719e8e9e85d4c7f",
+      "size": 2132,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/86173e06645612122d79aa5c5719e8e9e85d4c7f"
+    },
+    {
+      "path": "app/routers/notifications.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "941bcbccb21c1c4eb38777b3fd48c0cb4a533ffa",
+      "size": 3650,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/941bcbccb21c1c4eb38777b3fd48c0cb4a533ffa"
+    },
+    {
+      "path": "app/routers/oauth.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77fcad5928527899cb32edbf404b2f7a220c5740",
+      "size": 11613,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/77fcad5928527899cb32edbf404b2f7a220c5740"
+    },
+    {
+      "path": "app/routers/rbac.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b079fdc8b41f2cc4ce37e7dd4f04f5f11bf32d4",
+      "size": 16517,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/9b079fdc8b41f2cc4ce37e7dd4f04f5f11bf32d4"
+    },
+    {
+      "path": "app/routers/scopes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54bc8442eb964c993297815bcfdd6622822fff73",
+      "size": 10450,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/54bc8442eb964c993297815bcfdd6622822fff73"
+    },
+    {
+      "path": "app/routers/skill_contributions.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "315dae2337f63b44b463ad0052114bfafc022b14",
+      "size": 29212,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/315dae2337f63b44b463ad0052114bfafc022b14"
+    },
+    {
+      "path": "app/routers/skills.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c4e04422479fe859088c807f1719fe137db806f",
+      "size": 18853,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/1c4e04422479fe859088c807f1719fe137db806f"
+    },
+    {
+      "path": "app/routers/sources.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "354495fe3e119f71094427afaac7389fa4245073",
+      "size": 32942,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/354495fe3e119f71094427afaac7389fa4245073"
+    },
+    {
+      "path": "app/routers/wiki.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb2975c7ef2b7b1d5a02a0e99c5817fc2b54c975",
+      "size": 28436,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/eb2975c7ef2b7b1d5a02a0e99c5817fc2b54c975"
+    },
+    {
+      "path": "app/routers/wiki_branches.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "329a28f2a7dbfb7bf8afc0d5f544b8f7a7ef88a5",
+      "size": 16008,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/329a28f2a7dbfb7bf8afc0d5f544b8f7a7ef88a5"
+    },
+    {
+      "path": "app/routers/wiki_drafts.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37044c674784700086ad6ca3dc1011cb552b5629",
+      "size": 42450,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/37044c674784700086ad6ca3dc1011cb552b5629"
+    },
+    {
+      "path": "app/routers/wiki_images.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "541daef6db789d9ff4c1bec52820534036434003",
+      "size": 3073,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/541daef6db789d9ff4c1bec52820534036434003"
+    },
+    {
+      "path": "app/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "50f9b40064c275fe7bd62437049e60a11a3a34cb",
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/trees/50f9b40064c275fe7bd62437049e60a11a3a34cb"
+    },
+    {
+      "path": "app/scripts/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "app/scripts/seed_skills.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e14f6f4c97d96003694d522a06cb9c5d4156d76",
+      "size": 5220,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/3e14f6f4c97d96003694d522a06cb9c5d4156d76"
+    },
+    {
+      "path": "app/services",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "711079fd8fe1311ee1a61deb581a064fb60b205a",
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/trees/711079fd8fe1311ee1a61deb581a064fb60b205a"
+    },
+    {
+      "path": "app/services/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7775ec9a514eec1cf24d26c0f68f3bea568da78",
+      "size": 24,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/c7775ec9a514eec1cf24d26c0f68f3bea568da78"
+    },
+    {
+      "path": "app/services/ai_review",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bfec8e25b577683978d432257c2183ab648f18cc",
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/trees/bfec8e25b577683978d432257c2183ab648f18cc"
+    },
+    {
+      "path": "app/services/ai_review/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf1d50d01362a6e0fea0743127ee1d4847b89761",
+      "size": 572,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/cf1d50d01362a6e0fea0743127ee1d4847b89761"
+    },
+    {
+      "path": "app/services/ai_review/llm_checks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4839493a4275430761033cc16fc204faf31dba05",
+      "size": 4454,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/4839493a4275430761033cc16fc204faf31dba05"
+    },
+    {
+      "path": "app/services/ai_review/regex_checks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e079d98fc5d5806ed8d8703ab483625222260ec",
+      "size": 4593,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/5e079d98fc5d5806ed8d8703ab483625222260ec"
+    },
+    {
+      "path": "app/services/ai_review/runner.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f896f1289528bfde818af055e54e1f97ebc672b0",
+      "size": 9332,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/f896f1289528bfde818af055e54e1f97ebc672b0"
+    },
+    {
+      "path": "app/services/ai_review/semantic_checks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84e86ec2b4e560979b9c137a9c45eb11b7af5fdd",
+      "size": 2880,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/84e86ec2b4e560979b9c137a9c45eb11b7af5fdd"
+    },
+    {
+      "path": "app/services/ai_review/structural_checks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81bf30bf632970d7c576a3aabd90b6cbca6b07e1",
+      "size": 3912,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/81bf30bf632970d7c576a3aabd90b6cbca6b07e1"
+    },
+    {
+      "path": "app/services/audit_service.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd8a058476ea5d7c5dad4f9b51ea21f9501c71bd",
+      "size": 763,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/bd8a058476ea5d7c5dad4f9b51ea21f9501c71bd"
+    },
+    {
+      "path": "app/services/auth_service.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6fe6bfeb374a5c134b56271ee631e443b0545af0",
+      "size": 7170,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/6fe6bfeb374a5c134b56271ee631e443b0545af0"
+    },
+    {
+      "path": "app/services/config_service.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ef2b56c84dca595942e3aa0c9300438c415ab0e",
+      "size": 7537,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/0ef2b56c84dca595942e3aa0c9300438c415ab0e"
+    },
+    {
+      "path": "app/services/contribution_service.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3948205789ff0defe3a95653be64952b28c09c28",
+      "size": 19104,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/3948205789ff0defe3a95653be64952b28c09c28"
+    },
+    {
+      "path": "app/services/embedding_storage.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11b0a5687f0908ce12f8c8ccc073c68c89107a6c",
+      "size": 6750,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/11b0a5687f0908ce12f8c8ccc073c68c89107a6c"
+    },
+    {
+      "path": "app/services/image_service.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "997feaccc5b49806452a1e8676e318adc13f2360",
+      "size": 5668,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/997feaccc5b49806452a1e8676e318adc13f2360"
+    },
+    {
+      "path": "app/services/kb_service.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2229cbbe4f358b9b43076127d735a89df0c96928",
+      "size": 14410,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/2229cbbe4f358b9b43076127d735a89df0c96928"
+    },
+    {
+      "path": "app/services/mcp_auth_service.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e152b5d59fce2eb98c56acdc8e08246391a230e4",
+      "size": 10775,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/e152b5d59fce2eb98c56acdc8e08246391a230e4"
+    },
+    {
+      "path": "app/services/notification_dispatch.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b7b6aa55d4f08856033aaefe627097c0bd12bb8",
+      "size": 7247,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/6b7b6aa55d4f08856033aaefe627097c0bd12bb8"
+    },
+    {
+      "path": "app/services/notification_service.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0704d77f43df4a273529136aaf686d255662bb2",
+      "size": 7385,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/b0704d77f43df4a273529136aaf686d255662bb2"
+    },
+    {
+      "path": "app/services/oauth_service.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d74a1b107f63b4ac49b78701c93706a920f74da",
+      "size": 5016,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/6d74a1b107f63b4ac49b78701c93706a920f74da"
+    },
+    {
+      "path": "app/services/permission_engine.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ba3345633a04e868719420bf1e730e4ef681c84",
+      "size": 7860,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/2ba3345633a04e868719420bf1e730e4ef681c84"
+    },
+    {
+      "path": "app/services/permissions.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48f48ca567c3d43bbf28c59f88da591dc3e70fc3",
+      "size": 13721,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/48f48ca567c3d43bbf28c59f88da591dc3e70fc3"
+    },
+    {
+      "path": "app/services/policy_engine.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90ec59478e664027c6966838e5aec1e1ba62d88f",
+      "size": 2588,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/90ec59478e664027c6966838e5aec1e1ba62d88f"
+    },
+    {
+      "path": "app/services/skill_service.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "349457c3c3a382aab744553b2150c6d7a9b2a404",
+      "size": 41106,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/349457c3c3a382aab744553b2150c6d7a9b2a404"
+    },
+    {
+      "path": "app/services/source_outline.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19a1ccee266f9cfa62497ebceff78c107679c4b2",
+      "size": 7194,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/19a1ccee266f9cfa62497ebceff78c107679c4b2"
+    },
+    {
+      "path": "app/services/stats_aggregator.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ebf33e8659d3ec16dd786411931abb72b369a155",
+      "size": 21078,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/ebf33e8659d3ec16dd786411931abb72b369a155"
+    },
+    {
+      "path": "app/services/storage_service.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf157ad1162a61cb184590d34259ba7a04d8fa0b",
+      "size": 9347,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/cf157ad1162a61cb184590d34259ba7a04d8fa0b"
+    },
+    {
+      "path": "app/services/verbatim_service.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2ebc16cbfe355bb36816b9326b812c3516be2f3",
+      "size": 5952,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/e2ebc16cbfe355bb36816b9326b812c3516be2f3"
+    },
+    {
+      "path": "app/services/wiki_service.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f1cbcc5d90f44625228f2f6741d7b49f206c06d",
+      "size": 48815,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/2f1cbcc5d90f44625228f2f6741d7b49f206c06d"
+    },
+    {
+      "path": "app/utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "48f00dcd46adad6958d0fc60459801029dd6f5e0",
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/trees/48f00dcd46adad6958d0fc60459801029dd6f5e0"
+    },
+    {
+      "path": "app/utils/progress.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36d533e50d45b19204df51fef0b653c2a2516c8d",
+      "size": 786,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/36d533e50d45b19204df51fef0b653c2a2516c8d"
+    },
+    {
+      "path": "app/utils/text.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "03f3ff6cc151b5182812c2bc1e5b11ef47c44083",
+      "size": 1564,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/03f3ff6cc151b5182812c2bc1e5b11ef47c44083"
+    },
+    {
+      "path": "app/utils/tokens.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c7e413fc296276ac5a96d69ad00d0870b5c351d",
+      "size": 676,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/8c7e413fc296276ac5a96d69ad00d0870b5c351d"
+    },
+    {
+      "path": "app/worker.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3912059e4404347d3f04a62ba3ddf3f981a56823",
+      "size": 55768,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/3912059e4404347d3f04a62ba3ddf3f981a56823"
+    },
+    {
+      "path": "dedup.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "767046a61f676a4be6eee0aa990f0e55c7fbdb82",
+      "size": 1162,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/767046a61f676a4be6eee0aa990f0e55c7fbdb82"
+    },
+    {
+      "path": "docker-compose.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ade0a35cde1610d6b583719a6a30db5d13e91621",
+      "size": 3854,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/ade0a35cde1610d6b583719a6a30db5d13e91621"
+    },
+    {
+      "path": "docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dc6d45cba5baa1922a416010af7250e280fdb76e",
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/trees/dc6d45cba5baa1922a416010af7250e280fdb76e"
+    },
+    {
+      "path": "docs/ACCESS-CONTROL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "caa7bc67136e5c0ff4c4e503b91565224d7f283c",
+      "size": 11582,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/caa7bc67136e5c0ff4c4e503b91565224d7f283c"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e2173885a84325843728feec20bbcd0a068eed3",
+      "size": 17752,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/0e2173885a84325843728feec20bbcd0a068eed3"
+    },
+    {
+      "path": "docs/HOW_TO_RUN.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14e7a056dbe8a39597265dc86f99eb8837e5630e",
+      "size": 7221,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/14e7a056dbe8a39597265dc86f99eb8837e5630e"
+    },
+    {
+      "path": "docs/MCP.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2476e7b1632e007f6166d6c49c218153bdb786e",
+      "size": 16520,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/c2476e7b1632e007f6166d6c49c218153bdb786e"
+    },
+    {
+      "path": "docs/SETUP.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c566c06a9d761bb002ebef105750d904923e60e1",
+      "size": 18966,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/c566c06a9d761bb002ebef105750d904923e60e1"
+    },
+    {
+      "path": "docs/SKILLS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64f685cac62a902857c5101b82c2a6df7061d386",
+      "size": 4495,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/64f685cac62a902857c5101b82c2a6df7061d386"
+    },
+    {
+      "path": "docs/WIKI.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d30205e6d3e79c205f6de1d2cc4e3cc0a717531",
+      "size": 19799,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/0d30205e6d3e79c205f6de1d2cc4e3cc0a717531"
+    },
+    {
+      "path": "docs/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ff477c79b4e74a0a66f1cc30c4447ce5f9d4f091",
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/trees/ff477c79b4e74a0a66f1cc30c4447ce5f9d4f091"
+    },
+    {
+      "path": "docs/assets/arkon-architecture.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0494b372b6100e79abde5380285cc96351e7af25",
+      "size": 1013639,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/0494b372b6100e79abde5380285cc96351e7af25"
+    },
+    {
+      "path": "docs/assets/arkon-in-use-of-claude.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e081ea964abadc18d91e7f16c7410ae1c13e9407",
+      "size": 1113637,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/e081ea964abadc18d91e7f16c7410ae1c13e9407"
+    },
+    {
+      "path": "docs/assets/arkon-wiki-ui.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f40d3b820d7344e4fb4fc925832453b764764a2d",
+      "size": 128253,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/f40d3b820d7344e4fb4fc925832453b764764a2d"
+    },
+    {
+      "path": "docs/assets/arkon.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63fd01886d1346e4df0f25ceaf13952348bb4538",
+      "size": 1303356,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/63fd01886d1346e4df0f25ceaf13952348bb4538"
+    },
+    {
+      "path": "docs/assets/banner.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8cb5637cd0e067c980bc2e09868cbf21c63591d7",
+      "size": 1077945,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/8cb5637cd0e067c980bc2e09868cbf21c63591d7"
+    },
+    {
+      "path": "docs/assets/how-arkon-works.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d496b46726f213e287944b1784d44c36c2bc931a",
+      "size": 1562204,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/d496b46726f213e287944b1784d44c36c2bc931a"
+    },
+    {
+      "path": "docs/assets/permission-and-scope.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7608fc8c0a369df105a727d19e7bc384101eae2",
+      "size": 354241,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/c7608fc8c0a369df105a727d19e7bc384101eae2"
+    },
+    {
+      "path": "entrypoint.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ccec5fda4dd048ce6112f620acd4e2c2a6485f1",
+      "size": 217,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/4ccec5fda4dd048ce6112f620acd4e2c2a6485f1"
+    },
+    {
+      "path": "frontend",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "21faa28604cdf3efc5c00ad05fdb37eb0b3cbd4d",
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/trees/21faa28604cdf3efc5c00ad05fdb37eb0b3cbd4d"
+    },
+    {
+      "path": "frontend/.dockerignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a2935dbd76fe7dd66fce671178d88ce85768ff7",
+      "size": 52,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/4a2935dbd76fe7dd66fce671178d88ce85768ff7"
+    },
+    {
+      "path": "frontend/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ef6a520780202a1d6addd833d800ccb1ecac0bb",
+      "size": 480,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/5ef6a520780202a1d6addd833d800ccb1ecac0bb"
+    },
+    {
+      "path": "frontend/AGENTS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8bd0e39085d5260e7f8faffcad2fdc45e10aef33",
+      "size": 327,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/8bd0e39085d5260e7f8faffcad2fdc45e10aef33"
+    },
+    {
+      "path": "frontend/CLAUDE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43c994c2d3617f947bcb5adf1933e21dabe46bb5",
+      "size": 11,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/43c994c2d3617f947bcb5adf1933e21dabe46bb5"
+    },
+    {
+      "path": "frontend/Dockerfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "457160950f3347c57dca52c28c0bdb364f75dedc",
+      "size": 865,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/457160950f3347c57dca52c28c0bdb364f75dedc"
+    },
+    {
+      "path": "frontend/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e215bc4ccf138bbc38ad58ad57e92135484b3c0f",
+      "size": 1450,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/e215bc4ccf138bbc38ad58ad57e92135484b3c0f"
+    },
+    {
+      "path": "frontend/components.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d886db5756307e013bc8ae97c05220fb7b6ab7a",
+      "size": 520,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/8d886db5756307e013bc8ae97c05220fb7b6ab7a"
+    },
+    {
+      "path": "frontend/eslint.config.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05e726d1b4201bc8c7716d2b058279676582e8c0",
+      "size": 465,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/05e726d1b4201bc8c7716d2b058279676582e8c0"
+    },
+    {
+      "path": "frontend/next.config.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45dd54c6b44bfdb80f5e4e12a55d039d1d58690b",
+      "size": 369,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/45dd54c6b44bfdb80f5e4e12a55d039d1d58690b"
+    },
+    {
+      "path": "frontend/package-lock.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e192b6b7670d9f1bd4a3bdd3ba64064a7cbc4260",
+      "size": 425472,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/e192b6b7670d9f1bd4a3bdd3ba64064a7cbc4260"
+    },
+    {
+      "path": "frontend/package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c9c3a7d45cc187efc4dec11b6961aa12152fd75",
+      "size": 1093,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/0c9c3a7d45cc187efc4dec11b6961aa12152fd75"
+    },
+    {
+      "path": "frontend/postcss.config.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61e36849cf7cfa9f1f71b4a3964a4953e3e243d3",
+      "size": 94,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/61e36849cf7cfa9f1f71b4a3964a4953e3e243d3"
+    },
+    {
+      "path": "frontend/public",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1dec437d8d3d295ee055214a743bc5f8f65c4f28",
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/trees/1dec437d8d3d295ee055214a743bc5f8f65c4f28"
+    },
+    {
+      "path": "frontend/public/logo.ico",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d24e8b9aafb2a95b1dd624bfe8bb034b833fdb69",
+      "size": 4286,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/d24e8b9aafb2a95b1dd624bfe8bb034b833fdb69"
+    },
+    {
+      "path": "frontend/public/logo.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e32bf0e331235d4039c3da3ed5a25afe227e2cab",
+      "size": 562698,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/e32bf0e331235d4039c3da3ed5a25afe227e2cab"
+    },
+    {
+      "path": "frontend/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "429f63f4bfe883ba28d53f07ff31d407b937b512",
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/trees/429f63f4bfe883ba28d53f07ff31d407b937b512"
+    },
+    {
+      "path": "frontend/src/app",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dbd6accca1395a0c0f889e6e8a9f5f60c9cd2225",
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/trees/dbd6accca1395a0c0f889e6e8a9f5f60c9cd2225"
+    },
+    {
+      "path": "frontend/src/app/(portal)",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ffc66e7860faa0261edd634e3d5ba2ab84a0875e",
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/trees/ffc66e7860faa0261edd634e3d5ba2ab84a0875e"
+    },
+    {
+      "path": "frontend/src/app/(portal)/admin",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1d729c7c073425fd6610e5e5ed411920d989fbb2",
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/trees/1d729c7c073425fd6610e5e5ed411920d989fbb2"
+    },
+    {
+      "path": "frontend/src/app/(portal)/admin/skill-contributions",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5a9956d7ee69124f1720182df689bfa7704a05e4",
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/trees/5a9956d7ee69124f1720182df689bfa7704a05e4"
+    },
+    {
+      "path": "frontend/src/app/(portal)/admin/skill-contributions/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9fe32cca615a557e7025cd4d248380b1e3438f81",
+      "size": 8683,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/9fe32cca615a557e7025cd4d248380b1e3438f81"
+    },
+    {
+      "path": "frontend/src/app/(portal)/audit",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9ede7a22480d7925c7980c83e3244d63240a54bf",
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/trees/9ede7a22480d7925c7980c83e3244d63240a54bf"
+    },
+    {
+      "path": "frontend/src/app/(portal)/audit/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "03c91d6e5734a556156471331ca54438c5565b0d",
+      "size": 2997,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/03c91d6e5734a556156471331ca54438c5565b0d"
+    },
+    {
+      "path": "frontend/src/app/(portal)/departments",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "27f9e91ede34f1bf870511480d0050d29857494e",
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/trees/27f9e91ede34f1bf870511480d0050d29857494e"
+    },
+    {
+      "path": "frontend/src/app/(portal)/departments/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48e8a67f97d3a053697851b0f9effdc35bd69fd3",
+      "size": 2118,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/48e8a67f97d3a053697851b0f9effdc35bd69fd3"
+    },
+    {
+      "path": "frontend/src/app/(portal)/employees",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fbfcebf81a959979741ed515e0f3dfab6bf541d1",
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/trees/fbfcebf81a959979741ed515e0f3dfab6bf541d1"
+    },
+    {
+      "path": "frontend/src/app/(portal)/employees/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc7269d5f1bb4518efbb0cb69e3e4d85ff92ac41",
+      "size": 3668,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/dc7269d5f1bb4518efbb0cb69e3e4d85ff92ac41"
+    },
+    {
+      "path": "frontend/src/app/(portal)/knowledge",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "55b2c3e65ccceaadd521e9781baca942fa674e0e",
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/trees/55b2c3e65ccceaadd521e9781baca942fa674e0e"
+    },
+    {
+      "path": "frontend/src/app/(portal)/knowledge/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ec3c0f876a266cb0e09eabcc4d7092cd50b99bb",
+      "size": 7723,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/0ec3c0f876a266cb0e09eabcc4d7092cd50b99bb"
+    },
+    {
+      "path": "frontend/src/app/(portal)/layout.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a35fe0dae86e02da9dc43c39ebc12e6c452611de",
+      "size": 1270,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/a35fe0dae86e02da9dc43c39ebc12e6c452611de"
+    },
+    {
+      "path": "frontend/src/app/(portal)/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de36739a62b3ee82d657a786f740d8e583453ab7",
+      "size": 35358,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/de36739a62b3ee82d657a786f740d8e583453ab7"
+    },
+    {
+      "path": "frontend/src/app/(portal)/profile",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5560db690bbea8f53e81fc3b6f69e1f168a31c7f",
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/trees/5560db690bbea8f53e81fc3b6f69e1f168a31c7f"
+    },
+    {
+      "path": "frontend/src/app/(portal)/profile/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ef8218b9d2af5926a36782bae58424567e86758",
+      "size": 5362,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/0ef8218b9d2af5926a36782bae58424567e86758"
+    },
+    {
+      "path": "frontend/src/app/(portal)/settings",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a63145c2ae8f7860e6a3c6c4369b4198315a3f65",
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/trees/a63145c2ae8f7860e6a3c6c4369b4198315a3f65"
+    },
+    {
+      "path": "frontend/src/app/(portal)/settings/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35908d67cf2c9f0b585e418ce1f04ea11b4067b5",
+      "size": 3244,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/35908d67cf2c9f0b585e418ce1f04ea11b4067b5"
+    },
+    {
+      "path": "frontend/src/app/(portal)/skills",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "429439f8daf962872cc53bac925c906c54070a28",
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/trees/429439f8daf962872cc53bac925c906c54070a28"
+    },
+    {
+      "path": "frontend/src/app/(portal)/skills/[slug]",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d92e030f7117a515953ba8001e09fad2a634c636",
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/trees/d92e030f7117a515953ba8001e09fad2a634c636"
+    },
+    {
+      "path": "frontend/src/app/(portal)/skills/[slug]/edit",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "84a6f7491ecc5caa229faf187f218b9a987e0e98",
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/trees/84a6f7491ecc5caa229faf187f218b9a987e0e98"
+    },
+    {
+      "path": "frontend/src/app/(portal)/skills/[slug]/edit/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4098b97bec76ab0faaf6f31593a2503ba2a69491",
+      "size": 315,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/4098b97bec76ab0faaf6f31593a2503ba2a69491"
+    },
+    {
+      "path": "frontend/src/app/(portal)/skills/[slug]/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c19c2ea8dba248ec5519d92fe8acecbbaf61a51",
+      "size": 23722,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/9c19c2ea8dba248ec5519d92fe8acecbbaf61a51"
+    },
+    {
+      "path": "frontend/src/app/(portal)/skills/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c183f0f3217457183e17e78eeec931754a7ddcdd",
+      "size": 17330,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/c183f0f3217457183e17e78eeec931754a7ddcdd"
+    },
+    {
+      "path": "frontend/src/app/(portal)/skills/skills.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4b07f636f4597a5837e8b3335cfba151bcfb128",
+      "size": 634,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/c4b07f636f4597a5837e8b3335cfba151bcfb128"
+    },
+    {
+      "path": "frontend/src/app/(portal)/wiki",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "887ca26cc96aa77db11db48fcadb175b4729b6ce",
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/trees/887ca26cc96aa77db11db48fcadb175b4729b6ce"
+    },
+    {
+      "path": "frontend/src/app/(portal)/wiki/[...slug]",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "adccbff6ab8a0f2ff07c7d5f9ab5e870554a3a19",
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/trees/adccbff6ab8a0f2ff07c7d5f9ab5e870554a3a19"
+    },
+    {
+      "path": "frontend/src/app/(portal)/wiki/[...slug]/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75ba693e0acf709fd8cb0426fd92e21a6b09f2ce",
+      "size": 44150,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/75ba693e0acf709fd8cb0426fd92e21a6b09f2ce"
+    },
+    {
+      "path": "frontend/src/app/(portal)/wiki/branches",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "526316f5b8b289f0cd8524c0d1f119e9dbd5aa31",
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/trees/526316f5b8b289f0cd8524c0d1f119e9dbd5aa31"
+    },
+    {
+      "path": "frontend/src/app/(portal)/wiki/branches/[id]",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4b1677d58b3c73517ffe33b7661ef31efad3a3e9",
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/trees/4b1677d58b3c73517ffe33b7661ef31efad3a3e9"
+    },
+    {
+      "path": "frontend/src/app/(portal)/wiki/branches/[id]/rebase",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a5145300a4ba05519db6f7d744923bc96ffd75c8",
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/trees/a5145300a4ba05519db6f7d744923bc96ffd75c8"
+    },
+    {
+      "path": "frontend/src/app/(portal)/wiki/branches/[id]/rebase/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82f4be4691bcf64a44af53f0d9c43f584ae2c074",
+      "size": 10964,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/82f4be4691bcf64a44af53f0d9c43f584ae2c074"
+    },
+    {
+      "path": "frontend/src/app/(portal)/wiki/graph",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ec983ade9579d07101acdbea105f94acd276fd4a",
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/trees/ec983ade9579d07101acdbea105f94acd276fd4a"
+    },
+    {
+      "path": "frontend/src/app/(portal)/wiki/graph/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a3568892d3f2a9083a1d3451d89e4759c672bc76",
+      "size": 14132,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/a3568892d3f2a9083a1d3451d89e4759c672bc76"
+    },
+    {
+      "path": "frontend/src/app/(portal)/wiki/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5975d747b76878f1bae710817892a152058b12c1",
+      "size": 16966,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/5975d747b76878f1bae710817892a152058b12c1"
+    },
+    {
+      "path": "frontend/src/app/(portal)/wiki/review",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2cf00d0154e8482a8a25119f750109923b3f9879",
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/trees/2cf00d0154e8482a8a25119f750109923b3f9879"
+    },
+    {
+      "path": "frontend/src/app/(portal)/wiki/review/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "155caa6a586c177fdcf359af6f66b29ba2af5847",
+      "size": 39879,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/155caa6a586c177fdcf359af6f66b29ba2af5847"
+    },
+    {
+      "path": "frontend/src/app/favicon.ico",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d24e8b9aafb2a95b1dd624bfe8bb034b833fdb69",
+      "size": 4286,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/d24e8b9aafb2a95b1dd624bfe8bb034b833fdb69"
+    },
+    {
+      "path": "frontend/src/app/globals.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41b7f3071424b9c90e18cc7a56f9adcfc03a8494",
+      "size": 5151,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/41b7f3071424b9c90e18cc7a56f9adcfc03a8494"
+    },
+    {
+      "path": "frontend/src/app/layout.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53798d5ade5b318de03a050411da138540ed8bf5",
+      "size": 1150,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/53798d5ade5b318de03a050411da138540ed8bf5"
+    },
+    {
+      "path": "frontend/src/app/login",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2024cdeb5f3aff98d18bbe2b43620ff8355175b9",
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/trees/2024cdeb5f3aff98d18bbe2b43620ff8355175b9"
+    },
+    {
+      "path": "frontend/src/app/login/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ca59865b84ff4f7f569bf6db92b6f8991abc33c",
+      "size": 3525,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/1ca59865b84ff4f7f569bf6db92b6f8991abc33c"
+    },
+    {
+      "path": "frontend/src/components",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9f7892631f1b067bd1499499d4f093a749acaaf6",
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/trees/9f7892631f1b067bd1499499d4f093a749acaaf6"
+    },
+    {
+      "path": "frontend/src/components/audit",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b6a6ed2f28aeac7f48fb80651d825cac01d2141e",
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/trees/b6a6ed2f28aeac7f48fb80651d825cac01d2141e"
+    },
+    {
+      "path": "frontend/src/components/audit/audit-table.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56c75d0d671918e72e7763cb05ba4a38e5221458",
+      "size": 4571,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/56c75d0d671918e72e7763cb05ba4a38e5221458"
+    },
+    {
+      "path": "frontend/src/components/dashboard",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fada8aa22aec5553db877042ecda507a7024c2fa",
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/trees/fada8aa22aec5553db877042ecda507a7024c2fa"
+    },
+    {
+      "path": "frontend/src/components/dashboard/mcp-connection-card.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "460fd35e050291f90b99f8b9db1f582dc9018431",
+      "size": 1435,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/460fd35e050291f90b99f8b9db1f582dc9018431"
+    },
+    {
+      "path": "frontend/src/components/dashboard/recent-sources-card.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31aa773dce492dec43f667140e03e1476f085c50",
+      "size": 3458,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/31aa773dce492dec43f667140e03e1476f085c50"
+    },
+    {
+      "path": "frontend/src/components/dashboard/system-health-card.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a45704c2e74a1bd31606cb57d88e18b107a2909",
+      "size": 2538,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/0a45704c2e74a1bd31606cb57d88e18b107a2909"
+    },
+    {
+      "path": "frontend/src/components/departments",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4cae0eb14c394e4ee5974589043c951cf2ef2b19",
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/trees/4cae0eb14c394e4ee5974589043c951cf2ef2b19"
+    },
+    {
+      "path": "frontend/src/components/departments/department-cards.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "387b3b0755d8050794b4dda52636388eae2adcf9",
+      "size": 3873,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/387b3b0755d8050794b4dda52636388eae2adcf9"
+    },
+    {
+      "path": "frontend/src/components/departments/department-dialog.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de7e9cbaee4573d34c93abd8b7206a97cf0b3472",
+      "size": 3584,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/de7e9cbaee4573d34c93abd8b7206a97cf0b3472"
+    },
+    {
+      "path": "frontend/src/components/departments/dept-members-dialog.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b6568200996404f2878256ab7a6777c550b06f9",
+      "size": 6541,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/9b6568200996404f2878256ab7a6777c550b06f9"
+    },
+    {
+      "path": "frontend/src/components/employees",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f77878d78f5600987bcb66c8f9ac20cb4025df12",
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/trees/f77878d78f5600987bcb66c8f9ac20cb4025df12"
+    },
+    {
+      "path": "frontend/src/components/employees/employee-dialog.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77820e96418ed99847aff223d01ee03e67d8431f",
+      "size": 11265,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/77820e96418ed99847aff223d01ee03e67d8431f"
+    },
+    {
+      "path": "frontend/src/components/employees/employee-table.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10dd2da69400d2d7e70b2f85a8e01117896edecb",
+      "size": 16138,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/10dd2da69400d2d7e70b2f85a8e01117896edecb"
+    },
+    {
+      "path": "frontend/src/components/knowledge",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "77312d6a5e13085afbdeac4f37a20a5d9637c1cc",
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/trees/77312d6a5e13085afbdeac4f37a20a5d9637c1cc"
+    },
+    {
+      "path": "frontend/src/components/knowledge/knowledge-filters.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5cc5c131ea36f24a90f7457f36729214e9a0fcf0",
+      "size": 3173,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/5cc5c131ea36f24a90f7457f36729214e9a0fcf0"
+    },
+    {
+      "path": "frontend/src/components/knowledge/knowledge-table",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6b23d3ea26d5b1fe7488ee9082caabc6c22bcef6",
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/trees/6b23d3ea26d5b1fe7488ee9082caabc6c22bcef6"
+    },
+    {
+      "path": "frontend/src/components/knowledge/knowledge-table/edit-source-dialog.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d6a1244f12dedfcd5b5d7f570221c8bbfd417db",
+      "size": 12840,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/7d6a1244f12dedfcd5b5d7f570221c8bbfd417db"
+    },
+    {
+      "path": "frontend/src/components/knowledge/knowledge-table/extraction-review-dialog.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "feddad084c529a0efa43aad3cb801811ce130d57",
+      "size": 5537,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/feddad084c529a0efa43aad3cb801811ce130d57"
+    },
+    {
+      "path": "frontend/src/components/knowledge/knowledge-table/index.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "916d59175f74b03c429732a7e2e5e5bd5f9bffb4",
+      "size": 18415,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/916d59175f74b03c429732a7e2e5e5bd5f9bffb4"
+    },
+    {
+      "path": "frontend/src/components/knowledge/knowledge-table/plan-review-dialog.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f9f4a5f0ab35b54a440d178ad21670b8371b168",
+      "size": 12838,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/7f9f4a5f0ab35b54a440d178ad21670b8371b168"
+    },
+    {
+      "path": "frontend/src/components/knowledge/knowledge-table/status-dot.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e04eb0faf8992c9199f450d5c93df56be997bb0",
+      "size": 1713,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/5e04eb0faf8992c9199f450d5c93df56be997bb0"
+    },
+    {
+      "path": "frontend/src/components/knowledge/knowledge-table/types.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5396418c33029b6c058941b67b68e1e957136d9d",
+      "size": 886,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/5396418c33029b6c058941b67b68e1e957136d9d"
+    },
+    {
+      "path": "frontend/src/components/knowledge/knowledge-table/utils.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bdf7b81a953e376b1fbc830f106ad400d5cd81e1",
+      "size": 408,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/bdf7b81a953e376b1fbc830f106ad400d5cd81e1"
+    },
+    {
+      "path": "frontend/src/components/knowledge/upload-dialog.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7140042a6a95564bd76852a3541847e52723dfe5",
+      "size": 16821,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/7140042a6a95564bd76852a3541847e52723dfe5"
+    },
+    {
+      "path": "frontend/src/components/layout",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "51c3ed00398fea0f6421a7b1bb9db3e0a980f3e3",
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/trees/51c3ed00398fea0f6421a7b1bb9db3e0a980f3e3"
+    },
+    {
+      "path": "frontend/src/components/layout/header.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36981c36be47ea49aff7f69ff4b491737dc53bbf",
+      "size": 1993,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/36981c36be47ea49aff7f69ff4b491737dc53bbf"
+    },
+    {
+      "path": "frontend/src/components/layout/sidebar.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8a0ff43c599fc949418a2fc4d4a5e1e82007e1b",
+      "size": 9349,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/e8a0ff43c599fc949418a2fc4d4a5e1e82007e1b"
+    },
+    {
+      "path": "frontend/src/components/notifications",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "99eb70bc8c8e97e638fc4683aedc899e74eac36a",
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/trees/99eb70bc8c8e97e638fc4683aedc899e74eac36a"
+    },
+    {
+      "path": "frontend/src/components/notifications/notification-bell.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "099bcaf10be31a506f49c0567f357d1ec7990802",
+      "size": 2971,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/099bcaf10be31a506f49c0567f357d1ec7990802"
+    },
+    {
+      "path": "frontend/src/components/notifications/notification-drawer.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0ea66ebea3f256c74d014df59fadf28e58a7f2b",
+      "size": 5302,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/d0ea66ebea3f256c74d014df59fadf28e58a7f2b"
+    },
+    {
+      "path": "frontend/src/components/profile",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ed30a457f63290f5c0375973f1705d026aacc9dd",
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/trees/ed30a457f63290f5c0375973f1705d026aacc9dd"
+    },
+    {
+      "path": "frontend/src/components/profile/mcp-token-card.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "870c02ab1689b21431e5e9773ef942659744d1fc",
+      "size": 4490,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/870c02ab1689b21431e5e9773ef942659744d1fc"
+    },
+    {
+      "path": "frontend/src/components/settings",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c6e528f8e62a63e191ef9d2baf6b82cc1e51bed5",
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/trees/c6e528f8e62a63e191ef9d2baf6b82cc1e51bed5"
+    },
+    {
+      "path": "frontend/src/components/settings/embedding-settings-card.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4765e3c3b2a12989f0d43b2bf3768345b8532925",
+      "size": 9646,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/4765e3c3b2a12989f0d43b2bf3768345b8532925"
+    },
+    {
+      "path": "frontend/src/components/settings/model-catalog-card.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac03afb892aca142a196c8ccb79a069ee2be8ecb",
+      "size": 7682,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/ac03afb892aca142a196c8ccb79a069ee2be8ecb"
+    },
+    {
+      "path": "frontend/src/components/settings/notification-channels-card.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f22b5f195f36562e703a080079c20941334bcc1",
+      "size": 7801,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/0f22b5f195f36562e703a080079c20941334bcc1"
+    },
+    {
+      "path": "frontend/src/components/shared",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a0e42363e853bcd3780266a401555e484c6c0ab9",
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/trees/a0e42363e853bcd3780266a401555e484c6c0ab9"
+    },
+    {
+      "path": "frontend/src/components/shared/empty-state.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85414b864d201070b719724dbf182c6a10560d08",
+      "size": 712,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/85414b864d201070b719724dbf182c6a10560d08"
+    },
+    {
+      "path": "frontend/src/components/shared/page-header.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d789c994e10f75cd35c339bb7abed43713f45fb",
+      "size": 636,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/1d789c994e10f75cd35c339bb7abed43713f45fb"
+    },
+    {
+      "path": "frontend/src/components/shared/scope-badge.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cbb7f19a8cb024280589a21fad1d2ba304d07710",
+      "size": 2633,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/cbb7f19a8cb024280589a21fad1d2ba304d07710"
+    },
+    {
+      "path": "frontend/src/components/shared/scope-dialog.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef23967da586f09e2870f405b125ccec2dfabbe6",
+      "size": 1078,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/ef23967da586f09e2870f405b125ccec2dfabbe6"
+    },
+    {
+      "path": "frontend/src/components/shared/scope-members-dialog.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a660bc046fd22f5d70c5dbfa5c8e0f5a98230776",
+      "size": 8371,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/a660bc046fd22f5d70c5dbfa5c8e0f5a98230776"
+    },
+    {
+      "path": "frontend/src/components/shared/stat-card.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34add3703e61471bf7646a2abd8907b7e36f3f89",
+      "size": 896,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/34add3703e61471bf7646a2abd8907b7e36f3f89"
+    },
+    {
+      "path": "frontend/src/components/skills",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4fe759a534e08627f03a63218479959923a21fc2",
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/trees/4fe759a534e08627f03a63218479959923a21fc2"
+    },
+    {
+      "path": "frontend/src/components/skills/add-tags-dialog.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a778d3bb95ed0a07bb29e727181912e581f604f",
+      "size": 2963,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/1a778d3bb95ed0a07bb29e727181912e581f604f"
+    },
+    {
+      "path": "frontend/src/components/skills/bulk-add-tags-to-skills-dialog.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a33ac7298879ba1157c5998224382ca20a258297",
+      "size": 5765,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/a33ac7298879ba1157c5998224382ca20a258297"
+    },
+    {
+      "path": "frontend/src/components/skills/bulk-remove-tags-dialog.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "010b72f16f3d6e483a8cfd5454b4488e104e9b9d",
+      "size": 5585,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/010b72f16f3d6e483a8cfd5454b4488e104e9b9d"
+    },
+    {
+      "path": "frontend/src/components/skills/my-skill-contributions.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62a9250f8d707d2af0773e5691b39828a5d21162",
+      "size": 10196,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/62a9250f8d707d2af0773e5691b39828a5d21162"
+    },
+    {
+      "path": "frontend/src/components/skills/pending-contributions-sidebar.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "919a0e21b54cd70da00dfa968fb08ae2bddf62b2",
+      "size": 4439,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/919a0e21b54cd70da00dfa968fb08ae2bddf62b2"
+    },
+    {
+      "path": "frontend/src/components/skills/skill-card.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22d02adb7ff18dfc21ddc789fb7c738b746c4524",
+      "size": 5133,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/22d02adb7ff18dfc21ddc789fb7c738b746c4524"
+    },
+    {
+      "path": "frontend/src/components/skills/skill-contribute-dialog.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63592ecefe979301a793668f42c2d8300abbd128",
+      "size": 12535,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/63592ecefe979301a793668f42c2d8300abbd128"
+    },
+    {
+      "path": "frontend/src/components/skills/skill-detail-dialog.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "070032e09aaac3bed266e04c1c30e7eacf9bfaca",
+      "size": 4528,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/070032e09aaac3bed266e04c1c30e7eacf9bfaca"
+    },
+    {
+      "path": "frontend/src/components/skills/skill-editor.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5394a7ef00f21bae5af84d12f2946ba038536dcb",
+      "size": 37016,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/5394a7ef00f21bae5af84d12f2946ba038536dcb"
+    },
+    {
+      "path": "frontend/src/components/skills/skill-file-explorer.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c74397b4729013b758a59d361c82f9bbc10393d",
+      "size": 14430,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/5c74397b4729013b758a59d361c82f9bbc10393d"
+    },
+    {
+      "path": "frontend/src/components/skills/skill-search-dialog.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "daf0c344701681f0cadbfe94e23a6df8360eb670",
+      "size": 6240,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/daf0c344701681f0cadbfe94e23a6df8360eb670"
+    },
+    {
+      "path": "frontend/src/components/skills/skill-sidebar-filters.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f63f5a369ed179f1b66087f790b1606f9e71edb",
+      "size": 2684,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/8f63f5a369ed179f1b66087f790b1606f9e71edb"
+    },
+    {
+      "path": "frontend/src/components/skills/skill-table.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb9392e91bedcfefb57c098fed4bddaa7310dfb5",
+      "size": 22346,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/eb9392e91bedcfefb57c098fed4bddaa7310dfb5"
+    },
+    {
+      "path": "frontend/src/components/skills/tags-manager-dialog.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf80144f0e774b64036b090773d6190ed156d79f",
+      "size": 7079,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/cf80144f0e774b64036b090773d6190ed156d79f"
+    },
+    {
+      "path": "frontend/src/components/skills/upload-skill-dialog.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5037fa47db9b25999b2ffa438c3570f3a29eafa6",
+      "size": 8978,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/5037fa47db9b25999b2ffa438c3570f3a29eafa6"
+    },
+    {
+      "path": "frontend/src/components/stats",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "808cbdb4518b3f1e9c8deafa416e146e33df94e6",
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/trees/808cbdb4518b3f1e9c8deafa416e146e33df94e6"
+    },
+    {
+      "path": "frontend/src/components/stats/charts.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18d5f8ec92312aaba632834495e8d27148766cb9",
+      "size": 4850,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/18d5f8ec92312aaba632834495e8d27148766cb9"
+    },
+    {
+      "path": "frontend/src/components/types",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "330920d1e3957a02dcd6a632f137439c6d1973f3",
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/trees/330920d1e3957a02dcd6a632f137439c6d1973f3"
+    },
+    {
+      "path": "frontend/src/components/types/knowledge-type-cards.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b95f0659479f2a76846c43b5a539c9fb3de35887",
+      "size": 3089,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/b95f0659479f2a76846c43b5a539c9fb3de35887"
+    },
+    {
+      "path": "frontend/src/components/types/knowledge-type-dialog.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f45aa44bccc03c9d94b6844cd388b2c845e2f08f",
+      "size": 5626,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/f45aa44bccc03c9d94b6844cd388b2c845e2f08f"
+    },
+    {
+      "path": "frontend/src/components/ui",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5b287669d315318e50a00b5d85369509944f296a",
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/trees/5b287669d315318e50a00b5d85369509944f296a"
+    },
+    {
+      "path": "frontend/src/components/ui/avatar.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4fed865cf75e3f46d920d554204faa7b6639200",
+      "size": 3038,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/e4fed865cf75e3f46d920d554204faa7b6639200"
+    },
+    {
+      "path": "frontend/src/components/ui/badge.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b20959dd775e40754a5f66940c62ee4f7feaef36",
+      "size": 1925,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/b20959dd775e40754a5f66940c62ee4f7feaef36"
+    },
+    {
+      "path": "frontend/src/components/ui/button.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09df753676cbb937c76c080deaea440a4345a28f",
+      "size": 3197,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/09df753676cbb937c76c080deaea440a4345a28f"
+    },
+    {
+      "path": "frontend/src/components/ui/card.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40cac5f98d7f50f860277e034cab8b6544d66695",
+      "size": 2641,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/40cac5f98d7f50f860277e034cab8b6544d66695"
+    },
+    {
+      "path": "frontend/src/components/ui/checkbox.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c696c37c8ec500a75e0136d090871c984619f12",
+      "size": 1199,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/2c696c37c8ec500a75e0136d090871c984619f12"
+    },
+    {
+      "path": "frontend/src/components/ui/dialog.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "014f5aa3b65627541b66ace8f6624e118a7c5afe",
+      "size": 4075,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/014f5aa3b65627541b66ace8f6624e118a7c5afe"
+    },
+    {
+      "path": "frontend/src/components/ui/dropdown-menu.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c429b1fe6021c881c0caad343ce210c8f16b056",
+      "size": 8727,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/8c429b1fe6021c881c0caad343ce210c8f16b056"
+    },
+    {
+      "path": "frontend/src/components/ui/input.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d21babba91655ac1cd6a5ea630eb2ec18d2b52b",
+      "size": 1040,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/7d21babba91655ac1cd6a5ea630eb2ec18d2b52b"
+    },
+    {
+      "path": "frontend/src/components/ui/label.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74da65c33b49c2921947376aa11634a403c833fd",
+      "size": 518,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/74da65c33b49c2921947376aa11634a403c833fd"
+    },
+    {
+      "path": "frontend/src/components/ui/select.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8021f5f283d43afc66e003a97231c1255864a4c",
+      "size": 6655,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/e8021f5f283d43afc66e003a97231c1255864a4c"
+    },
+    {
+      "path": "frontend/src/components/ui/separator.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e1369e43cce8be3da7ef04940b79dd276245290",
+      "size": 545,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/6e1369e43cce8be3da7ef04940b79dd276245290"
+    },
+    {
+      "path": "frontend/src/components/ui/sheet.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78c0a76494aafe3256c8e1dd76991584b985ac38",
+      "size": 4433,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/78c0a76494aafe3256c8e1dd76991584b985ac38"
+    },
+    {
+      "path": "frontend/src/components/ui/switch.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b8b44b1d19a3904b56c6ac9a3e9230d46be9dbc",
+      "size": 1707,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/9b8b44b1d19a3904b56c6ac9a3e9230d46be9dbc"
+    },
+    {
+      "path": "frontend/src/components/ui/table.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "abeaced4b2efac98bf5c50ec2c3791bbc88bc0bd",
+      "size": 2402,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/abeaced4b2efac98bf5c50ec2c3791bbc88bc0bd"
+    },
+    {
+      "path": "frontend/src/components/ui/tabs.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ee8054f3f7347bbacdb7399024d64f34d676836",
+      "size": 3497,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/8ee8054f3f7347bbacdb7399024d64f34d676836"
+    },
+    {
+      "path": "frontend/src/components/ui/textarea.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04d27f7d17584cd77ba7d6f2377f5be6779f1270",
+      "size": 842,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/04d27f7d17584cd77ba7d6f2377f5be6779f1270"
+    },
+    {
+      "path": "frontend/src/components/ui/tooltip.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69e8a822c0e10629683093292a1b3b5de14ccb08",
+      "size": 2846,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/69e8a822c0e10629683093292a1b3b5de14ccb08"
+    },
+    {
+      "path": "frontend/src/components/wiki",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "81fd9cb6e84211f4de66d06095761a33441ec22e",
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/trees/81fd9cb6e84211f4de66d06095761a33441ec22e"
+    },
+    {
+      "path": "frontend/src/components/wiki/markdown-editor.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e3ab296b84712ab0f5928e6f1c4faf644060c55",
+      "size": 12230,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/3e3ab296b84712ab0f5928e6f1c4faf644060c55"
+    },
+    {
+      "path": "frontend/src/components/wiki/wiki-ai-check-panel.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24a81a174ddb08d8ba0ba3efaf1135ef58649513",
+      "size": 11134,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/24a81a174ddb08d8ba0ba3efaf1135ef58649513"
+    },
+    {
+      "path": "frontend/src/components/wiki/wiki-backlinks.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e3c06eeea45270af103690127069429ca2e6047",
+      "size": 7024,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/3e3c06eeea45270af103690127069429ca2e6047"
+    },
+    {
+      "path": "frontend/src/components/wiki/wiki-content.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45e3d8f9fb2a5343c34539909a0e9eee0470421e",
+      "size": 12365,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/45e3d8f9fb2a5343c34539909a0e9eee0470421e"
+    },
+    {
+      "path": "frontend/src/components/wiki/wiki-create-page-dialog.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4afb5de17f00fd36cf4b55b26b3804dc304fecd",
+      "size": 9543,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/a4afb5de17f00fd36cf4b55b26b3804dc304fecd"
+    },
+    {
+      "path": "frontend/src/components/wiki/wiki-draft-banner.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cbadf85c8263ed083532719d688bf12885684eae",
+      "size": 20865,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/cbadf85c8263ed083532719d688bf12885684eae"
+    },
+    {
+      "path": "frontend/src/components/wiki/wiki-draft-diff.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94150cd30a5913a6dea39ee5ea4460002e5706b1",
+      "size": 12022,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/94150cd30a5913a6dea39ee5ea4460002e5706b1"
+    },
+    {
+      "path": "frontend/src/components/wiki/wiki-editor.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b89e6bdf8b00edaca3a87ba3abc83aecca97c7c7",
+      "size": 2755,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/b89e6bdf8b00edaca3a87ba3abc83aecca97c7c7"
+    },
+    {
+      "path": "frontend/src/components/wiki/wiki-graph",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f1ffcd71170fdc8253fc233da22103405f3be99c",
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/trees/f1ffcd71170fdc8253fc233da22103405f3be99c"
+    },
+    {
+      "path": "frontend/src/components/wiki/wiki-graph/index.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c83795553cc371957a3cbc5686eef7d54a1860c",
+      "size": 30554,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/5c83795553cc371957a3cbc5686eef7d54a1860c"
+    },
+    {
+      "path": "frontend/src/components/wiki/wiki-graph/types.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c40609bd28a02b2a32636497e4caaf43c654627",
+      "size": 543,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/2c40609bd28a02b2a32636497e4caaf43c654627"
+    },
+    {
+      "path": "frontend/src/components/wiki/wiki-graph/utils.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb3994fe36801ebbb2811ecfa5957ef303a13120",
+      "size": 2705,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/cb3994fe36801ebbb2811ecfa5957ef303a13120"
+    },
+    {
+      "path": "frontend/src/components/wiki/wiki-graph/wiki-graph-mini.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ddc9417a1e34ac8f6af07a102f9cff814450ec1",
+      "size": 383,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/2ddc9417a1e34ac8f6af07a102f9cff814450ec1"
+    },
+    {
+      "path": "frontend/src/components/wiki/wiki-image.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a074d77f70c28aa9071a3db5026bc7eabfcc41a",
+      "size": 3289,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/3a074d77f70c28aa9071a3db5026bc7eabfcc41a"
+    },
+    {
+      "path": "frontend/src/components/wiki/wiki-page-tree.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6fde09afae824d416c9b9fca775d8df9ac52ae50",
+      "size": 23302,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/6fde09afae824d416c9b9fca775d8df9ac52ae50"
+    },
+    {
+      "path": "frontend/src/components/wiki/wiki-scope-switcher.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4fed86c4a7ac61b403112996b4ac0736116c41ee",
+      "size": 3452,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/4fed86c4a7ac61b403112996b4ac0736116c41ee"
+    },
+    {
+      "path": "frontend/src/components/wiki/wiki-search-dialog.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d74912cb60a80592191c7da60fc0bd8d4a73afc0",
+      "size": 5880,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/d74912cb60a80592191c7da60fc0bd8d4a73afc0"
+    },
+    {
+      "path": "frontend/src/components/wiki/wiki-status-badge.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab904bbf691621d3decf292a77af3ba892ee9c33",
+      "size": 1753,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/ab904bbf691621d3decf292a77af3ba892ee9c33"
+    },
+    {
+      "path": "frontend/src/components/wiki/wiki-type-badge.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24afb4ac6c3ffc6c89e543a779dd784c8b11ae75",
+      "size": 1848,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/24afb4ac6c3ffc6c89e543a779dd784c8b11ae75"
+    },
+    {
+      "path": "frontend/src/components/wiki/wikilink-autocomplete.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cbb5643e8f361a44866d79d4ac84449d7ab0d3ac",
+      "size": 5545,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/cbb5643e8f361a44866d79d4ac84449d7ab0d3ac"
+    },
+    {
+      "path": "frontend/src/lib",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "953aa6f3542af282b5b9265206567e809769d373",
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/trees/953aa6f3542af282b5b9265206567e809769d373"
+    },
+    {
+      "path": "frontend/src/lib/api.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49e231c39cb968cc61c27d53e250c8b6ceaa1b90",
+      "size": 3306,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/49e231c39cb968cc61c27d53e250c8b6ceaa1b90"
+    },
+    {
+      "path": "frontend/src/lib/auth.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50100ed496f18b5892ee984840e7c0a28fd9f62b",
+      "size": 3697,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/50100ed496f18b5892ee984840e7c0a28fd9f62b"
+    },
+    {
+      "path": "frontend/src/lib/hooks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "beb9681f54124adf3a62252156c99cb7b45b7fc6",
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/trees/beb9681f54124adf3a62252156c99cb7b45b7fc6"
+    },
+    {
+      "path": "frontend/src/lib/hooks/use-image-resolver.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3abc555405e0db20e5661be10d1859c4b7ec7af3",
+      "size": 1722,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/3abc555405e0db20e5661be10d1859c4b7ec7af3"
+    },
+    {
+      "path": "frontend/src/lib/textarea-caret.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95e45250474c88a762e5886cdcd40096e2752717",
+      "size": 2599,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/95e45250474c88a762e5886cdcd40096e2752717"
+    },
+    {
+      "path": "frontend/src/lib/utils.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3e73eb879f12fde703f0d6ffb11c38882eaaa74",
+      "size": 351,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/d3e73eb879f12fde703f0d6ffb11c38882eaaa74"
+    },
+    {
+      "path": "frontend/src/types",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d47e988a7edc447e6dd777367866b317da8e1e00",
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/trees/d47e988a7edc447e6dd777367866b317da8e1e00"
+    },
+    {
+      "path": "frontend/src/types/notification.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4bcdd3500814d2393297316a1da99610e4edca94",
+      "size": 220,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/4bcdd3500814d2393297316a1da99610e4edca94"
+    },
+    {
+      "path": "frontend/src/types/wiki.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33e8246fa3c5f04e92d59745ed8b65af5b61052c",
+      "size": 3687,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/33e8246fa3c5f04e92d59745ed8b65af5b61052c"
+    },
+    {
+      "path": "frontend/tsconfig.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf9c65d3e0676a0169374d827f7abb97497789ef",
+      "size": 670,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/cf9c65d3e0676a0169374d827f7abb97497789ef"
+    },
+    {
+      "path": "pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5d9d794e0668a598955897580e1c036f3759289",
+      "size": 1699,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/f5d9d794e0668a598955897580e1c036f3759289"
+    },
+    {
+      "path": "skills",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dbf7afb03d4f901189c0d5ef0363326d29ab2afc",
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/trees/dbf7afb03d4f901189c0d5ef0363326d29ab2afc"
+    },
+    {
+      "path": "skills/arkon-edit",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d1b0aab38078abcbe4ce1dc370e1f749fbb667b1",
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/trees/d1b0aab38078abcbe4ce1dc370e1f749fbb667b1"
+    },
+    {
+      "path": "skills/arkon-edit/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b36661405a5e393713658ef77cb152cc7f6679f",
+      "size": 6476,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/9b36661405a5e393713658ef77cb152cc7f6679f"
+    },
+    {
+      "path": "skills/arkon-query",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "136a1bc6fdf6ac15b2bcbbbfc5654c1a9401859e",
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/trees/136a1bc6fdf6ac15b2bcbbbfc5654c1a9401859e"
+    },
+    {
+      "path": "skills/arkon-query/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa79b07d4a364f2c7e7cc16cb2824ddb5c8ed7cb",
+      "size": 4082,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/aa79b07d4a364f2c7e7cc16cb2824ddb5c8ed7cb"
+    },
+    {
+      "path": "skills/arkon-review",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "824b5b689bb3e5b73459326fb8dda2e66007be4a",
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/trees/824b5b689bb3e5b73459326fb8dda2e66007be4a"
+    },
+    {
+      "path": "skills/arkon-review/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f62ac83efa5f37ad34ee36dd2d5bf68282938359",
+      "size": 5279,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/f62ac83efa5f37ad34ee36dd2d5bf68282938359"
+    },
+    {
+      "path": "tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "815316e76f60e80090a62d3b165887eee32f449a",
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/trees/815316e76f60e80090a62d3b165887eee32f449a"
+    },
+    {
+      "path": "tests/mcp_tools",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e5dd5384c5069033b187ce3e6cd4ca98a1becc43",
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/trees/e5dd5384c5069033b187ce3e6cd4ca98a1becc43"
+    },
+    {
+      "path": "tests/mcp_tools/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tests/mcp_tools/test_middleware.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41dbac39bd73d11894317d69535b208e94cdb8f7",
+      "size": 4707,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/41dbac39bd73d11894317d69535b208e94cdb8f7"
+    },
+    {
+      "path": "tests/mcp_tools/test_permissions.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e8cdea002590945fe1a58a8a1dcf6bca630d6c7",
+      "size": 4706,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/7e8cdea002590945fe1a58a8a1dcf6bca630d6c7"
+    },
+    {
+      "path": "tests/mcp_tools/test_registry_completeness.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b8802d1aee4cf8062f17bd746fa54f3ddb05dfb",
+      "size": 1123,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/5b8802d1aee4cf8062f17bd746fa54f3ddb05dfb"
+    },
+    {
+      "path": "tests/test_embedding_catalog.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "592845fdce33fea86a42a62ee8cf56d2a908b304",
+      "size": 2746,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/592845fdce33fea86a42a62ee8cf56d2a908b304"
+    },
+    {
+      "path": "tests/test_mrp_multipass.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "182aa2ac7e5801cd8061c51eebfd4d6b64a3fee2",
+      "size": 6749,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/182aa2ac7e5801cd8061c51eebfd4d6b64a3fee2"
+    },
+    {
+      "path": "tests/test_mrp_section_selection.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aca606bb9abf2a29324945e78580f8388e43eca0",
+      "size": 5571,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/aca606bb9abf2a29324945e78580f8388e43eca0"
+    },
+    {
+      "path": "tests/test_tokens.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93019d845cdbba29ce5baa160a07e0620d87c04d",
+      "size": 1161,
+      "url": "https://api.github.com/repos/nduckmink/arkon/git/blobs/93019d845cdbba29ce5baa160a07e0620d87c04d"
+    }
+  ],
+  "truncated": false
+}

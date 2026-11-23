@@ -1,0 +1,30 @@
+[
+  {
+    "repository": "Thysrael/Horizon",
+    "url": "https://github.com/Thysrael/Horizon",
+    "branch": "main",
+    "remote_head": "e17ea80ced84e575e89489f3905b75eabf7e249b",
+    "tree_sha": "5c24d23111ecb8c377f133648a787fa4289ce9bd",
+    "commit_date": "2026-11-22T15:32:43Z",
+    "description": "📡 Your own AI-powered news radar. Generates daily briefings in English & Chinese. | 用 AI 构建你专属的新闻雷达",
+    "license_api": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "github_size_kib": 17068,
+    "truncated": false,
+    "tracked_source_bytes": 8690411,
+    "tracked_entries": 231,
+    "skill_paths": [
+      "skills/horizon/SKILL.md"
+    ],
+    "submodules": [],
+    "license_paths": [
+      "LICENSE"
+    ],
+    "previously_present": true
+  }
+]
